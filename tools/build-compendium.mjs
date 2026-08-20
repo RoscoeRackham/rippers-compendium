@@ -170,6 +170,94 @@ function concreteBenefits(key) {
   return { resources, martials, rituals, choiceHpMp, parts };
 }
 
+// ---- PFU counterpart benefit overrides (Path A, Austin ruling 2026-08-20) --------------
+// The 25 classes the card left with NO concrete benefit are activated by adopting their
+// Project FU counterpart's benefit VALUES (mechanical booleans only — no FU prose). Mapping
+// basis per entry: EXACT-NAME (PFU ships the class by that name) or the card's printed_name
+// (a stated rename). Values read from projectfu v4.16.1 class data (src/packs/classes).
+// Classes with no CONFIDENT PFU counterpart (printed_name points to a 3rd-party/homebrew
+// source, or the archetype is ambiguous) are NOT here — they stay flagged for Austin.
+const BENEFIT_OVERRIDES = {
+  'elementalist': { counterpart: 'Elementalist', basis: 'exact-name',
+    resources: { hp: false, mp: true, ip: false },
+    martials: { melee: false, ranged: false, armor: false, shields: false },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: true, spiritism: false } },
+  'entropist': { counterpart: 'Entropist', basis: 'exact-name',
+    resources: { hp: false, mp: true, ip: false },
+    martials: { melee: false, ranged: false, armor: false, shields: false },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: true, spiritism: false } },
+  'fury': { counterpart: 'Fury', basis: 'exact-name',
+    resources: { hp: true, mp: false, ip: false },
+    martials: { melee: true, ranged: false, armor: true, shields: false },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: false, spiritism: false } },
+  'guardian': { counterpart: 'Guardian', basis: 'exact-name',
+    resources: { hp: true, mp: false, ip: false },
+    martials: { melee: false, ranged: false, armor: true, shields: true },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: false, spiritism: false } },
+  'orator': { counterpart: 'Orator', basis: 'exact-name',
+    resources: { hp: false, mp: true, ip: false },
+    martials: { melee: false, ranged: false, armor: false, shields: false },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: false, spiritism: false } },
+  'rogue': { counterpart: 'Rogue', basis: 'exact-name',
+    resources: { hp: false, mp: false, ip: true },
+    martials: { melee: false, ranged: false, armor: false, shields: false },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: false, spiritism: false } },
+  'sharpshooter': { counterpart: 'Sharpshooter', basis: 'exact-name',
+    resources: { hp: true, mp: false, ip: false },
+    martials: { melee: false, ranged: true, armor: false, shields: true },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: false, spiritism: false } },
+  'spiritist': { counterpart: 'Spiritist', basis: 'exact-name',
+    resources: { hp: false, mp: true, ip: false },
+    martials: { melee: false, ranged: false, armor: false, shields: false },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: true, spiritism: false } },
+  'arcanist': { counterpart: 'Arcanist', basis: 'exact-name (our arcanist is the FU Arcanist variant)',
+    resources: { hp: false, mp: true, ip: false },
+    martials: { melee: false, ranged: false, armor: false, shields: false },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: false, spiritism: false } },
+  'chanter': { counterpart: 'Chanter', basis: 'exact-name (PFU ships Chanter)',
+    resources: { hp: false, mp: true, ip: false },
+    martials: { melee: false, ranged: false, armor: false, shields: false },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: false, spiritism: false } },
+  'symbolist': { counterpart: 'Symbolist', basis: 'exact-name (PFU ships Symbolist)',
+    resources: { hp: false, mp: false, ip: true },
+    martials: { melee: false, ranged: false, armor: false, shields: false },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: false, spiritism: false } },
+  'archivist': { counterpart: 'Loremaster', basis: 'card printed_name = Loremaster',
+    resources: { hp: false, mp: true, ip: false },
+    martials: { melee: false, ranged: false, armor: false, shields: false },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: false, spiritism: false } },
+  'blackguard': { counterpart: 'Darkblade', basis: 'card printed_name = Darkblade',
+    resources: { hp: true, mp: false, ip: false },
+    martials: { melee: true, ranged: false, armor: true, shields: false },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: false, spiritism: false } },
+  'engineer': { counterpart: 'Tinkerer', basis: 'card printed_name = Tinkerer',
+    resources: { hp: false, mp: false, ip: true },
+    martials: { melee: false, ranged: false, armor: false, shields: false },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: false, spiritism: false } },
+  'prizefighter': { counterpart: 'Weaponmaster', basis: 'card printed_name = Weaponmaster',
+    resources: { hp: true, mp: false, ip: false },
+    martials: { melee: true, ranged: false, armor: false, shields: true },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: false, spiritism: false } },
+  'traveller': { counterpart: 'Wayfarer', basis: 'card printed_name = Wayfarer',
+    resources: { hp: false, mp: false, ip: true },
+    martials: { melee: false, ranged: false, armor: false, shields: false },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: false, spiritism: false } },
+  'vivisectionist': { counterpart: 'Chimerist', basis: 'card printed_name = Chimerist',
+    resources: { hp: false, mp: true, ip: false },
+    martials: { melee: false, ranged: false, armor: false, shields: false },
+    rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: true, spiritism: false } },
+};
+const CAP = (s) => s[0].toUpperCase() + s.slice(1);
+function benefitsFromOverride(ov) {
+  const parts = [];
+  if (ov.resources.hp) parts.push('increased maximum Hit Points');
+  if (ov.resources.mp) parts.push('increased maximum Mind Points');
+  if (ov.resources.ip) parts.push('increased maximum Inventory Points');
+  for (const m of ['melee', 'ranged', 'armor', 'shields']) if (ov.martials[m]) parts.push(`martial ${m} proficiency`);
+  for (const k of RITUAL_KINDS) if (ov.rituals[k]) parts.push(`${CAP(k)} rituals`);
+  return { resources: ov.resources, martials: ov.martials, rituals: ov.rituals, choiceHpMp: false, parts, fromCounterpart: ov.counterpart };
+}
+
 // ---- load ------------------------------------------------------------------------------
 const snap = JSON.parse(readFileSync(SNAP, 'utf8'));
 const classByKey = Object.fromEntries(snap.classes.map((c) => [c.key, c]));
@@ -284,7 +372,14 @@ for (const c of snap.classes) {
   if (!skills.length) flag('class', c.key, 'no class_skills rows — class Item ships with an empty Skills section');
 
   const also = alsoNames(c.key);
-  const bene = concreteBenefits(c.key);
+  let bene = concreteBenefits(c.key);
+  // Path A: if the card recorded no concrete benefit but a confident PFU counterpart
+  // exists, adopt the counterpart's benefit values (mechanical booleans only).
+  if (!bene && BENEFIT_OVERRIDES[c.key]) {
+    const ov = BENEFIT_OVERRIDES[c.key];
+    bene = benefitsFromOverride(ov);
+    flag('class-benefit-override', c.key, `activated from PFU counterpart ${ov.counterpart} (${ov.basis})`);
+  }
   const R = bene?.resources || { hp: false, mp: false, ip: false };
   const M = bene?.martials || { melee: false, ranged: false, armor: false, shields: false };
   const T = bene?.rituals || Object.fromEntries(RITUAL_KINDS.map((k) => [k, false]));
@@ -309,7 +404,10 @@ for (const c of snap.classes) {
   if (bene && (bene.parts.length || bene.choiceHpMp)) {
     const li = bene.parts.map((p) => `<li>${esc(p)} — activated.</li>`);
     if (bene.choiceHpMp) li.push('<li>Increased maximum HP <strong>or</strong> MP — player\'s choice; set the chosen resource on the sheet.</li>');
-    d.push(`<h5>FREE BENEFITS</h5><ul>${li.join('')}</ul><p>${HOUSE}</p>`);
+    const note = bene.fromCounterpart
+      ? `<em>(House note: benefits adopted from Project FU's <strong>${esc(bene.fromCounterpart)}</strong> counterpart — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em>`
+      : HOUSE;
+    d.push(`<h5>FREE BENEFITS</h5><ul>${li.join('')}</ul><p>${note}</p>`);
   }
   d.push(`<h2>${esc((c.display_name || '').toUpperCase())} SKILLS</h2>`);
   if (skills.length) {
@@ -351,8 +449,11 @@ for (const c of snap.classes) {
 console.log(`PACK counts: classes ${ci}, skills ${si}, heroics ${hi}`);
 const benefitFlags = flags.filter((f) => f.kind === 'class-benefit');
 const choiceFlags = flags.filter((f) => f.kind === 'class-benefit-choice');
+const overrideFlags = flags.filter((f) => f.kind === 'class-benefit-override');
 const reqFlags = flags.filter((f) => f.kind === 'heroic-req');
-const otherFlags = flags.filter((f) => !['class-benefit', 'class-benefit-choice', 'heroic-req'].includes(f.kind));
+const otherFlags = flags.filter((f) => !['class-benefit', 'class-benefit-choice', 'class-benefit-override', 'heroic-req'].includes(f.kind));
+console.log(`\nCLASS BENEFITS activated from a PFU counterpart (Path A): ${overrideFlags.length}`);
+for (const f of overrideFlags) console.log(`  - ${f.key}: ${f.reason}`);
 console.log(`\nHeroic requirements SYNTHESISED (blank text) : ${reqFlags.length}`);
 for (const f of reqFlags) console.log(`  - ${f.key}: ${f.reason}`);
 console.log(`\nCLASS BENEFITS activated (concrete printed benefit read from the card): ${ci - benefitFlags.length}/${ci}`);

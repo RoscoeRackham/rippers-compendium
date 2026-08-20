@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "Also known as Calligrapher, Painter, Runemaker."
 		},
-		"description": "<h2>SYMBOLIST SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000246]{Symbolism} <strong>【Max SL 5】</strong></p><p>Each level teaches two symbols; (SL + 1) may be active at once. Inventory action + 2 IP creates one you know, then: apply it to yourself; apply it to an ally you can see; or perform a damageless free attack that copies it onto every enemy hit — each copy counting against the limit.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000247]{Personal Touch} <strong>【Max SL 5】</strong></p><p>When a creature you can see bearing one of your symbols suffers damage or recovers HP/MP, you may have it suffer (SL) extra damage or recover (SL) more, respectively.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000248]{Magic Symbols} <strong>【Max SL 3】</strong></p><p>An ally bearing your symbol may take the Spell action and destroy that symbol to cast a spell you know of (SL × 10) MP or less — the ally pays the MP. Allowed on the Ritual Scrolls precedent. Requires you to know spells from another class.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000249]{Symbolic Connection} <strong>【Max SL 1】</strong></p><p>You always know the exact direction to any creature bearing one of your symbols within 2 travel days. One symbol per creature — a newer mark from any source erases yours.</p>",
+		"description": "<h5>FREE BENEFITS</h5><ul><li>increased maximum Inventory Points — activated.</li></ul><p><em>(House note: benefits adopted from Project FU's <strong>Symbolist</strong> counterpart — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em></p><h2>SYMBOLIST SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000246]{Symbolism} <strong>【Max SL 5】</strong></p><p>Each level teaches two symbols; (SL + 1) may be active at once. Inventory action + 2 IP creates one you know, then: apply it to yourself; apply it to an ally you can see; or perform a damageless free attack that copies it onto every enemy hit — each copy counting against the limit.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000247]{Personal Touch} <strong>【Max SL 5】</strong></p><p>When a creature you can see bearing one of your symbols suffers damage or recovers HP/MP, you may have it suffer (SL) extra damage or recover (SL) more, respectively.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000248]{Magic Symbols} <strong>【Max SL 3】</strong></p><p>An ally bearing your symbol may take the Spell action and destroy that symbol to cast a spell you know of (SL × 10) MP or less — the ally pays the MP. Allowed on the Ritual Scrolls precedent. Requires you to know spells from another class.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000249]{Symbolic Connection} <strong>【Max SL 1】</strong></p><p>You always know the exact direction to any creature bearing one of your symbols within 2 travel days. One symbol per creature — a newer mark from any source erases yours.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -35,7 +35,7 @@
 					"value": false
 				},
 				"ip": {
-					"value": false
+					"value": true
 				}
 			},
 			"martials": {

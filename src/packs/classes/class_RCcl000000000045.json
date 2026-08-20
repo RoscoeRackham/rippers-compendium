@@ -14,7 +14,7 @@
 		"summary": {
 			"value": ""
 		},
-		"description": "<h2>SPIRITIST SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000235]{Spiritual Magic} <strong>【Max SL 10】</strong></p><p>Each level learns one Spiritist spell. Offensive spells use (INS + WLP) for the Magic Check.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000236]{Healing Power} <strong>【Max SL 2】</strong></p><p>Spells targeting allies, with an arcane weapon equipped: each of those allies also recovers (3 + SL × your number of Bonds) HP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000237]{Support Magic} <strong>【Max SL 1】</strong></p><p>Spells targeting allies, with an arcane weapon equipped: one targeted ally you have a Bond towards gains a bonus on their next Check this scene equal to that Bond's strength.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000238]{Vismagus} <strong>【Max SL 1】</strong></p><p>Short on MP, pay (10 + the spell's total MP cost) in HP instead — but the spell then recovers no HP for you.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000239]{Surge of Emotion} <strong>【Max SL 3】</strong></p><p>Invoking a Bond triggers one of its emotions' effects — not optional. Admiration seeds opportunities; inferiority hands out fumble triggers; Loyalty no longer costs the supporter their turn; each emotion has its own clause.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000240]{Body of Aether} <strong>【Max SL 4】</strong></p><p>Rituals cost (SL × 4) less MP, and shortfalls may be paid in HP — even to 0, at the price of Sacrificing yourself.</p>",
+		"description": "<h5>FREE BENEFITS</h5><ul><li>increased maximum Mind Points — activated.</li><li>Ritualism rituals — activated.</li></ul><p><em>(House note: benefits adopted from Project FU's <strong>Spiritist</strong> counterpart — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em></p><h2>SPIRITIST SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000235]{Spiritual Magic} <strong>【Max SL 10】</strong></p><p>Each level learns one Spiritist spell. Offensive spells use (INS + WLP) for the Magic Check.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000236]{Healing Power} <strong>【Max SL 2】</strong></p><p>Spells targeting allies, with an arcane weapon equipped: each of those allies also recovers (3 + SL × your number of Bonds) HP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000237]{Support Magic} <strong>【Max SL 1】</strong></p><p>Spells targeting allies, with an arcane weapon equipped: one targeted ally you have a Bond towards gains a bonus on their next Check this scene equal to that Bond's strength.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000238]{Vismagus} <strong>【Max SL 1】</strong></p><p>Short on MP, pay (10 + the spell's total MP cost) in HP instead — but the spell then recovers no HP for you.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000239]{Surge of Emotion} <strong>【Max SL 3】</strong></p><p>Invoking a Bond triggers one of its emotions' effects — not optional. Admiration seeds opportunities; inferiority hands out fumble triggers; Loyalty no longer costs the supporter their turn; each emotion has its own clause.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000240]{Body of Aether} <strong>【Max SL 4】</strong></p><p>Rituals cost (SL × 4) less MP, and shortfalls may be paid in HP — even to 0, at the price of Sacrificing yourself.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -32,7 +32,7 @@
 					"value": false
 				},
 				"mp": {
-					"value": false
+					"value": true
 				},
 				"ip": {
 					"value": false
@@ -66,7 +66,7 @@
 					"value": false
 				},
 				"ritualism": {
-					"value": false
+					"value": true
 				},
 				"spiritism": {
 					"value": false

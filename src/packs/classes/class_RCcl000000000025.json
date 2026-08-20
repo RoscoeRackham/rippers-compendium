@@ -14,7 +14,7 @@
 		"summary": {
 			"value": ""
 		},
-		"description": "<h2>FURY SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000127]{Adrenaline} <strong>【Max SL 5】</strong></p><p>While in Crisis, +(SL × 2) damage — attacks, spells, Arcana, items, anything.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000128]{Frenzy} <strong>【Max SL 1】</strong></p><p>Accuracy Checks with brawling, dagger, flail and thrown weapons crit on doubles (when not a fumble). Two adopted alternates exist — Brave Brawler and Meteor Slam (SL3 caps); take at most one, chosen permanently.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000129]{Indomitable Spirit} <strong>【Max SL 4】</strong></p><p>When you spend a Fabula Point to invoke a Bond or Trait: recover (SL × 5) HP, or (SL × 5) MP, or shake one status effect.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000130]{Provoke} <strong>【Max SL 5】</strong></p><p>Action + 5 MP: Opposed (MIG + WLP) Check (+SL) against an enemy you can see. Success: they are enraged, fixed on you, and must include you in their attacks and offensive spells while it lasts.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000131]{Withstand} <strong>【Max SL 5】</strong></p><p>Guarding without covering anyone: recover (5 + SL × your highest Bond strength) HP, and raise Might or Willpower one die size (max d12) until your next turn.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000132]{Raise Hell} <strong>【Max SL 4】</strong></p><p>When you cause mayhem to draw attention, up to (SL) other characters each generate an opportunity — plus one once-per-session pick: 1 Fabula Point, a worthy NPC appears, or someone looking to hire you.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000133]{Up Close and Personal} <strong>【Max SL 3】</strong></p><p>Get in someone's face to Study them with (MIG + MIG), and ask the GM up to (SL) questions about their motivations, connections or fighting style — answered truthfully.</p>",
+		"description": "<h5>FREE BENEFITS</h5><ul><li>increased maximum Hit Points — activated.</li><li>martial melee proficiency — activated.</li><li>martial armor proficiency — activated.</li></ul><p><em>(House note: benefits adopted from Project FU's <strong>Fury</strong> counterpart — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em></p><h2>FURY SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000127]{Adrenaline} <strong>【Max SL 5】</strong></p><p>While in Crisis, +(SL × 2) damage — attacks, spells, Arcana, items, anything.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000128]{Frenzy} <strong>【Max SL 1】</strong></p><p>Accuracy Checks with brawling, dagger, flail and thrown weapons crit on doubles (when not a fumble). Two adopted alternates exist — Brave Brawler and Meteor Slam (SL3 caps); take at most one, chosen permanently.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000129]{Indomitable Spirit} <strong>【Max SL 4】</strong></p><p>When you spend a Fabula Point to invoke a Bond or Trait: recover (SL × 5) HP, or (SL × 5) MP, or shake one status effect.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000130]{Provoke} <strong>【Max SL 5】</strong></p><p>Action + 5 MP: Opposed (MIG + WLP) Check (+SL) against an enemy you can see. Success: they are enraged, fixed on you, and must include you in their attacks and offensive spells while it lasts.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000131]{Withstand} <strong>【Max SL 5】</strong></p><p>Guarding without covering anyone: recover (5 + SL × your highest Bond strength) HP, and raise Might or Willpower one die size (max d12) until your next turn.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000132]{Raise Hell} <strong>【Max SL 4】</strong></p><p>When you cause mayhem to draw attention, up to (SL) other characters each generate an opportunity — plus one once-per-session pick: 1 Fabula Point, a worthy NPC appears, or someone looking to hire you.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000133]{Up Close and Personal} <strong>【Max SL 3】</strong></p><p>Get in someone's face to Study them with (MIG + MIG), and ask the GM up to (SL) questions about their motivations, connections or fighting style — answered truthfully.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -29,7 +29,7 @@
 		"benefits": {
 			"resources": {
 				"hp": {
-					"value": false
+					"value": true
 				},
 				"mp": {
 					"value": false
@@ -40,13 +40,13 @@
 			},
 			"martials": {
 				"melee": {
-					"value": false
+					"value": true
 				},
 				"ranged": {
 					"value": false
 				},
 				"armor": {
-					"value": false
+					"value": true
 				},
 				"shields": {
 					"value": false

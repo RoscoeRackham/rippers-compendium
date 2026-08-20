@@ -14,7 +14,7 @@
 		"summary": {
 			"value": ""
 		},
-		"description": "<p><em>Built on Project FU's <strong>Darkblade</strong>.</em></p><h2>BLACKGUARD SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000032]{Agony} <strong>【Max SL 5】</strong></p><p>Once per turn (anyone's turn), after you damage one or more enemies you have a Bond towards: recover (SL × 2) HP and (SL × 2) MP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000033]{Dark Blood} <strong>【Max SL 1】</strong></p><p>While in Crisis, Resistance to dark and poison.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000034]{Heart of Darkness} <strong>【Max SL 1】</strong></p><p>Once per scene, when you enter Crisis: create a Bond of hatred towards a creature you can see that you have no Bond towards.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000035]{Painful Lesson} <strong>【Max SL 3】</strong></p><p>After another creature costs you HP by any means: Study them for free, with +(SL) to the Check.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000036]{Shadow Strike} <strong>【Max SL 5】</strong></p><p>Action: roll your Might die and lose that many HP. If you are not at 0, perform a free attack dealing +(SL + the roll) damage — all of it dark, and the type cannot change.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000037]{Heart's Desire} <strong>【Max SL 5】</strong></p><p>You know the direction and general distance to each character you have a Bond toward, and gain +(SL) to Checks to gather information about them or close the distance.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000038]{Driven by Connection} <strong>【Max SL 3】</strong></p><p>Strengthening an existing Bond gives your next Check a bonus equal to its new strength. You may also hold up to (SL) extra Bonds, and your Bonds may carry a fourth emotion — comfort or tension.</p>",
+		"description": "<p><em>Built on Project FU's <strong>Darkblade</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Hit Points — activated.</li><li>martial melee proficiency — activated.</li><li>martial armor proficiency — activated.</li></ul><p><em>(House note: benefits adopted from Project FU's <strong>Darkblade</strong> counterpart — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em></p><h2>BLACKGUARD SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000032]{Agony} <strong>【Max SL 5】</strong></p><p>Once per turn (anyone's turn), after you damage one or more enemies you have a Bond towards: recover (SL × 2) HP and (SL × 2) MP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000033]{Dark Blood} <strong>【Max SL 1】</strong></p><p>While in Crisis, Resistance to dark and poison.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000034]{Heart of Darkness} <strong>【Max SL 1】</strong></p><p>Once per scene, when you enter Crisis: create a Bond of hatred towards a creature you can see that you have no Bond towards.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000035]{Painful Lesson} <strong>【Max SL 3】</strong></p><p>After another creature costs you HP by any means: Study them for free, with +(SL) to the Check.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000036]{Shadow Strike} <strong>【Max SL 5】</strong></p><p>Action: roll your Might die and lose that many HP. If you are not at 0, perform a free attack dealing +(SL + the roll) damage — all of it dark, and the type cannot change.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000037]{Heart's Desire} <strong>【Max SL 5】</strong></p><p>You know the direction and general distance to each character you have a Bond toward, and gain +(SL) to Checks to gather information about them or close the distance.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000038]{Driven by Connection} <strong>【Max SL 3】</strong></p><p>Strengthening an existing Bond gives your next Check a bonus equal to its new strength. You may also hold up to (SL) extra Bonds, and your Bonds may carry a fourth emotion — comfort or tension.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -29,7 +29,7 @@
 		"benefits": {
 			"resources": {
 				"hp": {
-					"value": false
+					"value": true
 				},
 				"mp": {
 					"value": false
@@ -40,13 +40,13 @@
 			},
 			"martials": {
 				"melee": {
-					"value": false
+					"value": true
 				},
 				"ranged": {
 					"value": false
 				},
 				"armor": {
-					"value": false
+					"value": true
 				},
 				"shields": {
 					"value": false

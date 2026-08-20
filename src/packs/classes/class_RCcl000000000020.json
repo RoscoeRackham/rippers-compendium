@@ -14,7 +14,7 @@
 		"summary": {
 			"value": ""
 		},
-		"description": "<h2>ELEMENTALIST SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000098]{Elemental Magic} <strong>【Max SL 10】</strong></p><p>Each level learns one Elementalist spell. Offensive spells use (INS + WLP) for the Magic Check.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000099]{Cataclysm} <strong>【Max SL 3】</strong></p><p>Casting an Instantaneous spell with an arcane weapon equipped: raise its cost by up to (SL × 10) MP for +5 damage per extra 10 MP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000100]{Magical Artillery} <strong>【Max SL 3】</strong></p><p>Offensive spells cast with an arcane weapon equipped gain +(SL × 2) to the Magic Check.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000101]{Spellblade} <strong>【Max SL 3】</strong></p><p>Single-target offensive spells costing (SL × 20) MP or less may roll the Magic Check on an equipped non-arcane weapon's Accuracy formula, +(SL) if that formula uses Dexterity.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000102]{Ritual Scrolls} <strong>【Max SL 3】</strong></p><p>When performing a Ritual, +10 MP stores it in a scroll (hold up to SL). Whoever holds the scroll releases it for 10 MP; used in conflict it takes an action and a Clock as normal. Destroyed on use.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000103]{Mote of Creation} <strong>【Max SL 3】</strong></p><p>On a rest, take a spark of Air, Earth, Fire or Water. Spend it once before your next rest for that element's effect — die replacement, damage reduction, and kin.</p>",
+		"description": "<h5>FREE BENEFITS</h5><ul><li>increased maximum Mind Points — activated.</li><li>Ritualism rituals — activated.</li></ul><p><em>(House note: benefits adopted from Project FU's <strong>Elementalist</strong> counterpart — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em></p><h2>ELEMENTALIST SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000098]{Elemental Magic} <strong>【Max SL 10】</strong></p><p>Each level learns one Elementalist spell. Offensive spells use (INS + WLP) for the Magic Check.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000099]{Cataclysm} <strong>【Max SL 3】</strong></p><p>Casting an Instantaneous spell with an arcane weapon equipped: raise its cost by up to (SL × 10) MP for +5 damage per extra 10 MP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000100]{Magical Artillery} <strong>【Max SL 3】</strong></p><p>Offensive spells cast with an arcane weapon equipped gain +(SL × 2) to the Magic Check.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000101]{Spellblade} <strong>【Max SL 3】</strong></p><p>Single-target offensive spells costing (SL × 20) MP or less may roll the Magic Check on an equipped non-arcane weapon's Accuracy formula, +(SL) if that formula uses Dexterity.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000102]{Ritual Scrolls} <strong>【Max SL 3】</strong></p><p>When performing a Ritual, +10 MP stores it in a scroll (hold up to SL). Whoever holds the scroll releases it for 10 MP; used in conflict it takes an action and a Clock as normal. Destroyed on use.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000103]{Mote of Creation} <strong>【Max SL 3】</strong></p><p>On a rest, take a spark of Air, Earth, Fire or Water. Spend it once before your next rest for that element's effect — die replacement, damage reduction, and kin.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -32,7 +32,7 @@
 					"value": false
 				},
 				"mp": {
-					"value": false
+					"value": true
 				},
 				"ip": {
 					"value": false
@@ -66,7 +66,7 @@
 					"value": false
 				},
 				"ritualism": {
-					"value": false
+					"value": true
 				},
 				"spiritism": {
 					"value": false

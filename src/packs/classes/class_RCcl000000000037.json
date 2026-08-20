@@ -14,7 +14,7 @@
 		"summary": {
 			"value": ""
 		},
-		"description": "<p><em>Built on Project FU's <strong>Weaponmaster</strong>.</em></p><h2>PRIZEFIGHTER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000191]{Bladestorm} <strong>【Max SL 1】</strong></p><p>On a melee attack, spend 10 MP: the attack gains multi (2), or its multi rises by one (max 3).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000192]{Bone Crusher} <strong>【Max SL 4】</strong></p><p>On a damaging melee hit, trade all its damage for one option: dazed on each target; weak on each target; or each target loses (SL × 10) MP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000193]{Breach} <strong>【Max SL 3】</strong></p><p>Action + 10 MP: free single-target melee attack. On a hit choose: +(SL × 5) damage ignoring Resistances but also non-physical Vulnerabilities; or no damage, and your allies deal +(SL × 2) to the target until your next turn.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000194]{Counterattack} <strong>【Max SL 1】</strong></p><p>After an enemy's melee attack hits or misses you with an even Accuracy Result: free melee attack back at them alone, High Roll treated as 0.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000195]{Melee Weapon Mastery} <strong>【Max SL 4】</strong></p><p>+(SL) to all Accuracy Checks with melee weapons.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000196]{Oathbound} <strong>【Max SL 5】</strong></p><p>On finishing a rest, swear to protect someone you hold admiration, loyalty or affection toward: that Bond counts 1 stronger until your next rest, and they may transfer up to (SL × 5) of any HP/MP loss to you.</p>",
+		"description": "<p><em>Built on Project FU's <strong>Weaponmaster</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Hit Points — activated.</li><li>martial melee proficiency — activated.</li><li>martial shields proficiency — activated.</li></ul><p><em>(House note: benefits adopted from Project FU's <strong>Weaponmaster</strong> counterpart — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em></p><h2>PRIZEFIGHTER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000191]{Bladestorm} <strong>【Max SL 1】</strong></p><p>On a melee attack, spend 10 MP: the attack gains multi (2), or its multi rises by one (max 3).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000192]{Bone Crusher} <strong>【Max SL 4】</strong></p><p>On a damaging melee hit, trade all its damage for one option: dazed on each target; weak on each target; or each target loses (SL × 10) MP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000193]{Breach} <strong>【Max SL 3】</strong></p><p>Action + 10 MP: free single-target melee attack. On a hit choose: +(SL × 5) damage ignoring Resistances but also non-physical Vulnerabilities; or no damage, and your allies deal +(SL × 2) to the target until your next turn.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000194]{Counterattack} <strong>【Max SL 1】</strong></p><p>After an enemy's melee attack hits or misses you with an even Accuracy Result: free melee attack back at them alone, High Roll treated as 0.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000195]{Melee Weapon Mastery} <strong>【Max SL 4】</strong></p><p>+(SL) to all Accuracy Checks with melee weapons.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000196]{Oathbound} <strong>【Max SL 5】</strong></p><p>On finishing a rest, swear to protect someone you hold admiration, loyalty or affection toward: that Bond counts 1 stronger until your next rest, and they may transfer up to (SL × 5) of any HP/MP loss to you.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -29,7 +29,7 @@
 		"benefits": {
 			"resources": {
 				"hp": {
-					"value": false
+					"value": true
 				},
 				"mp": {
 					"value": false
@@ -40,7 +40,7 @@
 			},
 			"martials": {
 				"melee": {
-					"value": false
+					"value": true
 				},
 				"ranged": {
 					"value": false
@@ -49,7 +49,7 @@
 					"value": false
 				},
 				"shields": {
-					"value": false
+					"value": true
 				}
 			},
 			"rituals": {
