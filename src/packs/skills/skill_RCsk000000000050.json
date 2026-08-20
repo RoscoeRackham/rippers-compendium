@@ -1,0 +1,44 @@
+{
+	"name": "Bishop's Edict",
+	"type": "skill",
+	"_id": "RCsk000000000050",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "bishops_edict",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (captain)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action + 10 MP, until your next turn, choose one: all MP costs are doubled, or all sources of damage deal (SL × 3) extra"
+		},
+		"description": "<p>Action + 10 MP, until your next turn, choose one: all MP costs are doubled, or all sources of damage deal (SL × 3) extra. \"All\" means everyone on the battlefield — allies, enemies and you.</p>",
+		"class": {
+			"value": "Captain"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "captain",
+			"skillKey": "bishops_edict",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000050"
+}

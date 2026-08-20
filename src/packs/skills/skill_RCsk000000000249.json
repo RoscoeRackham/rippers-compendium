@@ -1,0 +1,44 @@
+{
+	"name": "Symbolic Connection",
+	"type": "skill",
+	"_id": "RCsk000000000249",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "symbolic_connection",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (symbolist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "You always know the exact direction to any creature bearing one of your symbols within 2 travel days."
+		},
+		"description": "<p>You always know the exact direction to any creature bearing one of your symbols within 2 travel days. One symbol per creature — a newer mark from any source erases yours.</p>",
+		"class": {
+			"value": "Symbolist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "symbolist",
+			"skillKey": "symbolic_connection",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000249"
+}

@@ -1,0 +1,41 @@
+{
+	"name": "Nemesis",
+	"type": "heroic",
+	"_id": "RChr000000000091",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "nemesis",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Any"
+		},
+		"requirement": {
+			"value": "You must have witnessed a Villain Ascension"
+		},
+		"description": "<p>At the start of a conflict involving at least one Villain, name one of them your Nemesis until they leave the scene or it ends. At the start of your turn you may recover HP equal to (their maximum Ultima Points minus their current Ultima Points). Whenever your Nemesis spends an Ultima Point you gain 1 Nemesis Point, spendable in place of a Fabula Point when invoking a trait or a Bond — and that counts as having spent a Fabula Point for anything that checks. Nemesis Points never count toward Experience, and any unspent are lost at the end of the scene. Source is unplaytested by its own admission.</p><p><em>GM-gated: not available at character creation.</em></p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "nemesis",
+			"masteryClasses": [],
+			"classGate": "mastery",
+			"creationBanned": true,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000091"
+}

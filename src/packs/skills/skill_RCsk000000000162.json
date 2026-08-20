@@ -1,0 +1,44 @@
+{
+	"name": "Ecdysis",
+	"type": "skill",
+	"_id": "RCsk000000000162",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "ecdysis",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (mutant)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After losing HP to typed non-physical damage, shed 10 HP to gain Resistance to that type until the next time you use thi"
+		},
+		"description": "<p>After losing HP to typed non-physical damage, shed 10 HP to gain Resistance to that type until the next time you use this Skill.</p>",
+		"class": {
+			"value": "Mutant"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "mutant",
+			"skillKey": "ecdysis",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000162"
+}

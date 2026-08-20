@@ -1,0 +1,45 @@
+{
+	"name": "Nothing They Carry",
+	"type": "heroic",
+	"_id": "RChr000000000094",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "nothing_they_carry",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Blackguard / Guardian / Fury"
+		},
+		"requirement": {
+			"value": "Blackguard (Darkblade), Guardian or Fury mastery"
+		},
+		"description": "<p>Once per encounter, when you are in Crisis after taking damage, note the type of the triggering damage: you have Resistance to that type until the end of the encounter. Damage with no type cannot trigger it. Ruled in against the affinity rule — conditional, reactive and temporary, on a par with the Resistances spells already grant. You cannot choose the type; the enemy chooses it by hitting you with it.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "nothing_they_carry",
+			"masteryClasses": [
+				"blackguard",
+				"guardian",
+				"fury"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000094"
+}

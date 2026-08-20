@@ -1,0 +1,43 @@
+{
+	"name": "Black Market",
+	"type": "heroic",
+	"_id": "RChr000000000013",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "black_market",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Bounty Hunter"
+		},
+		"requirement": {
+			"value": "Bounty Hunter mastery"
+		},
+		"description": "<p>Where rest costs at least 10 zenit, you have access to at least one shop connected to a secret network, selling up to three items priced up to 500 zenit above your party's suggested maximum item value. The rest-cost gate is a wealth gate, and here a geography gate: ten-zenit lodging is the West End and the coaching inns, so the black market is uptown. Houndsditch trades in what was stolen; this trades in what was imported. It never sells hoplospheres — the jeweller's window is the sanctioned channel, and a criminal channel that could order spheres would break \"you cannot buy the one you need\".</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "black_market",
+			"masteryClasses": [
+				"bounty_hunter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000013"
+}

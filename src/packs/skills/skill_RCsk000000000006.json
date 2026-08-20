@@ -1,0 +1,44 @@
+{
+	"name": "Problem Solver",
+	"type": "skill",
+	"_id": "RCsk000000000006",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "problem_solver",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (antiquarian)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When a GM-imposed Clock resolves in your favour during a conflict scene, recover (SL × 5) MP — turning back the Miasma C"
+		},
+		"description": "<p>When a GM-imposed Clock resolves in your favour during a conflict scene, recover (SL × 5) MP — turning back the Miasma Clock counts. And +(SL ÷ 2) to Checks on the Objective action or when supporting a Group Check toward an Objective.</p>",
+		"class": {
+			"value": "Antiquarian"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 6
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "antiquarian",
+			"skillKey": "problem_solver",
+			"maxSl": 6
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000006"
+}

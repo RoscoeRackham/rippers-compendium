@@ -1,0 +1,44 @@
+{
+	"name": "Reaping",
+	"type": "skill",
+	"_id": "RCsk000000000202",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "beyond_the_realms_of_death",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (reaper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "The Grave Point skill."
+		},
+		"description": "<p>The Grave Point skill. After a creature you can see loses HP, if it is in Crisis and not undead: gain 1 Grave Point, holding up to (SL + 1). When you hit 0 HP you lose all points — the first time each scene, if you lost at least one, your HP becomes (SL × points lost) instead. That substitution lands at 0 HP, so you never reach the Surrender-or-Sacrifice choice: Reaping prevents the fall rather than reversing it, and the Miasma Clock does not tick. Later falls in the same scene are ordinary, and those Surrenders land in full.</p>",
+		"class": {
+			"value": "Reaper"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "reaper",
+			"skillKey": "beyond_the_realms_of_death",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000202"
+}

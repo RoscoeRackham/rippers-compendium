@@ -1,0 +1,44 @@
+{
+	"name": "Oathbound",
+	"type": "skill",
+	"_id": "RCsk000000000196",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "oathbound",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (prizefighter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "On finishing a rest, swear to protect someone you hold admiration, loyalty or affection toward: that Bond counts 1 stron"
+		},
+		"description": "<p>On finishing a rest, swear to protect someone you hold admiration, loyalty or affection toward: that Bond counts 1 stronger until your next rest, and they may transfer up to (SL × 5) of any HP/MP loss to you.</p>",
+		"class": {
+			"value": "Prizefighter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "prizefighter",
+			"skillKey": "oathbound",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000196"
+}

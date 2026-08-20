@@ -1,0 +1,44 @@
+{
+	"name": "Psychic Gifts",
+	"type": "skill",
+	"_id": "RCsk000000000216",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "psychic_gifts",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sensitive)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Each level grants one of the nine gifts: event-triggered reactions with an MP cost, scaling with the Brainwave Clock (4 "
+		},
+		"description": "<p>Each level grants one of the nine gifts: event-triggered reactions with an MP cost, scaling with the Brainwave Clock (4 sections, empty at the start of each scene).</p>",
+		"class": {
+			"value": "Sensitive"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sensitive",
+			"skillKey": "psychic_gifts",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000216"
+}

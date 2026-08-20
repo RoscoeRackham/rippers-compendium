@@ -1,0 +1,41 @@
+{
+	"name": "Know Thy Enemy",
+	"type": "heroic",
+	"_id": "RChr000000000080",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "know_thy_enemy",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Any"
+		},
+		"requirement": {
+			"value": "You must have been responsible for a Villain's redemption or demise"
+		},
+		"description": "<p>On acquisition, name the Villain you brought down or brought back. You gain an extra Bond slot and a Bond toward them, emotions discussed with the group — then, together with the group, you create and acquire that Villain's Legacy: something your character learned from what they did. One of their iconic moves, a piece of rare equipment, or a whole new Skill. The Legacy is designed at the table, so it is only as balanced as the table makes it; agree its shape before it is written down. Source is unplaytested by its own admission.</p><p><em>GM-gated: not available at character creation.</em></p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "know_thy_enemy",
+			"masteryClasses": [],
+			"classGate": "mastery",
+			"creationBanned": true,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000080"
+}

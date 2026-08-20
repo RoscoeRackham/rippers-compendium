@@ -1,0 +1,44 @@
+{
+	"name": "Cold Comfort",
+	"type": "skill",
+	"_id": "RCsk000000000204",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "fear_is_the_key",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (reaper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After you cause one or more enemies to lose HP, if at least one is shaken and/or weak: gain 1 Grave Point and recover (S"
+		},
+		"description": "<p>After you cause one or more enemies to lose HP, if at least one is shaken and/or weak: gain 1 Grave Point and recover (SL × 2) MP.</p>",
+		"class": {
+			"value": "Reaper"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "reaper",
+			"skillKey": "fear_is_the_key",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000204"
+}

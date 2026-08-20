@@ -1,0 +1,44 @@
+{
+	"name": "The Pledge",
+	"type": "skill",
+	"_id": "RCsk000000000145",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "the_pledge",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (illusionist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "At the start of a conflict scene, spend 10 MP to create one Phantasm."
+		},
+		"description": "<p>At the start of a conflict scene, spend 10 MP to create one Phantasm. Triggers on the Turn when swapping in mid-conflict.</p>",
+		"class": {
+			"value": "Illusionist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "illusionist",
+			"skillKey": "the_pledge",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000145"
+}

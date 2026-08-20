@@ -1,0 +1,44 @@
+{
+	"name": "Provoke",
+	"type": "skill",
+	"_id": "RCsk000000000130",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "provoke",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (fury)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action + 5 MP: Opposed (MIG + WLP) Check (+SL) against an enemy you can see."
+		},
+		"description": "<p>Action + 5 MP: Opposed (MIG + WLP) Check (+SL) against an enemy you can see. Success: they are enraged, fixed on you, and must include you in their attacks and offensive spells while it lasts.</p>",
+		"class": {
+			"value": "Fury"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "fury",
+			"skillKey": "provoke",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000130"
+}

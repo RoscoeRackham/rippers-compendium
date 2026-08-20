@@ -1,0 +1,92 @@
+{
+	"name": "Proprietor",
+	"type": "class",
+	"_id": "RCcl000000000038",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "proprietor",
+		"source": {
+			"value": "Rippers Unmasked — classes (proprietor)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Also known as Guild Master, Shopkeeper."
+		},
+		"description": "<p><em>Built on Project FU's <strong>Isekai Fantasy Atlas</strong>.</em></p><h2>PROPRIETOR SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000197]{Incorporate} <strong>【Max SL 5】</strong></p><p>Incorporate an organisation — one at a time. Once per session, use one organisational ability as a free action on your turn by spending 1 IP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000198]{Dividends} <strong>【Max SL 4】</strong></p><p>Spend 1 IP to activate an organisational ability as a free action, (SL) times per session — in addition to Incorporate's single free use.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000199]{Bargain} <strong>【Max SL 3】</strong></p><p>Personal purchases cost (SL × 10%) less; personal payments and rewards pay (SL × 10%) more. At GM discretion it also bends narrative expense and reward, or grants +(SL) to related Checks — read as transactions only.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000200]{Deep Pockets} <strong>【Max SL 5】</strong></p><p>Once per conflict scene, as part of an action, spend up to (SL × 200) zenit before rolling: +1 per 200 spent, narratively explained. Kept — it makes the price of privilege legible, out loud. Counts toward the two-effect cap.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000201]{Endless Supply} <strong>【Max SL 1】</strong></p><p>Once per conflict scene, take the Inventory action to restore up to 2 IP, divided between up to two creatures including yourself.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "proprietor",
+			"guiseEligible": false,
+			"innateOnly": true,
+			"printedName": "Isekai Fantasy Atlas"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000038"
+}

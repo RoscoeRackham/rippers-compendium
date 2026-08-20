@@ -1,0 +1,46 @@
+{
+	"name": "Nether Slash",
+	"type": "heroic",
+	"_id": "RChr000000000092",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "nether_slash",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Blackguard / Elementalist"
+		},
+		"requirement": {
+			"value": "Blackguard or Elementalist mastery + Shadow Strike (the Pilot route is cut)"
+		},
+		"description": "<p>Shadow Strike becomes fire or ice and grants Resistance to the other; its free melee attack can reach otherwise-untargetable enemies.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "nether_slash",
+			"masteryClasses": [
+				"blackguard",
+				"elementalist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"shadow_strike"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000092"
+}

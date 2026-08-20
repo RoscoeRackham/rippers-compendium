@@ -1,0 +1,44 @@
+{
+	"name": "Potion Rain",
+	"type": "skill",
+	"_id": "RCsk000000000106",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "potion_rain",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (engineer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Your potions that restore one creature's HP/MP may affect up to (SL) additional creatures, at half effect for everyone."
+		},
+		"description": "<p>Your potions that restore one creature's HP/MP may affect up to (SL) additional creatures, at half effect for everyone.</p>",
+		"class": {
+			"value": "Engineer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "engineer",
+			"skillKey": "potion_rain",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000106"
+}

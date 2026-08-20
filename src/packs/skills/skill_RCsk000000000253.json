@@ -1,0 +1,44 @@
+{
+	"name": "Well-Traveled",
+	"type": "skill",
+	"_id": "RCsk000000000253",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "well_traveled",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (traveller)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Your travel rolls use a die one size smaller (min d6)."
+		},
+		"description": "<p>Your travel rolls use a die one size smaller (min d6). Multiple holders don't stack.</p>",
+		"class": {
+			"value": "Traveller"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "traveller",
+			"skillKey": "well_traveled",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000253"
+}

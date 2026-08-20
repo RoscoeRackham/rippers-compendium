@@ -1,0 +1,44 @@
+{
+	"name": "Frenzy",
+	"type": "skill",
+	"_id": "RCsk000000000128",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "frenzy",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (fury)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Accuracy Checks with brawling, dagger, flail and thrown weapons crit on doubles (when not a fumble)."
+		},
+		"description": "<p>Accuracy Checks with brawling, dagger, flail and thrown weapons crit on doubles (when not a fumble). Two adopted alternates exist — Brave Brawler and Meteor Slam (SL3 caps); take at most one, chosen permanently.</p>",
+		"class": {
+			"value": "Fury"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "fury",
+			"skillKey": "frenzy",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000128"
+}

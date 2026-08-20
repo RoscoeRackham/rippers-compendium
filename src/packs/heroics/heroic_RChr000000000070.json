@@ -1,0 +1,47 @@
+{
+	"name": "Impaler Dragon",
+	"type": "heroic",
+	"_id": "RChr000000000070",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "impaler_dragon",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Captain / Blackguard"
+		},
+		"requirement": {
+			"value": "Captain (Commander) or Blackguard (Darkblade) mastery + Charging Cavalry and Shadow Strike"
+		},
+		"description": "<p>When you use Shadow Strike you may treat your High Roll as 0 when determining that attack's damage. If you do, once Shadow Strike's effects resolve, you may immediately perform Charging Cavalry for free — paying its MP cost as normal. Live: it was filed as a dead letter solely because Commander was believed to be out of the lineup.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "impaler_dragon",
+			"masteryClasses": [
+				"captain",
+				"blackguard"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"charging_cavalry",
+				"shadow_strike"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000070"
+}

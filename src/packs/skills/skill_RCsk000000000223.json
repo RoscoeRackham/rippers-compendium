@@ -1,0 +1,44 @@
+{
+	"name": "Keen Vision",
+	"type": "skill",
+	"_id": "RCsk000000000223",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "keen_vision",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sharpshooter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When a travel roll turns up danger: every other group member gains +(SL) on their next non-offensive Check, or takes (SL"
+		},
+		"description": "<p>When a travel roll turns up danger: every other group member gains +(SL) on their next non-offensive Check, or takes (SL × 2) less from the next damage that reaches them.</p>",
+		"class": {
+			"value": "Sharpshooter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sharpshooter",
+			"skillKey": "keen_vision",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000223"
+}

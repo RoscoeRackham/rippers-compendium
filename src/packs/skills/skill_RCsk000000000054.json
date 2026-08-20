@@ -1,0 +1,44 @@
+{
+	"name": "Magic Cards",
+	"type": "skill",
+	"_id": "RCsk000000000054",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "magic_cards",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (cartomancer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "The deck engine: grants the deck, the hand and the discard pile."
+		},
+		"description": "<p>The deck engine: grants the deck, the hand and the discard pile. In a conflict, action + up to (10 + SL × 5) MP (minimum 10): discard and resolve one card per 5 MP spent, maximum five — the set — then draw that many back.</p>",
+		"class": {
+			"value": "Cartomancer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "cartomancer",
+			"skillKey": "magic_cards",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000054"
+}

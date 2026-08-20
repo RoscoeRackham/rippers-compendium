@@ -1,0 +1,44 @@
+{
+	"name": "Charging Cavalry",
+	"type": "skill",
+	"_id": "RCsk000000000051",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "charging_cavalry",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (captain)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action + 10 MP: one ally who can hear you performs a free attack (a basic attack if an NPC) at +(SL) Accuracy, High Roll"
+		},
+		"description": "<p>Action + 10 MP: one ally who can hear you performs a free attack (a basic attack if an NPC) at +(SL) Accuracy, High Roll 0. Works on allied NPCs.</p>",
+		"class": {
+			"value": "Captain"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "captain",
+			"skillKey": "charging_cavalry",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000051"
+}

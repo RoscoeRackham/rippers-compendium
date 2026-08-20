@@ -1,0 +1,44 @@
+{
+	"name": "Battle Gardening",
+	"type": "skill",
+	"_id": "RCsk000000000123",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "battle_gardening",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (floralist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After planting through Chloromancy (not Graft), choose one: a free attack with an equipped weapon, or the Spell action f"
+		},
+		"description": "<p>After planting through Chloromancy (not Graft), choose one: a free attack with an equipped weapon, or the Spell action for free casting a spell of (5 + SL × 5) MP or less (you still pay it). High Roll treated as 0 either way.</p>",
+		"class": {
+			"value": "Floralist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "floralist",
+			"skillKey": "battle_gardening",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000123"
+}

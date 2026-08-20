@@ -1,0 +1,44 @@
+{
+	"name": "Reprisal",
+	"type": "heroic",
+	"_id": "RChr000000000125",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "reprisal",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Sharpshooter / Prizefighter"
+		},
+		"requirement": {
+			"value": "Sharpshooter or Prizefighter (Weaponmaster) mastery"
+		},
+		"description": "<p>After an enemy deals damage to you while you are in Crisis: spend 10 MP to apply Bone Crusher's effects to them if they would be a legal target for a melee weapon you are wielding, and/or spend 10 MP to apply Warning Shot's effects if they would be a legal target for a ranged weapon you are wielding.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "reprisal",
+			"masteryClasses": [
+				"sharpshooter",
+				"prizefighter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000125"
+}

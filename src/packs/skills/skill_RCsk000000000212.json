@@ -1,0 +1,44 @@
+{
+	"name": "Last-Second Save",
+	"type": "skill",
+	"_id": "RCsk000000000212",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "last_second_save",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (rogue)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you or an ally Checks to move a Clock and quick thinking could help: spend up to (SL × 10) MP, +1 to the Result per"
+		},
+		"description": "<p>When you or an ally Checks to move a Clock and quick thinking could help: spend up to (SL × 10) MP, +1 to the Result per 10 MP — enough to turn failure into success or buy extra sections.</p>",
+		"class": {
+			"value": "Rogue"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "rogue",
+			"skillKey": "last_second_save",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000212"
+}

@@ -1,0 +1,43 @@
+{
+	"name": "Brainwave Discharge",
+	"type": "heroic",
+	"_id": "RChr000000000016",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "brainwave_discharge",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Sensitive"
+		},
+		"requirement": {
+			"value": "Sensitive (Esper) mastery"
+		},
+		"description": "<p>While your Brainwave Clock is full, use an action to erase all of its sections and choose: 20 physical damage to every enemy in the scene, or 30 to a single enemy you can see. Increases by 10 at level 20+, or 20 at level 40+. This is the only way to clear the Clock.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "brainwave_discharge",
+			"masteryClasses": [
+				"sensitive"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000016"
+}

@@ -1,0 +1,45 @@
+{
+	"name": "Arcane Mark",
+	"type": "heroic",
+	"_id": "RChr000000000006",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "arcane_mark",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Symbolist / Sharpshooter / Prizefighter"
+		},
+		"requirement": {
+			"value": "Symbolist, Sharpshooter or Prizefighter (Weaponmaster) mastery"
+		},
+		"description": "<p>When you hit one or more creatures with an arcane weapon, the attack deals 5 extra damage and you may choose one of them: if the next offensive spell you cast this scene targets only that creature, its Magic Check critically succeeds on any matching pair, provided it is not a fumble.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "arcane_mark",
+			"masteryClasses": [
+				"symbolist",
+				"sharpshooter",
+				"prizefighter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000006"
+}

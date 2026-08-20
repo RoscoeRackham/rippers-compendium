@@ -1,0 +1,44 @@
+{
+	"name": "Invocation",
+	"type": "skill",
+	"_id": "RCsk000000000093",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "invocation",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (dowser)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action + 5 MP: draw on one of the scene's wellsprings and apply an invocation to a creature you can see."
+		},
+		"description": "<p>Action + 5 MP: draw on one of the scene's wellsprings and apply an invocation to a creature you can see. SL1 reaches \"blast\" invocations, SL2 adds \"hex\", SL3 all. Scaling: damage +5/+10 at level 20+/40+; HP recovery and MP loss +10/+20.</p>",
+		"class": {
+			"value": "Dowser"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "dowser",
+			"skillKey": "invocation",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000093"
+}

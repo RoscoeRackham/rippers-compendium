@@ -1,0 +1,44 @@
+{
+	"name": "Emergency Aid",
+	"type": "skill",
+	"_id": "RCsk000000000189",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "emergency_aid",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (physician)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When your item or spell restores HP and/or MP to a target in Crisis, they recover +(SL × 5)."
+		},
+		"description": "<p>When your item or spell restores HP and/or MP to a target in Crisis, they recover +(SL × 5).</p>",
+		"class": {
+			"value": "Physician"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "physician",
+			"skillKey": "emergency_aid",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000189"
+}

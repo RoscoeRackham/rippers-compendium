@@ -1,0 +1,43 @@
+{
+	"name": "Piercing Sorcery",
+	"type": "heroic",
+	"_id": "RChr000000000106",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "piercing_sorcery",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Elementalist"
+		},
+		"requirement": {
+			"value": "Elementalist mastery"
+		},
+		"description": "<p>Cataclysm ignores Resistances as printed, and where it already did so, Immunities as well — the escalation tier has a real bypass to escalate from again.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "piercing_sorcery",
+			"masteryClasses": [
+				"elementalist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000106"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Sound Barrier",
+	"type": "skill",
+	"_id": "RCsk000000000066",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "sound_barrier",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (chanter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After you sing a verse at medium or high volume, all physical damage you suffer until the start of your next turn is red"
+		},
+		"description": "<p>After you sing a verse at medium or high volume, all physical damage you suffer until the start of your next turn is reduced by (SL), applied before Affinities.</p>",
+		"class": {
+			"value": "Chanter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "chanter",
+			"skillKey": "sound_barrier",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000066"
+}

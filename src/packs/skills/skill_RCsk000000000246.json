@@ -1,0 +1,44 @@
+{
+	"name": "Symbolism",
+	"type": "skill",
+	"_id": "RCsk000000000246",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "symbolism",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (symbolist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Each level teaches two symbols; (SL + 1) may be active at once."
+		},
+		"description": "<p>Each level teaches two symbols; (SL + 1) may be active at once. Inventory action + 2 IP creates one you know, then: apply it to yourself; apply it to an ally you can see; or perform a damageless free attack that copies it onto every enemy hit — each copy counting against the limit.</p>",
+		"class": {
+			"value": "Symbolist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "symbolist",
+			"skillKey": "symbolism",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000246"
+}

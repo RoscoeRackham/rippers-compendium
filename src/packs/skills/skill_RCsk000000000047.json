@@ -1,0 +1,44 @@
+{
+	"name": "Choicest Cuts",
+	"type": "skill",
+	"_id": "RCsk000000000047",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "choicest_cuts",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (butcher)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After you damage an enemy in Crisis, regain 1 IP — up to (SL + 1) per scene."
+		},
+		"description": "<p>After you damage an enemy in Crisis, regain 1 IP — up to (SL + 1) per scene.</p>",
+		"class": {
+			"value": "Butcher"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "butcher",
+			"skillKey": "choicest_cuts",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000047"
+}

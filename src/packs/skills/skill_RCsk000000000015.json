@@ -1,0 +1,44 @@
+{
+	"name": "Bind and Summon",
+	"type": "skill",
+	"_id": "RCsk000000000015",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "bind_and_summon",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (arcanist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Bind Arcana to your soul as the story grants them."
+		},
+		"description": "<p>Bind Arcana to your soul as the story grants them. Action + 30 MP summons a bound Arcanum and merges you with it — merge benefits, a pulse, and a dismiss effect. Taken at creation, you begin play with one Arcanum bound.</p>",
+		"class": {
+			"value": "Arcanist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "arcanist",
+			"skillKey": "bind_and_summon",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000015"
+}

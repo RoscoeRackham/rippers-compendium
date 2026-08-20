@@ -1,0 +1,44 @@
+{
+	"name": "Dark Hunger",
+	"type": "skill",
+	"_id": "RCsk000000000178",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "dark_hunger",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (parasite)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Choose a Craving: Mesmerizing (dazed, MP-primary), Pestilent (weak, HP-primary; printed Miasmic), Terrifying (shaken, MP"
+		},
+		"description": "<p>Choose a Craving: Mesmerizing (dazed, MP-primary), Pestilent (weak, HP-primary; printed Miasmic), Terrifying (shaken, MP-primary) or Inevitable (slow, HP-primary). First infliction of its status on an unmarked creature each scene marks it and pays (SL × 5) primary or (SL × 3) secondary; at SL3+ the Craving's second status also triggers. Marks vanish at scene's end. Undead and constructs are not meals (house ruling — not in print).</p>",
+		"class": {
+			"value": "Parasite"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "parasite",
+			"skillKey": "dark_hunger",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000178"
+}

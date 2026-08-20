@@ -1,0 +1,44 @@
+{
+	"name": "Resolve",
+	"type": "skill",
+	"_id": "RCsk000000000245",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "resolve",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (stalwart)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action + a Fabula Point: recover from all status effects and regain (10 + SL × 10) MP."
+		},
+		"description": "<p>Action + a Fabula Point: recover from all status effects and regain (10 + SL × 10) MP.</p>",
+		"class": {
+			"value": "Stalwart"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "stalwart",
+			"skillKey": "resolve",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000245"
+}

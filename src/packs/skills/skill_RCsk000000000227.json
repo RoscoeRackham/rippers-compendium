@@ -1,0 +1,44 @@
+{
+	"name": "Runic Spell",
+	"type": "skill",
+	"_id": "RCsk000000000227",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "runic_spell",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sin_eater)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "At conflict start, spend 10 HP: cast a spell of (10 × SL) total cost or less as a runic spell, paid upfront, and name a "
+		},
+		"description": "<p>At conflict start, spend 10 HP: cast a spell of (10 × SL) total cost or less as a runic spell, paid upfront, and name a trigger. The first time it is met the spell must release, free — targets chosen then. Still held at scene's end: lost, and you recover 5 HP.</p>",
+		"class": {
+			"value": "Sin-Eater"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sin_eater",
+			"skillKey": "runic_spell",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000227"
+}

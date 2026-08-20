@@ -1,0 +1,44 @@
+{
+	"name": "Ritual Scrolls",
+	"type": "skill",
+	"_id": "RCsk000000000102",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "ritual_scrolls",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (elementalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When performing a Ritual, +10 MP stores it in a scroll (hold up to SL)."
+		},
+		"description": "<p>When performing a Ritual, +10 MP stores it in a scroll (hold up to SL). Whoever holds the scroll releases it for 10 MP; used in conflict it takes an action and a Clock as normal. Destroyed on use.</p>",
+		"class": {
+			"value": "Elementalist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "elementalist",
+			"skillKey": "ritual_scrolls",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000102"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Stand Revealed",
+	"type": "skill",
+	"_id": "RCsk000000000181",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "stand_revealed",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (penny_knight)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Choose an element at acquisition (air, bolt, dark, earth, fire, ice or light)."
+		},
+		"description": "<p>Choose an element at acquisition (air, bolt, dark, earth, fire, ice or light). Grants the Panoply and the Token; each level adds an enchantment.</p>",
+		"class": {
+			"value": "Penny Knight"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "penny_knight",
+			"skillKey": "stand_revealed",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000181"
+}

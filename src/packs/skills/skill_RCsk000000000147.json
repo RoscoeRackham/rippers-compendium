@@ -1,0 +1,44 @@
+{
+	"name": "Haunted by Death",
+	"type": "skill",
+	"_id": "RCsk000000000147",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "haunted_by_death",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (keeper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "While you are in Crisis, Haunting costs (SL) MP less — or (SL × 2) less if the creature you are Haunting is also in Cris"
+		},
+		"description": "<p>While you are in Crisis, Haunting costs (SL) MP less — or (SL × 2) less if the creature you are Haunting is also in Crisis. Minimum 0.</p>",
+		"class": {
+			"value": "Keeper"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "keeper",
+			"skillKey": "haunted_by_death",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000147"
+}

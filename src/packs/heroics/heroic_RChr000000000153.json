@@ -1,0 +1,45 @@
+{
+	"name": "The Vigil",
+	"type": "heroic",
+	"_id": "RChr000000000153",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "the_vigil",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Sensitive / Penny Knight / Symbolist"
+		},
+		"requirement": {
+			"value": "Sensitive (Esper), Penny Knight or Symbolist mastery"
+		},
+		"description": "<p>While a Villain is present and/or you are in the Panoply, treat your Bond strengths as 1 higher. After a GM scene showing danger to a place or to non-Villain NPCs, spend 1 Fabula Point to declare your character felt it, and knows where.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "the_vigil",
+			"masteryClasses": [
+				"sensitive",
+				"penny_knight",
+				"symbolist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000153"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Regenerate",
+	"type": "skill",
+	"_id": "RCsk000000000011",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "regenerate",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (apothecary)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action: spend 5 MP per target to grant Regeneration to up to (SL) creatures you can see."
+		},
+		"description": "<p>Action: spend 5 MP per target to grant Regeneration to up to (SL) creatures you can see.</p>",
+		"class": {
+			"value": "Apothecary"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "apothecary",
+			"skillKey": "regenerate",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000011"
+}

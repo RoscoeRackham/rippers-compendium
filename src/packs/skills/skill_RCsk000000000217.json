@@ -1,0 +1,44 @@
+{
+	"name": "Psychokinesis",
+	"type": "skill",
+	"_id": "RCsk000000000217",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "psychokinesis",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sensitive)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Accuracy Checks may replace one Attribute die with Willpower."
+		},
+		"description": "<p>Accuracy Checks may replace one Attribute die with Willpower.</p>",
+		"class": {
+			"value": "Sensitive"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sensitive",
+			"skillKey": "psychokinesis",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000217"
+}

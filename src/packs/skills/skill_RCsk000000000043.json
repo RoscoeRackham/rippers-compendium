@@ -1,0 +1,44 @@
+{
+	"name": "Quick Draw",
+	"type": "skill",
+	"_id": "RCsk000000000043",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "quick_draw",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (bounty_hunter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "At the start of a conflict scene, perform the Inventory action to produce an elemental shard, potion or tool of total IP"
+		},
+		"description": "<p>At the start of a conflict scene, perform the Inventory action to produce an elemental shard, potion or tool of total IP cost (SL + 2) or lower — you still pay the IP. Triggers on the Turn when swapping in mid-conflict. Never in the same conflict as the Rogue's High Speed (the Telumorian Vambrace lifts the lock).</p>",
+		"class": {
+			"value": "Bounty Hunter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "bounty_hunter",
+			"skillKey": "quick_draw",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000043"
+}

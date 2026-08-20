@@ -1,0 +1,44 @@
+{
+	"name": "Spellblade",
+	"type": "skill",
+	"_id": "RCsk000000000101",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "spellblade",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (elementalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Single-target offensive spells costing (SL × 20) MP or less may roll the Magic Check on an equipped non-arcane weapon's "
+		},
+		"description": "<p>Single-target offensive spells costing (SL × 20) MP or less may roll the Magic Check on an equipped non-arcane weapon's Accuracy formula, +(SL) if that formula uses Dexterity.</p>",
+		"class": {
+			"value": "Elementalist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "elementalist",
+			"skillKey": "spellblade",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000101"
+}

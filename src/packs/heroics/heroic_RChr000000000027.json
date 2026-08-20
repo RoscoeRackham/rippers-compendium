@@ -1,0 +1,43 @@
+{
+	"name": "Contagion",
+	"type": "heroic",
+	"_id": "RChr000000000027",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "contagion",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Apothecary"
+		},
+		"requirement": {
+			"value": "Apothecary mastery"
+		},
+		"description": "<p>Action: choose one creature suffering Affliction and another two targets you can see — three if you also have Infectious. Each suffers Affliction including every damage type the original carries; a target that already has it gains only the types it lacked. Against a group this is the largest single play the class has.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "contagion",
+			"masteryClasses": [
+				"apothecary"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000027"
+}

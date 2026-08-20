@@ -1,0 +1,44 @@
+{
+	"name": "Baying Hounds",
+	"type": "skill",
+	"_id": "RCsk000000000265",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "baying_hounds",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (witness)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Choose a Hound: Above (the licensed world), Below (a named monster that knows your address), Beyond (the Aether's attent"
+		},
+		"description": "<p>Choose a Hound: Above (the licensed world), Below (a named monster that knows your address), Beyond (the Aether's attention) or Within (the uncounted). Once per scene, when events match it, gain (SL) Rabbit Points — spend after seeing a roll, before any Fabula reroll, at +1 each on your Hound's Check types. Once per session, 1 Fabula Point summons the Hound if plausible (a GM veto refunds the point); a public, monstrous arrival runs the ordinary Miasma and Tell machinery.</p>",
+		"class": {
+			"value": "Witness"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "witness",
+			"skillKey": "baying_hounds",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000265"
+}

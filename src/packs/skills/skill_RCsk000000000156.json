@@ -1,0 +1,44 @@
+{
+	"name": "Exploit",
+	"type": "skill",
+	"_id": "RCsk000000000156",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "exploit",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (malefactor)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action + 10 MP: choose dazed, shaken, slow or weak."
+		},
+		"description": "<p>Action + 10 MP: choose dazed, shaken, slow or weak. At the start of each of your later turns this conflict, every enemy suffering it takes (SL × 3) damage — no Check, no roll; the type matches an equipped weapon, else physical. One status at a time; an action switches it.</p>",
+		"class": {
+			"value": "Malefactor"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "malefactor",
+			"skillKey": "exploit",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000156"
+}

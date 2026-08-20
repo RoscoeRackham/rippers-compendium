@@ -1,0 +1,44 @@
+{
+	"name": "Rage Unbound",
+	"type": "skill",
+	"_id": "RCsk000000000228",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "rage_unbound",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sin_eater)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Whenever you deal damage, deal extra damage equal to the number of Ultima Points spent this session."
+		},
+		"description": "<p>Whenever you deal damage, deal extra damage equal to the number of Ultima Points spent this session. The Miasma clause is struck (13 Aug 2026): a Villain spending an Ultima Point does not tick the Miasma Clock unless a specific boss skill says so.</p>",
+		"class": {
+			"value": "Sin-Eater"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sin_eater",
+			"skillKey": "rage_unbound",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000228"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Genoclepsis",
+	"type": "skill",
+	"_id": "RCsk000000000163",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "genoclepsis",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (mutant)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Damaging NPCs reveals their Species, and the GM names (SL) fitting therioforms."
+		},
+		"description": "<p>Damaging NPCs reveals their Species, and the GM names (SL) fitting therioforms. With Theriomorphosis, pay its cost on the spot to wear them — learned or not.</p>",
+		"class": {
+			"value": "Mutant"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "mutant",
+			"skillKey": "genoclepsis",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000163"
+}

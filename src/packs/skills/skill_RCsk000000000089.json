@@ -1,0 +1,44 @@
+{
+	"name": "Wardancer",
+	"type": "skill",
+	"_id": "RCsk000000000089",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "wardancer",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (dancer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After a dance, your attacks with brawling, dagger, flail, sword and thrown weapons deal (SL) extra damage until your nex"
+		},
+		"description": "<p>After a dance, your attacks with brawling, dagger, flail, sword and thrown weapons deal (SL) extra damage until your next turn; with an arcane weapon equipped, offensive spells too.</p>",
+		"class": {
+			"value": "Dancer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "dancer",
+			"skillKey": "wardancer",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000089"
+}

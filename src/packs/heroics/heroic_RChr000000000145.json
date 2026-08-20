@@ -1,0 +1,47 @@
+{
+	"name": "Tactical Launch",
+	"type": "heroic",
+	"_id": "RChr000000000145",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "tactical_launch",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Captain / Guardian / Batman"
+		},
+		"requirement": {
+			"value": "Captain (Commander), Guardian or Batman (Squire) mastery + Tactical Leverage"
+		},
+		"description": "<p>Tactical Leverage grants an ally two benefits instead of one. With a shield equipped you may also forgo the benefits of covering them to have them treated as flying until the end of their next turn, provided they meet the conditions for flying. The flying clause stands, ruled 7 Aug: flight is real in 1892, and using it in public view ticks the Miasma Clock by 1. A shield-boosted vault over a gap or onto a roof costs nothing; doing it in the street is the sort of thing people talk about.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "tactical_launch",
+			"masteryClasses": [
+				"captain",
+				"guardian",
+				"batman"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"tactical_leverage"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000145"
+}

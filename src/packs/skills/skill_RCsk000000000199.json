@@ -1,0 +1,44 @@
+{
+	"name": "Bargain",
+	"type": "skill",
+	"_id": "RCsk000000000199",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "bargain",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (proprietor)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Personal purchases cost (SL × 10%) less; personal payments and rewards pay (SL × 10%) more."
+		},
+		"description": "<p>Personal purchases cost (SL × 10%) less; personal payments and rewards pay (SL × 10%) more. At GM discretion it also bends narrative expense and reward, or grants +(SL) to related Checks — read as transactions only.</p>",
+		"class": {
+			"value": "Proprietor"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "proprietor",
+			"skillKey": "bargain",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000199"
+}

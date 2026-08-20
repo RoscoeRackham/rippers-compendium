@@ -1,0 +1,44 @@
+{
+	"name": "Sacrificial Gambit",
+	"type": "skill",
+	"_id": "RCsk000000000159",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "sacrificial_gambit",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (malefactor)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Casting an offensive single-target spell, before rolling: declare the Check an automatic success — at the cost of suffer"
+		},
+		"description": "<p>Casting an offensive single-target spell, before rolling: declare the Check an automatic success — at the cost of suffering the spell's effects yourself, High Roll 0 for both. If the spell could not affect you at all, it fails and neither of you is affected.</p>",
+		"class": {
+			"value": "Malefactor"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "malefactor",
+			"skillKey": "sacrificial_gambit",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000159"
+}

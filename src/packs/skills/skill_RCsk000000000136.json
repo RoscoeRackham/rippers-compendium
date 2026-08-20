@@ -1,0 +1,44 @@
+{
+	"name": "Dual Shieldbearer",
+	"type": "skill",
+	"_id": "RCsk000000000136",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "dual_shieldbearer",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (guardian)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "A shield may fill your main hand."
+		},
+		"description": "<p>A shield may fill your main hand. With two shields: both items' benefits, treated together as Twin Shields — (MIG + MIG), (HR + 5) physical, +Defensive Mastery SL damage.</p>",
+		"class": {
+			"value": "Guardian"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "guardian",
+			"skillKey": "dual_shieldbearer",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000136"
+}

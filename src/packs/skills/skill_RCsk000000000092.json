@@ -1,0 +1,44 @@
+{
+	"name": "Quick-Change",
+	"type": "skill",
+	"_id": "RCsk000000000092",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "quick_change",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (dancer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After a dance, perform the Equipment action for free."
+		},
+		"description": "<p>After a dance, perform the Equipment action for free. Swapping Guise this way still triggers the Turn — once per conflict, exactly as ruled.</p>",
+		"class": {
+			"value": "Dancer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "dancer",
+			"skillKey": "quick_change",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000092"
+}

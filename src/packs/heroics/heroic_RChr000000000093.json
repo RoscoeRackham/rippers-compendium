@@ -1,0 +1,46 @@
+{
+	"name": "Network Connection",
+	"type": "heroic",
+	"_id": "RChr000000000093",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "network_connection",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Sensitive / Batman"
+		},
+		"requirement": {
+			"value": "Sensitive (Esper) or Batman (Squire) mastery + Navigator"
+		},
+		"description": "<p>Apply the effects of Arming Maneuver, Hero's Right Hand and Team Player to your cognitive focus, as long as you hold a Bond with them and can hear each other. Team Player travels in its house form — the blanket-Resistance clause stripped from it stays stripped here. Live: the dead-letter reading assumed the Sensitive was out of the lineup, and it is not.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "network_connection",
+			"masteryClasses": [
+				"sensitive",
+				"batman"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"navigator"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000093"
+}

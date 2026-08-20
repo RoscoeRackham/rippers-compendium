@@ -1,0 +1,41 @@
+{
+	"name": "Inspiring Presence",
+	"type": "heroic",
+	"_id": "RChr000000000074",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "inspiring_presence",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Any"
+		},
+		"requirement": {
+			"value": "The Unexpected Ally benefit-pool pick"
+		},
+		"description": "<p>Turns your Unexpected Ally into a follower — a persistent group asset on the GM's-Booklet NPC rules. The biggest upgrade any benefit-pool pick receives; a creation choice becomes a standing member of the Lodge.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "inspiring_presence",
+			"masteryClasses": [],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000074"
+}

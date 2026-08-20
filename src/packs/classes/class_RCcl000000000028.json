@@ -1,0 +1,92 @@
+{
+	"name": "Keeper",
+	"type": "class",
+	"_id": "RCcl000000000028",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "keeper",
+		"source": {
+			"value": "Rippers Unmasked — classes (keeper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Also known as Genius Loci."
+		},
+		"description": "<p><em>Built on Project FU's <strong>Warden (Dr. Razno)</strong>.</em></p><h2>KEEPER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000146]{Bind and Haunt} <strong>【Max SL 1】</strong></p><p>Bind your soul to Sanctuaries — small places of spiritual and historical weight, found through story; each carries a Haunt and a Ritual. In a conflict: action + 5/10/15 MP (escalating within a turn, resetting each turn) Haunts a creature you hold a Bond with — never yourself — at any distance. One creature per Sanctuary, one Sanctuary per creature; banishing is free on your turn.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000147]{Haunted by Death} <strong>【Max SL 5】</strong></p><p>While you are in Crisis, Haunting costs (SL) MP less — or (SL × 2) less if the creature you are Haunting is also in Crisis. Minimum 0.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000148]{Forbiddance} <strong>【Max SL 3】</strong></p><p>On a rest, set a condition describing a creature. When such a creature tries to enter your Sanctuary: you know, wherever you are, and it must beat you in an Opposed (WLP + WLP) Check — you at +(SL × 2) — or be repelled until sunrise. Once per creature per night; a Villain may spend 1 Ultima Point to force through.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000149]{Soul Offering} <strong>【Max SL 1】</strong></p><p>A willing NPC in your Sanctuary may extract and grant you their Soul Treasure — no forcing, no persuading. While it is equipped or in your pack, you may Haunt them as though your Bond were strength 1, or your real Bond if higher. A Soul Treasure is that creature's hoplosphere.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000150]{Where the Heart Is} <strong>【Max SL 5】</strong></p><p>Rituals performed in your Sanctuary read each helper's Bond toward you: −(SL) MP per positive emotion (capped at 3 per helper), +(SL × 2) MP per negative emotion, uncapped. Choose your assistants carefully, or perform alone.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "keeper",
+			"guiseEligible": false,
+			"innateOnly": true,
+			"printedName": "Warden (Dr. Razno)"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000028"
+}

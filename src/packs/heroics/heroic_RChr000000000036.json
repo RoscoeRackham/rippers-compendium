@@ -1,0 +1,43 @@
+{
+	"name": "Dungeon Chef",
+	"type": "heroic",
+	"_id": "RChr000000000036",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "dungeon_chef",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Cook"
+		},
+		"requirement": {
+			"value": "Cook mastery"
+		},
+		"description": "<p>You always know the Species of creatures you can see. When preparing a delicacy in a conflict, treat visible enemies as ingredients (harmlessly; once per enemy per scene) — bitter plant, salty construct, sour demon, sweet undead, umami elemental, monsters any taste. Beasts and humanoids aren't strange enough, apparently. Resting a travel day from any settlement grants bonus ingredients.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "dungeon_chef",
+			"masteryClasses": [
+				"cook"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000036"
+}

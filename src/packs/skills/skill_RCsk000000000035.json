@@ -1,0 +1,44 @@
+{
+	"name": "Painful Lesson",
+	"type": "skill",
+	"_id": "RCsk000000000035",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "painful_lesson",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (blackguard)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After another creature costs you HP by any means: Study them for free, with +(SL) to the Check."
+		},
+		"description": "<p>After another creature costs you HP by any means: Study them for free, with +(SL) to the Check.</p>",
+		"class": {
+			"value": "Blackguard"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "blackguard",
+			"skillKey": "painful_lesson",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000035"
+}

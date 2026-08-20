@@ -1,0 +1,44 @@
+{
+	"name": "Quick Assessment",
+	"type": "skill",
+	"_id": "RCsk000000000022",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "quick_assessment",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (archivist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Start of conflict: spend up to (SL × 5) MP; every 5 MP reveals one Trait, or one named damage type's Affinity, of a crea"
+		},
+		"description": "<p>Start of conflict: spend up to (SL × 5) MP; every 5 MP reveals one Trait, or one named damage type's Affinity, of a creature you can see. Pressure points count as Traits for this Skill.</p>",
+		"class": {
+			"value": "Archivist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 6
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "archivist",
+			"skillKey": "quick_assessment",
+			"maxSl": 6
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000022"
+}

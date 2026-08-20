@@ -1,0 +1,44 @@
+{
+	"name": "Blood Is Life",
+	"type": "skill",
+	"_id": "RCsk000000000176",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "blood_is_life",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (parasite)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When a creature's spell includes you among its targets, the caster may spend up to (SL) HP: you recover 2 HP per HP spen"
+		},
+		"description": "<p>When a creature's spell includes you among its targets, the caster may spend up to (SL) HP: you recover 2 HP per HP spent, or shed one status per 3 HP. When an offensive spell includes you, you may spend up to (SL) HP to deal 2 dark damage per HP back at the caster — 3 per HP at level 40+.</p>",
+		"class": {
+			"value": "Parasite"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 6
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "parasite",
+			"skillKey": "blood_is_life",
+			"maxSl": 6
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000176"
+}

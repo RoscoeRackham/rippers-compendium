@@ -1,0 +1,44 @@
+{
+	"name": "Mercy",
+	"type": "skill",
+	"_id": "RCsk000000000140",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "mercy",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (guardian)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per session, when you risk yourself for a non-PC you hold a Bond of hatred or mistrust toward: gain 1 Fabula Point,"
+		},
+		"description": "<p>Once per session, when you risk yourself for a non-PC you hold a Bond of hatred or mistrust toward: gain 1 Fabula Point, then immediately add or change one emotion in that Bond.</p>",
+		"class": {
+			"value": "Guardian"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "guardian",
+			"skillKey": "mercy",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000140"
+}

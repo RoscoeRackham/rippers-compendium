@@ -1,0 +1,44 @@
+{
+	"name": "Magical Intuition",
+	"type": "skill",
+	"_id": "RCsk000000000229",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "magical_intuition",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sin_eater)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When your offensive spell damages creatures and none was Vulnerable to any damage suffered, choose up to (SL) damage typ"
+		},
+		"description": "<p>When your offensive spell damages creatures and none was Vulnerable to any damage suffered, choose up to (SL) damage types: the GM reveals those creatures' Affinities toward them.</p>",
+		"class": {
+			"value": "Sin-Eater"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sin_eater",
+			"skillKey": "magical_intuition",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000229"
+}

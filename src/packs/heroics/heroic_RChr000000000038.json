@@ -1,0 +1,44 @@
+{
+	"name": "Effluvia",
+	"type": "heroic",
+	"_id": "RChr000000000038",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "effluvia",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Vivisectionist / Elementalist"
+		},
+		"requirement": {
+			"value": "Vivisectionist or Elementalist mastery"
+		},
+		"description": "<p>You learn the forbidden poison spell: 20 MP, one creature, (HR + 30) poison damage that ignores Resistances; poisoned on HR 8+, or automatically with Pathogenesis. The closest thing in print to weaponised Miasma — the Cabal's signature shape.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "effluvia",
+			"masteryClasses": [
+				"vivisectionist",
+				"elementalist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000038"
+}

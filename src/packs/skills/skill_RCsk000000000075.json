@@ -1,0 +1,44 @@
+{
+	"name": "Made with Love",
+	"type": "skill",
+	"_id": "RCsk000000000075",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "made_with_love",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (cook)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When applying a delicacy to yourself or an ally, spend up to (SL × 10) MP: every 10 MP feeds one additional ally you can"
+		},
+		"description": "<p>When applying a delicacy to yourself or an ally, spend up to (SL × 10) MP: every 10 MP feeds one additional ally you can see.</p>",
+		"class": {
+			"value": "Cook"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "cook",
+			"skillKey": "made_with_love",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000075"
+}

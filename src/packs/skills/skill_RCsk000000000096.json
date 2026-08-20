@@ -1,0 +1,44 @@
+{
+	"name": "Ripples",
+	"type": "skill",
+	"_id": "RCsk000000000096",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "ripples",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (dowser)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After an ally's damage — increased by one or more of your \"hex\" invocations — costs an enemy HP: free attack against tha"
+		},
+		"description": "<p>After an ally's damage — increased by one or more of your \"hex\" invocations — costs an enemy HP: free attack against that enemy only, at +(SL) Accuracy. On a hit its damage becomes the ally's type, and all your hexes on the target end once it resolves.</p>",
+		"class": {
+			"value": "Dowser"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "dowser",
+			"skillKey": "ripples",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000096"
+}

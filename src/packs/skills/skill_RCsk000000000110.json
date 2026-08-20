@@ -1,0 +1,44 @@
+{
+	"name": "Breakthroughs and Mishaps",
+	"type": "skill",
+	"_id": "RCsk000000000110",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "breakthroughs_and_mishaps",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (engineer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When progressing a Project, opt for +2 progress and roll d8: at or under (SL), the invention gains a one-use bonus funct"
+		},
+		"description": "<p>When progressing a Project, opt for +2 progress and roll d8: at or under (SL), the invention gains a one-use bonus function; 7–8, the Project stalls until a condition is met. Does nothing without the Projects pool pick.</p>",
+		"class": {
+			"value": "Engineer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "engineer",
+			"skillKey": "breakthroughs_and_mishaps",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000110"
+}

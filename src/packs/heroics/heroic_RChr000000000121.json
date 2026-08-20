@@ -1,0 +1,43 @@
+{
+	"name": "Raising",
+	"type": "heroic",
+	"_id": "RChr000000000121",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "raising",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Reaper"
+		},
+		"requirement": {
+			"value": "Reaper (Necromancer) mastery"
+		},
+		"description": "<p>The NPC must die where you can see it; you cannot raise a corpse you found. Raise a non-Villain NPC of the beast, monster or plant Species as a minion, for 2 Grave Points and a reduction to your maximum HP and MP equal to its level. Its Species becomes undead and the new dark/light/poison Affinities overwrite any it had; Rank becomes soldier with Skills kept; it arrives at full HP and MP with its original equipment; it takes its own turn on telepathic command and the GM counts it as an additional PC when designing conflicts; it rests when you rest. You lose it at 0 HP, more than one travel day away, if you die or fall unconscious, or if you destroy it — and the reduction ends with it. One at a time. HOUSE RESTRICTION: beast, monster and plant only, never humanoid — a player who wants that version gets a story event with the Miasma Clock and the Medjay both responding, not a heroic they own. The cost rides the Guise that raised the minion; stash the Guise and the minion goes inert with the reduction suspended.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "raising",
+			"masteryClasses": [
+				"reaper"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000121"
+}

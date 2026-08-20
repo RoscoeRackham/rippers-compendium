@@ -1,0 +1,47 @@
+{
+	"name": "Vital Mastery",
+	"type": "heroic",
+	"_id": "RChr000000000164",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "vital_mastery",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Butcher / Sharpshooter / Prizefighter"
+		},
+		"requirement": {
+			"value": "Butcher, Sharpshooter or Prizefighter (Weaponmaster) mastery + Surgical Slices + Melee Weapon Mastery or Ranged Weapon Mastery"
+		},
+		"description": "<p>When you attack you may forego the Weapon Mastery bonus; if you do, the attack deals extra damage equal to (that bonus + your Skill Level in Surgical Slices).</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "vital_mastery",
+			"masteryClasses": [
+				"butcher",
+				"sharpshooter",
+				"prizefighter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"surgical_slices"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000164"
+}

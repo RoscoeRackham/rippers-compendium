@@ -1,0 +1,44 @@
+{
+	"name": "Spoils of Battle",
+	"type": "skill",
+	"_id": "RCsk000000000042",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "spoils_of_battle",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (bounty_hunter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After a conflict ends, if you did not Surrender: recover (SL + 1) Inventory Points — 2 more if you invoked your Bounty a"
+		},
+		"description": "<p>After a conflict ends, if you did not Surrender: recover (SL + 1) Inventory Points — 2 more if you invoked your Bounty at least once during it.</p>",
+		"class": {
+			"value": "Bounty Hunter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "bounty_hunter",
+			"skillKey": "spoils_of_battle",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000042"
+}

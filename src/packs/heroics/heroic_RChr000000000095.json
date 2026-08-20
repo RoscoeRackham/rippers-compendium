@@ -1,0 +1,45 @@
+{
+	"name": "Oath of Vengeance",
+	"type": "heroic",
+	"_id": "RChr000000000095",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "oath_of_vengeance",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Blackguard / Fury / Batman"
+		},
+		"requirement": {
+			"value": "Blackguard (Darkblade), Fury or Batman (Squire) mastery"
+		},
+		"description": "<p>Heart of Darkness may now create a Bond of hatred or inferiority, or strengthen an existing Bond whose only emotion is one of those. When you damage a creature you hold hatred and/or inferiority toward, you deal additional damage equal to your Bond strength with it.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "oath_of_vengeance",
+			"masteryClasses": [
+				"blackguard",
+				"fury",
+				"batman"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000095"
+}

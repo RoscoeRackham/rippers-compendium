@@ -1,0 +1,44 @@
+{
+	"name": "Arming Maneuver",
+	"type": "skill",
+	"_id": "RCsk000000000026",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "arming_maneuver",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (batman)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action: perform the Equipment action and spend up to (SL × 5) MP; each 5 MP buys one option, once each: swap Hunter Weap"
+		},
+		"description": "<p>Action: perform the Equipment action and spend up to (SL × 5) MP; each 5 MP buys one option, once each: swap Hunter Weapons with one ally you can see; a free attack with a weapon equipped this turn, High Roll 0; or reduce the next damage you suffer before your next turn by (SL), before Affinities.</p>",
+		"class": {
+			"value": "Batman"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "batman",
+			"skillKey": "arming_maneuver",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000026"
+}

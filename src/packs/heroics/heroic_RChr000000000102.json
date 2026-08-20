@@ -1,0 +1,43 @@
+{
+	"name": "Perfect Clarity",
+	"type": "heroic",
+	"_id": "RChr000000000102",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "perfect_clarity",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Any"
+		},
+		"requirement": {
+			"value": "Clarity at SL3"
+		},
+		"description": "<p>While you have at least 4 active Motes: +1 to Defense, Magic Defense and Accuracy Checks. Motes arrive 2 a round against a cap of 6, so \"at least 4\" is your default state rather than a hurdle. The +1 Accuracy counts toward p.266's two-effect cap among non-Guise effects — Guise bonuses sit outside it.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "perfect_clarity",
+			"masteryClasses": [],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"clarity"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000102"
+}

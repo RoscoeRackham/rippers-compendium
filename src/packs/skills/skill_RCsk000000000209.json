@@ -1,0 +1,44 @@
+{
+	"name": "High Speed",
+	"type": "skill",
+	"_id": "RCsk000000000209",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "high_speed",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (rogue)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Start of conflict, 10 MP: before round one, a free attack or a free Hinder/Objective action, with +(SL) to its Checks."
+		},
+		"description": "<p>Start of conflict, 10 MP: before round one, a free attack or a free Hinder/Objective action, with +(SL) to its Checks.</p>",
+		"class": {
+			"value": "Rogue"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "rogue",
+			"skillKey": "high_speed",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000209"
+}

@@ -1,0 +1,45 @@
+{
+	"name": "Transfer of Debt",
+	"type": "heroic",
+	"_id": "RChr000000000155",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "transfer_of_debt",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Cunning Folk"
+		},
+		"requirement": {
+			"value": "Cunning Folk mastery + Fey's Debt"
+		},
+		"description": "<p>Hand a debt you owe from Fey's Debt to another willing character. You cannot use the skill again until that debt has been fulfilled. No cost, no action type, at will — and explicitly your own Fey's Debt debts only; an NPC's debt or an obligation incurred any other way does not qualify. The self-lock is the balance: one outstanding transfer at a time, and it stays locked until somebody else clears your obligation.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "transfer_of_debt",
+			"masteryClasses": [
+				"cunning_folk"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"feys_debt"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000155"
+}

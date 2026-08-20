@@ -1,0 +1,48 @@
+{
+	"name": "Anatomist",
+	"type": "heroic",
+	"_id": "RChr000000000004",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "anatomist",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Fury / Archivist / Sharpshooter / Prizefighter"
+		},
+		"requirement": {
+			"value": "Fury, Archivist, Sharpshooter or Prizefighter mastery + Knowledge Is Power"
+		},
+		"description": "<p>Choose two Species; against those or humanoid, either +5 damage or inflict reeling — a bespoke primed condition (the target's first recovery is halved, then it clears), not a seventh status, so no cleanse removes it. Takeable three times. Reeling is private to this heroic: it never shares a trigger or a payout with ruptured or broken.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "anatomist",
+			"masteryClasses": [
+				"fury",
+				"archivist",
+				"sharpshooter",
+				"prizefighter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"knowledge_is_power"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000004"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Amputate",
+	"type": "skill",
+	"_id": "RCsk000000000045",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "amputate",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (butcher)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action: (DEX + MIG) Check (+SL) against an NPC's Defense."
+		},
+		"description": "<p>Action: (DEX + MIG) Check (+SL) against an NPC's Defense. On a success the GM reveals its attacks, actions and special rules; you choose one and the creature loses it until the end of the scene. Once per creature per scene.</p>",
+		"class": {
+			"value": "Butcher"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "butcher",
+			"skillKey": "amputate",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000045"
+}

@@ -1,0 +1,92 @@
+{
+	"name": "Sin-Eater",
+	"type": "class",
+	"_id": "RCcl000000000043",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "sin_eater",
+		"source": {
+			"value": "Rippers Unmasked — classes (sin_eater)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Also known as Sanguimancer."
+		},
+		"description": "<p><em>Built on Project FU's <strong>Witch (Jamloween)</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Hit Points — activated.</li><li>Ritualism rituals — activated.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>SIN-EATER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000225]{Magic of the Craft} <strong>【Max SL 10】</strong></p><p>Each level learns one Sin-Eater spell. Offensive Sin-Eater spells use (MIG + WLP); Sin-Eater spells cost Hit Points instead of MP, and anything that references, changes or ignores MP costs applies to their HP costs instead.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000226]{Sanguimancy} <strong>【Max SL 5】</strong></p><p>Action: roll your current Might die and lose that many HP. If not reduced to 0, immediately perform the Spell action for free (costs still paid); every target that spell affected then suffers (SL + the roll) poison damage.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000227]{Runic Spell} <strong>【Max SL 5】</strong></p><p>At conflict start, spend 10 HP: cast a spell of (10 × SL) total cost or less as a runic spell, paid upfront, and name a trigger. The first time it is met the spell must release, free — targets chosen then. Still held at scene's end: lost, and you recover 5 HP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000228]{Rage Unbound} <strong>【Max SL 1】</strong></p><p>Whenever you deal damage, deal extra damage equal to the number of Ultima Points spent this session. The Miasma clause is struck (13 Aug 2026): a Villain spending an Ultima Point does not tick the Miasma Clock unless a specific boss skill says so.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000229]{Magical Intuition} <strong>【Max SL 3】</strong></p><p>When your offensive spell damages creatures and none was Vulnerable to any damage suffered, choose up to (SL) damage types: the GM reveals those creatures' Affinities toward them.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": true
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": true
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sin_eater",
+			"guiseEligible": false,
+			"innateOnly": false,
+			"printedName": "Witch (Jamloween)"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000043"
+}

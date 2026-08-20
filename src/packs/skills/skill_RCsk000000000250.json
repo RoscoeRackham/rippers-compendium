@@ -1,0 +1,44 @@
+{
+	"name": "Resourceful",
+	"type": "skill",
+	"_id": "RCsk000000000250",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "resourceful",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (traveller)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Regain (SL) Inventory Points after each travel roll."
+		},
+		"description": "<p>Regain (SL) Inventory Points after each travel roll.</p>",
+		"class": {
+			"value": "Traveller"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "traveller",
+			"skillKey": "resourceful",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000250"
+}

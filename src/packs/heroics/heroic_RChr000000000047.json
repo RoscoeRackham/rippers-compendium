@@ -1,0 +1,43 @@
+{
+	"name": "Fabula Impetum",
+	"type": "heroic",
+	"_id": "RChr000000000047",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "fabula_impetum",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Stalwart"
+		},
+		"requirement": {
+			"value": "Stalwart (Hero) mastery — \"You must have mastered the Hero Class\" (Hero_Class.pdf, verified 10 Aug 2026)"
+		},
+		"description": "<p>Once per scene, you may use an action and spend up to 2 Fabula Points to perform a free attack with a weapon you have equipped. For each Fabula Point spent this way, that attack gains +2 to its Accuracy Check and deals 10 extra damage. All damage dealt by this attack becomes light and its type cannot change. Damage dealt by this attack against Villains ignores Immunities and Resistances, as printed. It is light damage and it is NOT a bane: banes are materials, they pass only through physical objects, and no spell or Fabula-Point effect produces one. Very good against undead and anything light-Vulnerable — not a free silver bullet.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "fabula_impetum",
+			"masteryClasses": [
+				"stalwart"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000047"
+}

@@ -1,0 +1,46 @@
+{
+	"name": "Forbidden Rite",
+	"type": "heroic",
+	"_id": "RChr000000000051",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "forbidden_rite",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Cartomancer / Arcanist"
+		},
+		"requirement": {
+			"value": "Cartomancer or Arcanist mastery + Magic Cards SL3"
+		},
+		"description": "<p>After discarding via Magic Cards, if the set held a joker: shuffle any non-joker discards back into the deck. Adds the Forbidden Monarch set — four of a kind plus a joker: 777 damage to every enemy you can see, light if the value is even, dark if odd. The joker-in-discard Immunity/Resistance bypass is struck per the standing rule; the 777 stays (ruled: the epic draw is a hype moment).</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "forbidden_rite",
+			"masteryClasses": [
+				"cartomancer",
+				"arcanist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"magic_cards"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000051"
+}

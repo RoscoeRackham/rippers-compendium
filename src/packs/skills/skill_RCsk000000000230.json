@@ -1,0 +1,44 @@
+{
+	"name": "Bane Oils",
+	"type": "skill",
+	"_id": "RCsk000000000230",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "bane_oils",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (slayer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Each level chooses a creature Species."
+		},
+		"description": "<p>Each level chooses a creature Species. Action + 2 IP oils a weapon equipped by you or a willing creature (a free attack rides along if the weapon is yours). Until scene's end, when the oil's Species is hit by that weapon the attacker picks one: slow; weak; strip one damage Resistance for the scene; or fill 1 Pressure Clock section (house-added fourth option).</p>",
+		"class": {
+			"value": "Slayer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "slayer",
+			"skillKey": "bane_oils",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000230"
+}

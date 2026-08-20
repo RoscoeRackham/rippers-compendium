@@ -1,0 +1,44 @@
+{
+	"name": "Vast Collection",
+	"type": "skill",
+	"_id": "RCsk000000000007",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "vast_collection",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (antiquarian)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action + 1 Fabula Point: produce any Lucky Treasure you can describe from your supplies."
+		},
+		"description": "<p>Action + 1 Fabula Point: produce any Lucky Treasure you can describe from your supplies. It is gone at the end of the scene — describe why.</p>",
+		"class": {
+			"value": "Antiquarian"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "antiquarian",
+			"skillKey": "vast_collection",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000007"
+}

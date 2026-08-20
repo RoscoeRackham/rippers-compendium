@@ -1,0 +1,44 @@
+{
+	"name": "Discharge",
+	"type": "skill",
+	"_id": "RCsk000000000004",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "discharge",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (adept)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action: release any number of Motes as a ranged (DEX + WLP) attack, 2 MP each."
+		},
+		"description": "<p>Action: release any number of Motes as a ranged (DEX + WLP) attack, 2 MP each. Each target loses (SL × 4) HP or MP per Mote — HP against Defense, MP against Magic Defense. Ignores Resistances. Motes are destroyed hit or miss.</p>",
+		"class": {
+			"value": "Adept"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "adept",
+			"skillKey": "discharge",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000004"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Salt and Pepper",
+	"type": "skill",
+	"_id": "RCsk000000000076",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "salt_and_pepper",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (cook)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When preparing a delicacy, spend 2 IP to change one ingredient's taste to any taste you choose."
+		},
+		"description": "<p>When preparing a delicacy, spend 2 IP to change one ingredient's taste to any taste you choose.</p>",
+		"class": {
+			"value": "Cook"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "cook",
+			"skillKey": "salt_and_pepper",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000076"
+}

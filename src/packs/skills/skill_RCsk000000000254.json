@@ -1,0 +1,44 @@
+{
+	"name": "Refreshing Vista",
+	"type": "skill",
+	"_id": "RCsk000000000254",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "refreshing_vista",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (traveller)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per session, at a hidden place of breathtaking beauty or revelation 5+ travel days from anywhere: choose up to (SL)"
+		},
+		"description": "<p>Once per session, at a hidden place of breathtaking beauty or revelation 5+ travel days from anywhere: choose up to (SL) distinct one-time benefits — full HP for one character, full MP for another, and kin.</p>",
+		"class": {
+			"value": "Traveller"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "traveller",
+			"skillKey": "refreshing_vista",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000254"
+}

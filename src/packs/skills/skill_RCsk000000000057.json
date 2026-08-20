@@ -1,0 +1,44 @@
+{
+	"name": "Mulligan",
+	"type": "skill",
+	"_id": "RCsk000000000057",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "mulligan",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (cartomancer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you hit one or more enemies with an attack on your turn, discard up to (SL + 1) cards and draw that many."
+		},
+		"description": "<p>When you hit one or more enemies with an attack on your turn, discard up to (SL + 1) cards and draw that many.</p>",
+		"class": {
+			"value": "Cartomancer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "cartomancer",
+			"skillKey": "mulligan",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000057"
+}

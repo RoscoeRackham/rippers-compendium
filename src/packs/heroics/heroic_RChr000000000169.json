@@ -1,0 +1,45 @@
+{
+	"name": "What I Really Am",
+	"type": "heroic",
+	"_id": "RChr000000000169",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "what_i_really_am",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Mutant"
+		},
+		"requirement": {
+			"value": "Mutant mastery + Theriomorphosis"
+		},
+		"description": "<p>Once during each of your turns, choose one: while you are in Crisis with Theriomorphosis active, before or after an action, replace one active therioform with another you have learned; or, when you use Genoclepsis in Crisis with Theriomorphosis active, replace one active therioform with one of the GM's choices instead of activating Theriomorphosis. You may end up carrying a mixture of your own forms and the GM's. This does not nest a transformation inside a transformation — it rearranges the one you are already in, which is why the Mutant's Innate-only rule is untouched. By the worn-Guise rule it functions unmasked only.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "what_i_really_am",
+			"masteryClasses": [
+				"mutant"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"theriomorphosis"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000169"
+}

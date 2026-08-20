@@ -1,0 +1,44 @@
+{
+	"name": "Elemental Harmony",
+	"type": "skill",
+	"_id": "RCsk000000000095",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "elemental_harmony",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (dowser)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Always communicate with elementals."
+		},
+		"description": "<p>Always communicate with elementals. When your invocation or spell restores HP with an elemental present on the scene, it restores (SL × 5) more.</p>",
+		"class": {
+			"value": "Dowser"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "dowser",
+			"skillKey": "elemental_harmony",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000095"
+}

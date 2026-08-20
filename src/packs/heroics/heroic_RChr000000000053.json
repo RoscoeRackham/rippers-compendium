@@ -1,0 +1,45 @@
+{
+	"name": "Giant Swing",
+	"type": "heroic",
+	"_id": "RChr000000000053",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "giant_swing",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Dancer / Fury / Mutant"
+		},
+		"requirement": {
+			"value": "Dancer, Fury or Mutant mastery (the Pilot route is cut)"
+		},
+		"description": "<p>Action: grab a willing visible ally and throw them — an Open (DEX+MIG) or (MIG+INS) Check (crits on doubles with Frenzy); the ally makes a free attack dealing extra damage equal to the Open Check's result, inflicting weak on each creature hit. On a fumble or miss the ally takes your Might die size in physical.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "giant_swing",
+			"masteryClasses": [
+				"dancer",
+				"fury",
+				"mutant"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000053"
+}

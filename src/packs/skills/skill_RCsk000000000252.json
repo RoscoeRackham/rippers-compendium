@@ -1,0 +1,44 @@
+{
+	"name": "Treasure Hunter",
+	"type": "skill",
+	"_id": "RCsk000000000252",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "treasure_hunter",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (traveller)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "On the world map, your group makes a discovery on a travel roll of (SL + 1) or lower, instead of only on a 1."
+		},
+		"description": "<p>On the world map, your group makes a discovery on a travel roll of (SL + 1) or lower, instead of only on a 1.</p>",
+		"class": {
+			"value": "Traveller"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "traveller",
+			"skillKey": "treasure_hunter",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000252"
+}

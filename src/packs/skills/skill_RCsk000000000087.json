@@ -1,0 +1,44 @@
+{
+	"name": "Manaflow",
+	"type": "skill",
+	"_id": "RCsk000000000087",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "manaflow",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (cunning_folk)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Whenever you recover Mind Points, recover an additional (SL × 4) — any source, no limit."
+		},
+		"description": "<p>Whenever you recover Mind Points, recover an additional (SL × 4) — any source, no limit.</p>",
+		"class": {
+			"value": "Cunning Folk"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "cunning_folk",
+			"skillKey": "manaflow",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000087"
+}

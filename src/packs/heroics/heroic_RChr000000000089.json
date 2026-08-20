@@ -1,0 +1,45 @@
+{
+	"name": "Miracle Tonic",
+	"type": "heroic",
+	"_id": "RChr000000000089",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "miracle_tonic",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Physician"
+		},
+		"requirement": {
+			"value": "Physician mastery + Pharmaceuticals"
+		},
+		"description": "<p>6 IP: one creature permanently gains +10 maximum HP or +10 maximum MP, or +5 of each, the target's choice — once per creature ever. Restored 5 Aug under the derived-stat rule: the gain attaches to the Guise the recipient is wearing when dosed, not to the body. Dose the coat, not the man — hand that Guise on and the +10 goes with it, while an Innate-only character takes it into the frame they can never remove. \"Once per creature\" reads once per Guise, once per Innate frame.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "miracle_tonic",
+			"masteryClasses": [
+				"physician"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"pharmaceuticals"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000089"
+}

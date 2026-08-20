@@ -1,0 +1,43 @@
+{
+	"name": "A Man of Means",
+	"type": "heroic",
+	"_id": "RChr000000000002",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "a_man_of_means",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Engineer"
+		},
+		"requirement": {
+			"value": "Engineer (Tinkerer) mastery (the Merchant route is cut)"
+		},
+		"description": "<p>After a creature performs an Accuracy or Magic Check for an attack or offensive spell that includes you among its targets — and you may decide after seeing the Result — spend 3 Inventory Points: you gain +20 Defense and Magic Defense until the end of that turn, and cannot use this again until the start of your next turn. +20 bought after seeing the roll is very nearly a guaranteed miss. The brake is the IP: 3 against a base of 6, at tenpence a point, so an Engineer who does this twice has spent their whole inventory and five shillings.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "a_man_of_means",
+			"masteryClasses": [
+				"engineer"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000002"
+}

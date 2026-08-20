@@ -1,0 +1,41 @@
+{
+	"name": "Quarterstaff Mastery",
+	"type": "heroic",
+	"_id": "RChr000000000119",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "quarterstaff_mastery",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Any"
+		},
+		"requirement": {
+			"value": "Master any class"
+		},
+		"description": "<p>With a non-martial, melee, two-handed brawling weapon: +5 damage, may target flying creatures, counts as spear and sword for Category-gated Skills, and may attack twice under two-weapon rules (forfeiting the +5 on each). In 1892: a quarterstaff, singlestick, cudgel or cane.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "quarterstaff_mastery",
+			"masteryClasses": [],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000119"
+}

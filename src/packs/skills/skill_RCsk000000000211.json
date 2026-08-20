@@ -1,0 +1,44 @@
+{
+	"name": "Bad Reputation",
+	"type": "skill",
+	"_id": "RCsk000000000211",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "bad_reputation",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (rogue)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When two or more NPCs instigate trouble, up to (SL) soldier-rank creatures hesitate — you gain an opportunity, and in a "
+		},
+		"description": "<p>When two or more NPCs instigate trouble, up to (SL) soldier-rank creatures hesitate — you gain an opportunity, and in a conflict they cannot attack or cast offensively on their first turn. Creatures 5+ levels above you are immune.</p>",
+		"class": {
+			"value": "Rogue"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "rogue",
+			"skillKey": "bad_reputation",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000211"
+}

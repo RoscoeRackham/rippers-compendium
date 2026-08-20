@@ -1,0 +1,44 @@
+{
+	"name": "Hunter's Tools",
+	"type": "skill",
+	"_id": "RCsk000000000040",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "hunters_tools",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (bounty_hunter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "The core: 28 tools costing 2–4 IP each; gain two per Skill Level."
+		},
+		"description": "<p>The core: 28 tools costing 2–4 IP each; gain two per Skill Level. Inventory action + the tool's IP applies its effect to a target you can see — no Check, and option-choosing tools are fixed when created. Tool damage on your Bounty ignores Resistances. New tools may be invented and bought (~1000z).</p>",
+		"class": {
+			"value": "Bounty Hunter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "bounty_hunter",
+			"skillKey": "hunters_tools",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000040"
+}

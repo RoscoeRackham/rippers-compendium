@@ -1,0 +1,44 @@
+{
+	"name": "Encourage",
+	"type": "skill",
+	"_id": "RCsk000000000171",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "encourage",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (orator)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action + 5 MP: an ally who hears you recovers (SL × 10) HP and, in conflict, raises a chosen Attribute one die size (max"
+		},
+		"description": "<p>Action + 5 MP: an ally who hears you recovers (SL × 10) HP and, in conflict, raises a chosen Attribute one die size (max d12) until your next turn.</p>",
+		"class": {
+			"value": "Orator"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 6
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "orator",
+			"skillKey": "encourage",
+			"maxSl": 6
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000171"
+}

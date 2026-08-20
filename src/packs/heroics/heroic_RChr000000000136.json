@@ -1,0 +1,41 @@
+{
+	"name": "Skyjump",
+	"type": "heroic",
+	"_id": "RChr000000000136",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "skyjump",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Any"
+		},
+		"requirement": {
+			"value": "The Soaring Strike spell (Core p. 189); no two PCs may both acquire it"
+		},
+		"description": "<p>Action + 10 MP: airborne — your melee attacks reach the unreachable, and other creatures cannot see you ( so cannot read your Tell; case-by-case, as ruled). At your turn's start you descend: Soaring Strike costs no MP that turn, and with a spear it gains multi (2) and +10 damage. Printed: no two PCs may both hold it. The flight ruling of 7 Aug applies: going up where anyone can see you ticks the Miasma Clock by 1.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "skyjump",
+			"masteryClasses": [],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000136"
+}

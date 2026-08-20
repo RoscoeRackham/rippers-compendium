@@ -1,0 +1,44 @@
+{
+	"name": "Follow My Lead",
+	"type": "skill",
+	"_id": "RCsk000000000091",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "follow_my_lead",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (dancer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When performing a lasting dance, spend 10 MP: one ally you can see toward whom you hold a Bond of affection gains its be"
+		},
+		"description": "<p>When performing a lasting dance, spend 10 MP: one ally you can see toward whom you hold a Bond of affection gains its benefits too, same duration.</p>",
+		"class": {
+			"value": "Dancer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "dancer",
+			"skillKey": "follow_my_lead",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000091"
+}

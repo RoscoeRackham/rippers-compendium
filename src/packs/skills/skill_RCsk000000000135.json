@@ -1,0 +1,44 @@
+{
+	"name": "Defensive Mastery",
+	"type": "skill",
+	"_id": "RCsk000000000135",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "defensive_mastery",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (guardian)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "With a shield or martial armour equipped, all damage you suffer is reduced by (SL), before Affinities."
+		},
+		"description": "<p>With a shield or martial armour equipped, all damage you suffer is reduced by (SL), before Affinities.</p>",
+		"class": {
+			"value": "Guardian"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "guardian",
+			"skillKey": "defensive_mastery",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000135"
+}

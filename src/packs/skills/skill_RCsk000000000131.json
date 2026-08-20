@@ -1,0 +1,44 @@
+{
+	"name": "Withstand",
+	"type": "skill",
+	"_id": "RCsk000000000131",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "withstand",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (fury)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Guarding without covering anyone: recover (5 + SL × your highest Bond strength) HP, and raise Might or Willpower one die"
+		},
+		"description": "<p>Guarding without covering anyone: recover (5 + SL × your highest Bond strength) HP, and raise Might or Willpower one die size (max d12) until your next turn.</p>",
+		"class": {
+			"value": "Fury"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "fury",
+			"skillKey": "withstand",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000131"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Persuasive",
+	"type": "skill",
+	"_id": "RCsk000000000173",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "persuasive",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (orator)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "On a successful Clock Check that relied on charm, diplomacy, deception or intimidation: spend up to (SL × 20) MP, moving"
+		},
+		"description": "<p>On a successful Clock Check that relied on charm, diplomacy, deception or intimidation: spend up to (SL × 20) MP, moving 1 extra section per 20 MP.</p>",
+		"class": {
+			"value": "Orator"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "orator",
+			"skillKey": "persuasive",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000173"
+}

@@ -1,0 +1,43 @@
+{
+	"name": "Card Vanguard",
+	"type": "heroic",
+	"_id": "RChr000000000022",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "card_vanguard",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Cartomancer"
+		},
+		"requirement": {
+			"value": "Cartomancer (Ace of Cards) mastery specifically"
+		},
+		"description": "<p>When you discard for Magic Cards, you may set 1 of those cards face down in front of you as a vanguard card instead of discarding it — maximum 2 in play. When any source damages you and/or allies you can see, reveal one: if it is a joker or its suit matches that damage type, you and every ally you can see gain Resistance to that type until the end of the turn, and the card goes on top of the discard pile. You may look at your own vanguard cards whenever you like; any still in play at the end of a conflict shuffle back into the deck.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "card_vanguard",
+			"masteryClasses": [
+				"cartomancer"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000022"
+}

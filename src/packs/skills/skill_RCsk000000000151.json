@@ -1,0 +1,44 @@
+{
+	"name": "Letter of the Law",
+	"type": "skill",
+	"_id": "RCsk000000000151",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "letter_of_the_law",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (magistrate)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Each level learns one law (of eight)."
+		},
+		"description": "<p>Each level learns one law (of eight). At the start of a conflict scene, enact up to two laws you know; an action + 10 MP enacts another. A broken law is removed until enacted again; enacting an already-active law does nothing; any Magistrate may respond to any active law, whoever enacted it.</p>",
+		"class": {
+			"value": "Magistrate"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 7
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "magistrate",
+			"skillKey": "letter_of_the_law",
+			"maxSl": 7
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000151"
+}

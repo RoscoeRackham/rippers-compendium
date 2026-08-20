@@ -1,0 +1,92 @@
+{
+	"name": "Vampyre",
+	"type": "class",
+	"_id": "RCcl000000000049",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "vampyre",
+		"source": {
+			"value": "Rippers Unmasked — classes (vampyre)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Also known as Nosferatu, the Undying."
+		},
+		"description": "<p><em>Built on Project FU's <strong>Vampire (Basil)</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Hit Points — activated.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>VAMPYRE SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000255]{The Life Well} <strong>【Max SL 1】</strong></p><p>The Well caps at your Crisis score, empties at every rest, and pays any Skill that spends HP. Fill it by being overhealed (spend MP equal to half the excess) — or by feeding: an interlude, never a conflict action; a willing donor spends the HP and marks their Bond toward you, a stranger fills it free and ticks that district's Miasma Clock. Spend it: once per turn, soak damage on you or another before it lands; add half-spent-HP extra damage on a successful attack or offensive spell; or an action heals you or an ally for half the HP spent.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000256]{Crimson Malediction} <strong>【Max SL 5】</strong></p><p>Each level teaches one malediction (of eight — full text in the spell list). Maledictions follow spell rules but cost Hit Points, use (MIG + WLP) offensively, and are lifted by filling a negotiated 4-section Clock. Harm is retyped to dark; Reanimate raises one corpse at a time.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000257]{Siphon Vitality} <strong>【Max SL 1】</strong></p><p>Action: Opposed (MIG + WLP) Check against a creature you can touch. On success choose exactly one: drain HR Hit Points and recover half; or inflict dazed/shaken/slow/weak and treat the matching Attribute die (INS/WLP/DEX/MIG) one size higher until they recover — capped at d12. Heals you directly; never touches the Well. Counts toward the two-effect cap.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000258]{Sanguine Transmutation} <strong>【Max SL 5】</strong></p><p>In a conflict, action: spend up to (SL × 10) Hit Points and take one return — recover half the HP spent as MP, or recharge 1 IP per 20 HP spent.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": true
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "vampyre",
+			"guiseEligible": false,
+			"innateOnly": true,
+			"printedName": "Vampire (Basil)"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000049"
+}

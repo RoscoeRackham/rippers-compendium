@@ -1,0 +1,45 @@
+{
+	"name": "Open Mind",
+	"type": "heroic",
+	"_id": "RChr000000000097",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "open_mind",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Fencer"
+		},
+		"requirement": {
+			"value": "Fencer mastery + Empty Mind + two Stance skills"
+		},
+		"description": "<p>Empty Mind becomes a d10 instead of a fixed exit: 1 exits your Stance · 2–5 enters Lunge Stance · 6–9 enters Parry Stance · 10 remains, and on your next turn you lose all Tempo and enter Virtuose Stance. The 10 converts any amount of Tempo into Virtuose Stance, which makes this the class's accelerator as much as its gamble.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "open_mind",
+			"masteryClasses": [
+				"fencer"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"empty_mind"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000097"
+}

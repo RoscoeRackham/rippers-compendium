@@ -1,0 +1,43 @@
+{
+	"name": "Greater Chloromancy",
+	"type": "heroic",
+	"_id": "RChr000000000057",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "greater_chloromancy",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Floralist"
+		},
+		"requirement": {
+			"value": "Floralist mastery"
+		},
+		"description": "<p>Once per turn, when a magiseed leaves your garden, if it has one or more \"at the end of your turn\" effects, spend 20 MP to reproduce one of them — including an effect that does not match your current filled sections. And with Verdant Sway, your Rituals may influence and control soldier-Rank plant-Species creatures; never create them. Read the first clause against Wrathful Carnation: voluntary removal is a magiseed leaving your garden, and so is Graft. This is how a Floralist fires a tier-3 effect from a clock sitting at 1.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "greater_chloromancy",
+			"masteryClasses": [
+				"floralist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000057"
+}

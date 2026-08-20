@@ -1,0 +1,44 @@
+{
+	"name": "Pathogenesis",
+	"type": "skill",
+	"_id": "RCsk000000000262",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "pathogenesis",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (vivisectionist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Your Chimerist spells poison each damaged creature that shares its Species with the creature you learned the spell from."
+		},
+		"description": "<p>Your Chimerist spells poison each damaged creature that shares its Species with the creature you learned the spell from.</p>",
+		"class": {
+			"value": "Vivisectionist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "vivisectionist",
+			"skillKey": "pathogenesis",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000262"
+}

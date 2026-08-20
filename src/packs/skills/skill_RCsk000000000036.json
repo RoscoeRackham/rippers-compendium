@@ -1,0 +1,44 @@
+{
+	"name": "Shadow Strike",
+	"type": "skill",
+	"_id": "RCsk000000000036",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "shadow_strike",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (blackguard)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action: roll your Might die and lose that many HP."
+		},
+		"description": "<p>Action: roll your Might die and lose that many HP. If you are not at 0, perform a free attack dealing +(SL + the roll) damage — all of it dark, and the type cannot change.</p>",
+		"class": {
+			"value": "Blackguard"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "blackguard",
+			"skillKey": "shadow_strike",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000036"
+}

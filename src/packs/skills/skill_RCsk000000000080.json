@@ -1,0 +1,44 @@
+{
+	"name": "Spry and Tireless",
+	"type": "skill",
+	"_id": "RCsk000000000080",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "spry_and_tireless",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (courier)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "While carrying two or fewer packages, move one extra travel day's distance on the world map."
+		},
+		"description": "<p>While carrying two or fewer packages, move one extra travel day's distance on the world map. While carrying three or more, treat your maximum HP and MP as (SL × 5) higher.</p>",
+		"class": {
+			"value": "Courier"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "courier",
+			"skillKey": "spry_and_tireless",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000080"
+}

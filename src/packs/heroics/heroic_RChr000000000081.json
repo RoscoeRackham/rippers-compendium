@@ -1,0 +1,43 @@
+{
+	"name": "Knowledge Is a Shield",
+	"type": "heroic",
+	"_id": "RChr000000000081",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "knowledge_is_a_shield",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Archivist"
+		},
+		"requirement": {
+			"value": "Archivist mastery"
+		},
+		"description": "<p>Once per conflict, after Studying, gain Resistance to two non-physical damage types for the scene. Pays for the action the pressure game already wants taken.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "knowledge_is_a_shield",
+			"masteryClasses": [
+				"archivist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000081"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Akromorphosis",
+	"type": "skill",
+	"_id": "RCsk000000000160",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "akromorphosis",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (mutant)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Unarmed strikes deal +(6 + SL × 2) damage and gain +(SL) Accuracy, but refuse extra damage from Quirks."
+		},
+		"description": "<p>Unarmed strikes deal +(6 + SL × 2) damage and gain +(SL) Accuracy, but refuse extra damage from Quirks. Start of each conflict turn: declare them a different weapon Category until your next turn — bow, firearm or thrown makes them ranged.</p>",
+		"class": {
+			"value": "Mutant"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "mutant",
+			"skillKey": "akromorphosis",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000160"
+}

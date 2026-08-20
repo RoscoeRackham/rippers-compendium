@@ -1,0 +1,45 @@
+{
+	"name": "Stabilized Mutation",
+	"type": "heroic",
+	"_id": "RChr000000000139",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "stabilized_mutation",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Mutant"
+		},
+		"requirement": {
+			"value": "Mutant mastery + Theriomorphosis"
+		},
+		"description": "<p>Learn two therioforms; at each rest, stabilize up to two you know — never polypoda, at most one of arpaktida/dynamotheria/tachytheria. Stabilized forms persist between scenes and through Guard; elemental forms add their matching Resistance. The one exception to flight-is-temporary — and by the worn-Guise rule it functions unmasked only.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "stabilized_mutation",
+			"masteryClasses": [
+				"mutant"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"theriomorphosis"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000139"
+}

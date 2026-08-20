@@ -1,0 +1,43 @@
+{
+	"name": "The Second Verse",
+	"type": "heroic",
+	"_id": "RChr000000000151",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "the_second_verse",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Chanter"
+		},
+		"requirement": {
+			"value": "Chanter mastery"
+		},
+		"description": "<p>While you are in Crisis, after you sing a verse at medium or high volume, immediately sing another verse in the same key but with a different tone as a free action, paying no MP. Not in the same turn as Vibrato.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "the_second_verse",
+			"masteryClasses": [
+				"chanter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000151"
+}

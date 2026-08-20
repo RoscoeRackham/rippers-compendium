@@ -1,0 +1,44 @@
+{
+	"name": "Phantasmal Residue",
+	"type": "skill",
+	"_id": "RCsk000000000142",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "phantasmal_residue",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (illusionist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per round, after your Phantasms shatter as part of a Command spell, gain one Residue (hold up to SL)."
+		},
+		"description": "<p>Once per round, after your Phantasms shatter as part of a Command spell, gain one Residue (hold up to SL). When casting, spend any number: −2 MP each.</p>",
+		"class": {
+			"value": "Illusionist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "illusionist",
+			"skillKey": "phantasmal_residue",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000142"
+}

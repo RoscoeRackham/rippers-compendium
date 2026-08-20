@@ -1,0 +1,44 @@
+{
+	"name": "Graft",
+	"type": "skill",
+	"_id": "RCsk000000000124",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "graft",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (floralist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "With a magiseed in your garden and 1+ Growth Clock sections filled, action: swap it for a different magiseed you have di"
+		},
+		"description": "<p>With a magiseed in your garden and 1+ Growth Clock sections filled, action: swap it for a different magiseed you have discovered, keeping the filled sections unchanged.</p>",
+		"class": {
+			"value": "Floralist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "floralist",
+			"skillKey": "graft",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000124"
+}

@@ -1,0 +1,45 @@
+{
+	"name": "Magic of the Fey",
+	"type": "heroic",
+	"_id": "RChr000000000085",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "magic_of_the_fey",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Cunning Folk / Spiritist / Elementalist"
+		},
+		"requirement": {
+			"value": "Cunning Folk, Spiritist or Elementalist mastery"
+		},
+		"description": "<p>CAPPED — choose ONE category when you take it; the choice is permanent. Printed, all your spells gain an extra effect forever across six categories: multi-target spells cost 10 MP less · damaging spells +10 damage (+15 at 20, +20 at 40) · healing +10 HP (+15 at 20, +20 at 40) · negative-status spells also apply enraged or poisoned · positive-status spells also apply one of dex-up, mig-up, wlp-up or ins-up · resource-draining spells double what they gain. The source's own limiter: a spell qualifying for two categories uses one, chosen per casting. Uncapped this is the largest heroic in the collection — always on, every spell, for the rest of the campaign — so mastery-gating alone is not enough. Note it does not require Cunning Folk: a mastered Spiritist or Elementalist can hold it having never touched the class.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "magic_of_the_fey",
+			"masteryClasses": [
+				"cunning_folk",
+				"spiritist",
+				"elementalist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000085"
+}

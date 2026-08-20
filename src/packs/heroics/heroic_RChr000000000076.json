@@ -1,0 +1,41 @@
+{
+	"name": "Into the Otherworld",
+	"type": "heroic",
+	"_id": "RChr000000000076",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "into_the_otherworld",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Any"
+		},
+		"requirement": {
+			"value": "Master any class"
+		},
+		"description": "<p>While that low: action + 40 MP overlays a pocket dimension reflecting your psyche, containing any creatures you choose. A 4-segment Otherworld Clock erases each turn (and on damage with a WLP roll of 3 or lower). Inside, one chosen spell or free-attack Skill automatically succeeds at HR 5, and one Attribute runs a size larger (max d12). The Unmasking, made literal.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "into_the_otherworld",
+			"masteryClasses": [],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000076"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Where the Heart Is",
+	"type": "skill",
+	"_id": "RCsk000000000150",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "where_the_heart_is",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (keeper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Rituals performed in your Sanctuary read each helper's Bond toward you: −(SL) MP per positive emotion (capped at 3 per h"
+		},
+		"description": "<p>Rituals performed in your Sanctuary read each helper's Bond toward you: −(SL) MP per positive emotion (capped at 3 per helper), +(SL × 2) MP per negative emotion, uncapped. Choose your assistants carefully, or perform alone.</p>",
+		"class": {
+			"value": "Keeper"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "keeper",
+			"skillKey": "where_the_heart_is",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000150"
+}

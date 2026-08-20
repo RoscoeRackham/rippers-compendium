@@ -1,0 +1,44 @@
+{
+	"name": "Driven by Connection",
+	"type": "skill",
+	"_id": "RCsk000000000038",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "driven_by_connection",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (blackguard)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Strengthening an existing Bond gives your next Check a bonus equal to its new strength."
+		},
+		"description": "<p>Strengthening an existing Bond gives your next Check a bonus equal to its new strength. You may also hold up to (SL) extra Bonds, and your Bonds may carry a fourth emotion — comfort or tension.</p>",
+		"class": {
+			"value": "Blackguard"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "blackguard",
+			"skillKey": "driven_by_connection",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000038"
+}

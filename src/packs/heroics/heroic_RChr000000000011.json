@@ -1,0 +1,48 @@
+{
+	"name": "Bend Magic",
+	"type": "heroic",
+	"_id": "RChr000000000011",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "bend_magic",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Dowser / Elementalist / Entropist / Symbolist"
+		},
+		"requirement": {
+			"value": "Dowser (Invoker), Elementalist, Entropist or Symbolist mastery + Invocation"
+		},
+		"description": "<p>After an enemy you can see hits or misses you with an offensive spell, if the Result of their Magic Check was even, you may immediately use Invocation for free — after the spell fully resolves — against that enemy, spending no Mind Points. The invocation must not be a hex, may target only that enemy, and cannot use Linked Invocation. A reaction with a named trigger, a coin-flip gate and a target restriction; it passes the free-action rule without argument.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "bend_magic",
+			"masteryClasses": [
+				"dowser",
+				"elementalist",
+				"entropist",
+				"symbolist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"invocation"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000011"
+}

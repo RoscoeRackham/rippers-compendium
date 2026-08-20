@@ -1,0 +1,44 @@
+{
+	"name": "It Was Destiny",
+	"type": "skill",
+	"_id": "RCsk000000000243",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "it_was_destiny",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (stalwart)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per session, spend a Fabula Point to create a Bond, or to add an emotion to an existing one."
+		},
+		"description": "<p>Once per session, spend a Fabula Point to create a Bond, or to add an emotion to an existing one.</p>",
+		"class": {
+			"value": "Stalwart"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "stalwart",
+			"skillKey": "it_was_destiny",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000243"
+}

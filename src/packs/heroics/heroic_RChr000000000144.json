@@ -1,0 +1,43 @@
+{
+	"name": "Tabula Rasa",
+	"type": "heroic",
+	"_id": "RChr000000000144",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "tabula_rasa",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Captain"
+		},
+		"requirement": {
+			"value": "Captain (Commander) mastery"
+		},
+		"description": "<p>After you use Bishop's Edict or King's Castle, if you are in Crisis, every enemy in the scene loses 10 Hit Points — 20 at level 20+, 30 at level 40+. Note the vector: HP loss, not damage. No Affinities, no Resistances, no Defense. The Crisis gate is the whole cost, and a Captain who is winning never gets to use it.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "tabula_rasa",
+			"masteryClasses": [
+				"captain"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000144"
+}

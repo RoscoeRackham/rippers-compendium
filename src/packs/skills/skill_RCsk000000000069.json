@@ -1,0 +1,44 @@
+{
+	"name": "Distraction",
+	"type": "skill",
+	"_id": "RCsk000000000069",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "distraction",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (confidence_man)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "+(SL) to the leader's Group Check."
+		},
+		"description": "<p>+(SL) to the leader's Group Check. Counts toward the two-effect cap.</p>",
+		"class": {
+			"value": "Confidence Man"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "confidence_man",
+			"skillKey": "distraction",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000069"
+}

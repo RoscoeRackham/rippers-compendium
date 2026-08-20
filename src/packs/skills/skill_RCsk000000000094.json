@@ -1,0 +1,44 @@
+{
+	"name": "Linked Invocation",
+	"type": "skill",
+	"_id": "RCsk000000000094",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "linked_invocation",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (dowser)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you invoke, spend up to (SL × 10) extra MP; every 10 MP adds one more target you can see."
+		},
+		"description": "<p>When you invoke, spend up to (SL × 10) extra MP; every 10 MP adds one more target you can see.</p>",
+		"class": {
+			"value": "Dowser"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "dowser",
+			"skillKey": "linked_invocation",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000094"
+}

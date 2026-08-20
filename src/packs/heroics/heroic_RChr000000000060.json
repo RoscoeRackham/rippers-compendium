@@ -1,0 +1,43 @@
+{
+	"name": "Green Thumb",
+	"type": "heroic",
+	"_id": "RChr000000000060",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "green_thumb",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Floralist"
+		},
+		"requirement": {
+			"value": "Floralist mastery"
+		},
+		"description": "<p>When you fill 1 or more sections of your Growth Clock, either fill 1 additional section or fill 1 fewer, to a minimum of 0 — then you cannot use this again until the Clock is completely empty. The magiseed damage clause ignores Resistances, as printed, and it reaches only the five seeds that deal damage themselves (Grave Asphodel, Serrated Rose, Star Peony, Striped Orchid, Wardwattle). The accelerator half is untouched and is the whole reason to take the skill — \"1 fewer\" is how you hold a tier-3 effect for a second turn.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "green_thumb",
+			"masteryClasses": [
+				"floralist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000060"
+}

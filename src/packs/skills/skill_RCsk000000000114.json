@@ -1,0 +1,44 @@
+{
+	"name": "Stolen Time",
+	"type": "skill",
+	"_id": "RCsk000000000114",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "stolen_time",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (entropist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action + up to (SL × 5) MP; each 5 MP buys one option, once each: inflict slow; cure slow; a slowed enemy loses (10 + SL"
+		},
+		"description": "<p>Action + up to (SL × 5) MP; each 5 MP buys one option, once each: inflict slow; cure slow; a slowed enemy loses (10 + SL × 5) HP; a creature takes a free Equipment action; an ally yet to act takes their turn after yours. Variant available: Second Slicer — free attack, +(SL) Accuracy, inflicts slow with riders. Chosen permanently.</p>",
+		"class": {
+			"value": "Entropist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "entropist",
+			"skillKey": "stolen_time",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000114"
+}

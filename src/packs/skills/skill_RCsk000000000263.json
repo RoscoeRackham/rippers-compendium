@@ -1,0 +1,44 @@
+{
+	"name": "Call the Wild",
+	"type": "skill",
+	"_id": "RCsk000000000263",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "call_the_wild",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (vivisectionist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Spend 2 IP on food that draws nearby animals to perform a simple task, comparable to a Minor Ritual."
+		},
+		"description": "<p>Spend 2 IP on food that draws nearby animals to perform a simple task, comparable to a Minor Ritual.</p>",
+		"class": {
+			"value": "Vivisectionist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "vivisectionist",
+			"skillKey": "call_the_wild",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000263"
+}

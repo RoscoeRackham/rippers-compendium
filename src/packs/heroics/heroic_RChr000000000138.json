@@ -1,0 +1,43 @@
+{
+	"name": "Spirit of the Law",
+	"type": "heroic",
+	"_id": "RChr000000000138",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "spirit_of_the_law",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Magistrate"
+		},
+		"requirement": {
+			"value": "Magistrate mastery"
+		},
+		"description": "<p>Spend 1 Fabula Point on top of the usual MP cost to enact a law of your own design instead of a printed one; the GM adjudicates the wording. The best thing in the class for this campaign, because it converts a conflict into an objective — and a Magistrate who declares the ground rules pairs with an Antiquarian who works them, since Objective actions fill Pressure Clocks.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "spirit_of_the_law",
+			"masteryClasses": [
+				"magistrate"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000138"
+}

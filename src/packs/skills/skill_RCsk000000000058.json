@@ -1,0 +1,44 @@
+{
+	"name": "Trap Card",
+	"type": "skill",
+	"_id": "RCsk000000000058",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "trap_card",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (cartomancer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After an enemy resolves an Attack, Objective, Skill or Spell action, discard up to (SL + 1) cards that are jokers or mat"
+		},
+		"description": "<p>After an enemy resolves an Attack, Objective, Skill or Spell action, discard up to (SL + 1) cards that are jokers or match the action's suit (Attack ice, Objective fire, Skill earth, Spell air), draw back, then perform the Spell action for free, casting a spell of (SL × 5) MP or less — you still pay the MP. Once per round.</p>",
+		"class": {
+			"value": "Cartomancer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "cartomancer",
+			"skillKey": "trap_card",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000058"
+}

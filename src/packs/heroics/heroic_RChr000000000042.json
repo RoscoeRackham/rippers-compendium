@@ -1,0 +1,45 @@
+{
+	"name": "Enduring Wellspring",
+	"type": "heroic",
+	"_id": "RChr000000000042",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "enduring_wellspring",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Vampyre"
+		},
+		"requirement": {
+			"value": "Vampyre mastery + The Life Well"
+		},
+		"description": "<p>Your Life Well loses only half its stored HP when you finish a rest, instead of all of it.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "enduring_wellspring",
+			"masteryClasses": [
+				"vampyre"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"the_life_well"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000042"
+}

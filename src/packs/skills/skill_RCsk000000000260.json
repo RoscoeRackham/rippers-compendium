@@ -1,0 +1,44 @@
+{
+	"name": "Consume",
+	"type": "skill",
+	"_id": "RCsk000000000260",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "consume",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (vivisectionist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After your spell damages one or more creatures, with an arcane, dagger or flail weapon equipped: recover (SL × 2) MP."
+		},
+		"description": "<p>After your spell damages one or more creatures, with an arcane, dagger or flail weapon equipped: recover (SL × 2) MP.</p>",
+		"class": {
+			"value": "Vivisectionist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "vivisectionist",
+			"skillKey": "consume",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000260"
+}

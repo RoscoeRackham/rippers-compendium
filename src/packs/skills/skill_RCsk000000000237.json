@@ -1,0 +1,44 @@
+{
+	"name": "Support Magic",
+	"type": "skill",
+	"_id": "RCsk000000000237",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "support_magic",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (spiritist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Spells targeting allies, with an arcane weapon equipped: one targeted ally you have a Bond towards gains a bonus on thei"
+		},
+		"description": "<p>Spells targeting allies, with an arcane weapon equipped: one targeted ally you have a Bond towards gains a bonus on their next Check this scene equal to that Bond's strength.</p>",
+		"class": {
+			"value": "Spiritist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "spiritist",
+			"skillKey": "support_magic",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000237"
+}

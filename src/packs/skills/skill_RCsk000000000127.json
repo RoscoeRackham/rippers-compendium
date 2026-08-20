@@ -1,0 +1,44 @@
+{
+	"name": "Adrenaline",
+	"type": "skill",
+	"_id": "RCsk000000000127",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "adrenaline",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (fury)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "While in Crisis, +(SL × 2) damage — attacks, spells, Arcana, items, anything."
+		},
+		"description": "<p>While in Crisis, +(SL × 2) damage — attacks, spells, Arcana, items, anything.</p>",
+		"class": {
+			"value": "Fury"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "fury",
+			"skillKey": "adrenaline",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000127"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Witchvoice",
+	"type": "heroic",
+	"_id": "RChr000000000172",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "witchvoice",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Chanter / Orator"
+		},
+		"requirement": {
+			"value": "Chanter or Orator mastery"
+		},
+		"description": "<p>After a haunting verse, or a successful Opposed Check for Condemn: choose one enemy among the targets and one status it suffers. It is bewitched until your next turn or until it sheds that status — and must include you among its attack and offensive-spell targets, if able.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "witchvoice",
+			"masteryClasses": [
+				"chanter",
+				"orator"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000172"
+}

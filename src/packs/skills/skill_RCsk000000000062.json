@@ -1,0 +1,44 @@
+{
+	"name": "Lethal Charisma",
+	"type": "skill",
+	"_id": "RCsk000000000062",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "lethal_charisma",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (celebrity)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action + 1 Reputation Point: Opposed (WLP + WLP) against a nearby soldier-rank humanoid you can see."
+		},
+		"description": "<p>Action + 1 Reputation Point: Opposed (WLP + WLP) against a nearby soldier-rank humanoid you can see. Success: control it until scene's end — one at a time, released at will, and released the moment you or an ally harms it.</p>",
+		"class": {
+			"value": "Celebrity"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "celebrity",
+			"skillKey": "lethal_charisma",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000062"
+}

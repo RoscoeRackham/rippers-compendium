@@ -1,0 +1,44 @@
+{
+	"name": "Resonance",
+	"type": "skill",
+	"_id": "RCsk000000000065",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "resonance",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (chanter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After your verse affects one or more enemies, with an arcane weapon equipped, choose one until the start of your next tu"
+		},
+		"description": "<p>After your verse affects one or more enemies, with an arcane weapon equipped, choose one until the start of your next turn: allies deal (SL) extra damage to those enemies; or you recover (SL) MP each time one of them suffers damage (per enemy, when one source hits several).</p>",
+		"class": {
+			"value": "Chanter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "chanter",
+			"skillKey": "resonance",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000065"
+}

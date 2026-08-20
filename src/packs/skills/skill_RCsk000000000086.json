@@ -1,0 +1,44 @@
+{
+	"name": "Fairy Magic",
+	"type": "skill",
+	"_id": "RCsk000000000086",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "fairy_magic",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (cunning_folk)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Each level attunes one element (of eight) among spells you know; its fey effect rides those spells free: air lifts an al"
+		},
+		"description": "<p>Each level attunes one element (of eight) among spells you know; its fey effect rides those spells free: air lifts an ally into flight for a turn, bolt lets an ally act right after you, fire adds a burn next turn, ice shields an ally for −5 damage, poison poisons — and dark, earth and light each deny one action type (Ranged, Melee, Spell) for the target's next turn.</p>",
+		"class": {
+			"value": "Cunning Folk"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "cunning_folk",
+			"skillKey": "fairy_magic",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000086"
+}

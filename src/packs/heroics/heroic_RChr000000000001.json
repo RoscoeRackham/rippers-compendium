@@ -1,0 +1,44 @@
+{
+	"name": "A Bit of the Old Rough",
+	"type": "heroic",
+	"_id": "RChr000000000001",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "a_bit_of_the_old_rough",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Fury / Prizefighter"
+		},
+		"requirement": {
+			"value": "Fury or Prizefighter (Weaponmaster) mastery"
+		},
+		"description": "<p>Attack action with a melee brawling or spear weapon and nothing else equipped: make two separate attacks instead of one, at the same or different targets. Both follow two-weapon fighting — each loses the multi property and cannot gain it, and each treats High Roll as 0. If the first attack hits, that creature becomes broken until the start of your next turn: a broken creature takes extra damage equal to your Skill Level in Adrenaline, then stops being broken. All that damage ignores Resistances, as printed. Does not stack with a custom weapon's quick customisation — still two attacks, not more.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "a_bit_of_the_old_rough",
+			"masteryClasses": [
+				"fury",
+				"prizefighter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000001"
+}

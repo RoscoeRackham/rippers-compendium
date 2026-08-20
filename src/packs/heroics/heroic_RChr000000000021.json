@@ -1,0 +1,43 @@
+{
+	"name": "Calamity",
+	"type": "heroic",
+	"_id": "RChr000000000021",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "calamity",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Malefactor"
+		},
+		"requirement": {
+			"value": "Malefactor mastery"
+		},
+		"description": "<p>You learn the class's ultimate spell: Calamity, 40 MP, one creature, instantaneous — the target suffers dazed, enraged, poisoned, shaken, slow and weak, all six at once. Under house rules that also steps every one of its attributes down, floor d6, so its Defense and Magic Defense fall with them.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "calamity",
+			"masteryClasses": [
+				"malefactor"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000021"
+}

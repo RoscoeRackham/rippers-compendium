@@ -1,0 +1,44 @@
+{
+	"name": "Traveling Cook",
+	"type": "skill",
+	"_id": "RCsk000000000077",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "traveling_cook",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (cook)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After each travel roll, gain (SL × 2) ingredients (requires Cooking)."
+		},
+		"description": "<p>After each travel roll, gain (SL × 2) ingredients (requires Cooking).</p>",
+		"class": {
+			"value": "Cook"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "cook",
+			"skillKey": "traveling_cook",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000077"
+}

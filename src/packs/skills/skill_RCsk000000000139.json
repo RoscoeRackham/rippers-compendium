@@ -1,0 +1,44 @@
+{
+	"name": "Long Watch",
+	"type": "skill",
+	"_id": "RCsk000000000139",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "long_watch",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (guardian)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Rest in a populated area without recovering HP/MP to keep watch: identify the area's greatest threat and a clue to its c"
+		},
+		"description": "<p>Rest in a populated area without recovering HP/MP to keep watch: identify the area's greatest threat and a clue to its current work, and ward a landmark.</p>",
+		"class": {
+			"value": "Guardian"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "guardian",
+			"skillKey": "long_watch",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000139"
+}

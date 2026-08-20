@@ -1,0 +1,44 @@
+{
+	"name": "It Won't Die!",
+	"type": "skill",
+	"_id": "RCsk000000000180",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "it_wont_die",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (parasite)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After your first surrender in a scene, at the start of a later round spend 1 Fabula Point to rise with (Crisis value + S"
+		},
+		"description": "<p>After your first surrender in a scene, at the start of a later round spend 1 Fabula Point to rise with (Crisis value + SL × 2) HP. Surrender's consequence still lands, and the wrong-way point ticks the Miasma Clock. Fall to 0 again and you leave the scene — cleanly, no further payout.</p>",
+		"class": {
+			"value": "Parasite"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "parasite",
+			"skillKey": "it_wont_die",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000180"
+}

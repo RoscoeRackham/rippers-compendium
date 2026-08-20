@@ -1,0 +1,44 @@
+{
+	"name": "Surge of Emotion",
+	"type": "skill",
+	"_id": "RCsk000000000239",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "surge_of_emotion",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (spiritist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Invoking a Bond triggers one of its emotions' effects — not optional."
+		},
+		"description": "<p>Invoking a Bond triggers one of its emotions' effects — not optional. Admiration seeds opportunities; inferiority hands out fumble triggers; Loyalty no longer costs the supporter their turn; each emotion has its own clause.</p>",
+		"class": {
+			"value": "Spiritist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "spiritist",
+			"skillKey": "surge_of_emotion",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000239"
+}

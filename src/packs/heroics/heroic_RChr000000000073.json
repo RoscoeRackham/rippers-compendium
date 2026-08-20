@@ -1,0 +1,43 @@
+{
+	"name": "Inner Wellspring",
+	"type": "heroic",
+	"_id": "RChr000000000073",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "inner_wellspring",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Dowser"
+		},
+		"requirement": {
+			"value": "Dowser (Invoker) mastery"
+		},
+		"description": "<p>On acquisition and at every rest, choose one wellspring — air, earth, fire, lightning or water. Until your next rest you always treat it as available in every scene on top of whatever the GM named; you may perform Elementalism Rituals manipulating that element; you gain Resistance to its damage type; and you may change your damage to its type. The change-type clause also ignores Resistances, as printed. Note also that a second ritual discipline is contested at one per party: a Dowser taking this claims Elementalism for the table.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "inner_wellspring",
+			"masteryClasses": [
+				"dowser"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000073"
+}

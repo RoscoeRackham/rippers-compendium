@@ -1,0 +1,44 @@
+{
+	"name": "Healing Power",
+	"type": "skill",
+	"_id": "RCsk000000000236",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "healing_power",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (spiritist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Spells targeting allies, with an arcane weapon equipped: each of those allies also recovers (3 + SL × your number of Bon"
+		},
+		"description": "<p>Spells targeting allies, with an arcane weapon equipped: each of those allies also recovers (3 + SL × your number of Bonds) HP.</p>",
+		"class": {
+			"value": "Spiritist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "spiritist",
+			"skillKey": "healing_power",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000236"
+}

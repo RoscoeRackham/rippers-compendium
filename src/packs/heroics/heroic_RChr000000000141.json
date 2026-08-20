@@ -1,0 +1,45 @@
+{
+	"name": "Super Fanclub",
+	"type": "heroic",
+	"_id": "RChr000000000141",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "super_fanclub",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Celebrity"
+		},
+		"requirement": {
+			"value": "Celebrity mastery + Call Entourage"
+		},
+		"description": "<p>You acquire a following who define their way of life by you and their worship — often metaphorical — of you. With the rest of the group, design a level 10 humanoid, then halve its maximum HP and MP; that becomes a permanent Entourage Member.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "super_fanclub",
+			"masteryClasses": [
+				"celebrity"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"call_entourage"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000141"
+}

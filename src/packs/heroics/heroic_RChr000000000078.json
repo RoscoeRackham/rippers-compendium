@@ -1,0 +1,45 @@
+{
+	"name": "Item Thrower",
+	"type": "heroic",
+	"_id": "RChr000000000078",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "item_thrower",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Cook / Rogue / Engineer"
+		},
+		"requirement": {
+			"value": "Cook, Rogue or Engineer mastery (the Merchant route is cut)"
+		},
+		"description": "<p>Inventory action: throw a material or rare item you own at a visible creature for (its value ÷ 50) damage, typed by the item's nature (else physical). Then d6: 1 destroys it, 2–3 damages it (destroyed if thrown again; unusable until repaired), 4–6 no harm.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "item_thrower",
+			"masteryClasses": [
+				"cook",
+				"rogue",
+				"engineer"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000078"
+}

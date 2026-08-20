@@ -1,0 +1,44 @@
+{
+	"name": "Dodge",
+	"type": "skill",
+	"_id": "RCsk000000000208",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "dodge",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (rogue)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "With no shield and no martial armour equipped, +(SL) Defense."
+		},
+		"description": "<p>With no shield and no martial armour equipped, +(SL) Defense.</p>",
+		"class": {
+			"value": "Rogue"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "rogue",
+			"skillKey": "dodge",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000208"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Phantasmal Recycling",
+	"type": "skill",
+	"_id": "RCsk000000000144",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "phantasmal_recycling",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (illusionist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you cast a spell and cannot afford its total MP cost, shatter one of your Phantasms for a 10 MP bonus toward it — n"
+		},
+		"description": "<p>When you cast a spell and cannot afford its total MP cost, shatter one of your Phantasms for a 10 MP bonus toward it — never to create a Phantasm. Triggers only on a genuine shortfall, not by choice.</p>",
+		"class": {
+			"value": "Illusionist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "illusionist",
+			"skillKey": "phantasmal_recycling",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000144"
+}

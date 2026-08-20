@@ -1,0 +1,43 @@
+{
+	"name": "Inner Alchemy",
+	"type": "heroic",
+	"_id": "RChr000000000072",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "inner_alchemy",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Fury"
+		},
+		"requirement": {
+			"value": "Fury mastery"
+		},
+		"description": "<p>Withstand may raise any Attribute (not just MIG/WLP), and also recovers (5 + SL in Withstand × your highest Bond strength) MP on top of the HP. Your first damage before your next turn ends deals +(SL in Withstand).</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "inner_alchemy",
+			"masteryClasses": [
+				"fury"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000072"
+}

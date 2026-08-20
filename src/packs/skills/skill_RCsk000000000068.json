@@ -1,0 +1,44 @@
+{
+	"name": "Copy Cat",
+	"type": "skill",
+	"_id": "RCsk000000000068",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "copy_cat",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (confidence_man)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per scene, as your action, spend 1 Fabula Point to repeat the most recent action taken by another character this sc"
+		},
+		"description": "<p>Once per scene, as your action, spend 1 Fabula Point to repeat the most recent action taken by another character this scene, paying all costs. Never: Quirks or anything derived from one, Champion/Villain uniques, Equipment actions, rituals/Projects/anything outside a conflict, or a Guise swap.</p>",
+		"class": {
+			"value": "Confidence Man"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "confidence_man",
+			"skillKey": "copy_cat",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000068"
+}

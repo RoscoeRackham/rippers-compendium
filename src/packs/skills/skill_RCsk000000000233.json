@@ -1,0 +1,44 @@
+{
+	"name": "Lockdown",
+	"type": "skill",
+	"_id": "RCsk000000000233",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "lockdown",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (slayer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you hit a creature, spend 10 MP and choose one of its basic attacks or spells: until the start of your next turn it"
+		},
+		"description": "<p>When you hit a creature, spend 10 MP and choose one of its basic attacks or spells: until the start of your next turn it deals (SL × 2) less damage with that action.</p>",
+		"class": {
+			"value": "Slayer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "slayer",
+			"skillKey": "lockdown",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000233"
+}

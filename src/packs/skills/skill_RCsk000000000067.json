@@ -1,0 +1,44 @@
+{
+	"name": "Vibrato",
+	"type": "skill",
+	"_id": "RCsk000000000067",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "vibrato",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (chanter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After you sing a verse at low or medium volume, perform a free attack with an equipped weapon once the verse resolves, t"
+		},
+		"description": "<p>After you sing a verse at low or medium volume, perform a free attack with an equipped weapon once the verse resolves, treating your High Roll as 0 for damage.</p>",
+		"class": {
+			"value": "Chanter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "chanter",
+			"skillKey": "vibrato",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000067"
+}

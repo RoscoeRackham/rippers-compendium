@@ -1,0 +1,44 @@
+{
+	"name": "Deep Pockets",
+	"type": "skill",
+	"_id": "RCsk000000000200",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "deep_pockets",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (proprietor)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per conflict scene, as part of an action, spend up to (SL × 200) zenit before rolling: +1 per 200 spent, narrativel"
+		},
+		"description": "<p>Once per conflict scene, as part of an action, spend up to (SL × 200) zenit before rolling: +1 per 200 spent, narratively explained. Kept — it makes the price of privilege legible, out loud. Counts toward the two-effect cap.</p>",
+		"class": {
+			"value": "Proprietor"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "proprietor",
+			"skillKey": "deep_pockets",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000200"
+}

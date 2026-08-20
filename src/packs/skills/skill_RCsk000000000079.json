@@ -1,0 +1,44 @@
+{
+	"name": "Survey",
+	"type": "skill",
+	"_id": "RCsk000000000079",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "survey",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (courier)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "On a rest, forgo normal restoration — regain only (SL × 10) HP and MP and recover from (SL) statuses (Bond adjustment ke"
+		},
+		"description": "<p>On a rest, forgo normal restoration — regain only (SL × 10) HP and MP and recover from (SL) statuses (Bond adjustment keeps) — to choose an area within one travel day (further if your travel means reach further): reroll its next travel die; ask one honestly-answered question; or pick up/deliver a package there.</p>",
+		"class": {
+			"value": "Courier"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "courier",
+			"skillKey": "survey",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000079"
+}

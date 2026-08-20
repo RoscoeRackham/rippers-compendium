@@ -1,0 +1,44 @@
+{
+	"name": "Go On Without Me!",
+	"type": "skill",
+	"_id": "RCsk000000000267",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "go_on_without_me",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (witness)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "On another creature's turn, spend 1 Fabula Point: they use their action to escape the scene, reappearing where a Player "
+		},
+		"description": "<p>On another creature's turn, spend 1 Fabula Point: they use their action to escape the scene, reappearing where a Player Character is present. No other character may use this on you that scene; locked out beside the Rogue's See You Later. It saves anyone but its user.</p>",
+		"class": {
+			"value": "Witness"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "witness",
+			"skillKey": "go_on_without_me",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000267"
+}

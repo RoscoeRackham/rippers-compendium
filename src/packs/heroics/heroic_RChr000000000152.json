@@ -1,0 +1,44 @@
+{
+	"name": "The Trick Weapon",
+	"type": "heroic",
+	"_id": "RChr000000000152",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "the_trick_weapon",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Sharpshooter / Prizefighter"
+		},
+		"requirement": {
+			"value": "The Sharpshooter and/or Prizefighter (Weaponmaster) Class — acquired, not mastered, as printed"
+		},
+		"description": "<p>With a transforming custom weapon equipped whose forms are one melee and one ranged: use Bone Crusher and Counterattack with its ranged form, and Crossfire and Warning Shot with its melee form — never Bone Crusher and Warning Shot on the same attack. After you use Bone Crusher or Warning Shot with a melee weapon, each enemy hit becomes ruptured until the end of the scene; when a ruptured enemy takes damage from anything other than a melee attack, they suffer 5 extra damage and stop being ruptured. Ruptured is a primed condition on the Anatomist's reeling precedent — not a seventh status, so no cleanse removes it, and it clears the moment it pays. It is private to this heroic: it never shares a trigger or a payout with reeling or broken. Requires the class only, not mastery, as printed: the source says \"even if you have not mastered them\" and means it.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "the_trick_weapon",
+			"masteryClasses": [
+				"sharpshooter",
+				"prizefighter"
+			],
+			"classGate": "acquired",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000152"
+}

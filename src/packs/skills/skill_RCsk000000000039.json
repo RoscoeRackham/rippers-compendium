@@ -1,0 +1,44 @@
+{
+	"name": "Bounty",
+	"type": "skill",
+	"_id": "RCsk000000000039",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "bounty",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (bounty_hunter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Adds a Bounty to your sheet — anything you are hunting: an NPC, a place, an artifact."
+		},
+		"description": "<p>Adds a Bounty to your sheet — anything you are hunting: an NPC, a place, an artifact. Spend 1 Fabula Point to invoke it as a Trait (reroll) or as a Bond with strength (1 + Bounty Hunter level ÷ 5). Re-point it on level-up, on a rest, or with an Opportunity.</p>",
+		"class": {
+			"value": "Bounty Hunter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "bounty_hunter",
+			"skillKey": "bounty",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000039"
+}

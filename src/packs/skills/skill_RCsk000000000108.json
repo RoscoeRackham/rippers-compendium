@@ -1,0 +1,44 @@
+{
+	"name": "Visionary",
+	"type": "skill",
+	"_id": "RCsk000000000108",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "visionary",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (engineer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Projects you work on auto-pay up to (SL × 100) zenit of material costs and gain (SL) extra progress per day."
+		},
+		"description": "<p>Projects you work on auto-pay up to (SL × 100) zenit of material costs and gain (SL) extra progress per day. Makes a Project-holder better — never grants Project access.</p>",
+		"class": {
+			"value": "Engineer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "engineer",
+			"skillKey": "visionary",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000108"
+}

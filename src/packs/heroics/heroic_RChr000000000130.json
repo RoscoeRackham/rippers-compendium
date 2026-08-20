@@ -1,0 +1,43 @@
+{
+	"name": "See You In Hell",
+	"type": "heroic",
+	"_id": "RChr000000000130",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "see_you_in_hell",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Blackguard"
+		},
+		"requirement": {
+			"value": "Blackguard mastery"
+		},
+		"description": "<p>While your current HP are below maximum: action + 20 MP deals dark damage equal to (10 + half the gap between maximum and current HP) to one enemy — the type cannot change, and it bypasses nothing: not Absorption, not Immunity, not Resistance. A nearly-dead Blackguard still deals enormous damage.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "see_you_in_hell",
+			"masteryClasses": [
+				"blackguard"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000130"
+}

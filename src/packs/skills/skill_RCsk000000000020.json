@@ -1,0 +1,44 @@
+{
+	"name": "Focused",
+	"type": "skill",
+	"_id": "RCsk000000000020",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "focused",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (archivist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Permanently +(SL × 3) max MP, and +(SL) to Open Checks using (INS + INS)."
+		},
+		"description": "<p>Permanently +(SL × 3) max MP, and +(SL) to Open Checks using (INS + INS).</p>",
+		"class": {
+			"value": "Archivist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "archivist",
+			"skillKey": "focused",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000020"
+}

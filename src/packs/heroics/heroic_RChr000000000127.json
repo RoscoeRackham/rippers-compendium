@@ -1,0 +1,45 @@
+{
+	"name": "Rippling Invocation",
+	"type": "heroic",
+	"_id": "RChr000000000127",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "rippling_invocation",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Dowser"
+		},
+		"requirement": {
+			"value": "Dowser mastery + Invocation SL2+"
+		},
+		"description": "<p>Ripples' free attack may instead be a free non-\"hex\" invocation you have access to, ignoring its MP cost — same single target, damage retyped to the ally's, and all hexes on the target still end when it resolves.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "rippling_invocation",
+			"masteryClasses": [
+				"dowser"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"invocation"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000127"
+}

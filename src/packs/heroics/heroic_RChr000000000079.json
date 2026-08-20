@@ -1,0 +1,47 @@
+{
+	"name": "Kitchen Scraps",
+	"type": "heroic",
+	"_id": "RChr000000000079",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "kitchen_scraps",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Butcher / Cook"
+		},
+		"requirement": {
+			"value": "Butcher or Cook (Gourmet) mastery + Cooking and Waste Not"
+		},
+		"description": "<p>When you prepare a delicacy you may take a portion of leftovers — a special ingredient carrying all the tastes used in it, which spoils at the end of the scene. Using leftovers, choose one of its tastes; it counts as an ingredient of that taste only. No leftovers from a delicacy made with leftovers, and one portion at a time.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "kitchen_scraps",
+			"masteryClasses": [
+				"butcher",
+				"cook"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"cooking",
+				"waste_not"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000079"
+}

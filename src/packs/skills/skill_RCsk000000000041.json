@@ -1,0 +1,44 @@
+{
+	"name": "Army of One",
+	"type": "skill",
+	"_id": "RCsk000000000041",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "army_of_one",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (bounty_hunter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you apply a \"one creature\" tool, spend up to (SL) extra IP; each IP adds one more creature you can see."
+		},
+		"description": "<p>When you apply a \"one creature\" tool, spend up to (SL) extra IP; each IP adds one more creature you can see. Every target takes the full effect — 20 each, not 20 split.</p>",
+		"class": {
+			"value": "Bounty Hunter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "bounty_hunter",
+			"skillKey": "army_of_one",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000041"
+}

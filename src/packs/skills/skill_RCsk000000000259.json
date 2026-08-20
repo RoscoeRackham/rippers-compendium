@@ -1,0 +1,44 @@
+{
+	"name": "Spell Mimic",
+	"type": "skill",
+	"_id": "RCsk000000000259",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "spell_mimic",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (vivisectionist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After a beast, monster or plant you can see resolves a spell, learn it (recording the Species)."
+		},
+		"description": "<p>After a beast, monster or plant you can see resolves a spell, learn it (recording the Species). Hold up to (SL + 2); offensive casts use your chosen (INS + WLP) or (MIG + WLP). Variant available: Spell Buffet — read non-humanoid HP at (15 + half level) or less, execute one to learn all its spells, keeping (SL + 4). Chosen permanently.</p>",
+		"class": {
+			"value": "Vivisectionist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 10
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "vivisectionist",
+			"skillKey": "spell_mimic",
+			"maxSl": 10
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000259"
+}

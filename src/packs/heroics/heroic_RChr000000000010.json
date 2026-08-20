@@ -1,0 +1,44 @@
+{
+	"name": "Battlefield Investigator",
+	"type": "heroic",
+	"_id": "RChr000000000010",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "battlefield_investigator",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Captain / Archivist"
+		},
+		"requirement": {
+			"value": "Captain or Archivist mastery"
+		},
+		"description": "<p>Memorise the High Roll of an examination Check; spend it later to add or subtract that much damage. Discovery converted into damage, literally.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "battlefield_investigator",
+			"masteryClasses": [
+				"captain",
+				"archivist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000010"
+}

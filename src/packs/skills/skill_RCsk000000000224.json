@@ -1,0 +1,44 @@
+{
+	"name": "The Wanted List",
+	"type": "skill",
+	"_id": "RCsk000000000224",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "the_wanted_list",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sharpshooter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Rest in a populated area to ask the GM for an open bounty: a target and a condition."
+		},
+		"description": "<p>Rest in a populated area to ask the GM for an open bounty: a target and a condition. Fulfil it before your next rest for (SL × 100) zenit.</p>",
+		"class": {
+			"value": "Sharpshooter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 6
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sharpshooter",
+			"skillKey": "the_wanted_list",
+			"maxSl": 6
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000224"
+}

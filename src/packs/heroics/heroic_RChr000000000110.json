@@ -1,0 +1,46 @@
+{
+	"name": "Powerful Spell",
+	"type": "heroic",
+	"_id": "RChr000000000110",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "powerful_spell",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Vivisectionist / Elementalist / Entropist / Spiritist"
+		},
+		"requirement": {
+			"value": "Vivisectionist (Chimerist), Elementalist, Entropist or Spiritist mastery"
+		},
+		"description": "<p>Spells you cast deal 5 extra damage — 10 at level 40 or higher. Level-up only.</p><p><em>GM-gated: not available at character creation.</em></p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "powerful_spell",
+			"masteryClasses": [
+				"vivisectionist",
+				"elementalist",
+				"entropist",
+				"spiritist"
+			],
+			"classGate": "mastery",
+			"creationBanned": true,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000110"
+}

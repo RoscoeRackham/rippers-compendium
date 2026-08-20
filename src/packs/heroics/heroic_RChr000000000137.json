@@ -1,0 +1,43 @@
+{
+	"name": "Specialty of the House",
+	"type": "heroic",
+	"_id": "RChr000000000137",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "specialty_of_the_house",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Cook"
+		},
+		"requirement": {
+			"value": "Cook (Gourmet) mastery"
+		},
+		"description": "<p>On acquisition, choose three different tastes and three different effects from the printed list — 20 dark or light damage (30 at level 30+), a damage-type lock, stripping every Scene-duration spell, a forced-target clause, enraged, poisoned, 30 HP and 30 MP (40/40 at 30+), one status of the target's choice, the dazed/enraged/shaken cleanse, or the poisoned/slow/weak cleanse. When you create a delicacy with exactly 3 ingredients during a conflict and each matches a different one of your chosen tastes, ignore the delicacy's normal effects and apply one, two or all three of yours instead. This is the answer to the randomness, and the class's only route to dark and light damage — expect it to be the mastery pick.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "specialty_of_the_house",
+			"masteryClasses": [
+				"cook"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000137"
+}

@@ -1,0 +1,92 @@
+{
+	"name": "Slayer",
+	"type": "class",
+	"_id": "RCcl000000000044",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "slayer",
+		"source": {
+			"value": "Rippers Unmasked — classes (slayer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Also known as Monster Hunter, Ranger, Exorcist."
+		},
+		"description": "<h5>FREE BENEFITS</h5><ul><li>increased maximum Inventory Points — activated.</li><li>martial melee proficiency — activated.</li><li>martial ranged proficiency — activated.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>SLAYER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000230]{Bane Oils} <strong>【Max SL 5】</strong></p><p>Each level chooses a creature Species. Action + 2 IP oils a weapon equipped by you or a willing creature (a free attack rides along if the weapon is yours). Until scene's end, when the oil's Species is hit by that weapon the attacker picks one: slow; weak; strip one damage Resistance for the scene; or fill 1 Pressure Clock section (house-added fourth option).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000231]{Know Thy Quarry} <strong>【Max SL 5】</strong></p><p>On an Accuracy, Magic or contested Check, spend 1 Fabula Point and invoke one of the target's Traits: +(SL) to your Result against that target. A Villain may spend an Ultima Point to cancel. The Miasma clause is struck (13 Aug 2026): that spend no longer ticks the Miasma Clock.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000232]{Giant Killer} <strong>【Max SL 1】</strong></p><p>(Single level) When you hit a non-soldier creature with a damaging attack, deal extra damage equal to (2 × the number of soldiers it replaces).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000233]{Lockdown} <strong>【Max SL 4】</strong></p><p>When you hit a creature, spend 10 MP and choose one of its basic attacks or spells: until the start of your next turn it deals (SL × 2) less damage with that action.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000234]{Wildlife Expert} <strong>【Max SL 3】</strong></p><p>When you rest in the wilderness, ask the GM up to (SL) questions about creatures in the area, answered truthfully.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": true
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": true
+				},
+				"ranged": {
+					"value": true
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "slayer",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": null
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000044"
+}

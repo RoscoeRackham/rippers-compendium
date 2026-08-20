@@ -1,0 +1,44 @@
+{
+	"name": "Hawkeye",
+	"type": "skill",
+	"_id": "RCsk000000000220",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "hawkeye",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sharpshooter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Guarding without covering anyone: bank +(SL × 3) damage on your next ranged attack this scene, or take a free bow/firear"
+		},
+		"description": "<p>Guarding without covering anyone: bank +(SL × 3) damage on your next ranged attack this scene, or take a free bow/firearm attack with High Roll treated as 0.</p>",
+		"class": {
+			"value": "Sharpshooter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sharpshooter",
+			"skillKey": "hawkeye",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000220"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Cataclysm",
+	"type": "skill",
+	"_id": "RCsk000000000099",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "cataclysm",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (elementalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Casting an Instantaneous spell with an arcane weapon equipped: raise its cost by up to (SL × 10) MP for +5 damage per ex"
+		},
+		"description": "<p>Casting an Instantaneous spell with an arcane weapon equipped: raise its cost by up to (SL × 10) MP for +5 damage per extra 10 MP.</p>",
+		"class": {
+			"value": "Elementalist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "elementalist",
+			"skillKey": "cataclysm",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000099"
+}

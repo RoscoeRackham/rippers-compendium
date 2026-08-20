@@ -1,0 +1,44 @@
+{
+	"name": "Hoplite",
+	"type": "heroic",
+	"_id": "RChr000000000065",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "hoplite",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Captain / Guardian"
+		},
+		"requirement": {
+			"value": "Captain (Commander) or Guardian mastery"
+		},
+		"description": "<p>With a weapon in your main hand and a shield in your off-hand, that weapon's attacks deal 5 extra damage and you gain +1 Defense. Cannot combine with a custom weapon's defence-boost customisation, nor with Dual Shieldbearer.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "hoplite",
+			"masteryClasses": [
+				"captain",
+				"guardian"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000065"
+}

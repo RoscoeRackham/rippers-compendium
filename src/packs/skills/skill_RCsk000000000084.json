@@ -1,0 +1,44 @@
+{
+	"name": "Fey's Debt",
+	"type": "skill",
+	"_id": "RCsk000000000084",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "feys_debt",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (cunning_folk)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Ask an ally or NPC a favour — no cost, no action."
+		},
+		"description": "<p>Ask an ally or NPC a favour — no cost, no action. If they accept and fulfil it, you owe them on their terms, under a GM-set penalty until repaid. The favour may always be refused, and an unfulfillable ask costs nothing.</p>",
+		"class": {
+			"value": "Cunning Folk"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "cunning_folk",
+			"skillKey": "feys_debt",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000084"
+}

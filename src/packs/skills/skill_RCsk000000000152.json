@@ -1,0 +1,44 @@
+{
+	"name": "Quick Legislation",
+	"type": "skill",
+	"_id": "RCsk000000000152",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "quick_legislation",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (magistrate)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "(Requires Letter of the Law) When you hit a creature with an attack or offensive spell, spend up to (SL × 20) MP: immedi"
+		},
+		"description": "<p>(Requires Letter of the Law) When you hit a creature with an attack or offensive spell, spend up to (SL × 20) MP: immediately enact one law you know for every 20 MP spent.</p>",
+		"class": {
+			"value": "Magistrate"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "magistrate",
+			"skillKey": "quick_legislation",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000152"
+}

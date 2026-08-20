@@ -1,0 +1,44 @@
+{
+	"name": "Organized Pharmacy",
+	"type": "skill",
+	"_id": "RCsk000000000190",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "organized_pharmacy",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (physician)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Carry +(SL × 2) IP, ring-fenced for Pharmaceuticals and Drug Synthesis items; taken at creation, they arrive stocked."
+		},
+		"description": "<p>Carry +(SL × 2) IP, ring-fenced for Pharmaceuticals and Drug Synthesis items; taken at creation, they arrive stocked. The satchel and its current stock ride the Guise. Capacity, not supply — refills cost 10z a point.</p>",
+		"class": {
+			"value": "Physician"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "physician",
+			"skillKey": "organized_pharmacy",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000190"
+}

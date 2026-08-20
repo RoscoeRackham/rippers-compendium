@@ -1,0 +1,44 @@
+{
+	"name": "Hero with a Thousand Faces",
+	"type": "skill",
+	"_id": "RCsk000000000175",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "hero_with_a_thousand_faces",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (orator)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Record each Theme change and its cause."
+		},
+		"description": "<p>Record each Theme change and its cause. Every 5 recorded changes: each player gains (SL) XP and you gain an additional Identity built from the story your Themes tell.</p>",
+		"class": {
+			"value": "Orator"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "orator",
+			"skillKey": "hero_with_a_thousand_faces",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000175"
+}

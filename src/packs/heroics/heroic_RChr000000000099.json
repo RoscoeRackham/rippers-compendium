@@ -1,0 +1,45 @@
+{
+	"name": "Paso Doble",
+	"type": "heroic",
+	"_id": "RChr000000000099",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "paso_doble",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Dancer"
+		},
+		"requirement": {
+			"value": "Dancer mastery + Follow My Lead"
+		},
+		"description": "<p>While you are in Crisis, Follow My Lead costs no MP. A one-line heroic that turns the class's most expensive rider free at exactly the moment the party is losing.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "paso_doble",
+			"masteryClasses": [
+				"dancer"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"follow_my_lead"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000099"
+}

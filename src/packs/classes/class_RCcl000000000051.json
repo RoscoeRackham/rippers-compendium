@@ -1,0 +1,92 @@
+{
+	"name": "Witness",
+	"type": "class",
+	"_id": "RCcl000000000051",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "witness",
+		"source": {
+			"value": "Rippers Unmasked — classes (witness)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Also known as Survivor."
+		},
+		"description": "<p><em>Built on Project FU's <strong>Prey (Dr. Razno)</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>martial armor proficiency — activated.</li><li>martial shields proficiency — activated.</li><li>Increased maximum HP <strong>or</strong> MP — player's choice; set the chosen resource on the sheet.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>WITNESS SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000265]{Baying Hounds} <strong>【Max SL 4】</strong></p><p>Choose a Hound: Above (the licensed world), Below (a named monster that knows your address), Beyond (the Aether's attention) or Within (the uncounted). Once per scene, when events match it, gain (SL) Rabbit Points — spend after seeing a roll, before any Fabula reroll, at +1 each on your Hound's Check types. Once per session, 1 Fabula Point summons the Hound if plausible (a GM veto refunds the point); a public, monstrous arrival runs the ordinary Miasma and Tell machinery.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000266]{End of the Line} <strong>【Max SL 4】</strong></p><p>When you are blocked from escaping a conflict scene — by barrier, by danger, or by an obligation of your own Identity or Theme — you deal +(SL) damage and gain +(SL) to Checks made as part of the Hinder action.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000267]{Go On Without Me!} <strong>【Max SL 1】</strong></p><p>On another creature's turn, spend 1 Fabula Point: they use their action to escape the scene, reappearing where a Player Character is present. No other character may use this on you that scene; locked out beside the Rogue's See You Later. It saves anyone but its user.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000268]{If It Bleeds…} <strong>【Max SL 5】</strong></p><p>Once per scene, when a friendly PC completes a Clock with a successful Check or an elite-or-higher enemy first enters Crisis, choose one: every friendly PC recovers (SL × 4) HP or MP, each choosing which (SL × 6 at level 40+); every friendly PC recovers from up to (SL) statuses; or the triggering character gains +(SL) to their next Check.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000269]{Prey Instinct} <strong>【Max SL 3】</strong></p><p>At conflict start, spend 10 MP to perform Guard, Objective or Study before round one, at +(SL) to its Checks. Locked out beside the Rogue's High Speed and the Naturalist's post-Initiative camera shot — one pre-round trick per character. Triggers on the Turn when swapping in mid-conflict.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": true
+				},
+				"shields": {
+					"value": true
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "witness",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": "Prey (Dr. Razno)"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000051"
+}

@@ -1,0 +1,92 @@
+{
+	"name": "Penny Knight",
+	"type": "class",
+	"_id": "RCcl000000000035",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "penny_knight",
+		"source": {
+			"value": "Rippers Unmasked — classes (penny_knight)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Also known as the Dreadful, the Champion, Vigilante."
+		},
+		"description": "<p><em>Built on Project FU's <strong>Magical Girl (TailsPr v1.0)</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Mind Points — activated.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>PENNY KNIGHT SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000181]{Stand Revealed} <strong>【Max SL 4】</strong></p><p>Choose an element at acquisition (air, bolt, dark, earth, fire, ice or light). Grants the Panoply and the Token; each level adds an enchantment.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000182]{In Their Name} <strong>【Max SL 5】</strong></p><p>When a damaging spell you cast in the Panoply hits and its Magic Check invoked a Bond of admiration, loyalty and/or affection: +(SL) damage, and the spell ignores Immunities and Resistances, as printed.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000183]{Kindly Light} <strong>【Max SL 1】</strong></p><p>Your Panoply entry damage may instead heal — chosen targets gain Absorption against that instance.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000184]{The Inexhaustible} <strong>【Max SL 5】</strong></p><p>In the Panoply, casting a non-offensive spell of 10+ MP recovers (SL × 2) MP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000185]{Interposition} <strong>【Max SL 1】</strong></p><p>When a creature makes a Magic Check, spend a Fabula Point and choose a Bonded ally you can see: +(2 + Bond strength) Magic Defense against it — a hit may become a miss. Once per round.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": true
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "penny_knight",
+			"guiseEligible": false,
+			"innateOnly": false,
+			"printedName": "Magical Girl (TailsPr v1.0)"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000035"
+}

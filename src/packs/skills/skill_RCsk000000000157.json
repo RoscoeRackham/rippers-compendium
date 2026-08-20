@@ -1,0 +1,44 @@
+{
+	"name": "Maniacal Insight",
+	"type": "skill",
+	"_id": "RCsk000000000157",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "maniacal_insight",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (malefactor)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When a Villain enters a scene you are in, spend a Fabula Point to learn that Villain's goal for the scene."
+		},
+		"description": "<p>When a Villain enters a scene you are in, spend a Fabula Point to learn that Villain's goal for the scene.</p>",
+		"class": {
+			"value": "Malefactor"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "malefactor",
+			"skillKey": "maniacal_insight",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000157"
+}

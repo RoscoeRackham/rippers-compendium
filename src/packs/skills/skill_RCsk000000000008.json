@@ -1,0 +1,44 @@
+{
+	"name": "Treasure Magnet",
+	"type": "skill",
+	"_id": "RCsk000000000008",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "treasure_magnet",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (antiquarian)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When a travel roll results in a Discovery — on the world map or in a dungeon — find a Lucky Treasure worth up to (level "
+		},
+		"description": "<p>When a travel roll results in a Discovery — on the world map or in a dungeon — find a Lucky Treasure worth up to (level × 10 × SL) zenit, GM-determined. And you may spend Opportunities on a critical success to gain (SL × 50) zenit.</p>",
+		"class": {
+			"value": "Antiquarian"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "antiquarian",
+			"skillKey": "treasure_magnet",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000008"
+}

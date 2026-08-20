@@ -1,0 +1,43 @@
+{
+	"name": "Showstopper",
+	"type": "heroic",
+	"_id": "RChr000000000132",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "showstopper",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Dancer"
+		},
+		"requirement": {
+			"value": "Dancer mastery"
+		},
+		"description": "<p>At the start of your turn in a conflict, with no martial armor equipped, spend 1 Fabula Point to perform up to three different dances you know, in any order, paying no MP. If you do, you cannot perform dances in any way until the end of your next turn. Three dances for one Fabula Point and a turn and a half of silence afterwards — Banshee into Nightmare into Satyr, in one go.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "showstopper",
+			"masteryClasses": [
+				"dancer"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000132"
+}

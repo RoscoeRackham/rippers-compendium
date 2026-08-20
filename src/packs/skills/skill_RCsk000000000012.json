@@ -1,0 +1,44 @@
+{
+	"name": "Vaccine",
+	"type": "skill",
+	"_id": "RCsk000000000012",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "vaccine",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (apothecary)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Free action on your turn, 1 IP: remove (SL) status conditions from one creature you can see, and lock each removed condi"
+		},
+		"description": "<p>Free action on your turn, 1 IP: remove (SL) status conditions from one creature you can see, and lock each removed condition out for the rest of the conflict scene.</p>",
+		"class": {
+			"value": "Apothecary"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "apothecary",
+			"skillKey": "vaccine",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000012"
+}

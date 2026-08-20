@@ -1,0 +1,44 @@
+{
+	"name": "Theriomorphosis",
+	"type": "skill",
+	"_id": "RCsk000000000164",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "theriomorphosis",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (mutant)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Each level teaches one therioform."
+		},
+		"description": "<p>Each level teaches one therioform. Action + flat 20 HP: manifest up to two therioforms immediately, then a free attack with High Roll treated as 0. Forms last the scene; they end on death, unconsciousness, Guard, or re-use; 10 MP at scene's end carries them forward.</p>",
+		"class": {
+			"value": "Mutant"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 6
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "mutant",
+			"skillKey": "theriomorphosis",
+			"maxSl": 6
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000164"
+}

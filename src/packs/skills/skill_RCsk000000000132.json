@@ -1,0 +1,44 @@
+{
+	"name": "Raise Hell",
+	"type": "skill",
+	"_id": "RCsk000000000132",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "raise_hell",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (fury)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you cause mayhem to draw attention, up to (SL) other characters each generate an opportunity — plus one once-per-se"
+		},
+		"description": "<p>When you cause mayhem to draw attention, up to (SL) other characters each generate an opportunity — plus one once-per-session pick: 1 Fabula Point, a worthy NPC appears, or someone looking to hire you.</p>",
+		"class": {
+			"value": "Fury"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "fury",
+			"skillKey": "raise_hell",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000132"
+}

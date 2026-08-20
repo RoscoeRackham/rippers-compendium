@@ -1,0 +1,43 @@
+{
+	"name": "All You Can Eat",
+	"type": "heroic",
+	"_id": "RChr000000000003",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "all_you_can_eat",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Cook"
+		},
+		"requirement": {
+			"value": "Cook (Gourmet) mastery"
+		},
+		"description": "<p>Once per scene, Cooking may combine four ingredients into one delicacy, ignoring the normal limit of three; everything else follows the normal rules. Four ingredients means up to six taste-pairs, which is where the six-effect line in the special rules comes from.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "all_you_can_eat",
+			"masteryClasses": [
+				"cook"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000003"
+}

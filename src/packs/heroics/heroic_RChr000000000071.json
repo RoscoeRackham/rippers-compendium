@@ -1,0 +1,47 @@
+{
+	"name": "Implanted Instincts",
+	"type": "heroic",
+	"_id": "RChr000000000071",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "implanted_instincts",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Butcher / Vivisectionist"
+		},
+		"requirement": {
+			"value": "Butcher or Vivisectionist (Chimerist) mastery + Fleshcraft and Spell Mimic"
+		},
+		"description": "<p>When you use Fleshcraft on an NPC, the GM must reveal every spell it knows. If it knows one or more, you may learn one of them as a Chimerist spell of your own — even if that NPC's Species is not among those Spell Mimic normally allows.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "implanted_instincts",
+			"masteryClasses": [
+				"butcher",
+				"vivisectionist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"fleshcraft",
+				"spell_mimic"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000071"
+}

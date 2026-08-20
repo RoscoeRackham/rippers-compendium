@@ -1,0 +1,43 @@
+{
+	"name": "Greater Theriomorphosis",
+	"type": "heroic",
+	"_id": "RChr000000000059",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "greater_theriomorphosis",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Mutant"
+		},
+		"requirement": {
+			"value": "Mutant mastery"
+		},
+		"description": "<p>Rewritten by the adopted variant: three forms, and the free attack keeps its full High Roll. See the class's house changes for the form list and the flight rule.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "greater_theriomorphosis",
+			"masteryClasses": [
+				"mutant"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000059"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Ranged Weapon Mastery",
+	"type": "skill",
+	"_id": "RCsk000000000221",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "ranged_weapon_mastery",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sharpshooter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "+(SL) to all Accuracy Checks with ranged weapons."
+		},
+		"description": "<p>+(SL) to all Accuracy Checks with ranged weapons.</p>",
+		"class": {
+			"value": "Sharpshooter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sharpshooter",
+			"skillKey": "ranged_weapon_mastery",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000221"
+}

@@ -1,0 +1,45 @@
+{
+	"name": "Versatile Tactics",
+	"type": "heroic",
+	"_id": "RChr000000000163",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "versatile_tactics",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Captain"
+		},
+		"requirement": {
+			"value": "Captain mastery"
+		},
+		"description": "<p>Charging Cavalry's ally may forgo the free attack for a free Equipment, Hinder or Study — or a free Spell action casting a spell of 20 MP or less (still paid; offensive casts get +your SL in Charging Cavalry to the Check, High Roll 0).</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "versatile_tactics",
+			"masteryClasses": [
+				"captain"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"charging_cavalry"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000163"
+}

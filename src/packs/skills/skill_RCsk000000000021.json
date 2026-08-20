@@ -1,0 +1,44 @@
+{
+	"name": "Knowledge Is Power",
+	"type": "skill",
+	"_id": "RCsk000000000021",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "knowledge_is_power",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (archivist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Accuracy Checks may replace one Attribute die with Insight."
+		},
+		"description": "<p>Accuracy Checks may replace one Attribute die with Insight.</p>",
+		"class": {
+			"value": "Archivist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "archivist",
+			"skillKey": "knowledge_is_power",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000021"
+}

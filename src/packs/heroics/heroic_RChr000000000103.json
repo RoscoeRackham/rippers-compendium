@@ -1,0 +1,47 @@
+{
+	"name": "Petals of Wisdom",
+	"type": "heroic",
+	"_id": "RChr000000000103",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "petals_of_wisdom",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Fencer / Floralist / Archivist"
+		},
+		"requirement": {
+			"value": "Fencer, Floralist or Archivist (Loremaster) mastery + Virtuose Stance"
+		},
+		"description": "<p>Spend 1 Tempo for +2 on a Study or Objective Check; gain 2 Tempo when you enter Virtuose Stance; spend 3 Tempo to advance a Growth Clock one extra time. Objective actions fill Pressure Clocks, so this makes the Fencer a second pressure enabler alongside the Antiquarian. The Growth Clock clause only matters if the character is also a Floralist — and it is the only cross-class lever on that clock in the lineup.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "petals_of_wisdom",
+			"masteryClasses": [
+				"fencer",
+				"floralist",
+				"archivist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"virtuose_stance"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000103"
+}

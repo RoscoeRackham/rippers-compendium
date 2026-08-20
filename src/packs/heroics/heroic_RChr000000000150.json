@@ -1,0 +1,43 @@
+{
+	"name": "The Prestige",
+	"type": "heroic",
+	"_id": "RChr000000000150",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "the_prestige",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Illusionist"
+		},
+		"requirement": {
+			"value": "Illusionist mastery"
+		},
+		"description": "<p>Spend 50 MP to create a fourth Phantasm outside the three-Phantasm limit. Only one at a time, and if you have four Phantasms one must be it. It takes its own turn with a single action, before or after yours, for 3 turns, then shatters; it has your Hit Points; enemies can target it and your allies cannot; and no Skill or Command spell may use it. Its attack deals (HR + 14), rising to (HR + 18) at 20+ and (HR + 20) at 40+, at your equipped weapon's range. Choose an essence at each casting to fix its damage type — physical, light or dark. Its damage ignores Immunities and Resistances, as printed.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "the_prestige",
+			"masteryClasses": [
+				"illusionist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000150"
+}

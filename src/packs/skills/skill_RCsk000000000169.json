@@ -1,0 +1,44 @@
+{
+	"name": "Target Insight",
+	"type": "skill",
+	"_id": "RCsk000000000169",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "target_insight",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (naturalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Identify your Forte's Species on sight, and see when a visible creature is possessed or controlled."
+		},
+		"description": "<p>Identify your Forte's Species on sight, and see when a visible creature is possessed or controlled. The first time each scene you Study a Forte creature (not via Avid Seeker or a spectrograph), ask up to (SL) questions about its condition, motives or emotions.</p>",
+		"class": {
+			"value": "Naturalist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "naturalist",
+			"skillKey": "target_insight",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000169"
+}

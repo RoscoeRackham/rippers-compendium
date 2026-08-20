@@ -1,0 +1,44 @@
+{
+	"name": "Virtuose Stance",
+	"type": "skill",
+	"_id": "RCsk000000000119",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "virtuose_stance",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (fencer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Begin each conflict with (SL) Tempo; +1 when an enemy misses you in Parry Stance, +1 when you deal damage in Lunge Stanc"
+		},
+		"description": "<p>Begin each conflict with (SL) Tempo; +1 when an enemy misses you in Parry Stance, +1 when you deal damage in Lunge Stance. Enter at the start of your turn by spending 7 Tempo: Attribute dice one size higher (max d12) and all damage doubled before Affinities, until end of turn.</p>",
+		"class": {
+			"value": "Fencer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "fencer",
+			"skillKey": "virtuose_stance",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000119"
+}

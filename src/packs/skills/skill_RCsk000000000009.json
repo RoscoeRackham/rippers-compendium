@@ -1,0 +1,44 @@
+{
+	"name": "Survival Instincts",
+	"type": "skill",
+	"_id": "RCsk000000000009",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "survival_instincts",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (antiquarian)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "All damage you suffer outside a conflict scene that is not from an Attack or Spell — travel dangers, ritual Catastrophes"
+		},
+		"description": "<p>All damage you suffer outside a conflict scene that is not from an Attack or Spell — travel dangers, ritual Catastrophes, harmful terrain or weather — is reduced by (SL × 3).</p>",
+		"class": {
+			"value": "Antiquarian"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "antiquarian",
+			"skillKey": "survival_instincts",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000009"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Fortress",
+	"type": "skill",
+	"_id": "RCsk000000000137",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "fortress",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (guardian)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Permanently +(SL × 3) max HP."
+		},
+		"description": "<p>Permanently +(SL × 3) max HP.</p>",
+		"class": {
+			"value": "Guardian"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "guardian",
+			"skillKey": "fortress",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000137"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Corpse-Light",
+	"type": "skill",
+	"_id": "RCsk000000000206",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "rondo_of_nightmare",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (reaper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you cast an offensive \"one creature\" spell, spend 2 Grave Points: it targets every creature present in the scene — "
+		},
+		"description": "<p>When you cast an offensive \"one creature\" spell, spend 2 Grave Points: it targets every creature present in the scene — allies included — one Magic Check compared against each Magic Defense. All its damage becomes dark and cannot change type.</p>",
+		"class": {
+			"value": "Reaper"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "reaper",
+			"skillKey": "rondo_of_nightmare",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000206"
+}

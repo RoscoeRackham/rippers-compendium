@@ -1,0 +1,44 @@
+{
+	"name": "Warning Shot",
+	"type": "skill",
+	"_id": "RCsk000000000222",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "warning_shot",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sharpshooter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "On a damaging ranged hit, trade all its damage for one option: shaken on each target; slow on each target; or each targe"
+		},
+		"description": "<p>On a damaging ranged hit, trade all its damage for one option: shaken on each target; slow on each target; or each target loses (SL × 10) MP.</p>",
+		"class": {
+			"value": "Sharpshooter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sharpshooter",
+			"skillKey": "warning_shot",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000222"
+}

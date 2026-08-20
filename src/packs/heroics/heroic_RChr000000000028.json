@@ -1,0 +1,45 @@
+{
+	"name": "Crowd Pleaser",
+	"type": "heroic",
+	"_id": "RChr000000000028",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "crowd_pleaser",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Celebrity"
+		},
+		"requirement": {
+			"value": "Celebrity mastery + Cultural Phenomenon"
+		},
+		"description": "<p>Outside a conflict, spend 3 Reputation Points and choose a crowd of non-hostile humanoids able to hear and understand you: they are swayed by your voice and follow your commands for the rest of the scene, against even their own better judgement. It ends when the crowd disperses, and for anyone who leaves it. Using this ticks the Miasma Clock by 1 — in 1892 London it is mob incitement, and a crowd acting against its own better judgement is precisely the input the Clock exists to measure.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "crowd_pleaser",
+			"masteryClasses": [
+				"celebrity"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"cultural_phenomenon"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000028"
+}

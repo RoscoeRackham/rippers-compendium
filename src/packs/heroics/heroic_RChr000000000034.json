@@ -1,0 +1,46 @@
+{
+	"name": "Drunkard's Dance",
+	"type": "heroic",
+	"_id": "RChr000000000034",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "drunkards_dance",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Dancer / Fury / Cook / Traveller"
+		},
+		"requirement": {
+			"value": "Dancer, Fury, Cook (Gourmet) or Traveller (Wayfarer) mastery"
+		},
+		"description": "<p>Inventory action + 3 IP: consume an alcoholic drink and become drunk. While drunk your Dexterity counts as one die size higher, to a maximum of d12, and when an enemy misses you, you deal damage equal to your current Dexterity die — physical, or the type a dance changed your damage to. It ends at the end of the scene, if you die or fall unconscious, if you take a potion or delicacy that clears a status, or if you are Cleansed. How you play it is yours to choose: genuinely drunk, or a fighter affecting drunkenness to make himself hard to read. The mechanics are identical and the table does not have to agree. The die raise obeys the standing rule — raises never stack, d12 is the ceiling.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "drunkards_dance",
+			"masteryClasses": [
+				"dancer",
+				"fury",
+				"cook",
+				"traveller"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000034"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Field Kit",
+	"type": "skill",
+	"_id": "RCsk000000000168",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "field_kit",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (naturalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "On first take choose a track — Slaying, Research or Taming — gaining its basic tier; each level buys a new track's basic"
+		},
+		"description": "<p>On first take choose a track — Slaying, Research or Taming — gaining its basic tier; each level buys a new track's basics or upgrades one to advanced, then superior. Slaying: 2-IP hit-laced infusions, +5 damage (+10 vs Forte) with riders — superior tier ruled legal 6 Aug: Engineered inflicts through status immunity as printed (no Pressure interaction), Adaptive allowed. Research: cheaper Forte consumables, the spectrographic camera, the travelling lab. Taming: spoken commands to soldier-rank Forte creatures, then Capture (Companions on Loyalty Points, max three), then the Menagerie.</p>",
+		"class": {
+			"value": "Naturalist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "naturalist",
+			"skillKey": "field_kit",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000168"
+}

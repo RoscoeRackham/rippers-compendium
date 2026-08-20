@@ -1,0 +1,44 @@
+{
+	"name": "Up Close and Personal",
+	"type": "skill",
+	"_id": "RCsk000000000133",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "up_close_and_personal",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (fury)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Get in someone's face to Study them with (MIG + MIG), and ask the GM up to (SL) questions about their motivations, conne"
+		},
+		"description": "<p>Get in someone's face to Study them with (MIG + MIG), and ask the GM up to (SL) questions about their motivations, connections or fighting style — answered truthfully.</p>",
+		"class": {
+			"value": "Fury"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "fury",
+			"skillKey": "up_close_and_personal",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000133"
+}

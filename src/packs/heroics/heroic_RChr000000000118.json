@@ -1,0 +1,43 @@
+{
+	"name": "Quaking Titan",
+	"type": "heroic",
+	"_id": "RChr000000000118",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "quaking_titan",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Guardian"
+		},
+		"requirement": {
+			"value": "Guardian mastery (printed: \"Guardian or Pilot\" — Pilot is cut); the vehicle clauses ride the Personal Vehicle benefit pick"
+		},
+		"description": "<p>As long as your personal vehicle has a steed frame, it may have up to 2 active weapon modules instead of 1. During a conflict, if you have a martial armor equipped, you may use an action and spend 30 Mind Points to choose earth or physical: you deal 20 damage of the chosen type to every enemy you can see, and enemies that lose Hit Points this way cannot perform free attacks until the start of their next turn. +10 damage if you are driving a personal vehicle with a mech frame and/or have two shields equipped; +10 more at level 30 or higher. (June 2026 playtest materials p.17, verified 10 Aug 2026.)</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "quaking_titan",
+			"masteryClasses": [
+				"guardian"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000118"
+}

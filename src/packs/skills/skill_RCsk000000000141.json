@@ -1,0 +1,44 @@
+{
+	"name": "Illusionist Magic",
+	"type": "skill",
+	"_id": "RCsk000000000141",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "illusionist_magic",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (illusionist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "One Illusionist spell per Skill Level (twelve exist against a ten-level cap — nobody ever learns the list)."
+		},
+		"description": "<p>One Illusionist spell per Skill Level (twelve exist against a ten-level cap — nobody ever learns the list). Offensive Illusionist spells and Phantasms use (INS + WLP).</p>",
+		"class": {
+			"value": "Illusionist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 10
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "illusionist",
+			"skillKey": "illusionist_magic",
+			"maxSl": 10
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000141"
+}

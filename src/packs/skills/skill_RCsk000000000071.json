@@ -1,0 +1,44 @@
+{
+	"name": "Mask of Impersonation",
+	"type": "skill",
+	"_id": "RCsk000000000071",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "mask_of_impersonation",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (confidence_man)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Unobserved by anyone outside your party, spend 1 Fabula Point to assume the appearance of a humanoid seen within the pas"
+		},
+		"description": "<p>Unobserved by anyone outside your party, spend 1 Fabula Point to assume the appearance of a humanoid seen within the past two days; +(SL) to impersonation Checks. Lasts until dropped or seen through; the Mask never covers a Guise's Tell; stacks with the Many Faces Perk (the Perk gives the face, this gives the performance).</p>",
+		"class": {
+			"value": "Confidence Man"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "confidence_man",
+			"skillKey": "mask_of_impersonation",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000071"
+}

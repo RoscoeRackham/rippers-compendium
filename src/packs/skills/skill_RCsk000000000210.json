@@ -1,0 +1,44 @@
+{
+	"name": "Soul Steal",
+	"type": "skill",
+	"_id": "RCsk000000000210",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "soul_steal",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (rogue)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action: (DEX + WLP) Check (+SL) vs an enemy's Magic Defense."
+		},
+		"description": "<p>Action: (DEX + WLP) Check (+SL) vs an enemy's Magic Defense. Success: a soldier yields (SL) IP; an elite or champion yields a soul treasure worth up to (level × 30, ×50 for Villains). Once per creature. Takes the hoplosphere drop — one body, one clot.</p>",
+		"class": {
+			"value": "Rogue"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "rogue",
+			"skillKey": "soul_steal",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000210"
+}

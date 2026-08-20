@@ -1,0 +1,44 @@
+{
+	"name": "Fleshcraft",
+	"type": "skill",
+	"_id": "RCsk000000000044",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "fleshcraft",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (butcher)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When a permitted-Species creature you can see falls to 0 HP, spend a quarter of your max HP: the GM reveals its abilitie"
+		},
+		"description": "<p>When a permitted-Species creature you can see falls to 0 HP, spend a quarter of your max HP: the GM reveals its abilities and you install one as an implant. Up to (SL) implants, at most three internal; your prosthetic implants deal (SL × 2) extra damage, capped at 6.</p>",
+		"class": {
+			"value": "Butcher"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "butcher",
+			"skillKey": "fleshcraft",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000044"
+}

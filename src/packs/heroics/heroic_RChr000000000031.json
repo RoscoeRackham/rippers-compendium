@@ -1,0 +1,44 @@
+{
+	"name": "Deep Pockets",
+	"type": "heroic",
+	"_id": "RChr000000000031",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "deep_pockets_heroic",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Engineer / Bounty Hunter"
+		},
+		"requirement": {
+			"value": "Engineer (Tinkerer) or Bounty Hunter mastery"
+		},
+		"description": "<p>You reduce Inventory Point costs by 1, to a minimum of 1. Level-up only. On the standing watch list as a p.266 offender among non-Guise effects.</p><p><em>GM-gated: not available at character creation.</em></p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "deep_pockets_heroic",
+			"masteryClasses": [
+				"engineer",
+				"bounty_hunter"
+			],
+			"classGate": "mastery",
+			"creationBanned": true,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000031"
+}

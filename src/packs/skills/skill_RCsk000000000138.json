@@ -1,0 +1,44 @@
+{
+	"name": "Protect",
+	"type": "skill",
+	"_id": "RCsk000000000138",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "protect",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (guardian)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Take another creature's place against an attack, spell or danger — declared before or after its Checks."
+		},
+		"description": "<p>Take another creature's place against an attack, spell or danger — declared before or after its Checks. If it already hit you, it hits you twice. In conflict, once until the start of your next turn.</p>",
+		"class": {
+			"value": "Guardian"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "guardian",
+			"skillKey": "protect",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000138"
+}

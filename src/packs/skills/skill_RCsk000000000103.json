@@ -1,0 +1,44 @@
+{
+	"name": "Mote of Creation",
+	"type": "skill",
+	"_id": "RCsk000000000103",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "mote_of_creation",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (elementalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "On a rest, take a spark of Air, Earth, Fire or Water."
+		},
+		"description": "<p>On a rest, take a spark of Air, Earth, Fire or Water. Spend it once before your next rest for that element's effect — die replacement, damage reduction, and kin.</p>",
+		"class": {
+			"value": "Elementalist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "elementalist",
+			"skillKey": "mote_of_creation",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000103"
+}

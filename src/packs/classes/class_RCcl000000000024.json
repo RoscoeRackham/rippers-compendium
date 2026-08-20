@@ -1,0 +1,92 @@
+{
+	"name": "Floralist",
+	"type": "class",
+	"_id": "RCcl000000000024",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "floralist",
+		"source": {
+			"value": "Rippers Unmasked — classes (floralist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Also known as Bloomblade, Gardener, Herbalist."
+		},
+		"description": "<h5>FREE BENEFITS</h5><ul><li>Increased maximum HP <strong>or</strong> MP — player's choice; set the chosen resource on the sheet.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>FLORALIST SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000122]{Chloromancy} <strong>【Max SL 10】</strong></p><p>Each level discovers one magiseed type. In a conflict, if your garden is empty: action + 20 MP plants a magiseed you have discovered.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000123]{Battle Gardening} <strong>【Max SL 3】</strong></p><p>After planting through Chloromancy (not Graft), choose one: a free attack with an equipped weapon, or the Spell action for free casting a spell of (5 + SL × 5) MP or less (you still pay it). High Roll treated as 0 either way.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000124]{Graft} <strong>【Max SL 1】</strong></p><p>With a magiseed in your garden and 1+ Growth Clock sections filled, action: swap it for a different magiseed you have discovered, keeping the filled sections unchanged.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000125]{Tree of Life} <strong>【Max SL 5】</strong></p><p>When a magiseed is removed from your garden, one creature you can see that is in Crisis recovers (5 + SL × 5) HP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000126]{Verdant Sway} <strong>【Max SL 1】</strong></p><p>Grants Rituals of the Ritualism discipline, extended to creating, animating and controlling vegetation, pollen, spores and toxins — never plant-Species NPCs. Runs under the standing rulings that keep it inside the benefit-pool architecture.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "floralist",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": null
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000024"
+}

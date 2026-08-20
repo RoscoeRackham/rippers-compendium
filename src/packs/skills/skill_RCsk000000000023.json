@@ -1,0 +1,44 @@
+{
+	"name": "Trained Memory",
+	"type": "skill",
+	"_id": "RCsk000000000023",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "trained_memory",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (archivist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Perfect recall of any scene visited within the past week — revisit it in your mind and investigate it again, Flash of In"
+		},
+		"description": "<p>Perfect recall of any scene visited within the past week — revisit it in your mind and investigate it again, Flash of Insight included.</p>",
+		"class": {
+			"value": "Archivist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "archivist",
+			"skillKey": "trained_memory",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000023"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Lunge Stance",
+	"type": "skill",
+	"_id": "RCsk000000000118",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "lunge_stance",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (fencer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After you take damage, spend 5 MP to enter."
+		},
+		"description": "<p>After you take damage, spend 5 MP to enter. While in it you deal (SL) extra damage from all sources — and take (SL) extra damage from all sources.</p>",
+		"class": {
+			"value": "Fencer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "fencer",
+			"skillKey": "lunge_stance",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000118"
+}

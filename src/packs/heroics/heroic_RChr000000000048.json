@@ -1,0 +1,44 @@
+{
+	"name": "Fast Learner",
+	"type": "heroic",
+	"_id": "RChr000000000048",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "fast_learner",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Vivisectionist / Traveller"
+		},
+		"requirement": {
+			"value": "Vivisectionist or Traveller mastery"
+		},
+		"description": "<p>Temporarily acquire another PC's spell or Skill for a scene — Heroic Skills explicitly included — at SL1, with none of the attached benefits. The one learn-from-others mechanic that copies from your friends.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "fast_learner",
+			"masteryClasses": [
+				"vivisectionist",
+				"traveller"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000048"
+}

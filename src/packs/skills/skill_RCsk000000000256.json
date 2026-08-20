@@ -1,0 +1,44 @@
+{
+	"name": "Crimson Malediction",
+	"type": "skill",
+	"_id": "RCsk000000000256",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "crimson_malediction",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (vampyre)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Each level teaches one malediction (of eight — full text in the spell list)."
+		},
+		"description": "<p>Each level teaches one malediction (of eight — full text in the spell list). Maledictions follow spell rules but cost Hit Points, use (MIG + WLP) offensively, and are lifted by filling a negotiated 4-section Clock. Harm is retyped to dark; Reanimate raises one corpse at a time.</p>",
+		"class": {
+			"value": "Vampyre"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "vampyre",
+			"skillKey": "crimson_malediction",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000256"
+}

@@ -1,0 +1,43 @@
+{
+	"name": "Wave Overflow",
+	"type": "heroic",
+	"_id": "RChr000000000166",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "wave_overflow",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Sensitive"
+		},
+		"requirement": {
+			"value": "Sensitive mastery"
+		},
+		"description": "<p>On your turn, after you apply a gift's effects: every ally present recovers (1 + filled Brainwave sections) MP — doubled for your focus. Stacks with Reassuring Presence.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "wave_overflow",
+			"masteryClasses": [
+				"sensitive"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000166"
+}

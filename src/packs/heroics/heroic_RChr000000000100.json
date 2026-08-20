@@ -1,0 +1,43 @@
+{
+	"name": "Peacock Strut",
+	"type": "heroic",
+	"_id": "RChr000000000100",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "peacock_strut",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Dancer"
+		},
+		"requirement": {
+			"value": "Dancer mastery"
+		},
+		"description": "<p>Peacock Dance may instead read: choose a creature that can see you and suffers one or more statuses — it must include you among its attack and offensive-spell targets until your next turn, if able.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "peacock_strut",
+			"masteryClasses": [
+				"dancer"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000100"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Elemental Magic",
+	"type": "skill",
+	"_id": "RCsk000000000098",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "elemental_magic",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (elementalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Each level learns one Elementalist spell."
+		},
+		"description": "<p>Each level learns one Elementalist spell. Offensive spells use (INS + WLP) for the Magic Check.</p>",
+		"class": {
+			"value": "Elementalist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 10
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "elementalist",
+			"skillKey": "elemental_magic",
+			"maxSl": 10
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000098"
+}

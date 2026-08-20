@@ -1,0 +1,44 @@
+{
+	"name": "Low Profile",
+	"type": "skill",
+	"_id": "RCsk000000000063",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "low_profile",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (celebrity)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Build disguises that hide your identity for short stretches."
+		},
+		"description": "<p>Build disguises that hide your identity for short stretches. An in-person interaction running past a minute forces an Opposed (INS + WLP + SL) Check — lose and your identity is revealed.</p>",
+		"class": {
+			"value": "Celebrity"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "celebrity",
+			"skillKey": "low_profile",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000063"
+}

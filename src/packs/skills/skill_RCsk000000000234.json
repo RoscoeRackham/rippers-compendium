@@ -1,0 +1,44 @@
+{
+	"name": "Wildlife Expert",
+	"type": "skill",
+	"_id": "RCsk000000000234",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "wildlife_expert",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (slayer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you rest in the wilderness, ask the GM up to (SL) questions about creatures in the area, answered truthfully."
+		},
+		"description": "<p>When you rest in the wilderness, ask the GM up to (SL) questions about creatures in the area, answered truthfully.</p>",
+		"class": {
+			"value": "Slayer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "slayer",
+			"skillKey": "wildlife_expert",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000234"
+}

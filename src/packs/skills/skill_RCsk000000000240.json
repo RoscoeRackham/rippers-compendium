@@ -1,0 +1,44 @@
+{
+	"name": "Body of Aether",
+	"type": "skill",
+	"_id": "RCsk000000000240",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "body_of_aether",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (spiritist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Rituals cost (SL × 4) less MP, and shortfalls may be paid in HP — even to 0, at the price of Sacrificing yourself."
+		},
+		"description": "<p>Rituals cost (SL × 4) less MP, and shortfalls may be paid in HP — even to 0, at the price of Sacrificing yourself.</p>",
+		"class": {
+			"value": "Spiritist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "spiritist",
+			"skillKey": "body_of_aether",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000240"
+}

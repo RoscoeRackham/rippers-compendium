@@ -1,0 +1,44 @@
+{
+	"name": "Protective Strike",
+	"type": "heroic",
+	"_id": "RChr000000000113",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "protective_strike",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Guardian / Slayer"
+		},
+		"requirement": {
+			"value": "Guardian or Slayer mastery"
+		},
+		"description": "<p>When you hit with a melee attack, you may cover an ally as though you had taken the Guard action. None of Guard's other benefits apply.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "protective_strike",
+			"masteryClasses": [
+				"guardian",
+				"slayer"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000113"
+}

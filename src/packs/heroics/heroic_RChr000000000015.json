@@ -1,0 +1,47 @@
+{
+	"name": "Blood Rituals",
+	"type": "heroic",
+	"_id": "RChr000000000015",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "blood_rituals",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Butcher / Blackguard / Mutant"
+		},
+		"requirement": {
+			"value": "Butcher, Blackguard (Darkblade) or Mutant mastery + Vismagus"
+		},
+		"description": "<p>When you perform a Ritual you cannot fully afford, pay part of its Mind Point cost with Hit Points at 2 HP per 1 MP — never down to 0 HP. A Ritual paid for this way heals neither you nor any ally who supported its Magic Check (it works normally on any other target). Vismagus may be part-paid the same way, its other restrictions intact.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "blood_rituals",
+			"masteryClasses": [
+				"butcher",
+				"blackguard",
+				"mutant"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"vismagus"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000015"
+}

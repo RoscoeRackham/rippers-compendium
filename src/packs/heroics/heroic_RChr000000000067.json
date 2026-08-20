@@ -1,0 +1,44 @@
+{
+	"name": "Hunt Leader",
+	"type": "heroic",
+	"_id": "RChr000000000067",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "hunt_leader",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Slayer / Orator"
+		},
+		"requirement": {
+			"value": "Slayer AND Orator mastery — both, not either"
+		},
+		"description": "<p>Three clauses. With Lockdown and Condemn, you may use Lockdown when you successfully Condemn a creature. When you Encourage an ally, you may apply a bane oil to a weapon they have equipped as part of the same action (still paying the 2 IP). And when you Encourage an ally, you may use Know Thy Quarry for that ally's Checks until the start of your next turn.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "hunt_leader",
+			"masteryClasses": [
+				"slayer",
+				"orator"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000067"
+}

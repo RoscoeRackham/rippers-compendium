@@ -1,0 +1,44 @@
+{
+	"name": "Cultural Phenomenon",
+	"type": "skill",
+	"_id": "RCsk000000000061",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "cultural_phenomenon",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (celebrity)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After resting where you can reach a crowd — in person or through technology or magic — gain (SL + 1) Reputation Points, "
+		},
+		"description": "<p>After resting where you can reach a crowd — in person or through technology or magic — gain (SL + 1) Reputation Points, holding at most (SL + 3); start with 2 if taken at creation. In a non-conflict scene, spend 2 on meeting an NPC: they have heard of you, positively or negatively inclined — your choice which.</p>",
+		"class": {
+			"value": "Celebrity"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "celebrity",
+			"skillKey": "cultural_phenomenon",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000061"
+}

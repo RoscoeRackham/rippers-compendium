@@ -1,0 +1,44 @@
+{
+	"name": "Avid Seeker",
+	"type": "skill",
+	"_id": "RCsk000000000165",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "avid_seeker",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (naturalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Choose a Species Forte — never humanoid."
+		},
+		"description": "<p>Choose a Species Forte — never humanoid. Once per scene, create a Bond of admiration or inferiority toward a Forte creature whose presence or signs you are aware of: your Quarry, at +(SL) to track, locate, identify and Study. Absent Quarry: action + 1 Fabula Point learns its direction plus a free remote Study. If no Bond can form, the Species is not present and did not pass through.</p>",
+		"class": {
+			"value": "Naturalist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "naturalist",
+			"skillKey": "avid_seeker",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000165"
+}

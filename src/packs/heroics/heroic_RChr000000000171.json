@@ -1,0 +1,45 @@
+{
+	"name": "Whirling Throw",
+	"type": "heroic",
+	"_id": "RChr000000000171",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "whirling_throw",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Sharpshooter"
+		},
+		"requirement": {
+			"value": "Sharpshooter mastery + Barrage"
+		},
+		"description": "<p>Action during a conflict: a free attack with an equipped two-handed ranged thrown custom weapon, gaining multi (2) — still enhanceable to 3 by Barrage. If it hits, you may send the weapon spinning. At the start of your turn, if it is still spinning, it stops and you choose up to two: every enemy you can see loses 5 HP; or loses 5 MP; or suffers slow; or fill or erase 1 section of a Clock. HP and MP losses rise to 10 at level 30+. It stops spinning at once if you unequip it, attack with it again, or the scene ends. The Clock option is conflict Clocks only, settled in the Clock-effects sweep.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "whirling_throw",
+			"masteryClasses": [
+				"sharpshooter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"barrage"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000171"
+}

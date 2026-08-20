@@ -1,0 +1,44 @@
+{
+	"name": "Toll",
+	"type": "skill",
+	"_id": "RCsk000000000205",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "for_whom_the_bell_tolls",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (reaper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When your spell damages one or more enemies, spend 1 Grave Point and choose one: pick a damaged enemy — the spell deals "
+		},
+		"description": "<p>When your spell damages one or more enemies, spend 1 Grave Point and choose one: pick a damaged enemy — the spell deals extra damage to each damaged enemy equal to (SL + that enemy's status count); or every damaged enemy suffers shaken after the spell resolves.</p>",
+		"class": {
+			"value": "Reaper"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "reaper",
+			"skillKey": "for_whom_the_bell_tolls",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000205"
+}

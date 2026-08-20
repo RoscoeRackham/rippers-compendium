@@ -1,0 +1,44 @@
+{
+	"name": "Bodyguard",
+	"type": "skill",
+	"_id": "RCsk000000000134",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "bodyguard",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (guardian)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you Guard and cover an ally, they gain Resistance to all damage types until your next turn."
+		},
+		"description": "<p>When you Guard and cover an ally, they gain Resistance to all damage types until your next turn. Alternate: Agile Defender — armourless, shieldless; Protect refreshes on a miss and +(SL + 1) to both Defenses while protecting. Chosen permanently.</p>",
+		"class": {
+			"value": "Guardian"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "guardian",
+			"skillKey": "bodyguard",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000134"
+}

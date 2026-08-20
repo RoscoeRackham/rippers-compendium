@@ -1,0 +1,44 @@
+{
+	"name": "Team Player",
+	"type": "skill",
+	"_id": "RCsk000000000031",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "team_player",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (batman)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "A successful Support Check grants the leader +(SL) instead of the normal +1."
+		},
+		"description": "<p>A successful Support Check grants the leader +(SL) instead of the normal +1.</p>",
+		"class": {
+			"value": "Batman"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "batman",
+			"skillKey": "team_player",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000031"
+}

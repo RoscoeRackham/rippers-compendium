@@ -1,0 +1,45 @@
+{
+	"name": "Deep Connection",
+	"type": "heroic",
+	"_id": "RChr000000000030",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "deep_connection",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Blackguard / Sensitive / Spiritist"
+		},
+		"requirement": {
+			"value": "Blackguard, Sensitive or Spiritist mastery"
+		},
+		"description": "<p>At conflict start, choose an ally you hold a strength-3 Bond toward: you two are connected for the scene, and may pay each other's MP costs for spells, Skills and effects (never rituals). One connection per creature; it ends if either leaves, falls, or the Bond drops below 3.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "deep_connection",
+			"masteryClasses": [
+				"blackguard",
+				"sensitive",
+				"spiritist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000030"
+}

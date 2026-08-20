@@ -1,0 +1,45 @@
+{
+	"name": "Surprise Gift",
+	"type": "heroic",
+	"_id": "RChr000000000142",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "surprise_gift",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Confidence Man"
+		},
+		"requirement": {
+			"value": "Confidence Man mastery + Trick or Treat — \"You must have mastered this class and know Trick or Treat Skill\" (AzureProject Trickster doc p.3, verified 10 Aug 2026)"
+		},
+		"description": "<p>In Unmasked you roll twice and choose which result to apply. The printed version turns the skill into 2 IP for a guaranteed 40 damage, no roll, no defence, at will — it deletes the only thing that made the class distinct. Rolling twice keeps the promise (the trick usually lands the way you wanted) and keeps the gamble (it can still come up two bad results).</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "surprise_gift",
+			"masteryClasses": [
+				"confidence_man"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"trick_or_treat"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000142"
+}

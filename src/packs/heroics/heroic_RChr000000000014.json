@@ -1,0 +1,45 @@
+{
+	"name": "Blade Adept",
+	"type": "heroic",
+	"_id": "RChr000000000014",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "blade_adept",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Rogue / Prizefighter / Bounty Hunter"
+		},
+		"requirement": {
+			"value": "Rogue, Prizefighter (Weaponmaster) or Bounty Hunter mastery"
+		},
+		"description": "<p>With one or more melee dagger weapons equipped: +1 Defense and Magic Defense, and those weapons also count as brawling, sword and thrown for the purpose of Skills and effects. Your dagger-Category attacks may also target creatures melee cannot normally reach.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "blade_adept",
+			"masteryClasses": [
+				"rogue",
+				"prizefighter",
+				"bounty_hunter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000014"
+}

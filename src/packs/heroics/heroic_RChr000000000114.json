@@ -1,0 +1,41 @@
+{
+	"name": "Providence",
+	"type": "heroic",
+	"_id": "RChr000000000114",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "providence",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Any"
+		},
+		"requirement": {
+			"value": "You must have surrendered to a Villain and suffered a dire consequence"
+		},
+		"description": "<p>Up to once per conflict, when you or an ally you hold a Bond of affection, admiration or loyalty toward is targeted by a Villain's attack, spell or special rule, spend 1 Fabula Point: you and that ally avoid all of its damage, and its consequences do not apply to you. Describe how. \"Consequences\" means the action's own secondary effects — status effects, MP loss, and any Clock that action would move. It is a shield against the blow, not an eraser of story: what the Villain did still happened and everyone present still saw it. The Villain's entrance already ticked the Miasma Clock once for the whole of their conduct, so there is normally no exposure tick to block — except in a conflict that makes public exposure its own mechanic, which is exactly the case this is worth spending a Fabula Point on. Source is unplaytested by its own admission.</p><p><em>GM-gated: not available at character creation.</em></p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "providence",
+			"masteryClasses": [],
+			"classGate": "mastery",
+			"creationBanned": true,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000114"
+}

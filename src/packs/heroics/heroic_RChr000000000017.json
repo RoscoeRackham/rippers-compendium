@@ -1,0 +1,46 @@
+{
+	"name": "Brambleheart",
+	"type": "heroic",
+	"_id": "RChr000000000017",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "brambleheart",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Floralist / Blackguard"
+		},
+		"requirement": {
+			"value": "Floralist or Blackguard (Darkblade) mastery + Chloromancy"
+		},
+		"description": "<p>You are Resistant to light and poison damage. After you lose Hit Points, if you are in Crisis and a magiseed is in your garden, you may fill 1 section of your Growth Clock. And Shadow Strike may deal poison instead of dark (the type still cannot be changed), dealing extra damage equal to twice your filled sections. The third clause needs the Blackguard; the first two work on a pure Floralist, and the Crisis clause is one of the two sanctioned ways to fill the clock off-schedule.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "brambleheart",
+			"masteryClasses": [
+				"floralist",
+				"blackguard"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"chloromancy"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000017"
+}

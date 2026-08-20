@@ -1,0 +1,44 @@
+{
+	"name": "Quick Summoning",
+	"type": "skill",
+	"_id": "RCsk000000000018",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "quick_summoning",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (arcanist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When summoning on your turn, choose up to two: reduce the MP cost by (SL × 5); and/or perform the pulse immediately."
+		},
+		"description": "<p>When summoning on your turn, choose up to two: reduce the MP cost by (SL × 5); and/or perform the pulse immediately. One option locks the Arcanum in until your next turn; both forfeit its dismiss effect for this summoning.</p>",
+		"class": {
+			"value": "Arcanist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "arcanist",
+			"skillKey": "quick_summoning",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000018"
+}

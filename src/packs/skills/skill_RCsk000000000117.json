@@ -1,0 +1,44 @@
+{
+	"name": "Parry Stance",
+	"type": "skill",
+	"_id": "RCsk000000000117",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "parry_stance",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (fencer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action + 5 MP to enter."
+		},
+		"description": "<p>Action + 5 MP to enter. While in it, Defense and Magic Defense both become (9 + SL) — (10 + SL) at level 20+, (11 + SL) at 40+; the flat value replaces the score and nothing may be added to it. On leaving, choose one: a free attack with an equipped weapon, or a single-target spell costing (SL × 5) MP or less — High Roll treated as 0 either way.</p>",
+		"class": {
+			"value": "Fencer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "fencer",
+			"skillKey": "parry_stance",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000117"
+}

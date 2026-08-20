@@ -1,0 +1,44 @@
+{
+	"name": "Arcane Regeneration",
+	"type": "skill",
+	"_id": "RCsk000000000016",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "arcane_regeneration",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (arcanist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After you willingly dismiss a merged Arcanum, if you are in Crisis: you and every ally present recover (SL × 5) HP."
+		},
+		"description": "<p>After you willingly dismiss a merged Arcanum, if you are in Crisis: you and every ally present recover (SL × 5) HP.</p>",
+		"class": {
+			"value": "Arcanist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 6
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "arcanist",
+			"skillKey": "arcane_regeneration",
+			"maxSl": 6
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000016"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Bone Crusher",
+	"type": "skill",
+	"_id": "RCsk000000000192",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "bone_crusher",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (prizefighter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "On a damaging melee hit, trade all its damage for one option: dazed on each target; weak on each target; or each target "
+		},
+		"description": "<p>On a damaging melee hit, trade all its damage for one option: dazed on each target; weak on each target; or each target loses (SL × 10) MP.</p>",
+		"class": {
+			"value": "Prizefighter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "prizefighter",
+			"skillKey": "bone_crusher",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000192"
+}

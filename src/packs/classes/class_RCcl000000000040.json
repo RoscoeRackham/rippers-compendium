@@ -1,0 +1,92 @@
+{
+	"name": "Rogue",
+	"type": "class",
+	"_id": "RCcl000000000040",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "rogue",
+		"source": {
+			"value": "Rippers Unmasked — classes (rogue)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": ""
+		},
+		"description": "<h2>ROGUE SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000207]{Cheap Shot} <strong>【Max SL 5】</strong></p><p>A single-target hit on a creature suffering statuses may deal +(SL + number of its statuses) damage.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000208]{Dodge} <strong>【Max SL 3】</strong></p><p>With no shield and no martial armour equipped, +(SL) Defense.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000209]{High Speed} <strong>【Max SL 3】</strong></p><p>Start of conflict, 10 MP: before round one, a free attack or a free Hinder/Objective action, with +(SL) to its Checks.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000210]{Soul Steal} <strong>【Max SL 5】</strong></p><p>Action: (DEX + WLP) Check (+SL) vs an enemy's Magic Defense. Success: a soldier yields (SL) IP; an elite or champion yields a soul treasure worth up to (level × 30, ×50 for Villains). Once per creature. Takes the hoplosphere drop — one body, one clot.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000211]{Bad Reputation} <strong>【Max SL 4】</strong></p><p>When two or more NPCs instigate trouble, up to (SL) soldier-rank creatures hesitate — you gain an opportunity, and in a conflict they cannot attack or cast offensively on their first turn. Creatures 5+ levels above you are immune.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000212]{Last-Second Save} <strong>【Max SL 5】</strong></p><p>When you or an ally Checks to move a Clock and quick thinking could help: spend up to (SL × 10) MP, +1 to the Result per 10 MP — enough to turn failure into success or buy extra sections.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "rogue",
+			"guiseEligible": false,
+			"innateOnly": false,
+			"printedName": null
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000040"
+}

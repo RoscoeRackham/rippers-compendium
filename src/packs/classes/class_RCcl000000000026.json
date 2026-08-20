@@ -1,0 +1,92 @@
+{
+	"name": "Guardian",
+	"type": "class",
+	"_id": "RCcl000000000026",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "guardian",
+		"source": {
+			"value": "Rippers Unmasked — classes (guardian)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": ""
+		},
+		"description": "<h2>GUARDIAN SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000134]{Bodyguard} <strong>【Max SL 1】</strong></p><p>When you Guard and cover an ally, they gain Resistance to all damage types until your next turn. Alternate: Agile Defender — armourless, shieldless; Protect refreshes on a miss and +(SL + 1) to both Defenses while protecting. Chosen permanently.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000135]{Defensive Mastery} <strong>【Max SL 5】</strong></p><p>With a shield or martial armour equipped, all damage you suffer is reduced by (SL), before Affinities.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000136]{Dual Shieldbearer} <strong>【Max SL 1】</strong></p><p>A shield may fill your main hand. With two shields: both items' benefits, treated together as Twin Shields — (MIG + MIG), (HR + 5) physical, +Defensive Mastery SL damage.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000137]{Fortress} <strong>【Max SL 5】</strong></p><p>Permanently +(SL × 3) max HP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000138]{Protect} <strong>【Max SL 1】</strong></p><p>Take another creature's place against an attack, spell or danger — declared before or after its Checks. If it already hit you, it hits you twice. In conflict, once until the start of your next turn.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000139]{Long Watch} <strong>【Max SL 5】</strong></p><p>Rest in a populated area without recovering HP/MP to keep watch: identify the area's greatest threat and a clue to its current work, and ward a landmark.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000140]{Mercy} <strong>【Max SL 1】</strong></p><p>Once per session, when you risk yourself for a non-PC you hold a Bond of hatred or mistrust toward: gain 1 Fabula Point, then immediately add or change one emotion in that Bond.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "guardian",
+			"guiseEligible": false,
+			"innateOnly": false,
+			"printedName": null
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000026"
+}

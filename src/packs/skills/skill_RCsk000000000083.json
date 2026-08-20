@@ -1,0 +1,44 @@
+{
+	"name": "Fey's Blessing",
+	"type": "skill",
+	"_id": "RCsk000000000083",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "feys_blessing",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (cunning_folk)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action + 10 MP: offer a blessing to your allies — never yourself — each freely refusing or accepting."
+		},
+		"description": "<p>Action + 10 MP: offer a blessing to your allies — never yourself — each freely refusing or accepting. Each accepter gains +(SL × 3) HP/MP recovery and −(SL) damage taken until scene's end, and owes a gift you name, due before their next rest — or the blessing turns curse: −(SL × 3) recovery and +(SL) damage taken until that rest.</p>",
+		"class": {
+			"value": "Cunning Folk"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "cunning_folk",
+			"skillKey": "feys_blessing",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000083"
+}

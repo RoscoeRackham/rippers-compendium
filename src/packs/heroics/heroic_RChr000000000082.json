@@ -1,0 +1,45 @@
+{
+	"name": "Knuckle Sandwich",
+	"type": "heroic",
+	"_id": "RChr000000000082",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "knuckle_sandwich",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Cook"
+		},
+		"requirement": {
+			"value": "Cook mastery + Knife and Fork"
+		},
+		"description": "<p>Cooking's free attack, on a delicacy of at most 2 ingredients: gains multi (2), and if the delicacy has no damaging effects, +5 damage.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "knuckle_sandwich",
+			"masteryClasses": [
+				"cook"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"knife_and_fork"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000082"
+}

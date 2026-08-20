@@ -1,0 +1,44 @@
+{
+	"name": "Dark Blood",
+	"type": "skill",
+	"_id": "RCsk000000000033",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "dark_blood",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (blackguard)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "While in Crisis, Resistance to dark and poison."
+		},
+		"description": "<p>While in Crisis, Resistance to dark and poison.</p>",
+		"class": {
+			"value": "Blackguard"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "blackguard",
+			"skillKey": "dark_blood",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000033"
+}

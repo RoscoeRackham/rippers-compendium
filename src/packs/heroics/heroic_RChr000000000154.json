@@ -1,0 +1,45 @@
+{
+	"name": "Thorough Analysis",
+	"type": "heroic",
+	"_id": "RChr000000000154",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "thorough_analysis",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Archivist"
+		},
+		"requirement": {
+			"value": "Archivist mastery + Quick Assessment"
+		},
+		"description": "<p>At the start of your turn in a conflict, choose one: reveal one of a creature's Traits, or name a damage type and reveal its Affinity. Inherits the pressure-point clause — one free reveal per turn, forever. The discovery half of the game getting its capstone.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "thorough_analysis",
+			"masteryClasses": [
+				"archivist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"quick_assessment"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000154"
+}

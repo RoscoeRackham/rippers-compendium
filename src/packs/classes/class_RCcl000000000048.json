@@ -1,0 +1,92 @@
+{
+	"name": "Traveller",
+	"type": "class",
+	"_id": "RCcl000000000048",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "traveller",
+		"source": {
+			"value": "Rippers Unmasked — classes (traveller)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": ""
+		},
+		"description": "<p><em>Built on Project FU's <strong>Wayfarer</strong>.</em></p><h2>TRAVELLER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000250]{Resourceful} <strong>【Max SL 4】</strong></p><p>Regain (SL) Inventory Points after each travel roll.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000251]{Tavern Talk} <strong>【Max SL 3】</strong></p><p>Resting at an inn or tavern: ask the GM up to (SL) questions about the area and its people, answered truthfully.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000252]{Treasure Hunter} <strong>【Max SL 2】</strong></p><p>On the world map, your group makes a discovery on a travel roll of (SL + 1) or lower, instead of only on a 1.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000253]{Well-Traveled} <strong>【Max SL 1】</strong></p><p>Your travel rolls use a die one size smaller (min d6). Multiple holders don't stack.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000254]{Refreshing Vista} <strong>【Max SL 5】</strong></p><p>Once per session, at a hidden place of breathtaking beauty or revelation 5+ travel days from anywhere: choose up to (SL) distinct one-time benefits — full HP for one character, full MP for another, and kin.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "traveller",
+			"guiseEligible": false,
+			"innateOnly": false,
+			"printedName": "Wayfarer"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000048"
+}

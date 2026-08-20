@@ -1,0 +1,44 @@
+{
+	"name": "Words of Light",
+	"type": "heroic",
+	"_id": "RChr000000000173",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "words_of_light",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Orator / Spiritist"
+		},
+		"requirement": {
+			"value": "Orator or Spiritist mastery"
+		},
+		"description": "<p>An ally's damage becomes light and ignores Resistances.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "words_of_light",
+			"masteryClasses": [
+				"orator",
+				"spiritist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000173"
+}

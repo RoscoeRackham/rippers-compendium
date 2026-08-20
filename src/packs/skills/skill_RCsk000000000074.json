@@ -1,0 +1,44 @@
+{
+	"name": "Knife and Fork",
+	"type": "skill",
+	"_id": "RCsk000000000074",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "knife_and_fork",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (cook)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Cooking's free attack may deal real damage (High Roll treated as 0) if the delicacy used at most 2 ingredients."
+		},
+		"description": "<p>Cooking's free attack may deal real damage (High Roll treated as 0) if the delicacy used at most 2 ingredients.</p>",
+		"class": {
+			"value": "Cook"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "cook",
+			"skillKey": "knife_and_fork",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000074"
+}

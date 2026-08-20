@@ -1,0 +1,44 @@
+{
+	"name": "Clarity",
+	"type": "skill",
+	"_id": "RCsk000000000001",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "clarity",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (adept)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action: destroy a pair of Motes for one cumulative benefit — Immunity to a chosen status; attacks/spells of a chosen dam"
+		},
+		"description": "<p>Action: destroy a pair of Motes for one cumulative benefit — Immunity to a chosen status; attacks/spells of a chosen damage type ignore Resistances; or Resistance to a chosen type. Up to (SL) benefits active, no repeats.</p>",
+		"class": {
+			"value": "Adept"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "adept",
+			"skillKey": "clarity",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000001"
+}

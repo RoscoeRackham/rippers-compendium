@@ -1,0 +1,44 @@
+{
+	"name": "Vampiric Elation",
+	"type": "heroic",
+	"_id": "RChr000000000162",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "vampiric_elation",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Sensitive / Mutant"
+		},
+		"requirement": {
+			"value": "Sensitive or Mutant mastery"
+		},
+		"description": "<p>Biophagy / Life Transference healing +10, and the target gains temporary immunity to one of poisoned/slow/weak, or temporary Resistance to physical and poison, until your next turn.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "vampiric_elation",
+			"masteryClasses": [
+				"sensitive",
+				"mutant"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000162"
+}

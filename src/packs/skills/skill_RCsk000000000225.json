@@ -1,0 +1,44 @@
+{
+	"name": "Magic of the Craft",
+	"type": "skill",
+	"_id": "RCsk000000000225",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "magic_of_the_craft",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sin_eater)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Each level learns one Sin-Eater spell."
+		},
+		"description": "<p>Each level learns one Sin-Eater spell. Offensive Sin-Eater spells use (MIG + WLP); Sin-Eater spells cost Hit Points instead of MP, and anything that references, changes or ignores MP costs applies to their HP costs instead.</p>",
+		"class": {
+			"value": "Sin-Eater"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 10
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sin_eater",
+			"skillKey": "magic_of_the_craft",
+			"maxSl": 10
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000225"
+}

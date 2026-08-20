@@ -1,0 +1,45 @@
+{
+	"name": "Greater Akromorphosis",
+	"type": "heroic",
+	"_id": "RChr000000000056",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "greater_akromorphosis",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Mutant"
+		},
+		"requirement": {
+			"value": "Mutant mastery + Akromorphosis"
+		},
+		"description": "<p>A benefit keyed to your unarmed strikes' current Category, and multiple Categories stack their benefits: arcane, brawling, dagger or thrown reads target Defense off their Insight die · bow or sword adds 5 damage on multi-target attacks · firearm or heavy adds 5 against constructs and the shield-and-armour-clad · flail or spear grants +2 Defense and reach into the air.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "greater_akromorphosis",
+			"masteryClasses": [
+				"mutant"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"akromorphosis"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000056"
+}

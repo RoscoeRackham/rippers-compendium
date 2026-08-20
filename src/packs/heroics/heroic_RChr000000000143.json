@@ -1,0 +1,45 @@
+{
+	"name": "Swirling Swarm",
+	"type": "heroic",
+	"_id": "RChr000000000143",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "swirling_swarm",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Dancer / Fury / Sharpshooter"
+		},
+		"requirement": {
+			"value": "Dancer, Fury or Sharpshooter mastery"
+		},
+		"description": "<p>Ranged attacks with thrown weapons, with no martial armor and no shields equipped, earn 1 Momentum Point to a maximum of 5, and your thrown attacks deal extra damage equal to your current Momentum. When a creature hits you with an attack against Defense you must spend all your Momentum and add an equal amount to your Defense against that attack — which can turn the hit into a miss. Momentum is lost at the end of each scene, or the moment you equip a shield or martial armor. A defence you cannot decline.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "swirling_swarm",
+			"masteryClasses": [
+				"dancer",
+				"fury",
+				"sharpshooter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000143"
+}

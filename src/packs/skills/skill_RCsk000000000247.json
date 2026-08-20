@@ -1,0 +1,44 @@
+{
+	"name": "Personal Touch",
+	"type": "skill",
+	"_id": "RCsk000000000247",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "personal_touch",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (symbolist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When a creature you can see bearing one of your symbols suffers damage or recovers HP/MP, you may have it suffer (SL) ex"
+		},
+		"description": "<p>When a creature you can see bearing one of your symbols suffers damage or recovers HP/MP, you may have it suffer (SL) extra damage or recover (SL) more, respectively.</p>",
+		"class": {
+			"value": "Symbolist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "symbolist",
+			"skillKey": "personal_touch",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000247"
+}

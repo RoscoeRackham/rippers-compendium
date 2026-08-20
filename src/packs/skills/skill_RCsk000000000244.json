@@ -1,0 +1,44 @@
+{
+	"name": "A Hero's Purpose",
+	"type": "skill",
+	"_id": "RCsk000000000244",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "a_heros_purpose",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (stalwart)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per session, gain (SL) Fabula Points for saving NPCs from danger, completing a quest for them, or being present whe"
+		},
+		"description": "<p>Once per session, gain (SL) Fabula Points for saving NPCs from danger, completing a quest for them, or being present when a Villain runs out of Ultima Points. These Fabula Points do not tick the Miasma Clock.</p>",
+		"class": {
+			"value": "Stalwart"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "stalwart",
+			"skillKey": "a_heros_purpose",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000244"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Frequent Guest",
+	"type": "skill",
+	"_id": "RCsk000000000081",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "frequent_guest",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (courier)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Travel and rest services cost (SL × 10) zenit less for you and your group, to a minimum of half price."
+		},
+		"description": "<p>Travel and rest services cost (SL × 10) zenit less for you and your group, to a minimum of half price. After a rest or travel roll using such a paid service, +(SL) on your next Check. Counts toward the two-effect cap.</p>",
+		"class": {
+			"value": "Courier"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "courier",
+			"skillKey": "frequent_guest",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000081"
+}

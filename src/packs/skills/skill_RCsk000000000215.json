@@ -1,0 +1,44 @@
+{
+	"name": "Navigator",
+	"type": "skill",
+	"_id": "RCsk000000000215",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "navigator",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sensitive)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Telepathy with any conscious ally within the same district; you count as hearing each other for Skills and effects."
+		},
+		"description": "<p>Telepathy with any conscious ally within the same district; you count as hearing each other for Skills and effects. Ritualism for Aether purposes only — transport, information and tracking within the Aether.</p>",
+		"class": {
+			"value": "Sensitive"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sensitive",
+			"skillKey": "navigator",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000215"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Feral Speech",
+	"type": "skill",
+	"_id": "RCsk000000000261",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "feral_speech",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (vivisectionist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "You can always communicate with beasts, monsters and plants."
+		},
+		"description": "<p>You can always communicate with beasts, monsters and plants.</p>",
+		"class": {
+			"value": "Vivisectionist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "vivisectionist",
+			"skillKey": "feral_speech",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000261"
+}

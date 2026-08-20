@@ -1,0 +1,44 @@
+{
+	"name": "Gleaning",
+	"type": "heroic",
+	"_id": "RChr000000000054",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "gleaning",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Entropist / Reaper"
+		},
+		"requirement": {
+			"value": "Entropist or Reaper (Necromancer) mastery + both the Drain Spirit and Drain Vigor spells"
+		},
+		"description": "<p>When you cast Drain Spirit or Drain Vigor you recover the full MP or HP the target lost instead of half, and Drain Spirit's MP loss increases by 5 at level 20+ and by 10 at level 40+. This is an Entropist skill with the Reaper bolted on: both Drain spells are Entropist spells and the Reaper's own list contains neither, so a single-class Reaper cannot use it — what survives for them alone is Raising. Say it at build time.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "gleaning",
+			"masteryClasses": [
+				"entropist",
+				"reaper"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000054"
+}

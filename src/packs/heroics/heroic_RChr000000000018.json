@@ -1,0 +1,49 @@
+{
+	"name": "Brave Bash",
+	"type": "heroic",
+	"_id": "RChr000000000018",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "brave_bash",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Captain / Fury / Guardian / Prizefighter / Bounty Hunter"
+		},
+		"requirement": {
+			"value": "Captain (Commander), Fury, Guardian, Prizefighter (Weaponmaster) or Bounty Hunter mastery + Bone Crusher (the Pilot route is cut)"
+		},
+		"description": "<p>When Bone Crusher targets only one creature and you have a shield equipped, challenge that creature until the end of your next turn: it must include you among the targets of its attacks and offensive spells, if able. Once per turn — including other creatures' turns — you deal 5 extra damage to it with a free attack using a one-handed melee weapon, or a custom dagger or sword. The challenge ends if someone else challenges it, or if you challenge another.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "brave_bash",
+			"masteryClasses": [
+				"captain",
+				"fury",
+				"guardian",
+				"prizefighter",
+				"bounty_hunter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"bone_crusher"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000018"
+}

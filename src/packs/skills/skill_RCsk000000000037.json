@@ -1,0 +1,44 @@
+{
+	"name": "Heart's Desire",
+	"type": "skill",
+	"_id": "RCsk000000000037",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "hearts_desire",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (blackguard)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "You know the direction and general distance to each character you have a Bond toward, and gain +(SL) to Checks to gather"
+		},
+		"description": "<p>You know the direction and general distance to each character you have a Bond toward, and gain +(SL) to Checks to gather information about them or close the distance.</p>",
+		"class": {
+			"value": "Blackguard"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "blackguard",
+			"skillKey": "hearts_desire",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000037"
+}

@@ -1,0 +1,45 @@
+{
+	"name": "Powerful Shot",
+	"type": "heroic",
+	"_id": "RChr000000000109",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "powerful_shot",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Sharpshooter / Naturalist / Slayer"
+		},
+		"requirement": {
+			"value": "Sharpshooter, Naturalist (Hunter) or Slayer mastery"
+		},
+		"description": "<p>Your ranged attacks deal 5 extra damage — 10 at level 40 or higher. Level-up only.</p><p><em>GM-gated: not available at character creation.</em></p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "powerful_shot",
+			"masteryClasses": [
+				"sharpshooter",
+				"naturalist",
+				"slayer"
+			],
+			"classGate": "mastery",
+			"creationBanned": true,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000109"
+}

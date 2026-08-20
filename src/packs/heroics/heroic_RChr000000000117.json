@@ -1,0 +1,45 @@
+{
+	"name": "Punisher Stance",
+	"type": "heroic",
+	"_id": "RChr000000000117",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "punisher_stance",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Prizefighter"
+		},
+		"requirement": {
+			"value": "Prizefighter mastery"
+		},
+		"description": "<p>On Guard (if you did not Guard last turn), choose ranged attacks or offensive spells; until your next turn: Counterattack triggers on all melee hits and misses regardless of parity, its free attacks deal +5 when the trigger hit you, and it also triggers on your chosen category. The heroic that must never ride a Guise distilled from something that ran.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "punisher_stance",
+			"masteryClasses": [
+				"prizefighter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"counterattack"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000117"
+}

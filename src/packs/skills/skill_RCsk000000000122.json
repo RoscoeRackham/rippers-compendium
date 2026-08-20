@@ -1,0 +1,44 @@
+{
+	"name": "Chloromancy",
+	"type": "skill",
+	"_id": "RCsk000000000122",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "chloromancy",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (floralist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Each level discovers one magiseed type."
+		},
+		"description": "<p>Each level discovers one magiseed type. In a conflict, if your garden is empty: action + 20 MP plants a magiseed you have discovered.</p>",
+		"class": {
+			"value": "Floralist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 10
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "floralist",
+			"skillKey": "chloromancy",
+			"maxSl": 10
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000122"
+}

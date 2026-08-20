@@ -1,0 +1,43 @@
+{
+	"name": "Clean Slate",
+	"type": "heroic",
+	"_id": "RChr000000000025",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "clean_slate",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Symbolist"
+		},
+		"requirement": {
+			"value": "Symbolist mastery"
+		},
+		"description": "<p>Use an action and spend up to 30 MP, choosing one creature you can see per 5 MP spent, up to six. Each recovers from all status effects and is no longer affected by any spell with a duration of Scene. Six-target full cleanse for 30 MP — and it strips the party's own Scene-duration buffs too. The single best answer on the roster to the Apothecary's multi-type Affliction.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "clean_slate",
+			"masteryClasses": [
+				"symbolist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000025"
+}

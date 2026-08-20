@@ -1,0 +1,44 @@
+{
+	"name": "End of the Line",
+	"type": "skill",
+	"_id": "RCsk000000000266",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "end_of_the_line",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (witness)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you are blocked from escaping a conflict scene — by barrier, by danger, or by an obligation of your own Identity or"
+		},
+		"description": "<p>When you are blocked from escaping a conflict scene — by barrier, by danger, or by an obligation of your own Identity or Theme — you deal +(SL) damage and gain +(SL) to Checks made as part of the Hinder action.</p>",
+		"class": {
+			"value": "Witness"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "witness",
+			"skillKey": "end_of_the_line",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000266"
+}

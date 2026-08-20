@@ -1,0 +1,92 @@
+{
+	"name": "Apothecary",
+	"type": "class",
+	"_id": "RCcl000000000003",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "apothecary",
+		"source": {
+			"value": "Rippers Unmasked — classes (apothecary)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Also known as Alchemist, Poisoner."
+		},
+		"description": "<p><em>Built on Project FU's <strong>Witch</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Mind Points — activated.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>APOTHECARY SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000010]{Afflict} <strong>【Max SL 5】</strong></p><p>Choose (SL) damage types when you take the Skill — fixed for the character's life. Action: spend up to (SL × 10) MP; every 10 MP applies Affliction of one chosen type to a creature you can see.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000011]{Regenerate} <strong>【Max SL 3】</strong></p><p>Action: spend 5 MP per target to grant Regeneration to up to (SL) creatures you can see.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000012]{Vaccine} <strong>【Max SL 3】</strong></p><p>Free action on your turn, 1 IP: remove (SL) status conditions from one creature you can see, and lock each removed condition out for the rest of the conflict scene.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000013]{Infectious} <strong>【Max SL 1】</strong></p><p>Action: a second creature you can see suffers one status condition the target is already suffering. A copied Affliction carries every damage type of the original.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000014]{Symptomatic} <strong>【Max SL 1】</strong></p><p>Action: one Afflicted target immediately takes 10 damage per type in its Affliction, or any number of Regenerating creatures immediately recover 10 HP. Neither consumes the condition.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": true
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "apothecary",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": "Witch"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000003"
+}

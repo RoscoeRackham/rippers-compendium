@@ -1,0 +1,44 @@
+{
+	"name": "Hero's Right Hand",
+	"type": "skill",
+	"_id": "RCsk000000000028",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "heros_right_hand",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (batman)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After a creature you hold a Bond of admiration toward suffers status effects, spend 1 Fabula Point: they recover from an"
+		},
+		"description": "<p>After a creature you hold a Bond of admiration toward suffers status effects, spend 1 Fabula Point: they recover from any you choose that you are not also suffering — and you suffer them instead. When a Bond-of-inferiority creature rolls a fumble, recover from one status effect.</p>",
+		"class": {
+			"value": "Batman"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "batman",
+			"skillKey": "heros_right_hand",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000028"
+}

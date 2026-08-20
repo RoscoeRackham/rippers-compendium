@@ -1,0 +1,43 @@
+{
+	"name": "Thaumaturge",
+	"type": "heroic",
+	"_id": "RChr000000000147",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "thaumaturge",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Spiritist"
+		},
+		"requirement": {
+			"value": "Spiritist mastery"
+		},
+		"description": "<p>Your equipped brawling and dagger weapons also count as arcane. Action: single-target free attack with an arcane weapon, High Roll 0, then a rider resolves (see print).</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "thaumaturge",
+			"masteryClasses": [
+				"spiritist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000147"
+}

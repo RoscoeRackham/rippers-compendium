@@ -1,0 +1,45 @@
+{
+	"name": "Extra Tools",
+	"type": "heroic",
+	"_id": "RChr000000000046",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "extra_tools",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Bounty Hunter"
+		},
+		"requirement": {
+			"value": "Bounty Hunter mastery + Hunter's Tools"
+		},
+		"description": "<p>Learn two more tools from the Hunter's Tools list — a maxed kit goes from 10 of 28 to 12 — and every tool with a target of \"Self\" now targets \"Yourself or an ally\". That second clause is the real heroic: Steel Skin, Immune System Enhancer, Immunity Serum, Stimulant and Medpack all become things you hand to somebody else. It does not combine with Army of One — Extra Tools changes who you may target, Army of One changes how many, and they stay separate. Adrenaline Shot works as printed on yourself or, through this, an ally: the Crisis it manufactures is real for everything keyed to Crisis status (F10). Carve-outs are per-effect, only where Crisis at full health would be degenerate — Into the Otherworld is gated on actual current HP, and is so far the only one.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "extra_tools",
+			"masteryClasses": [
+				"bounty_hunter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"hunters_tools"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000046"
+}

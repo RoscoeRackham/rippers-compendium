@@ -1,0 +1,44 @@
+{
+	"name": "Magical Artillery",
+	"type": "skill",
+	"_id": "RCsk000000000100",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "magical_artillery",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (elementalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Offensive spells cast with an arcane weapon equipped gain +(SL × 2) to the Magic Check."
+		},
+		"description": "<p>Offensive spells cast with an arcane weapon equipped gain +(SL × 2) to the Magic Check.</p>",
+		"class": {
+			"value": "Elementalist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "elementalist",
+			"skillKey": "magical_artillery",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000100"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Endless Supply",
+	"type": "skill",
+	"_id": "RCsk000000000201",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "endless_supply",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (proprietor)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per conflict scene, take the Inventory action to restore up to 2 IP, divided between up to two creatures including "
+		},
+		"description": "<p>Once per conflict scene, take the Inventory action to restore up to 2 IP, divided between up to two creatures including yourself.</p>",
+		"class": {
+			"value": "Proprietor"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "proprietor",
+			"skillKey": "endless_supply",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000201"
+}

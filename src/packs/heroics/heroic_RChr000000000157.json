@@ -1,0 +1,47 @@
+{
+	"name": "Treasure Fiend",
+	"type": "heroic",
+	"_id": "RChr000000000157",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "treasure_fiend",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Antiquarian / Traveller"
+		},
+		"requirement": {
+			"value": "Antiquarian (Dungeoneer) or Traveller (Wayfarer) mastery + Treasure Hunter and Treasure Magnet"
+		},
+		"description": "<p>When a travel or encounter roll produces a Danger, spend 1 Fabula Point to make a Discovery at the same time — interwoven with the Danger or one after the other, the GM chooses.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "treasure_fiend",
+			"masteryClasses": [
+				"antiquarian",
+				"traveller"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"treasure_hunter",
+				"treasure_magnet"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000157"
+}

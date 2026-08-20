@@ -1,0 +1,44 @@
+{
+	"name": "Children of the Night",
+	"type": "skill",
+	"_id": "RCsk000000000177",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "children_of_the_night",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (parasite)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Communicate with beast, demon and undead creatures."
+		},
+		"description": "<p>Communicate with beast, demon and undead creatures. A mindless undead can be read for whether it is commanded, and what its orders are.</p>",
+		"class": {
+			"value": "Parasite"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "parasite",
+			"skillKey": "children_of_the_night",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000177"
+}

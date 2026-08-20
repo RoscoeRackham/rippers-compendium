@@ -1,0 +1,44 @@
+{
+	"name": "Secret Formula",
+	"type": "skill",
+	"_id": "RCsk000000000107",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "secret_formula",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (engineer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Your restorative magispheres and potions restore (SL × 5) more HP/MP; your elemental shards, magispheres and potions dea"
+		},
+		"description": "<p>Your restorative magispheres and potions restore (SL × 5) more HP/MP; your elemental shards, magispheres and potions deal (SL) extra damage.</p>",
+		"class": {
+			"value": "Engineer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "engineer",
+			"skillKey": "secret_formula",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000107"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Tavern Talk",
+	"type": "skill",
+	"_id": "RCsk000000000251",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "tavern_talk",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (traveller)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Resting at an inn or tavern: ask the GM up to (SL) questions about the area and its people, answered truthfully."
+		},
+		"description": "<p>Resting at an inn or tavern: ask the GM up to (SL) questions about the area and its people, answered truthfully.</p>",
+		"class": {
+			"value": "Traveller"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "traveller",
+			"skillKey": "tavern_talk",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000251"
+}

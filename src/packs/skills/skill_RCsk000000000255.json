@@ -1,0 +1,44 @@
+{
+	"name": "The Life Well",
+	"type": "skill",
+	"_id": "RCsk000000000255",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "the_life_well",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (vampyre)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "The Well caps at your Crisis score, empties at every rest, and pays any Skill that spends HP."
+		},
+		"description": "<p>The Well caps at your Crisis score, empties at every rest, and pays any Skill that spends HP. Fill it by being overhealed (spend MP equal to half the excess) — or by feeding: an interlude, never a conflict action; a willing donor spends the HP and marks their Bond toward you, a stranger fills it free and ticks that district's Miasma Clock. Spend it: once per turn, soak damage on you or another before it lands; add half-spent-HP extra damage on a successful attack or offensive spell; or an action heals you or an ally for half the HP spent.</p>",
+		"class": {
+			"value": "Vampyre"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "vampyre",
+			"skillKey": "the_life_well",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000255"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Points of Light",
+	"type": "skill",
+	"_id": "RCsk000000000116",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "points_of_light",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (entropist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Settlements you rest in become points of light: speak with familiar people across any of them at any distance, and the g"
+		},
+		"description": "<p>Settlements you rest in become points of light: speak with familiar people across any of them at any distance, and the group's costs to rest, resupply IP or secure lodging fall while inside one.</p>",
+		"class": {
+			"value": "Entropist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 8
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "entropist",
+			"skillKey": "points_of_light",
+			"maxSl": 8
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000116"
+}

@@ -1,0 +1,92 @@
+{
+	"name": "Physician",
+	"type": "class",
+	"_id": "RCcl000000000036",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "physician",
+		"source": {
+			"value": "Rippers Unmasked — classes (physician)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Also known as Surgeon, House-Surgeon, Nurse."
+		},
+		"description": "<h5>FREE BENEFITS</h5><ul><li>increased maximum Inventory Points — activated.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>PHYSICIAN SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000186]{Doctorate} <strong>【Max SL 1】</strong></p><p>Perform Medical Procedures: ritual mechanics on a Medical Check — (DEX + INS) or (INS + INS) — costed in zenit or IP at the GM's call. Minor (100z / 3 IP, DL 7) through Extreme (800z / 6 IP, DL 16): a set dislocation up to transplants and cures. The zenit is the practitioner's cost; a client's bill is the fee schedule (economy pass §1).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000187]{Pharmaceuticals} <strong>【Max SL 5】</strong></p><p>Each level stocks two catalogue entries — potions, elixirs and the period-renamed preparations (Sal Volatile, Liniment, Coca Elixir, Quinine Wine, Carbolic Preparation, Steadying Drops, Antitoxin…), created and used via the Inventory action. Vinum Ferri prints a duplicated effect — named, unusable until errata.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000188]{Drug Synthesis} <strong>【Max SL 3】</strong></p><p>When you create a potion, combine it with up to (SL) Pharmaceuticals; the result carries all component effects and all component IP costs, plus any listed synergy.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000189]{Emergency Aid} <strong>【Max SL 5】</strong></p><p>When your item or spell restores HP and/or MP to a target in Crisis, they recover +(SL × 5).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000190]{Organized Pharmacy} <strong>【Max SL 3】</strong></p><p>Carry +(SL × 2) IP, ring-fenced for Pharmaceuticals and Drug Synthesis items; taken at creation, they arrive stocked. The satchel and its current stock ride the Guise. Capacity, not supply — refills cost 10z a point.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": true
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "physician",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": null
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000036"
+}

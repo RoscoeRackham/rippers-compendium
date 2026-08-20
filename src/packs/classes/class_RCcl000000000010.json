@@ -1,0 +1,92 @@
+{
+	"name": "Captain",
+	"type": "class",
+	"_id": "RCcl000000000010",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "captain",
+		"source": {
+			"value": "Rippers Unmasked — classes (captain)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Also known as Colonel, Strategist."
+		},
+		"description": "<p><em>Built on Project FU's <strong>Commander</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Hit Points — activated.</li><li>martial melee proficiency — activated.</li><li>martial ranged proficiency — activated.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>CAPTAIN SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000049]{Queen's Gambit} <strong>【Max SL 6】</strong></p><p>Action: free attack with an equipped weapon, High Roll 0. After it resolves, choose one: an ally who can hear you recovers (5 + SL × 5) HP, or use Bishop's Edict, Charging Cavalry or King's Castle for free (still paying its MP).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000050]{Bishop's Edict} <strong>【Max SL 5】</strong></p><p>Action + 10 MP, until your next turn, choose one: all MP costs are doubled, or all sources of damage deal (SL × 3) extra. \"All\" means everyone on the battlefield — allies, enemies and you.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000051]{Charging Cavalry} <strong>【Max SL 5】</strong></p><p>Action + 10 MP: one ally who can hear you performs a free attack (a basic attack if an NPC) at +(SL) Accuracy, High Roll 0. Works on allied NPCs.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000052]{King's Castle} <strong>【Max SL 4】</strong></p><p>Action + 10 MP, until your next turn, choose one: no creature can recover HP or MP, or all MP-restoring effects restore (SL × 5) more. The lockout is total and includes your own side.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000053]{Crushing Chariot} <strong>【Max SL 1】</strong></p><p>After using Bishop's Edict, Charging Cavalry or King's Castle, choose a Player Character who can hear you and has not yet acted this round: they take their turn immediately after yours. Grants nobody an extra turn — it decides whose comes next.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": true
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": true
+				},
+				"ranged": {
+					"value": true
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "captain",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": "Commander"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000010"
+}

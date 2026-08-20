@@ -1,0 +1,44 @@
+{
+	"name": "Charming Presence",
+	"type": "skill",
+	"_id": "RCsk000000000060",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "charming_presence",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (celebrity)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "With an arcane weapon equipped, when you cast a spell targeting allies, each may also recover up to (SL × your Bonds) MP"
+		},
+		"description": "<p>With an arcane weapon equipped, when you cast a spell targeting allies, each may also recover up to (SL × your Bonds) MP. The Bond multiplier is capped at 3.</p>",
+		"class": {
+			"value": "Celebrity"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "celebrity",
+			"skillKey": "charming_presence",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000060"
+}

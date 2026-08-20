@@ -1,0 +1,45 @@
+{
+	"name": "On My Account",
+	"type": "heroic",
+	"_id": "RChr000000000096",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "on_my_account",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Sensitive / Penny Knight / Spiritist"
+		},
+		"requirement": {
+			"value": "Sensitive (Esper), Penny Knight or Spiritist mastery"
+		},
+		"description": "<p>In the Panoply, when a creature you hold an admiration, loyalty or affection Bond toward spends MP on a spell or ritual, pay up to (Bond strength × 10) of it for them. One patron per casting.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "on_my_account",
+			"masteryClasses": [
+				"sensitive",
+				"penny_knight",
+				"spiritist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000096"
+}

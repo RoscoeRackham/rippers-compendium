@@ -1,0 +1,44 @@
+{
+	"name": "Verdant Sway",
+	"type": "skill",
+	"_id": "RCsk000000000126",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "verdant_sway",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (floralist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Grants Rituals of the Ritualism discipline, extended to creating, animating and controlling vegetation, pollen, spores a"
+		},
+		"description": "<p>Grants Rituals of the Ritualism discipline, extended to creating, animating and controlling vegetation, pollen, spores and toxins — never plant-Species NPCs. Runs under the standing rulings that keep it inside the benefit-pool architecture.</p>",
+		"class": {
+			"value": "Floralist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "floralist",
+			"skillKey": "verdant_sway",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000126"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "High or Low",
+	"type": "skill",
+	"_id": "RCsk000000000056",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "high_or_low",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (cartomancer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you resolve a set: with a joker and/or 7, +(SL) damage until your next turn; with a joker and/or 1, damage you suff"
+		},
+		"description": "<p>When you resolve a set: with a joker and/or 7, +(SL) damage until your next turn; with a joker and/or 1, damage you suffer is reduced by (SL) before Affinities; with none of those, recover (SL × 2) HP immediately. A joker satisfying two rows is the player's choice.</p>",
+		"class": {
+			"value": "Cartomancer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "cartomancer",
+			"skillKey": "high_or_low",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000056"
+}

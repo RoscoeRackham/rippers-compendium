@@ -1,0 +1,44 @@
+{
+	"name": "Agony",
+	"type": "skill",
+	"_id": "RCsk000000000032",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "agony",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (blackguard)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per turn (anyone's turn), after you damage one or more enemies you have a Bond towards: recover (SL × 2) HP and (SL"
+		},
+		"description": "<p>Once per turn (anyone's turn), after you damage one or more enemies you have a Bond towards: recover (SL × 2) HP and (SL × 2) MP.</p>",
+		"class": {
+			"value": "Blackguard"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "blackguard",
+			"skillKey": "agony",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000032"
+}

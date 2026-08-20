@@ -1,0 +1,43 @@
+{
+	"name": "Hidden Weapon",
+	"type": "heroic",
+	"_id": "RChr000000000064",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "hidden_weapon",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Rogue"
+		},
+		"requirement": {
+			"value": "Rogue mastery (the Pilot route is cut) + Cheap Shot or the Personal Vehicle pool pick"
+		},
+		"description": "<p>Choose a status at acquisition (dazed/shaken/slow/weak). After an ally's damage costs enemies HP and at least one was Vulnerable to it, one of them loses (half your level + twice your best of Cheap Shot / Personal Vehicle) HP and suffers the status. Once per round, party-wide.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "hidden_weapon",
+			"masteryClasses": [
+				"rogue"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000064"
+}

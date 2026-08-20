@@ -1,0 +1,44 @@
+{
+	"name": "King's Castle",
+	"type": "skill",
+	"_id": "RCsk000000000052",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "kings_castle",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (captain)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action + 10 MP, until your next turn, choose one: no creature can recover HP or MP, or all MP-restoring effects restore "
+		},
+		"description": "<p>Action + 10 MP, until your next turn, choose one: no creature can recover HP or MP, or all MP-restoring effects restore (SL × 5) more. The lockout is total and includes your own side.</p>",
+		"class": {
+			"value": "Captain"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "captain",
+			"skillKey": "kings_castle",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000052"
+}

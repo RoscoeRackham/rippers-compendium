@@ -1,0 +1,44 @@
+{
+	"name": "Ward",
+	"type": "skill",
+	"_id": "RCsk000000000005",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "ward",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (adept)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Reaction: release Motes (2 MP each) to reduce incoming damage to you or up to three creatures — each Mote reduces the da"
+		},
+		"description": "<p>Reaction: release Motes (2 MP each) to reduce incoming damage to you or up to three creatures — each Mote reduces the damage by (SL × 2), before Affinities.</p>",
+		"class": {
+			"value": "Adept"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "adept",
+			"skillKey": "ward",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000005"
+}

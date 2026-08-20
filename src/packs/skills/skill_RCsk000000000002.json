@@ -1,0 +1,44 @@
+{
+	"name": "Reserve",
+	"type": "skill",
+	"_id": "RCsk000000000002",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "reserve",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (adept)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Begin a conflict scene with (SL × 2) Motes, up to your limit."
+		},
+		"description": "<p>Begin a conflict scene with (SL × 2) Motes, up to your limit. Triggers on the Turn when swapping in mid-conflict.</p>",
+		"class": {
+			"value": "Adept"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "adept",
+			"skillKey": "reserve",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000002"
+}

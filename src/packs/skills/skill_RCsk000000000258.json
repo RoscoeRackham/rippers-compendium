@@ -1,0 +1,44 @@
+{
+	"name": "Sanguine Transmutation",
+	"type": "skill",
+	"_id": "RCsk000000000258",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "sanguine_transmutation",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (vampyre)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "In a conflict, action: spend up to (SL × 10) Hit Points and take one return — recover half the HP spent as MP, or rechar"
+		},
+		"description": "<p>In a conflict, action: spend up to (SL × 10) Hit Points and take one return — recover half the HP spent as MP, or recharge 1 IP per 20 HP spent.</p>",
+		"class": {
+			"value": "Vampyre"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "vampyre",
+			"skillKey": "sanguine_transmutation",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000258"
+}

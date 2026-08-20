@@ -1,0 +1,44 @@
+{
+	"name": "Call Entourage",
+	"type": "skill",
+	"_id": "RCsk000000000059",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "call_entourage",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (celebrity)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Each level grants one Entourage Member, chosen from the class roster."
+		},
+		"description": "<p>Each level grants one Entourage Member, chosen from the class roster.</p>",
+		"class": {
+			"value": "Celebrity"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 7
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "celebrity",
+			"skillKey": "call_entourage",
+			"maxSl": 7
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000059"
+}

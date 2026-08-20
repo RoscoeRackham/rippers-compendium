@@ -1,0 +1,44 @@
+{
+	"name": "Magic Symbols",
+	"type": "skill",
+	"_id": "RCsk000000000248",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "magic_symbols",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (symbolist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "An ally bearing your symbol may take the Spell action and destroy that symbol to cast a spell you know of (SL × 10) MP o"
+		},
+		"description": "<p>An ally bearing your symbol may take the Spell action and destroy that symbol to cast a spell you know of (SL × 10) MP or less — the ally pays the MP. Allowed on the Ritual Scrolls precedent. Requires you to know spells from another class.</p>",
+		"class": {
+			"value": "Symbolist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "symbolist",
+			"skillKey": "magic_symbols",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000248"
+}

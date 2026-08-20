@@ -1,0 +1,44 @@
+{
+	"name": "Flowing Water",
+	"type": "skill",
+	"_id": "RCsk000000000121",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "flowing_water",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (fencer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Spend 10 MP at the start of a conflict to enter Parry or Lunge Stance immediately."
+		},
+		"description": "<p>Spend 10 MP at the start of a conflict to enter Parry or Lunge Stance immediately. Exiting one Stance by entering another recovers you from one status effect. Triggers on the Turn when swapping in mid-conflict.</p>",
+		"class": {
+			"value": "Fencer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "fencer",
+			"skillKey": "flowing_water",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000121"
+}

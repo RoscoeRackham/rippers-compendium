@@ -1,0 +1,44 @@
+{
+	"name": "Master of the Greatsword",
+	"type": "heroic",
+	"_id": "RChr000000000087",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "master_of_the_greatsword",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Fury / Prizefighter"
+		},
+		"requirement": {
+			"value": "Fury or Prizefighter mastery (the Pilot route is cut)"
+		},
+		"description": "<p>Swords join Frenzy's crit list. With a two-handed sword equipped: spend an Opportunity for a free attack, +5 damage, generating no Opportunities (once per round). And when your two-handed sword costs creatures HP: spend 1 Fabula Point to reduce one non-Villain among them, whose HP are at or under your Crisis score, to 0.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "master_of_the_greatsword",
+			"masteryClasses": [
+				"fury",
+				"prizefighter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000087"
+}

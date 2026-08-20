@@ -1,0 +1,44 @@
+{
+	"name": "Wellspring Expansion",
+	"type": "skill",
+	"_id": "RCsk000000000097",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "wellspring_expansion",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (dowser)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "With an arcane, bow, brawling, flail, sword or thrown weapon equipped: \"blast\" invocations deal (SL) extra damage, and y"
+		},
+		"description": "<p>With an arcane, bow, brawling, flail, sword or thrown weapon equipped: \"blast\" invocations deal (SL) extra damage, and your \"hex\" invocations grant (5 + SL) extra damage instead of 5.</p>",
+		"class": {
+			"value": "Dowser"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "dowser",
+			"skillKey": "wellspring_expansion",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000097"
+}

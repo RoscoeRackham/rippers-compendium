@@ -1,0 +1,44 @@
+{
+	"name": "Melee Weapon Mastery",
+	"type": "skill",
+	"_id": "RCsk000000000195",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "melee_weapon_mastery",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (prizefighter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "+(SL) to all Accuracy Checks with melee weapons."
+		},
+		"description": "<p>+(SL) to all Accuracy Checks with melee weapons.</p>",
+		"class": {
+			"value": "Prizefighter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "prizefighter",
+			"skillKey": "melee_weapon_mastery",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000195"
+}

@@ -1,0 +1,41 @@
+{
+	"name": "Empathetic",
+	"type": "heroic",
+	"_id": "RChr000000000041",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "empathetic",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Any"
+		},
+		"requirement": {
+			"value": "Master any class"
+		},
+		"description": "<p>+2 Bond slots; you may instantly create a Bond with one emotion; all your Bonds count 1 point stronger (inert if another effect already holds you at 4+). Near-default here — Bonds are Status, and the printed text already refuses to stack with the resolved-Tell +1.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "empathetic",
+			"masteryClasses": [],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000041"
+}

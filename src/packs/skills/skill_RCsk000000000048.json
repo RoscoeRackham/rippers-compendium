@@ -1,0 +1,44 @@
+{
+	"name": "Waste Not",
+	"type": "skill",
+	"_id": "RCsk000000000048",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "waste_not",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (butcher)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you spend or lose HP to one of your Skills or spells, one ally you can see recovers half that amount."
+		},
+		"description": "<p>When you spend or lose HP to one of your Skills or spells, one ally you can see recovers half that amount.</p>",
+		"class": {
+			"value": "Butcher"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "butcher",
+			"skillKey": "waste_not",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000048"
+}

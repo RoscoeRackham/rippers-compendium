@@ -1,0 +1,43 @@
+{
+	"name": "Penumbral Patrician",
+	"type": "heroic",
+	"_id": "RChr000000000101",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "penumbral_patrician",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Vampyre"
+		},
+		"requirement": {
+			"value": "Vampyre mastery"
+		},
+		"description": "<p>CAPPED to out-of-conflict recovery. Printed: recover 5 HP per turn while in heavy shadows or darkness, or every few minutes outside a conflict. In most settings that condition is a real one; here it is the default lighting — London fog, gaslight, night work, cellars, the Underground works, and a doctrine that Rippers fight out of public view. Uncapped it is a mastery heroic granting permanent regeneration. Capped, the vampire is simply the one who is fine after a bad night. (The alternative cap is once per scene; either works.)</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "penumbral_patrician",
+			"masteryClasses": [
+				"vampyre"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000101"
+}

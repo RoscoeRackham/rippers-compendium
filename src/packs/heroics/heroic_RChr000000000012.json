@@ -1,0 +1,46 @@
+{
+	"name": "Black & White",
+	"type": "heroic",
+	"_id": "RChr000000000012",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "black_and_white",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Cartomancer / Blackguard / Entropist / Spiritist"
+		},
+		"requirement": {
+			"value": "Cartomancer (Ace of Cards), Blackguard (Darkblade), Entropist or Spiritist mastery"
+		},
+		"description": "<p>When you resolve Double Trouble you may make all its damage light or dark instead of matching the resolved suits — the second effect in the class that reaches outside the four elements. And while a joker sits in your discard pile, Blinding Flush, Double Trouble and Magic Flush damage ignores Immunities and Resistances, as printed. Standard treatment, same as Numen, Hunter's Instinct, Fabula Impetum and Revenant.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "black_and_white",
+			"masteryClasses": [
+				"cartomancer",
+				"blackguard",
+				"entropist",
+				"spiritist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000012"
+}

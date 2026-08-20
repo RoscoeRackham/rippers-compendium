@@ -1,0 +1,44 @@
+{
+	"name": "Biophagy",
+	"type": "skill",
+	"_id": "RCsk000000000161",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "biophagy",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (mutant)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "While in Crisis, when your attack or offensive spell costs one or more enemies HP, recover (SL × 5) HP."
+		},
+		"description": "<p>While in Crisis, when your attack or offensive spell costs one or more enemies HP, recover (SL × 5) HP.</p>",
+		"class": {
+			"value": "Mutant"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "mutant",
+			"skillKey": "biophagy",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000161"
+}

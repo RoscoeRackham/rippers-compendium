@@ -1,0 +1,44 @@
+{
+	"name": "Interposition",
+	"type": "skill",
+	"_id": "RCsk000000000185",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "interposition",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (penny_knight)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When a creature makes a Magic Check, spend a Fabula Point and choose a Bonded ally you can see: +(2 + Bond strength) Mag"
+		},
+		"description": "<p>When a creature makes a Magic Check, spend a Fabula Point and choose a Bonded ally you can see: +(2 + Bond strength) Magic Defense against it — a hit may become a miss. Once per round.</p>",
+		"class": {
+			"value": "Penny Knight"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "penny_knight",
+			"skillKey": "interposition",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000185"
+}

@@ -1,0 +1,45 @@
+{
+	"name": "Tricky Attack",
+	"type": "heroic",
+	"_id": "RChr000000000158",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "tricky_attack",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Confidence Man"
+		},
+		"requirement": {
+			"value": "Confidence Man mastery — \"You must have mastered this class\" (AzureProject Trickster doc p.3, verified 10 Aug 2026)"
+		},
+		"description": "<p>When you make a weapon attack, you may instead disguise it as a feint and prepare a Secret Action with the trigger: \"When the target next makes an attack roll.\" When triggered, you strike first, dealing 5 extra damage with your weapon attack. If the attack hits, the target suffers a -2 penalty to their next check. The word \"instead\" is why this costs your action. (AzureProject Trickster doc p.3, verified 10 Aug 2026 — the audit had held one clause of this.)</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "tricky_attack",
+			"masteryClasses": [
+				"confidence_man"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"secret_action"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000158"
+}

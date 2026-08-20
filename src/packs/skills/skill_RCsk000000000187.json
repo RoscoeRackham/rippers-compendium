@@ -1,0 +1,44 @@
+{
+	"name": "Pharmaceuticals",
+	"type": "skill",
+	"_id": "RCsk000000000187",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "pharmaceuticals",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (physician)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Each level stocks two catalogue entries — potions, elixirs and the period-renamed preparations (Sal Volatile, Liniment, "
+		},
+		"description": "<p>Each level stocks two catalogue entries — potions, elixirs and the period-renamed preparations (Sal Volatile, Liniment, Coca Elixir, Quinine Wine, Carbolic Preparation, Steadying Drops, Antitoxin…), created and used via the Inventory action. Vinum Ferri prints a duplicated effect — named, unusable until errata.</p>",
+		"class": {
+			"value": "Physician"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "physician",
+			"skillKey": "pharmaceuticals",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000187"
+}

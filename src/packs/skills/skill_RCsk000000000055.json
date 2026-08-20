@@ -1,0 +1,44 @@
+{
+	"name": "Double or Nothing",
+	"type": "skill",
+	"_id": "RCsk000000000055",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "double_or_nothing",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (cartomancer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Declared before a Check: until it ends, dice showing even numbers count doubled and other dice count 1.."
+		},
+		"description": "<p>Declared before a Check: until it ends, dice showing even numbers count doubled and other dice count 1..</p>",
+		"class": {
+			"value": "Cartomancer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "cartomancer",
+			"skillKey": "double_or_nothing",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000055"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Hypercognition",
+	"type": "skill",
+	"_id": "RCsk000000000214",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "hypercognition",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sensitive)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Spells and verses that include your focus among their targets cost (SL) less MP — (SL × 2) less if the focus is the only"
+		},
+		"description": "<p>Spells and verses that include your focus among their targets cost (SL) less MP — (SL × 2) less if the focus is the only target — to a minimum of 0.</p>",
+		"class": {
+			"value": "Sensitive"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sensitive",
+			"skillKey": "hypercognition",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000214"
+}

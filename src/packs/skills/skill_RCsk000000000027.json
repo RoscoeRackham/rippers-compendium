@@ -1,0 +1,44 @@
+{
+	"name": "Follow-Up",
+	"type": "skill",
+	"_id": "RCsk000000000027",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "follow_up",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (batman)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When an ally causes creatures to lose HP, mark one of them until the next such trigger."
+		},
+		"description": "<p>When an ally causes creatures to lose HP, mark one of them until the next such trigger. Your attacks, spells and Skills deal (SL) extra damage to marked creatures.</p>",
+		"class": {
+			"value": "Batman"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "batman",
+			"skillKey": "follow_up",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000027"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Invigorating Speech",
+	"type": "skill",
+	"_id": "RCsk000000000174",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "invigorating_speech",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (orator)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action + 15 MP: create an Inspiration Clock of (SL) sections lasting until you rest or it fills."
+		},
+		"description": "<p>Action + 15 MP: create an Inspiration Clock of (SL) sections lasting until you rest or it fills. When an ally would suffer a status, fill a section instead — the status lands on you as normal.</p>",
+		"class": {
+			"value": "Orator"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 6
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "orator",
+			"skillKey": "invigorating_speech",
+			"maxSl": 6
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000174"
+}

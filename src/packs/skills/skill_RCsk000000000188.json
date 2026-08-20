@@ -1,0 +1,44 @@
+{
+	"name": "Drug Synthesis",
+	"type": "skill",
+	"_id": "RCsk000000000188",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "drug_synthesis",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (physician)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you create a potion, combine it with up to (SL) Pharmaceuticals; the result carries all component effects and all c"
+		},
+		"description": "<p>When you create a potion, combine it with up to (SL) Pharmaceuticals; the result carries all component effects and all component IP costs, plus any listed synergy.</p>",
+		"class": {
+			"value": "Physician"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "physician",
+			"skillKey": "drug_synthesis",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000188"
+}

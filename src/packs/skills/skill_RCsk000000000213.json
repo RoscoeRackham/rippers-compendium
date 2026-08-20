@@ -1,0 +1,44 @@
+{
+	"name": "Cognitive Focus",
+	"type": "skill",
+	"_id": "RCsk000000000213",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "cognitive_focus",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sensitive)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Start of your conflict turn: your focus is one ally able to hear you, or one enemy you can see suffering dazed, enraged "
+		},
+		"description": "<p>Start of your conflict turn: your focus is one ally able to hear you, or one enemy you can see suffering dazed, enraged and/or shaken. Until your next turn, +(SL) to Checks to examine the focus and to Accuracy/Magic Checks for attacks and offensive spells that include it.</p>",
+		"class": {
+			"value": "Sensitive"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sensitive",
+			"skillKey": "cognitive_focus",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000213"
+}

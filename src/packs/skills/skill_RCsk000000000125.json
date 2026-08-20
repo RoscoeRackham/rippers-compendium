@@ -1,0 +1,44 @@
+{
+	"name": "Tree of Life",
+	"type": "skill",
+	"_id": "RCsk000000000125",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "tree_of_life",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (floralist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When a magiseed is removed from your garden, one creature you can see that is in Crisis recovers (5 + SL × 5) HP."
+		},
+		"description": "<p>When a magiseed is removed from your garden, one creature you can see that is in Crisis recovers (5 + SL × 5) HP.</p>",
+		"class": {
+			"value": "Floralist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "floralist",
+			"skillKey": "tree_of_life",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000125"
+}

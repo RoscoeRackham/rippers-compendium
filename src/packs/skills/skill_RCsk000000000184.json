@@ -1,0 +1,44 @@
+{
+	"name": "The Inexhaustible",
+	"type": "skill",
+	"_id": "RCsk000000000184",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "the_inexhaustible",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (penny_knight)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "In the Panoply, casting a non-offensive spell of 10+ MP recovers (SL × 2) MP."
+		},
+		"description": "<p>In the Panoply, casting a non-offensive spell of 10+ MP recovers (SL × 2) MP.</p>",
+		"class": {
+			"value": "Penny Knight"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "penny_knight",
+			"skillKey": "the_inexhaustible",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000184"
+}

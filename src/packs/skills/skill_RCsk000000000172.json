@@ -1,0 +1,44 @@
+{
+	"name": "My Trust in You",
+	"type": "skill",
+	"_id": "RCsk000000000172",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "my_trust_in_you",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (orator)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When another PC who can hear you rolls a Check, spend 1 Fabula Point invoking one of their Traits or Bonds to let them r"
+		},
+		"description": "<p>When another PC who can hear you rolls a Check, spend 1 Fabula Point invoking one of their Traits or Bonds to let them reroll or improve the Result. With a Bond toward them, they also recover (SL × 10) MP.</p>",
+		"class": {
+			"value": "Orator"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "orator",
+			"skillKey": "my_trust_in_you",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000172"
+}

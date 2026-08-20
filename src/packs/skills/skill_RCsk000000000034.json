@@ -1,0 +1,44 @@
+{
+	"name": "Heart of Darkness",
+	"type": "skill",
+	"_id": "RCsk000000000034",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "heart_of_darkness",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (blackguard)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per scene, when you enter Crisis: create a Bond of hatred towards a creature you can see that you have no Bond towa"
+		},
+		"description": "<p>Once per scene, when you enter Crisis: create a Bond of hatred towards a creature you can see that you have no Bond towards.</p>",
+		"class": {
+			"value": "Blackguard"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "blackguard",
+			"skillKey": "heart_of_darkness",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000034"
+}

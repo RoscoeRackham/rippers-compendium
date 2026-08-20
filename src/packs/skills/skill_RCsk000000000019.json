@@ -1,0 +1,44 @@
+{
+	"name": "Flash of Insight",
+	"type": "skill",
+	"_id": "RCsk000000000019",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "flash_of_insight",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (archivist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "On a Result of 13+ on a Check to investigate a creature, item or location (Study included): bank up to (SL) questions ab"
+		},
+		"description": "<p>On a Result of 13+ on a Check to investigate a creature, item or location (Study included): bank up to (SL) questions about it, asked now or later, answered truthfully by the GM. Once per subject.</p>",
+		"class": {
+			"value": "Archivist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "archivist",
+			"skillKey": "flash_of_insight",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000019"
+}

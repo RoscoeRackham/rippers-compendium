@@ -1,0 +1,44 @@
+{
+	"name": "Magichant",
+	"type": "skill",
+	"_id": "RCsk000000000064",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "magichant",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (chanter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action, once per turn: spend MP to sing a verse — a volume (low 10 MP: one creature who can hear you; medium 20: every a"
+		},
+		"description": "<p>Action, once per turn: spend MP to sing a verse — a volume (low 10 MP: one creature who can hear you; medium 20: every ally who can hear; high 30: every enemy who can hear) combined with a key (eight, each tied to a damage type, status, Attribute and recovery) and a tone (seven general effects). First level learns all three volumes plus one key and one tone; each further level adds a key or a tone.</p>",
+		"class": {
+			"value": "Chanter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 10
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "chanter",
+			"skillKey": "magichant",
+			"maxSl": 10
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000064"
+}

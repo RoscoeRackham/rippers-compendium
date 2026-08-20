@@ -1,0 +1,44 @@
+{
+	"name": "Dismantle",
+	"type": "skill",
+	"_id": "RCsk000000000109",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "dismantle",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (engineer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Destroy an item worth 100z+ that you own (never an IP-crafted one) to regain (value ÷ 100) IP, +1 IP if it cost at most "
+		},
+		"description": "<p>Destroy an item worth 100z+ that you own (never an IP-crafted one) to regain (value ÷ 100) IP, +1 IP if it cost at most (SL × 200)z. In conflict this rides an Inventory action.</p>",
+		"class": {
+			"value": "Engineer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "engineer",
+			"skillKey": "dismantle",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000109"
+}

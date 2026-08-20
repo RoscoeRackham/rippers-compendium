@@ -1,0 +1,44 @@
+{
+	"name": "The Grave Speaks",
+	"type": "skill",
+	"_id": "RCsk000000000203",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "children_of_the_grave",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (reaper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Always communicate with undead creatures."
+		},
+		"description": "<p>Always communicate with undead creatures. Once per scene, ask an undead a single question; it is compelled to answer truthfully.</p>",
+		"class": {
+			"value": "Reaper"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "reaper",
+			"skillKey": "children_of_the_grave",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000203"
+}

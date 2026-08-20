@@ -1,0 +1,43 @@
+{
+	"name": "Dungeon Extraordinaire",
+	"type": "heroic",
+	"_id": "RChr000000000037",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "dungeon_extraordinaire",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Antiquarian"
+		},
+		"requirement": {
+			"value": "Antiquarian (Dungeoneer) mastery"
+		},
+		"description": "<p>Once per staged adventure, when you complete a stage, ask the GM a question or name something you wish to know; they must give a complete answer, or hand you 1 Fabula Point if it cannot be known or deduced.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "dungeon_extraordinaire",
+			"masteryClasses": [
+				"antiquarian"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000037"
+}

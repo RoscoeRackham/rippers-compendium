@@ -1,0 +1,44 @@
+{
+	"name": "Giant Killer",
+	"type": "skill",
+	"_id": "RCsk000000000232",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "giant_killer",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (slayer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "(Single level) When you hit a non-soldier creature with a damaging attack, deal extra damage equal to (2 × the number of"
+		},
+		"description": "<p>(Single level) When you hit a non-soldier creature with a damaging attack, deal extra damage equal to (2 × the number of soldiers it replaces).</p>",
+		"class": {
+			"value": "Slayer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "slayer",
+			"skillKey": "giant_killer",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000232"
+}

@@ -1,0 +1,45 @@
+{
+	"name": "Monopoly",
+	"type": "heroic",
+	"_id": "RChr000000000090",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "monopoly",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Proprietor"
+		},
+		"requirement": {
+			"value": "Proprietor mastery + Incorporate"
+		},
+		"description": "<p>You gain an additional free use of an organisational ability as part of your Incorporate Skill. The book contradicts itself: its summary table reads \"choose two additional organisational abilities\", the full entry two pages later reads \"an additional free use\". The full entry is the prose one and is the one to use — one more free activation, not two more abilities on the menu.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "monopoly",
+			"masteryClasses": [
+				"proprietor"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"incorporate"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000090"
+}

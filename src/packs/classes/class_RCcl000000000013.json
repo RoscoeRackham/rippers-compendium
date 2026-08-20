@@ -1,0 +1,92 @@
+{
+	"name": "Chanter",
+	"type": "class",
+	"_id": "RCcl000000000013",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "chanter",
+		"source": {
+			"value": "Rippers Unmasked — classes (chanter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": ""
+		},
+		"description": "<h2>CHANTER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000064]{Magichant} <strong>【Max SL 10】</strong></p><p>Action, once per turn: spend MP to sing a verse — a volume (low 10 MP: one creature who can hear you; medium 20: every ally who can hear; high 30: every enemy who can hear) combined with a key (eight, each tied to a damage type, status, Attribute and recovery) and a tone (seven general effects). First level learns all three volumes plus one key and one tone; each further level adds a key or a tone.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000065]{Resonance} <strong>【Max SL 3】</strong></p><p>After your verse affects one or more enemies, with an arcane weapon equipped, choose one until the start of your next turn: allies deal (SL) extra damage to those enemies; or you recover (SL) MP each time one of them suffers damage (per enemy, when one source hits several).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000066]{Sound Barrier} <strong>【Max SL 5】</strong></p><p>After you sing a verse at medium or high volume, all physical damage you suffer until the start of your next turn is reduced by (SL), applied before Affinities.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000067]{Vibrato} <strong>【Max SL 1】</strong></p><p>After you sing a verse at low or medium volume, perform a free attack with an equipped weapon once the verse resolves, treating your High Roll as 0 for damage.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "chanter",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": null
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000013"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Queen's Gambit",
+	"type": "skill",
+	"_id": "RCsk000000000049",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "queens_gambit",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (captain)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action: free attack with an equipped weapon, High Roll 0."
+		},
+		"description": "<p>Action: free attack with an equipped weapon, High Roll 0. After it resolves, choose one: an ally who can hear you recovers (5 + SL × 5) HP, or use Bishop's Edict, Charging Cavalry or King's Castle for free (still paying its MP).</p>",
+		"class": {
+			"value": "Captain"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 6
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "captain",
+			"skillKey": "queens_gambit",
+			"maxSl": 6
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000049"
+}

@@ -1,0 +1,41 @@
+{
+	"name": "Little Treat",
+	"type": "heroic",
+	"_id": "RChr000000000084",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "little_treat",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Any"
+		},
+		"requirement": {
+			"value": "Master any class"
+		},
+		"description": "<p>When a potion or delicacy you create heals allies, you recover half that value yourself.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "little_treat",
+			"masteryClasses": [],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000084"
+}

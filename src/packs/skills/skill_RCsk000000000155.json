@@ -1,0 +1,44 @@
+{
+	"name": "Hold in Contempt",
+	"type": "skill",
+	"_id": "RCsk000000000155",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "hold_in_contempt",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (magistrate)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you Guard: broken laws are not removed from the scene until the start of your next turn, and at that start you may "
+		},
+		"description": "<p>When you Guard: broken laws are not removed from the scene until the start of your next turn, and at that start you may perform a free attack with an equipped weapon against each enemy that broke one or more laws since your previous turn.</p>",
+		"class": {
+			"value": "Magistrate"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "magistrate",
+			"skillKey": "hold_in_contempt",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000155"
+}

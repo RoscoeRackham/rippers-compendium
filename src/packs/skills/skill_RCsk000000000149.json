@@ -1,0 +1,44 @@
+{
+	"name": "Soul Offering",
+	"type": "skill",
+	"_id": "RCsk000000000149",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "soul_offering",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (keeper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "A willing NPC in your Sanctuary may extract and grant you their Soul Treasure — no forcing, no persuading."
+		},
+		"description": "<p>A willing NPC in your Sanctuary may extract and grant you their Soul Treasure — no forcing, no persuading. While it is equipped or in your pack, you may Haunt them as though your Bond were strength 1, or your real Bond if higher. A Soul Treasure is that creature's hoplosphere.</p>",
+		"class": {
+			"value": "Keeper"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "keeper",
+			"skillKey": "soul_offering",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000149"
+}

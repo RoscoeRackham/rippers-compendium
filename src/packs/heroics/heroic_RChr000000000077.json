@@ -1,0 +1,45 @@
+{
+	"name": "Iron Forest",
+	"type": "heroic",
+	"_id": "RChr000000000077",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "iron_forest",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Captain / Prizefighter / Bounty Hunter"
+		},
+		"requirement": {
+			"value": "Captain (Commander), Prizefighter (Weaponmaster) or Bounty Hunter mastery"
+		},
+		"description": "<p>After hitting with a melee spear and no other weapon equipped, spend 20 MP and choose one creature you hit. The attack deals half damage to all of its targets, and you choose an action type — Attack, Guard, Objective, Spell or Skill. From then on that creature must spend 10 MP to perform that action type, or perform a different one instead; lasts until the start of your next turn or until you use it again. An action tax on one enemy, bought by halving the hit that applied it: very good against a Villain with one answer, 20 MP for a nuisance against anything with options.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "iron_forest",
+			"masteryClasses": [
+				"captain",
+				"prizefighter",
+				"bounty_hunter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000077"
+}

@@ -1,0 +1,46 @@
+{
+	"name": "The Convergence",
+	"type": "heroic",
+	"_id": "RChr000000000149",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "the_convergence",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Elementalist / Entropist / Spiritist / Sin-Eater"
+		},
+		"requirement": {
+			"value": "Elementalist, Entropist, Spiritist or Sin-Eater (Witch) mastery"
+		},
+		"description": "<p>Choose one damage type from air, bolt, dark, earth, fire, ice, light or poison. When you deal air, earth, fire or ice damage you gain a spirit orb of that type — one of each at a time, vanishing at the end of the scene. Holding one of each grants a unique spell: 50 HP, special target, instantaneous — every enemy you can see suffers 10 earth, then 10 ice, then 10 fire, then 10 air, then (10 + the total Inferiority, Mistrust and Hatred emotions among your Bonds) of your chosen type. On casting, your orbs vanish and you must replace one Bond's emotion of Admiration, Affection or Loyalty with Inferiority, Mistrust or Hatred; if you do not, the spell has no effect.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "the_convergence",
+			"masteryClasses": [
+				"elementalist",
+				"entropist",
+				"spiritist",
+				"sin_eater"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000149"
+}

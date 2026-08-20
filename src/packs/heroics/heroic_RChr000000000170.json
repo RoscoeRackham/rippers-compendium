@@ -1,0 +1,43 @@
+{
+	"name": "Wheel of Moon and Sun",
+	"type": "heroic",
+	"_id": "RChr000000000170",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "wheel_of_moon_and_sun",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Dowser"
+		},
+		"requirement": {
+			"value": "Dowser mastery"
+		},
+		"description": "<p>Grants a Moon wellspring on odd rounds and a Sun wellspring on even ones, in addition to the scene's own. These wellsprings can never be marked miasmatic — they are conjured, not drawn from anybody's ground.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "wheel_of_moon_and_sun",
+			"masteryClasses": [
+				"dowser"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000170"
+}

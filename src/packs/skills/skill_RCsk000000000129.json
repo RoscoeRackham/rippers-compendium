@@ -1,0 +1,44 @@
+{
+	"name": "Indomitable Spirit",
+	"type": "skill",
+	"_id": "RCsk000000000129",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "indomitable_spirit",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (fury)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you spend a Fabula Point to invoke a Bond or Trait: recover (SL × 5) HP, or (SL × 5) MP, or shake one status effect"
+		},
+		"description": "<p>When you spend a Fabula Point to invoke a Bond or Trait: recover (SL × 5) HP, or (SL × 5) MP, or shake one status effect.</p>",
+		"class": {
+			"value": "Fury"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "fury",
+			"skillKey": "indomitable_spirit",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000129"
+}

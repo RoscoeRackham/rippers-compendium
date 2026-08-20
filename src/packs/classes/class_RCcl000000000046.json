@@ -1,0 +1,92 @@
+{
+	"name": "Stalwart",
+	"type": "class",
+	"_id": "RCcl000000000046",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "stalwart",
+		"source": {
+			"value": "Rippers Unmasked — classes (stalwart)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Also known as Fellow, Champion."
+		},
+		"description": "<p><em>Built on Project FU's <strong>Hero</strong>.</em></p><h2>STALWART SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000241]{Power of Friendship} <strong>【Max SL 2】</strong></p><p>+(SL) Bond slots. When you invoke a Bond to improve an attack's Accuracy, that attack deals additional damage equal to the Bond's strength.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000242]{Ties That Bind} <strong>【Max SL 5】</strong></p><p>When you invoke a Bond, an ally recovers (SL × 4) HP or MP — and both if the Bond is with them.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000243]{It Was Destiny} <strong>【Max SL 1】</strong></p><p>Once per session, spend a Fabula Point to create a Bond, or to add an emotion to an existing one.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000244]{A Hero's Purpose} <strong>【Max SL 3】</strong></p><p>Once per session, gain (SL) Fabula Points for saving NPCs from danger, completing a quest for them, or being present when a Villain runs out of Ultima Points. These Fabula Points do not tick the Miasma Clock.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000245]{Resolve} <strong>【Max SL 4】</strong></p><p>Action + a Fabula Point: recover from all status effects and regain (10 + SL × 10) MP.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "stalwart",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": "Hero"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000046"
+}

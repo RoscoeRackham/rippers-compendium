@@ -1,0 +1,44 @@
+{
+	"name": "If It Bleeds…",
+	"type": "skill",
+	"_id": "RCsk000000000268",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "if_it_bleeds",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (witness)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per scene, when a friendly PC completes a Clock with a successful Check or an elite-or-higher enemy first enters Cr"
+		},
+		"description": "<p>Once per scene, when a friendly PC completes a Clock with a successful Check or an elite-or-higher enemy first enters Crisis, choose one: every friendly PC recovers (SL × 4) HP or MP, each choosing which (SL × 6 at level 40+); every friendly PC recovers from up to (SL) statuses; or the triggering character gains +(SL) to their next Check.</p>",
+		"class": {
+			"value": "Witness"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "witness",
+			"skillKey": "if_it_bleeds",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000268"
+}

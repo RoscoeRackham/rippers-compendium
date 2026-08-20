@@ -1,0 +1,44 @@
+{
+	"name": "Know Thy Quarry",
+	"type": "skill",
+	"_id": "RCsk000000000231",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "know_thy_quarry",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (slayer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "On an Accuracy, Magic or contested Check, spend 1 Fabula Point and invoke one of the target's Traits: +(SL) to your Resu"
+		},
+		"description": "<p>On an Accuracy, Magic or contested Check, spend 1 Fabula Point and invoke one of the target's Traits: +(SL) to your Result against that target. A Villain may spend an Ultima Point to cancel. The Miasma clause is struck (13 Aug 2026): that spend no longer ticks the Miasma Clock.</p>",
+		"class": {
+			"value": "Slayer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "slayer",
+			"skillKey": "know_thy_quarry",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000231"
+}

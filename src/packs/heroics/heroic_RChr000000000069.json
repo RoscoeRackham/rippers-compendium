@@ -1,0 +1,44 @@
+{
+	"name": "Hunter's Trick",
+	"type": "heroic",
+	"_id": "RChr000000000069",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "hunters_trick",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Sharpshooter / Prizefighter"
+		},
+		"requirement": {
+			"value": "Sharpshooter or Prizefighter (Weaponmaster) mastery"
+		},
+		"description": "<p>When you transform a transforming custom weapon on your turn, choose one: if you have performed no attacks this turn, your next attack with that weapon this turn deals 5 extra damage; or if you have already hit one or more creatures with it this turn, recover 5 HP and 5 MP. A small, honest reward for using the transformation rather than picking a form and staying in it.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "hunters_trick",
+			"masteryClasses": [
+				"sharpshooter",
+				"prizefighter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000069"
+}

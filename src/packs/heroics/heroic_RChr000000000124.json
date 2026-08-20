@@ -1,0 +1,46 @@
+{
+	"name": "Relic Repository",
+	"type": "heroic",
+	"_id": "RChr000000000124",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "relic_repository",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Antiquarian / Engineer"
+		},
+		"requirement": {
+			"value": "Antiquarian (Dungeoneer) or Engineer (Tinkerer) mastery + Vast Collection"
+		},
+		"description": "<p>Through Vast Collection, create a temporary working copy of any Artifact you have seen or heard of. The GM sets the duration — moments for something like the Final Feather, days for something lesser. Strong, and safe precisely because the GM holds the clock. No amendment.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "relic_repository",
+			"masteryClasses": [
+				"antiquarian",
+				"engineer"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"vast_collection"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000124"
+}

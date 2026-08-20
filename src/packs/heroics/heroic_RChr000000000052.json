@@ -1,0 +1,43 @@
+{
+	"name": "Foul-Mouthed",
+	"type": "heroic",
+	"_id": "RChr000000000052",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "foul_mouthed",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Fury"
+		},
+		"requirement": {
+			"value": "Fury mastery"
+		},
+		"description": "<p>After a successful Provoke, Provoke again free (and again, while you keep succeeding on enemies not yet tried this turn). When an enraged enemy hits you with an attack or offensive spell, recover 5 MP.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "foul_mouthed",
+			"masteryClasses": [
+				"fury"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000052"
+}

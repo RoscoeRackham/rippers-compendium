@@ -1,0 +1,44 @@
+{
+	"name": "Justice for the People",
+	"type": "skill",
+	"_id": "RCsk000000000154",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "justice_for_the_people",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (magistrate)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "(Requires Letter of the Law) When an enemy breaks a law, you may choose an ally who can see you instead of making the at"
+		},
+		"description": "<p>(Requires Letter of the Law) When an enemy breaks a law, you may choose an ally who can see you instead of making the attack-or-spell response against the breaker: that ally regains (SL × 5) HP.</p>",
+		"class": {
+			"value": "Magistrate"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "magistrate",
+			"skillKey": "justice_for_the_people",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000154"
+}

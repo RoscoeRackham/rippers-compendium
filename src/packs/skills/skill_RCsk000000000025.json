@@ -1,0 +1,44 @@
+{
+	"name": "Unfettered Brilliance",
+	"type": "skill",
+	"_id": "RCsk000000000025",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "unfettered_brilliance",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (archivist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "At session start, roll your INS die (SL) times and bank the results; when another creature you can see performs a Check,"
+		},
+		"description": "<p>At session start, roll your INS die (SL) times and bank the results; when another creature you can see performs a Check, replace one of its dice with an unused banked value. Extra dice cost 500z, or no armour/shields this session, or erasing one emotion from a Bond — each option once.</p>",
+		"class": {
+			"value": "Archivist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "archivist",
+			"skillKey": "unfettered_brilliance",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000025"
+}

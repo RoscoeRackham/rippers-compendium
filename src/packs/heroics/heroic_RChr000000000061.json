@@ -1,0 +1,44 @@
+{
+	"name": "Group Dance",
+	"type": "heroic",
+	"_id": "RChr000000000061",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "group_dance",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Chanter / Dancer"
+		},
+		"requirement": {
+			"value": "Chanter or Dancer mastery"
+		},
+		"description": "<p>Follow My Lead works on any visible ally, Bonds regardless — and on a lasting dance (not Hydra) may extend the effect to every ally you can see. When allies under your Resistance-granting dance or verse take that very type, end the effect on them to grant Immunity to it until end of turn.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "group_dance",
+			"masteryClasses": [
+				"chanter",
+				"dancer"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000061"
+}

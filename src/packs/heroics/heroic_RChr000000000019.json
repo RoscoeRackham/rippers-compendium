@@ -1,0 +1,43 @@
+{
+	"name": "Broad Strokes",
+	"type": "heroic",
+	"_id": "RChr000000000019",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "broad_strokes",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Symbolist"
+		},
+		"requirement": {
+			"value": "Symbolist mastery"
+		},
+		"description": "<p>When applying a symbol to yourself or an ally, spend up to 30 MP: every 10 MP copies it onto another ally you can see (each copy counts against your limit). Symbolism's free attack gains multi (2).</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "broad_strokes",
+			"masteryClasses": [
+				"symbolist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000019"
+}

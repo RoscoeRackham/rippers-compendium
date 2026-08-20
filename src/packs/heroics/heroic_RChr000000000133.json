@@ -1,0 +1,48 @@
+{
+	"name": "Silent Hunter",
+	"type": "heroic",
+	"_id": "RChr000000000133",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "silent_hunter",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Rogue / Sharpshooter / Prizefighter / Bounty Hunter"
+		},
+		"requirement": {
+			"value": "Rogue, Sharpshooter, Prizefighter (Weaponmaster) or Bounty Hunter mastery + High Speed"
+		},
+		"description": "<p>A High Speed free attack with a bow, spear or thrown weapon deals extra damage equal to (your Skill Level in High Speed × 5). And when you attack one or more creatures with a bow, spear or thrown weapon, those creatures cannot perform free attacks until the end of the current turn.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "silent_hunter",
+			"masteryClasses": [
+				"rogue",
+				"sharpshooter",
+				"prizefighter",
+				"bounty_hunter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"high_speed"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000133"
+}

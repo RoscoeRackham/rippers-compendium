@@ -1,0 +1,45 @@
+{
+	"name": "Wax Cylinder",
+	"type": "heroic",
+	"_id": "RChr000000000167",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "wax_cylinder",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Engineer"
+		},
+		"requirement": {
+			"value": "Engineer mastery + magispheres (Gadgets, Superior Magitech)"
+		},
+		"description": "<p>Sing Chanter verses through a device without having taken Magichant. Requires magispheres — the Superior Magitech tier of Gadgets.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "wax_cylinder",
+			"masteryClasses": [
+				"engineer"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"gadgets"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000167"
+}

@@ -1,0 +1,45 @@
+{
+	"name": "Great Cauldron's Secret",
+	"type": "heroic",
+	"_id": "RChr000000000055",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "great_cauldrons_secret",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Engineer"
+		},
+		"requirement": {
+			"value": "Engineer mastery + superior alchemy (Gadgets)"
+		},
+		"description": "<p>Treat the alchemy target die as 13 or 17.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "great_cauldrons_secret",
+			"masteryClasses": [
+				"engineer"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"gadgets"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000055"
+}

@@ -1,0 +1,47 @@
+{
+	"name": "Talismanic Mastery",
+	"type": "heroic",
+	"_id": "RChr000000000146",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "talismanic_mastery",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Arcanist / Symbolist / Spiritist"
+		},
+		"requirement": {
+			"value": "Arcanist, Symbolist or Spiritist mastery + Symbolism (the Merchant route is cut)"
+		},
+		"description": "<p>Spend 20 MP to ignore Symbolism's IP cost for a conflict.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "talismanic_mastery",
+			"masteryClasses": [
+				"arcanist",
+				"symbolist",
+				"spiritist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"symbolism"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000146"
+}

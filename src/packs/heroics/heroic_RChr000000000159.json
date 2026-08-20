@@ -1,0 +1,44 @@
+{
+	"name": "Triple Slash",
+	"type": "heroic",
+	"_id": "RChr000000000159",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "triple_slash",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Dancer / Prizefighter"
+		},
+		"requirement": {
+			"value": "Dancer or Prizefighter (Weaponmaster) mastery"
+		},
+		"description": "<p>With a one-handed melee dagger or sword in each normal hand slot, you may treat your armor slot as a second off-hand slot, usable only for another one-handed dagger or sword. With three equipped, the Attack action attacks once with each; two-weapon rules apply to all three (each loses the multi property and cannot gain it, and each treats High Roll as 0). Monkey Grip does not help. It spends the armor slot — check against the Innate Guise's ordinary-purchased-armor allowance before anyone builds around it.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "triple_slash",
+			"masteryClasses": [
+				"dancer",
+				"prizefighter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000159"
+}

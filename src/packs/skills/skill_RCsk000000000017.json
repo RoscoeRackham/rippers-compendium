@@ -1,0 +1,44 @@
+{
+	"name": "Phantom Strength",
+	"type": "skill",
+	"_id": "RCsk000000000017",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "phantom_strength",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (arcanist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "While merged: +(SL) damage on free attacks, pulses and spells."
+		},
+		"description": "<p>While merged: +(SL) damage on free attacks, pulses and spells. With an arcane, dagger or flail weapon equipped, your pulse and dismiss damage may ignore Affinities.</p>",
+		"class": {
+			"value": "Arcanist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "arcanist",
+			"skillKey": "phantom_strength",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000017"
+}

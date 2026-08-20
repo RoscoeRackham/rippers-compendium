@@ -1,0 +1,92 @@
+{
+	"name": "Celebrity",
+	"type": "class",
+	"_id": "RCcl000000000012",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "celebrity",
+		"source": {
+			"value": "Rippers Unmasked — classes (celebrity)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Also known as Executive, Kingpin, Influencer."
+		},
+		"description": "<h5>FREE BENEFITS</h5><ul><li>Increased maximum HP <strong>or</strong> MP — player's choice; set the chosen resource on the sheet.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>CELEBRITY SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000059]{Call Entourage} <strong>【Max SL 7】</strong></p><p>Each level grants one Entourage Member, chosen from the class roster.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000060]{Charming Presence} <strong>【Max SL 3】</strong></p><p>With an arcane weapon equipped, when you cast a spell targeting allies, each may also recover up to (SL × your Bonds) MP. The Bond multiplier is capped at 3.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000061]{Cultural Phenomenon} <strong>【Max SL 3】</strong></p><p>After resting where you can reach a crowd — in person or through technology or magic — gain (SL + 1) Reputation Points, holding at most (SL + 3); start with 2 if taken at creation. In a non-conflict scene, spend 2 on meeting an NPC: they have heard of you, positively or negatively inclined — your choice which.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000062]{Lethal Charisma} <strong>【Max SL 1】</strong></p><p>Action + 1 Reputation Point: Opposed (WLP + WLP) against a nearby soldier-rank humanoid you can see. Success: control it until scene's end — one at a time, released at will, and released the moment you or an ally harms it.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000063]{Low Profile} <strong>【Max SL 3】</strong></p><p>Build disguises that hide your identity for short stretches. An in-person interaction running past a minute forces an Opposed (INS + WLP + SL) Check — lose and your identity is revealed.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "celebrity",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": null
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000012"
+}

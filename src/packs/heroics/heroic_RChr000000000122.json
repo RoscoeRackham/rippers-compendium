@@ -1,0 +1,44 @@
+{
+	"name": "Rancor & Refrain",
+	"type": "heroic",
+	"_id": "RChr000000000122",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "rancor_and_refrain",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Blackguard / Sin-Eater"
+		},
+		"requirement": {
+			"value": "Blackguard (Darkblade) or Sin-Eater (Witch) mastery"
+		},
+		"description": "<p>When a rule or ability requires you to spend a Fabula Point, you may instead choose a Bond and replace an emotion of Admiration, Affection or Loyalty with one of Inferiority, Mistrust or Hatred — and ignore that cost. A second route to paying costs in something other than the intended currency, and it reaches any Fabula Point cost rather than just spells. Self-limiting only while the character has positive emotions left to spend.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "rancor_and_refrain",
+			"masteryClasses": [
+				"blackguard",
+				"sin_eater"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000122"
+}

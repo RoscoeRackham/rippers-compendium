@@ -1,0 +1,45 @@
+{
+	"name": "Fey Gate",
+	"type": "heroic",
+	"_id": "RChr000000000049",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "fey_gate",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Cunning Folk"
+		},
+		"requirement": {
+			"value": "Cunning Folk mastery + Fey Crossing (and the Rituals benefit-pool pick)"
+		},
+		"description": "<p>A Ritual creating a permanent fey crossing at your location: (INS + WLP), 80 MP, Difficulty 13, Major/Small, usable thereafter with Fey Crossing. Backfire: \"you attract the attention of something greater than yourself.\" Your gates are safer than wild ones but not safe — they draw other fey. Requires the Rituals benefit-pool pick; Guises grant no ritual access. At 80 MP against a level-30 pool of roughly 90 it is very nearly everything you have, which is right for a door between worlds. Treat the Backfire as a real hook: it names no creature and no consequence, which makes a failed Fey Gate a district-level event.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "fey_gate",
+			"masteryClasses": [
+				"cunning_folk"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"fey_crossing"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000049"
+}

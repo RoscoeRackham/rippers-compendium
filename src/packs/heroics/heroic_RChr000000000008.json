@@ -1,0 +1,46 @@
+{
+	"name": "Arcane Symbolism",
+	"type": "heroic",
+	"_id": "RChr000000000008",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "arcane_symbolism",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Arcanist / Symbolist"
+		},
+		"requirement": {
+			"value": "Arcanist or Symbolist mastery + Symbolism"
+		},
+		"description": "<p>When you merge with an Arcanum, use Symbolism for free (paying the IP). And on a pulse or willing dismiss, spend 1 IP to change one symbol on a visible creature to another you know. No free symbol on a Quick Summoning merge.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "arcane_symbolism",
+			"masteryClasses": [
+				"arcanist",
+				"symbolist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"symbolism"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000008"
+}

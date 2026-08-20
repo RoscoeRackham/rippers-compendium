@@ -1,0 +1,46 @@
+{
+	"name": "The Ascent",
+	"type": "heroic",
+	"_id": "RChr000000000148",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "the_ascent",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Sensitive / Elementalist / Entropist / Spiritist"
+		},
+		"requirement": {
+			"value": "Sensitive (Esper), Elementalist, Entropist or Spiritist mastery"
+		},
+		"description": "<p>While you are in Crisis, you are flying: your melee attacks can target flying creatures, and melee cannot reach you unless the attacker flies or can otherwise reach flying targets. Suspended whenever you cannot fly freely — inside a vehicle built for human-sized creatures, in a narrow corridor — and lost until the start of your next turn if you suffer air, earth or light damage in a conflict. Flight in public view ticks the Miasma Clock by 1; used in a cellar, in the works, or at night with nobody watching, it costs nothing. Not the cut Skilled Sinning: two heroics in that book share the name, the Sinner's dies with its class, and this is the other one. The rename ends the collision.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "the_ascent",
+			"masteryClasses": [
+				"sensitive",
+				"elementalist",
+				"entropist",
+				"spiritist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000148"
+}

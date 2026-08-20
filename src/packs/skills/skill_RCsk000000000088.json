@@ -1,0 +1,44 @@
+{
+	"name": "Dance",
+	"type": "skill",
+	"_id": "RCsk000000000088",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "dance",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (dancer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Each level teaches one dance (of seventeen)."
+		},
+		"description": "<p>Each level teaches one dance (of seventeen). On your turn, with no martial armor equipped, spend 10 MP to perform one you know — no action required, once per turn; 5 MP if you performed a different dance on your previous turn this scene.</p>",
+		"class": {
+			"value": "Dancer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 10
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "dancer",
+			"skillKey": "dance",
+			"maxSl": 10
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000088"
+}

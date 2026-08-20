@@ -1,0 +1,44 @@
+{
+	"name": "Tactical Leverage",
+	"type": "skill",
+	"_id": "RCsk000000000030",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "tactical_leverage",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (batman)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you Guard and provide cover, the covered creature chooses one before the end of their next turn: their next melee a"
+		},
+		"description": "<p>When you Guard and provide cover, the covered creature chooses one before the end of their next turn: their next melee attack may strike creatures melee cannot normally reach, or their next attack or spell deals (SL × 2) extra damage.</p>",
+		"class": {
+			"value": "Batman"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "batman",
+			"skillKey": "tactical_leverage",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000030"
+}

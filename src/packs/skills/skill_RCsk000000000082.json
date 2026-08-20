@@ -1,0 +1,44 @@
+{
+	"name": "Just Borrowing It",
+	"type": "skill",
+	"_id": "RCsk000000000082",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "just_borrowing_it",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (courier)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you pick up a package, spend 1 Fabula Point to declare it rare equipment you can equip, chosen by the GM, worth up "
+		},
+		"description": "<p>When you pick up a package, spend 1 Fabula Point to declare it rare equipment you can equip, chosen by the GM, worth up to ((level + SL) × 50) zenit. Only you may equip it; one package at a time; the loan ends on delivery. Never a hoplosphere or sphere-bearing gear.</p>",
+		"class": {
+			"value": "Courier"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "courier",
+			"skillKey": "just_borrowing_it",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000082"
+}

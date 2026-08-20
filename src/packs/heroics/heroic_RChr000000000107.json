@@ -1,0 +1,46 @@
+{
+	"name": "Polarity",
+	"type": "heroic",
+	"_id": "RChr000000000107",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "polarity",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Dancer / Elementalist / Sensitive / Dowser"
+		},
+		"requirement": {
+			"value": "Dancer, Elementalist, Sensitive or Dowser mastery"
+		},
+		"description": "<p>Dark, earth, ice or physical damage earns a Yin Point; air, bolt, fire or light a Yang Point; +5 damage while holding one of the other kind. At 3+ with one of each, spend all to drain MP from every enemy or restore an ally's. Rewards alternating damage types — nothing else does.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "polarity",
+			"masteryClasses": [
+				"dancer",
+				"elementalist",
+				"sensitive",
+				"dowser"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000107"
+}

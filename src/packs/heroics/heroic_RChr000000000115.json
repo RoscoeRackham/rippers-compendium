@@ -1,0 +1,43 @@
+{
+	"name": "Psychic Armor",
+	"type": "heroic",
+	"_id": "RChr000000000115",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "psychic_armor",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Sensitive"
+		},
+		"requirement": {
+			"value": "Sensitive mastery"
+		},
+		"description": "<p>While you have no martial armor and no shield equipped, all damage is reduced by (1 + filled Brainwave sections), before Affinities. A choice that costs an armour slot — the Innate Guise may wear ordinary purchased armour.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "psychic_armor",
+			"masteryClasses": [
+				"sensitive"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000115"
+}

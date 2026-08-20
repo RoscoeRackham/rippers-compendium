@@ -1,0 +1,45 @@
+{
+	"name": "Malevolent Maledictions",
+	"type": "heroic",
+	"_id": "RChr000000000086",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "malevolent_maledictions",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Vampyre"
+		},
+		"requirement": {
+			"value": "Vampyre mastery + Crimson Malediction"
+		},
+		"description": "<p>Before you cast a malediction, double its HP cost to alter one of its lifting conditions. The counterplay tax, priced correctly: every malediction's balance sits in its lifting condition, and this buys the right to move one at double the blood. Watch it against Entangle — three targets is 30 HP printed, 60 amended — and rule that \"alter\" means rewrite, not delete, with a replacement the targets can actually attempt. Say it before it is used, not after.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "malevolent_maledictions",
+			"masteryClasses": [
+				"vampyre"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"crimson_malediction"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000086"
+}

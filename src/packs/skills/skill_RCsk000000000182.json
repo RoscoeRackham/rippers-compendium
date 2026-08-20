@@ -1,0 +1,44 @@
+{
+	"name": "In Their Name",
+	"type": "skill",
+	"_id": "RCsk000000000182",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "in_their_name",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (penny_knight)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When a damaging spell you cast in the Panoply hits and its Magic Check invoked a Bond of admiration, loyalty and/or affe"
+		},
+		"description": "<p>When a damaging spell you cast in the Panoply hits and its Magic Check invoked a Bond of admiration, loyalty and/or affection: +(SL) damage, and the spell ignores Immunities and Resistances, as printed.</p>",
+		"class": {
+			"value": "Penny Knight"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "penny_knight",
+			"skillKey": "in_their_name",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000182"
+}

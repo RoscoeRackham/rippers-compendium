@@ -1,0 +1,44 @@
+{
+	"name": "Hardened Hunter",
+	"type": "skill",
+	"_id": "RCsk000000000166",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "hardened_hunter",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (naturalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "While no equipment fixes your Magic Defense to a flat value, +(SL) Magic Defense — +(SL + 1) against creatures of your F"
+		},
+		"description": "<p>While no equipment fixes your Magic Defense to a flat value, +(SL) Magic Defense — +(SL + 1) against creatures of your Forte.</p>",
+		"class": {
+			"value": "Naturalist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "naturalist",
+			"skillKey": "hardened_hunter",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000166"
+}

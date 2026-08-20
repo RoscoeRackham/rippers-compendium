@@ -1,0 +1,45 @@
+{
+	"name": "Dark Blessing",
+	"type": "heroic",
+	"_id": "RChr000000000029",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "dark_blessing",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Blackguard"
+		},
+		"requirement": {
+			"value": "Blackguard mastery"
+		},
+		"description": "<p>When Shadow Strike's HP loss does not drop you to 0, every ally present recovers (the HP you lost + your SL in Shadow Strike) — +10 at level 30+. The self-harm engine, made generous.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "dark_blessing",
+			"masteryClasses": [
+				"blackguard"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"shadow_strike"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000029"
+}

@@ -1,0 +1,92 @@
+{
+	"name": "Parasite",
+	"type": "class",
+	"_id": "RCcl000000000034",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "parasite",
+		"source": {
+			"value": "Rippers Unmasked — classes (parasite)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Also known as Profiteer, Leech."
+		},
+		"description": "<p><em>Built on Project FU's <strong>Predator (Dr. Razno) -- may be Guise or Innate</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Hit Points — activated.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>PARASITE SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000176]{Blood Is Life} <strong>【Max SL 6】</strong></p><p>When a creature's spell includes you among its targets, the caster may spend up to (SL) HP: you recover 2 HP per HP spent, or shed one status per 3 HP. When an offensive spell includes you, you may spend up to (SL) HP to deal 2 dark damage per HP back at the caster — 3 per HP at level 40+.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000177]{Children of the Night} <strong>【Max SL 1】</strong></p><p>Communicate with beast, demon and undead creatures. A mindless undead can be read for whether it is commanded, and what its orders are.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000178]{Dark Hunger} <strong>【Max SL 5】</strong></p><p>Choose a Craving: Mesmerizing (dazed, MP-primary), Pestilent (weak, HP-primary; printed Miasmic), Terrifying (shaken, MP-primary) or Inevitable (slow, HP-primary). First infliction of its status on an unmarked creature each scene marks it and pays (SL × 5) primary or (SL × 3) secondary; at SL3+ the Craving's second status also triggers. Marks vanish at scene's end. Undead and constructs are not meals (house ruling — not in print).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000179]{Drink Deeply} <strong>【Max SL 2】</strong></p><p>Your Craving's active half (its own SL): Mesmerizing — 5 MP on an Opposed Check inflicts dazed, subtly (+SL to stay unnoticed); Pestilent — 5 MP at round start, every weak creature, friend or foe, takes (SL × 2) poison (× 4 at level 40+) and you recover half as HP; Terrifying — +(SL) damage per shaken creature in the scene, friend or foe; Inevitable — in a chase, spend up to (SL × 20) MP: per 20, inflict slow or fill a pursuit-clock section.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000180]{It Won't Die!} <strong>【Max SL 5】</strong></p><p>After your first surrender in a scene, at the start of a later round spend 1 Fabula Point to rise with (Crisis value + SL × 2) HP. Surrender's consequence still lands, and the wrong-way point ticks the Miasma Clock. Fall to 0 again and you leave the scene — cleanly, no further payout.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": true
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "parasite",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": "Predator (Dr. Razno) -- may be Guise or Innate"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000034"
+}

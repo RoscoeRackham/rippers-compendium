@@ -1,0 +1,44 @@
+{
+	"name": "Malefactor Magic",
+	"type": "skill",
+	"_id": "RCsk000000000158",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "malefactor_magic",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (malefactor)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Each level teaches one Malefaction spell."
+		},
+		"description": "<p>Each level teaches one Malefaction spell. Offensive Malefaction spells use (INS + WLP).</p>",
+		"class": {
+			"value": "Malefactor"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 9
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "malefactor",
+			"skillKey": "malefactor_magic",
+			"maxSl": 9
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000158"
+}

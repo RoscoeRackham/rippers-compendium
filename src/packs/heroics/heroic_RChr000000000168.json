@@ -1,0 +1,44 @@
+{
+	"name": "Weak Point",
+	"type": "heroic",
+	"_id": "RChr000000000168",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "weak_point",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Sharpshooter / Slayer"
+		},
+		"requirement": {
+			"value": "Sharpshooter or Slayer mastery"
+		},
+		"description": "<p>When you hit with a ranged attack, spend 10 MP to leave a weak point. The next time any creature hits that same target this scene, they may spend 10 MP to deal 15 extra damage and inflict one status of their choice from dazed, shaken, slow or weak. The damage rises to 25 at level 40+.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "weak_point",
+			"masteryClasses": [
+				"sharpshooter",
+				"slayer"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000168"
+}

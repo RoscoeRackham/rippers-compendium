@@ -1,0 +1,46 @@
+{
+	"name": "Phagomagus",
+	"type": "heroic",
+	"_id": "RChr000000000104",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "phagomagus",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Vivisectionist / Entropist / Cook / Mutant"
+		},
+		"requirement": {
+			"value": "Vivisectionist, Entropist, Cook or Mutant mastery"
+		},
+		"description": "<p>Dispel becomes 10×T on up to three creatures; when you end scene-duration spells on enemies, recover 20 MP per spell or copy each onto yourself. Theft rather than mimicry, and the enemy has to have buffed first.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "phagomagus",
+			"masteryClasses": [
+				"vivisectionist",
+				"entropist",
+				"cook",
+				"mutant"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000104"
+}

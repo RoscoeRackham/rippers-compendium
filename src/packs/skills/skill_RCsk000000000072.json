@@ -1,0 +1,44 @@
+{
+	"name": "Trick or Treat",
+	"type": "skill",
+	"_id": "RCsk000000000072",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "trick_or_treat",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (confidence_man)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Spend 2 IP and choose the target, then roll 1d4: 1 — recover (SL × 10) HP and MP; 2 — recover from all status effects an"
+		},
+		"description": "<p>Spend 2 IP and choose the target, then roll 1d4: 1 — recover (SL × 10) HP and MP; 2 — recover from all status effects and gain 1 IP; 3 — (SL × 10) poison damage; 4 — inflict poisoned and enraged.</p>",
+		"class": {
+			"value": "Confidence Man"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "confidence_man",
+			"skillKey": "trick_or_treat",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000072"
+}

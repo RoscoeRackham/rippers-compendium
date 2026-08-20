@@ -1,0 +1,58 @@
+{
+	"id": "rippers-compendium",
+	"title": "Rippers Unmasked — Classes & Skills",
+	"description": "The Rippers Unmasked class corpus as native Foundry Item packs the GM drags onto Project FU sheets: type:class Items for every Rippers class, their class skills as UUID-linked type:skill Items, and heroic skills as type:heroic Items with their requirements listed. Original campaign content, layered on Project FU. A personal-table module — not for redistribution.",
+	"version": "0.1.0",
+	"url": "https://github.com/RoscoeRackham/rippers-compendium",
+	"manifest": "https://github.com/RoscoeRackham/rippers-compendium/releases/latest/download/module.json",
+	"download": "https://github.com/RoscoeRackham/rippers-compendium/releases/latest/download/rippers-compendium.zip",
+	"compatibility": {
+		"minimum": "13",
+		"verified": "13",
+		"maximum": "13"
+	},
+	"authors": [
+		{ "name": "Austin (cubemail.exe)" }
+	],
+	"packs": [
+		{
+			"name": "classes",
+			"label": "Rippers Classes",
+			"path": "packs/classes",
+			"type": "Item",
+			"system": "projectfu"
+		},
+		{
+			"name": "skills",
+			"label": "Rippers Class Skills",
+			"path": "packs/skills",
+			"type": "Item",
+			"system": "projectfu"
+		},
+		{
+			"name": "heroics",
+			"label": "Rippers Heroic Skills",
+			"path": "packs/heroics",
+			"type": "Item",
+			"system": "projectfu"
+		}
+	],
+	"packFolders": [
+		{
+			"name": "Rippers — Classes & Skills",
+			"sorting": "m",
+			"packs": ["classes", "skills", "heroics"]
+		}
+	],
+	"relationships": {
+		"systems": [
+			{ "id": "projectfu", "type": "system" }
+		]
+	},
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true,
+			"note": "Items validate against Project FU's class/skill/heroic DataModels (packs system:projectfu). No FU content is redistributed; no automation code."
+		}
+	}
+}

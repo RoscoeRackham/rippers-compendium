@@ -1,0 +1,44 @@
+{
+	"name": "Warp Reaper",
+	"type": "heroic",
+	"_id": "RChr000000000165",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "warp_reaper",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Entropist / Rogue"
+		},
+		"requirement": {
+			"value": "Entropist or Rogue mastery + High Speed or Stolen Time"
+		},
+		"description": "<p>+5 to Accuracy and Magic Checks against targets that include an enemy in Crisis. After you defeat one or more enemies: recover from all statuses, then a single-target free attack at +5 damage or a free offensive spell of 10 MP or less, unpaid. Once per conflict per trigger window.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "warp_reaper",
+			"masteryClasses": [
+				"entropist",
+				"rogue"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000165"
+}

@@ -1,0 +1,43 @@
+{
+	"name": "Ritual Seals",
+	"type": "heroic",
+	"_id": "RChr000000000128",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "ritual_seals",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Symbolist"
+		},
+		"requirement": {
+			"value": "Symbolist mastery (and, in practice, the Ritualism benefit-pool pick)"
+		},
+		"description": "<p>When you perform a Ritual outside a conflict scene with a total cost of 60 MP or lower, stop immediately before the Magic Check and store the effect in a Ritual seal on a surface you can touch. Name a condition — anything from \"when I enter Crisis\" to \"as soon as I snap my fingers\". When it is met the seal vanishes, the Ritual fires at the seal's location, and you make the Magic Check and resolve it even if you are unconscious or not present. One seal at a time; dying or making a new seal destroys the old one. This campaign's Symbolist has no Rituals — Mirage is dead — so the only route is the benefit-pool Ritualism pick with a named discipline. Legal, and a real build, but a payoff you buy outside the class.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "ritual_seals",
+			"masteryClasses": [
+				"symbolist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000128"
+}

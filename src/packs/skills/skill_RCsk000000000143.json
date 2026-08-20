@@ -1,0 +1,44 @@
+{
+	"name": "Phantasmal Recovery",
+	"type": "skill",
+	"_id": "RCsk000000000143",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "phantasmal_recovery",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (illusionist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Shatter one of your Phantasms to recover (SL × 5) HP."
+		},
+		"description": "<p>Shatter one of your Phantasms to recover (SL × 5) HP.</p>",
+		"class": {
+			"value": "Illusionist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "illusionist",
+			"skillKey": "phantasmal_recovery",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000143"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Trait Mimic",
+	"type": "skill",
+	"_id": "RCsk000000000264",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "trait_mimic",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (vivisectionist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Record Traits you learn from visible beasts, monsters and plants."
+		},
+		"description": "<p>Record Traits you learn from visible beasts, monsters and plants. Invoke one for 15 MP or 1 Fabula Point to mimic the creature — one impressive feat within that Trait's bounds, statistics unchanged.</p>",
+		"class": {
+			"value": "Vivisectionist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 10
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "vivisectionist",
+			"skillKey": "trait_mimic",
+			"maxSl": 10
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000264"
+}

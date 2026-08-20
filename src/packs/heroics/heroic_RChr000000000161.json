@@ -1,0 +1,47 @@
+{
+	"name": "Twin Point Strike",
+	"type": "heroic",
+	"_id": "RChr000000000161",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "twin_point_strike",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Sharpshooter / Batman / Prizefighter"
+		},
+		"requirement": {
+			"value": "Sharpshooter, Batman (Squire) or Prizefighter (Weaponmaster) mastery + Arming Maneuver"
+		},
+		"description": "<p>When Arming Maneuver both makes a free attack with a weapon you just equipped and swaps equipment with an ally, that ally may attack alongside you. Both attacks treat High Roll as 0 and both deal extra damage equal to your Skill Level in Arming Maneuver. You generate an opportunity if any two of the four dice rolled show 6 or higher and match.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "twin_point_strike",
+			"masteryClasses": [
+				"sharpshooter",
+				"batman",
+				"prizefighter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"arming_maneuver"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000161"
+}

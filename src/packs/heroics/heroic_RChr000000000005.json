@@ -1,0 +1,43 @@
+{
+	"name": "Apotheosis",
+	"type": "heroic",
+	"_id": "RChr000000000005",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "apotheosis",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Penny Knight"
+		},
+		"requirement": {
+			"value": "Penny Knight mastery"
+		},
+		"description": "<p>Entering the Panoply, spend 1 Fabula Point to invoke your Theme: +5 entry damage, and until the form ends — Immunity to your element; your element's damage-bypass clause works as printed; and once per Check, 10 MP to reroll either or both dice, non-fumble. Once per rest. The Immunity stands, ruled as the campaign's one sanctioned transcendent state: unlike Pulse of the Maggots it is once per rest, Theme-invoked, Fabula-priced and form-scoped — a climax, not a statblock.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "apotheosis",
+			"masteryClasses": [
+				"penny_knight"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000005"
+}

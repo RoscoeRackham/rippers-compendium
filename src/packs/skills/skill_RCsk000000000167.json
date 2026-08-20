@@ -1,0 +1,44 @@
+{
+	"name": "Prepared Ground",
+	"type": "skill",
+	"_id": "RCsk000000000167",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "prepared_ground",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (naturalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "The four Hunter Rituals only, in a discipline flavour of your choice: Arm Up (a community gains +5 damage vs your Forte "
+		},
+		"description": "<p>The four Hunter Rituals only, in a discipline flavour of your choice: Arm Up (a community gains +5 damage vs your Forte via a swapped weapon Quality), Freedom (release a controlled or possessed creature; fails if it takes damage during the performance), Smoke Out (Forte creatures in the area must reveal themselves; a Villain may spend an Ultima Point to stay hidden), Land Survey (know the ritual area like the back of your hand). Helpers' IP cuts the MP cost, 10 per point.</p>",
+		"class": {
+			"value": "Naturalist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "naturalist",
+			"skillKey": "prepared_ground",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000167"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Forbiddance",
+	"type": "skill",
+	"_id": "RCsk000000000148",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "forbiddance",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (keeper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "On a rest, set a condition describing a creature."
+		},
+		"description": "<p>On a rest, set a condition describing a creature. When such a creature tries to enter your Sanctuary: you know, wherever you are, and it must beat you in an Opposed (WLP + WLP) Check — you at +(SL × 2) — or be repelled until sunrise. Once per creature per night; a Villain may spend 1 Ultima Point to force through.</p>",
+		"class": {
+			"value": "Keeper"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "keeper",
+			"skillKey": "forbiddance",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000148"
+}

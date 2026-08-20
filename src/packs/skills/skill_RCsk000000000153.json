@@ -1,0 +1,44 @@
+{
+	"name": "Citation",
+	"type": "skill",
+	"_id": "RCsk000000000153",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "citation",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (magistrate)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "(Requires Letter of the Law) A law-breaker receives a citation once the break resolves: the next damage they take is inc"
+		},
+		"description": "<p>(Requires Letter of the Law) A law-breaker receives a citation once the break resolves: the next damage they take is increased by (SL × 2) — (SL × 5) if that damage came from breaking another law — then the citation is removed. Cited damage ignores Resistances, as printed. All citations clear at scene's end.</p>",
+		"class": {
+			"value": "Magistrate"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "magistrate",
+			"skillKey": "citation",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000153"
+}

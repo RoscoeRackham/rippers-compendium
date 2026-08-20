@@ -1,0 +1,45 @@
+{
+	"name": "Hunter's Instinct",
+	"type": "heroic",
+	"_id": "RChr000000000068",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "hunters_instinct",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Bounty Hunter"
+		},
+		"requirement": {
+			"value": "Bounty Hunter mastery + Bounty"
+		},
+		"description": "<p>After you roll a Check, spend 1 Fabula Point to invoke your Bounty as an Instinct: that Check triggers a critical success if both dice show the same number, provided the Result is not a fumble. And damage dealt by your tools ignores Immunities and Resistances against your Bounty, as printed. Tools cost 2–4 IP and IP is finite, so this is realistically 3–5 tools a conflict — preparation pays, and against your Bounty it pays through.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "hunters_instinct",
+			"masteryClasses": [
+				"bounty_hunter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"bounty"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000068"
+}

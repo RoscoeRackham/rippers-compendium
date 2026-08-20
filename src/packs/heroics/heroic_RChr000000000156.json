@@ -1,0 +1,43 @@
+{
+	"name": "Trapmaster",
+	"type": "heroic",
+	"_id": "RChr000000000156",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "trapmaster",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Traveller"
+		},
+		"requirement": {
+			"value": "Traveller mastery"
+		},
+		"description": "<p>Secretly assign a damage type, a status and an action to a trap; it springs when the enemy takes that action. The prediction mechanic — pairs with Prophetic Defender and Battlefield Investigator.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "trapmaster",
+			"masteryClasses": [
+				"traveller"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000156"
+}

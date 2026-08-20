@@ -1,0 +1,44 @@
+{
+	"name": "Quick Scan",
+	"type": "heroic",
+	"_id": "RChr000000000120",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "quick_scan",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Archivist / Bounty Hunter"
+		},
+		"requirement": {
+			"value": "Archivist (Loremaster) or Bounty Hunter mastery"
+		},
+		"description": "<p>When you Study during a conflict, examine the profiles of every enemy you can see: one (INS + INS) Open Check, applied separately to each. If you have Flash of Insight, this Check cannot trigger it.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "quick_scan",
+			"masteryClasses": [
+				"archivist",
+				"bounty_hunter"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000120"
+}

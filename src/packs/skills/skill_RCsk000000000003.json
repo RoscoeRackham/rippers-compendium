@@ -1,0 +1,44 @@
+{
+	"name": "Restoration",
+	"type": "skill",
+	"_id": "RCsk000000000003",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "restoration",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (adept)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action: release Motes toward up to three creatures, 2 MP per Mote."
+		},
+		"description": "<p>Action: release Motes toward up to three creatures, 2 MP per Mote. Each delivered Mote restores (SL × 5) HP or MP, your choice. Released Motes are destroyed.</p>",
+		"class": {
+			"value": "Adept"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "adept",
+			"skillKey": "restoration",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000003"
+}

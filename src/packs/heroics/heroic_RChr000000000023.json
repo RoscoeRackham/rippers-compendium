@@ -1,0 +1,41 @@
+{
+	"name": "Category Training",
+	"type": "heroic",
+	"_id": "RChr000000000023",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "category_training",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Any"
+		},
+		"requirement": {
+			"value": "Master any class"
+		},
+		"description": "<p>Choose a weapon Category: +2 Accuracy and +5 damage with it. Not a Guise Perk — no heroic is. A brawler mask grants the permission to fight like the thing it came off; this is the character learning to, and it keeps working unmasked.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "category_training",
+			"masteryClasses": [],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000023"
+}

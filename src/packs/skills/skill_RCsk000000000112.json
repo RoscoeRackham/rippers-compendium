@@ -1,0 +1,44 @@
+{
+	"name": "Absorb MP",
+	"type": "skill",
+	"_id": "RCsk000000000112",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "absorb_mp",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (entropist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After you suffer damage, recover (SL × 2) MP."
+		},
+		"description": "<p>After you suffer damage, recover (SL × 2) MP.</p>",
+		"class": {
+			"value": "Entropist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "entropist",
+			"skillKey": "absorb_mp",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000112"
+}

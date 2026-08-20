@@ -1,0 +1,44 @@
+{
+	"name": "Gadgets",
+	"type": "skill",
+	"_id": "RCsk000000000105",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "gadgets",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (engineer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Choose a gadget type — alchemy, infusions or magitech — and gain its basic benefits."
+		},
+		"description": "<p>Choose a gadget type — alchemy, infusions or magitech — and gain its basic benefits. Each further level buys a new type's basics, or upgrades one you have to advanced, then superior.</p>",
+		"class": {
+			"value": "Engineer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "engineer",
+			"skillKey": "gadgets",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000105"
+}

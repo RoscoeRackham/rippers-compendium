@@ -1,0 +1,44 @@
+{
+	"name": "Crushing Chariot",
+	"type": "skill",
+	"_id": "RCsk000000000053",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "crushing_chariot",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (captain)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After using Bishop's Edict, Charging Cavalry or King's Castle, choose a Player Character who can hear you and has not ye"
+		},
+		"description": "<p>After using Bishop's Edict, Charging Cavalry or King's Castle, choose a Player Character who can hear you and has not yet acted this round: they take their turn immediately after yours. Grants nobody an extra turn — it decides whose comes next.</p>",
+		"class": {
+			"value": "Captain"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "captain",
+			"skillKey": "crushing_chariot",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000053"
+}

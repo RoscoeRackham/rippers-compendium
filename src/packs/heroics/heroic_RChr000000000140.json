@@ -1,0 +1,43 @@
+{
+	"name": "Strength of Five Wellsprings",
+	"type": "heroic",
+	"_id": "RChr000000000140",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "strength_of_five_wellsprings",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Dowser"
+		},
+		"requirement": {
+			"value": "Dowser (Invoker) mastery"
+		},
+		"description": "<p>After you perform an invocation during a conflict, you and up to one ally you can see each increase one Attribute's die size by one, to a maximum of d12, until the end of the scene or until you use this again. The Attribute follows the wellspring: air → Insight, earth → any Attribute of your choice, fire → Dexterity, lightning → Might, water → Willpower. Held by the standing rulings rather than a bespoke one: die raises never stack and d12 is the ceiling everywhere, and Guise bonuses sit outside p.266's two-effect cap — so this is one raise, on a class ability, with the mask's +3 not counted against it. Still the only skill in the class that hands a scene-long raise to somebody else; watch it in play.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "strength_of_five_wellsprings",
+			"masteryClasses": [
+				"dowser"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000140"
+}

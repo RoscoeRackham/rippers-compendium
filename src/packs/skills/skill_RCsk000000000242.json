@@ -1,0 +1,44 @@
+{
+	"name": "Ties That Bind",
+	"type": "skill",
+	"_id": "RCsk000000000242",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "ties_that_bind",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (stalwart)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you invoke a Bond, an ally recovers (SL × 4) HP or MP — and both if the Bond is with them."
+		},
+		"description": "<p>When you invoke a Bond, an ally recovers (SL × 4) HP or MP — and both if the Bond is with them.</p>",
+		"class": {
+			"value": "Stalwart"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "stalwart",
+			"skillKey": "ties_that_bind",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000242"
+}

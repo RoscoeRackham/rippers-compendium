@@ -1,0 +1,47 @@
+{
+	"name": "Like an Open Book",
+	"type": "heroic",
+	"_id": "RChr000000000083",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "like_an_open_book",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Sensitive / Archivist / Rogue"
+		},
+		"requirement": {
+			"value": "Sensitive, Archivist or Rogue mastery + Soul Steal"
+		},
+		"description": "<p>After a successful Soul Steal: one target is Studied for free, immediately, using the Soul Steal Check's own Result and High Roll — no dice. And you deal +(SL in Soul Steal) damage to an elite or champion whose soul treasure you stole this scene. The sphere comes out and you learn what it was, one motion.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "like_an_open_book",
+			"masteryClasses": [
+				"sensitive",
+				"archivist",
+				"rogue"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": [
+				"soul_steal"
+			]
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000083"
+}

@@ -1,0 +1,92 @@
+{
+	"name": "Batman",
+	"type": "class",
+	"_id": "RCcl000000000006",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "batman",
+		"source": {
+			"value": "Rippers Unmasked — classes (batman)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Also known as Orderly, Valet, Loader, Gun-bearer."
+		},
+		"description": "<p><em>Built on Project FU's <strong>Squire</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Hit Points — activated.</li><li>martial melee proficiency — activated.</li><li>martial shields proficiency — activated.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>BATMAN SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000026]{Arming Maneuver} <strong>【Max SL 3】</strong></p><p>Action: perform the Equipment action and spend up to (SL × 5) MP; each 5 MP buys one option, once each: swap Hunter Weapons with one ally you can see; a free attack with a weapon equipped this turn, High Roll 0; or reduce the next damage you suffer before your next turn by (SL), before Affinities.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000027]{Follow-Up} <strong>【Max SL 4】</strong></p><p>When an ally causes creatures to lose HP, mark one of them until the next such trigger. Your attacks, spells and Skills deal (SL) extra damage to marked creatures.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000028]{Hero's Right Hand} <strong>【Max SL 1】</strong></p><p>After a creature you hold a Bond of admiration toward suffers status effects, spend 1 Fabula Point: they recover from any you choose that you are not also suffering — and you suffer them instead. When a Bond-of-inferiority creature rolls a fumble, recover from one status effect.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000029]{My Body, Your Shield} <strong>【Max SL 4】</strong></p><p>When you Guard and provide cover: recover (SL × 5) HP or MP, and until your next turn you may take any amount of the covered target's damage instead, up to (SL × 10) total.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000030]{Tactical Leverage} <strong>【Max SL 5】</strong></p><p>When you Guard and provide cover, the covered creature chooses one before the end of their next turn: their next melee attack may strike creatures melee cannot normally reach, or their next attack or spell deals (SL × 2) extra damage.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000031]{Team Player} <strong>【Max SL 3】</strong></p><p>A successful Support Check grants the leader +(SL) instead of the normal +1.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": true
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": true
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": true
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "batman",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": "Squire"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000006"
+}

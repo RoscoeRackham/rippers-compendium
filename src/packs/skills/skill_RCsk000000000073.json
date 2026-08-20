@@ -1,0 +1,44 @@
+{
+	"name": "Cooking",
+	"type": "skill",
+	"_id": "RCsk000000000073",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "cooking",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (cook)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "The engine."
+		},
+		"description": "<p>The engine. Gain (SL) ingredients when resting in a settlement; carry up to 10 + (SL × 5), and they never spoil. Action: combine 2–3 ingredients into a delicacy, then apply it to yourself or an ally you can see — or make a damageless free attack that applies it to each enemy hit.</p>",
+		"class": {
+			"value": "Cook"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "cook",
+			"skillKey": "cooking",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000073"
+}

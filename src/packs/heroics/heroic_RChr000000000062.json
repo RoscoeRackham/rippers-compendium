@@ -1,0 +1,45 @@
+{
+	"name": "Harvester",
+	"type": "heroic",
+	"_id": "RChr000000000062",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "harvester",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Archivist / Slayer / Traveller"
+		},
+		"requirement": {
+			"value": "Archivist (Loremaster), Slayer or Traveller (Wayfarer) mastery"
+		},
+		"description": "<p>When you roll a critical success on an Accuracy Check, you or a creature of your choice regains 1 Inventory Point. Straight into the Bane Oils economy.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "harvester",
+			"masteryClasses": [
+				"archivist",
+				"slayer",
+				"traveller"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000062"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Incorporate",
+	"type": "skill",
+	"_id": "RCsk000000000197",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "incorporate",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (proprietor)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Incorporate an organisation — one at a time."
+		},
+		"description": "<p>Incorporate an organisation — one at a time. Once per session, use one organisational ability as a free action on your turn by spending 1 IP.</p>",
+		"class": {
+			"value": "Proprietor"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "proprietor",
+			"skillKey": "incorporate",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000197"
+}

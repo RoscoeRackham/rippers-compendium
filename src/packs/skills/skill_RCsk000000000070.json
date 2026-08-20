@@ -1,0 +1,44 @@
+{
+	"name": "Secret Action",
+	"type": "skill",
+	"_id": "RCsk000000000070",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "secret_action",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (confidence_man)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Declare an action and a trigger condition; when the trigger occurs, perform it immediately, resolving before the trigger"
+		},
+		"description": "<p>Declare an action and a trigger condition; when the trigger occurs, perform it immediately, resolving before the triggering action completes. +(SL) to related Checks. The declaration is lost when your next turn starts.</p>",
+		"class": {
+			"value": "Confidence Man"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "confidence_man",
+			"skillKey": "secret_action",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000070"
+}

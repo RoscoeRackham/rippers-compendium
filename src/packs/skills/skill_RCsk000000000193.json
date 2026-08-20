@@ -1,0 +1,44 @@
+{
+	"name": "Breach",
+	"type": "skill",
+	"_id": "RCsk000000000193",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "breach",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (prizefighter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action + 10 MP: free single-target melee attack."
+		},
+		"description": "<p>Action + 10 MP: free single-target melee attack. On a hit choose: +(SL × 5) damage ignoring Resistances but also non-physical Vulnerabilities; or no damage, and your allies deal +(SL × 2) to the target until your next turn.</p>",
+		"class": {
+			"value": "Prizefighter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "prizefighter",
+			"skillKey": "breach",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000193"
+}

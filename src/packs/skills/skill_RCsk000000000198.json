@@ -1,0 +1,44 @@
+{
+	"name": "Dividends",
+	"type": "skill",
+	"_id": "RCsk000000000198",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "dividends",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (proprietor)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Spend 1 IP to activate an organisational ability as a free action, (SL) times per session — in addition to Incorporate's"
+		},
+		"description": "<p>Spend 1 IP to activate an organisational ability as a free action, (SL) times per session — in addition to Incorporate's single free use.</p>",
+		"class": {
+			"value": "Proprietor"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "proprietor",
+			"skillKey": "dividends",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000198"
+}

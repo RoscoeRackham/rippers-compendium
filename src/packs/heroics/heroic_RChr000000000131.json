@@ -1,0 +1,43 @@
+{
+	"name": "Seeds of Rebirth",
+	"type": "heroic",
+	"_id": "RChr000000000131",
+	"img": "icons/svg/aura.svg",
+	"system": {
+		"fuid": "seeds_of_rebirth",
+		"source": {
+			"value": "Rippers Unmasked — heroic_skills"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"class": {
+			"value": "Floralist"
+		},
+		"requirement": {
+			"value": "Floralist mastery"
+		},
+		"description": "<p>When visible allies drop to 0 HP, if your garden holds a magiseed and 2+ Growth sections are full: remove the seed, erase the clock, and one of them is reduced to exactly 1 HP instead. And whenever a seed leaves your garden with 3+ sections full, recover 20 MP.</p>",
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"heroicKey": "seeds_of_rebirth",
+			"masteryClasses": [
+				"floralist"
+			],
+			"classGate": "mastery",
+			"creationBanned": false,
+			"requiredSkills": []
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RChr000000000131"
+}

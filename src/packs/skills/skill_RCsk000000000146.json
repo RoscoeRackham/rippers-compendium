@@ -1,0 +1,44 @@
+{
+	"name": "Bind and Haunt",
+	"type": "skill",
+	"_id": "RCsk000000000146",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "bind_and_haunt",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (keeper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Bind your soul to Sanctuaries — small places of spiritual and historical weight, found through story; each carries a Hau"
+		},
+		"description": "<p>Bind your soul to Sanctuaries — small places of spiritual and historical weight, found through story; each carries a Haunt and a Ritual. In a conflict: action + 5/10/15 MP (escalating within a turn, resetting each turn) Haunts a creature you hold a Bond with — never yourself — at any distance. One creature per Sanctuary, one Sanctuary per creature; banishing is free on your turn.</p>",
+		"class": {
+			"value": "Keeper"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "keeper",
+			"skillKey": "bind_and_haunt",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000146"
+}

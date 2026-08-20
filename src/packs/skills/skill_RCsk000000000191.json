@@ -1,0 +1,44 @@
+{
+	"name": "Bladestorm",
+	"type": "skill",
+	"_id": "RCsk000000000191",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "bladestorm",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (prizefighter)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "On a melee attack, spend 10 MP: the attack gains multi (2), or its multi rises by one (max 3)."
+		},
+		"description": "<p>On a melee attack, spend 10 MP: the attack gains multi (2), or its multi rises by one (max 3).</p>",
+		"class": {
+			"value": "Prizefighter"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "prizefighter",
+			"skillKey": "bladestorm",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000191"
+}
