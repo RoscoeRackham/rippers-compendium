@@ -258,6 +258,40 @@ function benefitsFromOverride(ov) {
   return { resources: ov.resources, martials: ov.martials, rituals: ov.rituals, choiceHpMp: false, parts, fromCounterpart: ov.counterpart };
 }
 
+// ---- page-cited printed benefit specs (god card FDN-2-benefits-remainder, 2026-08-20) --------
+// The compiler extracted the printed FREE BENEFITS box for the 8 remaining inert classes, each
+// page-cited to its source PDF. We use these values VERBATIM. Same boolean shape as the rest —
+// resources parsed from the freeBenefits prose, martial/ritual taken straight from the spec.
+// Two CHOOSE-ONE cases: magistrate (+HP or +MP) uses the established choiceHpMp shape (both left
+// false, player picks on the sheet); stalwart (shields always + choose melee OR ranged) has no
+// prior choose-one-martial shape, so per god's fallback we ENABLE BOTH options and note the pick.
+const SPEC_FILE = join(DOCS, 'benefit-specs-8classes.json');
+const BENEFIT_SPECS = {};
+if (existsSync(SPEC_FILE)) {
+  for (const e of JSON.parse(readFileSync(SPEC_FILE, 'utf8'))) BENEFIT_SPECS[e.key] = e;
+}
+function benefitsFromSpec(e) {
+  const low = (e.freeBenefits || []).join(' | ').toLowerCase();
+  const choiceHpMp = /hit points\s*or\s*mind points|mind points\s*or\s*hit points|\bhp\s*or\s*mp\b|\bmp\s*or\s*hp\b/i.test(low);
+  const resources = {
+    hp: !choiceHpMp && /maximum hit points/i.test(low),
+    mp: !choiceHpMp && /maximum mind points/i.test(low),
+    ip: /maximum inventory points/i.test(low),
+  };
+  const martials = { melee: !!e.martial?.melee, ranged: !!e.martial?.ranged, armor: !!e.martial?.armor, shields: !!e.martial?.shields };
+  const rituals = Object.fromEntries(RITUAL_KINDS.map((k) => [k, !!e.ritual?.[k]]));
+  // choose-one-martial: the printed line grants shields always then "choose one" melee/ranged.
+  const chooseOneMartial = (/choose one/i.test(low) && /\bmelee\b/i.test(low) && /\branged\b/i.test(low)) ? ['melee', 'ranged'] : null;
+  const chooseSet = new Set(chooseOneMartial || []);
+  const parts = [];
+  if (resources.hp) parts.push('increased maximum Hit Points');
+  if (resources.mp) parts.push('increased maximum Mind Points');
+  if (resources.ip) parts.push('increased maximum Inventory Points');
+  for (const m of ['melee', 'ranged', 'armor', 'shields']) if (martials[m] && !chooseSet.has(m)) parts.push(`martial ${m} proficiency`);
+  for (const k of RITUAL_KINDS) if (rituals[k]) parts.push(`${CAP(k)} rituals`);
+  return { resources, martials, rituals, choiceHpMp, chooseOneMartial, parts, fromSpec: { printedName: e.printedName, sourcePdf: e.sourcePdf, page: e.page } };
+}
+
 // ---- load ------------------------------------------------------------------------------
 const snap = JSON.parse(readFileSync(SNAP, 'utf8'));
 const classByKey = Object.fromEntries(snap.classes.map((c) => [c.key, c]));
@@ -372,7 +406,12 @@ for (const c of snap.classes) {
   if (!skills.length) flag('class', c.key, 'no class_skills rows — class Item ships with an empty Skills section');
 
   const also = alsoNames(c.key);
-  let bene = concreteBenefits(c.key);
+  // Page-cited printed spec (the 8 remaining classes) wins — authoritative, source-verified.
+  let bene = BENEFIT_SPECS[c.key] ? benefitsFromSpec(BENEFIT_SPECS[c.key]) : concreteBenefits(c.key);
+  if (BENEFIT_SPECS[c.key]) {
+    const sp = BENEFIT_SPECS[c.key];
+    flag('class-benefit-spec', c.key, `activated from printed FREE BENEFITS — ${sp.printedName} (${sp.sourcePdf}, ${sp.page})${bene.chooseOneMartial ? ' [choose-one melee/ranged: both enabled, player picks]' : ''}${bene.choiceHpMp ? ' [choose-one HP/MP: both false, player picks]' : ''}`);
+  }
   // Path A: if the card recorded no concrete benefit but a confident PFU counterpart
   // exists, adopt the counterpart's benefit values (mechanical booleans only).
   if (!bene && BENEFIT_OVERRIDES[c.key]) {
@@ -401,12 +440,18 @@ for (const c of snap.classes) {
   if (c.printed_name && c.printed_name.toLowerCase() !== c.display_name.toLowerCase()) {
     d.push(`<p><em>Built on Project FU's <strong>${esc(c.printed_name)}</strong>.</em></p>`);
   }
-  if (bene && (bene.parts.length || bene.choiceHpMp)) {
+  if (bene && (bene.parts.length || bene.choiceHpMp || bene.chooseOneMartial)) {
     const li = bene.parts.map((p) => `<li>${esc(p)} — activated.</li>`);
     if (bene.choiceHpMp) li.push('<li>Increased maximum HP <strong>or</strong> MP — player\'s choice; set the chosen resource on the sheet.</li>');
-    const note = bene.fromCounterpart
-      ? `<em>(House note: benefits adopted from Project FU's <strong>${esc(bene.fromCounterpart)}</strong> counterpart — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em>`
-      : HOUSE;
+    if (bene.chooseOneMartial) {
+      const [a, b] = bene.chooseOneMartial;
+      li.push(`<li>Martial ${esc(a)} <strong>or</strong> martial ${esc(b)} — player\'s choice of one (both fields are enabled on the Item; disable the one you did not take).</li>`);
+    }
+    const note = bene.fromSpec
+      ? `<em>(House note: printed FREE BENEFITS from <strong>${esc(bene.fromSpec.printedName)}</strong> (${esc(bene.fromSpec.sourcePdf)}, ${esc(bene.fromSpec.page)}) — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em>`
+      : bene.fromCounterpart
+        ? `<em>(House note: benefits adopted from Project FU's <strong>${esc(bene.fromCounterpart)}</strong> counterpart — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em>`
+        : HOUSE;
     d.push(`<h5>FREE BENEFITS</h5><ul>${li.join('')}</ul><p>${note}</p>`);
   }
   d.push(`<h2>${esc((c.display_name || '').toUpperCase())} SKILLS</h2>`);
@@ -451,7 +496,10 @@ const benefitFlags = flags.filter((f) => f.kind === 'class-benefit');
 const choiceFlags = flags.filter((f) => f.kind === 'class-benefit-choice');
 const overrideFlags = flags.filter((f) => f.kind === 'class-benefit-override');
 const reqFlags = flags.filter((f) => f.kind === 'heroic-req');
-const otherFlags = flags.filter((f) => !['class-benefit', 'class-benefit-choice', 'class-benefit-override', 'heroic-req'].includes(f.kind));
+const otherFlags = flags.filter((f) => !['class-benefit', 'class-benefit-choice', 'class-benefit-override', 'class-benefit-spec', 'heroic-req'].includes(f.kind));
+const specFlags = flags.filter((f) => f.kind === 'class-benefit-spec');
+console.log(`\nCLASS BENEFITS activated from a page-cited printed spec (FDN-2): ${specFlags.length}`);
+for (const f of specFlags) console.log(`  - ${f.key}: ${f.reason}`);
 console.log(`\nCLASS BENEFITS activated from a PFU counterpart (Path A): ${overrideFlags.length}`);
 for (const f of overrideFlags) console.log(`  - ${f.key}: ${f.reason}`);
 console.log(`\nHeroic requirements SYNTHESISED (blank text) : ${reqFlags.length}`);
