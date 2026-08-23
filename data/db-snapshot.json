@@ -929,7 +929,7 @@
    "class_key": "courier",
    "skill_key": "delivery",
    "display_name": "Delivery",
-   "max_sl": 1,
+   "max_sl": null,
    "summary": "Once per non-conflict scene in a populated place, pick up a package (carry up to five; lost only through Surrender), establishing where and/or to whom it goes. On delivery choose: 1 Fabula Point, (level × 10) zenit, or gain/strengthen a Bond with an NPC, location or organization relevant to the delivery.",
    "sort": 1
   },
@@ -1545,8 +1545,8 @@
    "class_key": "magistrate",
    "skill_key": "hold_in_contempt",
    "display_name": "Hold in Contempt",
-   "max_sl": 3,
-   "summary": "✎(trim A, ruled 6 Aug: priced at SL3 — the effect requires all three levels; it does nothing at SL1–2) When you Guard: broken laws are not removed from the scene until the start of your next turn, and at that start you may perform a free attack with an equipped weapon against each enemy that broke one or more laws since your previous turn.",
+   "max_sl": null,
+   "summary": "At no MP cost, Guard: until your next turn, broken laws are not removed from the scene; then at the start of that turn, make a free attack with an equipped weapon against one enemy that broke one or more laws.",
    "sort": 5
   },
   {

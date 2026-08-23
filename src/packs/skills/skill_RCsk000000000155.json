@@ -12,16 +12,16 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you Guard: broken laws are not removed from the scene until the start of your next turn, and at that start you may "
+			"value": "At no MP cost, Guard: until your next turn, broken laws are not removed from the scene; then at the start of that turn, "
 		},
-		"description": "<p>When you Guard: broken laws are not removed from the scene until the start of your next turn, and at that start you may perform a free attack with an equipped weapon against each enemy that broke one or more laws since your previous turn.</p>",
+		"description": "<p>At no MP cost, Guard: until your next turn, broken laws are not removed from the scene; then at the start of that turn, make a free attack with an equipped weapon against one enemy that broke one or more laws.</p>",
 		"class": {
 			"value": "Magistrate"
 		},
 		"level": {
 			"value": 0,
 			"min": 0,
-			"max": 3
+			"max": 1
 		},
 		"hasRoll": {
 			"value": false
@@ -33,7 +33,7 @@
 		"rippers-compendium": {
 			"classKey": "magistrate",
 			"skillKey": "hold_in_contempt",
-			"maxSl": 3
+			"maxSl": 1
 		}
 	},
 	"_stats": {

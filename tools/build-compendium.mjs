@@ -142,32 +142,38 @@ function concreteBenefits(key) {
   const choiceHpMp = /\bhp\s*or\s*mp\b|\bmp\s*or\s*hp\b|hit points\s*or\s*mind points/i.test(low);
 
   if (!choiceHpMp) {
-    if (/\+\s*\d+\s*(?:max(?:imum)?\s*)?hp\b|maximum hit points/i.test(low)) { resources.hp = true; parts.push('increased maximum Hit Points'); }
-    if (/\+\s*\d+\s*(?:max(?:imum)?\s*)?mp\b|maximum mind points/i.test(low)) { resources.mp = true; parts.push('increased maximum Mind Points'); }
+    if (/\+\s*\d+\s*(?:to\s+)?(?:max(?:imum)?\s*)?hp\b|\bmax(?:imum)?\s+hp\b|maximum hit points/i.test(low)) { resources.hp = true; parts.push('increased maximum Hit Points'); }
+    if (/\+\s*\d+\s*(?:to\s+)?(?:max(?:imum)?\s*)?mp\b|\bmax(?:imum)?\s+mp\b|maximum mind points/i.test(low)) { resources.mp = true; parts.push('increased maximum Mind Points'); }
   }
-  if (/\+\s*\d+\s*(?:max(?:imum)?\s*)?ip\b|maximum inventory points/i.test(low)) { resources.ip = true; parts.push('increased maximum Inventory Points'); }
+  if (/\+\s*\d+\s*(?:to\s+)?(?:max(?:imum)?\s*)?ip\b|\bmax(?:imum)?\s+ip\b|maximum inventory points/i.test(low)) { resources.ip = true; parts.push('increased maximum Inventory Points'); }
 
   // The martial grant may list proficiencies loosely ("martial armor and shields",
   // "martial melee / martial ranged"). Once the cell mentions "martial", read each
   // proficiency word present in the cell (these short benefit cells don't use the
   // words as flavour). "weapons" without a slot word implies no specific slot.
+  // Choose-one martial (e.g. "armour plus your choice of martial melee OR ranged"):
+  // policy (Austin 2026-08-23) — grant only the GUARANTEED proficiencies; leave the
+  // CHOICE options (melee/ranged) FALSE and let the player toggle their pick on the sheet.
+  let chooseOneMartial = null;
   if (/\bmartial\b/i.test(low)) {
-    if (/\bmelee\b/i.test(low)) { martials.melee = true; parts.push('martial melee proficiency'); }
-    if (/\branged\b/i.test(low)) { martials.ranged = true; parts.push('martial ranged proficiency'); }
+    const chooseMR = /\b(?:choice|choose|either)\b/i.test(low) && /\bmelee\b/i.test(low) && /\branged\b/i.test(low);
+    if (chooseMR) chooseOneMartial = ['melee', 'ranged'];
+    if (/\bmelee\b/i.test(low) && !chooseMR) { martials.melee = true; parts.push('martial melee proficiency'); }
+    if (/\branged\b/i.test(low) && !chooseMR) { martials.ranged = true; parts.push('martial ranged proficiency'); }
     if (/\barmou?r\b/i.test(low)) { martials.armor = true; parts.push('martial armor proficiency'); }
     if (/\bshields?\b/i.test(low)) { martials.shields = true; parts.push('martial shields proficiency'); }
   }
 
   for (const k of RITUAL_KINDS) {
-    if (new RegExp(`\\b${k}\\b\\s*rituals?|rituals?\\s*of\\s*${k}\\b`, 'i').test(low)) {
+    if (new RegExp(`\\b${k}\\b\\s*(?:rituals?|access|discipline|magic|grant)|rituals?\\s*of\\s*${k}\\b`, 'i').test(low)) {
       rituals[k] = true; parts.push(`${k[0].toUpperCase() + k.slice(1)} rituals`);
     }
   }
 
   const any = resources.hp || resources.mp || resources.ip
     || Object.values(martials).some(Boolean) || Object.values(rituals).some(Boolean);
-  if (!any && !choiceHpMp) return null;
-  return { resources, martials, rituals, choiceHpMp, parts };
+  if (!any && !choiceHpMp && !chooseOneMartial) return null;
+  return { resources, martials, rituals, choiceHpMp, chooseOneMartial, parts };
 }
 
 // ---- PFU counterpart benefit overrides (Path A, Austin ruling 2026-08-20) --------------
@@ -278,11 +284,14 @@ function benefitsFromSpec(e) {
     mp: !choiceHpMp && /maximum mind points/i.test(low),
     ip: /maximum inventory points/i.test(low),
   };
-  const martials = { melee: !!e.martial?.melee, ranged: !!e.martial?.ranged, armor: !!e.martial?.armor, shields: !!e.martial?.shields };
-  const rituals = Object.fromEntries(RITUAL_KINDS.map((k) => [k, !!e.ritual?.[k]]));
-  // choose-one-martial: the printed line grants shields always then "choose one" melee/ranged.
-  const chooseOneMartial = (/choose one/i.test(low) && /\bmelee\b/i.test(low) && /\branged\b/i.test(low)) ? ['melee', 'ranged'] : null;
+  // choose-one-martial: the printed line grants a guaranteed proficiency (e.g. shields) then
+  // "choose one" of melee/ranged. Policy (Austin 2026-08-23): grant only the guaranteed part;
+  // leave the CHOICE options FALSE and let the player toggle their pick on the sheet.
+  const chooseOneMartial = (/choose\s+one|choice|either/i.test(low) && /\bmelee\b/i.test(low) && /\branged\b/i.test(low)) ? ['melee', 'ranged'] : null;
   const chooseSet = new Set(chooseOneMartial || []);
+  const martials = { melee: !!e.martial?.melee, ranged: !!e.martial?.ranged, armor: !!e.martial?.armor, shields: !!e.martial?.shields };
+  for (const m of chooseSet) martials[m] = false;
+  const rituals = Object.fromEntries(RITUAL_KINDS.map((k) => [k, !!e.ritual?.[k]]));
   const parts = [];
   if (resources.hp) parts.push('increased maximum Hit Points');
   if (resources.mp) parts.push('increased maximum Mind Points');
@@ -410,7 +419,7 @@ for (const c of snap.classes) {
   let bene = BENEFIT_SPECS[c.key] ? benefitsFromSpec(BENEFIT_SPECS[c.key]) : concreteBenefits(c.key);
   if (BENEFIT_SPECS[c.key]) {
     const sp = BENEFIT_SPECS[c.key];
-    flag('class-benefit-spec', c.key, `activated from printed FREE BENEFITS — ${sp.printedName} (${sp.sourcePdf}, ${sp.page})${bene.chooseOneMartial ? ' [choose-one melee/ranged: both enabled, player picks]' : ''}${bene.choiceHpMp ? ' [choose-one HP/MP: both false, player picks]' : ''}`);
+    flag('class-benefit-spec', c.key, `activated from printed FREE BENEFITS — ${sp.printedName} (${sp.sourcePdf}, ${sp.page})${bene.chooseOneMartial ? ' [choose-one melee/ranged: choice options left false, player picks]' : ''}${bene.choiceHpMp ? ' [choose-one HP/MP: both false, player picks]' : ''}`);
   }
   // Path A: if the card recorded no concrete benefit but a confident PFU counterpart
   // exists, adopt the counterpart's benefit values (mechanical booleans only).
@@ -445,7 +454,7 @@ for (const c of snap.classes) {
     if (bene.choiceHpMp) li.push('<li>Increased maximum HP <strong>or</strong> MP — player\'s choice; set the chosen resource on the sheet.</li>');
     if (bene.chooseOneMartial) {
       const [a, b] = bene.chooseOneMartial;
-      li.push(`<li>Martial ${esc(a)} <strong>or</strong> martial ${esc(b)} — player\'s choice of one (both fields are enabled on the Item; disable the one you did not take).</li>`);
+      li.push(`<li>Martial ${esc(a)} <strong>or</strong> martial ${esc(b)} — player\'s choice of one; both fields are left off on the Item, enable the one you take on the sheet.</li>`);
     }
     const note = bene.fromSpec
       ? `<em>(House note: printed FREE BENEFITS from <strong>${esc(bene.fromSpec.printedName)}</strong> (${esc(bene.fromSpec.sourcePdf)}, ${esc(bene.fromSpec.page)}) — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em>`

@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "Also known as Fellow, Champion."
 		},
-		"description": "<p><em>Built on Project FU's <strong>Hero</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Hit Points — activated.</li><li>martial shields proficiency — activated.</li><li>Martial melee <strong>or</strong> martial ranged — player's choice of one (both fields are enabled on the Item; disable the one you did not take).</li></ul><p><em>(House note: printed FREE BENEFITS from <strong>Hero</strong> (Fabula Ultima Stuff/Hero_Class.pdf, p.2 (HERO FREE BENEFITS box)) — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em></p><h2>STALWART SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000241]{Power of Friendship} <strong>【Max SL 2】</strong></p><p>+(SL) Bond slots. When you invoke a Bond to improve an attack's Accuracy, that attack deals additional damage equal to the Bond's strength.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000242]{Ties That Bind} <strong>【Max SL 5】</strong></p><p>When you invoke a Bond, an ally recovers (SL × 4) HP or MP — and both if the Bond is with them.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000243]{It Was Destiny} <strong>【Max SL 1】</strong></p><p>Once per session, spend a Fabula Point to create a Bond, or to add an emotion to an existing one.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000244]{A Hero's Purpose} <strong>【Max SL 3】</strong></p><p>Once per session, gain (SL) Fabula Points for saving NPCs from danger, completing a quest for them, or being present when a Villain runs out of Ultima Points. These Fabula Points do not tick the Miasma Clock.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000245]{Resolve} <strong>【Max SL 4】</strong></p><p>Action + a Fabula Point: recover from all status effects and regain (10 + SL × 10) MP.</p>",
+		"description": "<p><em>Built on Project FU's <strong>Hero</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Hit Points — activated.</li><li>martial shields proficiency — activated.</li><li>Martial melee <strong>or</strong> martial ranged — player's choice of one; both fields are left off on the Item, enable the one you take on the sheet.</li></ul><p><em>(House note: printed FREE BENEFITS from <strong>Hero</strong> (Fabula Ultima Stuff/Hero_Class.pdf, p.2 (HERO FREE BENEFITS box)) — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em></p><h2>STALWART SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000241]{Power of Friendship} <strong>【Max SL 2】</strong></p><p>+(SL) Bond slots. When you invoke a Bond to improve an attack's Accuracy, that attack deals additional damage equal to the Bond's strength.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000242]{Ties That Bind} <strong>【Max SL 5】</strong></p><p>When you invoke a Bond, an ally recovers (SL × 4) HP or MP — and both if the Bond is with them.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000243]{It Was Destiny} <strong>【Max SL 1】</strong></p><p>Once per session, spend a Fabula Point to create a Bond, or to add an emotion to an existing one.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000244]{A Hero's Purpose} <strong>【Max SL 3】</strong></p><p>Once per session, gain (SL) Fabula Points for saving NPCs from danger, completing a quest for them, or being present when a Villain runs out of Ultima Points. These Fabula Points do not tick the Miasma Clock.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000245]{Resolve} <strong>【Max SL 4】</strong></p><p>Action + a Fabula Point: recover from all status effects and regain (10 + SL × 10) MP.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -40,10 +40,10 @@
 			},
 			"martials": {
 				"melee": {
-					"value": true
+					"value": false
 				},
 				"ranged": {
-					"value": true
+					"value": false
 				},
 				"armor": {
 					"value": false
