@@ -14,7 +14,7 @@
 		"summary": {
 			"value": ""
 		},
-		"description": "<h5>FREE BENEFITS</h5><ul><li>increased maximum Mind Points — activated.</li></ul><p><em>(House note: benefits adopted from Project FU's <strong>Chanter</strong> counterpart — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em></p><h2>CHANTER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000064]{Magichant} <strong>【Max SL 10】</strong></p><p>Action, once per turn: spend MP to sing a verse — a volume (low 10 MP: one creature who can hear you; medium 20: every ally who can hear; high 30: every enemy who can hear) combined with a key (eight, each tied to a damage type, status, Attribute and recovery) and a tone (seven general effects). First level learns all three volumes plus one key and one tone; each further level adds a key or a tone.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000065]{Resonance} <strong>【Max SL 3】</strong></p><p>After your verse affects one or more enemies, with an arcane weapon equipped, choose one until the start of your next turn: allies deal (SL) extra damage to those enemies; or you recover (SL) MP each time one of them suffers damage (per enemy, when one source hits several).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000066]{Sound Barrier} <strong>【Max SL 5】</strong></p><p>After you sing a verse at medium or high volume, all physical damage you suffer until the start of your next turn is reduced by (SL), applied before Affinities.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000067]{Vibrato} <strong>【Max SL 1】</strong></p><p>After you sing a verse at low or medium volume, perform a free attack with an equipped weapon once the verse resolves, treating your High Roll as 0 for damage.</p>",
+		"description": "<h5>FREE BENEFITS</h5><ul><li>increased maximum Mind Points</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise. Adopted from Project FU's <strong>Chanter</strong> counterpart.)</em></p><h2>CHANTER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000064]{Magichant} <strong>【Max SL 10】</strong></p><p>Action, once per turn: spend MP to sing a verse — a volume (low 10 MP: one creature who can hear you; medium 20: every ally who can hear; high 30: every enemy who can hear) combined with a key (eight, each tied to a damage type, status, Attribute and recovery) and a tone (seven general effects). First level learns all three volumes plus one key and one tone; each further level adds a key or a tone.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000065]{Resonance} <strong>【Max SL 3】</strong></p><p>After your verse affects one or more enemies, with an arcane weapon equipped, choose one until the start of your next turn: allies deal (SL) extra damage to those enemies; or you recover (SL) MP each time one of them suffers damage (per enemy, when one source hits several).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000066]{Sound Barrier} <strong>【Max SL 5】</strong></p><p>After you sing a verse at medium or high volume, all physical damage you suffer until the start of your next turn is reduced by (SL), applied before Affinities.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000067]{Vibrato} <strong>【Max SL 1】</strong></p><p>After you sing a verse at low or medium volume, perform a free attack with an equipped weapon once the verse resolves, treating your High Roll as 0 for damage.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -32,7 +32,7 @@
 					"value": false
 				},
 				"mp": {
-					"value": true
+					"value": false
 				},
 				"ip": {
 					"value": false
@@ -81,7 +81,28 @@
 			"classKey": "chanter",
 			"guiseEligible": true,
 			"innateOnly": false,
-			"printedName": null
+			"printedName": null,
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": true,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
 		}
 	},
 	"_stats": {

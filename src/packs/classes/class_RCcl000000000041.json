@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "Also known as Thought-Reader, Medium, Mesmerist."
 		},
-		"description": "<p><em>Built on Project FU's <strong>Esper</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Mind Points — activated.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>SENSITIVE SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000213]{Cognitive Focus} <strong>【Max SL 5】</strong></p><p>Start of your conflict turn: your focus is one ally able to hear you, or one enemy you can see suffering dazed, enraged and/or shaken. Until your next turn, +(SL) to Checks to examine the focus and to Accuracy/Magic Checks for attacks and offensive spells that include it.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000214]{Hypercognition} <strong>【Max SL 5】</strong></p><p>Spells and verses that include your focus among their targets cost (SL) less MP — (SL × 2) less if the focus is the only target — to a minimum of 0.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000215]{Navigator} <strong>【Max SL 1】</strong></p><p>Telepathy with any conscious ally within the same district; you count as hearing each other for Skills and effects. Ritualism for Aether purposes only — transport, information and tracking within the Aether.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000216]{Psychic Gifts} <strong>【Max SL 5】</strong></p><p>Each level grants one of the nine gifts: event-triggered reactions with an MP cost, scaling with the Brainwave Clock (4 sections, empty at the start of each scene).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000217]{Psychokinesis} <strong>【Max SL 1】</strong></p><p>Accuracy Checks may replace one Attribute die with Willpower.</p>",
+		"description": "<p><em>Built on Project FU's <strong>Esper</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Mind Points</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise.)</em></p><h2>SENSITIVE SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000213]{Cognitive Focus} <strong>【Max SL 5】</strong></p><p>Start of your conflict turn: your focus is one ally able to hear you, or one enemy you can see suffering dazed, enraged and/or shaken. Until your next turn, +(SL) to Checks to examine the focus and to Accuracy/Magic Checks for attacks and offensive spells that include it.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000214]{Hypercognition} <strong>【Max SL 5】</strong></p><p>Spells and verses that include your focus among their targets cost (SL) less MP — (SL × 2) less if the focus is the only target — to a minimum of 0.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000215]{Navigator} <strong>【Max SL 1】</strong></p><p>Telepathy with any conscious ally within the same district; you count as hearing each other for Skills and effects. Ritualism for Aether purposes only — transport, information and tracking within the Aether.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000216]{Psychic Gifts} <strong>【Max SL 5】</strong></p><p>Each level grants one of the nine gifts: event-triggered reactions with an MP cost, scaling with the Brainwave Clock (4 sections, empty at the start of each scene).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000217]{Psychokinesis} <strong>【Max SL 1】</strong></p><p>Accuracy Checks may replace one Attribute die with Willpower.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -32,7 +32,7 @@
 					"value": false
 				},
 				"mp": {
-					"value": true
+					"value": false
 				},
 				"ip": {
 					"value": false
@@ -81,7 +81,28 @@
 			"classKey": "sensitive",
 			"guiseEligible": true,
 			"innateOnly": false,
-			"printedName": "Esper"
+			"printedName": "Esper",
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": true,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
 		}
 	},
 	"_stats": {

@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "Also known as Survivor."
 		},
-		"description": "<p><em>Built on Project FU's <strong>Prey (Dr. Razno)</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>martial armor proficiency — activated.</li><li>martial shields proficiency — activated.</li><li>Increased maximum HP <strong>or</strong> MP — player's choice; set the chosen resource on the sheet.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>WITNESS SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000265]{Baying Hounds} <strong>【Max SL 4】</strong></p><p>Choose a Hound: Above (the licensed world), Below (a named monster that knows your address), Beyond (the Aether's attention) or Within (the uncounted). Once per scene, when events match it, gain (SL) Rabbit Points — spend after seeing a roll, before any Fabula reroll, at +1 each on your Hound's Check types. Once per session, 1 Fabula Point summons the Hound if plausible (a GM veto refunds the point); a public, monstrous arrival runs the ordinary Miasma and Tell machinery.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000266]{End of the Line} <strong>【Max SL 4】</strong></p><p>When you are blocked from escaping a conflict scene — by barrier, by danger, or by an obligation of your own Identity or Theme — you deal +(SL) damage and gain +(SL) to Checks made as part of the Hinder action.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000267]{Go On Without Me!} <strong>【Max SL 1】</strong></p><p>On another creature's turn, spend 1 Fabula Point: they use their action to escape the scene, reappearing where a Player Character is present. No other character may use this on you that scene; locked out beside the Rogue's See You Later. It saves anyone but its user.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000268]{If It Bleeds…} <strong>【Max SL 5】</strong></p><p>Once per scene, when a friendly PC completes a Clock with a successful Check or an elite-or-higher enemy first enters Crisis, choose one: every friendly PC recovers (SL × 4) HP or MP, each choosing which (SL × 6 at level 40+); every friendly PC recovers from up to (SL) statuses; or the triggering character gains +(SL) to their next Check.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000269]{Prey Instinct} <strong>【Max SL 3】</strong></p><p>At conflict start, spend 10 MP to perform Guard, Objective or Study before round one, at +(SL) to its Checks. Locked out beside the Rogue's High Speed and the Naturalist's post-Initiative camera shot — one pre-round trick per character. Triggers on the Turn when swapping in mid-conflict.</p>",
+		"description": "<p><em>Built on Project FU's <strong>Prey (Dr. Razno)</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>martial armor proficiency</li><li>martial shields proficiency</li><li>Increased maximum HP <strong>or</strong> MP (choose one).</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise.)</em></p><h2>WITNESS SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000265]{Baying Hounds} <strong>【Max SL 4】</strong></p><p>Choose a Hound: Above (the licensed world), Below (a named monster that knows your address), Beyond (the Aether's attention) or Within (the uncounted). Once per scene, when events match it, gain (SL) Rabbit Points — spend after seeing a roll, before any Fabula reroll, at +1 each on your Hound's Check types. Once per session, 1 Fabula Point summons the Hound if plausible (a GM veto refunds the point); a public, monstrous arrival runs the ordinary Miasma and Tell machinery.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000266]{End of the Line} <strong>【Max SL 4】</strong></p><p>When you are blocked from escaping a conflict scene — by barrier, by danger, or by an obligation of your own Identity or Theme — you deal +(SL) damage and gain +(SL) to Checks made as part of the Hinder action.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000267]{Go On Without Me!} <strong>【Max SL 1】</strong></p><p>On another creature's turn, spend 1 Fabula Point: they use their action to escape the scene, reappearing where a Player Character is present. No other character may use this on you that scene; locked out beside the Rogue's See You Later. It saves anyone but its user.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000268]{If It Bleeds…} <strong>【Max SL 5】</strong></p><p>Once per scene, when a friendly PC completes a Clock with a successful Check or an elite-or-higher enemy first enters Crisis, choose one: every friendly PC recovers (SL × 4) HP or MP, each choosing which (SL × 6 at level 40+); every friendly PC recovers from up to (SL) statuses; or the triggering character gains +(SL) to their next Check.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000269]{Prey Instinct} <strong>【Max SL 3】</strong></p><p>At conflict start, spend 10 MP to perform Guard, Objective or Study before round one, at +(SL) to its Checks. Locked out beside the Rogue's High Speed and the Naturalist's post-Initiative camera shot — one pre-round trick per character. Triggers on the Turn when swapping in mid-conflict.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -46,10 +46,10 @@
 					"value": false
 				},
 				"armor": {
-					"value": true
+					"value": false
 				},
 				"shields": {
-					"value": true
+					"value": false
 				}
 			},
 			"rituals": {
@@ -81,7 +81,28 @@
 			"classKey": "witness",
 			"guiseEligible": true,
 			"innateOnly": false,
-			"printedName": "Prey (Dr. Razno)"
+			"printedName": "Prey (Dr. Razno)",
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": true,
+					"shields": true
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
 		}
 	},
 	"_stats": {

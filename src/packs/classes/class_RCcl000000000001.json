@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "Also known as Hermetist, Initiate, Theurgist."
 		},
-		"description": "<p><em>Built on Project FU's <strong>Monk</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Mind Points — activated.</li><li>martial melee proficiency — activated.</li><li>martial ranged proficiency — activated.</li></ul><p><em>(House note: printed FREE BENEFITS from <strong>Monk</strong> (Fabula Ultima Stuff/The_Low_Fantasy_Atlas (1).pdf, p.105 (printed; MONK FREE BENEFITS box)) — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em></p><h2>ADEPT SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000001]{Clarity} <strong>【Max SL 3】</strong></p><p>Action: destroy a pair of Motes for one cumulative benefit — Immunity to a chosen status; attacks/spells of a chosen damage type ignore Resistances; or Resistance to a chosen type. Up to (SL) benefits active, no repeats.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000002]{Reserve} <strong>【Max SL 3】</strong></p><p>Begin a conflict scene with (SL × 2) Motes, up to your limit. Triggers on the Turn when swapping in mid-conflict.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000003]{Restoration} <strong>【Max SL 2】</strong></p><p>Action: release Motes toward up to three creatures, 2 MP per Mote. Each delivered Mote restores (SL × 5) HP or MP, your choice. Released Motes are destroyed.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000004]{Discharge} <strong>【Max SL 2】</strong></p><p>Action: release any number of Motes as a ranged (DEX + WLP) attack, 2 MP each. Each target loses (SL × 4) HP or MP per Mote — HP against Defense, MP against Magic Defense. Ignores Resistances. Motes are destroyed hit or miss.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000005]{Ward} <strong>【Max SL 3】</strong></p><p>Reaction: release Motes (2 MP each) to reduce incoming damage to you or up to three creatures — each Mote reduces the damage by (SL × 2), before Affinities.</p>",
+		"description": "<p><em>Built on Project FU's <strong>Monk</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Mind Points</li><li>martial melee proficiency</li><li>martial ranged proficiency</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise. Source: <strong>Monk</strong> (Fabula Ultima Stuff/The_Low_Fantasy_Atlas (1).pdf, p.105 (printed; MONK FREE BENEFITS box)).)</em></p><h2>ADEPT SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000001]{Clarity} <strong>【Max SL 3】</strong></p><p>Action: destroy a pair of Motes for one cumulative benefit — Immunity to a chosen status; attacks/spells of a chosen damage type ignore Resistances; or Resistance to a chosen type. Up to (SL) benefits active, no repeats.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000002]{Reserve} <strong>【Max SL 3】</strong></p><p>Begin a conflict scene with (SL × 2) Motes, up to your limit. Triggers on the Turn when swapping in mid-conflict.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000003]{Restoration} <strong>【Max SL 2】</strong></p><p>Action: release Motes toward up to three creatures, 2 MP per Mote. Each delivered Mote restores (SL × 5) HP or MP, your choice. Released Motes are destroyed.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000004]{Discharge} <strong>【Max SL 2】</strong></p><p>Action: release any number of Motes as a ranged (DEX + WLP) attack, 2 MP each. Each target loses (SL × 4) HP or MP per Mote — HP against Defense, MP against Magic Defense. Ignores Resistances. Motes are destroyed hit or miss.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000005]{Ward} <strong>【Max SL 3】</strong></p><p>Reaction: release Motes (2 MP each) to reduce incoming damage to you or up to three creatures — each Mote reduces the damage by (SL × 2), before Affinities.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -32,7 +32,7 @@
 					"value": false
 				},
 				"mp": {
-					"value": true
+					"value": false
 				},
 				"ip": {
 					"value": false
@@ -40,10 +40,10 @@
 			},
 			"martials": {
 				"melee": {
-					"value": true
+					"value": false
 				},
 				"ranged": {
-					"value": true
+					"value": false
 				},
 				"armor": {
 					"value": false
@@ -81,7 +81,28 @@
 			"classKey": "adept",
 			"guiseEligible": true,
 			"innateOnly": false,
-			"printedName": "Monk"
+			"printedName": "Monk",
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": true,
+					"ip": false
+				},
+				"martials": {
+					"melee": true,
+					"ranged": true,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
 		}
 	},
 	"_stats": {

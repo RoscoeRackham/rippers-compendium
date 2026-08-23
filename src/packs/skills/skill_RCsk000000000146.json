@@ -12,9 +12,9 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "Bind your soul to Sanctuaries — small places of spiritual and historical weight, found through story; each carries a Hau"
+			"value": "You may perform Rituals of the Ritualism discipline (the Keeper is a ritual-granting class; this class skill is the rout"
 		},
-		"description": "<p>Bind your soul to Sanctuaries — small places of spiritual and historical weight, found through story; each carries a Haunt and a Ritual. In a conflict: action + 5/10/15 MP (escalating within a turn, resetting each turn) Haunts a creature you hold a Bond with — never yourself — at any distance. One creature per Sanctuary, one Sanctuary per creature; banishing is free on your turn.</p>",
+		"description": "<p>You may perform Rituals of the Ritualism discipline (the Keeper is a ritual-granting class; this class skill is the route, so no benefit pick is committed and no discipline is closed to the party). Bind your soul to Sanctuaries — small places of spiritual and historical weight, found through story; each carries a Haunt and a Ritual. In a conflict: action + 5/10/15 MP (escalating within a turn, resetting each turn) Haunts a creature you hold a Bond with — never yourself — at any distance. One creature per Sanctuary, one Sanctuary per creature; banishing is free on your turn.</p>",
 		"class": {
 			"value": "Keeper"
 		},
@@ -33,7 +33,8 @@
 		"rippers-compendium": {
 			"classKey": "keeper",
 			"skillKey": "bind_and_haunt",
-			"maxSl": 1
+			"maxSl": 1,
+			"grantsRitual": "ritualism"
 		}
 	},
 	"_stats": {

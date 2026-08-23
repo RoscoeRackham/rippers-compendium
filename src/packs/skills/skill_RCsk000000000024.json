@@ -12,9 +12,9 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you initiate a Project, its initial cost is reduced by (SL × 50) zenit."
+			"value": "You may initiate Projects (the Archivist is a project-granting class; this is the class-skill route to Project access)."
 		},
-		"description": "<p>When you initiate a Project, its initial cost is reduced by (SL × 50) zenit. The printed \"you may initiate Projects\" line is struck — Project access comes only from the benefit-pool pick.</p>",
+		"description": "<p>You may initiate Projects (the Archivist is a project-granting class; this is the class-skill route to Project access). When you initiate a Project, its initial cost is reduced by (SL × 50) zenit.</p>",
 		"class": {
 			"value": "Archivist"
 		},
@@ -33,7 +33,8 @@
 		"rippers-compendium": {
 			"classKey": "archivist",
 			"skillKey": "technical_mind",
-			"maxSl": 5
+			"maxSl": 5,
+			"grantsProject": true
 		}
 	},
 	"_stats": {

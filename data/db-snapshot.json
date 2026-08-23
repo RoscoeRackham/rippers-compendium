@@ -498,7 +498,7 @@
    "skill_key": "technical_mind",
    "display_name": "Technical Mind",
    "max_sl": 5,
-   "summary": "✎(Noncombat supplement, amended) When you initiate a Project, its initial cost is reduced by (SL × 50) zenit. The printed \"you may initiate Projects\" line is struck — Project access comes only from the benefit-pool pick.",
+   "summary": "You may initiate Projects (the Archivist is a project-granting class; this is the class-skill route to Project access). When you initiate a Project, its initial cost is reduced by (SL × 50) zenit.",
    "sort": 6
   },
   {
@@ -1474,7 +1474,7 @@
    "skill_key": "bind_and_haunt",
    "display_name": "Bind and Haunt",
    "max_sl": 1,
-   "summary": "Bind your soul to Sanctuaries — small places of spiritual and historical weight, found through story; each carries a Haunt and a Ritual. In a conflict: action + 5/10/15 MP (escalating within a turn, resetting each turn) Haunts a creature you hold a Bond with — never yourself — at any distance. One creature per Sanctuary, one Sanctuary per creature; banishing is free on your turn.",
+   "summary": "You may perform Rituals of the Ritualism discipline (the Keeper is a ritual-granting class; this class skill is the route, so no benefit pick is committed and no discipline is closed to the party). Bind your soul to Sanctuaries — small places of spiritual and historical weight, found through story; each carries a Haunt and a Ritual. In a conflict: action + 5/10/15 MP (escalating within a turn, resetting each turn) Haunts a creature you hold a Bond with — never yourself — at any distance. One creature per Sanctuary, one Sanctuary per creature; banishing is free on your turn.",
    "sort": 1
   },
   {

@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "Also known as Sharper, Mountebank, Magsman."
 		},
-		"description": "<p><em>Built on Project FU's <strong>Trickster</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Inventory Points — activated.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>CONFIDENCE MAN SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000068]{Copy Cat} <strong>【Max SL 1】</strong></p><p>Once per scene, as your action, spend 1 Fabula Point to repeat the most recent action taken by another character this scene, paying all costs. Never: Quirks or anything derived from one, Champion/Villain uniques, Equipment actions, rituals/Projects/anything outside a conflict, or a Guise swap.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000069]{Distraction} <strong>【Max SL 2】</strong></p><p>+(SL) to the leader's Group Check. Counts toward the two-effect cap.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000070]{Secret Action} <strong>【Max SL 3】</strong></p><p>Declare an action and a trigger condition; when the trigger occurs, perform it immediately, resolving before the triggering action completes. +(SL) to related Checks. The declaration is lost when your next turn starts.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000071]{Mask of Impersonation} <strong>【Max SL 4】</strong></p><p>Unobserved by anyone outside your party, spend 1 Fabula Point to assume the appearance of a humanoid seen within the past two days; +(SL) to impersonation Checks. Lasts until dropped or seen through; the Mask never covers a Guise's Tell; stacks with the Many Faces Perk (the Perk gives the face, this gives the performance).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000072]{Trick or Treat} <strong>【Max SL 4】</strong></p><p>Spend 2 IP and choose the target, then roll 1d4: 1 — recover (SL × 10) HP and MP; 2 — recover from all status effects and gain 1 IP; 3 — (SL × 10) poison damage; 4 — inflict poisoned and enraged.</p>",
+		"description": "<p><em>Built on Project FU's <strong>Trickster</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Inventory Points</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise.)</em></p><h2>CONFIDENCE MAN SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000068]{Copy Cat} <strong>【Max SL 1】</strong></p><p>Once per scene, as your action, spend 1 Fabula Point to repeat the most recent action taken by another character this scene, paying all costs. Never: Quirks or anything derived from one, Champion/Villain uniques, Equipment actions, rituals/Projects/anything outside a conflict, or a Guise swap.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000069]{Distraction} <strong>【Max SL 2】</strong></p><p>+(SL) to the leader's Group Check. Counts toward the two-effect cap.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000070]{Secret Action} <strong>【Max SL 3】</strong></p><p>Declare an action and a trigger condition; when the trigger occurs, perform it immediately, resolving before the triggering action completes. +(SL) to related Checks. The declaration is lost when your next turn starts.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000071]{Mask of Impersonation} <strong>【Max SL 4】</strong></p><p>Unobserved by anyone outside your party, spend 1 Fabula Point to assume the appearance of a humanoid seen within the past two days; +(SL) to impersonation Checks. Lasts until dropped or seen through; the Mask never covers a Guise's Tell; stacks with the Many Faces Perk (the Perk gives the face, this gives the performance).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000072]{Trick or Treat} <strong>【Max SL 4】</strong></p><p>Spend 2 IP and choose the target, then roll 1d4: 1 — recover (SL × 10) HP and MP; 2 — recover from all status effects and gain 1 IP; 3 — (SL × 10) poison damage; 4 — inflict poisoned and enraged.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -35,7 +35,7 @@
 					"value": false
 				},
 				"ip": {
-					"value": true
+					"value": false
 				}
 			},
 			"martials": {
@@ -81,7 +81,28 @@
 			"classKey": "confidence_man",
 			"guiseEligible": false,
 			"innateOnly": false,
-			"printedName": "Trickster"
+			"printedName": "Trickster",
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": true
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
 		}
 	},
 	"_stats": {

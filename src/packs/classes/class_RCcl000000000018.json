@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "Also known as Acrobat."
 		},
-		"description": "<h5>FREE BENEFITS</h5><ul><li>Increased maximum HP <strong>or</strong> MP — player's choice; set the chosen resource on the sheet.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>DANCER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000088]{Dance} <strong>【Max SL 10】</strong></p><p>Each level teaches one dance (of seventeen). On your turn, with no martial armor equipped, spend 10 MP to perform one you know — no action required, once per turn; 5 MP if you performed a different dance on your previous turn this scene.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000089]{Wardancer} <strong>【Max SL 5】</strong></p><p>After a dance, your attacks with brawling, dagger, flail, sword and thrown weapons deal (SL) extra damage until your next turn; with an arcane weapon equipped, offensive spells too.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000090]{Frenetic Footwork} <strong>【Max SL 2】</strong></p><p>After a dance with until-your-next-turn duration, +(SL × 2) to Opposed Checks relying on acrobatics, coordination or speed, until your next turn.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000091]{Follow My Lead} <strong>【Max SL 1】</strong></p><p>When performing a lasting dance, spend 10 MP: one ally you can see toward whom you hold a Bond of affection gains its benefits too, same duration.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000092]{Quick-Change} <strong>【Max SL 1】</strong></p><p>After a dance, perform the Equipment action for free. Swapping Guise this way still triggers the Turn — once per conflict, exactly as ruled.</p>",
+		"description": "<h5>FREE BENEFITS</h5><ul><li>Increased maximum HP <strong>or</strong> MP (choose one).</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise.)</em></p><h2>DANCER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000088]{Dance} <strong>【Max SL 10】</strong></p><p>Each level teaches one dance (of seventeen). On your turn, with no martial armor equipped, spend 10 MP to perform one you know — no action required, once per turn; 5 MP if you performed a different dance on your previous turn this scene.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000089]{Wardancer} <strong>【Max SL 5】</strong></p><p>After a dance, your attacks with brawling, dagger, flail, sword and thrown weapons deal (SL) extra damage until your next turn; with an arcane weapon equipped, offensive spells too.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000090]{Frenetic Footwork} <strong>【Max SL 2】</strong></p><p>After a dance with until-your-next-turn duration, +(SL × 2) to Opposed Checks relying on acrobatics, coordination or speed, until your next turn.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000091]{Follow My Lead} <strong>【Max SL 1】</strong></p><p>When performing a lasting dance, spend 10 MP: one ally you can see toward whom you hold a Bond of affection gains its benefits too, same duration.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000092]{Quick-Change} <strong>【Max SL 1】</strong></p><p>After a dance, perform the Equipment action for free. Swapping Guise this way still triggers the Turn — once per conflict, exactly as ruled.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -81,7 +81,28 @@
 			"classKey": "dancer",
 			"guiseEligible": true,
 			"innateOnly": false,
-			"printedName": null
+			"printedName": null,
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
 		}
 	},
 	"_stats": {

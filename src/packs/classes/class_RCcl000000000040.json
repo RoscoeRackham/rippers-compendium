@@ -14,7 +14,7 @@
 		"summary": {
 			"value": ""
 		},
-		"description": "<h5>FREE BENEFITS</h5><ul><li>increased maximum Inventory Points — activated.</li></ul><p><em>(House note: benefits adopted from Project FU's <strong>Rogue</strong> counterpart — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em></p><h2>ROGUE SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000207]{Cheap Shot} <strong>【Max SL 5】</strong></p><p>A single-target hit on a creature suffering statuses may deal +(SL + number of its statuses) damage.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000208]{Dodge} <strong>【Max SL 3】</strong></p><p>With no shield and no martial armour equipped, +(SL) Defense.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000209]{High Speed} <strong>【Max SL 3】</strong></p><p>Start of conflict, 10 MP: before round one, a free attack or a free Hinder/Objective action, with +(SL) to its Checks.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000210]{Soul Steal} <strong>【Max SL 5】</strong></p><p>Action: (DEX + WLP) Check (+SL) vs an enemy's Magic Defense. Success: a soldier yields (SL) IP; an elite or champion yields a soul treasure worth up to (level × 30, ×50 for Villains). Once per creature. Takes the hoplosphere drop — one body, one clot.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000211]{Bad Reputation} <strong>【Max SL 4】</strong></p><p>When two or more NPCs instigate trouble, up to (SL) soldier-rank creatures hesitate — you gain an opportunity, and in a conflict they cannot attack or cast offensively on their first turn. Creatures 5+ levels above you are immune.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000212]{Last-Second Save} <strong>【Max SL 5】</strong></p><p>When you or an ally Checks to move a Clock and quick thinking could help: spend up to (SL × 10) MP, +1 to the Result per 10 MP — enough to turn failure into success or buy extra sections.</p>",
+		"description": "<h5>FREE BENEFITS</h5><ul><li>increased maximum Inventory Points</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise. Adopted from Project FU's <strong>Rogue</strong> counterpart.)</em></p><h2>ROGUE SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000207]{Cheap Shot} <strong>【Max SL 5】</strong></p><p>A single-target hit on a creature suffering statuses may deal +(SL + number of its statuses) damage.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000208]{Dodge} <strong>【Max SL 3】</strong></p><p>With no shield and no martial armour equipped, +(SL) Defense.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000209]{High Speed} <strong>【Max SL 3】</strong></p><p>Start of conflict, 10 MP: before round one, a free attack or a free Hinder/Objective action, with +(SL) to its Checks.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000210]{Soul Steal} <strong>【Max SL 5】</strong></p><p>Action: (DEX + WLP) Check (+SL) vs an enemy's Magic Defense. Success: a soldier yields (SL) IP; an elite or champion yields a soul treasure worth up to (level × 30, ×50 for Villains). Once per creature. Takes the hoplosphere drop — one body, one clot.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000211]{Bad Reputation} <strong>【Max SL 4】</strong></p><p>When two or more NPCs instigate trouble, up to (SL) soldier-rank creatures hesitate — you gain an opportunity, and in a conflict they cannot attack or cast offensively on their first turn. Creatures 5+ levels above you are immune.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000212]{Last-Second Save} <strong>【Max SL 5】</strong></p><p>When you or an ally Checks to move a Clock and quick thinking could help: spend up to (SL × 10) MP, +1 to the Result per 10 MP — enough to turn failure into success or buy extra sections.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -35,7 +35,7 @@
 					"value": false
 				},
 				"ip": {
-					"value": true
+					"value": false
 				}
 			},
 			"martials": {
@@ -81,7 +81,28 @@
 			"classKey": "rogue",
 			"guiseEligible": false,
 			"innateOnly": false,
-			"printedName": null
+			"printedName": null,
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": true
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
 		}
 	},
 	"_stats": {

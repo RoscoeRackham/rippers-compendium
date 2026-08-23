@@ -33,7 +33,8 @@
 		"rippers-compendium": {
 			"classKey": "floralist",
 			"skillKey": "verdant_sway",
-			"maxSl": 1
+			"maxSl": 1,
+			"grantsRitual": "ritualism"
 		}
 	},
 	"_stats": {

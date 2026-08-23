@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "Also known as Rhabdomancer, Diviner."
 		},
-		"description": "<p><em>Built on Project FU's <strong>Invoker</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>Increased maximum HP <strong>or</strong> MP — player's choice; set the chosen resource on the sheet.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>DOWSER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000093]{Invocation} <strong>【Max SL 3】</strong></p><p>Action + 5 MP: draw on one of the scene's wellsprings and apply an invocation to a creature you can see. SL1 reaches \"blast\" invocations, SL2 adds \"hex\", SL3 all. Scaling: damage +5/+10 at level 20+/40+; HP recovery and MP loss +10/+20.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000094]{Linked Invocation} <strong>【Max SL 3】</strong></p><p>When you invoke, spend up to (SL × 10) extra MP; every 10 MP adds one more target you can see.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000095]{Elemental Harmony} <strong>【Max SL 2】</strong></p><p>Always communicate with elementals. When your invocation or spell restores HP with an elemental present on the scene, it restores (SL × 5) more.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000096]{Ripples} <strong>【Max SL 5】</strong></p><p>After an ally's damage — increased by one or more of your \"hex\" invocations — costs an enemy HP: free attack against that enemy only, at +(SL) Accuracy. On a hit its damage becomes the ally's type, and all your hexes on the target end once it resolves.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000097]{Wellspring Expansion} <strong>【Max SL 5】</strong></p><p>With an arcane, bow, brawling, flail, sword or thrown weapon equipped: \"blast\" invocations deal (SL) extra damage, and your \"hex\" invocations grant (5 + SL) extra damage instead of 5.</p>",
+		"description": "<p><em>Built on Project FU's <strong>Invoker</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>Increased maximum HP <strong>or</strong> MP (choose one).</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise.)</em></p><h2>DOWSER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000093]{Invocation} <strong>【Max SL 3】</strong></p><p>Action + 5 MP: draw on one of the scene's wellsprings and apply an invocation to a creature you can see. SL1 reaches \"blast\" invocations, SL2 adds \"hex\", SL3 all. Scaling: damage +5/+10 at level 20+/40+; HP recovery and MP loss +10/+20.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000094]{Linked Invocation} <strong>【Max SL 3】</strong></p><p>When you invoke, spend up to (SL × 10) extra MP; every 10 MP adds one more target you can see.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000095]{Elemental Harmony} <strong>【Max SL 2】</strong></p><p>Always communicate with elementals. When your invocation or spell restores HP with an elemental present on the scene, it restores (SL × 5) more.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000096]{Ripples} <strong>【Max SL 5】</strong></p><p>After an ally's damage — increased by one or more of your \"hex\" invocations — costs an enemy HP: free attack against that enemy only, at +(SL) Accuracy. On a hit its damage becomes the ally's type, and all your hexes on the target end once it resolves.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000097]{Wellspring Expansion} <strong>【Max SL 5】</strong></p><p>With an arcane, bow, brawling, flail, sword or thrown weapon equipped: \"blast\" invocations deal (SL) extra damage, and your \"hex\" invocations grant (5 + SL) extra damage instead of 5.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -81,7 +81,28 @@
 			"classKey": "dowser",
 			"guiseEligible": true,
 			"innateOnly": false,
-			"printedName": "Invoker"
+			"printedName": "Invoker",
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
 		}
 	},
 	"_stats": {

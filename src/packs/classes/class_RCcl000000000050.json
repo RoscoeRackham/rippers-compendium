@@ -14,7 +14,7 @@
 		"summary": {
 			"value": ""
 		},
-		"description": "<p><em>Built on Project FU's <strong>Chimerist</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Mind Points — activated.</li><li>Ritualism rituals — activated.</li></ul><p><em>(House note: benefits adopted from Project FU's <strong>Chimerist</strong> counterpart — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em></p><h2>VIVISECTIONIST SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000259]{Spell Mimic} <strong>【Max SL 10】</strong></p><p>After a beast, monster or plant you can see resolves a spell, learn it (recording the Species). Hold up to (SL + 2); offensive casts use your chosen (INS + WLP) or (MIG + WLP). Variant available: Spell Buffet — read non-humanoid HP at (15 + half level) or less, execute one to learn all its spells, keeping (SL + 4). Chosen permanently.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000260]{Consume} <strong>【Max SL 5】</strong></p><p>After your spell damages one or more creatures, with an arcane, dagger or flail weapon equipped: recover (SL × 2) MP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000261]{Feral Speech} <strong>【Max SL 1】</strong></p><p>You can always communicate with beasts, monsters and plants.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000262]{Pathogenesis} <strong>【Max SL 1】</strong></p><p>Your Chimerist spells poison each damaged creature that shares its Species with the creature you learned the spell from.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000263]{Call the Wild} <strong>【Max SL 3】</strong></p><p>Spend 2 IP on food that draws nearby animals to perform a simple task, comparable to a Minor Ritual.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000264]{Trait Mimic} <strong>【Max SL 10】</strong></p><p>Record Traits you learn from visible beasts, monsters and plants. Invoke one for 15 MP or 1 Fabula Point to mimic the creature — one impressive feat within that Trait's bounds, statistics unchanged.</p>",
+		"description": "<p><em>Built on Project FU's <strong>Chimerist</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Mind Points</li><li>Ritualism rituals</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise. Adopted from Project FU's <strong>Chimerist</strong> counterpart.)</em></p><h2>VIVISECTIONIST SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000259]{Spell Mimic} <strong>【Max SL 10】</strong></p><p>After a beast, monster or plant you can see resolves a spell, learn it (recording the Species). Hold up to (SL + 2); offensive casts use your chosen (INS + WLP) or (MIG + WLP). Variant available: Spell Buffet — read non-humanoid HP at (15 + half level) or less, execute one to learn all its spells, keeping (SL + 4). Chosen permanently.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000260]{Consume} <strong>【Max SL 5】</strong></p><p>After your spell damages one or more creatures, with an arcane, dagger or flail weapon equipped: recover (SL × 2) MP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000261]{Feral Speech} <strong>【Max SL 1】</strong></p><p>You can always communicate with beasts, monsters and plants.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000262]{Pathogenesis} <strong>【Max SL 1】</strong></p><p>Your Chimerist spells poison each damaged creature that shares its Species with the creature you learned the spell from.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000263]{Call the Wild} <strong>【Max SL 3】</strong></p><p>Spend 2 IP on food that draws nearby animals to perform a simple task, comparable to a Minor Ritual.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000264]{Trait Mimic} <strong>【Max SL 10】</strong></p><p>Record Traits you learn from visible beasts, monsters and plants. Invoke one for 15 MP or 1 Fabula Point to mimic the creature — one impressive feat within that Trait's bounds, statistics unchanged.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -32,7 +32,7 @@
 					"value": false
 				},
 				"mp": {
-					"value": true
+					"value": false
 				},
 				"ip": {
 					"value": false
@@ -66,7 +66,7 @@
 					"value": false
 				},
 				"ritualism": {
-					"value": true
+					"value": false
 				},
 				"spiritism": {
 					"value": false
@@ -81,7 +81,28 @@
 			"classKey": "vivisectionist",
 			"guiseEligible": false,
 			"innateOnly": false,
-			"printedName": "Chimerist"
+			"printedName": "Chimerist",
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": true,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": true,
+					"spiritism": false
+				}
+			}
 		}
 	},
 	"_stats": {

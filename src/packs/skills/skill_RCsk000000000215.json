@@ -33,7 +33,8 @@
 		"rippers-compendium": {
 			"classKey": "sensitive",
 			"skillKey": "navigator",
-			"maxSl": 1
+			"maxSl": 1,
+			"grantsRitual": "ritualism"
 		}
 	},
 	"_stats": {

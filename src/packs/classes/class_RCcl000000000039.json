@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "Also known as Grave Queen, Reanimator."
 		},
-		"description": "<p><em>Built on Project FU's <strong>Necromancer</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>Increased maximum HP <strong>or</strong> MP — player's choice; set the chosen resource on the sheet.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>REAPER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000202]{Reaping} <strong>【Max SL 5】</strong></p><p>The Grave Point skill. After a creature you can see loses HP, if it is in Crisis and not undead: gain 1 Grave Point, holding up to (SL + 1). When you hit 0 HP you lose all points — the first time each scene, if you lost at least one, your HP becomes (SL × points lost) instead. That substitution lands at 0 HP, so you never reach the Surrender-or-Sacrifice choice: Reaping prevents the fall rather than reversing it, and the Miasma Clock does not tick. Later falls in the same scene are ordinary, and those Surrenders land in full.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000203]{The Grave Speaks} <strong>【Max SL 1】</strong></p><p>Always communicate with undead creatures. Once per scene, ask an undead a single question; it is compelled to answer truthfully.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000204]{Cold Comfort} <strong>【Max SL 5】</strong></p><p>After you cause one or more enemies to lose HP, if at least one is shaken and/or weak: gain 1 Grave Point and recover (SL × 2) MP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000205]{Toll} <strong>【Max SL 5】</strong></p><p>When your spell damages one or more enemies, spend 1 Grave Point and choose one: pick a damaged enemy — the spell deals extra damage to each damaged enemy equal to (SL + that enemy's status count); or every damaged enemy suffers shaken after the spell resolves.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000206]{Corpse-Light} <strong>【Max SL 1】</strong></p><p>When you cast an offensive \"one creature\" spell, spend 2 Grave Points: it targets every creature present in the scene — allies included — one Magic Check compared against each Magic Defense. All its damage becomes dark and cannot change type.</p>",
+		"description": "<p><em>Built on Project FU's <strong>Necromancer</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>Increased maximum HP <strong>or</strong> MP (choose one).</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise.)</em></p><h2>REAPER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000202]{Reaping} <strong>【Max SL 5】</strong></p><p>The Grave Point skill. After a creature you can see loses HP, if it is in Crisis and not undead: gain 1 Grave Point, holding up to (SL + 1). When you hit 0 HP you lose all points — the first time each scene, if you lost at least one, your HP becomes (SL × points lost) instead. That substitution lands at 0 HP, so you never reach the Surrender-or-Sacrifice choice: Reaping prevents the fall rather than reversing it, and the Miasma Clock does not tick. Later falls in the same scene are ordinary, and those Surrenders land in full.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000203]{The Grave Speaks} <strong>【Max SL 1】</strong></p><p>Always communicate with undead creatures. Once per scene, ask an undead a single question; it is compelled to answer truthfully.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000204]{Cold Comfort} <strong>【Max SL 5】</strong></p><p>After you cause one or more enemies to lose HP, if at least one is shaken and/or weak: gain 1 Grave Point and recover (SL × 2) MP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000205]{Toll} <strong>【Max SL 5】</strong></p><p>When your spell damages one or more enemies, spend 1 Grave Point and choose one: pick a damaged enemy — the spell deals extra damage to each damaged enemy equal to (SL + that enemy's status count); or every damaged enemy suffers shaken after the spell resolves.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000206]{Corpse-Light} <strong>【Max SL 1】</strong></p><p>When you cast an offensive \"one creature\" spell, spend 2 Grave Points: it targets every creature present in the scene — allies included — one Magic Check compared against each Magic Defense. All its damage becomes dark and cannot change type.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -81,7 +81,28 @@
 			"classKey": "reaper",
 			"guiseEligible": true,
 			"innateOnly": false,
-			"printedName": "Necromancer"
+			"printedName": "Necromancer",
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
 		}
 	},
 	"_stats": {

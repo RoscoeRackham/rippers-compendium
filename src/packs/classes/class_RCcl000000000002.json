@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "Also known as Archaeologist, Delver, Spelunker."
 		},
-		"description": "<p><em>Built on Project FU's <strong>Dungeoneer</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Inventory Points — activated.</li></ul><p><em>(House note: printed FREE BENEFITS from <strong>Dungeoneer</strong> (Fabula Ultima Stuff/SPELUNCA ULTIMA.pdf, PDF page index 27 (~printed p.28; DUNGEONEER FREE BENEFITS box)) — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em></p><h2>ANTIQUARIAN SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000006]{Problem Solver} <strong>【Max SL 6】</strong></p><p>When a GM-imposed Clock resolves in your favour during a conflict scene, recover (SL × 5) MP — turning back the Miasma Clock counts. And +(SL ÷ 2) to Checks on the Objective action or when supporting a Group Check toward an Objective.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000007]{Vast Collection} <strong>【Max SL 1】</strong></p><p>Action + 1 Fabula Point: produce any Lucky Treasure you can describe from your supplies. It is gone at the end of the scene — describe why.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000008]{Treasure Magnet} <strong>【Max SL 3】</strong></p><p>When a travel roll results in a Discovery — on the world map or in a dungeon — find a Lucky Treasure worth up to (level × 10 × SL) zenit, GM-determined. And you may spend Opportunities on a critical success to gain (SL × 50) zenit.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000009]{Survival Instincts} <strong>【Max SL 4】</strong></p><p>All damage you suffer outside a conflict scene that is not from an Attack or Spell — travel dangers, ritual Catastrophes, harmful terrain or weather — is reduced by (SL × 3).</p>",
+		"description": "<p><em>Built on Project FU's <strong>Dungeoneer</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Inventory Points</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise. Source: <strong>Dungeoneer</strong> (Fabula Ultima Stuff/SPELUNCA ULTIMA.pdf, PDF page index 27 (~printed p.28; DUNGEONEER FREE BENEFITS box)).)</em></p><h2>ANTIQUARIAN SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000006]{Problem Solver} <strong>【Max SL 6】</strong></p><p>When a GM-imposed Clock resolves in your favour during a conflict scene, recover (SL × 5) MP — turning back the Miasma Clock counts. And +(SL ÷ 2) to Checks on the Objective action or when supporting a Group Check toward an Objective.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000007]{Vast Collection} <strong>【Max SL 1】</strong></p><p>Action + 1 Fabula Point: produce any Lucky Treasure you can describe from your supplies. It is gone at the end of the scene — describe why.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000008]{Treasure Magnet} <strong>【Max SL 3】</strong></p><p>When a travel roll results in a Discovery — on the world map or in a dungeon — find a Lucky Treasure worth up to (level × 10 × SL) zenit, GM-determined. And you may spend Opportunities on a critical success to gain (SL × 50) zenit.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000009]{Survival Instincts} <strong>【Max SL 4】</strong></p><p>All damage you suffer outside a conflict scene that is not from an Attack or Spell — travel dangers, ritual Catastrophes, harmful terrain or weather — is reduced by (SL × 3).</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -35,7 +35,7 @@
 					"value": false
 				},
 				"ip": {
-					"value": true
+					"value": false
 				}
 			},
 			"martials": {
@@ -81,7 +81,28 @@
 			"classKey": "antiquarian",
 			"guiseEligible": true,
 			"innateOnly": false,
-			"printedName": "Dungeoneer"
+			"printedName": "Dungeoneer",
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": true
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
 		}
 	},
 	"_stats": {

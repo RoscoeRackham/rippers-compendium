@@ -14,7 +14,7 @@
 		"summary": {
 			"value": ""
 		},
-		"description": "<p><em>Built on Project FU's <strong>Tinkerer</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Inventory Points — activated.</li></ul><p><em>(House note: benefits adopted from Project FU's <strong>Tinkerer</strong> counterpart — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em></p><h2>ENGINEER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000104]{Emergency Item} <strong>【Max SL 1】</strong></p><p>Once per conflict scene, while in Crisis: perform an additional action on your turn, which must be the Inventory action.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000105]{Gadgets} <strong>【Max SL 5】</strong></p><p>Choose a gadget type — alchemy, infusions or magitech — and gain its basic benefits. Each further level buys a new type's basics, or upgrades one you have to advanced, then superior.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000106]{Potion Rain} <strong>【Max SL 2】</strong></p><p>Your potions that restore one creature's HP/MP may affect up to (SL) additional creatures, at half effect for everyone.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000107]{Secret Formula} <strong>【Max SL 5】</strong></p><p>Your restorative magispheres and potions restore (SL × 5) more HP/MP; your elemental shards, magispheres and potions deal (SL) extra damage.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000108]{Visionary} <strong>【Max SL 5】</strong></p><p>Projects you work on auto-pay up to (SL × 100) zenit of material costs and gain (SL) extra progress per day. Makes a Project-holder better — never grants Project access.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000109]{Dismantle} <strong>【Max SL 5】</strong></p><p>Destroy an item worth 100z+ that you own (never an IP-crafted one) to regain (value ÷ 100) IP, +1 IP if it cost at most (SL × 200)z. In conflict this rides an Inventory action.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000110]{Breakthroughs and Mishaps} <strong>【Max SL 4】</strong></p><p>When progressing a Project, opt for +2 progress and roll d8: at or under (SL), the invention gains a one-use bonus function; 7–8, the Project stalls until a condition is met. Does nothing without the Projects pool pick.</p>",
+		"description": "<p><em>Built on Project FU's <strong>Tinkerer</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Inventory Points</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise. Adopted from Project FU's <strong>Tinkerer</strong> counterpart.)</em></p><h2>ENGINEER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000104]{Emergency Item} <strong>【Max SL 1】</strong></p><p>Once per conflict scene, while in Crisis: perform an additional action on your turn, which must be the Inventory action.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000105]{Gadgets} <strong>【Max SL 5】</strong></p><p>Choose a gadget type — alchemy, infusions or magitech — and gain its basic benefits. Each further level buys a new type's basics, or upgrades one you have to advanced, then superior.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000106]{Potion Rain} <strong>【Max SL 2】</strong></p><p>Your potions that restore one creature's HP/MP may affect up to (SL) additional creatures, at half effect for everyone.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000107]{Secret Formula} <strong>【Max SL 5】</strong></p><p>Your restorative magispheres and potions restore (SL × 5) more HP/MP; your elemental shards, magispheres and potions deal (SL) extra damage.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000108]{Visionary} <strong>【Max SL 5】</strong></p><p>Projects you work on auto-pay up to (SL × 100) zenit of material costs and gain (SL) extra progress per day. Makes a Project-holder better — never grants Project access.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000109]{Dismantle} <strong>【Max SL 5】</strong></p><p>Destroy an item worth 100z+ that you own (never an IP-crafted one) to regain (value ÷ 100) IP, +1 IP if it cost at most (SL × 200)z. In conflict this rides an Inventory action.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000110]{Breakthroughs and Mishaps} <strong>【Max SL 4】</strong></p><p>When progressing a Project, opt for +2 progress and roll d8: at or under (SL), the invention gains a one-use bonus function; 7–8, the Project stalls until a condition is met. Does nothing without the Projects pool pick.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -35,7 +35,7 @@
 					"value": false
 				},
 				"ip": {
-					"value": true
+					"value": false
 				}
 			},
 			"martials": {
@@ -81,7 +81,28 @@
 			"classKey": "engineer",
 			"guiseEligible": false,
 			"innateOnly": false,
-			"printedName": "Tinkerer"
+			"printedName": "Tinkerer",
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": true
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
 		}
 	},
 	"_stats": {

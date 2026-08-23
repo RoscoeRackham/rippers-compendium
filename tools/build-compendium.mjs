@@ -122,6 +122,22 @@ function alsoNames(key) {
 // row states no benefit. "HP or MP, your choice" cannot be a fixed boolean —
 // we leave both false and record it as a player choice (choiceHpMp).
 const RITUAL_KINDS = ['arcanism', 'chimerism', 'elementalism', 'entropism', 'ritualism', 'spiritism'];
+
+// Route-2 ritual grants (Case B revised contract, 2026-08-23): skills whose corpus text CONFERS a
+// ritual discipline. Keyed class_key/skill_key -> discipline (lowercase). The rippers-guise engine
+// reads flags.<MODULE_ID>.grantsRitual off the skill Item (api.characterRitualDisciplines). Only
+// skills that actually GRANT ritual access belong here — NOT spell disciplines (e.g. Malefaction),
+// NOT pool-route classes (penny-knight, cunning-folk: their Ritualism is the benefit-pick pick).
+const RITUAL_GRANT_SKILLS = {
+  'keeper/bind_and_haunt': 'ritualism',   // RULE-keeper: Keeper grants Ritualism natively via this skill (A)
+  'floralist/verdant_sway': 'ritualism',  // "Grants Rituals of the Ritualism discipline"
+  'sensitive/navigator': 'ritualism',     // "Ritualism for Aether purposes only" — scoped Ritualism
+};
+// Route-2 PROJECT grants (Case B FINAL contract): skills that confer the ability to initiate Projects.
+// flags.<MODULE_ID>.grantsProject = true; the rippers-guise engine reads it (characterCanInitiateProjects).
+const PROJECT_GRANT_SKILLS = new Set([
+  'archivist/technical_mind',   // B: Archivist is project-themed; Technical Mind's Projects clause reinstated
+]);
 function concreteBenefits(key) {
   const f = join(DOCS, `CLASSREF-${cardKey(key)}.md`);
   if (!existsSync(f)) return null;
@@ -340,7 +356,7 @@ for (const r of snap.class_skills) {
     },
     effects: [],
     folder: null,
-    flags: { [MODULE_ID]: { classKey: r.class_key, skillKey: r.skill_key, maxSl } },
+    flags: { [MODULE_ID]: { classKey: r.class_key, skillKey: r.skill_key, maxSl, ...(RITUAL_GRANT_SKILLS[`${r.class_key}/${r.skill_key}`] ? { grantsRitual: RITUAL_GRANT_SKILLS[`${r.class_key}/${r.skill_key}`] } : {}), ...(PROJECT_GRANT_SKILLS.has(`${r.class_key}/${r.skill_key}`) ? { grantsProject: true } : {}) } },
     _stats: { systemId: 'projectfu', coreVersion: '13.0.0' },
     _key: `!items!${_id}`,
   };
@@ -431,10 +447,17 @@ for (const c of snap.classes) {
   const R = bene?.resources || { hp: false, mp: false, ip: false };
   const M = bene?.martials || { melee: false, ranged: false, armor: false, shields: false };
   const T = bene?.rituals || Object.fromEntries(RITUAL_KINDS.map((k) => [k, false]));
+  // Case B (Austin, 2026-08-23 — cross-module contract with rippers-guise): class benefits are
+  // NEUTRALIZED. The parsed R/M/T survive as the display-only printedBenefits catalog (flags block);
+  // the LIVE benefits object is forced UNIFORMLY all-false (no carve-out, rituals included). FU reads
+  // NOTHING from the ritual boolean; Route-2 ritual grants live on the granting SKILL via
+  // flags.<ns>.grantsRitual (see RITUAL_GRANT_SKILLS), which the rippers-guise engine reads. HP/MP/IP,
+  // martial and pool-route ritual grants come from the creation benefit-pick pool (rippers-guise).
+  // MUST co-ship with rippers-guise: without the engine live this strips class HP/MP/IP with no restore.
   const benefits = {
-    resources: { hp: { value: !!R.hp }, mp: { value: !!R.mp }, ip: { value: !!R.ip } },
-    martials: { melee: { value: !!M.melee }, ranged: { value: !!M.ranged }, armor: { value: !!M.armor }, shields: { value: !!M.shields } },
-    rituals: Object.fromEntries(RITUAL_KINDS.map((k) => [k, { value: !!T[k] }])),
+    resources: { hp: { value: false }, mp: { value: false }, ip: { value: false } },
+    martials: { melee: { value: false }, ranged: { value: false }, armor: { value: false }, shields: { value: false } },
+    rituals: Object.fromEntries(RITUAL_KINDS.map((k) => [k, { value: false }])),
   };
   if (!bene) {
     const hasCard = existsSync(join(DOCS, `CLASSREF-${cardKey(c.key)}.md`));
@@ -450,17 +473,21 @@ for (const c of snap.classes) {
     d.push(`<p><em>Built on Project FU's <strong>${esc(c.printed_name)}</strong>.</em></p>`);
   }
   if (bene && (bene.parts.length || bene.choiceHpMp || bene.chooseOneMartial)) {
-    const li = bene.parts.map((p) => `<li>${esc(p)} — activated.</li>`);
-    if (bene.choiceHpMp) li.push('<li>Increased maximum HP <strong>or</strong> MP — player\'s choice; set the chosen resource on the sheet.</li>');
+    const li = bene.parts.map((p) => `<li>${esc(p)}</li>`);
+    if (bene.choiceHpMp) li.push('<li>Increased maximum HP <strong>or</strong> MP (choose one).</li>');
     if (bene.chooseOneMartial) {
       const [a, b] = bene.chooseOneMartial;
-      li.push(`<li>Martial ${esc(a)} <strong>or</strong> martial ${esc(b)} — player\'s choice of one; both fields are left off on the Item, enable the one you take on the sheet.</li>`);
+      li.push(`<li>Martial ${esc(a)} <strong>or</strong> martial ${esc(b)} (choose one).</li>`);
     }
-    const note = bene.fromSpec
-      ? `<em>(House note: printed FREE BENEFITS from <strong>${esc(bene.fromSpec.printedName)}</strong> (${esc(bene.fromSpec.sourcePdf)}, ${esc(bene.fromSpec.page)}) — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em>`
+    // Case B: this block is the printed-benefit CATALOG (display/reference only). The benefits are
+    // inert on the Item; the player's actual HP/MP/IP, martial and ritual grants come from the
+    // creation benefit-pick pool (rippers-guise).
+    const src = bene.fromSpec
+      ? ` Source: <strong>${esc(bene.fromSpec.printedName)}</strong> (${esc(bene.fromSpec.sourcePdf)}, ${esc(bene.fromSpec.page)}).`
       : bene.fromCounterpart
-        ? `<em>(House note: benefits adopted from Project FU's <strong>${esc(bene.fromCounterpart)}</strong> counterpart — FU auto-applies the class math; the mechanical fields are activated on the sheet. Rippers handles class identity through the Guise.)</em>`
-        : HOUSE;
+        ? ` Adopted from Project FU's <strong>${esc(bene.fromCounterpart)}</strong> counterpart.`
+        : '';
+    const note = `<em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise.${src})</em>`;
     d.push(`<h5>FREE BENEFITS</h5><ul>${li.join('')}</ul><p>${note}</p>`);
   }
   d.push(`<h2>${esc((c.display_name || '').toUpperCase())} SKILLS</h2>`);
@@ -492,7 +519,7 @@ for (const c of snap.classes) {
     },
     effects: [],
     folder: null,
-    flags: { [MODULE_ID]: { classKey: c.key, guiseEligible: GUISE.has(c.key), innateOnly: !!c.is_innate_only, printedName: c.printed_name } },
+    flags: { [MODULE_ID]: { classKey: c.key, guiseEligible: GUISE.has(c.key), innateOnly: !!c.is_innate_only, printedName: c.printed_name, printedBenefits: { resources: R, martials: M, rituals: T } } },
     _stats: { systemId: 'projectfu', coreVersion: '13.0.0' },
     _key: `!items!${_id}`,
   };

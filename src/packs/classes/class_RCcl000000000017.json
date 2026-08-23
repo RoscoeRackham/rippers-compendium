@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "Also known as Pellar, Wise Woman, Greenway Pathfinder."
 		},
-		"description": "<p><em>Built on Project FU's <strong>Feyweaver</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Mind Points — activated.</li><li>Ritualism rituals — activated.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>CUNNING FOLK SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000083]{Fey's Blessing} <strong>【Max SL 5】</strong></p><p>Action + 10 MP: offer a blessing to your allies — never yourself — each freely refusing or accepting. Each accepter gains +(SL × 3) HP/MP recovery and −(SL) damage taken until scene's end, and owes a gift you name, due before their next rest — or the blessing turns curse: −(SL × 3) recovery and +(SL) damage taken until that rest.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000084]{Fey's Debt} <strong>【Max SL 1】</strong></p><p>Ask an ally or NPC a favour — no cost, no action. If they accept and fulfil it, you owe them on their terms, under a GM-set penalty until repaid. The favour may always be refused, and an unfulfillable ask costs nothing.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000085]{Fey Crossing} <strong>【Max SL 1】</strong></p><p>See the hidden gates of the fairy paths — shortcuts with a price. Deliberately numberless: form, destination and consequences are the GM's, ruled once per campaign (here: Risky Passage — each use carries a minor cost or complication).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000086]{Fairy Magic} <strong>【Max SL 3】</strong></p><p>Each level attunes one element (of eight) among spells you know; its fey effect rides those spells free: air lifts an ally into flight for a turn, bolt lets an ally act right after you, fire adds a burn next turn, ice shields an ally for −5 damage, poison poisons — and dark, earth and light each deny one action type (Ranged, Melee, Spell) for the target's next turn.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000087]{Manaflow} <strong>【Max SL 5】</strong></p><p>Whenever you recover Mind Points, recover an additional (SL × 4) — any source, no limit.</p>",
+		"description": "<p><em>Built on Project FU's <strong>Feyweaver</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Mind Points</li><li>Ritualism rituals</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise.)</em></p><h2>CUNNING FOLK SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000083]{Fey's Blessing} <strong>【Max SL 5】</strong></p><p>Action + 10 MP: offer a blessing to your allies — never yourself — each freely refusing or accepting. Each accepter gains +(SL × 3) HP/MP recovery and −(SL) damage taken until scene's end, and owes a gift you name, due before their next rest — or the blessing turns curse: −(SL × 3) recovery and +(SL) damage taken until that rest.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000084]{Fey's Debt} <strong>【Max SL 1】</strong></p><p>Ask an ally or NPC a favour — no cost, no action. If they accept and fulfil it, you owe them on their terms, under a GM-set penalty until repaid. The favour may always be refused, and an unfulfillable ask costs nothing.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000085]{Fey Crossing} <strong>【Max SL 1】</strong></p><p>See the hidden gates of the fairy paths — shortcuts with a price. Deliberately numberless: form, destination and consequences are the GM's, ruled once per campaign (here: Risky Passage — each use carries a minor cost or complication).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000086]{Fairy Magic} <strong>【Max SL 3】</strong></p><p>Each level attunes one element (of eight) among spells you know; its fey effect rides those spells free: air lifts an ally into flight for a turn, bolt lets an ally act right after you, fire adds a burn next turn, ice shields an ally for −5 damage, poison poisons — and dark, earth and light each deny one action type (Ranged, Melee, Spell) for the target's next turn.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000087]{Manaflow} <strong>【Max SL 5】</strong></p><p>Whenever you recover Mind Points, recover an additional (SL × 4) — any source, no limit.</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -32,7 +32,7 @@
 					"value": false
 				},
 				"mp": {
-					"value": true
+					"value": false
 				},
 				"ip": {
 					"value": false
@@ -66,7 +66,7 @@
 					"value": false
 				},
 				"ritualism": {
-					"value": true
+					"value": false
 				},
 				"spiritism": {
 					"value": false
@@ -81,7 +81,28 @@
 			"classKey": "cunning_folk",
 			"guiseEligible": false,
 			"innateOnly": false,
-			"printedName": "Feyweaver"
+			"printedName": "Feyweaver",
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": true,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": true,
+					"spiritism": false
+				}
+			}
 		}
 	},
 	"_stats": {

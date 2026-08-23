@@ -14,7 +14,7 @@
 		"summary": {
 			"value": ""
 		},
-		"description": "<h5>FREE BENEFITS</h5><ul><li>increased maximum Inventory Points — activated.</li><li>martial armor proficiency — activated.</li><li>Martial melee <strong>or</strong> martial ranged — player's choice of one; both fields are left off on the Item, enable the one you take on the sheet.</li></ul><p><em>(House note: FU auto-applies this class benefit — the mechanical field is activated on the sheet. Rippers handles class identity through the Guise; the benefit itself is standard Project FU.)</em></p><h2>BOUNTY HUNTER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000039]{Bounty} <strong>【Max SL 1】</strong></p><p>Adds a Bounty to your sheet — anything you are hunting: an NPC, a place, an artifact. Spend 1 Fabula Point to invoke it as a Trait (reroll) or as a Bond with strength (1 + Bounty Hunter level ÷ 5). Re-point it on level-up, on a rest, or with an Opportunity.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000040]{Hunter's Tools} <strong>【Max SL 5】</strong></p><p>The core: 28 tools costing 2–4 IP each; gain two per Skill Level. Inventory action + the tool's IP applies its effect to a target you can see — no Check, and option-choosing tools are fixed when created. Tool damage on your Bounty ignores Resistances. New tools may be invented and bought (~1000z).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000041]{Army of One} <strong>【Max SL 3】</strong></p><p>When you apply a \"one creature\" tool, spend up to (SL) extra IP; each IP adds one more creature you can see. Every target takes the full effect — 20 each, not 20 split.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000042]{Spoils of Battle} <strong>【Max SL 3】</strong></p><p>After a conflict ends, if you did not Surrender: recover (SL + 1) Inventory Points — 2 more if you invoked your Bounty at least once during it.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000043]{Quick Draw} <strong>【Max SL 3】</strong></p><p>At the start of a conflict scene, perform the Inventory action to produce an elemental shard, potion or tool of total IP cost (SL + 2) or lower — you still pay the IP. Triggers on the Turn when swapping in mid-conflict. Never in the same conflict as the Rogue's High Speed (the Telumorian Vambrace lifts the lock).</p>",
+		"description": "<h5>FREE BENEFITS</h5><ul><li>increased maximum Inventory Points</li><li>martial armor proficiency</li><li>Martial melee <strong>or</strong> martial ranged (choose one).</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise.)</em></p><h2>BOUNTY HUNTER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000039]{Bounty} <strong>【Max SL 1】</strong></p><p>Adds a Bounty to your sheet — anything you are hunting: an NPC, a place, an artifact. Spend 1 Fabula Point to invoke it as a Trait (reroll) or as a Bond with strength (1 + Bounty Hunter level ÷ 5). Re-point it on level-up, on a rest, or with an Opportunity.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000040]{Hunter's Tools} <strong>【Max SL 5】</strong></p><p>The core: 28 tools costing 2–4 IP each; gain two per Skill Level. Inventory action + the tool's IP applies its effect to a target you can see — no Check, and option-choosing tools are fixed when created. Tool damage on your Bounty ignores Resistances. New tools may be invented and bought (~1000z).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000041]{Army of One} <strong>【Max SL 3】</strong></p><p>When you apply a \"one creature\" tool, spend up to (SL) extra IP; each IP adds one more creature you can see. Every target takes the full effect — 20 each, not 20 split.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000042]{Spoils of Battle} <strong>【Max SL 3】</strong></p><p>After a conflict ends, if you did not Surrender: recover (SL + 1) Inventory Points — 2 more if you invoked your Bounty at least once during it.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000043]{Quick Draw} <strong>【Max SL 3】</strong></p><p>At the start of a conflict scene, perform the Inventory action to produce an elemental shard, potion or tool of total IP cost (SL + 2) or lower — you still pay the IP. Triggers on the Turn when swapping in mid-conflict. Never in the same conflict as the Rogue's High Speed (the Telumorian Vambrace lifts the lock).</p>",
 		"isFavored": {
 			"value": false
 		},
@@ -35,7 +35,7 @@
 					"value": false
 				},
 				"ip": {
-					"value": true
+					"value": false
 				}
 			},
 			"martials": {
@@ -46,7 +46,7 @@
 					"value": false
 				},
 				"armor": {
-					"value": true
+					"value": false
 				},
 				"shields": {
 					"value": false
@@ -81,7 +81,28 @@
 			"classKey": "bounty_hunter",
 			"guiseEligible": false,
 			"innateOnly": false,
-			"printedName": null
+			"printedName": null,
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": true
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": true,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
 		}
 	},
 	"_stats": {
