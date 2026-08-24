@@ -1,0 +1,44 @@
+{
+	"name": "Ready Hands",
+	"type": "skill",
+	"_id": "RCsk000000000282",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "ready_hands",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (mountebank)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Whenever you spend a Fabula Point in a conflict, gain 2 IP as well."
+		},
+		"description": "<p>Whenever you spend a Fabula Point in a conflict, gain 2 IP as well.</p>",
+		"class": {
+			"value": "Mountebank"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "mountebank",
+			"skillKey": "ready_hands",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000282"
+}

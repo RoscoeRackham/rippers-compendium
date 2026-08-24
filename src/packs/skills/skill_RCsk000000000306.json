@@ -1,0 +1,44 @@
+{
+	"name": "Wavering Emotions",
+	"type": "skill",
+	"_id": "RCsk000000000306",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "wavering_emotions",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (socialite)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Spend 10 MP."
+		},
+		"description": "<p>Spend 10 MP. Add one emotion (positive or negative, your choice) to any Bond — including a Bond another character holds toward an NPC, or a Bond that does not yet exist (creating a temporary Bond for the scene). This emotion lasts until the end of the scene.</p>",
+		"class": {
+			"value": "Socialite"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "socialite",
+			"skillKey": "wavering_emotions",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000306"
+}

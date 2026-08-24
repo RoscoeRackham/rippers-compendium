@@ -1,0 +1,44 @@
+{
+	"name": "Eye of the Beholder",
+	"type": "skill",
+	"_id": "RCsk000000000302",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "eye_of_the_beholder",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (socialite)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per rest, ask one PC or significant NPC what they found attractive or admirable about you."
+		},
+		"description": "<p>Once per rest, ask one PC or significant NPC what they found attractive or admirable about you. Additionally, whenever you roll dice with a character who is currently Fond of you (has a positive Bond emotion toward you), you may reroll one of those dice once.</p>",
+		"class": {
+			"value": "Socialite"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "socialite",
+			"skillKey": "eye_of_the_beholder",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000302"
+}

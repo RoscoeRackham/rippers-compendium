@@ -1,0 +1,44 @@
+{
+	"name": "Underground Network",
+	"type": "skill",
+	"_id": "RCsk000000000274",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "underground_network",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (unchained)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When purchasing goods or services in a settlement where rebel, radical, or underground factions operate, reduce the cost"
+		},
+		"description": "<p>When purchasing goods or services in a settlement where rebel, radical, or underground factions operate, reduce the cost by (SL × 20)%. Faction contacts may offer startup resources (tools, safe houses, introductions) at GM discretion.</p>",
+		"class": {
+			"value": "Unchained"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "unchained",
+			"skillKey": "underground_network",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000274"
+}

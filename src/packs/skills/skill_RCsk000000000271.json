@@ -1,0 +1,44 @@
+{
+	"name": "Saboteur",
+	"type": "skill",
+	"_id": "RCsk000000000271",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "saboteur",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (unchained)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Gain +(SL × 2) on checks to pick locks, disable traps, find security weaknesses, or damage infrastructure without being "
+		},
+		"description": "<p>Gain +(SL × 2) on checks to pick locks, disable traps, find security weaknesses, or damage infrastructure without being detected.</p>",
+		"class": {
+			"value": "Unchained"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "unchained",
+			"skillKey": "saboteur",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000271"
+}

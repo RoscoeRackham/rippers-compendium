@@ -1,0 +1,44 @@
+{
+	"name": "Mineral Resilience",
+	"type": "skill",
+	"_id": "RCsk000000000309",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "mineral_resilience",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sapper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "As a free action, spend 5 MP."
+		},
+		"description": "<p>As a free action, spend 5 MP. Until the end of the scene, your body takes on the density of worked stone — aether saturating your musculature the way it saturates the substrata beneath London. You reduce all physical damage you take by 5.</p>",
+		"class": {
+			"value": "Sapper"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sapper",
+			"skillKey": "mineral_resilience",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000309"
+}

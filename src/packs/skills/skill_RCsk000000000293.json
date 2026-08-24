@@ -1,0 +1,44 @@
+{
+	"name": "Clinch",
+	"type": "skill",
+	"_id": "RCsk000000000293",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "clinch",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (pugilist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Instead of dealing damage on a successful unarmed attack, make an opposed MIG+DEX vs MIG+MIG check."
+		},
+		"description": "<p>Instead of dealing damage on a successful unarmed attack, make an opposed MIG+DEX vs MIG+MIG check. On success, set up the target: your next attack against them this scene deals × (1 + SL ÷ 3, rounded down) damage.</p>",
+		"class": {
+			"value": "Pugilist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "pugilist",
+			"skillKey": "clinch",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000293"
+}

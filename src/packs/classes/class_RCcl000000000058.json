@@ -1,0 +1,113 @@
+{
+	"name": "Socialite",
+	"type": "class",
+	"_id": "RCcl000000000058",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "socialite",
+		"source": {
+			"value": "Rippers Unmasked — classes (socialite)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": ""
+		},
+		"description": "<p><em>Built on Project FU's <strong>Sweetheart</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Inventory Points</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise. Source: League homebrew <strong>Sweetheart</strong>.)</em></p><h2>SOCIALITE SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000302]{Eye of the Beholder}</p><p>Once per rest, ask one PC or significant NPC what they found attractive or admirable about you. Additionally, whenever you roll dice with a character who is currently Fond of you (has a positive Bond emotion toward you), you may reroll one of those dice once.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000303]{Fine Presentation} <strong>【Max SL 5】</strong></p><p>Write a list of your character's notable qualities (up to SL traits, chosen at creation or updated at level-up). When an NPC confirms they find one of those traits admirable, earn 1 FP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000304]{Double Edge}</p><p>Characters who help you gain +1 on their helping roll. Characters who attempt to harm or manipulate you also gain +1 on those rolls. Both bonuses apply to the same action when relevant.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000305]{Centre of Attention} <strong>【Max SL 5】</strong></p><p>Spend (SL × 5) MP. Until the end of the round, one creature of your choice must include you among its targets if it makes an area attack, or must target you if it makes a single-target attack. Alternatively, it may not target you at all — your choice, declared when you activate this.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000306]{Wavering Emotions} <strong>【Max SL 3】</strong></p><p>Spend 10 MP. Add one emotion (positive or negative, your choice) to any Bond — including a Bond another character holds toward an NPC, or a Bond that does not yet exist (creating a temporary Bond for the scene). This emotion lasts until the end of the scene.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "socialite",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": "Sweetheart",
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": true
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000058"
+}

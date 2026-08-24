@@ -1,0 +1,44 @@
+{
+	"name": "Lethal Precision",
+	"type": "skill",
+	"_id": "RCsk000000000287",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "lethal_precision",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (operative)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Free weapon attack with a dagger, brawling weapon, or thrown weapon."
+		},
+		"description": "<p>Free weapon attack with a dagger, brawling weapon, or thrown weapon. Spend MP (up to SL × 5) for a bonus on the Accuracy Check equal to MP spent ÷ 5. If your result beats the target's Defense by 5 or more, the damage ignores all Affinities and is multiplied × (1 + SL ÷ 5, rounded down, max ×3).</p>",
+		"class": {
+			"value": "Operative"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "operative",
+			"skillKey": "lethal_precision",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000287"
+}

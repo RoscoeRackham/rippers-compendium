@@ -1,0 +1,44 @@
+{
+	"name": "Accelerate Ritual",
+	"type": "skill",
+	"_id": "RCsk000000000278",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "accelerate_ritual",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (ritualist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When working on a ritual clock, spend (SL × 5) MP to mark an additional segment beyond the action's normal yield."
+		},
+		"description": "<p>When working on a ritual clock, spend (SL × 5) MP to mark an additional segment beyond the action's normal yield.</p>",
+		"class": {
+			"value": "Ritualist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "ritualist",
+			"skillKey": "accelerate_ritual",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000278"
+}

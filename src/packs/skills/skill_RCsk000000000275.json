@@ -1,0 +1,44 @@
+{
+	"name": "Local Infamy",
+	"type": "skill",
+	"_id": "RCsk000000000275",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "local_infamy",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (unchained)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Travel checks in settlements where you are known as a troublemaker are made with advantage (roll twice, keep the better "
+		},
+		"description": "<p>Travel checks in settlements where you are known as a troublemaker are made with advantage (roll twice, keep the better result). You are never surprised in a location where your reputation precedes you. At SL4, your infamy reaches across the city — no settlement in the campaign is unknown to you.</p>",
+		"class": {
+			"value": "Unchained"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "unchained",
+			"skillKey": "local_infamy",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000275"
+}

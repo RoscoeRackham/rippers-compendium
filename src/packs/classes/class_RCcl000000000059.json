@@ -1,0 +1,113 @@
+{
+	"name": "Sapper",
+	"type": "class",
+	"_id": "RCcl000000000059",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "sapper",
+		"source": {
+			"value": "Rippers Unmasked — classes (sapper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": ""
+		},
+		"description": "<p><em>Built on Project FU's <strong>Tectonomancer</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Hit Points</li><li>Elementalism rituals</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise. Source: League homebrew <strong>Tectonomancer</strong>.)</em></p><h2>SAPPER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000307]{Earthmeld} <strong>【Max SL 2】</strong></p><p>The aether saturating London's clay and chalk responds to your will. Move through solid earth, stone, or masonry without sound or trace, as current moves through a wire. At SL2, extend the passage to up to (WLP) willing companions. Cannot penetrate worked metal or timber framing.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000308]{Elementalist's Way} <strong>【Max SL 10】</strong></p><p>Aether concentrated in substrata can be directed as elemental force — the industrial application of a phenomenon that only now has a name. Learn Elementalist spells; use INS + WLP for offensive checks. Each SL unlocks one additional spell (earth and stone formulae prioritised; other elements from SL4 onward). Elemental spells come only via this skill — there is no ritual-discipline route.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000309]{Mineral Resilience}</p><p>As a free action, spend 5 MP. Until the end of the scene, your body takes on the density of worked stone — aether saturating your musculature the way it saturates the substrata beneath London. You reduce all physical damage you take by 5.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000310]{Stable Ground} <strong>【Max SL 3】</strong></p><p>Your eye reads the load-bearing lines before they fail — a shift in the aether-current through the stratum, a hairline in the keystone, the smell of wet clay under a dry floor. You are immune to environmental hazards from unstable ground (collapse, tremors, sinking foundations). Spend (SL × 5) MP to extend this protection to up to (SL) allies until the end of the scene.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000311]{Tradesman's Eye}</p><p>You see the work that built this place: the aether-lines that hold it up, the point where one precise blow does what a hundred shouldn't. You always have access to basic masonry tools (chisel, mallet, iron spike, measuring line) without tracking them as inventory. When contributing to a clock related to structural construction or demolition, fill one additional segment.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sapper",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": "Tectonomancer",
+			"printedBenefits": {
+				"resources": {
+					"hp": true,
+					"mp": false,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": true,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000059"
+}

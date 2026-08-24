@@ -1,0 +1,44 @@
+{
+	"name": "Mark",
+	"type": "skill",
+	"_id": "RCsk000000000294",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "mark",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (pugilist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After hitting a target, mark them."
+		},
+		"description": "<p>After hitting a target, mark them. Until the end of the scene, you gain +1 on all checks involving that target. The mark moves if the target flees or is replaced; you can only have one mark active.</p>",
+		"class": {
+			"value": "Pugilist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "pugilist",
+			"skillKey": "mark",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000294"
+}

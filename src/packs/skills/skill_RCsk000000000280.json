@@ -1,0 +1,45 @@
+{
+	"name": "Ritualistic Efficiency",
+	"type": "skill",
+	"_id": "RCsk000000000280",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "ritualistic_efficiency",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (ritualist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "You gain +(SL) on all ritual checks."
+		},
+		"description": "<p>You gain +(SL) on all ritual checks. The zenit cost of any ritual you participate in is reduced by (SL × 50), minimum 0.</p>",
+		"class": {
+			"value": "Ritualist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "ritualist",
+			"skillKey": "ritualistic_efficiency",
+			"maxSl": 2,
+			"grantsRitual": "ritualism"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000280"
+}

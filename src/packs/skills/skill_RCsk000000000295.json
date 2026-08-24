@@ -1,0 +1,44 @@
+{
+	"name": "Footwork",
+	"type": "skill",
+	"_id": "RCsk000000000295",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "footwork",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (pugilist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "While wearing no armour heavier than a padded jacket (no Martial armour), gain +1 die size on DEX checks to avoid damage"
+		},
+		"description": "<p>While wearing no armour heavier than a padded jacket (no Martial armour), gain +1 die size on DEX checks to avoid damage or hazards. Gain +(SL) to checks to exit a hostile zone.</p>",
+		"class": {
+			"value": "Pugilist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "pugilist",
+			"skillKey": "footwork",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000295"
+}

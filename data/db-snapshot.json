@@ -306,6 +306,60 @@
    "display_name": "Witness",
    "printed_name": "Prey (Dr. Razno)",
    "is_innate_only": false
+  },
+  {
+   "key": "unchained",
+   "display_name": "Unchained",
+   "printed_name": "Unchained",
+   "is_innate_only": false
+  },
+  {
+   "key": "ritualist",
+   "display_name": "Ritualist",
+   "printed_name": "Ritualist",
+   "is_innate_only": false
+  },
+  {
+   "key": "mountebank",
+   "display_name": "Mountebank",
+   "printed_name": "Improviser",
+   "is_innate_only": false
+  },
+  {
+   "key": "operative",
+   "display_name": "Operative",
+   "printed_name": "Assassin",
+   "is_innate_only": false
+  },
+  {
+   "key": "pugilist",
+   "display_name": "Pugilist",
+   "printed_name": "Brawler",
+   "is_innate_only": false
+  },
+  {
+   "key": "evangelist",
+   "display_name": "Evangelist",
+   "printed_name": "Lightbearer",
+   "is_innate_only": false
+  },
+  {
+   "key": "socialite",
+   "display_name": "Socialite",
+   "printed_name": "Sweetheart",
+   "is_innate_only": false
+  },
+  {
+   "key": "sapper",
+   "display_name": "Sapper",
+   "printed_name": "Tectonomancer",
+   "is_innate_only": false
+  },
+  {
+   "key": "strongman",
+   "display_name": "Strongman",
+   "printed_name": "Wrestler",
+   "is_innate_only": false
   }
  ],
  "class_skills": [
@@ -2459,6 +2513,382 @@
    "display_name": "Prey Instinct",
    "max_sl": 3,
    "summary": "At conflict start, spend 10 MP to perform Guard, Objective or Study before round one, at +(SL) to its Checks. Locked out beside the Rogue's High Speed and the Naturalist's post-Initiative camera shot — one pre-round trick per character. Triggers on the Turn when swapping in mid-conflict.",
+   "sort": 5
+  },
+  {
+   "class_key": "unchained",
+   "skill_key": "friendships_and_enmities",
+   "display_name": "Friendships and Enmities",
+   "max_sl": null,
+   "summary": "Each time the party returns to a community you have history with, generate two things: one NPC from your past (ally, debtor, or rival — your choice of type), and one complication arising from your presence (a debt called in, a bounty, a contact the wrong people know about). The GM and player agree the specifics; the complication is mandatory.",
+   "sort": 1
+  },
+  {
+   "class_key": "unchained",
+   "skill_key": "saboteur",
+   "display_name": "Saboteur",
+   "max_sl": 3,
+   "summary": "Gain +(SL × 2) on checks to pick locks, disable traps, find security weaknesses, or damage infrastructure without being detected.",
+   "sort": 2
+  },
+  {
+   "class_key": "unchained",
+   "skill_key": "guerilla",
+   "display_name": "Guerilla",
+   "max_sl": 5,
+   "summary": "When you damage a creature that actively serves an authority figure (a constable, a Foundry enforcer, a noble's bodyguard), deal +(SL × 3) bonus typeless damage and ignore Resistances on that attack.",
+   "sort": 3
+  },
+  {
+   "class_key": "unchained",
+   "skill_key": "observe",
+   "display_name": "Observe",
+   "max_sl": 3,
+   "summary": "Spend (SL × 5) MP. Ask the GM up to (SL) questions about an NPC's behaviour, motivations, or likely next move. The GM must answer honestly.",
+   "sort": 4
+  },
+  {
+   "class_key": "unchained",
+   "skill_key": "underground_network",
+   "display_name": "Underground Network",
+   "max_sl": 3,
+   "summary": "When purchasing goods or services in a settlement where rebel, radical, or underground factions operate, reduce the cost by (SL × 20)%. Faction contacts may offer startup resources (tools, safe houses, introductions) at GM discretion.",
+   "sort": 5
+  },
+  {
+   "class_key": "unchained",
+   "skill_key": "local_infamy",
+   "display_name": "Local Infamy",
+   "max_sl": 4,
+   "sort": 6,
+   "summary": "Travel checks in settlements where you are known as a troublemaker are made with advantage (roll twice, keep the better result). You are never surprised in a location where your reputation precedes you. At SL4, your infamy reaches across the city — no settlement in the campaign is unknown to you."
+  },
+  {
+   "class_key": "unchained",
+   "skill_key": "mark_your_territory",
+   "display_name": "Mark Your Territory",
+   "max_sl": null,
+   "sort": 7,
+   "summary": "At the start of a conflict in a settlement you have tagged (graffiti, a calling card, a known haunt), every soldier-rank enemy must make a Resolve check or be Shaken for the first round. You may tag a settlement between scenes without rolling."
+  },
+  {
+   "class_key": "ritualist",
+   "skill_key": "spellcasting_assistant",
+   "display_name": "Spellcasting Assistant",
+   "max_sl": 3,
+   "summary": "When you take the Assist action on an ally's spell, that spell gains: +2 to the caster's Magic Check (SL1); the spell deals or heals +(SL × 5) (SL2); the spell's MP cost is reduced by (SL × 5) (SL3). All unlocked benefits apply at the appropriate SL.",
+   "sort": 1
+  },
+  {
+   "class_key": "ritualist",
+   "skill_key": "accelerate_ritual",
+   "display_name": "Accelerate Ritual",
+   "max_sl": 3,
+   "summary": "When working on a ritual clock, spend (SL × 5) MP to mark an additional segment beyond the action's normal yield.",
+   "sort": 2
+  },
+  {
+   "class_key": "ritualist",
+   "skill_key": "magical_countermeasures",
+   "display_name": "Magical Countermeasures",
+   "max_sl": 3,
+   "summary": "Reaction: spend (SL × 10) MP. Remove up to (SL) willing creatures from the target list of a hostile spell before it resolves. Cannot remove the caster themselves.",
+   "sort": 3
+  },
+  {
+   "class_key": "ritualist",
+   "skill_key": "ritualistic_efficiency",
+   "display_name": "Ritualistic Efficiency",
+   "max_sl": 2,
+   "summary": "You gain +(SL) on all ritual checks. The zenit cost of any ritual you participate in is reduced by (SL × 50), minimum 0.",
+   "sort": 4
+  },
+  {
+   "class_key": "ritualist",
+   "skill_key": "loyal_supporter",
+   "display_name": "Loyal Supporter",
+   "max_sl": 5,
+   "summary": "When you assist an ally's check (any type), your bonus is increased by +1 per 3 points by which your result exceeds the difficulty (max bonus +(SL)).",
+   "sort": 5
+  },
+  {
+   "class_key": "mountebank",
+   "skill_key": "ready_hands",
+   "display_name": "Ready Hands",
+   "max_sl": 2,
+   "summary": "Whenever you spend a Fabula Point in a conflict, gain 2 IP as well.",
+   "sort": 1
+  },
+  {
+   "class_key": "mountebank",
+   "skill_key": "field_improvisation",
+   "display_name": "Field Improvisation",
+   "max_sl": 2,
+   "summary": "As an action, produce two Inventory-tier items simultaneously. Their effects both apply (or both activate on a target of your choice).",
+   "sort": 2
+  },
+  {
+   "class_key": "mountebank",
+   "skill_key": "patter",
+   "display_name": "Patter",
+   "max_sl": 3,
+   "summary": "When you try to fill or erase a clock through deception or comic misdirection, roll 1d3. Optionally apply that result as a bonus or penalty to your check — your choice after seeing the die.",
+   "sort": 3
+  },
+  {
+   "class_key": "mountebank",
+   "skill_key": "whoops",
+   "display_name": "Whoops!",
+   "max_sl": null,
+   "summary": "Declare any check a deliberate fumble before rolling. The fumble triggers normally (Opportunity for the GM, FP earned for you). You additionally choose which Opportunity the GM takes (from a list you agree on). An ally of your choice immediately recovers 10 MP.",
+   "sort": 4
+  },
+  {
+   "class_key": "mountebank",
+   "skill_key": "witty_remark",
+   "display_name": "Witty Remark",
+   "max_sl": 3,
+   "summary": "Spend (SL × 5) MP. A creature that can hear you takes −(SL) to its next check this round.",
+   "sort": 5
+  },
+  {
+   "class_key": "operative",
+   "skill_key": "lethal_precision",
+   "display_name": "Lethal Precision",
+   "max_sl": 5,
+   "summary": "Free weapon attack with a dagger, brawling weapon, or thrown weapon. Spend MP (up to SL × 5) for a bonus on the Accuracy Check equal to MP spent ÷ 5. If your result beats the target's Defense by 5 or more, the damage ignores all Affinities and is multiplied × (1 + SL ÷ 5, rounded down, max ×3).",
+   "sort": 1
+  },
+  {
+   "class_key": "operative",
+   "skill_key": "shadow_step",
+   "display_name": "Shadow Step",
+   "max_sl": 3,
+   "summary": "As an action, make an open check with your INS die vs a difficulty of 10. On success, you cannot be targeted by enemies until you make an offensive action or the scene ends.",
+   "sort": 2
+  },
+  {
+   "class_key": "operative",
+   "skill_key": "first_strike",
+   "display_name": "First Strike",
+   "max_sl": 3,
+   "summary": "On your first turn of a conflict, or when any of your actions targets a creature that cannot see you, gain +(SL) on Accuracy Checks and Magic Checks.",
+   "sort": 3
+  },
+  {
+   "class_key": "operative",
+   "skill_key": "cover_identity",
+   "display_name": "Cover Identity",
+   "max_sl": null,
+   "summary": "Spend 1 FP to establish a fully worked-out alternate persona. Write it down: name, profession, plausible history, one known contact. The identity holds until a Villain spends an Ultima Point to expose it. You may have one active identity at a time.",
+   "sort": 4
+  },
+  {
+   "class_key": "operative",
+   "skill_key": "corrosive_application",
+   "display_name": "Corrosive Application",
+   "max_sl": 3,
+   "summary": "Action, spend 2 IP. Until the end of the scene, one equipped weapon deals Poison damage instead of its normal type. Gain +(SL) on checks related to poisons, venoms, and their detection or treatment.",
+   "sort": 5
+  },
+  {
+   "class_key": "pugilist",
+   "skill_key": "parry",
+   "display_name": "Parry",
+   "max_sl": null,
+   "summary": "Reaction to an incoming melee attack: roll an Accuracy Check as if attacking unarmed. If your result is higher than the attacker's, halve the damage. If lower, take double damage. If equal, execute a Perfect Parry — the attack is negated and you perform a free unarmed attack against the attacker.",
+   "sort": 1
+  },
+  {
+   "class_key": "pugilist",
+   "skill_key": "clinch",
+   "display_name": "Clinch",
+   "max_sl": 3,
+   "summary": "Instead of dealing damage on a successful unarmed attack, make an opposed MIG+DEX vs MIG+MIG check. On success, set up the target: your next attack against them this scene deals × (1 + SL ÷ 3, rounded down) damage.",
+   "sort": 2
+  },
+  {
+   "class_key": "pugilist",
+   "skill_key": "mark",
+   "display_name": "Mark",
+   "max_sl": null,
+   "summary": "After hitting a target, mark them. Until the end of the scene, you gain +1 on all checks involving that target. The mark moves if the target flees or is replaced; you can only have one mark active.",
+   "sort": 3
+  },
+  {
+   "class_key": "pugilist",
+   "skill_key": "footwork",
+   "display_name": "Footwork",
+   "max_sl": 2,
+   "summary": "While wearing no armour heavier than a padded jacket (no Martial armour), gain +1 die size on DEX checks to avoid damage or hazards. Gain +(SL) to checks to exit a hostile zone.",
+   "sort": 4
+  },
+  {
+   "class_key": "pugilist",
+   "skill_key": "combination",
+   "display_name": "Combination",
+   "max_sl": 5,
+   "summary": "Action, spend (SL × 4) MP. Make a DEX + INS check. On success, execute a combination attack with one of the following effects (chosen before rolling): Finishing Blow (extra damage ×2); Fleet-Foot (attack + reposition without triggering reactions); Sweeping Strike (hits up to three targets in reach); Shoulder-Shaker (inflict Dazed); The Clinch (grapple — target cannot leave the scene until the end of the round).",
+   "sort": 5
+  },
+  {
+   "class_key": "evangelist",
+   "skill_key": "moral_compass",
+   "display_name": "Moral Compass",
+   "max_sl": null,
+   "summary": "When another player character acts from cowardice, cruelty, fear, or despair, they earn 1 FP as normal. You may then choose to sour or strengthen your Bond with them — whichever is honest — as a cost or reward for being right.",
+   "sort": 1
+  },
+  {
+   "class_key": "evangelist",
+   "skill_key": "absolution",
+   "display_name": "Absolution",
+   "max_sl": 2,
+   "summary": "When a negative Bond emotion between two characters disappears after a genuine conversation, both characters earn 1 FP. You may spend 1 FP to trigger this once per scene if you facilitate the reconciliation.",
+   "sort": 2
+  },
+  {
+   "class_key": "evangelist",
+   "skill_key": "compassion",
+   "display_name": "Compassion",
+   "max_sl": 3,
+   "summary": "Spend (SL × 5) MP to fill one extra clock segment when you (or an ally you are helping) defuse an NPC's anger, grief, or shame through genuine conversation.",
+   "sort": 3
+  },
+  {
+   "class_key": "evangelist",
+   "skill_key": "righteous_fury",
+   "display_name": "Righteous Fury",
+   "max_sl": 5,
+   "summary": "On a melee attack against a target with at least one dark-trait marker, spend up to 5 MP. Deal (MP spent × SL) bonus light damage.",
+   "sort": 4
+  },
+  {
+   "class_key": "evangelist",
+   "skill_key": "resolve",
+   "display_name": "Resolve",
+   "max_sl": 5,
+   "summary": "Reaction: when you or an adjacent ally would take damage from a target with at least one dark-trait marker, spend up to 10 MP. Reduce the damage by (MP spent × SL ÷ 2, rounded down).",
+   "sort": 5
+  },
+  {
+   "class_key": "socialite",
+   "skill_key": "eye_of_the_beholder",
+   "display_name": "Eye of the Beholder",
+   "max_sl": null,
+   "summary": "Once per rest, ask one PC or significant NPC what they found attractive or admirable about you. Additionally, whenever you roll dice with a character who is currently Fond of you (has a positive Bond emotion toward you), you may reroll one of those dice once.",
+   "sort": 1
+  },
+  {
+   "class_key": "socialite",
+   "skill_key": "fine_presentation",
+   "display_name": "Fine Presentation",
+   "max_sl": 5,
+   "summary": "Write a list of your character's notable qualities (up to SL traits, chosen at creation or updated at level-up). When an NPC confirms they find one of those traits admirable, earn 1 FP.",
+   "sort": 2
+  },
+  {
+   "class_key": "socialite",
+   "skill_key": "double_edge",
+   "display_name": "Double Edge",
+   "max_sl": null,
+   "summary": "Characters who help you gain +1 on their helping roll. Characters who attempt to harm or manipulate you also gain +1 on those rolls. Both bonuses apply to the same action when relevant.",
+   "sort": 3
+  },
+  {
+   "class_key": "socialite",
+   "skill_key": "centre_of_attention",
+   "display_name": "Centre of Attention",
+   "max_sl": 5,
+   "summary": "Spend (SL × 5) MP. Until the end of the round, one creature of your choice must include you among its targets if it makes an area attack, or must target you if it makes a single-target attack. Alternatively, it may not target you at all — your choice, declared when you activate this.",
+   "sort": 4
+  },
+  {
+   "class_key": "socialite",
+   "skill_key": "wavering_emotions",
+   "display_name": "Wavering Emotions",
+   "max_sl": 3,
+   "summary": "Spend 10 MP. Add one emotion (positive or negative, your choice) to any Bond — including a Bond another character holds toward an NPC, or a Bond that does not yet exist (creating a temporary Bond for the scene). This emotion lasts until the end of the scene.",
+   "sort": 5
+  },
+  {
+   "class_key": "sapper",
+   "skill_key": "earthmeld",
+   "display_name": "Earthmeld",
+   "max_sl": 2,
+   "summary": "The aether saturating London's clay and chalk responds to your will. Move through solid earth, stone, or masonry without sound or trace, as current moves through a wire. At SL2, extend the passage to up to (WLP) willing companions. Cannot penetrate worked metal or timber framing.",
+   "sort": 1
+  },
+  {
+   "class_key": "sapper",
+   "skill_key": "elementalists_way",
+   "display_name": "Elementalist's Way",
+   "max_sl": 10,
+   "summary": "Aether concentrated in substrata can be directed as elemental force — the industrial application of a phenomenon that only now has a name. Learn Elementalist spells; use INS + WLP for offensive checks. Each SL unlocks one additional spell (earth and stone formulae prioritised; other elements from SL4 onward). Elemental spells come only via this skill — there is no ritual-discipline route.",
+   "sort": 2
+  },
+  {
+   "class_key": "sapper",
+   "skill_key": "mineral_resilience",
+   "display_name": "Mineral Resilience",
+   "max_sl": null,
+   "summary": "As a free action, spend 5 MP. Until the end of the scene, your body takes on the density of worked stone — aether saturating your musculature the way it saturates the substrata beneath London. You reduce all physical damage you take by 5.",
+   "sort": 3
+  },
+  {
+   "class_key": "sapper",
+   "skill_key": "stable_ground",
+   "display_name": "Stable Ground",
+   "max_sl": 3,
+   "summary": "Your eye reads the load-bearing lines before they fail — a shift in the aether-current through the stratum, a hairline in the keystone, the smell of wet clay under a dry floor. You are immune to environmental hazards from unstable ground (collapse, tremors, sinking foundations). Spend (SL × 5) MP to extend this protection to up to (SL) allies until the end of the scene.",
+   "sort": 4
+  },
+  {
+   "class_key": "sapper",
+   "skill_key": "tradesmans_eye",
+   "display_name": "Tradesman's Eye",
+   "max_sl": null,
+   "summary": "You see the work that built this place: the aether-lines that hold it up, the point where one precise blow does what a hundred shouldn't. You always have access to basic masonry tools (chisel, mallet, iron spike, measuring line) without tracking them as inventory. When contributing to a clock related to structural construction or demolition, fill one additional segment.",
+   "sort": 5
+  },
+  {
+   "class_key": "strongman",
+   "skill_key": "opening_statement",
+   "display_name": "Opening Statement",
+   "max_sl": 2,
+   "summary": "Spend Acclaim to establish a combat Bond with one creature. For the scene, treat that Bond as a standard Bond for the purpose of skills that key on Bonds (e.g., Bond strength checks, Bond-keyed damage).",
+   "sort": 1
+  },
+  {
+   "class_key": "strongman",
+   "skill_key": "crowd_favourite",
+   "display_name": "Crowd Favourite",
+   "max_sl": 3,
+   "summary": "You have a network of admirers in each settlement you have performed in. They cover services (lodging, meals, basic equipment) up to a value of (SL + current Acclaim) × 30 zenit per rest.",
+   "sort": 2
+  },
+  {
+   "class_key": "strongman",
+   "skill_key": "iron_grip",
+   "display_name": "Iron Grip",
+   "max_sl": 3,
+   "summary": "Spend 10 MP. Make an opposed MIG + DEX vs MIG + MIG check against one creature in reach. On success, the creature cannot leave the scene until the end of your next turn. While grappled, you gain +(SL) on all checks against that creature.",
+   "sort": 3
+  },
+  {
+   "class_key": "strongman",
+   "skill_key": "plaudits",
+   "display_name": "Acclaim",
+   "max_sl": 5,
+   "summary": "Gain 1 Acclaim whenever you deal damage to a large or worse creature, take damage without being knocked out, or succeed on a check by 5 or more in a public setting. Spend Acclaim on Exhibition Bouts. Maximum (SL) Acclaim at once.",
+   "sort": 4
+  },
+  {
+   "class_key": "strongman",
+   "skill_key": "exhibition_bouts",
+   "display_name": "Exhibition Bouts",
+   "max_sl": null,
+   "summary": "Spend Acclaim to execute a finisher: 1 Acclaim — Clash (weapon attack ×2 damage); 2 Acclaim — Whirlwind (attack all enemies in reach); 3 Acclaim — Pile Driver (attack + inflict Shaken); 4 Acclaim — Body Slam (attack + target cannot leave the scene for one round); 5 Acclaim — Showstopper (attack ×3 damage, all enemies in scene take 5 damage).",
    "sort": 5
   }
  ],

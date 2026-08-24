@@ -1,0 +1,44 @@
+{
+	"name": "Iron Grip",
+	"type": "skill",
+	"_id": "RCsk000000000314",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "iron_grip",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (strongman)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Spend 10 MP."
+		},
+		"description": "<p>Spend 10 MP. Make an opposed MIG + DEX vs MIG + MIG check against one creature in reach. On success, the creature cannot leave the scene until the end of your next turn. While grappled, you gain +(SL) on all checks against that creature.</p>",
+		"class": {
+			"value": "Strongman"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "strongman",
+			"skillKey": "iron_grip",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000314"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Friendships and Enmities",
+	"type": "skill",
+	"_id": "RCsk000000000270",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "friendships_and_enmities",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (unchained)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Each time the party returns to a community you have history with, generate two things: one NPC from your past (ally, deb"
+		},
+		"description": "<p>Each time the party returns to a community you have history with, generate two things: one NPC from your past (ally, debtor, or rival — your choice of type), and one complication arising from your presence (a debt called in, a bounty, a contact the wrong people know about). The GM and player agree the specifics; the complication is mandatory.</p>",
+		"class": {
+			"value": "Unchained"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "unchained",
+			"skillKey": "friendships_and_enmities",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000270"
+}

@@ -1,0 +1,113 @@
+{
+	"name": "Pugilist",
+	"type": "class",
+	"_id": "RCcl000000000056",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "pugilist",
+		"source": {
+			"value": "Rippers Unmasked — classes (pugilist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": ""
+		},
+		"description": "<p><em>Built on Project FU's <strong>Brawler</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Hit Points</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise. Source: League homebrew <strong>Brawler</strong>.)</em></p><h2>PUGILIST SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000292]{Parry}</p><p>Reaction to an incoming melee attack: roll an Accuracy Check as if attacking unarmed. If your result is higher than the attacker's, halve the damage. If lower, take double damage. If equal, execute a Perfect Parry — the attack is negated and you perform a free unarmed attack against the attacker.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000293]{Clinch} <strong>【Max SL 3】</strong></p><p>Instead of dealing damage on a successful unarmed attack, make an opposed MIG+DEX vs MIG+MIG check. On success, set up the target: your next attack against them this scene deals × (1 + SL ÷ 3, rounded down) damage.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000294]{Mark}</p><p>After hitting a target, mark them. Until the end of the scene, you gain +1 on all checks involving that target. The mark moves if the target flees or is replaced; you can only have one mark active.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000295]{Footwork} <strong>【Max SL 2】</strong></p><p>While wearing no armour heavier than a padded jacket (no Martial armour), gain +1 die size on DEX checks to avoid damage or hazards. Gain +(SL) to checks to exit a hostile zone.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000296]{Combination} <strong>【Max SL 5】</strong></p><p>Action, spend (SL × 4) MP. Make a DEX + INS check. On success, execute a combination attack with one of the following effects (chosen before rolling): Finishing Blow (extra damage ×2); Fleet-Foot (attack + reposition without triggering reactions); Sweeping Strike (hits up to three targets in reach); Shoulder-Shaker (inflict Dazed); The Clinch (grapple — target cannot leave the scene until the end of the round).</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "pugilist",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": "Brawler",
+			"printedBenefits": {
+				"resources": {
+					"hp": true,
+					"mp": false,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000056"
+}

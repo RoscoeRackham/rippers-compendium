@@ -1,0 +1,44 @@
+{
+	"name": "Cover Identity",
+	"type": "skill",
+	"_id": "RCsk000000000290",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "cover_identity",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (operative)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Spend 1 FP to establish a fully worked-out alternate persona."
+		},
+		"description": "<p>Spend 1 FP to establish a fully worked-out alternate persona. Write it down: name, profession, plausible history, one known contact. The identity holds until a Villain spends an Ultima Point to expose it. You may have one active identity at a time.</p>",
+		"class": {
+			"value": "Operative"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "operative",
+			"skillKey": "cover_identity",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000290"
+}

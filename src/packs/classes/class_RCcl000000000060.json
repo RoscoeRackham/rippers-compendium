@@ -1,0 +1,113 @@
+{
+	"name": "Strongman",
+	"type": "class",
+	"_id": "RCcl000000000060",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "strongman",
+		"source": {
+			"value": "Rippers Unmasked — classes (strongman)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": ""
+		},
+		"description": "<p><em>Built on Project FU's <strong>Wrestler</strong>.</em></p><h5>FREE BENEFITS</h5><ul><li>increased maximum Hit Points</li><li>martial melee proficiency</li><li>martial shields proficiency</li></ul><p><em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise. Source: League homebrew <strong>Wrestler</strong>.)</em></p><h2>STRONGMAN SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000312]{Opening Statement} <strong>【Max SL 2】</strong></p><p>Spend Acclaim to establish a combat Bond with one creature. For the scene, treat that Bond as a standard Bond for the purpose of skills that key on Bonds (e.g., Bond strength checks, Bond-keyed damage).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000313]{Crowd Favourite} <strong>【Max SL 3】</strong></p><p>You have a network of admirers in each settlement you have performed in. They cover services (lodging, meals, basic equipment) up to a value of (SL + current Acclaim) × 30 zenit per rest.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000314]{Iron Grip} <strong>【Max SL 3】</strong></p><p>Spend 10 MP. Make an opposed MIG + DEX vs MIG + MIG check against one creature in reach. On success, the creature cannot leave the scene until the end of your next turn. While grappled, you gain +(SL) on all checks against that creature.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000315]{Acclaim} <strong>【Max SL 5】</strong></p><p>Gain 1 Acclaim whenever you deal damage to a large or worse creature, take damage without being knocked out, or succeed on a check by 5 or more in a public setting. Spend Acclaim on Exhibition Bouts. Maximum (SL) Acclaim at once.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000316]{Exhibition Bouts}</p><p>Spend Acclaim to execute a finisher: 1 Acclaim — Clash (weapon attack ×2 damage); 2 Acclaim — Whirlwind (attack all enemies in reach); 3 Acclaim — Pile Driver (attack + inflict Shaken); 4 Acclaim — Body Slam (attack + target cannot leave the scene for one round); 5 Acclaim — Showstopper (attack ×3 damage, all enemies in scene take 5 damage).</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "strongman",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": "Wrestler",
+			"printedBenefits": {
+				"resources": {
+					"hp": true,
+					"mp": false,
+					"ip": false
+				},
+				"martials": {
+					"melee": true,
+					"ranged": false,
+					"armor": false,
+					"shields": true
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000060"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Mark Your Territory",
+	"type": "skill",
+	"_id": "RCsk000000000276",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "mark_your_territory",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (unchained)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "At the start of a conflict in a settlement you have tagged (graffiti, a calling card, a known haunt), every soldier-rank"
+		},
+		"description": "<p>At the start of a conflict in a settlement you have tagged (graffiti, a calling card, a known haunt), every soldier-rank enemy must make a Resolve check or be Shaken for the first round. You may tag a settlement between scenes without rolling.</p>",
+		"class": {
+			"value": "Unchained"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "unchained",
+			"skillKey": "mark_your_territory",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000276"
+}

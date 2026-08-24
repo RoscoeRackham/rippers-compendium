@@ -1,0 +1,44 @@
+{
+	"name": "Parry",
+	"type": "skill",
+	"_id": "RCsk000000000292",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "parry",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (pugilist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Reaction to an incoming melee attack: roll an Accuracy Check as if attacking unarmed."
+		},
+		"description": "<p>Reaction to an incoming melee attack: roll an Accuracy Check as if attacking unarmed. If your result is higher than the attacker's, halve the damage. If lower, take double damage. If equal, execute a Perfect Parry — the attack is negated and you perform a free unarmed attack against the attacker.</p>",
+		"class": {
+			"value": "Pugilist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "pugilist",
+			"skillKey": "parry",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000292"
+}

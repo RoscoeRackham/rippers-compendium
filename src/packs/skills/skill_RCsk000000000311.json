@@ -1,0 +1,44 @@
+{
+	"name": "Tradesman's Eye",
+	"type": "skill",
+	"_id": "RCsk000000000311",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "tradesmans_eye",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sapper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "You see the work that built this place: the aether-lines that hold it up, the point where one precise blow does what a h"
+		},
+		"description": "<p>You see the work that built this place: the aether-lines that hold it up, the point where one precise blow does what a hundred shouldn't. You always have access to basic masonry tools (chisel, mallet, iron spike, measuring line) without tracking them as inventory. When contributing to a clock related to structural construction or demolition, fill one additional segment.</p>",
+		"class": {
+			"value": "Sapper"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sapper",
+			"skillKey": "tradesmans_eye",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000311"
+}

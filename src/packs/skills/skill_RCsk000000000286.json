@@ -1,0 +1,44 @@
+{
+	"name": "Witty Remark",
+	"type": "skill",
+	"_id": "RCsk000000000286",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "witty_remark",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (mountebank)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Spend (SL × 5) MP."
+		},
+		"description": "<p>Spend (SL × 5) MP. A creature that can hear you takes −(SL) to its next check this round.</p>",
+		"class": {
+			"value": "Mountebank"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "mountebank",
+			"skillKey": "witty_remark",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000286"
+}

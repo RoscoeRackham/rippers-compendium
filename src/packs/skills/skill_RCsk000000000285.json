@@ -1,0 +1,44 @@
+{
+	"name": "Whoops!",
+	"type": "skill",
+	"_id": "RCsk000000000285",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "whoops",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (mountebank)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Declare any check a deliberate fumble before rolling."
+		},
+		"description": "<p>Declare any check a deliberate fumble before rolling. The fumble triggers normally (Opportunity for the GM, FP earned for you). You additionally choose which Opportunity the GM takes (from a list you agree on). An ally of your choice immediately recovers 10 MP.</p>",
+		"class": {
+			"value": "Mountebank"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "mountebank",
+			"skillKey": "whoops",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000285"
+}

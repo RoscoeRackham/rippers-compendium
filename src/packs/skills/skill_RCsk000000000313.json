@@ -1,0 +1,44 @@
+{
+	"name": "Crowd Favourite",
+	"type": "skill",
+	"_id": "RCsk000000000313",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "crowd_favourite",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (strongman)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "You have a network of admirers in each settlement you have performed in."
+		},
+		"description": "<p>You have a network of admirers in each settlement you have performed in. They cover services (lodging, meals, basic equipment) up to a value of (SL + current Acclaim) × 30 zenit per rest.</p>",
+		"class": {
+			"value": "Strongman"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "strongman",
+			"skillKey": "crowd_favourite",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000313"
+}

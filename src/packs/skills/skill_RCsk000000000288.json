@@ -1,0 +1,44 @@
+{
+	"name": "Shadow Step",
+	"type": "skill",
+	"_id": "RCsk000000000288",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "shadow_step",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (operative)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "As an action, make an open check with your INS die vs a difficulty of 10."
+		},
+		"description": "<p>As an action, make an open check with your INS die vs a difficulty of 10. On success, you cannot be targeted by enemies until you make an offensive action or the scene ends.</p>",
+		"class": {
+			"value": "Operative"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "operative",
+			"skillKey": "shadow_step",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000288"
+}

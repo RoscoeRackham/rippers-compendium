@@ -1,0 +1,44 @@
+{
+	"name": "Resolve",
+	"type": "skill",
+	"_id": "RCsk000000000301",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "resolve",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (evangelist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Reaction: when you or an adjacent ally would take damage from a target with at least one dark-trait marker, spend up to "
+		},
+		"description": "<p>Reaction: when you or an adjacent ally would take damage from a target with at least one dark-trait marker, spend up to 10 MP. Reduce the damage by (MP spent × SL ÷ 2, rounded down).</p>",
+		"class": {
+			"value": "Evangelist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "evangelist",
+			"skillKey": "resolve",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000301"
+}

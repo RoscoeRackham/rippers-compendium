@@ -37,11 +37,17 @@ const SNAP = join(MODULE, 'data', 'db-snapshot.json');
 const MODULE_ID = 'rippers-compendium';
 
 // ---- guise-eligible set (from CLASSREF-index.md, via build-class-compendium.mjs) -------
+// v0.1.5 (Austin ruling, 2026-08-24): the 11 1892-adoption classes are ALL guise-eligible —
+// full first-class classes whose skills appear in the Guise Builder like every other class.
+// This overrides the CLASSREF-index default (they have no index entry yet).
 const GUISE = new Set(['adept','antiquarian','apothecary','batman','bounty-hunter','captain',
   'cartomancer','celebrity','chanter','confidence-man','cook','courier','cunning-folk',
   'dancer','dowser','fencer','floralist','illusionist','magistrate','malefactor',
   'naturalist','parasite','penny-knight','physician','reaper','sensitive','sin-eater',
-  'slayer','stalwart','symbolist','witness']);
+  'slayer','stalwart','symbolist','witness',
+  // 1892 adoptions (v0.1.5 FINAL 9-class set; Diabolist + Scorcher cut per Austin 2026-08-24):
+  'unchained','ritualist','mountebank','operative','pugilist','evangelist',
+  'socialite','sapper','strongman']);
 
 // ---- strip policy (ported from src/lib/stripCommentary.ts) ------------------------------
 const GLYPH = '✎⚠⛔✅';
@@ -132,6 +138,7 @@ const RITUAL_GRANT_SKILLS = {
   'keeper/bind_and_haunt': 'ritualism',   // RULE-keeper: Keeper grants Ritualism natively via this skill (A)
   'floralist/verdant_sway': 'ritualism',  // "Grants Rituals of the Ritualism discipline"
   'sensitive/navigator': 'ritualism',     // "Ritualism for Aether purposes only" — scoped Ritualism
+  'ritualist/ritualistic_efficiency': 'ritualism',  // v0.1.5 (Austin, 2026-08-24): Ritualistic Efficiency grants Ritual access — matches League source (Ritualist prints Ritualism). Reverses the earlier no-grant ruling.
 };
 // Route-2 PROJECT grants (Case B FINAL contract): skills that confer the ability to initiate Projects.
 // flags.<MODULE_ID>.grantsProject = true; the rippers-guise engine reads it (characterCanInitiateProjects).
@@ -269,7 +276,38 @@ const BENEFIT_OVERRIDES = {
     martials: { melee: false, ranged: false, armor: false, shields: false },
     rituals: { arcanism: false, chimerism: false, elementalism: false, entropism: false, ritualism: true, spiritism: false } },
 };
+// ---- League homebrew authoritative printed benefits (v0.1.5, SOURCE FOUND 2026-08-24) --------
+// The 11 1892-adoption classes have no CLASSREF card and are not in Supabase. Their AUTHORITATIVE
+// printed free benefits are read from the League-of-Fabulous-Developers homebrew module's own class
+// Items (system.benefits booleans), mapped source->adopted per SPEC-1892-adoptions.md's "Source:"
+// lines. Values VERBATIM from the League repo (github.com/League-of-Fabulous-Developers/
+// FoundryVTT-Fabula-Ultima-Homebrew). Neutralized under Case B like every other class — these
+// populate the printedBenefits CATALOG only; the live benefits object is forced all-false.
+const F = (o = {}) => ({ hp: false, mp: false, ip: false, ...o });
+const FM = (o = {}) => ({ melee: false, ranged: false, armor: false, shields: false, ...o });
+const FT = (o = {}) => Object.fromEntries(RITUAL_KINDS.map((k) => [k, !!o[k]]));
+const LEAGUE_BENEFITS = {
+  operative:  { printedName: 'Assassin',      resources: F({ ip: true }),  martials: FM(), rituals: FT() },
+  pugilist:   { printedName: 'Brawler',       resources: F({ hp: true }),  martials: FM(), rituals: FT() },
+  mountebank: { printedName: 'Improviser',    resources: F(),              martials: FM(), rituals: FT() },
+  evangelist: { printedName: 'Lightbearer',   resources: F(),              martials: FM(), rituals: FT() },
+  ritualist:  { printedName: 'Ritualist',     resources: F({ mp: true }),  martials: FM(), rituals: FT({ ritualism: true }) },
+  socialite:  { printedName: 'Sweetheart',    resources: F({ ip: true }),  martials: FM(), rituals: FT() },
+  sapper:     { printedName: 'Tectonomancer', resources: F({ hp: true }),  martials: FM(), rituals: FT({ elementalism: true }) },
+  unchained:  { printedName: 'Unchained',     resources: F({ ip: true }),  martials: FM(), rituals: FT() },
+  strongman:  { printedName: 'Wrestler',      resources: F({ hp: true }),  martials: FM({ melee: true, shields: true }), rituals: FT() },
+};
+
 const CAP = (s) => s[0].toUpperCase() + s.slice(1);
+function benefitsFromLeague(lb) {
+  const parts = [];
+  if (lb.resources.hp) parts.push('increased maximum Hit Points');
+  if (lb.resources.mp) parts.push('increased maximum Mind Points');
+  if (lb.resources.ip) parts.push('increased maximum Inventory Points');
+  for (const m of ['melee', 'ranged', 'armor', 'shields']) if (lb.martials[m]) parts.push(`martial ${m} proficiency`);
+  for (const k of RITUAL_KINDS) if (lb.rituals[k]) parts.push(`${CAP(k)} rituals`);
+  return { resources: lb.resources, martials: lb.martials, rituals: lb.rituals, choiceHpMp: false, parts, fromLeague: lb.printedName };
+}
 function benefitsFromOverride(ov) {
   const parts = [];
   if (ov.resources.hp) parts.push('increased maximum Hit Points');
@@ -437,6 +475,12 @@ for (const c of snap.classes) {
     const sp = BENEFIT_SPECS[c.key];
     flag('class-benefit-spec', c.key, `activated from printed FREE BENEFITS — ${sp.printedName} (${sp.sourcePdf}, ${sp.page})${bene.chooseOneMartial ? ' [choose-one melee/ranged: choice options left false, player picks]' : ''}${bene.choiceHpMp ? ' [choose-one HP/MP: both false, player picks]' : ''}`);
   }
+  // League source: the 11 1892-adoption classes read their printed benefits from the League
+  // homebrew module (authoritative; no CLASSREF card exists). Catalog only — neutralized under Case B.
+  if (!bene && LEAGUE_BENEFITS[c.key]) {
+    bene = benefitsFromLeague(LEAGUE_BENEFITS[c.key]);
+    flag('class-benefit-league', c.key, `printed benefits read from League homebrew ${LEAGUE_BENEFITS[c.key].printedName} (catalog only, neutralized)`);
+  }
   // Path A: if the card recorded no concrete benefit but a confident PFU counterpart
   // exists, adopt the counterpart's benefit values (mechanical booleans only).
   if (!bene && BENEFIT_OVERRIDES[c.key]) {
@@ -484,16 +528,21 @@ for (const c of snap.classes) {
     // creation benefit-pick pool (rippers-guise).
     const src = bene.fromSpec
       ? ` Source: <strong>${esc(bene.fromSpec.printedName)}</strong> (${esc(bene.fromSpec.sourcePdf)}, ${esc(bene.fromSpec.page)}).`
-      : bene.fromCounterpart
-        ? ` Adopted from Project FU's <strong>${esc(bene.fromCounterpart)}</strong> counterpart.`
-        : '';
+      : bene.fromLeague
+        ? ` Source: League homebrew <strong>${esc(bene.fromLeague)}</strong>.`
+        : bene.fromCounterpart
+          ? ` Adopted from Project FU's <strong>${esc(bene.fromCounterpart)}</strong> counterpart.`
+          : '';
     const note = `<em>(Printed FREE BENEFITS, listed for reference — <strong>inert</strong> under the no-innate-benefits rule. Benefits come from the creation benefit-pick pool; see rippers-guise.${src})</em>`;
     d.push(`<h5>FREE BENEFITS</h5><ul>${li.join('')}</ul><p>${note}</p>`);
   }
   d.push(`<h2>${esc((c.display_name || '').toUpperCase())} SKILLS</h2>`);
   if (skills.length) {
     for (const s of skills) {
-      const badge = s.max_sl && s.max_sl > 0 ? ` <strong>【Max SL ${s.max_sl}】</strong>` : '';
+      // max_sl 1 == null == flat (single-rank): render NO scaling badge. Only SL>=2 gets a 【Max SL n】.
+      // Keeps a DB round-trip cosmetically lossless — public.class_skills.max_sl is NOT NULL (CHECK 1..10),
+      // so flat skills stored as null come back as 1; both must render identically (no badge). (god, 2026-08-24)
+      const badge = s.max_sl && s.max_sl > 1 ? ` <strong>【Max SL ${s.max_sl}】</strong>` : '';
       d.push(`<p>@UUID[Compendium.${MODULE_ID}.skills.Item.${s.id}]{${esc(s.name)}}${badge}</p>`);
       if (s.summary) d.push(`<p>${esc(s.summary)}</p>`);
     }

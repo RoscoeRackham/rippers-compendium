@@ -1,0 +1,44 @@
+{
+	"name": "Observe",
+	"type": "skill",
+	"_id": "RCsk000000000273",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "observe",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (unchained)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Spend (SL × 5) MP."
+		},
+		"description": "<p>Spend (SL × 5) MP. Ask the GM up to (SL) questions about an NPC's behaviour, motivations, or likely next move. The GM must answer honestly.</p>",
+		"class": {
+			"value": "Unchained"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "unchained",
+			"skillKey": "observe",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000273"
+}

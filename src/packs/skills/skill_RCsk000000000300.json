@@ -1,0 +1,44 @@
+{
+	"name": "Righteous Fury",
+	"type": "skill",
+	"_id": "RCsk000000000300",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "righteous_fury",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (evangelist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "On a melee attack against a target with at least one dark-trait marker, spend up to 5 MP."
+		},
+		"description": "<p>On a melee attack against a target with at least one dark-trait marker, spend up to 5 MP. Deal (MP spent × SL) bonus light damage.</p>",
+		"class": {
+			"value": "Evangelist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "evangelist",
+			"skillKey": "righteous_fury",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000300"
+}

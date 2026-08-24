@@ -1,0 +1,44 @@
+{
+	"name": "Exhibition Bouts",
+	"type": "skill",
+	"_id": "RCsk000000000316",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "exhibition_bouts",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (strongman)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Spend Acclaim to execute a finisher: 1 Acclaim — Clash (weapon attack ×2 damage); 2 Acclaim — Whirlwind (attack all enem"
+		},
+		"description": "<p>Spend Acclaim to execute a finisher: 1 Acclaim — Clash (weapon attack ×2 damage); 2 Acclaim — Whirlwind (attack all enemies in reach); 3 Acclaim — Pile Driver (attack + inflict Shaken); 4 Acclaim — Body Slam (attack + target cannot leave the scene for one round); 5 Acclaim — Showstopper (attack ×3 damage, all enemies in scene take 5 damage).</p>",
+		"class": {
+			"value": "Strongman"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "strongman",
+			"skillKey": "exhibition_bouts",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000316"
+}

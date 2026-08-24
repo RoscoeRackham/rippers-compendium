@@ -1,0 +1,44 @@
+{
+	"name": "First Strike",
+	"type": "skill",
+	"_id": "RCsk000000000289",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "first_strike",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (operative)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "On your first turn of a conflict, or when any of your actions targets a creature that cannot see you, gain +(SL) on Accu"
+		},
+		"description": "<p>On your first turn of a conflict, or when any of your actions targets a creature that cannot see you, gain +(SL) on Accuracy Checks and Magic Checks.</p>",
+		"class": {
+			"value": "Operative"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "operative",
+			"skillKey": "first_strike",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000289"
+}

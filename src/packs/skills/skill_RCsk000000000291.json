@@ -1,0 +1,44 @@
+{
+	"name": "Corrosive Application",
+	"type": "skill",
+	"_id": "RCsk000000000291",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "corrosive_application",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (operative)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action, spend 2 IP."
+		},
+		"description": "<p>Action, spend 2 IP. Until the end of the scene, one equipped weapon deals Poison damage instead of its normal type. Gain +(SL) on checks related to poisons, venoms, and their detection or treatment.</p>",
+		"class": {
+			"value": "Operative"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "operative",
+			"skillKey": "corrosive_application",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000291"
+}

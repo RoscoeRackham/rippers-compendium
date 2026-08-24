@@ -1,0 +1,44 @@
+{
+	"name": "Elementalist's Way",
+	"type": "skill",
+	"_id": "RCsk000000000308",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "elementalists_way",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sapper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Aether concentrated in substrata can be directed as elemental force — the industrial application of a phenomenon that on"
+		},
+		"description": "<p>Aether concentrated in substrata can be directed as elemental force — the industrial application of a phenomenon that only now has a name. Learn Elementalist spells; use INS + WLP for offensive checks. Each SL unlocks one additional spell (earth and stone formulae prioritised; other elements from SL4 onward). Elemental spells come only via this skill — there is no ritual-discipline route.</p>",
+		"class": {
+			"value": "Sapper"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 10
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sapper",
+			"skillKey": "elementalists_way",
+			"maxSl": 10
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000308"
+}

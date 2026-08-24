@@ -1,0 +1,44 @@
+{
+	"name": "Absolution",
+	"type": "skill",
+	"_id": "RCsk000000000298",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "absolution",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (evangelist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When a negative Bond emotion between two characters disappears after a genuine conversation, both characters earn 1 FP."
+		},
+		"description": "<p>When a negative Bond emotion between two characters disappears after a genuine conversation, both characters earn 1 FP. You may spend 1 FP to trigger this once per scene if you facilitate the reconciliation.</p>",
+		"class": {
+			"value": "Evangelist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "evangelist",
+			"skillKey": "absolution",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000298"
+}

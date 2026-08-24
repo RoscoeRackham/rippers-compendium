@@ -1,0 +1,113 @@
+{
+	"name": "Mountebank",
+	"type": "class",
+	"_id": "RCcl000000000054",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "mountebank",
+		"source": {
+			"value": "Rippers Unmasked — classes (mountebank)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": ""
+		},
+		"description": "<p><em>Built on Project FU's <strong>Improviser</strong>.</em></p><h2>MOUNTEBANK SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000282]{Ready Hands} <strong>【Max SL 2】</strong></p><p>Whenever you spend a Fabula Point in a conflict, gain 2 IP as well.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000283]{Field Improvisation} <strong>【Max SL 2】</strong></p><p>As an action, produce two Inventory-tier items simultaneously. Their effects both apply (or both activate on a target of your choice).</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000284]{Patter} <strong>【Max SL 3】</strong></p><p>When you try to fill or erase a clock through deception or comic misdirection, roll 1d3. Optionally apply that result as a bonus or penalty to your check — your choice after seeing the die.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000285]{Whoops!}</p><p>Declare any check a deliberate fumble before rolling. The fumble triggers normally (Opportunity for the GM, FP earned for you). You additionally choose which Opportunity the GM takes (from a list you agree on). An ally of your choice immediately recovers 10 MP.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000286]{Witty Remark} <strong>【Max SL 3】</strong></p><p>Spend (SL × 5) MP. A creature that can hear you takes −(SL) to its next check this round.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "mountebank",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": "Improviser",
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000054"
+}

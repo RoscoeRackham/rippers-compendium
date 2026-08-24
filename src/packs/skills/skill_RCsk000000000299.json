@@ -1,0 +1,44 @@
+{
+	"name": "Compassion",
+	"type": "skill",
+	"_id": "RCsk000000000299",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "compassion",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (evangelist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Spend (SL × 5) MP to fill one extra clock segment when you (or an ally you are helping) defuse an NPC's anger, grief, or"
+		},
+		"description": "<p>Spend (SL × 5) MP to fill one extra clock segment when you (or an ally you are helping) defuse an NPC's anger, grief, or shame through genuine conversation.</p>",
+		"class": {
+			"value": "Evangelist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "evangelist",
+			"skillKey": "compassion",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000299"
+}

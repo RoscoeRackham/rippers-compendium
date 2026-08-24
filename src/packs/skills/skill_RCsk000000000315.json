@@ -1,0 +1,44 @@
+{
+	"name": "Acclaim",
+	"type": "skill",
+	"_id": "RCsk000000000315",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "plaudits",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (strongman)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Gain 1 Acclaim whenever you deal damage to a large or worse creature, take damage without being knocked out, or succeed "
+		},
+		"description": "<p>Gain 1 Acclaim whenever you deal damage to a large or worse creature, take damage without being knocked out, or succeed on a check by 5 or more in a public setting. Spend Acclaim on Exhibition Bouts. Maximum (SL) Acclaim at once.</p>",
+		"class": {
+			"value": "Strongman"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "strongman",
+			"skillKey": "plaudits",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000315"
+}

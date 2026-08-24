@@ -1,0 +1,44 @@
+{
+	"name": "Stable Ground",
+	"type": "skill",
+	"_id": "RCsk000000000310",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "stable_ground",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sapper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Your eye reads the load-bearing lines before they fail — a shift in the aether-current through the stratum, a hairline i"
+		},
+		"description": "<p>Your eye reads the load-bearing lines before they fail — a shift in the aether-current through the stratum, a hairline in the keystone, the smell of wet clay under a dry floor. You are immune to environmental hazards from unstable ground (collapse, tremors, sinking foundations). Spend (SL × 5) MP to extend this protection to up to (SL) allies until the end of the scene.</p>",
+		"class": {
+			"value": "Sapper"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sapper",
+			"skillKey": "stable_ground",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000310"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Spellcasting Assistant",
+	"type": "skill",
+	"_id": "RCsk000000000277",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "spellcasting_assistant",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (ritualist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you take the Assist action on an ally's spell, that spell gains: +2 to the caster's Magic Check (SL1); the spell de"
+		},
+		"description": "<p>When you take the Assist action on an ally's spell, that spell gains: +2 to the caster's Magic Check (SL1); the spell deals or heals +(SL × 5) (SL2); the spell's MP cost is reduced by (SL × 5) (SL3). All unlocked benefits apply at the appropriate SL.</p>",
+		"class": {
+			"value": "Ritualist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "ritualist",
+			"skillKey": "spellcasting_assistant",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000277"
+}

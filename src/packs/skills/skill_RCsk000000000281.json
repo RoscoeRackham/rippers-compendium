@@ -1,0 +1,44 @@
+{
+	"name": "Loyal Supporter",
+	"type": "skill",
+	"_id": "RCsk000000000281",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "loyal_supporter",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (ritualist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you assist an ally's check (any type), your bonus is increased by +1 per 3 points by which your result exceeds the "
+		},
+		"description": "<p>When you assist an ally's check (any type), your bonus is increased by +1 per 3 points by which your result exceeds the difficulty (max bonus +(SL)).</p>",
+		"class": {
+			"value": "Ritualist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "ritualist",
+			"skillKey": "loyal_supporter",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000281"
+}

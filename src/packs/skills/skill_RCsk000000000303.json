@@ -1,0 +1,44 @@
+{
+	"name": "Fine Presentation",
+	"type": "skill",
+	"_id": "RCsk000000000303",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "fine_presentation",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (socialite)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Write a list of your character's notable qualities (up to SL traits, chosen at creation or updated at level-up)."
+		},
+		"description": "<p>Write a list of your character's notable qualities (up to SL traits, chosen at creation or updated at level-up). When an NPC confirms they find one of those traits admirable, earn 1 FP.</p>",
+		"class": {
+			"value": "Socialite"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "socialite",
+			"skillKey": "fine_presentation",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000303"
+}

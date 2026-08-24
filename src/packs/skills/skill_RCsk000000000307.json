@@ -1,0 +1,44 @@
+{
+	"name": "Earthmeld",
+	"type": "skill",
+	"_id": "RCsk000000000307",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "earthmeld",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (sapper)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "The aether saturating London's clay and chalk responds to your will."
+		},
+		"description": "<p>The aether saturating London's clay and chalk responds to your will. Move through solid earth, stone, or masonry without sound or trace, as current moves through a wire. At SL2, extend the passage to up to (WLP) willing companions. Cannot penetrate worked metal or timber framing.</p>",
+		"class": {
+			"value": "Sapper"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "sapper",
+			"skillKey": "earthmeld",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000307"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Patter",
+	"type": "skill",
+	"_id": "RCsk000000000284",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "patter",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (mountebank)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you try to fill or erase a clock through deception or comic misdirection, roll 1d3."
+		},
+		"description": "<p>When you try to fill or erase a clock through deception or comic misdirection, roll 1d3. Optionally apply that result as a bonus or penalty to your check — your choice after seeing the die.</p>",
+		"class": {
+			"value": "Mountebank"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "mountebank",
+			"skillKey": "patter",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000284"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Double Edge",
+	"type": "skill",
+	"_id": "RCsk000000000304",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "double_edge",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (socialite)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Characters who help you gain +1 on their helping roll."
+		},
+		"description": "<p>Characters who help you gain +1 on their helping roll. Characters who attempt to harm or manipulate you also gain +1 on those rolls. Both bonuses apply to the same action when relevant.</p>",
+		"class": {
+			"value": "Socialite"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "socialite",
+			"skillKey": "double_edge",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000304"
+}

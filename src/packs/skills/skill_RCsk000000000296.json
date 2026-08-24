@@ -1,0 +1,44 @@
+{
+	"name": "Combination",
+	"type": "skill",
+	"_id": "RCsk000000000296",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "combination",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (pugilist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Action, spend (SL × 4) MP."
+		},
+		"description": "<p>Action, spend (SL × 4) MP. Make a DEX + INS check. On success, execute a combination attack with one of the following effects (chosen before rolling): Finishing Blow (extra damage ×2); Fleet-Foot (attack + reposition without triggering reactions); Sweeping Strike (hits up to three targets in reach); Shoulder-Shaker (inflict Dazed); The Clinch (grapple — target cannot leave the scene until the end of the round).</p>",
+		"class": {
+			"value": "Pugilist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "pugilist",
+			"skillKey": "combination",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000296"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Centre of Attention",
+	"type": "skill",
+	"_id": "RCsk000000000305",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "centre_of_attention",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (socialite)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Spend (SL × 5) MP."
+		},
+		"description": "<p>Spend (SL × 5) MP. Until the end of the round, one creature of your choice must include you among its targets if it makes an area attack, or must target you if it makes a single-target attack. Alternatively, it may not target you at all — your choice, declared when you activate this.</p>",
+		"class": {
+			"value": "Socialite"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "socialite",
+			"skillKey": "centre_of_attention",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000305"
+}
