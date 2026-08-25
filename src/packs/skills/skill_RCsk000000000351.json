@@ -1,0 +1,44 @@
+{
+	"name": "Prime Cut",
+	"type": "skill",
+	"_id": "RCsk000000000351",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "prime_cut",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (prowler)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you reduce a creature to 0 Hit Points or force it to retreat, you always instantly receive a forageable or harvesta"
+		},
+		"description": "<p>When you reduce a creature to 0 Hit Points or force it to retreat, you always instantly receive a forageable or harvestable material from it worth (SL x enemy level x 2), regardless of how it died or escaped. You may combine two raw materials harvested from hunted creatures into one item of their summed value during a rest or camp.</p>",
+		"class": {
+			"value": "Prowler"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "prowler",
+			"skillKey": "prime_cut",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000351"
+}

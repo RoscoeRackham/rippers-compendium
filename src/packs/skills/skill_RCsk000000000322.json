@@ -1,0 +1,44 @@
+{
+	"name": "Black Powder",
+	"type": "skill",
+	"_id": "RCsk000000000322",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "black_powder",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (arbalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per turn when a creature is hit by one of your ranged weapon attacks, automatically deal (SL) damage of the attack'"
+		},
+		"description": "<p>Once per turn when a creature is hit by one of your ranged weapon attacks, automatically deal (SL) damage of the attack's type to up to two other creatures within melee range; then roll a d8, and on a 2 or lower you or a willing ally also takes the full damage dealt. During your turn you may spend 10 MP to make your next Black Powder this turn deal (SL x 2) instead.</p>",
+		"class": {
+			"value": "Arbalist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "arbalist",
+			"skillKey": "black_powder",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000322"
+}

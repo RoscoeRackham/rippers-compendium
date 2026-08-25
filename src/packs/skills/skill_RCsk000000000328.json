@@ -1,0 +1,44 @@
+{
+	"name": "Backstab",
+	"type": "skill",
+	"_id": "RCsk000000000328",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "backstab",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (assassin)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Outside a conflict scene, when you can attack a non-Villain, non-champion creature unaware of you and your allies: if it"
+		},
+		"description": "<p>Outside a conflict scene, when you can attack a non-Villain, non-champion creature unaware of you and your allies: if its level is at or below your level + (SL) it starts the ensuing conflict in Crisis; if at or below your level - (SL+1) it starts with 0 Hit Points. Affects only the attacked enemy.</p>",
+		"class": {
+			"value": "Assassin"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "assassin",
+			"skillKey": "backstab",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000328"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Vanish",
+	"type": "skill",
+	"_id": "RCsk000000000330",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "vanish",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (assassin)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "During your first turn in a conflict, or when you guard without granting cover, spend 10 MP to become hidden until the e"
+		},
+		"description": "<p>During your first turn in a conflict, or when you guard without granting cover, spend 10 MP to become hidden until the end of your next turn. While hidden you cannot be targeted by sight-based ranged attacks or spells (but area effects still hit), and your dagger, spear, or thrown attacks gain +(SL) Accuracy; on a hit such an attack ignores Resistances and you stop being hidden.</p>",
+		"class": {
+			"value": "Assassin"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "assassin",
+			"skillKey": "vanish",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000330"
+}

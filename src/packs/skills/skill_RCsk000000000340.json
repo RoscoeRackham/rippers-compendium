@@ -1,0 +1,44 @@
+{
+	"name": "Mesmerist Magic",
+	"type": "skill",
+	"_id": "RCsk000000000340",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "mesmerist_magic",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (mesmerist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Each time you acquire this skill, learn one Mesmerist Spell."
+		},
+		"description": "<p>Each time you acquire this skill, learn one Mesmerist Spell. Offensive Mesmerist Spells use (WLP + WLP) for the Magic Check.</p>",
+		"class": {
+			"value": "Mesmerist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 10
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "mesmerist",
+			"skillKey": "mesmerist_magic",
+			"maxSl": 10
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000340"
+}

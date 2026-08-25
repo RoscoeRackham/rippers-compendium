@@ -1,0 +1,44 @@
+{
+	"name": "Fellowship",
+	"type": "skill",
+	"_id": "RCsk000000000333",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "fellowship",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (lancer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "While an allied creature shares a status effect with you, it gains a bonus to all Accuracy and Open Checks affected by t"
+		},
+		"description": "<p>While an allied creature shares a status effect with you, it gains a bonus to all Accuracy and Open Checks affected by that shared status equal to your bond Strength toward it. Only one ally benefits at a time, chosen at the end of your turn.</p>",
+		"class": {
+			"value": "Lancer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "lancer",
+			"skillKey": "fellowship",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000333"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Ritual Illusionism",
+	"type": "skill",
+	"_id": "RCsk000000000357",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "ritual_illusionism",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (illusionist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "You may perform Rituals whose effects fall within the Illusionism discipline."
+		},
+		"description": "<p>You may perform Rituals whose effects fall within the Illusionism discipline. Illusionism Rituals use (INS + WLP) for the Magic Check.</p>",
+		"class": {
+			"value": "Illusionist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "illusionist",
+			"skillKey": "ritual_illusionism",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000357"
+}

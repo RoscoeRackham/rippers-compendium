@@ -1,0 +1,113 @@
+{
+	"name": "Prowler",
+	"type": "class",
+	"_id": "RCcl000000000067",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "prowler",
+		"source": {
+			"value": "Rippers Unmasked — classes (prowler)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": ""
+		},
+		"description": "<h2>PROWLER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000347]{Trophy Arms} <strong>【Max SL 5】</strong></p><p>During a rest or camp, craft harvested materials from slain creatures into weapons using the Trophy Arms tables. You may keep at most (SL) unique such weapons at a time, but may overwrite them freely.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000348]{Grudge} <strong>【Max SL 3】</strong></p><p>Your hunted-creature list holds (SL) creature types; one slot is fixed to your home region's most common hostile type, and the rest may be swapped during a rest in a city or settlement. Resources and rewards from hunted creatures have their zenit value increased by (SL x 5) percent.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000349]{Mithridatism} <strong>【Max SL 3】</strong></p><p>Damage you take from hunted creatures is reduced by (SL) before Affinities, or by (SL x 2) before Affinities if you are Resistant to that damage type.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000350]{Reputation} <strong>【Max SL 4】</strong></p><p>At the start of a conflict, choose dazed or slow; every hunted creature in the scene immediately suffers it. A hunted creature you afflicted must succeed a (WLP + WLP) Opposed Check against you to recover from that status, otherwise it fails. You gain +(SL) to your Checks for this skill.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000351]{Prime Cut} <strong>【Max SL 3】</strong></p><p>When you reduce a creature to 0 Hit Points or force it to retreat, you always instantly receive a forageable or harvestable material from it worth (SL x enemy level x 2), regardless of how it died or escaped. You may combine two raw materials harvested from hunted creatures into one item of their summed value during a rest or camp.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "prowler",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": null,
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000067"
+}

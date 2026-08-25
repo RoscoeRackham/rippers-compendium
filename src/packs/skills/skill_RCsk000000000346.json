@@ -1,0 +1,44 @@
+{
+	"name": "Weave",
+	"type": "skill",
+	"_id": "RCsk000000000346",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "weave",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (musketeer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you successfully activate Riposte with a melee weapon, your next ranged weapon attack gains +(SL) Accuracy, and vic"
+		},
+		"description": "<p>When you successfully activate Riposte with a melee weapon, your next ranged weapon attack gains +(SL) Accuracy, and vice versa when you activate Riposte with a ranged weapon.</p>",
+		"class": {
+			"value": "Musketeer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "musketeer",
+			"skillKey": "weave",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000346"
+}

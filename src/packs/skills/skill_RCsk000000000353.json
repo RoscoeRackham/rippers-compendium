@@ -1,0 +1,44 @@
+{
+	"name": "Defy Fate",
+	"type": "skill",
+	"_id": "RCsk000000000353",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "defy_fate",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (unquiet)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per scene, the first time your Hit Points drop below half your Crisis score, after damage resolves but before you w"
+		},
+		"description": "<p>Once per scene, the first time your Hit Points drop below half your Crisis score, after damage resolves but before you would Sacrifice or Surrender, immediately regain (SL x your level) Hit Points and half as many Mind Points.</p>",
+		"class": {
+			"value": "Unquiet"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "unquiet",
+			"skillKey": "defy_fate",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000353"
+}

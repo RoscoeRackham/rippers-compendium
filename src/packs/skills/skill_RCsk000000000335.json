@@ -1,0 +1,44 @@
+{
+	"name": "Rally",
+	"type": "skill",
+	"_id": "RCsk000000000335",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "rally",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (lancer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Take an action and spend up to (SL x 5) MP; for every 5 MP, choose an allied creature (including yourself) that recovers"
+		},
+		"description": "<p>Take an action and spend up to (SL x 5) MP; for every 5 MP, choose an allied creature (including yourself) that recovers from one status effect and treats the die that status afflicted as one size larger (max d12) until the end of the next action taken with that die or its next turn, whichever comes first.</p>",
+		"class": {
+			"value": "Lancer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "lancer",
+			"skillKey": "rally",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000335"
+}

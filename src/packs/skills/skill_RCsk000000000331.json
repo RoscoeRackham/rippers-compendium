@@ -1,0 +1,44 @@
+{
+	"name": "Thieves' Code",
+	"type": "skill",
+	"_id": "RCsk000000000331",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "thieves_code",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (assassin)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "You know a secret thieves' dialect that non-outlaws cannot understand without magic, and gain +(SL) to Open Checks for p"
+		},
+		"description": "<p>You know a secret thieves' dialect that non-outlaws cannot understand without magic, and gain +(SL) to Open Checks for persuasion and coercion targeting outlaws while using it. You can also read and leave nearly imperceptible thieves' code symbols.</p>",
+		"class": {
+			"value": "Assassin"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "assassin",
+			"skillKey": "thieves_code",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000331"
+}

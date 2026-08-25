@@ -1,0 +1,44 @@
+{
+	"name": "Trophy Arms",
+	"type": "skill",
+	"_id": "RCsk000000000347",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "trophy_arms",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (prowler)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "During a rest or camp, craft harvested materials from slain creatures into weapons using the Trophy Arms tables."
+		},
+		"description": "<p>During a rest or camp, craft harvested materials from slain creatures into weapons using the Trophy Arms tables. You may keep at most (SL) unique such weapons at a time, but may overwrite them freely.</p>",
+		"class": {
+			"value": "Prowler"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "prowler",
+			"skillKey": "trophy_arms",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000347"
+}

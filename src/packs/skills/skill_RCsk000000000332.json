@@ -1,0 +1,44 @@
+{
+	"name": "Esprit de Foi",
+	"type": "skill",
+	"_id": "RCsk000000000332",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "esprit_de_foi",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (lancer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you hit with an equipped melee weapon or deal damage with an offensive spell, deal bonus damage equal to (SL x the "
+		},
+		"description": "<p>When you hit with an equipped melee weapon or deal damage with an offensive spell, deal bonus damage equal to (SL x the positive emotions of one bond you possess); all the attack's damage becomes light and its type cannot be changed. That bond cannot be used again for this skill this scene, even on a miss.</p>",
+		"class": {
+			"value": "Lancer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "lancer",
+			"skillKey": "esprit_de_foi",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000332"
+}

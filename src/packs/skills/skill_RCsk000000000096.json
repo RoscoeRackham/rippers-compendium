@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "After an ally's damage — increased by one or more of your \"hex\" invocations — costs an enemy HP: free attack against tha"
 		},
-		"description": "<p>After an ally's damage — increased by one or more of your \"hex\" invocations — costs an enemy HP: free attack against that enemy only, at +(SL) Accuracy. On a hit its damage becomes the ally's type, and all your hexes on the target end once it resolves.</p>",
+		"description": "<p>After an ally's damage — increased by one or more of your \"hex\" invocations — costs an enemy HP: free attack against that enemy only, at +(SL) Accuracy. On a hit its damage becomes the ally's type, and all your hexes on the target end once it resolves. If two or more enemies trigger this Skill at the same time, you may perform a free attack against each of them, in whatever order you prefer.</p>",
 		"class": {
 			"value": "Dowser"
 		},

@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Bounty Hunter mastery + Hunter's Tools"
 		},
-		"description": "<p>Learn two more tools from the Hunter's Tools list — a maxed kit goes from 10 of 28 to 12 — and every tool with a target of \"Self\" now targets \"Yourself or an ally\". That second clause is the real heroic: Steel Skin, Immune System Enhancer, Immunity Serum, Stimulant and Medpack all become things you hand to somebody else. It does not combine with Army of One — Extra Tools changes who you may target, Army of One changes how many, and they stay separate. Adrenaline Shot works as printed on yourself or, through this, an ally: the Crisis it manufactures is real for everything keyed to Crisis status (F10). Carve-outs are per-effect, only where Crisis at full health would be degenerate — Into the Otherworld is gated on actual current HP, and is so far the only one.</p>",
+		"description": "<p>Learn two more tools from the Hunter's Tools list — a maxed kit goes from 10 of 28 to 12 — and every tool with a target of \"Self\" now targets \"Yourself or an ally\". That second clause is the real heroic: Steel Skin, Antitoxin, Nerve Tonic, Stimulant and Medpack all become things you hand to somebody else. It does not combine with Army of One — Extra Tools changes who you may target, Army of One changes how many, and they stay separate. Adrenaline Shot works as printed on yourself or, through this, an ally: the Crisis it manufactures is real for everything keyed to Crisis status (F10). Carve-outs are per-effect, only where Crisis at full health would be degenerate — Into the Otherworld is gated on actual current HP, and is so far the only one.</p>",
 		"hasRoll": {
 			"value": false
 		}

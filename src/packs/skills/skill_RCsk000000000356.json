@@ -1,0 +1,44 @@
+{
+	"name": "Tremendous Force",
+	"type": "skill",
+	"_id": "RCsk000000000356",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "tremendous_force",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (unquiet)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per round when you miss an enemy with a heavy melee weapon (but not on a fumble), spend 10 MP to make a (Might + Wi"
+		},
+		"description": "<p>Once per round when you miss an enemy with a heavy melee weapon (but not on a fumble), spend 10 MP to make a (Might + Willpower) check at DL equal to your missed check's result; on success deal (HR + SL) physical damage to that target. You may spend a Fabula Point to use it again in the same round.</p>",
+		"class": {
+			"value": "Unquiet"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "unquiet",
+			"skillKey": "tremendous_force",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000356"
+}

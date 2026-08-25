@@ -1,0 +1,44 @@
+{
+	"name": "Epiphany",
+	"type": "skill",
+	"_id": "RCsk000000000319",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "epiphany",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (occultist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you or an ally fails a Ritual of any discipline within your Patron's domains, erase up to (SL x 2) Favour sections "
+		},
+		"description": "<p>When you or an ally fails a Ritual of any discipline within your Patron's domains, erase up to (SL x 2) Favour sections to add a bonus to that Ritual's Magic Check equal to the number of sections erased, potentially turning the failure into a success.</p>",
+		"class": {
+			"value": "Occultist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "occultist",
+			"skillKey": "epiphany",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000319"
+}

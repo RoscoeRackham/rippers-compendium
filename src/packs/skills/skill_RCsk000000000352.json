@@ -1,0 +1,44 @@
+{
+	"name": "Bloodsoaked",
+	"type": "skill",
+	"_id": "RCsk000000000352",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "bloodsoaked",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (unquiet)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Whenever an enemy is reduced to 0 Hit Points, gain a stacking (SL) bonus damage to your weapon attacks until the end of "
+		},
+		"description": "<p>Whenever an enemy is reduced to 0 Hit Points, gain a stacking (SL) bonus damage to your weapon attacks until the end of the scene.</p>",
+		"class": {
+			"value": "Unquiet"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "unquiet",
+			"skillKey": "bloodsoaked",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000352"
+}

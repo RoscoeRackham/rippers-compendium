@@ -1,0 +1,44 @@
+{
+	"name": "Wallbuster",
+	"type": "skill",
+	"_id": "RCsk000000000325",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "wallbuster",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (arbalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you succeed on a Check to fill or erase Clock sections and your approach relied on overt demolition, reckless colla"
+		},
+		"description": "<p>When you succeed on a Check to fill or erase Clock sections and your approach relied on overt demolition, reckless collateral, or unnecessary force, fill or erase 2 additional sections of that Clock.</p>",
+		"class": {
+			"value": "Arbalist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "arbalist",
+			"skillKey": "wallbuster",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000325"
+}

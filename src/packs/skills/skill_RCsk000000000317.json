@@ -1,0 +1,44 @@
+{
+	"name": "Commiserate",
+	"type": "skill",
+	"_id": "RCsk000000000317",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "commiserate",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (occultist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you hit only one creature with an attack or offensive spell and share at least one status effect with it, any Mind "
+		},
+		"description": "<p>When you hit only one creature with an attack or offensive spell and share at least one status effect with it, any Mind Points you would lose as part of that attack or spell are reduced by (SL), to a minimum of 1 MP lost.</p>",
+		"class": {
+			"value": "Occultist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "occultist",
+			"skillKey": "commiserate",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000317"
+}

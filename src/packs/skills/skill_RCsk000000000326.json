@@ -1,0 +1,44 @@
+{
+	"name": "Slow Match",
+	"type": "skill",
+	"_id": "RCsk000000000326",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "slow_match",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (arbalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "After you hit an enemy with a ranged attack, spend 10 MP to deal no damage and delay it, choosing: the next time you or "
+		},
+		"description": "<p>After you hit an enemy with a ranged attack, spend 10 MP to deal no damage and delay it, choosing: the next time you or an ally hits that enemy, add (SL + delayed damage) bonus damage; or deal (SL + delayed damage) fire damage to it at the start of a chosen creature's turn; or deal that fire damage to it at the end of the round.</p>",
+		"class": {
+			"value": "Arbalist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "arbalist",
+			"skillKey": "slow_match",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000326"
+}

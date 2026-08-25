@@ -1,0 +1,44 @@
+{
+	"name": "Inner Furnace",
+	"type": "skill",
+	"_id": "RCsk000000000355",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "inner_furnace",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (unquiet)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "You may suffer enraged at will as a free action."
+		},
+		"description": "<p>You may suffer enraged at will as a free action. Whenever you suffer enraged, you may spend 10 MP to treat your Might die as one size larger (max d12) until you are no longer enraged.</p>",
+		"class": {
+			"value": "Unquiet"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "unquiet",
+			"skillKey": "inner_furnace",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000355"
+}

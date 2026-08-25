@@ -1,0 +1,44 @@
+{
+	"name": "Screaming Muscle",
+	"type": "skill",
+	"_id": "RCsk000000000354",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "screaming_muscle",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (unquiet)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Take an action and spend 5 MP to make a free attack with an equipped heavy melee weapon that loses and cannot gain multi"
+		},
+		"description": "<p>Take an action and spend 5 MP to make a free attack with an equipped heavy melee weapon that loses and cannot gain multi. On a hit, deal (SL x 2) physical damage to up to one other enemy within melee reach (+5 at level 20+, +10 at level 40+). You may spend up to (SL x 2) more MP to inflict dazed on one target of this skill per 5 MP spent.</p>",
+		"class": {
+			"value": "Unquiet"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "unquiet",
+			"skillKey": "screaming_muscle",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000354"
+}

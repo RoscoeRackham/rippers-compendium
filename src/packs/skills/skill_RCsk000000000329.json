@@ -1,0 +1,44 @@
+{
+	"name": "Cloak and Dagger",
+	"type": "skill",
+	"_id": "RCsk000000000329",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "cloak_and_dagger",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (assassin)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per round after you hit with a dagger, spear, or thrown weapon a target suffering two or more status effects, if yo"
+		},
+		"description": "<p>Once per round after you hit with a dagger, spear, or thrown weapon a target suffering two or more status effects, if you have Vanish you may spend 10 MP to gain the benefits of hidden for (SL) enemy turns, or until you next hit with an attack or free attack, whichever comes first.</p>",
+		"class": {
+			"value": "Assassin"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "assassin",
+			"skillKey": "cloak_and_dagger",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000329"
+}

@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Malefactor mastery + Exploit"
 		},
-		"description": "<p>When you use your action for Exploit, spend an extra 10 MP to aim it at one creature and exploit every status on it at once. At the start of each of your later turns this conflict that target takes (SL × its number of status effects) damage, of the type of one of your equipped weapons — physical if you have none. It counts as your one exploited status; later you may return to exploiting normally with an action, or spend 10 MP to move it to a new target. With Calamity this is the capstone combination: six statuses billed every turn, automatic, no roll. A legitimate capstone rather than a loophole — but against an elite it is a delete button, and your Villains want their Ultima Points in hand before it lands.</p>",
+		"description": "<p>When you use your action for Exploit, spend an extra 10 MP to aim it at one creature and exploit every status on it at once. At the start of each of your later turns this conflict that target takes (SL × its number of status effects) damage, of the type of one of your equipped weapons — physical if you have none. It counts as your one exploited status; later you may return to exploiting normally with an action, or spend 10 MP to move it to a new target. With Comprehensive Insult this is the capstone combination: six statuses billed every turn, automatic, no roll. A legitimate capstone rather than a loophole — but against an elite it is a delete button, and your Villains want their Ultima Points in hand before it lands.</p>",
 		"hasRoll": {
 			"value": false
 		}

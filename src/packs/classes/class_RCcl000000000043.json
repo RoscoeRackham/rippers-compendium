@@ -79,7 +79,7 @@
 	"flags": {
 		"rippers-compendium": {
 			"classKey": "sin_eater",
-			"guiseEligible": false,
+			"guiseEligible": true,
 			"innateOnly": false,
 			"printedName": "Witch (Jamloween)",
 			"printedBenefits": {

@@ -1,0 +1,44 @@
+{
+	"name": "Higher Power",
+	"type": "skill",
+	"_id": "RCsk000000000320",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "higher_power",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (occultist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "On first gaining this, gain one Patron of your choice with their Urge and Blessing and a 6-section Favour clock starting"
+		},
+		"description": "<p>On first gaining this, gain one Patron of your choice with their Urge and Blessing and a 6-section Favour clock starting with 2 filled. Each acquisition grants two Patron Boons of your choice; at most half (rounded up) of your total Boons may be active at once, chosen at rest or by erasing one Favour section to swap as an action during a scene.</p>",
+		"class": {
+			"value": "Occultist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "occultist",
+			"skillKey": "higher_power",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000320"
+}

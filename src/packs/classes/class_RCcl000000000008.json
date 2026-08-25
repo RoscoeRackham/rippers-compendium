@@ -79,7 +79,7 @@
 	"flags": {
 		"rippers-compendium": {
 			"classKey": "bounty_hunter",
-			"guiseEligible": false,
+			"guiseEligible": true,
 			"innateOnly": false,
 			"printedName": null,
 			"printedBenefits": {

@@ -1,0 +1,113 @@
+{
+	"name": "Arbalist",
+	"type": "class",
+	"_id": "RCcl000000000062",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "arbalist",
+		"source": {
+			"value": "Rippers Unmasked — classes (arbalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": ""
+		},
+		"description": "<h2>ARBALIST SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000322]{Black Powder} <strong>【Max SL 4】</strong></p><p>Once per turn when a creature is hit by one of your ranged weapon attacks, automatically deal (SL) damage of the attack's type to up to two other creatures within melee range; then roll a d8, and on a 2 or lower you or a willing ally also takes the full damage dealt. During your turn you may spend 10 MP to make your next Black Powder this turn deal (SL x 2) instead.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000323]{Scattershot}</p><p>When you make a ranged attack with multi (2) or higher against more than one enemy, spend 5 MP to have each hit target a random enemy (which may repeat the same enemy), increasing the attack's multi by 1.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000324]{Titankiller Armament} <strong>【Max SL 5】</strong></p><p>When you attack with a ranged weapon, you may replace up to one die in its Accuracy Check with (MIG); if you do, the attack gains (SL) bonus damage but you suffer weak or slow until the end of your next turn, ignoring immunities.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000325]{Wallbuster}</p><p>When you succeed on a Check to fill or erase Clock sections and your approach relied on overt demolition, reckless collateral, or unnecessary force, fill or erase 2 additional sections of that Clock.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000326]{Slow Match} <strong>【Max SL 4】</strong></p><p>After you hit an enemy with a ranged attack, spend 10 MP to deal no damage and delay it, choosing: the next time you or an ally hits that enemy, add (SL + delayed damage) bonus damage; or deal (SL + delayed damage) fire damage to it at the start of a chosen creature's turn; or deal that fire damage to it at the end of the round.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "arbalist",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": null,
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000062"
+}

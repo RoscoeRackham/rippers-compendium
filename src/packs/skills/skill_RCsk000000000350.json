@@ -1,0 +1,44 @@
+{
+	"name": "Reputation",
+	"type": "skill",
+	"_id": "RCsk000000000350",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "reputation",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (prowler)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "At the start of a conflict, choose dazed or slow; every hunted creature in the scene immediately suffers it."
+		},
+		"description": "<p>At the start of a conflict, choose dazed or slow; every hunted creature in the scene immediately suffers it. A hunted creature you afflicted must succeed a (WLP + WLP) Opposed Check against you to recover from that status, otherwise it fails. You gain +(SL) to your Checks for this skill.</p>",
+		"class": {
+			"value": "Prowler"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "prowler",
+			"skillKey": "reputation",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000350"
+}

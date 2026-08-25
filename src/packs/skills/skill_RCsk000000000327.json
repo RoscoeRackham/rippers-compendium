@@ -1,0 +1,44 @@
+{
+	"name": "And Stay Down",
+	"type": "skill",
+	"_id": "RCsk000000000327",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "and_stay_down",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (assassin)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When an enemy within melee range recovers Hit Points or starts its turn with current HP at or below (SL x 10), interrupt"
+		},
+		"description": "<p>When an enemy within melee range recovers Hit Points or starts its turn with current HP at or below (SL x 10), interrupt and spend 10 MP to make a free attack against it with an equipped weapon; if it is not reduced to 0 HP, its recovery or turn then resolves normally. Usable once per scene per creature.</p>",
+		"class": {
+			"value": "Assassin"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "assassin",
+			"skillKey": "and_stay_down",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000327"
+}

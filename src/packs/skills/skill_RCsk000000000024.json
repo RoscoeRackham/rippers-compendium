@@ -12,9 +12,9 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "You may initiate Projects (the Archivist is a project-granting class; this is the class-skill route to Project access)."
+			"value": "When you initiate a Project, its initial cost is reduced by (SL × 50) zenit."
 		},
-		"description": "<p>You may initiate Projects (the Archivist is a project-granting class; this is the class-skill route to Project access). When you initiate a Project, its initial cost is reduced by (SL × 50) zenit.</p>",
+		"description": "<p>When you initiate a Project, its initial cost is reduced by (SL × 50) zenit. The printed \"you may initiate Projects\" line is struck — Project access comes only from the benefit-pool pick.</p>",
 		"class": {
 			"value": "Archivist"
 		},

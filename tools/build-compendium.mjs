@@ -47,7 +47,11 @@ const GUISE = new Set(['adept','antiquarian','apothecary','batman','bounty-hunte
   'slayer','stalwart','symbolist','witness',
   // 1892 adoptions (v0.1.5 FINAL 9-class set; Diabolist + Scorcher cut per Austin 2026-08-24):
   'unchained','ritualist','mountebank','operative','pugilist','evangelist',
-  'socialite','sapper','strongman']);
+  'socialite','sapper','strongman',
+  // Dark Fantasy Atlas classes added 2026-08-25 (Austin ruling B). The seven GUISE
+  // DFA classes are guise-eligible; Occultist (née Dreamer) is innate-only, so it is
+  // NOT listed here. Keys are single-word, so hyphen/underscore forms coincide.
+  'arbalist','assassin','lancer','mesmerist','musketeer','prowler','unquiet']);
 
 // ---- strip policy (ported from src/lib/stripCommentary.ts) ------------------------------
 const GLYPH = '✎⚠⛔✅';
@@ -568,7 +572,7 @@ for (const c of snap.classes) {
     },
     effects: [],
     folder: null,
-    flags: { [MODULE_ID]: { classKey: c.key, guiseEligible: GUISE.has(c.key), innateOnly: !!c.is_innate_only, printedName: c.printed_name, printedBenefits: { resources: R, martials: M, rituals: T } } },
+    flags: { [MODULE_ID]: { classKey: c.key, guiseEligible: GUISE.has(cardKey(c.key)), innateOnly: !!c.is_innate_only, printedName: c.printed_name, printedBenefits: { resources: R, martials: M, rituals: T } } },
     _stats: { systemId: 'projectfu', coreVersion: '13.0.0' },
     _key: `!items!${_id}`,
   };

@@ -1,0 +1,44 @@
+{
+	"name": "Scattershot",
+	"type": "skill",
+	"_id": "RCsk000000000323",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "scattershot",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (arbalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you make a ranged attack with multi (2) or higher against more than one enemy, spend 5 MP to have each hit target a"
+		},
+		"description": "<p>When you make a ranged attack with multi (2) or higher against more than one enemy, spend 5 MP to have each hit target a random enemy (which may repeat the same enemy), increasing the attack's multi by 1.</p>",
+		"class": {
+			"value": "Arbalist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "arbalist",
+			"skillKey": "scattershot",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000323"
+}

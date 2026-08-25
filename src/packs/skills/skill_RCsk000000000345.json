@@ -1,0 +1,44 @@
+{
+	"name": "Perfect Guard",
+	"type": "skill",
+	"_id": "RCsk000000000345",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "perfect_guard",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (musketeer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When targeted by an attack, gain +(1 + half SL) Defense (not stacking with shields or armor) as long as you have an equi"
+		},
+		"description": "<p>When targeted by an attack, gain +(1 + half SL) Defense (not stacking with shields or armor) as long as you have an equipped weapon whose range is opposite the attack's; this can be modified via Dual Martialism, treated as a check, by paying its MP.</p>",
+		"class": {
+			"value": "Musketeer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 4
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "musketeer",
+			"skillKey": "perfect_guard",
+			"maxSl": 4
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000345"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Fluid Motion",
+	"type": "skill",
+	"_id": "RCsk000000000343",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "fluid_motion",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (musketeer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you make a melee attack with multi (2) or higher, spend 5 MP to designate up to half those hits (rounded up) to use"
+		},
+		"description": "<p>When you make a melee attack with multi (2) or higher, spend 5 MP to designate up to half those hits (rounded up) to use an equipped ranged weapon instead, and vice versa, keeping the original weapon's accuracy formula.</p>",
+		"class": {
+			"value": "Musketeer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "musketeer",
+			"skillKey": "fluid_motion",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000343"
+}

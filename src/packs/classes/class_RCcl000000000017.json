@@ -79,7 +79,7 @@
 	"flags": {
 		"rippers-compendium": {
 			"classKey": "cunning_folk",
-			"guiseEligible": false,
+			"guiseEligible": true,
 			"innateOnly": false,
 			"printedName": "Feyweaver",
 			"printedBenefits": {

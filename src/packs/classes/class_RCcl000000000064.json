@@ -1,0 +1,113 @@
+{
+	"name": "Lancer",
+	"type": "class",
+	"_id": "RCcl000000000064",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "lancer",
+		"source": {
+			"value": "Rippers Unmasked — classes (lancer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": ""
+		},
+		"description": "<h2>LANCER SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000332]{Esprit de Foi} <strong>【Max SL 5】</strong></p><p>When you hit with an equipped melee weapon or deal damage with an offensive spell, deal bonus damage equal to (SL x the positive emotions of one bond you possess); all the attack's damage becomes light and its type cannot be changed. That bond cannot be used again for this skill this scene, even on a miss.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000333]{Fellowship}</p><p>While an allied creature shares a status effect with you, it gains a bonus to all Accuracy and Open Checks affected by that shared status equal to your bond Strength toward it. Only one ally benefits at a time, chosen at the end of your turn.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000334]{Lend a Hand} <strong>【Max SL 3】</strong></p><p>Once per scene, spend up to (SL) Fabula Points and Invoke a bond toward an ally to grant that ally that many Fabula Points. If the target is in Crisis, you may also Guard as a free action to grant it cover even off your turn; you cannot Guard this way again until you rest in a city or settlement.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000335]{Rally} <strong>【Max SL 4】</strong></p><p>Take an action and spend up to (SL x 5) MP; for every 5 MP, choose an allied creature (including yourself) that recovers from one status effect and treats the die that status afflicted as one size larger (max d12) until the end of the next action taken with that die or its next turn, whichever comes first.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000336]{Triumph} <strong>【Max SL 2】</strong></p><p>When you make an Accuracy Check with a melee weapon, replace one die with (WLP); if your WLP roll is higher than the target's, gain +(SL) to the Accuracy Check. Applies to multi-hit and multi-target attacks.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "lancer",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": null,
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000064"
+}

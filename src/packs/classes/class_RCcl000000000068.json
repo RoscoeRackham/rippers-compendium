@@ -1,0 +1,113 @@
+{
+	"name": "Unquiet",
+	"type": "class",
+	"_id": "RCcl000000000068",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "unquiet",
+		"source": {
+			"value": "Rippers Unmasked — classes (unquiet)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": ""
+		},
+		"description": "<h2>UNQUIET SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000352]{Bloodsoaked} <strong>【Max SL 2】</strong></p><p>Whenever an enemy is reduced to 0 Hit Points, gain a stacking (SL) bonus damage to your weapon attacks until the end of the scene.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000353]{Defy Fate} <strong>【Max SL 2】</strong></p><p>Once per scene, the first time your Hit Points drop below half your Crisis score, after damage resolves but before you would Sacrifice or Surrender, immediately regain (SL x your level) Hit Points and half as many Mind Points.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000354]{Screaming Muscle} <strong>【Max SL 5】</strong></p><p>Take an action and spend 5 MP to make a free attack with an equipped heavy melee weapon that loses and cannot gain multi. On a hit, deal (SL x 2) physical damage to up to one other enemy within melee reach (+5 at level 20+, +10 at level 40+). You may spend up to (SL x 2) more MP to inflict dazed on one target of this skill per 5 MP spent.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000355]{Inner Furnace}</p><p>You may suffer enraged at will as a free action. Whenever you suffer enraged, you may spend 10 MP to treat your Might die as one size larger (max d12) until you are no longer enraged.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000356]{Tremendous Force} <strong>【Max SL 5】</strong></p><p>Once per round when you miss an enemy with a heavy melee weapon (but not on a fumble), spend 10 MP to make a (Might + Willpower) check at DL equal to your missed check's result; on success deal (HR + SL) physical damage to that target. You may spend a Fabula Point to use it again in the same round.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "unquiet",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": null,
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000068"
+}

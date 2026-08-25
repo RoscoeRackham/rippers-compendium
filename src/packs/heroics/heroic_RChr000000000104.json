@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Vivisectionist, Entropist, Cook or Mutant mastery"
 		},
-		"description": "<p>Dispel becomes 10×T on up to three creatures; when you end scene-duration spells on enemies, recover 20 MP per spell or copy each onto yourself. Theft rather than mimicry, and the enemy has to have buffed first.</p>",
+		"description": "<p>Dissolution becomes 10×T on up to three creatures; when you end scene-duration spells on enemies, recover 20 MP per spell or copy each onto yourself. Theft rather than mimicry, and the enemy has to have buffed first.</p>",
 		"hasRoll": {
 			"value": false
 		}

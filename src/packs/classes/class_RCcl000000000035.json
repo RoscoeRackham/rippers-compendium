@@ -79,7 +79,7 @@
 	"flags": {
 		"rippers-compendium": {
 			"classKey": "penny_knight",
-			"guiseEligible": false,
+			"guiseEligible": true,
 			"innateOnly": false,
 			"printedName": "Magical Girl (TailsPr v1.0)",
 			"printedBenefits": {

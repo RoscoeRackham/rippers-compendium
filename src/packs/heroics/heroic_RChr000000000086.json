@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Vampyre mastery + Crimson Malediction"
 		},
-		"description": "<p>Before you cast a malediction, double its HP cost to alter one of its lifting conditions. The counterplay tax, priced correctly: every malediction's balance sits in its lifting condition, and this buys the right to move one at double the blood. Watch it against Entangle — three targets is 30 HP printed, 60 amended — and rule that \"alter\" means rewrite, not delete, with a replacement the targets can actually attempt. Say it before it is used, not after.</p>",
+		"description": "<p>Before you cast a malediction, double its HP cost to alter one of its lifting conditions. The counterplay tax, priced correctly: every malediction's balance sits in its lifting condition, and this buys the right to move one at double the blood. Watch it against Induced Automatism — three targets is 30 HP printed, 60 amended — and rule that \"alter\" means rewrite, not delete, with a replacement the targets can actually attempt. Say it before it is used, not after.</p>",
 		"hasRoll": {
 			"value": false
 		}

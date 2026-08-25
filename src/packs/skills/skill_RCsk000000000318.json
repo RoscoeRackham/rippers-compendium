@@ -1,0 +1,44 @@
+{
+	"name": "Blood Rite",
+	"type": "skill",
+	"_id": "RCsk000000000318",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "blood_rite",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (occultist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "As a free action on your turn, lose up to (10 x SL) Hit Points to fill one section of your Favour clock per 10 HP lost, "
+		},
+		"description": "<p>As a free action on your turn, lose up to (10 x SL) Hit Points to fill one section of your Favour clock per 10 HP lost, which may exceed its maximum. Any sections filled above the maximum are erased at end of scene.</p>",
+		"class": {
+			"value": "Occultist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "occultist",
+			"skillKey": "blood_rite",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000318"
+}

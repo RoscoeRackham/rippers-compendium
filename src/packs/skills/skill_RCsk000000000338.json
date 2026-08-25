@@ -1,0 +1,44 @@
+{
+	"name": "Fear Itself",
+	"type": "skill",
+	"_id": "RCsk000000000338",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "fear_itself",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (mesmerist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you cast an offensive spell targeting only one creature, increase its total MP cost by 5 to calculate the target's "
+		},
+		"description": "<p>When you cast an offensive spell targeting only one creature, increase its total MP cost by 5 to calculate the target's base Magic Defense from Willpower instead of Insight.</p>",
+		"class": {
+			"value": "Mesmerist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "mesmerist",
+			"skillKey": "fear_itself",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000338"
+}

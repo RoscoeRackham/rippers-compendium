@@ -1,0 +1,44 @@
+{
+	"name": "Riposte",
+	"type": "skill",
+	"_id": "RCsk000000000344",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "riposte",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (musketeer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per round when you or an ally is hit by an enemy attack, spend 10 MP to parry with a weapon whose range is opposite"
+		},
+		"description": "<p>Once per round when you or an ally is hit by an enemy attack, spend 10 MP to parry with a weapon whose range is opposite the attack's; the attack becomes an Opposed Check using the enemy's roll versus your weapon's accuracy formula. On success, choose: the attack deals (SL x 3) less damage before Affinities, or the enemy suffers slow (ignoring immunities). On a critical, choose both.</p>",
+		"class": {
+			"value": "Musketeer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "musketeer",
+			"skillKey": "riposte",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000344"
+}

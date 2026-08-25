@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "Each level teaches one malediction (of eight — full text in the spell list)."
 		},
-		"description": "<p>Each level teaches one malediction (of eight — full text in the spell list). Maledictions follow spell rules but cost Hit Points, use (MIG + WLP) offensively, and are lifted by filling a negotiated 4-section Clock. Harm is retyped to dark; Reanimate raises one corpse at a time.</p>",
+		"description": "<p>Each level teaches one malediction (of eight — full text in the spell list). Maledictions follow spell rules but cost Hit Points, use (MIG + WLP) offensively, and are lifted by filling a negotiated 4-section Clock. Harm is retyped to dark; The Ure Procedure raises one corpse at a time.</p>",
 		"class": {
 			"value": "Vampyre"
 		},

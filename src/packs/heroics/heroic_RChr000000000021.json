@@ -1,5 +1,5 @@
 {
-	"name": "Calamity",
+	"name": "Comprehensive Insult",
 	"type": "heroic",
 	"_id": "RChr000000000021",
 	"img": "icons/svg/aura.svg",
@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Malefactor mastery"
 		},
-		"description": "<p>You learn the class's ultimate spell: Calamity, 40 MP, one creature, instantaneous — the target suffers dazed, enraged, poisoned, shaken, slow and weak, all six at once. Under house rules that also steps every one of its attributes down, floor d6, so its Defense and Magic Defense fall with them.</p>",
+		"description": "<p>You learn the class's ultimate spell: Comprehensive Insult, 40 MP, one creature, instantaneous — the target suffers dazed, enraged, poisoned, shaken, slow and weak, all six at once. Under house rules that also steps every one of its attributes down, floor d6, so its Defense and Magic Defense fall with them.</p>",
 		"hasRoll": {
 			"value": false
 		}

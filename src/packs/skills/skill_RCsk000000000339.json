@@ -1,0 +1,44 @@
+{
+	"name": "Ritual Mesmerism",
+	"type": "skill",
+	"_id": "RCsk000000000339",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "ritual_mesmerism",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (mesmerist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "You may perform Rituals within the Mesmerism discipline; Mesmerism Rituals use (WLP + WLP) for the Magic Check."
+		},
+		"description": "<p>You may perform Rituals within the Mesmerism discipline; Mesmerism Rituals use (WLP + WLP) for the Magic Check.</p>",
+		"class": {
+			"value": "Mesmerist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "mesmerist",
+			"skillKey": "ritual_mesmerism",
+			"maxSl": 1
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000339"
+}

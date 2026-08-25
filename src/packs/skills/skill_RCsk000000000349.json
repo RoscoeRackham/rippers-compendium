@@ -1,0 +1,44 @@
+{
+	"name": "Mithridatism",
+	"type": "skill",
+	"_id": "RCsk000000000349",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "mithridatism",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (prowler)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Damage you take from hunted creatures is reduced by (SL) before Affinities, or by (SL x 2) before Affinities if you are "
+		},
+		"description": "<p>Damage you take from hunted creatures is reduced by (SL) before Affinities, or by (SL x 2) before Affinities if you are Resistant to that damage type.</p>",
+		"class": {
+			"value": "Prowler"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "prowler",
+			"skillKey": "mithridatism",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000349"
+}

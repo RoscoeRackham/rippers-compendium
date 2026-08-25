@@ -1,0 +1,44 @@
+{
+	"name": "Hall of Mirrors",
+	"type": "skill",
+	"_id": "RCsk000000000341",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "hall_of_mirrors",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (mesmerist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you use False Face targeting a non-ally, raise its total MP cost by up to (SL x 10) to spawn one additional illusio"
+		},
+		"description": "<p>When you use False Face targeting a non-ally, raise its total MP cost by up to (SL x 10) to spawn one additional illusion per 10 MP. An enemy attacking may make a (WLP + INS) Opposed Check against you; on success it picks one identical target at random, otherwise it hits and destroys an illusion for no damage.</p>",
+		"class": {
+			"value": "Mesmerist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "mesmerist",
+			"skillKey": "hall_of_mirrors",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000341"
+}

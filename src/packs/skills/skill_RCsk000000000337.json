@@ -1,0 +1,44 @@
+{
+	"name": "False Face",
+	"type": "skill",
+	"_id": "RCsk000000000337",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "false_face",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (mesmerist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "As a free action, spend up to (SL x 10) MP to become a visual duplicate of any creature for (1 + 1 per 10 MP spent) roun"
+		},
+		"description": "<p>As a free action, spend up to (SL x 10) MP to become a visual duplicate of any creature for (1 + 1 per 10 MP spent) rounds. Anyone attacking a creature identical to you must randomly choose among all such identical creatures except itself. You may reveal yourself as a free action to end the effect.</p>",
+		"class": {
+			"value": "Mesmerist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "mesmerist",
+			"skillKey": "false_face",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000337"
+}

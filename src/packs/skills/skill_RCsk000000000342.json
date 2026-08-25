@@ -1,0 +1,44 @@
+{
+	"name": "Dual Martialism",
+	"type": "skill",
+	"_id": "RCsk000000000342",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "dual_martialism",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (musketeer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "As part of any Accuracy Check, or when invoked by Perfect Guard, spend 5 MP to swap the ranges of your equipped one-hand"
+		},
+		"description": "<p>As part of any Accuracy Check, or when invoked by Perfect Guard, spend 5 MP to swap the ranges of your equipped one-handed weapons (melee become thrown ranged, ranged become brawling melee); this ends on a weapon after its first use resolves. Once per round after you deal ranged damage, your next melee attack deals +(SL) damage, and vice versa.</p>",
+		"class": {
+			"value": "Musketeer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "musketeer",
+			"skillKey": "dual_martialism",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000342"
+}

@@ -1,0 +1,44 @@
+{
+	"name": "Triumph",
+	"type": "skill",
+	"_id": "RCsk000000000336",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "triumph",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (lancer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you make an Accuracy Check with a melee weapon, replace one die with (WLP); if your WLP roll is higher than the tar"
+		},
+		"description": "<p>When you make an Accuracy Check with a melee weapon, replace one die with (WLP); if your WLP roll is higher than the target's, gain +(SL) to the Accuracy Check. Applies to multi-hit and multi-target attacks.</p>",
+		"class": {
+			"value": "Lancer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 2
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "lancer",
+			"skillKey": "triumph",
+			"maxSl": 2
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000336"
+}

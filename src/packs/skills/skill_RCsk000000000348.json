@@ -1,0 +1,44 @@
+{
+	"name": "Grudge",
+	"type": "skill",
+	"_id": "RCsk000000000348",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "grudge",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (prowler)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Your hunted-creature list holds (SL) creature types; one slot is fixed to your home region's most common hostile type, a"
+		},
+		"description": "<p>Your hunted-creature list holds (SL) creature types; one slot is fixed to your home region's most common hostile type, and the rest may be swapped during a rest in a city or settlement. Resources and rewards from hunted creatures have their zenit value increased by (SL x 5) percent.</p>",
+		"class": {
+			"value": "Prowler"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "prowler",
+			"skillKey": "grudge",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000348"
+}

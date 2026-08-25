@@ -1,0 +1,44 @@
+{
+	"name": "Lend a Hand",
+	"type": "skill",
+	"_id": "RCsk000000000334",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "lend_a_hand",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (lancer)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Once per scene, spend up to (SL) Fabula Points and Invoke a bond toward an ally to grant that ally that many Fabula Poin"
+		},
+		"description": "<p>Once per scene, spend up to (SL) Fabula Points and Invoke a bond toward an ally to grant that ally that many Fabula Points. If the target is in Crisis, you may also Guard as a free action to grant it cover even off your turn; you cannot Guard this way again until you rest in a city or settlement.</p>",
+		"class": {
+			"value": "Lancer"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 3
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "lancer",
+			"skillKey": "lend_a_hand",
+			"maxSl": 3
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000334"
+}

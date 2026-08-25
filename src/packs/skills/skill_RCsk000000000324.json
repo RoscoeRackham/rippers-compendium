@@ -1,0 +1,44 @@
+{
+	"name": "Titankiller Armament",
+	"type": "skill",
+	"_id": "RCsk000000000324",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "titankiller_armament",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (arbalist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "When you attack with a ranged weapon, you may replace up to one die in its Accuracy Check with (MIG); if you do, the att"
+		},
+		"description": "<p>When you attack with a ranged weapon, you may replace up to one die in its Accuracy Check with (MIG); if you do, the attack gains (SL) bonus damage but you suffer weak or slow until the end of your next turn, ignoring immunities.</p>",
+		"class": {
+			"value": "Arbalist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 5
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "arbalist",
+			"skillKey": "titankiller_armament",
+			"maxSl": 5
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000324"
+}

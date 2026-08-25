@@ -1,0 +1,113 @@
+{
+	"name": "Assassin",
+	"type": "class",
+	"_id": "RCcl000000000063",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "assassin",
+		"source": {
+			"value": "Rippers Unmasked — classes (assassin)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": ""
+		},
+		"description": "<h2>ASSASSIN SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000327]{And Stay Down} <strong>【Max SL 2】</strong></p><p>When an enemy within melee range recovers Hit Points or starts its turn with current HP at or below (SL x 10), interrupt and spend 10 MP to make a free attack against it with an equipped weapon; if it is not reduced to 0 HP, its recovery or turn then resolves normally. Usable once per scene per creature.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000328]{Backstab} <strong>【Max SL 4】</strong></p><p>Outside a conflict scene, when you can attack a non-Villain, non-champion creature unaware of you and your allies: if its level is at or below your level + (SL) it starts the ensuing conflict in Crisis; if at or below your level - (SL+1) it starts with 0 Hit Points. Affects only the attacked enemy.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000329]{Cloak and Dagger} <strong>【Max SL 3】</strong></p><p>Once per round after you hit with a dagger, spear, or thrown weapon a target suffering two or more status effects, if you have Vanish you may spend 10 MP to gain the benefits of hidden for (SL) enemy turns, or until you next hit with an attack or free attack, whichever comes first.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000330]{Vanish} <strong>【Max SL 4】</strong></p><p>During your first turn in a conflict, or when you guard without granting cover, spend 10 MP to become hidden until the end of your next turn. While hidden you cannot be targeted by sight-based ranged attacks or spells (but area effects still hit), and your dagger, spear, or thrown attacks gain +(SL) Accuracy; on a hit such an attack ignores Resistances and you stop being hidden.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000331]{Thieves' Code} <strong>【Max SL 5】</strong></p><p>You know a secret thieves' dialect that non-outlaws cannot understand without magic, and gain +(SL) to Open Checks for persuasion and coercion targeting outlaws while using it. You can also read and leave nearly imperceptible thieves' code symbols.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "assassin",
+			"guiseEligible": true,
+			"innateOnly": false,
+			"printedName": null,
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000063"
+}

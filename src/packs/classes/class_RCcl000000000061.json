@@ -1,0 +1,113 @@
+{
+	"name": "Occultist",
+	"type": "class",
+	"_id": "RCcl000000000061",
+	"img": "icons/svg/book.svg",
+	"system": {
+		"fuid": "occultist",
+		"source": {
+			"value": "Rippers Unmasked — classes (occultist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": ""
+		},
+		"description": "<p><em>Built on Project FU's <strong>Dreamer</strong>.</em></p><h2>OCCULTIST SKILLS</h2><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000317]{Commiserate} <strong>【Max SL 5】</strong></p><p>When you hit only one creature with an attack or offensive spell and share at least one status effect with it, any Mind Points you would lose as part of that attack or spell are reduced by (SL), to a minimum of 1 MP lost.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000318]{Blood Rite} <strong>【Max SL 3】</strong></p><p>As a free action on your turn, lose up to (10 x SL) Hit Points to fill one section of your Favour clock per 10 HP lost, which may exceed its maximum. Any sections filled above the maximum are erased at end of scene.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000319]{Epiphany} <strong>【Max SL 3】</strong></p><p>When you or an ally fails a Ritual of any discipline within your Patron's domains, erase up to (SL x 2) Favour sections to add a bonus to that Ritual's Magic Check equal to the number of sections erased, potentially turning the failure into a success.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000320]{Higher Power} <strong>【Max SL 5】</strong></p><p>On first gaining this, gain one Patron of your choice with their Urge and Blessing and a 6-section Favour clock starting with 2 filled. Each acquisition grants two Patron Boons of your choice; at most half (rounded up) of your total Boons may be active at once, chosen at rest or by erasing one Favour section to swap as an action during a scene.</p><p>@UUID[Compendium.rippers-compendium.skills.Item.RCsk000000000321]{Profane Ritual}</p><p>Spend a Fabula Point or erase 4 Favour sections to produce a token of your Patron as a powerful Ritual ingredient, provided the Ritual's effect relates to your Patron's domains. The ingredient is consumed and can only be produced again after you rest in a city or large settlement.</p>",
+		"isFavored": {
+			"value": false
+		},
+		"showTitleCard": {
+			"value": false
+		},
+		"level": {
+			"value": 1,
+			"min": 0,
+			"max": 10
+		},
+		"benefits": {
+			"resources": {
+				"hp": {
+					"value": false
+				},
+				"mp": {
+					"value": false
+				},
+				"ip": {
+					"value": false
+				}
+			},
+			"martials": {
+				"melee": {
+					"value": false
+				},
+				"ranged": {
+					"value": false
+				},
+				"armor": {
+					"value": false
+				},
+				"shields": {
+					"value": false
+				}
+			},
+			"rituals": {
+				"arcanism": {
+					"value": false
+				},
+				"chimerism": {
+					"value": false
+				},
+				"elementalism": {
+					"value": false
+				},
+				"entropism": {
+					"value": false
+				},
+				"ritualism": {
+					"value": false
+				},
+				"spiritism": {
+					"value": false
+				}
+			}
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "occultist",
+			"guiseEligible": false,
+			"innateOnly": true,
+			"printedName": "Dreamer",
+			"printedBenefits": {
+				"resources": {
+					"hp": false,
+					"mp": false,
+					"ip": false
+				},
+				"martials": {
+					"melee": false,
+					"ranged": false,
+					"armor": false,
+					"shields": false
+				},
+				"rituals": {
+					"arcanism": false,
+					"chimerism": false,
+					"elementalism": false,
+					"entropism": false,
+					"ritualism": false,
+					"spiritism": false
+				}
+			}
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCcl000000000061"
+}

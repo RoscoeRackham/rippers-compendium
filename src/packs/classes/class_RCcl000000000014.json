@@ -79,7 +79,7 @@
 	"flags": {
 		"rippers-compendium": {
 			"classKey": "confidence_man",
-			"guiseEligible": false,
+			"guiseEligible": true,
 			"innateOnly": false,
 			"printedName": "Trickster",
 			"printedBenefits": {
