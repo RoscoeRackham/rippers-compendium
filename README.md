@@ -11,7 +11,7 @@ Rippers content, **not for redistribution**; ships **no** Project FU or Fabula U
 | **Rippers Classes** (`classes`) | Item (`class`) | 51 `type:"class"` Items — every Rippers class. Each carries identity (alt-names), its activated FU **free-benefit flags** (see below), and a description that UUID-links each of its class skills. |
 | **Rippers Class Skills** (`skills`) | Item (`skill`) | 269 `type:"skill"` Items — the class skills, one Item each, `class` + `Max SL` set. Linked from the class descriptions via `@UUID`. |
 | **Rippers Heroic Skills** (`heroics`) | Item (`heroic`) | 173 `type:"heroic"` Items — every heroic skill **with its requirement listed** (`system.requirement.value`), synthesised from the structured gate where the corpus left the text blank. |
-| **Rippers — Player Reference** (`player-reference`) | JournalEntry | 76 JournalEntries — one readable **prose** entry per class (all **68**: 7 Innate-Only + 61 Guise) plus 8 shared-subsystem appendix entries (Heroics, Arcana, Personal Vehicle, NPC Spells, …). Grouped into three folders (**Innate Only** / **Guise** / **Appendix**). The in-world player binder — for reading, not dragging onto sheets. |
+| **Rippers — Player Reference** (`player-reference`) | JournalEntry | 76 JournalEntries — one readable **prose** entry per class (all **68**: 7 Innate-Only + 61 Guise) plus **8** shared-subsystem appendix notes (Heroics · Arcana Registry · Arcanum · Keystones · Torments · Personal Vehicle · NPC Spells · Pressure and Stagger). Grouped into three folders (**Innate Only** / **Guise** / **Appendix**). The in-world player binder — for reading, not dragging onto sheets. |
 
 Generated from `data/db-snapshot.json` (a snapshot of the maintained class registry —
 `public.classes` / `class_skills` / `heroic_skills`) and the `lodge-docs/CLASSREF-*.md`
@@ -51,6 +51,24 @@ class cards (identity + the printed free-benefit line).
   prose is kept**, including in-line house rulings. (This differs from the Item packs'
   `strip()`, which drops whole glyph-led sentences — that policy is for terse Item cards; the
   binder keeps its rulings.)
+
+#### v0.4.0 — reconciled to `Compendium2.pdf` Part V
+
+Austin made `Compendium2.pdf` the authority for this pack. The PDF's **class bodies and all
+271 numbered SL caps verify identical, in order, to `COMPENDIUM-player-reference.md`** — the
+.md is the PDF's own upstream source text — so names, bodies and caps are unchanged (the PDF
+renders its skill/class titles as vector outlines, not text, so the .md is also the
+higher-fidelity name source). The one substantive delta is the **appendix**, rebuilt to the
+PDF's declared **8 reference notes**:
+
+- **Arcana Registry · Arcanum** kept as the PDF's two arcana notes.
+- **See You Later / Unexpected Ally** folded into **NPC Spells** (they are NPC-spell stat-blocks).
+- **Pressure and Stagger** — a new optional rule the .md never carried — extracted verbatim
+  from the PDF (p180–183) into `data/pressure-and-stagger.md`, nav-rail/sidebar/page-number
+  pollution stripped.
+
+(The PDF is internally inconsistent — its cover TOC says *7* reference notes, its appendix
+header says *8*; we go by the actual notes present → **8**.)
 
 ## Build
 

@@ -168,6 +168,23 @@ export function buildJournals() {
   const md = readFileSync(SRC, 'utf8');
   const { classes, appendix } = parse(md);
 
+  // v0.4.0 — RECONCILE the appendix to Compendium2.pdf Part V (god ruling, 2026-08-30).
+  // The PDF (p180) declares "8 REFERENCE NOTES": heroics, arcana, keystones, torments,
+  // personal vehicles, NPC spells, pressure-and-stagger. Two edits vs the .md's appendix:
+  //  (1) "See You Later and Unexpected Ally" are two NPC-spell stat-blocks — fold them
+  //      into "NPC Spells" (as an H3 sub-section), dropping the standalone entry.
+  //  (2) ADD "Pressure and Stagger" — a note the .md never carried; its prose is extracted
+  //      verbatim from the PDF (p180–183) into data/pressure-and-stagger.md.
+  // Class bodies/names/caps are unchanged: the .md is the PDF's own upstream source text
+  // (bodies verbatim-match; all 271 numbered SL caps verified identical PDF↔.md in order).
+  const SYL = 'See You Later and Unexpected Ally';
+  const npc = appendix.find((a) => a.name === 'NPC Spells');
+  const syl = appendix.find((a) => a.name === SYL);
+  if (npc && syl) npc.lines.push('', '---', '', `### ${SYL}`, '', ...syl.lines);
+  const recAppendix = appendix.filter((a) => a.name !== SYL);
+  const psFile = join(MODULE, 'data', 'pressure-and-stagger.md');
+  recAppendix.push({ name: 'Pressure and Stagger', lines: readFileSync(psFile, 'utf8').split('\n') });
+
   // reset output dir
   rmSync(OUT, { recursive: true, force: true });
   mkdirSync(OUT, { recursive: true });
@@ -220,9 +237,9 @@ export function buildJournals() {
     emitEntry(c.name, folderId, sort, c.pages.map((p, i) => ({ title: i === 0 ? c.name : p.title, lines: p.lines })));
   }
 
-  // appendix — one JournalEntry each
+  // appendix — one JournalEntry each (reconciled set)
   let appSort = 0;
-  for (const a of appendix) {
+  for (const a of recAppendix) {
     emitEntry(a.name, folders.appendix.id, ++appSort * 100000, [{ title: a.name, lines: a.lines }]);
   }
 
@@ -238,8 +255,8 @@ export function buildJournals() {
   console.log('\n=== JOURNAL PACK (player-reference) ===');
   console.log(`Classes: ${classes.length}  (innate ${innate.length}, guise ${guise.length})`);
   console.log(`Class-embedded subsystem pages: ${embedded.map((c) => `${c.name} +${c.pages.length - 1}`).join(', ') || 'none'}`);
-  console.log(`Appendix entries (${appendix.length}): ${appendix.map((a) => a.name).join(', ')}`);
-  console.log(`JournalEntries: ${jn}  (classes ${classes.length} + appendix ${appendix.length})`);
+  console.log(`Appendix entries (${recAppendix.length}): ${recAppendix.map((a) => a.name).join(', ')}`);
+  console.log(`JournalEntries: ${jn}  (classes ${classes.length} + appendix ${recAppendix.length})`);
   console.log(`Pages total: ${pageCount}   Folders: 3   Docs written: ${docs.length}`);
   if (classes.length !== 68) console.log(`⚠ EXPECTED 68 classes, got ${classes.length}`);
   return { classes: classes.length, journals: jn, pages: pageCount };
