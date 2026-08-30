@@ -1,0 +1,39 @@
+{
+	"name": "Naturalist",
+	"_id": "RCje000000000042",
+	"pages": [
+		{
+			"_id": "RCpg000000000047",
+			"name": "Naturalist",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Naturalists have dedicated themselves to understanding one creature Species, developing an uncanny ability to track it down and survive the encounter.</em></p><p><strong>SKILLS</strong></p><p><strong>Avid Seeker</strong> · SL max 4</p><p>Choose a Species as your Forte when you take this Skill — never humanoid. Once per scene, create a Bond of admiration or inferiority toward a creature of your Forte Species whose presence or signs you are aware of: that creature becomes your Quarry until the Bond breaks or you choose anew. You gain +(SL) to Checks to track, locate, identify and Study your Quarry. If your Quarry is absent, you may use an action and spend 1 Fabula Point to learn its direction and perform a free remote Study of it. If no Bond can form, the Species is not present and did not pass through.</p><p><strong>Field Kit</strong> · SL max 5</p><p>On first taking this Skill choose one track — Slaying, Research, or Taming — gaining its basic tier. Each additional level buys another track's basic tier or upgrades one you hold to advanced, then superior.</p><ul><li><strong>Slaying</strong>: hit-laced infusions for 2 Inventory Points, adding +5 damage (+10 against your</li></ul><p>Forte) with riders. Superior tier: Engineered infusions inflict through status immunity (no Pressure interaction); Adaptive infusions allowed.</p><ul><li><strong>Research</strong>: Forte consumables cost less; unlocks the spectrographic camera and the</li></ul><p>travelling laboratory.</p><ul><li><strong>Taming</strong>: spoken commands over soldier-rank Forte creatures; then Capture — Companions</li></ul><p>held on Loyalty Points, maximum three — then the Menagerie.</p><p><strong>Hardened Hunter</strong> · SL max 3</p><p>While no equipment fixes your Magic Defense to a flat value, you gain +(SL) Magic Defense — +(SL + 1) against creatures of your Forte.</p><p><strong>Prepared Ground</strong></p><p>The four Hunter Rituals only, in a discipline flavour of your choice: Arm Up (a community gains +5 damage against your Forte via a swapped weapon Quality); Freedom (release a controlled or possessed creature — fails if it takes damage during the performance); Smoke Out (Forte creatures in the area must reveal themselves; a Villain may spend an Ultima Point to stay hidden); Land Survey (know the ritual area like the back of your hand). Helpers' Inventory Points cut the Mind Point cost, 10 MP per point.</p><p><strong>Target Insight</strong> · SL max 2</p><p>Identify your Forte's Species on sight, and see when any visible creature is possessed or controlled. The first time each scene you Study a Forte creature (not via Avid Seeker), ask up to (SL) questions about its condition, motives or emotions.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000042.RCpg000000000047"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 3500000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000042"
+}

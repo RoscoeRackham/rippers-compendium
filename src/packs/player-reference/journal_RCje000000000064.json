@@ -1,0 +1,39 @@
+{
+	"name": "Traveller",
+	"_id": "RCje000000000064",
+	"pages": [
+		{
+			"_id": "RCpg000000000069",
+			"name": "Traveller",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Those well-versed in long journeys who discover hidden wonders and connect distant places.</em></p><p><strong>SKILLS</strong></p><p><strong>REFRESHING VISTA</strong> · SL max 5</p><p>Once per session when you find a hidden or forgotten location of breathtaking beauty or historical revelation that is at least 5 travel days away from the nearest populated area, choose up to (SL) benefits from among the following options. You may not choose an option more than once per use of this Skill.</p><ul><li>One character in the scene recovers all of their Hit Points.</li><li>One character in the scene recovers all of their Mind Points.</li><li>One character in the scene gains 1 Fabula Point.</li><li>One character in the scene gains (SL × 100) zenit.</li><li>This location is part of a shortcut. From now on, you may skip the first travel roll you would make after passing through this area.</li><li>One character may create a new Bond, or add or change one emotion on an existing Bond.</li></ul><p><strong>RESOURCEFUL</strong> · SL max 4</p><p>You regain (SL) Inventory Points after each travel roll (page 106).</p><p><strong>TAVERN TALK</strong> · SL max 3</p><p>When you rest inside an inn or tavern, you may ask the Game Master up to (SL) questions about your surroundings and the people who live here; the Game Master will answer truthfully and you describe how you gathered the information.</p><p><strong>TREASURE HUNTER</strong> · SL max 2</p><p>When your group journeys on the world map, you will make a discovery on a roll of (SL + 1) or lower on the travel roll (instead of only on a 1).</p><p><strong>WELL-TRAVELED</strong></p><p>You reduce the die rolled for your travel rolls by one size (to a minimum of d6). If multiple characters have this Skill, the effects are not cumulative.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000064.RCpg000000000069"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 5700000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000064"
+}

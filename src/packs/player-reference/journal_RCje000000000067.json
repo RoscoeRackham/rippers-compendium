@@ -1,0 +1,39 @@
+{
+	"name": "Vivisectionist",
+	"_id": "RCje000000000067",
+	"pages": [
+		{
+			"_id": "RCpg000000000072",
+			"name": "Vivisectionist",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Mages who study the inner workings of beasts to mimic their extraordinary powers.</em></p><p><strong>SKILLS</strong></p><p><strong>CALL THE WILD</strong> · SL max 3</p><p>While this Guise is worn, increase your maximum Inventory Points by (SL).</p><p>You may spend 2 Inventory Points to produce food to attract nearby animals to perform a simple task for you (comparable to a Minor potency Ritual).</p><p><strong>CONSUME</strong> · SL max 5</p><p>After you deal damage to one or more creatures with a spell, if you have an arcane, dagger or flail weapon equipped, you recover (SL × 2) Mind Points.</p><p><strong>FERAL SPEECH</strong></p><p>You can always communicate with creatures of the beast, monster and plant Species.</p><p><strong>PATHOGENESIS</strong></p><p>When you deal damage to one or more creatures with one of your Vivisectionist spells, each of those creatures that share their Species with the creature you originally learned that spell from suffers poisoned.</p><p><strong>SPELL MIMIC</strong> · SL max 10</p><p>After a beast, monster, or plant creature you can see casts a spell and resolves its effects, you may learn that spell as a Vivisectionist spell of your own: if you do, record the Species of the creature you learned it from.</p><p>When you first acquire this Skill, choose (INS + WLP) or (MIG + WLP). From now on, your offensive Vivisectionist spells will use the chosen Attributes for the Magic Check, regardless of the Attributes used by the creature you learned the spell from.</p><p>You may have up to (SL + 2) different Vivisectionist spells memorized this way. If you want to memorize a new Vivisectionist spell but are already at your limit, you must forget one of your old spells and replace it with the new spell.</p><p><strong>TRAIT MIMIC</strong> · SL max 10</p><p>When you learn a Trait belonging to a creature you can see of the beast, monster, or plant Species, you may choose to record that Trait.</p><p>You can invoke a Trait learned this way by spending 15 Mind Points or 1 Fabula Point to mimic the movement and behavior of the original creature. This doesn't change your Skills or statistics in any way, but you can perform one impressive feat without needing to perform a Check, as long as it's something that the original creature could have done. For example, invoking a \"flying\" Trait doesn't give you the Flying ability, but it would allow you to rapidly scale a tall cliff.</p><p>You may have up to (SL + 2) different Traits recorded this way. If you want to copy a new Trait but are already at your limit, you must forget one of your old Traits and replace it with the new Trait.</p><p>If used during a conflict, this Skill can be treated as an Objective action.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000067.RCpg000000000072"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 6000000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000067"
+}

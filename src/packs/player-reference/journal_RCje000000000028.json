@@ -1,0 +1,39 @@
+{
+	"name": "Engineer",
+	"_id": "RCje000000000028",
+	"pages": [
+		{
+			"_id": "RCpg000000000033",
+			"name": "Engineer",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Engineers possess exceptional ingenuity and are known for their eccentric and marvelous inventions.</em></p><p><strong>SKILLS</strong></p><p><strong>GADGETS</strong> · SL max 5</p><p>When you rest inside a settlement, you gain (SL) Materials. You may use an action and spend Materials to create a Gadget. You can hold up to 10 + (SL × 5) Materials and they never spoil until used.</p><p><strong>BREAKTHROUGHS AND MISHAPS</strong> · SL max 5</p><p>When you create a Gadget, roll a d20. On 1–5, you gain one additional benefit (your choice). On 16–20, one non-creature within 3 squares of you suffers 10 damage and you gain no benefit.</p><p><strong>EMERGENCY ITEM</strong> · SL max 2</p><p>When you would suffer Hit Point or Mind Point loss, you may spend 10 Materials to reduce the loss by (SL × 15).</p><p><strong>DISMANTLE</strong> · SL max 3</p><p>As a reaction to an enemy using an item or a skill that relies on equipment, you may spend 10 Materials. That enemy's attack or Check automatically fails.</p><hr><p><strong>QA: Engineer</strong></p><ul><li>Source: Fabula Ultima: Core Rulebook, pp. 227–230 (printed as TINKERER)</li><li>Rename: Tinkerer → Engineer (CLASSREF-core-fifteen.md, documented rename, applied silently)</li><li>Heroics: Numerous via compendium (see HEROICS-compiled.md)</li></ul><hr>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000028.RCpg000000000033"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 2100000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000028"
+}

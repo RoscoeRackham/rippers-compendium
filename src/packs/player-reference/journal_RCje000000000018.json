@@ -1,0 +1,102 @@
+{
+	"name": "Cartomancer",
+	"_id": "RCje000000000018",
+	"pages": [
+		{
+			"_id": "RCpg000000000018",
+			"name": "Cartomancer",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Cartomancers make use of special decks to perceive the constant fluctuations in the stream of souls.</em></p><p><strong>SKILLS</strong></p><p><strong>DOUBLE OR NOTHING</strong></p><p>Before you perform a Check, you may declare double or nothing. If you do, until the end of that Check, any dice you roll that show an even number are treated as if that number was doubled, and other dice you roll are treated as showing a 1.</p><p><strong>HIGH OR LOW</strong> · SL max 5</p><p>When you resolve a set with Magic Cards, if it includes a joker and/or a 7, you deal (SL) extra damage until the start of your next turn; if it includes a joker and/or a 1, all damage you suffer is reduced by (SL) until the start of your next turn (before Affinities); if it doesn't include any joker, 1, or 7, you recover (SL × 2) Hit Points.</p><p><strong>MAGIC CARDS</strong> · SL max 3</p><p>You gain a deck, a hand and a discard pile.</p><p>During a conflict, you may use an action and spend up to (10 + (SL × 5)) Mind Points (minimum 10). If you do, discard and resolve 1 card from your hand for every 5 MP spent this way (to a maximum of 5 cards; these cards form a set). After you resolve the effect of the set (if any), draw that many cards.</p><p><strong>MULLIGAN</strong> · SL max 2</p><p>When you hit one or more enemies with an attack during your turn, you may discard up to (SL + 1) cards. If you do, draw that many cards.</p><p><strong>TRAP CARD</strong> · SL max 2</p><p>After an enemy you can see resolves an Attack, Objective, Skill, or Spell action, you may discard up to (SL + 1) cards that are jokers or whose suit corresponds to a damage type based on the enemy action: ice (Attack), fire (Objective), earth (Skill), or air (Spell). If you do, draw that many cards; then you may perform the Spell action for free, casting a spell with a total Mind Point cost equal to or lower than (SL × 5) (you must still pay its MP cost) and you cannot use this Skill again until the start of your next turn.</p><p><strong>RULES</strong></p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000018.RCpg000000000018"
+		},
+		{
+			"_id": "RCpg000000000019",
+			"name": "MANAGING THE DECK",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>Your deck is an actual deck of cards that you can assemble however you prefer, provided their backs are identical and you follow the restrictions below:</p><ul><li>The deck contains exactly 30 cards: 2 jokers, plus 28 cards divided into 4 types, called suits; for instance, in a standard poker deck the suits are clubs (♣), diamonds (♦), hearts (♥), and spades (♠). When you create your character's deck, associate each suit to a different damage type among air, earth, fire, and ice.</li><li>For each suit, the deck contains 7 cards with values 1 to 7.</li></ul><p>The simplest approach is to use a poker deck (removing face cards and cards numbered 8 to 10), but you can also use minor arcana from tarot, cards from collectible card games, and much more. Just make sure the combinations are easy to identify.</p><ul><li>When a conflict begins, shuffle all 30 cards in your deck and place it face down in front of yourself, then draw 5 cards to form your starting hand.</li><li>If you need to draw cards and your deck doesn't have enough, draw as many as you can, shuffle your discard pile into the deck, place it face down, then keep drawing.</li><li>When you draw cards, you draw them from your deck and add them to your hand. Normally only you can see your hand, but you can show it to others if you so wish.</li><li>When you discard cards, you do so from your hand and place them face up into your discard pile, in whatever order you prefer. The order of cards in your discard pile cannot be modified, but anyone may look at them.</li></ul><p>Your deck, your hand, and your discard pile (as well as any Skills and effects related to them) are only available during conflict scenes; at the end of each conflict, shuffle all 30 cards back into your deck and put it aside.</p><p>&gt; If you use a classic poker deck, the recommended suit types are: air (♦), earth (♣), fire (♥), and ice (♠).</p>",
+				"markdown": ""
+			},
+			"sort": 200000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000018.RCpg000000000019"
+		},
+		{
+			"_id": "RCpg000000000020",
+			"name": "RESOLVING A SET",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>To produce a given effect, a set must match its requirements exactly (for instance, resolving a set of 5 cards with the same value will not match the requirements of Jackpot; it has to be composed of exactly 4 cards).</p><p>When you resolve a set that includes jokers, you choose their suit and value (1 to 7).</p><p>If a set matches the requirements of two or more effects, you must choose and apply only one of those effects.</p>",
+				"markdown": ""
+			},
+			"sort": 300000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000018.RCpg000000000020"
+		},
+		{
+			"_id": "RCpg000000000021",
+			"name": "CARD-SET EFFECTS",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>Note: effects Blinding Flush, Double Trouble, and Magic Flush deal 10 extra damage if you are level 20 or higher, or 20 extra damage if you are level 40 or higher.</p><table><thead><tr><th>EFFECT</th><th>SET REQUIREMENTS</th><th>EFFECT TEXT</th></tr></thead><tbody><tr><td>Jackpot</td><td>4 cards of the same value, none of which is a joker</td><td>Any Player Character who has surrendered but is still narratively present on the scene regains consciousness (this does not cancel the effects of their Surrender); then, you and every ally you can see recover 777 Hit Points and 777 Mind Points.</td></tr><tr><td>Magic Flush</td><td>4 cards of consecutive values and of the same suit</td><td>You deal damage equal to (25 + the total value of the resolved cards) to every enemy you can see. The type of this damage matches the suit of the resolved cards.</td></tr><tr><td>Blinding Flush</td><td>4 cards of consecutive values</td><td>You deal damage equal to (15 + the total value of the resolved cards) to every enemy you can see. The type of this damage is light if the highest value among those cards is even, or dark if that value is odd.</td></tr><tr><td>Full Status</td><td>3 cards of the same value + 2 cards of the same value</td><td>Choose two status effects among dazed, shaken, slow, and weak. If (the highest value among resolved cards) is even, you and every ally you can see recover from the chosen status effects; if odd, every enemy you can see suffers them.</td></tr><tr><td>Triple Support</td><td>3 cards of the same value</td><td>You and every ally you can see recover an amount of Hit Points equal to (the total value of the resolved cards, multiplied by 3).</td></tr><tr><td>Double Trouble</td><td>2 cards of the same value + 2 cards of the same value</td><td>You deal damage equal to (10 + the highest value among resolved cards) to each of up to two different enemies you can see. The type of this damage is one of your choice among those matching the suits of the resolved cards.</td></tr><tr><td>Magic Pair</td><td>2 cards of the same value</td><td>You perform a free attack with a weapon you have equipped. If this attack deals damage, choose a suit among those of the resolved cards; all damage dealt by the attack becomes of the type matching that suit.</td></tr></tbody></table>",
+				"markdown": ""
+			},
+			"sort": 400000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000018.RCpg000000000021"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 1100000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000018"
+}

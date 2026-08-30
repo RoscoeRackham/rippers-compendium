@@ -1,0 +1,39 @@
+{
+	"name": "Butcher",
+	"_id": "RCje000000000002",
+	"pages": [
+		{
+			"_id": "RCpg000000000002",
+			"name": "Butcher",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Butchers range from terrifying fleshcrafters behind patchwork monstrosities to surgeons practicing mundane medicine.</em></p><p><strong>SKILLS</strong></p><p><strong>FLESHCRAFT</strong> · SL max 5</p><p>When a creature you can see belonging to the construct, demon, monster, undead, or beast Species falls to 0 Hit Points, you may spend Hit Points equal to one quarter of your maximum Hit Points. If you do, the Game Master reveals its other actions, special rules, and any basic attacks affected by a Special Attack Skill. You choose one of them to install as an implant.</p><p>You may have up to (SL) different implants installed this way, but no more than three of them may be internal implants. If you want to install a new implant, but are already at one of your limits, you must remove an old implant and replace it with the new implant.</p><p>Your prosthetic implants deal (SL × 2) extra damage, up to a maximum of 6 extra damage.</p><p>Implants are alterations to your body derived from other creatures. Once you install an implant, it cannot be lost or stolen. It is destroyed when you remove it, and cannot be destroyed (or unequipped, if it is a prosthetic) in any other way. You may remove implants whenever you can equip items, but you lose Hit Points equal to one eighth of your maximum Hit Points for each one removed outside of a rest. You can't install an implant based on something removed by the Amputate Skill.</p><p>In order to be installed as an implant, a basic attack, special rule, or other action, all of the following should be true: basic attacks should be modified by the Special Attack NPC skill; special rules and other actions should not be too similar to Heroic Skills or Skills from another class; it should be different from your other implants; and it should be usable without other implants. The Game Master has final say on which implants can be installed and how they apply to you. If a creature has no valid implants, they should say so before you spend Hit Points.</p><p>When you install a basic attack as an implant, you create a special rare one-handed melee weapon called a prosthetic implant, replacing one of your hand slots, which on the Innate Guise means it is your Hunter Weapon. Its Accuracy Check uses the same Attributes as the basic attack and it deals [HR + 6] damage of the type dealt by the basic attack; the effect of the Special Attack Skill applied to the basic attack becomes its quality. If you were holding a basic weapon or shield in the hand slot you replaced, you may destroy it instead of placing it in your backpack to make the prosthetic implant assume the Category of the destroyed item (brawling for shields) and become a ranged weapon if the destroyed item was a ranged weapon. If you don't, it becomes a ranged weapon if the basic attack was a ranged attack, and it assumes an appropriate Category determined by the Game Master.</p><p>When you install a special rule or other action as an implant, you gain it as a special Skill called an internal implant. It occupies no slots, is always available like your normal Skills, and all references to the original creature are replaced with references to you; the Game Master may make other adjustments as appropriate to ensure that the Skill functions, such as swapping Fabula Points and Ultima Points on a Skill obtained from a Villain. Your level is unaffected by the installation of internal implants, and unlike normal Skills, your Skill Level in them is always zero, and you can't take them when you gain a level. You can only have three internal implants, even if your Skill Level in Fleshcraft is higher.</p><p><strong>AMPUTATE</strong> · SL max 5</p><p>You may use an action to perform a (DEX + MIG) Check against the Defense of a Non-Player Character you can see. If you succeed, the Game Master reveals its basic attacks, other actions, and special rules. You choose one of them; that creature loses it until the end of the scene. A creature can lose something due to this Skill only once per scene.</p><p>You gain a bonus equal to (SL) to your (DEX + MIG) Checks for this Skill.</p><p><strong>SURGICAL SLICES</strong> · SL max 5</p><p>When you or an ally spends or loses Hit Points due to one of your Skills or spells, the amount of Hit Points spent or lost is reduced by (SL × 2), down to a minimum of half the original amount. Then, they may choose one option: they recover from a single status effect of their choice, or they choose a spell with a duration of \"Scene\" affecting them: they are no longer affected by it.</p><p>You gain a bonus equal to (SL) to all Checks that rely on butchering, surgery, or treating wounds, excluding Checks against a creature's Defense or Magic Defense.</p><p><strong>CHOICEST CUTS</strong> · SL max 3</p><p>After you deal damage to an enemy, if that enemy is in Crisis, you regain 1 Inventory Point, to a maximum of (SL + 1) per scene. You spend Inventory Points gained this way using the regular Inventory Action or a multiclassed Inventory Skill.</p><p><strong>WASTE NOT</strong></p><p>When you spend or lose Hit Points due to one of your Skills or spells, one ally you can see recovers Hit Points equal to half of the Hit Points spent or lost.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000002.RCpg000000000002"
+		}
+	],
+	"folder": "RCfd000000000001",
+	"sort": 200000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000002"
+}

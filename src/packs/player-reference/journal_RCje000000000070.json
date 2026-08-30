@@ -1,0 +1,39 @@
+{
+	"name": "Arcana Registry",
+	"_id": "RCje000000000070",
+	"pages": [
+		{
+			"_id": "RCpg000000000075",
+			"name": "Arcana Registry",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>Twenty-nine Arcana are bound. Each entry gives the Arcanum's name and the domains it operates in.</p><table><thead><tr><th>Arcanum</th><th>Domains</th></tr></thead><tbody><tr><td>Gorgon</td><td>earth · meditation · understanding</td></tr><tr><td>Damocles</td><td>dread · hesitation · punishment</td></tr><tr><td>Sky</td><td>fog · rain · storms</td></tr><tr><td>Unicorn</td><td>divination · lightning · punishment</td></tr><tr><td>Enkidu</td><td>earth · sandstorms · strength</td></tr><tr><td>Kuzunoha</td><td>animals · lightning · sorcery</td></tr><tr><td>Antikythera</td><td>space · time · void</td></tr><tr><td>Tubalcain</td><td>fire · heat · metal</td></tr><tr><td>Bifrons</td><td>death · isolation · melancholy</td></tr><tr><td>Airmid</td><td>exorcism · healing · plants</td></tr><tr><td>Caladrius</td><td>exorcism · healing · sunlight</td></tr><tr><td>Justice</td><td>counsel · faces · secrets</td></tr><tr><td>Huginn &amp; Muninn</td><td>knowledge · memory · storms</td></tr><tr><td>Hoardflame</td><td>fire · protection · wealth</td></tr><tr><td>Tiamat</td><td>chaos · saltwater · serpents</td></tr><tr><td>Oak</td><td>earth · plants · poison</td></tr><tr><td>Banshee</td><td>birds · curses · wind</td></tr><tr><td>Vanagandr</td><td>death · despair · hunger</td></tr><tr><td>Marbas</td><td>medicine · poisons · witchcraft</td></tr><tr><td>Marchosias</td><td>fire · loyalty · vigor</td></tr><tr><td>Ophaniel</td><td>judgment · protection · sacrifice</td></tr><tr><td>Qilin</td><td>knowledge · prosperity · temperance</td></tr><tr><td>Nimue</td><td>conquest · heroism · leadership</td></tr><tr><td>Phoenix</td><td>cleansing · fire · rebirth</td></tr><tr><td>Baihu</td><td>beasts · metal · wind</td></tr><tr><td>Harpy</td><td>determination · speed · wind</td></tr><tr><td>Moroz</td><td>cold · ice · silence</td></tr><tr><td>Undine</td><td>ice · perception · protection</td></tr><tr><td>Maneki-Neko</td><td>coincidences · prosperity · unforeseen events</td></tr></tbody></table><hr>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000070.RCpg000000000075"
+		}
+	],
+	"folder": "RCfd000000000003",
+	"sort": 200000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000070"
+}

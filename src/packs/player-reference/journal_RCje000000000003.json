@@ -1,0 +1,39 @@
+{
+	"name": "Keeper",
+	"_id": "RCje000000000003",
+	"pages": [
+		{
+			"_id": "RCpg000000000003",
+			"name": "Keeper",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Keepers watch over important places — to protect them from the world, or the world from whatever lies within.</em></p><p><strong>SKILLS</strong></p><p><strong>Bind and Haunt</strong></p><p>You may bind your soul to Sanctuaries — small places of spiritual and historical weight, found through exploration and story progression; each carries a Haunt and a Ritual. In a conflict, you may spend an action to Haunt a creature you hold a Bond with: 5 Mind Points for the first Haunting on your turn, 10 for the second, 15 for each beyond that. You cannot Haunt yourself. Each Sanctuary may Haunt only one creature at a time; each creature may be Haunted by only one Sanctuary at a time. You may banish Hauntings on your turn, before or after your action. If you take this Skill at character creation, work with the GM to create or choose a place you have a unique connection to. Otherwise, you can only discover new Sanctuaries through exploration and story progression.</p><p><strong>Haunted by Death</strong> · SL max 5</p><p>As long as you are in Crisis, the cost for Haunting is reduced by (SL) Mind Points — or (SL × 2) Mind Points if the creature you are Haunting is also in Crisis — to a minimum of 0.</p><p><strong>Forbiddance</strong> · SL max 3</p><p>When you rest, you may set a condition describing a creature. When such a creature tries to enter your Sanctuary, you know, and they must succeed in an Opposed (WLP + WLP) Check against you — you at +(SL × 2) — or be repelled and unable to try again until the next sunrise. A Villain can spend an Ultima Point to force their way in; you still know.</p><p><strong>Soul Offering</strong></p><p>A willing NPC may extract their own Soul Treasure and grant it to you when they are in your Sanctuary. (This Skill does not give you any special ability to force or persuade them to do so.) As long as their Soul Treasure is equipped or in your pack, you can Haunt them as though you had a Bond with a strength of 1 or your actual Bond, whichever is higher.</p><p><strong>Where the Heart Is</strong> · SL max 5</p><p>When you perform a Ritual in your Sanctuary, each character who helps you gives the Ritual a discount of (SL) Mind Points for each positive emotion in their Bond with you, capped at 3 emotions per helper. However, each negative emotion adds (SL × 2) Mind Points to the cost — be careful who you ask for help.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000003.RCpg000000000003"
+		}
+	],
+	"folder": "RCfd000000000001",
+	"sort": 300000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000003"
+}

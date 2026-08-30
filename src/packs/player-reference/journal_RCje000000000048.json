@@ -1,0 +1,39 @@
+{
+	"name": "Prizefighter",
+	"_id": "RCje000000000048",
+	"pages": [
+		{
+			"_id": "RCpg000000000053",
+			"name": "Prizefighter",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Prizefighters spend years upon years honing their close combat arts, displaying remarkable skill with a variety of weapons.</em></p><p><strong>SKILLS</strong></p><p><strong>Bladestorm</strong></p><p>When you perform an attack with a melee weapon, you may spend 10 Mind Points: that attack gains the multi (2) property, or if it already has multi, its multi value rises by 1 (maximum multi (3)).</p><p><strong>Bone Crusher</strong> · SL max 4</p><p>When your attack with a melee weapon deals damage to one or more enemies, you may trade all the damage dealt for one of the following: each enemy hit by the attack suffers dazed; each enemy hit by the attack suffers weak; or each enemy hit by the attack loses (SL × 10) Mind Points.</p><p><strong>Breach</strong> · SL max 3</p><p>As an action, spend 10 Mind Points to perform a free attack with a melee weapon against one enemy you can see. On a hit, choose one option: that attack deals +(SL × 5) extra damage and ignores Resistances, but also ignores non-physical Vulnerabilities; or that attack deals no damage, and until the start of your next turn your allies deal +(SL × 2) extra damage to that enemy.</p><p><strong>Counterattack</strong></p><p>After an enemy's melee attack hits or misses you with an even Accuracy Result, you may perform a free attack with a melee weapon against that enemy, with your High Roll treated as 0.</p><p><strong>Melee Weapon Mastery</strong> · SL max 4</p><p>You gain a +(SL) bonus to Accuracy Checks with melee weapons.</p><p><strong>Oathbound</strong> · SL max 5</p><p>When you finish a rest, you may swear to protect a creature you hold a Bond of admiration, loyalty or affection toward. Until your next rest, that Bond counts as 1 strength higher, and that creature may transfer up to (SL × 5) Hit Points and/or Mind Points from any loss they would suffer to you instead.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000048.RCpg000000000053"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 4100000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000048"
+}

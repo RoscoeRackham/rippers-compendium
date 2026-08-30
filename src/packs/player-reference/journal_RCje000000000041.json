@@ -1,0 +1,39 @@
+{
+	"name": "Musketeer",
+	"_id": "RCje000000000041",
+	"pages": [
+		{
+			"_id": "RCpg000000000046",
+			"name": "Musketeer",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>A duelist whose devotion to blade and gun makes them a graceful whirlwind of steel and smoke.</em></p><p><strong>SKILLS</strong></p><p><strong>DUAL MARTIALISM</strong> · SL max 5</p><p>As part of any Accuracy Check, or as invoked by Perfect Guard, you may spend 5 Mind Points to alter the ranges of any one-handed weapons you have equipped; melee weapons become thrown ranged weapons, and ranged weapons become brawling melee weapons. This effect ends on a weapon after the first use of that weapon is resolved. Once per round after dealing damage with a ranged weapon, your next melee weapon attack deals (SL) additional bonus damage, and vice versa.</p><p><strong>FLUID MOTION</strong></p><p>Whenever you make a melee attack that has multi (2) or higher, you may spend 5 Mind Points and choose to designate up to half of those attacks (rounded up) to use a ranged weapon you have equipped instead of the original weapon, and vice versa, using the accuracy formula of the original weapon of the multi attack.</p><p><strong>RIPOSTE</strong> · SL max 5</p><p>Once per round when you or any allied creature is hit by an enemy's attack, you may spend 10 Mind Points to initiate a parry with a weapon whose range is the opposite of the triggering attack (parry melee with ranged, and vice versa). The attack becomes an Opposed Check using the result of the attack as the enemy's roll, and using the accuracy formula of your weapon for your roll. On a success, choose one of the following: the enemy deals (SL × 3) less damage before Affinities with the parried attack or the enemy suffers slow, ignoring immunities. On a critical success, you may choose both options.</p><p><strong>PERFECT GUARD</strong> · SL max 4</p><p>When you are targeted by an attack, you gain a bonus to your Defense equal to (1 + ½ SL) (which does not stack with shields or armor) as long as you have an equipped weapon with a range opposite to the triggering attack (this can be modified with the Dual Martialism skill as if it was a check by spending the requisite Mind Points).</p><p><strong>WEAVE</strong> · SL max 4</p><p>When you successfully activate Riposte with a melee weapon, your next ranged weapon gains a bonus to its Accuracy Check equal to (SL), and vice versa for activating Riposte with a ranged weapon.</p><hr>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000041.RCpg000000000046"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 3400000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000041"
+}

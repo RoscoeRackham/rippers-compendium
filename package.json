@@ -1,6 +1,6 @@
 {
 	"name": "rippers-compendium",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"private": true,
 	"type": "module",
 	"description": "Rippers Unmasked — Class & Skill Compendium: native Foundry Item packs (classes, class skills, heroic skills) for Project FU. Personal-table module.",

@@ -1,0 +1,39 @@
+{
+	"name": "Unquiet",
+	"_id": "RCje000000000066",
+	"pages": [
+		{
+			"_id": "RCpg000000000071",
+			"name": "Unquiet",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>One who by inheritance holds back a well of dangerous power, and whom even death returns to their duty.</em></p><p><strong>SKILLS</strong></p><p><strong>BLOODSOAKED</strong> · SL max 2</p><p>Whenever an enemy creature is reduced to 0 Hit Points, you gain a stacking (SL) extra damage to your weapon attacks until the end of the scene.</p><p><strong>DEFY FATE</strong> · SL max 2</p><p>Once per scene when your Hit Points drop below half of your Crisis score for the first time, after the damage is resolved but before you would Sacrifice or Surrender, you immediately regain (SL × your level) Hit Points and half as many Mind Points.</p><p><strong>SCREAMING MUSCLE</strong> · SL max 5</p><p>You may use an action to spend 5 Mind Points and make a free attack with a heavy melee weapon you have equipped, which loses multi and cannot gain it. On a hit, deal (SL × 2) physical damage to up to one other enemy within reach of melee attacks (this amount increases by 5 if you are level 20 or higher, or by 10 if you are level 40 or higher). You may spend up to (SL × 2) additional Mind Points as part of activating this skill to inflict dazed on one target of this skill per 5 Mind Points spent.</p><p><strong>INNER FURNACE</strong></p><p>You may suffer the enraged status effect at will as a free action. Whenever you suffer the enraged status effect, you may spend 10 Mind Points. If you do, you may count your Might die as one size higher (to a maximum of d12) until you are no longer enraged.</p><p><strong>TREMENDOUS FORCE</strong> · SL max 5</p><p>Once per round when you miss an enemy with a heavy melee weapon, you may spend 10 Mind Points to make a (Might + Willpower) check with a DL equal to your previous check's result. On a success, you deal (HR + SL) physical damage to the target of the missed attack. You cannot use this skill if you fumble the initial accuracy check. You may spend a Fabula Point to use this skill again during the same round.</p><hr><hr>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000066.RCpg000000000071"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 5900000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000066"
+}

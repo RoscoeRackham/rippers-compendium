@@ -1,0 +1,39 @@
+{
+	"name": "Apothecary",
+	"_id": "RCje000000000010",
+	"pages": [
+		{
+			"_id": "RCpg000000000010",
+			"name": "Apothecary",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>A hedge practitioner who brews cures and curses alike, as dangerous to their enemies as they are to themselves.</em></p><p><strong>SKILLS</strong></p><p><strong>AFFLICT</strong> · SL max 5</p><p>Choose (SL) damage types (e.g., earth, fire, light). As an action, you can spend up to SL × 10 Mind Points. For every 10 Mind Points spent this way, you may apply affliction of one of your chosen damage types to a creature.</p><p><strong>REGENERATE</strong> · SL max 3</p><p>As an action, you may spend up to 5 MP x (SL) to grant the Regeneration condition to (SL) creatures you can see.</p><p><strong>INFECTIOUS</strong></p><p>As an action, select a target suffering any status condition. Another creature you can see suffers one status condition that creature is suffering. Note that with respect to the Affliction condition, the status condition imposed includes all damage types being suffered by the original target.</p><p><strong>VACCINE</strong> · SL max 3</p><p>As a free action on your turn, remove (SL) status conditions for 1 IP, and grant that target immunity to each of the status conditions for the remainder of the conflict scene.</p><p><strong>SYMPTOMATIC</strong></p><p>As an action, choose a target suffering from the Affliction status condition or any number of creatures benefitting from Regeneration. That target immediately suffers damage from the Affliction condition, suffering 10 points of damage per damage type relating to their affliction, or the selected creatures benefitting from Regeneration recover 10 HP. Note that the targets will still suffer damage or recover HP per normal so long as they suffer the relevant status condition.</p><p><strong>RULES</strong></p><p>NEW STATUS CONDITIONS</p><p>AFFLICTION</p><p>When a creature suffers the Affliction status condition, it suffers 10 damage at the end of every round of the type of damage connected to the status condition. A creature may suffer damage related to different damage types as a result of the Affliction condition, meaning that a creature might take 10 fire damage and 10 poison damage (for example, if it had been both set on fire and injected with venom). The damage from any single damage type can never exceed 10 hit points, meaning that the most a target could suffer from the Affliction status condition would be 90 points of damage, and only if it were suffering an affliction from each of the nine damage types (see Core Rulebook, page 92). Importantly, although a creature may suffer damage of multiple types, the Affliction condition only counts as a single status condition, just like dazed, shaken, slow, or weak. It can be removed in the same way any other status condition, and any effect that removes all status effects will also remove the Affliction status condition, regardless of how many damage types the target is suffering from.</p><p>REGENERATION</p><p>When a creature gains the Regeneration status condition, it recovers 10 hit points at the beginning of every round. Note that a creature can never have multiple Regeneration status conditions and can never recover more than 10 HP per round as a result of the status condition. The status condition can be removed in the same ways as any other status condition.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000010.RCpg000000000010"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 300000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000010"
+}

@@ -1,0 +1,39 @@
+{
+	"name": "Malefactor",
+	"_id": "RCje000000000038",
+	"pages": [
+		{
+			"_id": "RCpg000000000043",
+			"name": "Malefactor",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Malefactors specialize in the magic of suffering, destruction, and change.</em></p><p><strong>SKILLS</strong></p><p><strong>Exploit</strong> · SL max 5</p><p>As an action during a conflict, you can spend 10 Mind Points to begin exploiting the afflictions of your enemies. When you do this, choose one of the following status effects: Dazed, Shaken, Slow, or Weak. At the beginning of your future turns this conflict, enemies with the chosen status effect suffer (SL × 3) damage of the same type as one of your equipped weapons (if none, physical). You can only Exploit a single status effect at a time. You can use an action on future turns to change the status effect you are exploiting.</p><p><strong>Maniacal Insight</strong></p><p>When a Villain enters a scene that you are present in, you can spend a Fabula Point to learn the Villain's goal for that scene. If a Villain has multiple goals, the Game Master chooses which one you'd be most likely to learn.</p><p><strong>Malefactor Magic</strong> · SL max 9</p><p>Each time you acquire this Skill, learn one Malefaction spell. Offensive Malefaction spells use (INS + WLP) for the Magic Check.</p><p><strong>Ritual Malefaction</strong></p><p>You may perform Rituals whose effects fall within the Malefaction discipline. Malefaction Rituals use (INS + WLP) for the Magic Check.</p><p><strong>Sacrificial Gambit</strong></p><p>When you cast an offensive spell at a single target, before you make your Check, you can choose to automatically succeed at the cost of also suffering the spell's effects (treating HR for both you and the target as 0). If the spell in some way would have no effect on you — such as applying a status effect you already have — this skill fails and neither you nor the target are affected.</p><p><strong>SPELLS</strong></p><p><strong>APPLIED INFIRMITY [Z]</strong> · 5 × T MP · Up to three creatures · Instantaneous</p><p>When you cast this spell, choose one status effect: dazed, shaken, slow, or weak. Each target hit by this spell suffers the chosen status effect.</p><p><strong>RECIPROCAL TRANSFERENCE [Z]</strong> · 15 MP · Two creatures · Instantaneous</p><p>The targets swap their current status effects with one another. A willing target can choose to be hit by this spell regardless of the Magic Check's result.</p><p><strong>NERVOUS DEBILITY</strong> · 20 MP · One creature · Scene</p><p>The target suffers a −1 penalty to their Accuracy or Magic Checks. This penalty increases to −2 if you are level 20 or higher, and to −3 if you are level 40 or higher.</p><p><strong>PROSCRIPTIVE ORDER</strong> · 20 MP · One creature · Scene</p><p>When you cast this spell, you must declare an Action type (besides Attack). For the spell's duration, whenever the target takes the declared Action, they lose Hit Points equal to their level. Once this has occurred 3 times, this spell's effects end.</p><p><strong>HUMORAL TRANSPOSITION [Z]</strong> · 20 MP · One creature · Scene</p><p>The target's current Dexterity and Might die sizes are switched, as are their Insight and Willpower.</p><p><strong>IDIOPATHIC ONSET</strong> · Up to 20 MP · One creature · Instantaneous</p><p>Roll 1d6 once for every 10 Mind Points spent when casting this spell. Resolve each effect.</p><ul><li>1: Nothing happens.</li><li>2: The target suffers slow.</li><li>3: The target suffers dazed.</li><li>4: The target suffers weak.</li><li>5: The target suffers shaken.</li><li>6: The target suffers your choice of either dazed, shaken, slow, or weak.</li></ul><p><strong>ATAVISM</strong> · 20 MP · One creature · Instantaneous</p><p>Any spells or effects on the target that were acquired since the end of your last turn are lost. If an effect was acquired as a consequence of a change of state, such as being in Crisis or holding a specific item, it cannot be lost as a result of this spell.</p><p><strong>FRIABILITY</strong> · 20 MP · One creature · Instantaneous</p><p>When you cast this spell, name one damage type. The target is treated as Vulnerable to that damage type against the next source of damage it suffers, then this spell ends.</p><p><strong>STRUCTURAL FATIGUE [Z]</strong> · 20 MP · One creature · Scene</p><p>The target's Defense and Magic Defense are each reduced by 2. Once the target has been hit by 3 Attacks or offensive spells, this spell's effect ends.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000038.RCpg000000000043"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 3100000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000038"
+}

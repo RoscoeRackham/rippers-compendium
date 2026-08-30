@@ -1,0 +1,39 @@
+{
+	"name": "Dowser",
+	"_id": "RCje000000000026",
+	"pages": [
+		{
+			"_id": "RCpg000000000031",
+			"name": "Dowser",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Dowsers research the innate energy of souls and the way it spontaneously flows and manifests throughout their surroundings.</em></p><p><strong>SKILLS</strong></p><p><strong>RIPPLES</strong> · SL max 5</p><p>After an enemy you can see loses Hit Points due to damage dealt by one of your allies, if that damage was increased by one or more of your 'hex' invocations, you may perform a free attack with a weapon you have equipped. This attack may only target that enemy, and receives a bonus equal to (SL) to its Accuracy Check; if it is successful, all its damage becomes of the same type dealt by your ally, and all 'hex' invocations present on its target end immediately after the attack has been resolved.</p><p>If two or more enemies trigger this Skill at the same time, you can perform a free attack against each of them, in whatever order you prefer.</p><p><strong>WELLSPRING EXPANSION</strong> · SL max 5</p><p>As long as you have a weapon belonging to the arcane, bow, brawling, flail, sword, or thrown Category equipped, your 'blast' invocations deal (SL) extra damage, and the extra damage granted by your 'hex' invocations is increased by (SL).</p><p><strong>INVOCATION</strong> · SL max 3</p><p>You may use an action and spend 5 Mind Points to perform an invocation, drawing energy from one of the wellsprings present on the scene. Your (SL) in this Skill determines which invocations you have access to.</p><p><strong>LINKED INVOCATION</strong> · SL max 3</p><p>When you perform an invocation, you may spend up to (SL × 10) additional Mind Points. For every 10 Mind Points you spend this way, the invocation may target an additional creature you can see.</p><p><strong>ELEMENTAL HARMONY</strong> · SL max 2</p><p>You may always communicate with creatures of the elemental Species. When you restore a creature's Hit Points with an invocation or spell, if an elemental is present on the scene, the restored amount is increased by (SL × 5).</p><p><strong>RULES</strong></p><p><strong>Determining Available Wellsprings.</strong></p><p>During each scene, your surroundings grant you two different wellsprings: the Game Master tells you what they are. Remember to describe how wellsprings manifest in the scene; they may be natural features, objects, or even creatures.</p><p><strong>Performing An Invocation.</strong></p><p>When you perform an invocation, choose one option you have access to among those in the table below (provided the corresponding wellspring is available in the scene); then, apply its effects to one creature you can see.</p><p>Your Skill Level in the Invocation Skill determines which invocations you have access to: (SL 1) enables \"blast\" invocations, (SL 2) enables \"blast\" and \"hex\" invocations, and (SL 3) gives you access to all invocations.</p><p>If an invocation deals damage, it will deal 5 extra damage if you are level 20 or higher, or 10 extra damage if you are level 40 or higher. Similarly, if an invocation causes the target to recover Hit Points or lose Mind Points, the amount will increase by 10 if you are level 20 or higher, or by 20 if you are level 40 or higher.</p><p><strong>Wellsprings And Invocations.</strong></p><p><strong>Air wellspring</strong> <em>(damage type: air)</em></p><ul><li><strong>Aero Blast</strong> — You deal 20 air damage to the target.</li><li><strong>Aero Hex</strong> — Until the start of your next turn, the target suffers 5 extra damage from all sources that deal bolt and fire damage.</li><li><strong>Breeze</strong> — The target recovers 30 Hit Points.</li><li><strong>Twister</strong> — You deal 10 air damage to the target, and they suffer dazed.</li></ul><p><strong>Earth wellspring</strong> <em>(damage type: earth)</em></p><ul><li><strong>Geo Blast</strong> — You deal 20 earth damage to the target.</li><li><strong>Geo Hex</strong> — Until the start of your next turn, the target suffers 5 extra damage from all sources that deal air and ice damage.</li><li><strong>Growth</strong> — The target recovers 30 Hit Points.</li><li><strong>Quicksand</strong> — You deal 10 earth damage to the target, and they suffer slow.</li></ul><p><strong>Fire wellspring</strong> <em>(damage type: fire)</em></p><ul><li><strong>Pyro Blast</strong> — You deal 20 fire damage to the target.</li><li><strong>Pyro Hex</strong> — Until the start of your next turn, the target suffers 5 extra damage from all sources that deal earth and ice damage.</li><li><strong>Burst</strong> — You deal 10 fire damage to the target, and they suffer shaken.</li><li><strong>Smoke</strong> — The target loses 20 Mind Points and also suffers weak.</li></ul><p><strong>Lightning wellspring</strong> <em>(damage type: bolt)</em></p><ul><li><strong>Electro Blast</strong> — You deal 20 bolt damage to the target.</li><li><strong>Electro Hex</strong> — Until the start of your next turn, the target suffers 5 extra damage from all sources that deal earth and fire damage.</li><li><strong>Static</strong> — You deal 10 bolt damage to the target, and they suffer slow.</li><li><strong>Thunder</strong> — The target loses 20 Mind Points and also suffers dazed.</li></ul><p><strong>Water wellspring</strong> <em>(damage type: ice)</em></p><ul><li><strong>Hydro Blast</strong> — You deal 20 ice damage to the target.</li><li><strong>Hydro Hex</strong> — Until the start of your next turn, the target suffers 5 extra damage from all sources that deal air and bolt damage.</li><li><strong>Chill</strong> — The target loses 20 Mind Points and also suffers shaken.</li><li><strong>Frostbite</strong> — You deal 10 ice damage to the target, and they suffer weak.</li></ul>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000026.RCpg000000000031"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 1900000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000026"
+}

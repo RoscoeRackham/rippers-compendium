@@ -1,0 +1,39 @@
+{
+	"name": "Pugilist",
+	"_id": "RCje000000000050",
+	"pages": [
+		{
+			"_id": "RCpg000000000055",
+			"name": "Pugilist",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Bare-knuckle fighters and street brawlers with an unmatched hunger for honorable combat.</em></p><p><strong>SKILLS</strong></p><p><strong>PARRY</strong></p><p>When you are about to be hit by a melee attack, you may roll an Accuracy Check as if you were performing an unarmed attack. Then, compare both results:</p><ul><li>If yours is higher, treat that attack's damage as if you were Resistant to it.</li><li>If yours is lower, treat that attack's damage as if you were Vulnerable to it.</li><li>If they are equal, you get a Perfect Parry: Interrupt that attack, preventing all of its effects.</li></ul><p>If you use this Skill during a conflict, you cannot use it again until the start of your next turn unless you got a Perfect Parry.</p><p><strong>CLINCH</strong> · SL max 3</p><p>When you hit a single creature with a weapon belonging to the flail or brawling categories, you may have it deal no damage and instead perform an Opposed Check with (DEX + MIG) against that creature. If you succeed on that check, your target suffers HP loss equal to twice your attack's damage prior to using Clinch (ignoring affinities). Then, they suffer Dazed. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p><p>Gain a (+SL) bonus to Opposed Checks related to grappling.</p><p><strong>MARK</strong></p><p>When you hit one or more creatures with an Attack, Offensive Spell, or a similar ability, you may set one of them as your Mark target. You may only have one Mark target at a time, and lose it at the end of the scene. Whenever you are about to perform any sort of Check against your Mark target, clear your Mark and gain a +1 to your Check.</p><p><strong>FOOTWORK</strong> · SL max 2</p><p>At the start of every conflict, gain (SL) Combo Break tokens. If you're not wearing Martial Armor, you may spend one Combo Break token at any time to dodge an attack. You lose all of Combo Break tokens at the end of the scene.</p><p><strong>COMBINATION</strong> · SL max 5</p><p>As an action, choose a number of Inputs up to (SL) and spend (5 × Inputs) MP. Then, perform a check with (DEX + INS) against a DL of (6 + Inputs). If you succeed, perform an unarmed free attack and add to it as many effects from the following list as the Inputs you chose:</p><ul><li>Finishing Blow: It deals +5 Damage.</li><li>Fleet-Foot: It gains a +3 bonus to its Accuracy Check.</li><li>Sweeping Strike: It gains multi (2) or, if it already has it, increases it by one, up to a maximum of multi (3).</li><li>Shoulder-Shaker: Its targets suffer slow or dazed (your choice).</li><li>The Clinch: You gain a +3 to your next Opposed Check against your target until the end of your next turn.</li></ul><p>You may only choose each option once.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000050.RCpg000000000055"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 4300000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000050"
+}

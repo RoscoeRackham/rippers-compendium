@@ -1,0 +1,39 @@
+{
+	"name": "Guardian",
+	"_id": "RCje000000000034",
+	"pages": [
+		{
+			"_id": "RCpg000000000039",
+			"name": "Guardian",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Proud and selfless, Guardians will sacrifice themselves for a person, nation or ideal they have sworn to protect.</em></p><p><strong>SKILLS</strong></p><p><strong>SHIELD MASTERY</strong> · SL max 5</p><p>When you use the Guard action with a shield equipped, your Guard value increases by (SL).</p><p><strong>PROTECTING OTHERS</strong> · SL max 3</p><p>When an ally you can see within 3 squares of you would suffer damage or a negative status effect, you may use a reaction and move up to 3 squares towards them. If you reach them, you reduce their damage or negate their status effect.</p><p><strong>LAST STAND</strong> · SL max 3</p><p>When you reach 0 Hit Points and have not yet been defeated in this conflict, you remain standing with 1 Hit Point instead. You may do this a number of times per conflict equal to (SL).</p><p><strong>AEGIS</strong> · SL max 2</p><p>When you use the Guard action, one ally you can see within 3 squares of you gains Guard value equal to (SL × 2) until the end of the scene.</p><p><strong>INSPIRE</strong> · SL max 3</p><p>When an ally you can see uses an action during their turn, you may use a reaction to grant them a +2 bonus to their next Check.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000034.RCpg000000000039"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 2700000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000034"
+}

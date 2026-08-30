@@ -1,0 +1,19 @@
+{
+	"name": "Appendix — Shared Subsystems",
+	"_id": "RCfd000000000003",
+	"type": "JournalEntry",
+	"sorting": "m",
+	"folder": null,
+	"sort": 300000,
+	"color": "",
+	"flags": {
+		"rippers-compendium": {
+			"section": "appendix"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!folders!RCfd000000000003"
+}

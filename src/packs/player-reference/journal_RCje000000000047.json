@@ -1,0 +1,39 @@
+{
+	"name": "Physician",
+	"_id": "RCje000000000047",
+	"pages": [
+		{
+			"_id": "RCpg000000000052",
+			"name": "Physician",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Physicians are professionals at the healing arts, with deft and steady hands suited to medical procedures from dressing wounds to ameliorating even the worst of maladies.</em></p><p><strong>SKILLS</strong></p><p><strong>Doctorate</strong></p><p>You may perform Medical Procedures, which follow the same rules as Rituals but use a Medical Check — (DEX + INS) or (INS + INS) — and are costed in zenit or Inventory Points at the Game Master's discretion: Minor (100 zenit / 3 IP, Difficulty Level 7) through Extreme (800 zenit / 6 IP, Difficulty Level 16), addressing injuries, conditions and ailments from a dislocation through to organ transplants and magical disease.</p><p><strong>Drug Synthesis</strong> · SL max 3</p><p>When you create a potion, you may combine it with up to (SL) Pharmaceuticals of your choice; the resulting compound carries all component effects and all component Inventory Point costs, plus any listed synergy.</p><p><strong>Emergency Aid</strong> · SL max 5</p><p>When an item or spell you use restores Hit Points and/or Mind Points to a target that is in Crisis, that target recovers +(SL × 5) additional Hit Points and/or Mind Points.</p><p><strong>Organized Pharmacy</strong> · SL max 3</p><p>Carry +(SL × 2) Inventory Points, ring-fenced for use with Pharmaceuticals and Drug Synthesis items. If this Skill is taken at character creation, those Inventory Points arrive stocked. The satchel and its current stock are tied to the Guise. This Skill grants capacity, not supply — refills cost 10 zenit per Inventory Point.</p><p><strong>Pharmaceuticals</strong> · SL max 5</p><p>Each time you acquire this Skill, add two entries to your pharmaceutical catalogue — potions, elixirs and period-named preparations — which you can create and use via the Inventory action.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000047.RCpg000000000052"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 4000000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000047"
+}

@@ -1,0 +1,39 @@
+{
+	"name": "Courier",
+	"_id": "RCje000000000023",
+	"pages": [
+		{
+			"_id": "RCpg000000000028",
+			"name": "Courier",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Bearers of precious cargo, Couriers travel the world bringing important materials between people and places.</em></p><p><strong>SKILLS</strong></p><p><strong>DELIVERY</strong></p><p>When you deliver a package to its destination, you may choose one: gain 50 zenit; or gain one Fabula Point; or record one new location on the world map that is connected by roads to a location you already know.</p><p><strong>SPRY AND TIRELESS</strong> · SL max 2</p><p>Your movement speed increases by 2 (in both Exploration and Conflict).</p><p><strong>SURVEY</strong> · SL max 5</p><p>After you spend one day exploring a region, you may ask the GM one question about that region's geography, weather, or inhabitants.</p><p><strong>FREQUENT GUEST</strong> · SL max 5</p><p>When you arrive in a settlement where you have previously delivered a package, you gain a +2 bonus on any Check related to Hospitality, Commerce, or Nobility, and a contact who will vouch for you.</p><p><strong>JUST BORROWING IT</strong> · SL max 4</p><p>You may borrow an item from a settlement's market without paying; record its cost. You may use it during this adventure, but you must return it to a settlement by the adventure's end. If you return it, subtract its cost from your rewards. If you do not return it, the settlement's mood toward your party decreases by 1.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000023.RCpg000000000028"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 1600000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000023"
+}

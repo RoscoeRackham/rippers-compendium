@@ -1,0 +1,39 @@
+{
+	"name": "Lancer",
+	"_id": "RCje000000000036",
+	"pages": [
+		{
+			"_id": "RCpg000000000041",
+			"name": "Lancer",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>A bold, loyal warrior who fights with such fervent conviction that their belief seems to shine through their armor.</em></p><p><strong>SKILLS</strong></p><p><strong>ESPRIT DE FOI</strong> · SL max 5</p><p>When you hit with a melee weapon you have equipped or deal damage with an Offensive Spell, you may deal bonus damage equal to (SL × every positive emotion of one bond you possess). All damage dealt by this attack becomes light and its damage type cannot be changed. Explain how that bond powers your radiant blast! The chosen bond cannot be used for this skill again this scene, even if the attack or spell misses.</p><p><strong>FELLOWSHIP</strong></p><p>As long as an allied creature shares a status effect with you, they gain a bonus to all Accuracy and Open Checks that are affected by the status you share equal to the Strength of your bond towards them. Only one allied creature may benefit from this effect at a time, which you may choose at the end of your turn.</p><p><strong>LEND A HAND</strong> · SL max 3</p><p>Once per scene you may spend up to (SL) Fabula Points and Invoke a bond you possess towards an ally to grant the target of that bond Fabula Points equal to the amount spent. If the target is in Crisis, you may also use the Guard action as a free action to grant them cover, even if it is not your turn or you have already taken your turn this round. You may only use the Guard action again this way after resting in a city or settlement.</p><p><strong>RALLY</strong> · SL max 4</p><p>You may use an action to spend up to (SL × 5) Mind Points. For every 5 Mind Points spent this way, you may choose one allied creature, which may include yourself. Each target chosen recovers from one status effect and treats the one of dice afflicted by that status as if it were one size higher (up to a maximum of d12) until the end of the next action they take with that die or the end of their next turn, whichever comes first.</p><p><strong>TRIUMPH</strong> · SL max 2</p><p>When you make an accuracy check with a melee weapon, you may replace one of the dice in the roll with (WLP). If your (WLP) is higher than your target's, you gain a bonus to your accuracy check equal to (SL). This replacement applies to multi-hit and multi-target attacks as well.</p><hr>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000036.RCpg000000000041"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 2900000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000036"
+}

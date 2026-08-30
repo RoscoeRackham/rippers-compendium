@@ -1,0 +1,39 @@
+{
+	"name": "Chanter",
+	"_id": "RCje000000000020",
+	"pages": [
+		{
+			"_id": "RCpg000000000025",
+			"name": "Chanter",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Chanters rely on the strength of their souls, weaving magical energy into songs that support their allies during tense situations.</em></p><p><strong>SKILLS</strong></p><p><strong>MAGICHANT</strong> · SL max 10</p><p>On your turn during a conflict scene, you may use an action and spend a variable amount of MP to weave voice and music into a magical effect known as a verse. You may only sing one verse per turn, even if you have access to multiple actions.</p><p>When you first acquire this Skill, you learn all three volumes, plus one key and one tone. Whenever you acquire this Skill again, you may learn one key or one tone (your choice).</p><p>When you sing a verse, you combine a volume, a key and a tone you learned. These three aspects determine the verse's MP cost, targets, and effect.</p><ul><li>The volume determines the sound intensity of your verse (and the creatures you can reach with it).</li><li>Each tone determines the general effects of your verse.</li><li>Each key has an associated damage type, status effect, Attribute and recovery. These modify the effects determined by the tone of your verse.</li></ul><table><thead><tr><th>Volume</th><th>MP</th><th>Targets</th></tr></thead><tbody><tr><td>Low</td><td>10</td><td>Yourself or another creature you can see that is able to hear you.</td></tr><tr><td>Medium</td><td>20</td><td>Every ally that is able to hear you.</td></tr><tr><td>High</td><td>30</td><td>Every enemy that is able to hear you.</td></tr></tbody></table><table><thead><tr><th>Key</th><th>Type</th><th>Status Effect</th><th>Attribute</th><th>Recovery</th></tr></thead><tbody><tr><td>Flame</td><td>fire</td><td>shaken</td><td>Might</td><td>Hit Points</td></tr><tr><td>Frost</td><td>ice</td><td>weak</td><td>Willpower</td><td>Mind Points</td></tr><tr><td>Iron</td><td>physical</td><td>slow</td><td>Willpower</td><td>Mind Points</td></tr><tr><td>Radiance</td><td>light</td><td>dazed</td><td>Insight</td><td>Hit Points</td></tr><tr><td>Shadow</td><td>dark</td><td>weak</td><td>Dexterity</td><td>Mind Points</td></tr><tr><td>Stone</td><td>earth</td><td>dazed</td><td>Might</td><td>Hit Points</td></tr><tr><td>Thunder</td><td>bolt</td><td>shaken</td><td>Dexterity</td><td>Hit Points</td></tr><tr><td>Wind</td><td>air</td><td>slow</td><td>Insight</td><td>Mind Points</td></tr></tbody></table><p><strong>Calm.</strong> Each target recovers an amount of (key recovery) equal to (10 + twice your current Willpower die size). This amount increases by 10 if you are level 20 or higher, or by 20 if you are level 40 or higher. If this verse causes MP recovery, it has no effect on the character that sings it.</p><p><strong>Energetic.</strong> Until the start of your next turn, when a target succeeds on a Check that includes (key Attribute) and that Check allows them to advance or turn back a Clock, they may fill or erase 1 additional section of that Clock.</p><p><strong>Frantic.</strong> You deal an amount of (key type) damage equal to twice your current Willpower die size to each target. This tone deals 5 extra damage if you are level 20 or higher, or 10 extra damage if you are level 40 or higher.</p><p><strong>Haunting.</strong> Each target suffers (key status effect). Each target also loses Resistance to (key type) damage (if they have it) until the start of your next turn, and cannot gain Resistance to that damage type until the start of your next turn.</p><p><strong>Lively.</strong> Each target treats their (key Attribute) as being one die size higher (up to a maximum of d12) until the start of your next turn.</p><p><strong>Menacing.</strong> The first time each target suffers damage before the start of your next turn, that damage becomes (key type). This effect can trigger once for each target of the verse, separately.</p><p><strong>Solemn.</strong> Each target recovers from (key status effect). Each target also gains Resistance to (key type) damage until the start of your next turn.</p><p><strong>RESONANCE</strong> · SL max 3</p><p>After you affect one or more enemies with a verse, if you have an arcane weapon equipped, you may choose one option: until the start of your next turn, your allies deal (SL) extra damage to those enemies; or until the start of your next turn, you recover (SL) Mind Points every time one of those enemies suffers damage (if the same source deals damage to two or more of those enemies at the same time, you recover (SL) MP for each damaged enemy).</p><p><strong>SOUND BARRIER</strong> · SL max 5</p><p>After you sing a verse with medium or high volume, all physical damage you suffer until the start of your next turn is reduced by (SL) (applied before Affinities).</p><p><strong>VIBRATO</strong></p><p>After you sing a verse with low or medium volume, you may perform a free attack with a weapon you have equipped (after the effects of the verse have been resolved). Treat your High Roll (HR) as 0 when calculating damage dealt by this attack.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000020.RCpg000000000025"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 1300000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000020"
+}

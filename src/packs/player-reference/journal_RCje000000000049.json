@@ -1,0 +1,39 @@
+{
+	"name": "Prowler",
+	"_id": "RCje000000000049",
+	"pages": [
+		{
+			"_id": "RCpg000000000054",
+			"name": "Prowler",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>A hunter who stands as the last defense against the dark, slaying vampires, horrors, and demons wherever needed.</em></p><p><strong>SKILLS</strong></p><p><strong>TROPHY ARMS</strong> · SL max 5</p><p>You may craft harvested materials from slain creatures into weapons using the tables below during a rest or camp. You may only have (SL) unique weapons total, but may overwrite them as you wish.</p><p><strong>GRUDGE</strong> · SL max 3</p><p>You have a number of creature types (beast, construct, demon, etc.) on your hunted creature list equal to (SL). You and the GM must determine what the most \"common\" hostile creature type of your home region is; the chosen type is required to always be on your hunted creatures list, but you may change out any additional creature types during a rest in a city or settlement. Any resources and rewards you obtain from hunted creatures have an increased zenit value equal to (SL × 5) percent.</p><p><strong>MITHRIDATISM</strong> · SL max 3</p><p>Damage you take from hunted creatures is reduced by (SL) before Affinities, or by (SL × 2) before Affinities if you are Resistant to that damage type.</p><p><strong>REPUTATION</strong> · SL max 4</p><p>At the start of a conflict scene, choose dazed or slow; any creatures in the scene that are hunted immediately suffer the chosen status effect. A creature that is hunted must succeed on a (WLP + WLP) Opposed Check against you when trying to recover from the chosen status effect if you inflicted it, otherwise they fail and do not recover from it. You gain a bonus equal to (SL) to your Checks for this Skill.</p><p><strong>PRIME CUT</strong> · SL max 3</p><p>When you reduce a creature to 0 Hit Points or force it to retreat, you always instantly receive a forageable or harvestable material from it, regardless of the nature of the creature's death or escape, noting the creature it came from. This item's value is equal to (SL × Enemy level × 2). You may combine two raw materials harvested from hunted creatures (within reason) to add their value together as a single item during a rest or camp.</p><p><strong>TROPHY ARMS — FABRICATION</strong></p><p>When crafting weapons using Trophy Arms, you may supplement any zenit cost with equivalent value in harvested materials. When making an item profile, you must choose whether you are making a weapon. Then, choose its base and unique craft. You may add an additional craft to a weapon in its Quality slot during a rest by spending 100z plus the cost of the craft; if there are multiple of the same type of craft, you must choose which craft to have active when you equip a profile. Trophy Arms weapons and items cannot be given Qualities via blacksmiths and NPCs; they are uniquely made by you and may not make sense to trained smiths.</p><p><em>Base</em></p><table><thead><tr><th>Type</th><th>Stat</th><th>1H</th><th>2H (+50z)</th></tr></thead><tbody><tr><td>Arcane (50z)</td><td>INS/WLP + INS/WLP</td><td>HR+2</td><td>HR+6</td></tr><tr><td>Bow (150z)</td><td>DEX + DEX/INS</td><td>HR+4</td><td>HR+8</td></tr><tr><td>Brawling (150z)</td><td>DEX + MIG/DEX</td><td>HR+6</td><td>HR+10</td></tr><tr><td>Dagger (150z)</td><td>DEX + DEX/INS</td><td>HR+4</td><td>HR+8</td></tr><tr><td>Firearm (250z)</td><td>DEX + INS</td><td>HR+8</td><td>HR+12</td></tr><tr><td>Flail (100z)</td><td>DEX + DEX</td><td>HR+4</td><td>HR+8</td></tr><tr><td>Heavy (200z)</td><td>MIG + MIG</td><td>HR+10</td><td>HR+14</td></tr><tr><td>Spear (200z)</td><td>DEX + MIG/DEX</td><td>HR+8</td><td>HR+12</td></tr><tr><td>Sword (200z)</td><td>DEX + MIG/DEX</td><td>HR+6</td><td>HR+10</td></tr><tr><td>Thrown (150z)</td><td>DEX + DEX/MIG/INS</td><td>HR+4</td><td>HR+8</td></tr></tbody></table><p><em>Craft</em></p><table><thead><tr><th></th><th>Barbed (+0z)</th><th>Serrated (+50z)</th><th>Sturdy (+100z)</th></tr></thead><tbody><tr><td><strong>Sting (+0z)</strong></td><td>When fabricating this item, choose one type of damage the source of the material dealt. All damage this weapon deals is the type chosen.</td><td>When fabricating this item, choose one type of damage the source of the material had a Vulnerability to. All damage this weapon deals is the type chosen.</td><td>When fabricating this item, choose one type of damage the source of the material dealt or had a Resistance or Immunity to. The wielder of this item gains a Resistance of the same type.</td></tr><tr><td><strong>Pulse (+50z)</strong></td><td>When fabricating this item, choose one status effect the source of the material dealt. The wielder of this item may spend 5 Mind Points to inflict that status in addition to damage when they hit with an attack.</td><td>When fabricating this item, choose one minor status effect that targets the source of the material's highest attribute. The wielder of this item may spend 5 Mind Points to inflict that status in addition to damage when they hit with an attack, ignoring Immunity.</td><td>When fabricating this item, choose one status effect the source of the material dealt. The wielder of this item is immune to that status effect.</td></tr><tr><td><strong>Hunt (+100z)</strong></td><td>The wielder of this item deals +2 damage to dazed or slow creatures with this item (this increases to +4 at level 20 and +6 at level 40).</td><td>The wielder of this item deals +2 damage to creatures of the same type as the source of the material (this increases to +4 at level 20, and +6 at level 40) with this item.</td><td>The wielder of this item takes −2 damage from creatures of the same type as the source of the material (this increases to −4 at level 20, and −6 at level 40).</td></tr></tbody></table><p><em>Profiles</em></p><p>Weapons made using Trophy Arms are considered multiple profiles of one weapon, similar to a Custom Weapon, representing your vast array of cohesive trophy arms. You may switch between these profiles as a free action once per turn, but may only have one profile active at any time, even if it is a one-handed weapon. If you switch into a two-handed profile while a non-Trophy-Arms weapon is equipped, you must first unequip it.</p><p>You may lend individual profiles to allies as an action outside of conflict, losing access to the lent profile until it is returned. Lent profiles cannot access other profiles the wielder does not possess, and the wielder cannot switch them as a free action unless they have levels in Trophy Arms, instead requiring a full Equipment action to switch like a normal weapon. Any lent profile that is overwritten loses its function immediately.</p><p><strong>TROPHY ARMS AND TECHNOSPHERES</strong></p><p>While it is possible to incorporate Hoplospheres into Trophy Arms quite easily, incorporating Mnemospheres must be approached with caution since each Trophy Arms weapon has its own Quality slot and can be swapped as a mere free action. It is recommended that you take one of the following approaches:</p><ol><li>Only one weapon profile can have a Mnemosphere installed at any time.</li><li>All weapon profiles share the same Mnemosphere slots.</li><li>All weapon profiles are simply incompatible with Mnemospheres.</li></ol><hr>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000049.RCpg000000000054"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 4200000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000049"
+}

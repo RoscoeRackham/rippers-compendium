@@ -1,0 +1,39 @@
+{
+	"name": "Reaper",
+	"_id": "RCje000000000051",
+	"pages": [
+		{
+			"_id": "RCpg000000000056",
+			"name": "Reaper",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Reapers harvest spiritual energy moments before death, when it is at its brightest.</em></p><p><strong>SKILLS</strong></p><p><strong>Reaping</strong> · SL max 5</p><p>After a creature you can see loses Hit Points, if that creature is in Crisis and is not undead, you gain 1 Grave Point (you may hold up to (SL + 1) Grave Points at a time). When you are reduced to 0 Hit Points, you lose all your Grave Points; the first time this happens each scene, if you lost at least 1 Grave Point this way, your Hit Points become (SL × the number of Grave Points lost) instead of 0.</p><p><strong>The Grave Speaks</strong></p><p>You can always communicate with undead creatures. Once per scene, you may ask an undead creature one question; it is compelled to answer truthfully.</p><p><strong>Cold Comfort</strong> · SL max 5</p><p>After you cause one or more enemies to lose Hit Points, if at least one of those enemies is shaken and/or weak, you gain 1 Grave Point and recover (SL × 2) Mind Points.</p><p><strong>Toll</strong> · SL max 5</p><p>When your spell deals damage to one or more enemies, you may spend 1 Grave Point and choose one of the following: choose one enemy damaged by the spell — the spell deals extra damage to each damaged enemy equal to (SL + that enemy's current number of status effects); or every enemy damaged by the spell suffers shaken after the spell resolves.</p><p><strong>Corpse-Light</strong></p><p>When you cast an offensive spell with a target of \"One creature\", you may spend 2 Grave Points: that spell instead targets every creature present in the scene — allies included — making one Magic Check compared against each Magic Defense separately. All damage dealt by the spell becomes dark and cannot change type.</p><p><strong>RULES</strong></p><p><strong>Raising</strong> targets beasts, monsters and plants only — never humanoids. <em>(House restriction, Unmasked.)</em></p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000051.RCpg000000000056"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 4400000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000051"
+}

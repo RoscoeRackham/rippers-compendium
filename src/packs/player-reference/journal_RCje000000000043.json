@@ -1,0 +1,39 @@
+{
+	"name": "Operative",
+	"_id": "RCje000000000043",
+	"pages": [
+		{
+			"_id": "RCpg000000000048",
+			"name": "Operative",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Assassins who master stealth, precision strikes, and identities worn like masks.</em></p><p><strong>SKILLS</strong></p><p><strong>LETHAL PRECISION</strong> · SL max 5</p><p>You may spend an action and up to (SL × 5) MP (minimum 5 MP) to perform a free attack using a Brawling, Dagger, or Thrown weapon against a single creature, gaining a +1 to its Accuracy Check for every 5 MP spent this way. This loses multi if it has it, and cannot gain it. If you beat your target's Defense by 5 or more, trigger an Assassination: Your attack ignores affinities and multiplies its damage by x2, or to x3 if your target was Vulnerable to it in the first place.</p><p><strong>SHADOW STEP</strong> · SL max 3</p><p>You may spend an action to perform an open check (DEX + INS). Until the end of your next turn, you cannot be seen or targeted by any creature whose (INS) die is lower than the result of your check. You may exempt allies from this effect. All contested or open checks closely related to hiding or sneaking (including this one) get a (+SL) bonus.</p><p><strong>FIRST STRIKE</strong> · SL max 3</p><p>During your first turn of a conflict; or when one of your actions includes among its targets at least one creature that cannot see you, gain a (+SL) bonus to your Accuracy and Magic Checks. Additionally, gain a (+SL) bonus to Initiative checks.</p><p><strong>COVER IDENTITY</strong></p><p>If you have some time to prepare and are out of sight, you may spend 1 Fabula Point to fully adopt a new persona. Write it down: You may change into that persona at any time as long as you're out of sight of those you wish to trick.</p><p>Your disguise is practically perfect and can withstand the scrutiny of any Soldier-ranked foe until you blow your cover. Elites, Champions, and Villains may be able to see through your disguise, but only Villains may permanently invalidate your disguise by spending an Ultima Point.</p><p><strong>CORROSIVE APPLICATION</strong> · SL max 3</p><p>As an action, you may spend 2 IP and choose any number of weapons you have equipped: Until the end of the scene, you increase their damage by (SL) and switch their damage type to Poison. All Open Checks related to identifying, combating, or using poisons gain a (+SL) bonus.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000043.RCpg000000000048"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 3600000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000043"
+}

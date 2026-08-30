@@ -1,0 +1,39 @@
+{
+	"name": "Captain",
+	"_id": "RCje000000000017",
+	"pages": [
+		{
+			"_id": "RCpg000000000017",
+			"name": "Captain",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Captains are leaders and inspiring figures who have earned the loyalty of their comrades on the battlefield.</em></p><p><strong>SKILLS</strong></p><p><strong>QUEEN'S GAMBIT</strong> · SL max 6</p><p>During a conflict, you may use an action to perform a free attack with a weapon you have equipped, treating your High Roll as 0 when calculating damage. After this attack has been resolved, you may choose one option: one ally that is able to hear you recovers (5 + (SL × 5)) Hit Points; or you use a Skill you acquired among Bishop's Edict, Charging Cavalry or King's Castle for free (spending the appropriate MP).</p><p><strong>BISHOP'S EDICT</strong> · SL max 5</p><p>During a conflict, you may use an action and spend 10 Mind Points to choose one option: all MP costs are doubled; or all sources of damage deal (SL × 3) extra damage. The chosen effect lasts until the start of your next turn.</p><p><strong>CHARGING CAVALRY</strong> · SL max 5</p><p>During a conflict, you may use an action and spend 10 MP to choose one ally that can hear you. That ally may perform a free attack with a weapon they have equipped (or with a basic attack if they are an NPC). They gain a bonus equal to (SL) to the Accuracy Check, but treat their High Roll as 0 when calculating damage.</p><p><strong>KING'S CASTLE</strong> · SL max 4</p><p>During a conflict, you may use an action and spend 10 Mind Points to choose one option: no creature can recover Hit Points or Mind Points; or all effects that restore Mind Points restore (SL × 5) additional Mind Points. The chosen effect lasts until the start of your next turn.</p><p><strong>CRUSHING CHARIOT</strong></p><p>After you use Bishop's Edict, Charging Cavalry or King's Castle, you may choose another Player Character that can hear you that has yet to take a turn during this round. That character may take their turn immediately after yours during this round.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000017.RCpg000000000017"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 1000000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000017"
+}

@@ -1,0 +1,39 @@
+{
+	"name": "Antiquarian",
+	"_id": "RCje000000000009",
+	"pages": [
+		{
+			"_id": "RCpg000000000009",
+			"name": "Antiquarian",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>When delving into ancient tombs and forgotten castles, an Antiquarian is a group's best friend.</em></p><p><strong>SKILLS</strong></p><p><strong>PROBLEM SOLVER</strong> · SL max 6</p><p>After a Clock imposed by the game master, such as to complete a ritual or accomplish a complex task, is resolved in your favor in a Conflict Scene, you recover (SL × 5) Mind Points.</p><p>Additionally, you gain a bonus equal to (SL ÷ 2) to all Checks made when you take the Objective Action or Support a Group Check towards an Objective.</p><p><strong>VAST COLLECTION</strong></p><p>You may use an action and spend 1 Fabula Point to produce a Lucky Treasure of your design from your supplies. This item disappears at the end of the scene. Describe where you found it, as well as why it ceases to function as the scene ends.</p><p><strong>TREASURE MAGNET</strong> · SL max 3</p><p>When you make a Travel Roll that results in a Discovery while your group journeys on the world map or in a dungeon, you find a Lucky Treasure. A Lucky Treasure is an item worth an amount of zenit equal to or lower than (Your Level × 10 × SL) determined by the Game Master.</p><p>Additionally, you can spend Opportunities when one of your checks results in a Critical Success, to gain (SL × 50) zenit. Describe how they found this spontaneous cache of coin.</p><p><strong>SURVIVAL INSTINCTS</strong> · SL max 4</p><p>All damage you suffer while outside of a Conflict Scene that is not from an Attack or Spell, such as from a Danger in a Dungeon or during Travel, a Catastrophe caused by a failed ritual, or harsh environmental conditions such as harmful terrain or weather, is reduced by (SL × 3).</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000009.RCpg000000000009"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 200000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000009"
+}

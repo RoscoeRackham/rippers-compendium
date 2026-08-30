@@ -1,0 +1,39 @@
+{
+	"name": "Witness",
+	"_id": "RCje000000000068",
+	"pages": [
+		{
+			"_id": "RCpg000000000073",
+			"name": "Witness",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Those hunted who survive through vigilance, cunning and an intimate knowledge of being prey.</em></p><p><strong>SKILLS</strong></p><p><strong>BAYING HOUNDS</strong> · SL max 4</p><p>Choose one of the Hounds on page 9 to be your pursuers. Once in a scene, when it becomes the type described for that Hound, you get (SL) Rabbit Points (RP) that you can spend to improve the specified types of Check by 1 per RP, after you've seen your roll, but before you decide whether to reroll with a Fabula Point.</p><p>Once in a session, you may spend 1 Fabula Point to have the Hounds burst onto the scene if it is at all plausible. The GM may veto this - for instance, if it would derail a focus scene for another Player's character. If they do, you don't spend the Fabula Point.</p><p><strong>END OF THE LINE</strong> · SL max 4</p><p>If you are blocked from escaping a conflict scene (whether or not you're trying to), you deal (SL) extra damage and get a bonus equal to (SL) to Checks performed as part of the Hinder action. You could be held by a barrier, danger, or an obligation imposed by your Identity or Theme.</p><p><strong>GO ON WITHOUT ME!</strong></p><p>On another creature's turn in a conflict scene, you may spend 1 Fabula Point to allow that creature to use their action to escape from the scene, appearing in a different scene in which another Player Character is present. If they take it, describe how you created the opportunity, and when they reappear, they will describe how they got there!</p><p>After using this Skill, you can't use the Rogue Skill See You Later in the same scene, and another character can't use Go On Without Me! on you. Face your fate.</p><p><strong>IF IT BLEEDS…</strong> · SL max 5</p><p>Once per scene, when a friendly Player Character completes a Clock with a successful Check, or an enemy with a rank of elite or above enters Crisis, choose one: every friendly Player Character on the scene recovers (SL × 4) Hit Points or Mind Points (their choice); every friendly Player Character on the scene recovers from up to (SL) status effects; or the character who triggered this Skill gains a bonus equal to (SL) to their next Check.</p><p>At level 40, increase the recovered Hit Points or Mind Points to (SL × 6).</p><p><strong>PREY INSTINCT</strong> · SL max 3</p><p>At the start of a conflict, you may spend 10 Mind Points. If you do, choose one action and perform it before the start of the first round: Guard, Objective, or Study. You gain a bonus equal to (SL) to all Checks you perform as part of the chosen action.</p><p>You cannot use the Rogue Skill High Speed in the same scene, or vice-versa.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000068.RCpg000000000073"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 6100000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000068"
+}

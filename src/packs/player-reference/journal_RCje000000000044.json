@@ -1,0 +1,39 @@
+{
+	"name": "Orator",
+	"_id": "RCje000000000044",
+	"pages": [
+		{
+			"_id": "RCpg000000000049",
+			"name": "Orator",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Orators are as good at reading someone's heart as they are at rounding up allies for their cause.</em></p><p><strong>SKILLS</strong></p><p><strong>Condemn</strong> · SL max 6</p><p>As an action during a conflict, spend 5 Mind Points to make an Opposed (INS + WLP) Check (+SL) against one enemy that can hear and understand you. If you succeed, that enemy loses (SL × 5) Mind Points, suffers dazed or shaken (your choice), and all sources of damage deal +(SL) extra damage to them until the start of your next turn.</p><p><strong>Encourage</strong> · SL max 6</p><p>As an action, spend 5 Mind Points to speak to an ally who can hear you. That ally recovers (SL × 10) Hit Points and, during a conflict, may immediately raise one of their Attributes one die size (maximum d12) until the start of your next turn.</p><p><strong>Hero with a Thousand Faces</strong> · SL max 3</p><p>Record each Theme change and its cause. Every 5 recorded changes: each player gains (SL) Experience Points and you gain an additional Identity built from the story your Themes tell.</p><p><strong>Invigorating Speech</strong> · SL max 6</p><p>As an action, spend 15 Mind Points to create an Inspiration Clock with (SL) sections; it lasts until you rest or it is completely filled. Whenever an ally would suffer a status effect, you may fill one section of your Inspiration Clock instead — the status effect still applies to you as normal.</p><p><strong>My Trust in You</strong> · SL max 2</p><p>When another Player Character who can hear you rolls a Check, you may spend 1 Fabula Point and invoke one of their Traits or Bonds to allow them to reroll any or all dice in that Check, or to improve the result. If you have a Bond toward that character, they also recover (SL × 10) Mind Points.</p><p><strong>Persuasive</strong> · SL max 2</p><p>When you succeed on a Clock Check that relied on charm, diplomacy, deception or intimidation, you may spend up to (SL × 20) Mind Points, filling one extra section for every 20 Mind Points spent this way.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000044.RCpg000000000049"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 3700000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000044"
+}

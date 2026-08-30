@@ -1,0 +1,39 @@
+{
+	"name": "Cunning Folk",
+	"_id": "RCje000000000024",
+	"pages": [
+		{
+			"_id": "RCpg000000000029",
+			"name": "Cunning Folk",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Cunning Folk understand the fey better than anyone.</em></p><p><strong>SKILLS</strong></p><p><strong>FEY CROSSING</strong></p><p>You are able to see hidden gates that are connected to this world and the world of fairies. Often they can lead to shortcuts to places around the world. However stepping into these gates can also lead one into the world of fairies.</p><p>When using Fey Crossing, the GM may choose one of the following approaches:</p><p><strong>Expanded Realms:</strong> Introduce a distinct world of fairies, with its own geography, rules, and dangers. Travel through a Fey Crossing may shorten distance but introduce narrative complications such as time distortion, strange encounters, or altered destinations.</p><p><strong>Risky Passage:</strong> Even without the world of fairies, crossings can be unstable. Each use may impose a minor negative effect, narrative cost, or temporary complication, reflecting the unpredictable nature of Fey magic.</p><p>Fey Crossing is intended to provide alternative travel options, not guaranteed safety. The exact form, destination, and consequences of a crossing are always determined by the GM.</p><p><strong>FEY'S BLESSING</strong> · SL max 5</p><p>You may use an action and pay 10 MP to bestow a blessing on your allies. You cannot use this effect on yourself. Those who accept the blessing must return the blessing with a gift. Taking the blessing is optional and if you do not take the blessing you do not have to give a gift.</p><p><strong>GIFTING</strong></p><p>Characters who receive Fey's Blessing must offer a gift to the character who bestowed the blessing. If they are unwilling or unable to do so, they instead suffer Fey's Curse.</p><p>The nature of the gift is determined by the character granting the blessing and may include coin, items, favors, or information. The granting character must request something; they may not decline a gift entirely.</p><p>The gift must be delivered before the recipient's next rest. Failure to meet this obligation for any reason results in Fey's Curse taking effect.</p><p><strong>BLESSING AND CURSE</strong></p><p><strong>Fey's Blessing:</strong> Increase your HP and MP recovery by (SL × 3) and reduce all damage taken by (SL) until end of scene.</p><p><strong>Fey's Curse:</strong> Decrease your HP and MP recovery by (SL × 3) and increase all damage taken by (SL) until your next rest.</p><p><strong>FEY'S DEBT</strong></p><p>You may request a favor from an ally or NPC. If they accept, they will attempt to fulfill the favor to the best of their ability. Upon completion, you incur a debt to them.</p><p>If the requested favor cannot be fulfilled, no debt is owed. The favor may always be refused.</p><p>The nature of the repayment required to clear the debt is determined by the one owed and may include items, services, information, or favors of their own.</p><p>Until the debt is repaid, you suffer a penalty determined by the GM. This penalty immediately ends once the debt is paid.</p><p><strong>MANAFLOW</strong> · SL max 5</p><p>When you recover MP you recover an additional (SL × 4) MP</p><p><strong>FAIRY MAGIC</strong> · SL max 3</p><p>When you first select this skill choose one element of the spells you know. It gains additional effects listed below. Every time you level up this skill you can choose another element of magic to give effects to.</p><p><strong>Air:</strong> An ally gains flying until the end of their next turn.</p><p><strong>Bolt:</strong> An ally may take their turn immediately after yours</p><p><strong>Dark:</strong> Creatures hit by the spell cannot use <strong>Ranged Actions</strong> on their next turn.</p><p><strong>Earth:</strong> Creatures hit by the spell cannot use <strong>Melee Actions</strong> on their next turn.</p><p><strong>Fire:</strong> Creatures hit by this spell takes minor fire damage at the start of their next turn.</p><p><strong>Ice:</strong> An ally takes 5 less damage from all sources until the end of their next turn.</p><p><strong>Light:</strong> Creatures hit by this spell cannot use the <strong>Spell Action</strong> on their next turn.</p><p><strong>Poison:</strong> Creatures hit by the spell become <strong>Poisoned</strong></p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000024.RCpg000000000029"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 1700000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000024"
+}

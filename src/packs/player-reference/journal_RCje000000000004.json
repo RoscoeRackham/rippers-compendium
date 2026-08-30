@@ -1,0 +1,39 @@
+{
+	"name": "Mutant",
+	"_id": "RCje000000000004",
+	"pages": [
+		{
+			"_id": "RCpg000000000004",
+			"name": "Mutant",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Each Mutant is a unique being capable of altering their body in strange and unprecedented ways, but their powers come at a painful price.</em></p><p><strong>SKILLS</strong></p><p><strong>Akromorphosis</strong> · SL max 3</p><p>Your unarmed strikes deal (6 + SL × 2) extra damage and gain a +(SL) bonus to Accuracy Checks, but cannot benefit from extra damage granted by your Quirks. At the start of each of your turns during a conflict, you may declare a weapon Category for your unarmed strikes until the start of your next turn.</p><p><strong>Biophagy</strong> · SL max 4</p><p>While you are in Crisis, when your attack or offensive spell causes one or more enemies to lose Hit Points, you recover (SL × 5) Hit Points.</p><p><strong>Ecdysis</strong></p><p>After you lose Hit Points due to an instance of typed non-physical damage, you may shed 10 Hit Points to gain Resistance to that damage type until the next time you use this Skill.</p><p><strong>Genoclepsis</strong> · SL max 2</p><p>When you deal damage to an NPC, the Game Master reveals that NPC's Species. Additionally, the Game Master names (SL) therioforms fitting that Species. If you have the Theriomorphosis Skill, you may immediately pay that Skill's cost to manifest one of the named therioforms, whether or not you have learned it.</p><p><strong>Theriomorphosis</strong> · SL max 6</p><p>Each time you acquire this Skill, you learn one therioform. As an action, spend a flat 20 Hit Points to immediately manifest up to two therioforms from those you have learned, then perform a free attack with your High Roll treated as 0 (not when triggered through the Genoclepsis Skill). Manifested therioforms last until the end of the scene; they end early if you are reduced to 0 Hit Points, fall unconscious, perform the Guard action, or use this Skill again. At the end of a scene, you may pay 10 Mind Points to carry your active therioforms into the next scene.</p><p><em>The ten therioforms:</em></p><ul><li><strong>Amphibia</strong> — You can breathe underwater and see perfectly in dim light; whenever you</li></ul><p>recover Hit Points, you recover 5 additional Hit Points and may recover from one status effect of your choice.</p><ul><li><strong>Arpaktida</strong> — You treat your Insight attribute as one die size higher (maximum d12); the</li></ul><p>first time you deal damage to one or more creatures on your turn, if at least one is in Crisis, you deal 5 extra damage to each of them.</p><ul><li><strong>Dynamotheria</strong> — You treat your Might attribute as one die size higher (maximum d12);</li></ul><p>when you succeed on a Check that includes Might to advance or turn back a Clock, fill or erase 1 additional section.</p><ul><li><strong>Electrophora</strong> — You may make all damage you deal with an attack or spell bolt damage;</li></ul><p>while your unarmed strikes deal bolt damage, any enemy that loses 20 or more Hit Points to one of them also suffers slow.</p><ul><li><strong>Neurophagoida</strong> — When you use the Biophagy Skill, you also recover (4 + your Skill Level</li></ul><p>in Theriomorphosis) Mind Points.</p><ul><li><strong>Placophora</strong> — You may treat your Defense as (13 + half your Skill Level in</li></ul><p>Theriomorphosis); use your normal score if it is better.</p><ul><li><strong>Pneumophora</strong> — You may make all damage you deal air damage; while your unarmed</li></ul><p>strikes deal air damage, any enemy that loses 20 or more Hit Points to one of them also suffers weak.</p><ul><li><strong>Polypoda</strong> — Your unarmed strikes gain the multi (3) property.</li><li><strong>Pterotheria</strong> — You can fly: your melee attacks can reach flying creatures and only flying</li></ul><p>creatures can reach you with melee attacks. You lose this benefit while you cannot fly freely, and it is suspended until the start of your next turn if you take air, bolt, or ice damage.</p><ul><li><strong>Pyrophora</strong> — You may make all damage you deal fire damage; while your unarmed strikes</li></ul><p>deal fire damage, any enemy that loses 20 or more Hit Points to one of them also suffers dazed.</p><ul><li><strong>Tachytheria</strong> — You treat your Dexterity attribute as one die size higher (maximum d12);</li></ul><p>when you succeed on a Check that includes Dexterity to advance or turn back a Clock, fill or erase 1 additional section.</p><ul><li><strong>Toxicophora</strong> — You may make all damage you deal poison damage; while your unarmed</li></ul><p>strikes deal poison damage, any enemy that loses 20 or more Hit Points to one of them also suffers poisoned.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000004.RCpg000000000004"
+		}
+	],
+	"folder": "RCfd000000000001",
+	"sort": 400000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000004"
+}

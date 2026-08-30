@@ -1,0 +1,39 @@
+{
+	"name": "Assassin",
+	"_id": "RCje000000000013",
+	"pages": [
+		{
+			"_id": "RCpg000000000013",
+			"name": "Assassin",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>A killer who cripples and executes a target quickly and without flourish — a glint of steel, then nothing.</em></p><p><strong>SKILLS</strong></p><p><strong>AND STAY DOWN</strong> · SL max 2</p><p>If an enemy within range of melee attacks recovers Hit Points or starts their turn and their current Hit Points are equal to or less than (SL × 10), you may immediately interrupt the action and spend 10 Mind Points to perform a free attack against that enemy using a weapon you have equipped. After your attack resolves, if the enemy is not at 0 Hit Points they resolve their recovery of Hit Points or turn like normal. A creature can only be targeted by this skill once per scene.</p><p><strong>BACKSTAB</strong> · SL max 4</p><p>If you are not in a conflict scene and are able to attack a non-Villain, non-champion creature while they are unaware of your or any allies' presence, if that enemy's level is equal to your level + (SL) or lower, they start the ensuing conflict scene in Crisis. If the enemy's level is equal to your level - (SL+1) or lower, they start conflict with 0 Hit Points. This only affects the enemy attacked, not any allies that may accompany them into battle.</p><p><strong>CLOAK AND DAGGER</strong> · SL max 3</p><p>Once per round after you hit a target with a dagger, spear, or thrown weapon, if the target is suffering from two or more status effects and you have the Vanish skill, you may spend 10 Mind Points to immediately gain the benefits of hidden for (SL) enemy turns or until the next time you hit with an attack or free attack, whichever comes first.</p><p><strong>VANISH</strong> · SL max 4</p><p>During your first turn in a conflict scene, or when you perform the guard action and choose not to provide cover to another creature, you may spend 10 Mind Points to become hidden until the end of your next turn. While hidden, you cannot be targeted by ranged attacks or ranged offensive [Z] spells that would require sight, but can still be hit by attacks that use an area of effect (usually effects that target \"all creatures\"). All attacks with a dagger, spear, or thrown weapon you make while hidden gain a bonus to their Accuracy Check equal to (SL). On a hit, the attack ignores Resistances and you immediately stop being hidden.</p><p><strong>THIEVES' CODE</strong> · SL max 5</p><p>You know a secret dialect shared between thieves that lets you communicate in secret. Non-outlaw creatures cannot understand the language without magical means, and you gain a bonus equal to (SL) to all Open Checks related to persuasion and coercion targeting outlaws while using thieve's code. You may also read nearly imperceptible symbols left behind in thieve's code, and leave them yourself.</p><hr>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000013.RCpg000000000013"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 600000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000013"
+}

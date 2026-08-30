@@ -1,0 +1,39 @@
+{
+	"name": "See You Later and Unexpected Ally",
+	"_id": "RCje000000000076",
+	"pages": [
+		{
+			"_id": "RCpg000000000081",
+			"name": "See You Later and Unexpected Ally",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>These two skills are available as <strong>Benefit Pool picks</strong> in this campaign — one player each, no duplicates.</p><hr><h3>SEE YOU LATER</h3><p><em>Source: Core Rulebook, Rogue Skills, p. 201</em></p><p>You may use an action and spend 1 Fabula Point to vanish from the current scene, reappearing whenever you want during a different scene in which another Player Character is present. Describe how you escaped and miraculously got there!</p><hr><h3>UNEXPECTED ALLY</h3><p><em>Source: Core Rulebook, Orator Skills, p. 199</em></p><p>You may use an action and spend 1 Fabula Point to choose a non-hostile creature able to hear and understand you. If you do, that creature becomes helpful towards you so long as you are kind and respectful to them and your requests are reasonable.</p><hr><h3>INSPIRING PRESENCE (Heroic Skill — interacts with Unexpected Ally)</h3><p><em>Source: Playtest Materials (ENG, June 2026), p. 13</em></p><p>Requirements: you must have mastered Orator.</p><p>Once per turn, when you use the My Trust in You Skill during an ally's Accuracy Check or Magic Check for an offensive spell (O), you may have that attack or spell deal 5 extra damage.</p><p>When you use the Unexpected Ally Skill on a creature, you may have that creature become a follower of your group until your group gains another follower. Followers are always willing to help the group in dangerous situations; during conflict scenes, they follow the rules for NPCs as Special Abilities in the Game Master's Booklet (page 17). Essentially, the NPC does not have a dedicated profile and is instead represented by a passive benefit for the group, or by an active or reactive benefit that can be used two or three times per conflict scene. The specific benefits granted by a follower are created together by the entire group, and the Game Master has final say on them.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000076.RCpg000000000081"
+		}
+	],
+	"folder": "RCfd000000000003",
+	"sort": 800000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000076"
+}

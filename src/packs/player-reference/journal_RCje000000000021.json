@@ -1,0 +1,39 @@
+{
+	"name": "Confidence Man",
+	"_id": "RCje000000000021",
+	"pages": [
+		{
+			"_id": "RCpg000000000026",
+			"name": "Confidence Man",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>A skilled deceiver who earns trust through performance, adopts any face needed, and turns a mark's own confidence against them.</em></p><p><strong>SKILLS</strong></p><p><strong>COPY CAT</strong></p><p>Once per scene, as your action, spend 1 Fabula Point to repeat the most recent action taken by another character this scene. You pay all costs as normal.</p><p>You cannot copy:</p><ul><li>a Quirk, or anything derived from one</li><li>Champion or Villain unique abilities</li><li>Equipment actions</li><li>rituals, Projects, or anything outside a conflict scene</li><li>another character's Guise swap</li></ul><p><strong>DISTRACTION</strong> · SL max 2</p><p>When assisting in a Group Check, you may create a distraction that grants the leader a bonus equal to your (SL) on their final roll.</p><p><strong>MASK OF IMPERSONATION</strong> · SL max 4</p><p>When unobserved by anyone outside your party, you may spend 1 FP to assume the appearance of a humanoid creature you have seen within the past two days. While disguised, gain a bonus equal to your (SL) on any checks made to convincingly impersonate that individual. The disguise lasts until you choose to drop it or until someone sees through it.</p><p>If the Guise you are wearing has a Tell, the impersonation carries it — you can look like the person, but you cannot suppress the Tell; the Innate Guise, which has no Tell, is the face to run a con in. Many Faces and this Skill stack rather than compete: the Perk grants the appearance, this Skill grants the performance (the +(SL)) and lets you impersonate without the Perk.</p><p><strong>SECRET ACTION</strong> · SL max 3</p><p>Declaring a secret action uses your action for that turn. During your turn you may declare a secret action and specify a trigger condition. When the trigger occurs, you immediately perform the chosen action, interrupting all other actions until it is resolved. Gain a bonus equal to your (SL) on any checks related to your secret action. When you start your next turn you lose your secret action.</p><p>Example: You choose your action will be \"Attack a target\" and you will set the trigger to be \"When an ally takes damage.\" So when an ally takes damage you will attack your target.</p><p><strong>TRICK OR TREAT</strong> · SL max 4</p><p>Spend 2 IP and roll a 1d4 to concoct a potion with unpredictable effects. Choose your target before rolling to determine the result.</p><table><thead><tr><th>Roll</th><th>Results</th></tr></thead><tbody><tr><td>1</td><td>Recover SL × 10 hp and mp</td></tr><tr><td>2</td><td>Recover from all status effects and gain 1 IP</td></tr><tr><td>3</td><td>Inflict SL × 10 poison damage</td></tr><tr><td>4</td><td>Inflict Poisoned and Enrage</td></tr></tbody></table>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000021.RCpg000000000026"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 1400000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000021"
+}

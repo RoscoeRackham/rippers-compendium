@@ -1,0 +1,39 @@
+{
+	"name": "Arbalist",
+	"_id": "RCje000000000011",
+	"pages": [
+		{
+			"_id": "RCpg000000000011",
+			"name": "Arbalist",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>A heavy gunner who strides into no-man's-land shouldering a weapon as large as the monster they mean to fell.</em></p><p><strong>SKILLS</strong></p><p><strong>BLACK POWDER</strong> · SL max 4</p><p>Once per turn when a creature is hit by one of your ranged weapon attacks, you may automatically deal (SL) damage of the same type as the attack to up to two other creatures within range of melee attacks. If you do, roll a d8; on a result of 2 or lower, you or a willing ally must also take the full amount of this damage dealt to all targets this way. At any time during your turn, you may spend 10 Mind Points to cause the next usage of Black Powder you perform before the end of your turn to deal (SL × 2) damage instead.</p><p><strong>SCATTERSHOT</strong></p><p>Whenever you make a ranged attack with multi (2) or higher, if there is more than 1 enemy you may spend 5 Mind Points to have each hit target a random enemy (roll a 1dX, where X is the number of enemies), which can include the same enemy multiple times, to increase the multi by 1.</p><p>To roll randomly targeted enemies with only the normal dice used in Fabula Ultima: for 2 enemies, roll 1d6 (odds is 1, evens is 2); for 3, roll 1d6 and divide by 2, rounding up; for 4, roll 1d8 and divide by 2, rounding up; for 5, roll 1d10 and divide by 2, rounding up; for 6, roll 1d6; for 7, roll 1d8, rerolling 8s; for 8, roll 1d8; for 9, roll 1d10, rerolling 10s; for 10, roll 1d10; for 11, roll 1d12, rerolling 12s; for 12, roll 1d12.</p><p><strong>TITANKILLER ARMAMENT</strong> · SL max 5</p><p>Whenever you make an attack with a ranged weapon, you may replace up to one die in the weapon's Accuracy Check with (MIG). If you do, the attack gains (SL) bonus damage, but you suffer the weak or slow status effect until the end of your next turn, ignoring immunities.</p><p><strong>WALLBUSTER</strong></p><p>Whenever you successfully perform a Check to fill or erase sections of a Clock, if your approach relied on overt demolition, reckless collateral, or rather unnecessary levels of force, fill or erase 2 additional sections of the Clock.</p><p><strong>SLOW MATCH</strong> · SL max 4</p><p>After you hit an enemy with a ranged attack, you may spend 10 Mind Points to delay the damage, dealing no damage with the attack, and choose one of the following options: the next time you or an ally hits that enemy with an attack, add (SL + the delayed damage) bonus damage, or deal (SL + the delayed damage) fire damage to the enemy you hit at the start of a specific creature's turn, or deal (SL + the delayed damage) fire damage to the enemy you hit at the end of the round.</p><hr>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000011.RCpg000000000011"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 400000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000011"
+}

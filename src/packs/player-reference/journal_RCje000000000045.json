@@ -1,0 +1,39 @@
+{
+	"name": "Parasite",
+	"_id": "RCje000000000045",
+	"pages": [
+		{
+			"_id": "RCpg000000000050",
+			"name": "Parasite",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Some Parasites are cursed with an appetite that demands the vitality of the living; others have simply learned to profit from human suffering.</em></p><p><strong>SKILLS</strong></p><p><strong>Blood Is Life</strong> · SL max 6</p><p>When a creature's spell includes you among its targets, the caster of that spell may choose to spend up to (SL) Hit Points. If they do, you recover 2 Hit Points per Hit Point spent, or instead shed one status effect for every 3 Hit Points spent. When an offensive spell includes you among its targets, you may choose to spend up to (SL) Hit Points to deal 2 dark damage to the caster per Hit Point spent (3 dark damage per Hit Point spent if you are level 40 or higher).</p><p><strong>Children of the Night</strong></p><p>You can communicate with creatures of the beast, demon and undead Species. A mindless undead creature can be read to determine whether it is receiving commands and what those commands are.</p><p><strong>Dark Hunger</strong> · SL max 5</p><p>Choose one Craving when you acquire this Skill: Mesmerizing (you feed when you inflict dazed; Mind Points are your primary payout); Pestilent (you feed when you inflict weak; Hit Points are your primary payout; printed name: Miasmic); Terrifying (you feed when you inflict shaken; Mind Points are your primary payout); or Inevitable (you feed when you inflict slow; Hit Points are your primary payout). The first time each scene you inflict your Craving's status on a creature that is not yet marked, that creature becomes marked and you immediately recover (SL × 5) of your primary resource or (SL × 3) of the other, your choice. At SL 3 or higher, each Craving adds a second triggering status — Mesmerizing and Terrifying add enraged; Pestilent and Inevitable add poisoned — and inflicting that status on an unmarked creature also marks it and pays out. Each creature may pay out at most once per scene. All marks vanish at scene's end. You cannot feed on undead or construct creatures; they are never marked and never pay out.</p><p><strong>Drink Deeply</strong> · SL max 2</p><p>Your Craving's active half (uses its own Skill Level, separate from Dark Hunger's): Mesmerizing — on an Opposed Check against a creature, spend 5 Mind Points to inflict dazed as part of the result; the infliction is not obvious by default (a suspicious observer earns an Opposed (INS + WLP) Check against your +(SL) to notice). Pestilent — at the start of each round, you may spend 5 Mind Points: every weak creature in the scene — ally or enemy — takes (SL × 2) poison damage (×4 at level 40 or higher) and you recover Hit Points equal to half the total damage dealt. Terrifying — your attacks, spells and skills deal +(SL) extra damage for every shaken creature in the scene, ally or enemy (+(SL + 5) at level 40 or higher). Inevitable — when you fill Clock sections to pursue a creature that is trying to escape you, spend up to (SL × 20) Mind Points: for every 20 Mind Points spent, either inflict slow on the target or fill one additional section (applies to chase clocks only).</p><p><strong>It Won't Die!</strong> · SL max 5</p><p>After your first surrender in a scene, at the start of a later round you may spend 1 Fabula Point to return to the scene with (your Crisis value + SL × 2) Hit Points. The consequence of your Surrender still applies. If you are reduced to 0 Hit Points again, you leave the scene cleanly — no further payout.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000045.RCpg000000000050"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 3800000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000045"
+}

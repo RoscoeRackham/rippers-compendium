@@ -1,0 +1,39 @@
+{
+	"name": "Slayer",
+	"_id": "RCje000000000058",
+	"pages": [
+		{
+			"_id": "RCpg000000000063",
+			"name": "Slayer",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Hunters who deal death to creatures of the night with bane-touched weapons and deep knowledge.</em></p><p><strong>SKILLS</strong></p><p><strong>BANE OILS</strong> · SL max 5</p><p>Each time you take this Skill, choose a creature Species. You may use an action and spend 2 Inventory Points to apply a bane oil for one of your chosen Species to a weapon equipped by you or a willing creature. If you have the weapon equipped, you may perform a free attack with it as part of the same action.</p><p>Until the end of the scene or a different bane oil is applied to the weapon, when a creature of the same Species as the bane oil is hit by the weapon, the attacker picks one of the following: the creature becomes slow; or the creature becomes weak; or the creature loses one of its damage Resistances until the end of the scene; or fill 1 section of a Pressure Clock.</p><p><strong>GIANT KILLER</strong></p><p>When you hit a non-soldier creature with an attack that deals damage, you deal extra damage equal to (2 × the number of soldiers the creature replaces).</p><p><strong>KNOW THY QUARRY</strong> · SL max 5</p><p>When you make an Accuracy Check, Magic Check, or contested Check, you may spend 1 Fabula Point and invoke one of the target's Traits to add (SL) to your result against that target. A Villain may spend an Ultima Point to cancel out this effect. If the Check includes multiple targets, your result against those other targets is unchanged.</p><p><strong>LOCKDOWN</strong> · SL max 4</p><p>When you hit a creature with an attack you may spend 10 Mind Points and choose one of the target's basic attacks or spells. Until the start of your next turn, the target deals (SL × 2) less damage with the chosen action.</p><p><strong>WILDLIFE EXPERT</strong> · SL max 3</p><p>When you rest in the wilderness, you may ask the Game Master up to (SL) questions about creatures in the area; the Game Master will answer truthfully.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000058.RCpg000000000063"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 5100000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000058"
+}

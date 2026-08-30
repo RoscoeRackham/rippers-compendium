@@ -1,0 +1,19 @@
+{
+	"name": "Innate Only",
+	"_id": "RCfd000000000001",
+	"type": "JournalEntry",
+	"sorting": "m",
+	"folder": null,
+	"sort": 100000,
+	"color": "",
+	"flags": {
+		"rippers-compendium": {
+			"section": "innate"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!folders!RCfd000000000001"
+}

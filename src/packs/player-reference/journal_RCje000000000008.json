@@ -1,0 +1,39 @@
+{
+	"name": "Adept",
+	"_id": "RCje000000000008",
+	"pages": [
+		{
+			"_id": "RCpg000000000008",
+			"name": "Adept",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Adepts are masters of mind, body, and spirit, using their inner clarity to achieve supernatural feats.</em></p><p><strong>SKILLS</strong></p><p><strong>CLARITY</strong> · SL max 3</p><p>On your turn, you may choose to spend an action and destroy a pair of Motes you possess to gain one of the following cumulative bonuses, at your discretion:</p><ul><li>immunity to a chosen status effect;</li><li>your attacks or spells of a chosen damage type ignore Resistances;</li><li>you gain Resistance to a chosen damage type.</li></ul><p>The number of bonuses you can have active at any given moment is equal to (SL). You cannot select the same benefit more than once.</p><p><strong>RESERVE</strong> · SL max 3</p><p>You begin a conflict scene with (SL × 2) Motes, up to your Mote limit.</p><p><strong>RESTORATION</strong> · SL max 2</p><p>Choose up to three creatures. As an action, release your Motes towards them, spending 2 MP per Mote. Each delivered Mote restores (SL × 5) HP or MP, at your discretion. Each Mote released is destroyed.</p><p><strong>DISCHARGE</strong> · SL max 2</p><p>As an action, choose any number of Motes to release in a ranged attack against enemies, spending 2 MP per Mote. Perform a (DEX + WLP) Check. On a hit, each target loses (SL × 4) HP or MP per Mote, based on your choice. This damage ignores Resistances.</p><p>Motes targeting HP affect the target's Defense, while those targeting MP affect their Magic Defense. Each Mote is destroyed after release, whether it hits or not.</p><p><strong>WARD</strong> · SL max 3</p><p>As a reaction, release any number of Motes to reduce incoming damage to you or up to three creatures by (SL × 2) per Mote released, before applying any damage Affinities. Each Mote destroyed this way costs 2 MP.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000008.RCpg000000000008"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 100000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000008"
+}

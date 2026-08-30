@@ -1,0 +1,39 @@
+{
+	"name": "Cook",
+	"_id": "RCje000000000022",
+	"pages": [
+		{
+			"_id": "RCpg000000000027",
+			"name": "Cook",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Cooks refine their knowledge of foodstuffs to a level nothing short of supernatural, extracting spiritual energies from every ingredient.</em></p><p><strong>SKILLS</strong></p><p><strong>COOKING</strong> · SL max 5</p><p>When you rest inside a settlement, you gain (SL) ingredients. You may use an action and combine 2 or 3 ingredients to prepare a delicacy and choose one option: you apply its effects to yourself or an ally you can see; or you perform a free attack with a weapon you have equipped. This attack deals no damage, but you apply the delicacy's effects to each enemy hit by the attack.</p><p>You may carry up to 10 + (SL × 5) ingredients, and they will never spoil until you use them; if you take this Skill during character creation, you begin play with ten ingredients with random tastes.</p><p><strong>KNIFE AND FORK</strong></p><p>When you perform the free attack granted by the Cooking Skill, if you combined no more than 2 ingredients, you may have the attack deal damage as normal. If you do, you treat your High Roll (HR) as 0 when calculating damage dealt by this attack.</p><p><strong>MADE WITH LOVE</strong> · SL max 3</p><p>When you use the Cooking Skill and choose to apply the effects of the delicacy to yourself or an ally you can see, you may spend up to (SL × 10) MP. For every 10 MP you spend this way, apply the delicacy's effects to an additional ally you can see.</p><p><strong>SALT AND PEPPER</strong></p><p>When you prepare a delicacy, you may spend 2 Inventory Points: if you do, change the taste of one ingredient to a different taste of your choice.</p><p><strong>TRAVELING COOK</strong> · SL max 3</p><p>After each travel roll, if you acquired the Cooking Skill, you gain (SL × 2) ingredients.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000022.RCpg000000000027"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 1500000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000022"
+}

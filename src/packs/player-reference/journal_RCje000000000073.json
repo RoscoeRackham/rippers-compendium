@@ -1,0 +1,39 @@
+{
+	"name": "Torments",
+	"_id": "RCje000000000073",
+	"pages": [
+		{
+			"_id": "RCpg000000000078",
+			"name": "Torments",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>Roll 1d8 or choose: the shadow haunting your days, and <strong>three questions you may always ask, answered honestly by the GM.</strong> From a certain point of view, your suffering is what lets you understand the world.</p><p>&gt; <strong>Asking carries implications.</strong> If the amnesiac asks what memory this moment brings back, the GM cannot answer <em>\"none\"</em> — the moment <strong>does</strong> bring one back. In most games that's a table convention. <strong>In this world it is not.</strong> Attention shapes the Aether; at the margin, the question obliges the answer to exist. Whether it <em>found</em> the truth or <em>made</em> it is a question this game declines to settle.</p><p>| 1d8 | Torment | | Your questions | |:-:|---|---|---| | 1 | <strong>AMNESIA</strong> | <em>You recall very little beyond your name and abilities. Every new memory carries relief… and trepidation</em> | What happy or painful memory does this moment bring back? · Is there anyone here who remembers me, though I don't remember them? · Are they in control of their own actions? | | 2 | <strong>BETRAYAL</strong> | <em>When someone needed you most, you ran. The blame lies entirely on your shoulders</em> | Are they telling the truth? <em>(reads deception, never error — the sincerely wrong ring true)</em> · What is the best way out of here? · Who is the weakest target here? | | 3 | <strong>DEATH</strong> | <em>Your hands are stained with blood, and you can never make your peace with it</em> | What is the best way to hurt them? · What would make them lose control? · What here has killed before? | | 4 | <strong>WANT</strong> | <em>You have been poor in the way that never leaves you</em> | What is this worth, and to whom? · What does it cost to belong here? · Who here has never gone without? | | 5 | <strong>FRUSTRATION</strong> | <em>Ambition and the fear of failure and judgment have turned you bitter and envious</em> | What do they want the most? · Who do they serve? · What do they have that I don't? | | 6 | <strong>LOSS</strong> | <em>You lost the people dearest to you, because you could not protect them. The guilt is a shackle</em> | Who here is in the most danger? · What are we overlooking here? · What is most dangerous here? | | 7 | <strong>REVELATION</strong> | <em>You glimpsed the true complexity of the world, and it shattered your values. You are painfully aware of your own ignorance</em> | Where can I find that information? <em>(a source — a place, a person, a book — never the answer itself)</em> · What are their true feelings? · What is strange about this place? | | 8 | <strong>SOLITUDE</strong> | <em>A lifetime of betrayal and manipulation has convinced you nobody finds you worthy of loyalty. A tool, not a person</em> | What do they want from me? · How can I get them to do what I want? · What is the best place to hide? |</p><p><strong>Your Torment is yours</strong> — it rides through every mask, and no Guise covers it. Establish what it means for your character when you take it, at the table.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000073.RCpg000000000078"
+		}
+	],
+	"folder": "RCfd000000000003",
+	"sort": 500000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000073"
+}

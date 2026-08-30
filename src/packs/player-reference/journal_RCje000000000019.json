@@ -1,0 +1,81 @@
+{
+	"name": "Celebrity",
+	"_id": "RCje000000000019",
+	"pages": [
+		{
+			"_id": "RCpg000000000022",
+			"name": "Celebrity",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Individuals who command crowds of loyal followers through force of personality.</em></p><p><strong>SKILLS</strong></p><p><strong>CALL ENTOURAGE</strong> · SL max 7</p><p>Each time you take this Skill, you gain an Entourage Member.</p><p><strong>CHARMING PRESENCE</strong> · SL max 3</p><p>When you cast a spell that targets one or more allies, if you have an arcane weapon equipped, you may have each of those allies recover up to【SL, multiplied by the number of Bonds you have (maximum 3)】Mind Points. This recovery is separate from any caused by the effects of the spell.</p><p><strong>CULTURAL PHENOMENON</strong> · SL max 3</p><p>After you rest in an area where you can reach a large number of people in person, or via technology or magic, you gain【SL + 1】Reputation Points. You may never have more than【SL + 3】Reputation Points; if you acquire this Skill during character creation, begin play with 2 Reputation Points.</p><p>During a non-conflict scene, you may spend 2 Reputation Points when you meet an NPC to have them be a fan of yours, or otherwise be familiar enough with your work or position that they are positively or negatively (your choice) inclined to respect (or not) and work (or not) with you.</p><p><strong>LETHAL CHARISMA</strong></p><p>You may use an action and spend 1 Reputation Point to perform an Opposed【WLP + WLP】Check against a nearby soldier-rank humanoid you can see. If you succeed, you gain control of the creature until the end of the scene (the Game Master gives you its profile).</p><p>You may only control one humanoid at any given time, but can free it whenever you choose; the controlled humanoid is also set free as soon as it is harmed by you or by one of your allies.</p><p><strong>LOW PROFILE</strong> · SL max 3</p><p>You can construct disguises that allow your identity to be hidden from those you interact with for short times. If an in person interaction extends longer than a minute, perform an Opposed【INS + WLP + SL】Check. If you win, you remain disguised. If they win, your identity is revealed.</p><p><strong>RULES</strong></p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000019.RCpg000000000022"
+		},
+		{
+			"_id": "RCpg000000000023",
+			"name": "ENTOURAGE RULES",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>As a Celebrity, you have crowds of people pining for your attention. In some cases, individuals from your flock will leap forward into the throws of conflict to take your place.</p><p>When you take a level in Call Entourage, you gain an Entourage Member. At the start of your turn during a Conflict in a settlement or other similar populated location, you can spend a Reputation Point to choose to substitute yourself with one of your Entourage Members. When you do this, the chosen Entourage Member takes your place in the combat. You remain a separate creature, but all things that would target you, target your Entourage Member.</p><p>At the start of each of your turns, you can choose to either act, or have your active Entourage Member act. If you act while an Entourage Member is out, you cannot target enemies with Attacks or Spells, and cannot take the Guard action.</p><p>When an Entourage Member is reduced to 0 Hit Points, you take their place once the damage has resolved. If your Entourage Member is Targeted with an Attack or Spell but is reduced to 0 Hit Points before the effect resolves, you become the new Target.</p><p>The following Entourage Members are available when you gain a new one.</p>",
+				"markdown": ""
+			},
+			"sort": 200000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000019.RCpg000000000023"
+		},
+		{
+			"_id": "RCpg000000000024",
+			"name": "ENTOURAGE ROSTER",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<h3>ARISTOCRAT — Lv 5 ⬩ HUMANOID</h3><p>The wealthy and the noble. Those with exceeding wealth in the upper echelons of society. Traits: Arrogant, Charming, Well-Dressed, Wealthy DEX d8 INS d10 MIG d6 WLP d8 HP 20 ⬩ 20 MP 30 ⬩ 30 DEF +0 M.DEF +2</p><p>BASIC ATTACKS</p><ul><li>Sword ⬩【DEX + INS + 2】⬩【HR + 5】physical damage and the target suffers slow.</li><li>Firearm ⬩【DEX + INS】⬩【HR + 5】physical damage.</li></ul><p>SPELLS</p><ul><li>Dispel ⬩ 10 MP ⬩ One creature ⬩ Instantaneous — See the page 192 for details on the Dispel spell.</li></ul><p>SPECIAL RULES</p><ul><li>High-End Education ⬩ Your Magic Defense increases by +2.</li><li>Royal Swordplay ⬩ You gain an additional +2 to Accuracy Checks with your Sword.</li></ul><h3>BRUTE — Lv 5 ⬩ HUMANOID</h3><p>Tough and protective individuals. Ready to defend you at all costs when danger comes your way. Traits: Bullheaded, Convicted, Loyal, Well-Equipped DEX d6 INS d6 MIG d10 WLP d10 HP 30 ⬩ 30 MP 20 ⬩ 20 DEF 12 M.DEF +0</p><p>BASIC ATTACKS</p><ul><li>Heavy Weapon ⬩【MIG + MIG】⬩【HR + 10】physical damage.</li><li>Thrown Weapon ⬩【DEX + INS】⬩【HR + 5】physical damage.</li></ul><p>SPECIAL RULES</p><ul><li>Heavily Armored ⬩ Your Defense becomes 12.</li><li>Intercept ⬩ When an Ally is damaged by an Attack, you can choose to allow them to become Resistant to the damage. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</li></ul><h3>ENFORCER — Lv 5 ⬩ HUMANOID</h3><p>Law enforcement and the muscle of powerful organizations. Rash and violent, but useful. Traits: Aggressive, In Uniform, Reactionary, Well-Equipped DEX d8 INS d6 MIG d10 WLP d8 HP 30 ⬩ 30 MP 20 ⬩ 20 DEF +0 M.DEF +0</p><p>BASIC ATTACKS</p><ul><li>Heavy Weapon ⬩【MIG + MIG + 2】⬩【HR + 10】physical damage and the target suffers dazed.</li><li>Firearm ⬩【DEX + INS】⬩【HR + 5】physical damage.</li></ul><p>SPECIAL RULES</p><ul><li>Reckless Swing ⬩ When you Attack you can suffer 10 physical damage to grant your Attack Multi (2).</li><li>Stop Resisting ⬩ When you hit an enemy creature with your Heavy Weapon Attack that is already suffering from the dazed Status Effect, your attack deals an extra 10 damage.</li><li>Violent Practice ⬩ You gain an additional +2 to Accuracy Checks with your Heavy Weapon.</li></ul><h3>ENTERTAINER — Lv 5 ⬩ HUMANOID</h3><p>Talented individuals adept at keeping eyes on them. Welcome distractions as well as company. Traits: Charming, Talented, Well-Spoken, Well-Traveled DEX d10 INS d6 MIG d6 WLP d10 HP 20 ⬩ 20 MP 40 ⬩ 40 DEF +0 M.DEF +0</p><p>BASIC ATTACKS</p><ul><li>Sword ⬩【DEX + INS】⬩【HR + 10】physical damage.</li><li>Thrown Weapon ⬩【DEX + DEX】⬩【HR + 5】physical damage.</li></ul><p>SPELLS</p><ul><li>Enthrall ⬩ 10 MP ⬩ One creature ⬩ Instantaneous — Target creature becomes Enraged. Until the creature is no longer Enraged, their Attacks and Offensive Spells must include you among their Targets if possible.</li><li>Inspire ⬩ 10 × T MP ⬩ Up to three creatures ⬩ Scene — Until this spell ends, each target gains a +1 bonus to Accuracy Checks.</li></ul><p>SPECIAL RULES</p><ul><li>Wellspring of Talent ⬩ Your maximum Mind Points increases by 20.</li></ul><h3>LABORER — Lv 5 ⬩ HUMANOID</h3><p>The backbone of most civil society. Physically fit, tough, and hard working. Traits: Calloused, Experienced, Tough, Well-Trained DEX d8 INS d6 MIG d10 WLP d8 HP 45 ⬩ 45 MP 25 ⬩ 25 DEF +0 M.DEF +0</p><p>BASIC ATTACKS</p><ul><li>Heavy Weapon ⬩【MIG + MIG】⬩【HR + 10】physical damage.</li><li>Thrown Weapon ⬩【DEX + INS】⬩【HR + 5】physical damage.</li></ul><p>SPECIAL RULES</p><ul><li>Experienced Worker ⬩ You gain a +3 bonus to Opposed Checks involving physical labor or endurance.</li><li>Physically Fit ⬩ Your maximum Hit Points increases by 20.</li></ul><h3>MERCHANT — Lv 5 ⬩ HUMANOID</h3><p>Wealth and opportunity are drawn to them. Through determination they've come to fortune. Traits: Devious, Selfish, Wealthy, Well-Dressed DEX d6 INS d8 MIG d8 WLP d10 HP 25 ⬩ 25 MP 30 ⬩ 30 DEF +1 M.DEF +1</p><p>BASIC ATTACKS</p><ul><li>Sword ⬩【DEX + INS】⬩【HR + 5】physical damage.</li><li>Firearm ⬩【DEX + INS】⬩【HR + 5】physical damage and the target suffers dazed.</li></ul><p>OTHER ACTIONS</p><ul><li>Surplus Supply ⬩ You spend 10 MP to allow an Ally of your choice recovers 2 Inventory Points.</li><li>Wonder of Trade ⬩ You spend 10 MP to allow an Ally of your choice to recover their choice of either 30 Hit Points or 30 Mind Points.</li></ul><h3>VAGRANT — Lv 5 ⬩ HUMANOID</h3><p>The disenfranchised and the downtrodden. Those with nothing to lose flock to you. Traits: Defiant, Reckless, Violent, Well-Equipped DEX d10 INS d6 MIG d10 WLP d6 HP 50 ⬩ 50 MP 20 ⬩ 20 DEF +2 M.DEF +2</p><p>BASIC ATTACKS</p><ul><li>Heavy Weapon ⬩【MIG + MIG】⬩【HR + 10】physical damage.</li><li>Firearm ⬩【DEX + DEX】⬩【HR + 5】physical damage and the target suffers weak.</li></ul><p>SPECIAL RULES</p><ul><li>Desperate ⬩ Your Maximum Hit Points increases by 20.</li><li>Scrap Armor ⬩ Your Defense and Magic Defense increase by 2.</li></ul>",
+				"markdown": ""
+			},
+			"sort": 300000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000019.RCpg000000000024"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 1200000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000019"
+}

@@ -1,0 +1,19 @@
+{
+	"name": "Guise",
+	"_id": "RCfd000000000002",
+	"type": "JournalEntry",
+	"sorting": "m",
+	"folder": null,
+	"sort": 200000,
+	"color": "",
+	"flags": {
+		"rippers-compendium": {
+			"section": "guise"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!folders!RCfd000000000002"
+}

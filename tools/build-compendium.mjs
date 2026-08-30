@@ -29,6 +29,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { buildJournals } from './build-journals.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const MODULE = dirname(HERE);
@@ -604,3 +605,8 @@ if (otherFlags.length) {
 } else {
   console.log('\nNo skill/class content gaps.');
 }
+
+// ---- JournalEntry Player Reference pack (v0.3.0) ---------------------------------------
+// Built from lodge-docs/COMPENDIUM-player-reference.md into src/packs/player-reference.
+// Separate module (tools/build-journals.mjs); the Item packs above are untouched.
+buildJournals();

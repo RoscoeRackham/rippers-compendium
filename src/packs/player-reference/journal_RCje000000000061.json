@@ -1,0 +1,39 @@
+{
+	"name": "Stalwart",
+	"_id": "RCje000000000061",
+	"pages": [
+		{
+			"_id": "RCpg000000000066",
+			"name": "Stalwart",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Those who draw strength from their bonds and stand unwavering against any force.</em></p><p><strong>SKILLS</strong></p><p><strong>POWER OF FRIENDSHIP</strong> · SL max 2</p><p>You gain a number of extra Bond slots equal to (SL). Additionally, when you invoke a Bond to improve the Accuracy Check of an attack, that attack deals extra damage equal to (the strength of that Bond).</p><p><strong>TIES THAT BIND</strong> · SL max 5</p><p>When you invoke a Bond, you may choose an ally present on the scene: they recover (SL × 4) Hit Points or Mind Points (your choice). If the Bond you invoked is with the ally you chose, that ally instead recovers both (SL × 4) Hit Points and Mind Points.</p><p><strong>IT WAS DESTINY</strong></p><p>Once per session, you may spend a Fabula Point to create a new Bond towards someone or something, or add an emotion to one of your existing Bonds; this doesn't require an action, but during a conflict it can only be done on your turn, while no effect is being resolved. Explain how destiny affected your relationships!</p><p><strong>A HERO'S PURPOSE</strong> · SL max 3</p><p>Once per session, when you save one or more NPCs from danger, complete a quest for one or more NPCs, or one or more Villains reach 0 Ultima Points while you are present on the scene, you gain (SL) Fabula Points.</p><p><strong>RESOLVE</strong> · SL max 4</p><p>During a conflict, you may use an action and spend a Fabula Point to recover from all status effects and also recover (10 + (SL × 10)) Mind Points.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000061.RCpg000000000066"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 5400000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000061"
+}

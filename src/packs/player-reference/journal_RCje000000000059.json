@@ -1,0 +1,39 @@
+{
+	"name": "Socialite",
+	"_id": "RCje000000000059",
+	"pages": [
+		{
+			"_id": "RCpg000000000064",
+			"name": "Socialite",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>One who turns their natural magnetism — the pull of their looks and manner — into a deliberate strength.</em></p><p><strong>SKILLS</strong></p><p><strong>THE EYE OF THE BEHOLDER</strong></p><p>Once per rest interlude you can ask a player (or the GM for a NPC) \"what did your character find attractive, admirable or endearing about me during our interactions?\". You can spend your Fabula points to reroll one or both dice from any roll made to help or harm you by a character who has expressed attraction, admiration or affection toward you.</p><p><strong>FINE PRESENTATION</strong> · SL max 5</p><p>During your rest interludes, pick out what your character goes out of their way to enhance in their appearance or behavior, and write them down. You can have a maximum of (SL) things written on your list at any time. When your character meets or converses with another character, you can spend 2 IP to ask them to choose something you've enhanced and describe how they find it attractive. Gain one Fabula point and remove this element from your list.</p><p><strong>DOUBLE-EDGE PERSONALITY</strong></p><p>When a character who knows you personally makes a roll to attract your attention, help you or cause you harm, they gain a +1 bonus.</p><p><strong>CENTRE OF ATTENTION</strong> · SL max 5</p><p>During a conflict when an enemy attacks or use a spell on your group, before the target are declared, you can pay (35 − 5 × SL) MP to force them to target you or force them to not target you</p><p><strong>WAVERING EMOTIONS</strong> · SL max 3</p><p>Up to (SL) times per scene, you can pay 10 MP to add an emotion of your choice to the bond you have with a character, or to the bond a character has with you until the end of the scene. This can create temporary bonds (even if you already have 6) or momentarily add antagonistic emotions to existing bonds (such as adding loyalty to a bond that already has mistrust).</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000059.RCpg000000000064"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 5200000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000059"
+}

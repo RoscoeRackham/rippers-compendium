@@ -1,0 +1,39 @@
+{
+	"name": "Penny Knight",
+	"_id": "RCje000000000046",
+	"pages": [
+		{
+			"_id": "RCpg000000000051",
+			"name": "Penny Knight",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>A masked defender who draws power from those they love and erupts into light and element to protect the vulnerable.</em></p><p><strong>SKILLS</strong></p><p><strong>In Their Name</strong> · SL max 5</p><p>When a damaging spell you cast while in the Panoply hits one or more creatures, if the Magic Check invoked a Bond of admiration, loyalty and/or affection: that spell deals +(SL) extra damage and ignores Immunities and Resistances.</p><p><strong>Interposition</strong></p><p>When a creature makes a Magic Check, you may spend 1 Fabula Point and choose a Bonded ally you can see: that ally gains +(2 + Bond strength) Magic Defense against that Magic Check, potentially turning a hit into a miss. Once per round.</p><p><strong>Kindly Light</strong></p><p>Your Panoply entry damage may instead heal chosen targets — targets you choose gain Absorption equal to the damage they would have received against that instance.</p><p><strong>Stand Revealed</strong> · SL max 4</p><p>Choose one element at acquisition: air, bolt, dark, earth, fire, ice, or light. This Skill grants the Panoply and the Token. Each level adds one enchantment to the Panoply.</p><p><strong>The Inexhaustible</strong> · SL max 5</p><p>While in the Panoply, when you cast a non-offensive spell with a total Mind Point cost of 10 or higher, you recover (SL × 2) Mind Points.</p><p><strong>RULES</strong></p><h3>THE ENCHANTMENTS <em>(Transform ✦4 — two at first level, one more per level)</em></h3><table><thead><tr><th>Enchantment</th><th>Effect</th></tr></thead><tbody><tr><td><strong>Attunement</strong></td><td>You may treat your Willpower as if it were one die size higher (up to a maximum of d12). Additionally, you can sense the presence of magical energy nearby that matches your magic element. If a creature that you can see has an Affinity with the same damage type as your magic element, you automatically discover that Affinity.</td></tr><tr><td><strong>Countermagic</strong></td><td>After an enemy hits or misses you with an offensive spell (O), if the Result of their Magic Check was an even number, you may deal 10 damage of your magic element to that enemy. This amount increases by 5 damage if you are level 20 or higher, or by 10 damage if you are level 40 or higher.</td></tr><tr><td><strong>Briar</strong> <em>(Cursed Armor)</em></td><td>When you acquire this enchantment, choose one status effect among dazed, shaken, slow and weak. When a creature hits you with a melee attack, you may spend 5 Mind Points to inflict the chosen status effect on that creature.</td></tr><tr><td><strong>Elemental Focus</strong></td><td>You gain Resistance to your magic element, and whenever you deal damage with an attack or spell, you may change that damage’s type to your magic element. <em>( allowed — scene-and-form-scoped, the Elemental Shroud shape.)</em></td></tr><tr><td><strong>Expansion</strong></td><td>Your spells with a target of “Up to three creatures” have a target of “Up to four creatures” instead. If an effect other than this enchantment already allows you to cast spells with a target of “Up to four creatures”, their target becomes “Up to five creatures” instead. You still need to spend additional Mind Points for a fourth and fifth target.</td></tr><tr><td><strong>Limelight</strong> <em>(Flashy Transformation)</em></td><td>When you deal damage to one or more enemies by entering your magical form, you may choose one of those enemies. Until the end of your next turn, when the chosen enemy performs an attack or casts an offensive spell (O), they must include you among the targets of that attack or spell (if able).</td></tr><tr><td><strong>Invisibility</strong></td><td>You may use an action and spend 20 Mind Points to become invisible until the end of the scene. If you suffer damage, attack, cast a spell or perform the Guard, Hinder, Inventory, Objective or Skill action, you become visible again.</td></tr><tr><td><strong>Spring-Heels</strong> <em>(Magical Flight)</em></td><td>You gain the benefits of the first paragraph of the Flying NPC Skill (Core Rulebook, page 307). This benefit does not apply while you are in Crisis, or while you are covering another creature with the Guard action. Additionally, if you get hit by an offensive spell (O) (even if it does not deal damage), the benefits of this enchantment cease until the start of your next turn.</td></tr><tr><td><strong>True Steel</strong> <em>(Magical Weapon)</em></td><td>Your attacks target Magic Defense instead of Defense. Additionally, when you perform an Accuracy Check, you may replace both of the required Attributes with Insight and Willpower (such as (INS + WLP) +1 for a greatsword).</td></tr><tr><td><strong>Quick-Change</strong> <em>(Quick Transformation)</em></td><td>When you enter your magical form during your turn on a conflict, if you chose to not deal damage, you may immediately perform an additional action. <strong>SCOPED (house ruling):</strong> a bare extra action is barred by the campaign’s free-action rule, so here the additional action <strong>must be Guard, Hinder, or Spell</strong> — the same shape the Core Rulebook uses to scope bonus actions.</td></tr><tr><td><strong>High Ceremony</strong> <em>(Ritual Boost)</em></td><td>When you acquire this enchantment, choose two disciplines among Arcanism, Chimerism, Elementalism, Entropism, Ritualism and Spiritism. You gain a +2 bonus to the Magic Check of Rituals of the chosen disciplines, as well as a +2 bonus to Checks to advance or turn back Ritual Clocks of the chosen disciplines. <em>(Boosts, never grants — survives the dead-letter rule.)</em></td></tr><tr><td><strong>Heartening</strong> <em>(Soul Burst)</em></td><td>When you enter your magical form during your turn on a conflict, if you chose to not deal damage and not perform an additional action through the Quick-Change enchantment, you may choose up to three allies you can see: they each recover 20 Mind Points.</td></tr><tr><td><strong>Splendor</strong></td><td>When you succeed on a Check to advance or turn back a Clock, if that Check includes Willpower, you may fill or erase 1 additional section of that Clock and recover 5 Mind Points for every section filled or erased (up to a maximum of 20 Mind Points recovered per Check). <strong>And Pressure Clocks are Clocks</strong> — the Penny Knight is thus a third pressure enabler; it costs an enchantment slot and a Willpower Check, which is fair.</td></tr><tr><td><strong>Wand</strong></td><td>As long as you are not in Crisis, your equipped weapons are treated as also belonging to the arcane Category for the purpose of Skills and effects that require it. If an effect such as the Spiritist’s Vismagus Skill would cause you to enter Crisis, you cannot benefit from this enchantment.</td></tr></tbody></table>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000046.RCpg000000000051"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 3900000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000046"
+}

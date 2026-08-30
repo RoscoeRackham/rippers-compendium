@@ -1,0 +1,39 @@
+{
+	"name": "Arcanist",
+	"_id": "RCje000000000001",
+	"pages": [
+		{
+			"_id": "RCpg000000000001",
+			"name": "Arcanist",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Arcanists temporarily project a portion of their soul outside the body, giving it physical form as one of the Arcana.</em></p><p><strong>SKILLS</strong></p><p><strong>ARCANE REGENERATION</strong> · SL max 6</p><p>After you willingly dismiss an Arcanum you are merged with, if you are in Crisis, you may have yourself and every ally present on the scene recover (SL × 5) Hit Points.</p><p><strong>BIND AND SUMMON</strong></p><p>You may bind Arcana to your soul and summon them later. When you encounter a new Arcanum, the Game Master will reveal what you must do in order to bind them.</p><p>You may use an action and spend 30 Mind Points to summon the power of one of the Arcana you have previously bound.</p><p>If you take this Skill at character creation, you begin play with one Arcanum bound to you (you may choose it from the sample Arcana or create it with your group). Any further Arcana must be obtained through exploration and story progression.</p><p><strong>PHANTOM STRENGTH</strong> · SL max 5</p><p>As long as you are merged with an Arcanum, you deal (SL) extra damage with free attacks, pulses, and spells. When you deal damage with a pulse or dismiss effect, if you have an arcane, dagger, or flail weapon equipped, you may have it ignore Affinities.</p><p><strong>QUICK SUMMONING</strong> · SL max 4</p><p>When you summon an Arcanum during your turn, choose up to two options: reduce its Mind Point cost by (SL × 5); and/or after you summon the Arcanum, if you are merged with it, perform its pulse. If you choose at least one option, you cannot willingly dismiss that Arcanum until the start of your next turn; if you choose both, that Arcanum's dismiss effect will not be available during this summoning.</p><p><strong>RITUAL ARCANISM</strong></p><p>You may perform Rituals of the Arcanism discipline, as long as their effects fall within the domains of one or more Arcana you have bound.</p><p>Arcanism Rituals use (WLP + WLP) for the Magic Check.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000001.RCpg000000000001"
+		}
+	],
+	"folder": "RCfd000000000001",
+	"sort": 100000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000001"
+}

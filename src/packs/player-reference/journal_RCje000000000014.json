@@ -1,0 +1,39 @@
+{
+	"name": "Batman",
+	"_id": "RCje000000000014",
+	"pages": [
+		{
+			"_id": "RCpg000000000014",
+			"name": "Batman",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Batmen dedicate themselves to mastering martial conflict, and even more to mastering its tools.</em></p><p><strong>SKILLS</strong></p><p><strong>ARMING MANEUVER</strong> · SL max 3</p><p>You may use an action to perform the Equipment action and spend up to (SL × 5) Mind Points. For every 5 MP spent this way, choose one option: you and one ally you can see may swap Guises with each other; or you may perform a free attack with a weapon which you equipped this turn, treating your High Roll as 0 when calculating damage; or the next time you suffer damage before the start of your next turn, reduce the damage taken by (SL) (before applying Affinities). Each option can only be chosen once per use of this Skill.</p><p><strong>FOLLOW-UP</strong> · SL max 4</p><p>During a conflict scene, when an ally causes one or more creatures to lose Hit Points, choose one of those creatures: that creature becomes marked until the next time an ally causes one or more creatures to lose Hit Points. Your attacks, spells and Skills deal (SL) extra damage to marked creatures.</p><p><strong>HERO'S RIGHT HAND</strong></p><p>After a creature towards whom you have a Bond of admiration suffers one or more Status Effects, you may spend 1 Fabula Point to choose any number of those Status Effects that you are not also suffering; your ally recovers from them, and you suffer them. When a creature towards whom you have a Bond of inferiority rolls a fumble, you may recover from one Status Effect of your choice.</p><p><strong>MY BODY, YOUR SHIELD</strong> · SL max 4</p><p>When you perform the Guard action and choose to provide cover, recover (SL × 5) Hit Points or Mind Points. In addition, until the beginning of your next turn, whenever the covered target takes damage, you may take any amount of that damage instead. You may only take a total of (SL × 10) damage this way, regardless of how many times the target takes damage.</p><p><strong>TACTICAL LEVERAGE</strong> · SL max 5</p><p>If you perform the Guard action and choose to provide cover to another creature, that creature gains one of the following benefits before the end of their next turn (their choice): their next melee attack can strike creatures that normally can't be targeted by melee attacks; or their next attack or spell deals (SL × 2) extra damage.</p><p><strong>TEAM PLAYER</strong> · SL max 3</p><p>When you perform a successful Support Check for an ally, you grant a bonus of (SL) to the leader's Check, instead of the normal +1 bonus.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000014.RCpg000000000014"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 700000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000014"
+}

@@ -1,0 +1,39 @@
+{
+	"name": "Sensitive",
+	"_id": "RCje000000000055",
+	"pages": [
+		{
+			"_id": "RCpg000000000060",
+			"name": "Sensitive",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Sensitives have developed the ability to connect with a spiritual web of sensations and rely on it to transmit information and improve their physical and mental abilities.</em></p><p><strong>SKILLS</strong></p><p><strong>COGNITIVE FOCUS</strong> · SL max 5</p><p>At the start of your turn during a conflict, you may choose one ally that is able to hear you or one enemy you can see that is suffering from dazed, enraged, and/or shaken. Until the start of your next turn, the chosen creature becomes your focus.</p><p>You gain a bonus equal to (SL) to Checks you perform to examine your focus, as well as to your Accuracy Checks and Magic Checks for attacks and offensive spells that include your focus among the targets. When you cause your focus to recover Hit Points and/or Mind Points, they recover (SL × 2) additional HP and/or MP, respectively.</p><p><strong>HYPERCOGNITION</strong> · SL max 5</p><p>The Mind Point cost of your spells and verses (High Fantasy Atlas, page 138) that include your focus among their targets is reduced by (SL), or by (SL × 2) if your focus is the only target (to a minimum cost of 0 Mind Points).</p><p><strong>NAVIGATOR</strong></p><p>You can communicate telepathically with any conscious ally within the same district, and you are able to hear each other for the sake of Skills and effects; this range contracts as the local Miasma Clock fills (district, then building or line of sight, then nothing). You may use Ritualism for Aether purposes only — transporting creatures in and out of the Aether, gaining information there, and tracking entities within it.</p><p>You gain the ability to perform Rituals of the Ritualism discipline. Additionally, you may use Ritualism to transport creatures in and out of the Aether, and to gain information and track entities while inside the Aether.</p><p><strong>PSYCHIC GIFTS</strong> · SL max 5</p><p>Each time you take this Skill, you gain a gift. The rules for gifts and for the Brainwave Clock can be found on the next page.</p><p><em>Using a gift.</em> Gifts can only be used when specific events take place. When this happens, you may spend an amount of Mind Points equal to (the number of filled sections in your Brainwave Clock, multiplied by 5) (minimum 5 Mind Points) in order to apply the effects of that gift to the event.</p><ul><li>You may only use a single gift per event, and the same gift may only be used once per event.</li><li>If a gift causes HP or MP recovery, or if it causes MP loss, the amounts increase by 10 if you are level 20 or higher, or by 20 if you are level 40 or higher.</li></ul><p><em>The Brainwave Clock.</em> When you first acquire the Psychic Gifts Skill, you also receive a Brainwave Clock.</p><ul><li>Your Brainwave Clock has 4 sections, and it begins each scene empty.</li><li>After you resolve one of your gifts, fill 1 section of your Brainwave Clock (you do so after the effects of the gift have been calculated and applied).</li><li>Your Brainwave Clock determines your gifts' cost in Mind Points, as well as their effectiveness (see above). You can still use your gifts when the Clock is full.</li><li>Sections of your Brainwave Clock may not be filled in any way other than described above, and they may only be erased through the Brainwave Discharge Heroic Skill or through effects that expressly influence Brainwave Clocks.</li></ul><p><em>Gifts.</em></p><ul><li><strong>Atmokinesis</strong> <em>(When you deal damage)</em> — That damage becomes air or bolt, and its source deals extra damage equal to (2 + the number of filled sections in your Brainwave Clock).</li><li><strong>Clairvoyance</strong> <em>(When an NPC becomes your focus or when you create a Bond towards an NPC)</em> — Ask the Game Master a single question about that NPC, which the Game Master must answer truthfully. Then, describe what sensation revealed this information to you. You may use this gift only once on each NPC.</li><li><strong>Gravitokinesis</strong> <em>(When you deal damage)</em> — That damage becomes earth or physical, and its source deals extra damage equal to (2 + the number of filled sections in your Brainwave Clock). If the source deals damage to one or more flying creatures, they are forced to land immediately.</li><li><strong>Life Transference</strong> <em>(When you cause one or more enemies to lose HP)</em> — Choose yourself or an ally that is your focus: if the chosen creature is in Crisis, they recover an amount of Hit Points equal to (5 + (the number of filled sections in your Brainwave Clock, multiplied by 5)).</li><li><strong>Photokinesis</strong> <em>(When you deal damage)</em> — That damage becomes dark or light, and its source deals extra damage equal to (2 + the number of filled sections in your Brainwave Clock).</li><li><strong>Psychic Backlash</strong> <em>(After an enemy succeeds on an Opposed Check against you or causes you to lose Hit Points)</em> — That enemy loses an amount of Mind Points equal to (5 + (the number of filled sections in your Brainwave Clock, multiplied by 5)). Then, choose one option: that enemy suffers dazed, or that enemy suffers shaken.</li><li><strong>Psychic Shield</strong> <em>(After an enemy you can see performs an Accuracy Check or a Magic Check)</em> — For the purposes of that Check, you may treat your Defense and Magic Defense scores as being equal to (your current Willpower die size + (the number of filled sections in your Brainwave Clock, multiplied by 2)). You may still use your normal scores if better.</li><li><strong>Reassuring Presence</strong> <em>(After you cover an ally with the Guard action)</em> — That ally recovers an amount of Mind Points equal to (10 + (the number of filled sections in your Brainwave Clock, multiplied by 5)). If that ally is your focus, they recover from a single status effect of their choice among dazed, enraged, and shaken.</li><li><strong>Thermokinesis</strong> <em>(When you deal damage)</em> — That damage becomes fire or ice, and its source deals extra damage equal to (2 + the number of filled sections in your Brainwave Clock).</li></ul><p><strong>PSYCHOKINESIS</strong></p><p>When you perform an Accuracy Check, you may replace one of the Attribute dice with Willpower (such as (DEX + WLP) for a shortbow). Additionally, your melee attacks with arcane weapons and swords may target flying creatures.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000055.RCpg000000000060"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 4800000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000055"
+}

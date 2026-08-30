@@ -1,0 +1,39 @@
+{
+	"name": "Archivist",
+	"_id": "RCje000000000012",
+	"pages": [
+		{
+			"_id": "RCpg000000000012",
+			"name": "Archivist",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Archivists are known for their insatiable curiosity and appetite for discovery.</em></p><p><strong>SKILLS</strong></p><p><strong>FLASH OF INSIGHT</strong> · SL max 3</p><p>When you get a Result of 13 or higher on a Check performed to investigate a creature, item or location — this includes using the Study action during a conflict — you may ask the Game Master up to (SL) questions concerning the subject of your investigation. You may ask these questions immediately or save them for later; whenever you ask one of these questions, the Game Master will answer truthfully and you will describe your character's deductive process.</p><p>This Skill may only be used once on the same creature, item, or location.</p><p><strong>FOCUSED</strong> · SL max 5</p><p>Permanently increase your maximum Mind Points by (SL × 3).</p><p>When you perform an Open Check using (INS + INS), you gain a bonus equal to (SL) on that Check (this only applies to Open Checks).</p><p><strong>KNOWLEDGE IS POWER</strong></p><p>When you perform an Accuracy Check, you may replace one of the Attribute dice with Insight (such as (INS + INS) for a pistol or (INS + MIG) for a waraxe).</p><p><strong>QUICK ASSESSMENT</strong> · SL max 6</p><p>At the start of a conflict, you may spend up to (SL × 5) Mind Points. For every 5 Mind Points you spend this way, choose one option: choose a creature you can see and the GM reveals one of their Traits; or name a damage type and choose a creature you can see, and the GM reveals that creature's Affinity towards that damage type.</p><p>Pressure points count as Traits for this Skill.</p><p><strong>TRAINED MEMORY</strong></p><p>You can perfectly recall the details of any scene you have visited within the past week. You can \"go back in time\" within your mind in order to examine and investigate such scenes again — your Flash of Insight Skill will apply to these memories as well.</p><p><strong>TECHNICAL MIND</strong> · SL max 5</p><p>When you initiate a Project, the initial cost is reduced by (SL × 50) zenit.</p><p><strong>UNFETTERED BRILLIANCE</strong> · SL max 4</p><p>At the beginning of each session, roll your (INS) die (SL) times and note each result. Whenever another creature you can see performs a Check, you may replace the value shown on one of the dice with one of your noted values that hasn't been used yet. Unused values are lost at the end of the session.</p><p>You may choose to roll for this Skill additional times, but for each additional die you roll you must choose one of the following. You may only choose each option once. Pay 500 zenit; or you cannot equip armor or shields this session; or erase one emotion from one of your Bonds.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000012.RCpg000000000012"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 500000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000012"
+}

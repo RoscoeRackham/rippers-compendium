@@ -1,0 +1,39 @@
+{
+	"name": "Proprietor",
+	"_id": "RCje000000000006",
+	"pages": [
+		{
+			"_id": "RCpg000000000006",
+			"name": "Proprietor",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>A proprietor who builds and runs one organisation — shop, society, guild or chapter — and draws material power from its growth.</em></p><p><strong>SKILLS</strong></p><p><strong>Bargain</strong> · SL max 3</p><p>Personal purchases cost (SL × 10%) less zenit. Personal payments and rewards pay (SL × 10%) more zenit. At Game Master discretion, this Skill may also affect narrative expenses and rewards, or grant +(SL) to related Checks.</p><p><strong>Deep Pockets</strong> · SL max 5</p><p>Once per conflict scene, as part of an action, you may spend up to (SL × 200) zenit before rolling a Check: you gain +1 to that Check for every 200 zenit spent, with the expenditure explained in the fiction.</p><p><strong>Dividends</strong> · SL max 4</p><p>You may spend 1 Inventory Point to use one of your organisation's abilities as a free action, (SL) additional times per session, in addition to the single free use granted by the Incorporate Skill.</p><p><strong>Endless Supply</strong></p><p>Once per conflict scene, you may take the Inventory action to restore up to 2 Inventory Points, divided as you choose between up to two creatures including yourself.</p><p><strong>Incorporate</strong> · SL max 5</p><p>You incorporate one organisation (only one at a time). Once per session, you may use one of your organisation's abilities as a free action on your turn by spending 1 Inventory Point; after any ability is used, no other may be used until the start of your next turn. Your organisation gains one level per session (up to your Skill Level in Incorporate), gaining one new ability per level. Choose one ability when you first acquire this Skill.</p><p>The eleven abilities are: <strong>Stock Up</strong> — you or a visible target recovers (SL) Inventory Points and 5 Mind Points per IP; <strong>Mana Battery</strong> — you or a visible target recovers (SL × 5) Mind Points; <strong>Health Supplies</strong> — you or a visible target recovers (SL × 5) Hit Points; <strong>Incoming</strong> — one visible creature loses (SL × 5) Hit Points or Mind Points (may be chosen twice, once per track); <strong>Blocker</strong> — choose (SL) damage types; grant one creature Resistance to one chosen type against one attack, even off your turn; <strong>Booster</strong> — choose (SL) status types; remove one chosen status from a visible creature; <strong>Status</strong> — add (SL) to one Check, declared before the result is known; <strong>Escape Plan</strong> — one Player Character vanishes and reappears in another scene with a Player Character present, or add (SL) segments to a flee Clock; <strong>Easy Breezy</strong> — reduce your travel-roll die one size (minimum d6); <strong>Income</strong> — receive (SL × 100) zenit (not while the party collectively holds 1000 × number of Player Characters or more zenit); <strong>Information Gathering</strong> — investigate a creature, item or location at +(SL); on a 13 or higher, ask the Game Master one question, answered truthfully.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000006.RCpg000000000006"
+		}
+	],
+	"folder": "RCfd000000000001",
+	"sort": 600000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000006"
+}

@@ -1,0 +1,39 @@
+{
+	"name": "Magistrate",
+	"_id": "RCje000000000037",
+	"pages": [
+		{
+			"_id": "RCpg000000000042",
+			"name": "Magistrate",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Magistrates deliver reckoning to those who have evaded or cheated the law.</em></p><p><strong>SKILLS</strong></p><p><strong>Citation</strong> · SL max 4</p><p><em>Requires Letter of the Law.</em></p><p>When a character breaks a law, after the effects of breaking the law are resolved, that character receives a citation. When a character with a citation takes damage, that damage is increased by (SL × 2) and ignores Resistances, then the citation is removed. If that damage was the result of breaking another law, that damage is increased by (SL × 5) instead. All citations are removed at the end of the scene.</p><p><strong>Hold in Contempt</strong></p><p>When you perform the Guard action, until the start of your next turn, laws that are broken are not removed from the scene. At the start of that turn, you may perform a free attack with a weapon you have equipped against one enemy that broke one or more laws since your previous turn.</p><p><strong>Justice for the People</strong> · SL max 5</p><p><em>Requires Letter of the Law.</em></p><p>When an enemy breaks a law, if you have the Letter of the Law Skill, you may choose an ally who can see you instead of performing an attack or casting a spell against the enemy who broke the law. That ally regains (SL × 5) Hit Points.</p><p><strong>Letter of the Law</strong> · SL max 7</p><p>Each time you acquire this Skill, you learn one law (see below). At the start of a conflict scene, you may enact up to two laws you know. Additionally, you may use an action and spend 10 Mind Points to enact a law you know. Enacting a law has no effect if that law is already active on the scene, even if enacted by different characters. If multiple characters have levels in Letter of the Law, each may respond to a character breaking a law, regardless of who enacted it. Once a law has been broken, it is removed from the scene and can no longer be broken unless enacted again.</p><p>When an enemy breaks a law, you may immediately perform a free attack with a weapon you have equipped or cast an offensive spell. The attack or spell must have the creature that broke the law as its only target, and you treat your High Roll as 0 when calculating damage. A spell cast this way must have a total Mind Point cost of 10 or less. If you or one of your allies breaks a law, that character takes a heavy amount of untyped damage and loses a heavy amount of Mind Points.</p><p><em>The eight laws:</em></p><ul><li><strong>Condemn Attack</strong> — When you enact this law, choose melee or ranged. This law is broken</li></ul><p>when a creature performs an attack of the chosen type during their turn.</p><ul><li><strong>Elemental Censure</strong> — When you enact this law, choose air, bolt, earth, fire, or ice. This law</li></ul><p>is broken when a creature deals damage of the chosen type.</p><ul><li><strong>Greater Status Ban</strong> — This law is broken when a creature inflicts enraged or poisoned on one</li></ul><p>or more creatures, or when a creature inflicts two or more status effects at the same time on one or more creatures.</p><ul><li><strong>Halt Recovery</strong> — This law is broken when a character regains Mind Points or recovers from</li></ul><p>one or more status effects.</p><ul><li><strong>Lesser Status Ban</strong> — When you enact this law, choose slow, dazed, weak, or shaken. This</li></ul><p>law is broken when a creature inflicts the chosen status effect on one or more creatures.</p><ul><li><strong>Rebuke Magic</strong> — When you enact this law, choose offensive or non-offensive. This law is</li></ul><p>broken when a creature casts a spell of the chosen type.</p><ul><li><strong>Shackle Focus</strong> — This law is broken when a character spends Mind Points as part of an</li></ul><p>effect other than casting a spell.</p><ul><li><strong>Spiritual Edict</strong> — When you enact this law, choose dark, light, or poison. This law is broken</li></ul><p>when a creature deals damage of the chosen type.</p><p><strong>Quick Legislation</strong> · SL max 3</p><p><em>Requires Letter of the Law.</em></p><p>When you hit a creature with an attack or offensive spell, you may spend up to (SL × 20) Mind Points. You immediately enact one law you know for every 20 Mind Points spent this way.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000037.RCpg000000000042"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 3000000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000037"
+}

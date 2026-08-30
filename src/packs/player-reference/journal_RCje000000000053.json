@@ -1,0 +1,39 @@
+{
+	"name": "Rogue",
+	"_id": "RCje000000000053",
+	"pages": [
+		{
+			"_id": "RCpg000000000058",
+			"name": "Rogue",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Be they criminals, rebels or spies, Rogues are more than willing to play dirty in order to get what they want.</em></p><p><strong>SKILLS</strong></p><p><strong>DODGE</strong> · SL max 3</p><p>As long as you have no shields and no martial armor equipped, your Defense score is increased by (SL).</p><p><strong>HIGH SPEED</strong> · SL max 3</p><p>At the start of a conflict, you may spend 10 Mind Points. If you do, choose one option and apply it before the start of the first round: perform a free attack with a weapon you have equipped; or perform the Hinder or Objective action for free. You also gain a bonus equal to (SL) to all Checks you perform as part of the chosen option.</p><p><strong>CHEAP SHOT</strong> · SL max 5</p><p>When you hit a creature with an attack, if the attack only targeted that creature and they are suffering from one or more status effects, you may have it deal extra damage equal to (SL + the number of status effects on the creature).</p><p><strong>SOUL STEAL</strong> · SL max 5</p><p>During a conflict, you may use an action to perform a (DEX + WLP) Check against the Magic Defense of an enemy you can see. If you succeed and that enemy is a soldier, you regain (SL) Inventory Points; if they are an elite or champion, the GM gives you their soul treasure, an item worth an amount of zenit equal to or lower than (the enemy's level multiplied by 30, or by 50 if they are a Villain). This soul treasure appears in your backpack. The same character can be successfully stolen from only once, but if they appear again with a different game profile, they can be stolen from again.</p><p>You gain a bonus equal to (SL) to your (DEX + WLP) Checks for this Skill.</p><p><strong>BAD REPUTATION</strong> · SL max 4</p><p>When two or more NPCs instigate trouble with your group, you may choose up to (SL) soldier-rank creatures you can see. Those creatures hesitate, tipping the situation in your favor and granting you an opportunity. If a conflict starts, the chosen creatures cannot perform attacks or offensive (O) spells during their first turn.</p><p>A creature whose level is 5 or more above yours is unaffected by this Skill. A Villain may spend an Ultima Point to cancel out this Skill to keep their minions in line.</p><p><strong>LAST-SECOND SAVE</strong> · SL max 5</p><p>Whenever you or an ally makes a Check to fill or erase sections of a Clock and quick thinking or deft movement could help your situation, you may spend up to (SL × 10) Mind Points. If you do, increase the Check result by 1 for every 10 Mind Points spent this way. This can allow you to turn a failure into a success or improve a success to fill or erase additional sections.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000053.RCpg000000000058"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 4600000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000053"
+}

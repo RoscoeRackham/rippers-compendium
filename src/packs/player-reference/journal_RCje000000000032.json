@@ -1,0 +1,39 @@
+{
+	"name": "Floralist",
+	"_id": "RCje000000000032",
+	"pages": [
+		{
+			"_id": "RCpg000000000037",
+			"name": "Floralist",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Floralists identify and cultivate the strange seeds grown from the spiritual energy that flows within plants.</em></p><p><strong>SKILLS</strong></p><p><strong>MAGISEEDS</strong> · SL max 5</p><p>When you rest, you gain (SL) Magiseeds. You may hold up to 10 + (SL × 5) Magiseeds and they never spoil. Use an action and plant a Magieed in a creature or object you can see within 3 squares. At the start of your next turn, if the Magieed is still planted, it blooms into one of six effects (rolled or chosen).</p><p><strong>BRAMBLEHEART</strong> · SL max 3</p><p>When you plant a Magieed in a creature within 3 squares of you, that creature takes (SL × 2) damage and suffers slow until the end of the scene.</p><p><strong>GREEN THUMB</strong> · SL max 1</p><p>When you plant a Magieed, you may delay its bloom by up to one round, or quicken it to bloom at the end of this turn instead of next turn's start.</p><p><strong>BLOOMING GROWTH</strong> · SL max 2</p><p>You may plant a Magieed in an object or location that is not a creature. Blooming becomes a static effect in that area until it is cleared.</p><p><strong>FLOURISH</strong> · SL max 3</p><p>When you plant a Magieed, you may plant an additional (SL - 1) Magiseeds in the same action, paying no action cost and distributing them among any number of creatures or objects you can see within 3 squares.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000032.RCpg000000000037"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 2500000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000032"
+}

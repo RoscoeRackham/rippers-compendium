@@ -1,0 +1,39 @@
+{
+	"name": "Blackguard",
+	"_id": "RCje000000000015",
+	"pages": [
+		{
+			"_id": "RCpg000000000015",
+			"name": "Blackguard",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>Blackguards are somber and powerful warriors who hide a sorrowful past.</em></p><p><strong>SKILLS</strong></p><p><strong>AGONY</strong> · SL max 5</p><p>Once per turn (including other creatures' turns), after you deal damage to one or more enemies you have a Bond towards, you may recover (SL × 2) Hit Points and (SL × 2) Mind Points.</p><p><strong>DARK BLOOD</strong></p><p>As long as you are in Crisis, you gain Resistance to dark and poison damage.</p><p><strong>HEART OF DARKNESS</strong></p><p>Once per scene, when you enter Crisis, you may choose a specific creature you can see that you do not have a Bond towards. If you do, create a Bond of hatred towards that creature.</p><p><strong>PAINFUL LESSON</strong> · SL max 3</p><p>After another creature causes you to lose Hit Points (with an attack, a spell or any other method), you may perform the Study action on that creature (page 74) for free. If you do, gain a bonus equal to (SL) to your Check.</p><p>Remember, you can study the same aspect of a creature only once.</p><p><strong>SHADOW STRIKE</strong> · SL max 5</p><p>You have learned to channel your vital force into your attacks. You may use an action to perform a Shadow Strike: roll your current Might die and lose an amount of Hit Points equal to (the number rolled on your Might die). If this did not reduce your Hit Points to 0, you may perform a free attack with a weapon you have equipped. This attack deals extra damage equal to (SL + the number rolled on your Might die), but all damage dealt by it becomes dark and its type cannot change.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000015.RCpg000000000015"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 800000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000015"
+}

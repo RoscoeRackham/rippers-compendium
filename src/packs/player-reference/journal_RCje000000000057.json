@@ -1,0 +1,39 @@
+{
+	"name": "Sin-Eater",
+	"_id": "RCje000000000057",
+	"pages": [
+		{
+			"_id": "RCpg000000000062",
+			"name": "Sin-Eater",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>A folk practitioner who absorbs the sins of the dead and spends their own vitality to work dark magic.</em></p><p><strong>SKILLS</strong></p><p><strong>MAGICAL INTUITION</strong> · SL max 3</p><p>When you hit one or more creatures with an offensive (O) spell, if that spell dealt damage and no creature was Vulnerable to any of the damage suffered, choose up to (SL) damage types. The GM reveals those creatures' Affinities towards those damage types.</p><p><strong>MAGIC OF THE CRAFT</strong> · SL max 10</p><p>Each time you acquire this Skill, learn one Sin-Eater spell.</p><p>Offensive [Z] Sin-Eater spells use (MIG + WLP) for the Magic Check.</p><p>Sin-Eater spells cost HP instead of MP. As they have no MP cost, Skills that reference, change, or ignore their MP costs (such as Cataclysm or Bimagus) apply to their HP cost instead.</p><p><strong>RAGE UNBOUND</strong> · SL max 1</p><p>Whenever you deal damage, you deal extra damage equal to (the number of Ultima Points spent this session).</p><p><strong>RUNIC SPELL</strong> · SL max 5</p><p>At the start of a conflict scene, you may spend 10 HP. If you do, choose one spell you know and cast it as a runic spell, paying its cost upfront and holding it to be released later. Then, choose a specific trigger, such as an enemy entering Crisis. The first time this trigger is met, you must immediately release the runic spell for free, before or after the trigger is resolved. The runic spell must have a total HP and/or MP cost of (10 × SL) or less, and its targets are chosen when it is released. At the end of the scene, if you have any held runic spells, you recover 5 HP and all runic spells are lost.</p><p><strong>SANGUIMANCY</strong> · SL max 5</p><p>You may use an action to perform Sanguimancy: roll your current Might die and lose an amount of HP equal to (the number rolled on your Might die). If this didn't reduce your HP to 0, you may immediately perform the Spell action for free (paying its cost). After the effects of this spell are resolved, all targets that were affected by the spell suffer poison damage equal to (SL + the number rolled on your Might die).</p><p><strong>SPELLS</strong></p><p><strong>RUSTING</strong> · 5 HP · One weapon · Scene</p><p>You imbue a weapon with poison and decay. Until this spell ends, all damage dealt by the weapon becomes of the poison type. If you have that weapon equipped while you cast this spell, you may perform a free attack with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature.</p><p><strong>CHALKING [Z]</strong> · 10 HP · One creature · Instantaneous</p><p>Choose a damage type: air, bolt, earth, fire, or ice. While the target is under the effect of this spell, if they suffer damage of the chosen type, they suffer 5 extra damage. Then, if that damage was caused by a creature, that creature recovers an amount of HP equal to half the total HP loss the target suffered. Once that happens, this spell ends.</p><p><strong>THE SWITCH [Z]</strong> · 10 HP · One creature · Scene</p><p>Choose a damage type: air, bolt, earth, fire, or ice. Until this spell ends, all damage dealt by the creature becomes of the chosen type. Once that happens twice, this spell ends. This spell becomes offensive (O) if its target is an enemy.</p><p><strong>FESTER [Z]</strong> · 10 HP · One creature · Instantaneous</p><p>You worsen the wounds of your enemy. The target suffers poisoned if they are not in Crisis, or (HR + 30) poison damage if they are in Crisis.</p><p><strong>CROSSWIND [Z]</strong> · 10 HP · One creature · Instantaneous</p><p>You weave magic from east to west, creating a storm. The target suffers (HR + 5) air damage, then suffers (HR + 5) ice damage</p><p><strong>THE LEFT</strong> · 10 HP · Self · Instantaneous</p><p>Channel your negativity into an otherworldly attack. You may immediately perform a free attack with a melee weapon you have equipped. If you have two weapons equipped, you must use the one equipped in your off-hand slot. This attack may target creatures that you cannot see. If you used a weapon belonging to the arcane, dagger, or flail Category for this attack, it deals extra damage equal to (the total number of Inferiority, Mistrust, and/or Hatred emotions among your Bonds).</p><p><strong>THE PIT [Z]</strong> · 10 HP · One creature · Instantaneous</p><p>You weave magic from north to south, erupting the earth below. The target suffers (HR + 5) earth damage, then suffers (HR + 5) fire damage</p><p><strong>ON TICK</strong> · 10 × T HP · Up to three creatures · Instantaneous</p><p>You relinquish some of your own energy to empower your companions. Each target recovers 30 MP. This amount increases to 35 MP if you are level 20 or higher, or to 40 MP if you are level 40 or higher. If this spell's HP cost becomes 0, is removed, and/or is unpaid, the MP recovery is halved.</p><p><strong>THE PARTICULAR [Z]</strong> · 10 × T HP · Up to three creatures · Instantaneous</p><p>You conjure a thick, toxic fog. Each target hit by this spell suffers (HR + 15) poison damage. Opportunity: Targets hit by this spell suffer poisoned.</p><p><strong>SHORING</strong> · 20 HP · One creature · Scene</p><p>The next time the target suffers damage, that damage is halved (before applying Affinities). If the target is in Crisis, it suffers no damage instead. Once this happens, this spell ends.</p><p><strong>THE DRAW [Z]</strong> · 20 HP · One creature · Instantaneous</p><p>The darkness inside you beckons to another. The target loses an amount of MP equal to (the total HP cost of this spell), or (10 + the total HP cost of this spell) if they are in Crisis.</p><p><strong>ROT [Z]</strong> · 20 HP · One creature · Instantaneous</p><p>You command your foe's body to wilt and wither. The target suffers (HR + 25) poison damage. Damage dealt by this spell ignores Resistances.</p><p><strong>THE KNOT</strong> · 20 HP · One creature · Scene</p><p>You tie your well-being to that of another. Until this spell ends, if the target would be reduced to 0 HP, you may instead set their current HP equal to your own. If you do, you must immediately Surrender or Sacrifice yourself. If you are reduced to 0 HP by any other method, the target loses an amount of HP equal to your Crisis score.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000057.RCpg000000000062"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 5000000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000057"
+}

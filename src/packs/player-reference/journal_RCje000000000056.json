@@ -1,0 +1,39 @@
+{
+	"name": "Sharpshooter",
+	"_id": "RCje000000000056",
+	"pages": [
+		{
+			"_id": "RCpg000000000061",
+			"name": "Sharpshooter",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p><em>A majority of Sharpshooters are exceptionally good at dealing with threats from a carefully calculated distance.</em></p><p><strong>SKILLS</strong></p><p><strong>BARRAGE</strong></p><p>When you perform a ranged attack, you may spend 10 Mind Points to choose one option: the attack gains multi (2); or you increase the attack's multi property by one, up to a maximum of multi (3).</p><p><strong>CROSSFIRE</strong></p><p>After a creature you can see performs an Accuracy Check for a ranged attack, you may spend an amount of Mind Points equal to (5 + the Result of that Accuracy Check) to have the attack automatically miss all of its targets. You can only use this Skill if you have a ranged weapon equipped, and it has no effect if the Accuracy Check was a critical success.</p><p><strong>HAWKEYE</strong> · SL max 5</p><p>When you perform the Guard action, if you choose not to provide cover to another creature, you may choose one option: the next ranged attack you perform before the end of the current scene will deal (SL × 3) extra damage; or you may perform a free attack with a bow or firearm you have equipped, treating your High Roll as 0 when calculating damage dealt by this attack.</p><p><strong>RANGED WEAPON MASTERY</strong> · SL max 4</p><p>You gain a bonus equal to (SL) to all Accuracy Checks with ranged weapons.</p><p><strong>WARNING SHOT</strong> · SL max 4</p><p>When you hit one or more targets with a ranged attack that deals damage, you may have the attack deal no damage. If you do, choose one option: inflict shaken on each target hit by the attack; or inflict slow on each target hit by the attack; or each target hit by the attack loses (SL × 10) Mind Points. Describe your maneuver!</p><p><strong>KEEN VISION</strong> · SL max 5</p><p>When your group makes a travel roll and encounters a danger, choose one: each other member of the group receives a bonus equal to (SL) on the next Check they make that isn't part of an attack or offensive (O) spell; or each other member of the group takes (SL × 2) less damage from the next instance of damage that would affect them. This reduction increases to (SL × 3) if you are level 20 or higher, and (SL × 4) if you are level 40 or higher.</p><p>A character loses this benefit if it is not used before your next travel roll or rest.</p><p><strong>THE WANTED LIST</strong> · SL max 6</p><p>When you rest in a populated area, you can ask the GM for an open bounty. The GM will provide a target and a condition for fulfilling that bounty (capture them alive, chase them to a specific location, defeat them while they're suffering from a certain status effect, etc.). If you meet that condition before your next rest, you gain (SL × 100) zenit.</p>",
+				"markdown": ""
+			},
+			"sort": 100000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000056.RCpg000000000061"
+		}
+	],
+	"folder": "RCfd000000000002",
+	"sort": 4900000,
+	"flags": {
+		"rippers-compendium": {
+			"contentOnly": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!journal!RCje000000000056"
+}
