@@ -11,6 +11,11 @@ const packs = await fs.readdir('./src/packs');
 for (const pack of packs) {
 	if (pack.startsWith('.')) continue;
 	console.log('Packing ' + pack);
+	// Clear the target LevelDB first. compilePack writes INTO an existing dir, so recompiling
+	// in place leaves CURRENT/MANIFEST pointing at a stale .ldb lineage — an inconsistent pack
+	// that Foundry v13 fails to open ("Cannot read properties of undefined (reading 'packData')").
+	// A clean dir per build guarantees a consistent single-manifest LevelDB.
+	await fs.rm(`${MODULE_ID}/packs/${pack}`, { recursive: true, force: true });
 	await compilePack(`${MODULE_ID}/src/packs/${pack}`, `${MODULE_ID}/packs/${pack}`, { yaml });
 }
 console.log('Done.');
