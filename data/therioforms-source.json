@@ -1,0 +1,39 @@
+{
+  "_meta": {
+    "purpose": "Structured therioform dataset for rippers-compendium. Feeds Artificer's per-guise therioform picker on the play surface. Same spirit/shape as spells-source.json (a data table the snapshot-driven build can consume).",
+    "generated_by": "Compiler (hive), 2026-09-04, from lodge-docs/CLASSREF-mutant.md (print-verified vs Techno Fantasy Atlas pp.156-157 per Coroner). Local only, not published.",
+    "source_file": "lodge-docs/CLASSREF-mutant.md",
+    "granting_skill": {
+      "class_key": "mutant",
+      "skill_key": "theriomorphosis",
+      "display_name": "Theriomorphosis",
+      "max_sl": 6,
+      "learn_rule": "Each Skill Level teaches ONE therioform (one learned per level, up to 6). Verified in snapshot: mutant/theriomorphosis max_sl 6.",
+      "manifest_rule": "Action + cost to manifest UP TO TWO therioforms at once; they last the scene and end if you die, fall unconscious, Guard, or use the Skill again; you may drop them voluntarily on your turn; 10 MP at scene's end carries them into the next.",
+      "cost_variant": "✎ Adopted VARIANT (RULE-adopted-variants §2, permanent choice at Skill-take): flat 20 HP to manifest up to two immediately, then a free attack with High Roll treated as 0 — replaces the printed 'a third of current HP' + wait. Greater Theriomorphosis under the variant: up to THREE forms, free attack uses full High Roll.",
+      "source_lines": "CLASSREF-mutant.md L87 (skill), L54-64 (variant + Greater), L28 (SL totals)"
+    },
+    "notes": [
+      "Class is INNATE-ONLY (mutant.is_innate_only = true): therioforms are the Mutant's own flesh, live only while unmasked — they cannot be hung in a Guise cabinet (CLASSREF-mutant.md L24, L40-48). The 'per-guise therioform picker' therefore surfaces on the Mutant's own (unmasked/innate) form, not a worn Guise.",
+      "Effect text is verbatim-faithful to the CLASSREF table's own compressed wording (which the file states is 'this table's' wording, mechanics from Atlas pp.156-157); the full printed text lives in the Atlas. Genoclepsis species suggestions kept as the parenthetical the table prints.",
+      "Pterotheria carries a house ✎ flight-monopoly note (CLASSREF-mutant.md L66-71, L106): under the variant it costs 20 HP, lasts the scene, ends on Guard; the only unrestricted flight route in the campaign.",
+      "COUNT = 12 canonical (corrected 2026-09-04, god dispatch f361a6). Coroner re-audited the printed Techno Fantasy Atlas pp.156-157 directly and confirmed TWELVE, with COMPENDIUM-player-reference.md's list matching print word-for-word. Tachytheria + Toxicophora were promoted from the old excluded{} block into therioforms[] and their effect text pulled from the print-verified COMPENDIUM source (L194-199). The first 10 kept as built (correct).",
+      "SOURCE CORRECTION (finding): the original build used CLASSREF-mutant.md, which lists only 10 therioforms (table L96-107) and omits Tachytheria + Toxicophora — despite its own '✅ BUILT FROM PRINT — all ten therioforms check out' banner (CLASSREF-mutant.md L12-14). That banner is FALSE by count (10 vs the printed 12). CLASSREF-mutant.md is a drifted/incomplete source for the therioform list; COMPENDIUM-player-reference.md L166-199 is the print-accurate one — though note its own label reads '*The ten therioforms:*' (L166) while listing 12 (a stale label). Flagged for Austin/Coroner to reconcile the CLASSREF banner + the COMPENDIUM label."
+    ]
+  },
+
+  "therioforms": [
+    { "therioform_key": "theriomorphosis/amphibia", "name": "Amphibia", "genoclepsis_suggestion": "frogs, regenerators, aquatic things", "effect": "Breathe underwater, see in dim light; your HP recovery gains +5 and may clear one status effect.", "source_line": "CLASSREF-mutant.md L98" },
+    { "therioform_key": "theriomorphosis/arpaktida", "name": "Arpaktida", "genoclepsis_suggestion": "wolves, birds of prey", "effect": "Insight one die size up (max d12); the first time each turn you damage creatures, any in Crisis take 5 extra.", "source_line": "CLASSREF-mutant.md L99" },
+    { "therioform_key": "theriomorphosis/dynamotheria", "name": "Dynamotheria", "genoclepsis_suggestion": "bears, the enormous", "effect": "Might one die size up (max d12); Might-inclusive Clock Checks move one extra section.", "source_line": "CLASSREF-mutant.md L100" },
+    { "therioform_key": "theriomorphosis/electrophora", "name": "Electrophora", "genoclepsis_suggestion": "lightning things, robots", "effect": "Your attack/spell damage may become bolt; an enemy losing 20+ HP to a bolt unarmed strike suffers slow.", "source_line": "CLASSREF-mutant.md L101" },
+    { "therioform_key": "theriomorphosis/neurophagoida", "name": "Neurophagoida", "genoclepsis_suggestion": "parasites, soul-eaters", "effect": "Biophagy also restores (4 + Theriomorphosis SL) Mind Points.", "source_line": "CLASSREF-mutant.md L102" },
+    { "therioform_key": "theriomorphosis/placophora", "name": "Placophora", "genoclepsis_suggestion": "turtles, the armoured", "effect": "Defense may read (13 + half Theriomorphosis SL), if better.", "source_line": "CLASSREF-mutant.md L103" },
+    { "therioform_key": "theriomorphosis/pneumophora", "name": "Pneumophora", "genoclepsis_suggestion": "winged beasts, rockets", "effect": "Your attack/spell damage may become air; the 20+ HP unarmed rider inflicts weak.", "source_line": "CLASSREF-mutant.md L104" },
+    { "therioform_key": "theriomorphosis/polypoda", "name": "Polypoda", "genoclepsis_suggestion": "squids, the tendrilled", "effect": "Unarmed strikes gain multi (3).", "source_line": "CLASSREF-mutant.md L105" },
+    { "therioform_key": "theriomorphosis/pterotheria", "name": "Pterotheria", "genoclepsis_suggestion": "bats, the winged", "effect": "You fly — melee reaches the flying, melee cannot reach you unless the attacker can. Void in cramped spaces; suffering air, bolt or ice damage in a conflict grounds you until your next turn.", "house_note": "✎ The flight monopoly: under the adopted variant it costs 20 HP, lasts the scene, ends if you Guard; the only unrestricted route to flying in the campaign (CLASSREF-mutant.md L66-71).", "source_line": "CLASSREF-mutant.md L106" },
+    { "therioform_key": "theriomorphosis/pyrophora", "name": "Pyrophora", "genoclepsis_suggestion": "bombardier beetles, fire elementals", "effect": "Your attack/spell damage may become fire; the 20+ HP unarmed rider inflicts dazed.", "source_line": "CLASSREF-mutant.md L107" },
+    { "therioform_key": "theriomorphosis/tachytheria", "name": "Tachytheria", "genoclepsis_suggestion": null, "effect": "You treat your Dexterity attribute as one die size higher (maximum d12); when you succeed on a Check that includes Dexterity to advance or turn back a Clock, fill or erase 1 additional section.", "source_line": "COMPENDIUM-player-reference.md L194-196 (print-verified vs Techno Fantasy Atlas pp.156-157, Coroner)" },
+    { "therioform_key": "theriomorphosis/toxicophora", "name": "Toxicophora", "genoclepsis_suggestion": null, "effect": "You may make all damage you deal poison damage; while your unarmed strikes deal poison damage, any enemy that loses 20 or more Hit Points to one of them also suffers poisoned.", "source_line": "COMPENDIUM-player-reference.md L197-199 (print-verified vs Techno Fantasy Atlas pp.156-157, Coroner)" }
+  ]
+}

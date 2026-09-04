@@ -1,0 +1,55 @@
+{
+	"name": "Applied Infirmity",
+	"type": "spell",
+	"_id": "RCsp000000000043",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "malefaction-applied-infirmity",
+		"source": {
+			"value": "Rippers Unmasked — STELLA IMPULSUM — HOUSE FOLD of Halt/Stagger/Terrify/Wither (SPELLS-master-list §2E)"
+		},
+		"summary": {
+			"value": "When you cast this spell, choose one status effect: dazed, shaken, slow, or weak."
+		},
+		"description": "<p>When you cast this spell, choose one status effect: dazed, shaken, slow, or weak. Each target hit by this spell suffers the chosen status effect.</p>",
+		"mpCost": {
+			"value": "5 × T"
+		},
+		"target": {
+			"value": "Up to three creatures"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "malefaction/applied-infirmity",
+			"discipline": "malefaction",
+			"classKey": "malefactor",
+			"grantingSkillKey": "malefactor_magic",
+			"perTarget": true,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000043"
+}

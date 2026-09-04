@@ -1,0 +1,55 @@
+{
+	"name": "Refractory Palisade",
+	"type": "spell",
+	"_id": "RCsp000000000069",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "spiritism-refractory-palisade",
+		"source": {
+			"value": "Rippers Unmasked — Core Rulebook v1.1 (Barrier)"
+		},
+		"summary": {
+			"value": "You project your soul outside your body and weave it into a barrier to protect the targets from attacks."
+		},
+		"description": "<p>You project your soul outside your body and weave it into a barrier to protect the targets from attacks. Until this spell ends, each target may treat their Defense score as being equal to 12 (they may still use their normal Defense score if it is higher than 12). This value increases to 13 if you are level 20 or higher, or to 14 if you are level 40 or higher.</p>",
+		"mpCost": {
+			"value": "5 × T"
+		},
+		"target": {
+			"value": "Up to three creatures"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "spiritism/refractory-palisade",
+			"discipline": "spiritism",
+			"classKey": "spiritist",
+			"grantingSkillKey": "spiritual_magic",
+			"perTarget": true,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000069"
+}

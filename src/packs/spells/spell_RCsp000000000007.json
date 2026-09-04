@@ -1,0 +1,59 @@
+{
+	"name": "Ignis",
+	"type": "spell",
+	"_id": "RCsp000000000007",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "elementalism-ignis",
+		"source": {
+			"value": "Rippers Unmasked — Core Rulebook v1.1"
+		},
+		"summary": {
+			"value": "You unleash a searing barrage against your foes, conjuring flames out of thin air."
+		},
+		"description": "<p>You unleash a searing barrage against your foes, conjuring flames out of thin air. You deal (HR + 15) fire damage to each target hit by this spell. Opportunity: each target hit by this spell suffers shaken.</p>",
+		"mpCost": {
+			"value": "10 × T"
+		},
+		"target": {
+			"value": "Up to three creatures"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": true
+				},
+				"type": {
+					"value": "fire"
+				},
+				"value": 15
+			}
+		},
+		"hasRoll": {
+			"value": true
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "elementalism/ignis",
+			"discipline": "elementalism",
+			"classKey": "elementalist",
+			"grantingSkillKey": "elemental_magic",
+			"perTarget": true,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000007"
+}

@@ -1,0 +1,55 @@
+{
+	"name": "The Draw",
+	"type": "spell",
+	"_id": "RCsp000000000063",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "sineater-the-draw",
+		"source": {
+			"value": "Rippers Unmasked — Jawloween 2025 / Witch (Call of the Void)"
+		},
+		"summary": {
+			"value": "The darkness inside you beckons to another."
+		},
+		"description": "<p>The darkness inside you beckons to another. The target loses an amount of MP equal to (the total HP cost of this spell), or (10 + the total HP cost of this spell) if they are in Crisis.</p>",
+		"mpCost": {
+			"value": "20 HP"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "sineater/the-draw",
+			"discipline": "sineater",
+			"classKey": "sin_eater",
+			"grantingSkillKey": "magic_of_the_craft",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000063"
+}

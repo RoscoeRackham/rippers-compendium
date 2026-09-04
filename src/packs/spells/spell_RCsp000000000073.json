@@ -1,0 +1,55 @@
+{
+	"name": "General Restoration",
+	"type": "spell",
+	"_id": "RCsp000000000073",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "spiritism-general-restoration",
+		"source": {
+			"value": "Rippers Unmasked — Core Rulebook v1.1 (Heal)"
+		},
+		"summary": {
+			"value": "You invigorate your companions, soothing their pain and easing their fatigue."
+		},
+		"description": "<p>You invigorate your companions, soothing their pain and easing their fatigue. Each target recovers 40 Hit Points. This amount increases to 50 Hit Points if you are level 20 or higher, or to 60 Hit Points if you are level 40 or higher.</p>",
+		"mpCost": {
+			"value": "10 × T"
+		},
+		"target": {
+			"value": "Up to three creatures"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "spiritism/general-restoration",
+			"discipline": "spiritism",
+			"classKey": "spiritist",
+			"grantingSkillKey": "spiritual_magic",
+			"perTarget": true,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000073"
+}

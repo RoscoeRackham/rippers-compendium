@@ -1,0 +1,55 @@
+{
+	"name": "The Creeps",
+	"type": "spell",
+	"_id": "RCsp000000000030",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "illusion-the-creeps",
+		"source": {
+			"value": "Rippers Unmasked — The Low Fantasy Atlas (Create Phantasm: Dread)"
+		},
+		"summary": {
+			"value": "You may spend one action to conjure a terrifying Phantasm."
+		},
+		"description": "<p>You may spend one action to conjure a terrifying Phantasm. Choose either weaken or shaken: the Phantasm inflicts the chosen status effect on the target hit by this spell. On any subsequent turn, you can perform an action and perform another Magic Check to use the Phantasm's ability again, spending only 5 MP.</p>",
+		"mpCost": {
+			"value": "10"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "illusion/the-creeps",
+			"discipline": "illusion",
+			"classKey": "illusionist",
+			"grantingSkillKey": "illusionist_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000030"
+}

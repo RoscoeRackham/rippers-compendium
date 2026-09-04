@@ -1,0 +1,55 @@
+{
+	"name": "Rusting",
+	"type": "spell",
+	"_id": "RCsp000000000053",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "sineater-rusting",
+		"source": {
+			"value": "Rippers Unmasked — Jawloween 2025 / Witch (Blighted Weapon)"
+		},
+		"summary": {
+			"value": "You imbue a weapon with poison and decay."
+		},
+		"description": "<p>You imbue a weapon with poison and decay. Until this spell ends, all damage dealt by the weapon becomes of the poison type. If you have that weapon equipped while you cast this spell, you may perform a free attack with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature.</p>",
+		"mpCost": {
+			"value": "5 HP"
+		},
+		"target": {
+			"value": "One weapon"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "sineater/rusting",
+			"discipline": "sineater",
+			"classKey": "sin_eater",
+			"grantingSkillKey": "magic_of_the_craft",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000053"
+}

@@ -1,0 +1,55 @@
+{
+	"name": "The Tarrant Glide",
+	"type": "spell",
+	"_id": "RCsp000000000002",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "elementalism-the-tarrant-glide",
+		"source": {
+			"value": "Rippers Unmasked — HSC Vol.2 (Earth Surf / Land Shark)"
+		},
+		"summary": {
+			"value": "Until this spell ends, you treat your Dexterity as if it were one die size higher (up to a maximum of d12)."
+		},
+		"description": "<p>Until this spell ends, you treat your Dexterity as if it were one die size higher (up to a maximum of d12). At the end of the round, if you are under the effects of this spell, you must perform up to two free attacks, dealing extra damage equal to half your current Dexterity die size. If you perform only one attack, it gains multi (2); if you perform two attacks, both attacks follow the rules for two-weapon fighting (see Core Rulebook, page 69). This spell ends after all the attacks are resolved.</p>",
+		"mpCost": {
+			"value": "10"
+		},
+		"target": {
+			"value": "Self"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "elementalism/the-tarrant-glide",
+			"discipline": "elementalism",
+			"classKey": "elementalist",
+			"grantingSkillKey": "elemental_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000002"
+}

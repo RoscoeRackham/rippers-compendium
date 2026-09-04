@@ -1,0 +1,55 @@
+{
+	"name": "The Knot",
+	"type": "spell",
+	"_id": "RCsp000000000065",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "sineater-the-knot",
+		"source": {
+			"value": "Rippers Unmasked — Jawloween 2025 / Witch (Sympathetic Link)"
+		},
+		"summary": {
+			"value": "You tie your well-being to that of another."
+		},
+		"description": "<p>You tie your well-being to that of another. Until this spell ends, if the target would be reduced to 0 HP, you may instead set their current HP equal to your own. If you do, you must immediately Surrender or Sacrifice yourself. If you are reduced to 0 HP by any other method, the target loses an amount of HP equal to your Crisis score.</p>",
+		"mpCost": {
+			"value": "20 HP"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "sineater/the-knot",
+			"discipline": "sineater",
+			"classKey": "sin_eater",
+			"grantingSkillKey": "magic_of_the_craft",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000065"
+}

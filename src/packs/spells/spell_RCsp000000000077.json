@@ -1,0 +1,55 @@
+{
+	"name": "Anodyne Mantle",
+	"type": "spell",
+	"_id": "RCsp000000000077",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "spiritism-anodyne-mantle",
+		"source": {
+			"value": "Rippers Unmasked — Core Rulebook v1.1 (Soul Shroud)"
+		},
+		"summary": {
+			"value": "You weave energy to safeguard the targets."
+		},
+		"description": "<p>You weave energy to safeguard the targets. Choose a damage type: dark, light, or poison. Until this spell ends, each target gains Resistance to the chosen damage type.</p>",
+		"mpCost": {
+			"value": "5 × T"
+		},
+		"target": {
+			"value": "Up to three creatures"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "spiritism/anodyne-mantle",
+			"discipline": "spiritism",
+			"classKey": "spiritist",
+			"grantingSkillKey": "spiritual_magic",
+			"perTarget": true,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000077"
+}

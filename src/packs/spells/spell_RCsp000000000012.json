@@ -1,0 +1,59 @@
+{
+	"name": "Congelation",
+	"type": "spell",
+	"_id": "RCsp000000000012",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "elementalism-congelation",
+		"source": {
+			"value": "Rippers Unmasked — Core Rulebook v1.1 (Iceberg)"
+		},
+		"summary": {
+			"value": "A pillar of ice magic envelops your foe, dropping their temperature to critical levels."
+		},
+		"description": "<p>A pillar of ice magic envelops your foe, dropping their temperature to critical levels. You deal (HR + 25) ice damage to the target; this damage ignores Resistances.</p>",
+		"mpCost": {
+			"value": "20"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": true
+				},
+				"type": {
+					"value": "ice"
+				},
+				"value": 25
+			}
+		},
+		"hasRoll": {
+			"value": true
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "elementalism/congelation",
+			"discipline": "elementalism",
+			"classKey": "elementalist",
+			"grantingSkillKey": "elemental_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000012"
+}

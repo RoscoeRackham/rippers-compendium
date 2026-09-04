@@ -1,0 +1,55 @@
+{
+	"name": "Dissolution",
+	"type": "spell",
+	"_id": "RCsp000000000019",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "entropism-dissolution",
+		"source": {
+			"value": "Rippers Unmasked — Core Rulebook v1.1 (Dispel)"
+		},
+		"summary": {
+			"value": "You cleanse all magic from a creature."
+		},
+		"description": "<p>You cleanse all magic from a creature. The target stops being affected by all spells with a duration of \"Scene\" that are affecting them.</p>",
+		"mpCost": {
+			"value": "10"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "entropism/dissolution",
+			"discipline": "entropism",
+			"classKey": "entropist",
+			"grantingSkillKey": "entropic_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000019"
+}

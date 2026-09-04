@@ -1,0 +1,55 @@
+{
+	"name": "Aberrant Susceptibility",
+	"type": "spell",
+	"_id": "RCsp000000000027",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "entropism-aberrant-susceptibility",
+		"source": {
+			"value": "Rippers Unmasked — Core Rulebook v1.1 (Anomaly)"
+		},
+		"summary": {
+			"value": "You alter the very nature of your target."
+		},
+		"description": "<p>You alter the very nature of your target. Until this spell ends, if the target would suffer damage of a type they Absorb or are Immune to, they are instead treated as if they were Vulnerable to that damage type. Once that happens, this spell ends.</p>",
+		"mpCost": {
+			"value": "20"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "entropism/aberrant-susceptibility",
+			"discipline": "entropism",
+			"classKey": "entropist",
+			"grantingSkillKey": "entropic_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000027"
+}

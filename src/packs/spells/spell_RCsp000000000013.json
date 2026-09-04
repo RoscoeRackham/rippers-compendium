@@ -1,0 +1,59 @@
+{
+	"name": "Leyden Discharge",
+	"type": "spell",
+	"_id": "RCsp000000000013",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "elementalism-leyden-discharge",
+		"source": {
+			"value": "Rippers Unmasked — Core Rulebook v1.1 (Thunderbolt)"
+		},
+		"summary": {
+			"value": "You send an arrow of overcharged lightning to strike your foe."
+		},
+		"description": "<p>You send an arrow of overcharged lightning to strike your foe. You deal (HR + 25) bolt damage to the target; this damage ignores Resistances.</p>",
+		"mpCost": {
+			"value": "20"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": true
+				},
+				"type": {
+					"value": "bolt"
+				},
+				"value": 25
+			}
+		},
+		"hasRoll": {
+			"value": true
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "elementalism/leyden-discharge",
+			"discipline": "elementalism",
+			"classKey": "elementalist",
+			"grantingSkillKey": "elemental_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000013"
+}

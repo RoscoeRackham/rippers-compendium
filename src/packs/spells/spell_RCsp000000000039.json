@@ -1,0 +1,55 @@
+{
+	"name": "The Double",
+	"type": "spell",
+	"_id": "RCsp000000000039",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "illusion-the-double",
+		"source": {
+			"value": "Rippers Unmasked — The Low Fantasy Atlas (Command: Illusory Shield)"
+		},
+		"summary": {
+			"value": "When another creature is threatened by an attack, spell, or other danger, command one Phantasm to take their place."
+		},
+		"description": "<p>When another creature is threatened by an attack, spell, or other danger, command one Phantasm to take their place. Any Checks that are part of the danger will be performed against the Phantasm. The Phantasm shields the creature from damage and status effects, shattering in the process.</p>",
+		"mpCost": {
+			"value": "20"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "illusion/the-double",
+			"discipline": "illusion",
+			"classKey": "illusionist",
+			"grantingSkillKey": "illusionist_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000039"
+}

@@ -1,0 +1,55 @@
+{
+	"name": "Antiphonal Relief",
+	"type": "spell",
+	"_id": "RCsp000000000081",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "spiritism-antiphonal-relief",
+		"source": {
+			"value": "Rippers Unmasked — HSC Vol.2 (Song of Spirits)"
+		},
+		"summary": {
+			"value": "You call upon the spirits to join you in song and reinvigorate your allies' spirits."
+		},
+		"description": "<p>You call upon the spirits to join you in song and reinvigorate your allies' spirits. Until this spell ends, each target that is about to pay a Mind Point cost may halve that cost. Then, the effects of this spell ends for that target. This spell cannot be cast on a creature benefiting from the Massage Camp Activity (see Natural Fantasy Atlas, page 133), and its benefit cannot be applied to a Ritual's cost in Mind Points. This spell is treated as a verse for the purposes of Chanter Skills...</p>",
+		"mpCost": {
+			"value": "10 × T"
+		},
+		"target": {
+			"value": "Up to three creatures"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "spiritism/antiphonal-relief",
+			"discipline": "spiritism",
+			"classKey": "spiritist",
+			"grantingSkillKey": "spiritual_magic",
+			"perTarget": true,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000081"
+}

@@ -1,0 +1,59 @@
+{
+	"name": "Glacies",
+	"type": "spell",
+	"_id": "RCsp000000000006",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "elementalism-glacies",
+		"source": {
+			"value": "Rippers Unmasked — Core Rulebook v1.1"
+		},
+		"summary": {
+			"value": "You coat your foes under a thick layer of frost."
+		},
+		"description": "<p>You coat your foes under a thick layer of frost. You deal (HR + 15) ice damage to each target hit by this spell. Opportunity: each target hit by this spell suffers slow.</p>",
+		"mpCost": {
+			"value": "10 × T"
+		},
+		"target": {
+			"value": "Up to three creatures"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": true
+				},
+				"type": {
+					"value": "ice"
+				},
+				"value": 15
+			}
+		},
+		"hasRoll": {
+			"value": true
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "elementalism/glacies",
+			"discipline": "elementalism",
+			"classKey": "elementalist",
+			"grantingSkillKey": "elemental_magic",
+			"perTarget": true,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000006"
+}

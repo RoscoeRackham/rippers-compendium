@@ -1,0 +1,55 @@
+{
+	"name": "Structural Fatigue",
+	"type": "spell",
+	"_id": "RCsp000000000051",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "malefaction-structural-fatigue",
+		"source": {
+			"value": "Rippers Unmasked — STELLA IMPULSUM (Sunder)"
+		},
+		"summary": {
+			"value": "The target's Defense and Magic Defense are each reduced by 2."
+		},
+		"description": "<p>The target's Defense and Magic Defense are each reduced by 2. Once the target has been hit by 3 Attacks or offensive spells, this spell's effect ends.</p>",
+		"mpCost": {
+			"value": "20"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "malefaction/structural-fatigue",
+			"discipline": "malefaction",
+			"classKey": "malefactor",
+			"grantingSkillKey": "malefactor_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000051"
+}

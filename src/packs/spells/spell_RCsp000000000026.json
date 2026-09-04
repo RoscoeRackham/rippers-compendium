@@ -1,0 +1,55 @@
+{
+	"name": "Kinetic Augmentation",
+	"type": "spell",
+	"_id": "RCsp000000000026",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "entropism-kinetic-augmentation",
+		"source": {
+			"value": "Rippers Unmasked — Core Rulebook v1.1 (Acceleration)"
+		},
+		"summary": {
+			"value": "At the end of each of their turns, the target may choose one option: perform a free attack with a weapon they have equip"
+		},
+		"description": "<p>At the end of each of their turns, the target may choose one option: perform a free attack with a weapon they have equipped; or perform the Spell action for free, casting a spell with a total MP cost equal to or lower than 10 (paying its MP cost). After the same creature benefits from this effect a second time, this spell ends.</p>",
+		"mpCost": {
+			"value": "20"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "entropism/kinetic-augmentation",
+			"discipline": "entropism",
+			"classKey": "entropist",
+			"grantingSkillKey": "entropic_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000026"
+}

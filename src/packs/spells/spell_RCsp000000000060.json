@@ -1,0 +1,55 @@
+{
+	"name": "On Tick",
+	"type": "spell",
+	"_id": "RCsp000000000060",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "sineater-on-tick",
+		"source": {
+			"value": "Rippers Unmasked — Jawloween 2025 / Witch (Blessed Be)"
+		},
+		"summary": {
+			"value": "You relinquish some of your own energy to empower your companions."
+		},
+		"description": "<p>You relinquish some of your own energy to empower your companions. Each target recovers 30 MP. This amount increases to 35 MP if you are level 20 or higher, or to 40 MP if you are level 40 or higher. If this spell's HP cost becomes 0, is removed, and/or is unpaid, the MP recovery is halved.</p>",
+		"mpCost": {
+			"value": "10 × T HP"
+		},
+		"target": {
+			"value": "Up to three creatures"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "sineater/on-tick",
+			"discipline": "sineater",
+			"classKey": "sin_eater",
+			"grantingSkillKey": "magic_of_the_craft",
+			"perTarget": true,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000060"
+}

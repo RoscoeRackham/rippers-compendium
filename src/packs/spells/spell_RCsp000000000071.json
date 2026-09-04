@@ -1,0 +1,55 @@
+{
+	"name": "Choleric Provocation",
+	"type": "spell",
+	"_id": "RCsp000000000071",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "spiritism-choleric-provocation",
+		"source": {
+			"value": "Rippers Unmasked — Core Rulebook v1.1 (Enrage)"
+		},
+		"summary": {
+			"value": "You cause a creature to lose any semblance of temper and act brazenly."
+		},
+		"description": "<p>You cause a creature to lose any semblance of temper and act brazenly. The target suffers enraged and cannot perform the Guard or Spell actions until the end of their next turn.</p>",
+		"mpCost": {
+			"value": "10"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "spiritism/choleric-provocation",
+			"discipline": "spiritism",
+			"classKey": "spiritist",
+			"grantingSkillKey": "spiritual_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000071"
+}

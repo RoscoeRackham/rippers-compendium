@@ -1,0 +1,55 @@
+{
+	"name": "Comprehensive Insult",
+	"type": "spell",
+	"_id": "RCsp000000000052",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "malefaction-comprehensive-insult",
+		"source": {
+			"value": "Rippers Unmasked — STELLA IMPULSUM (Calamity) — learned via the Calamity Heroic Skill (must have mastered Malefactor)"
+		},
+		"summary": {
+			"value": "You assault the target's body with a sensory onslaught."
+		},
+		"description": "<p>You assault the target's body with a sensory onslaught. All stimuli, from pleasure to pain, light up at the same time. The target suffers dazed, enraged, poisoned, shaken, slow, and weak.</p>",
+		"mpCost": {
+			"value": "40"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "malefaction/comprehensive-insult",
+			"discipline": "malefaction",
+			"classKey": "malefactor",
+			"grantingSkillKey": "malefactor_magic",
+			"perTarget": false,
+			"heroic": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000052"
+}

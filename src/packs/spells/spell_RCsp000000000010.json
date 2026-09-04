@@ -1,0 +1,59 @@
+{
+	"name": "Concussion",
+	"type": "spell",
+	"_id": "RCsp000000000010",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "elementalism-concussion",
+		"source": {
+			"value": "Rippers Unmasked — Core Rulebook v1.1 (Boulder)"
+		},
+		"summary": {
+			"value": "You summon a colossal block of stone and send it straight towards your enemy."
+		},
+		"description": "<p>You summon a colossal block of stone and send it straight towards your enemy. You deal (HR + 25) earth damage to the target; this damage ignores Resistances.</p>",
+		"mpCost": {
+			"value": "20"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": true
+				},
+				"type": {
+					"value": "earth"
+				},
+				"value": 25
+			}
+		},
+		"hasRoll": {
+			"value": true
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "elementalism/concussion",
+			"discipline": "elementalism",
+			"classKey": "elementalist",
+			"grantingSkillKey": "elemental_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000010"
+}

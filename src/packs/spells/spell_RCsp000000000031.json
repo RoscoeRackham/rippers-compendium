@@ -1,0 +1,55 @@
+{
+	"name": "The Heckler",
+	"type": "spell",
+	"_id": "RCsp000000000031",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "illusion-the-heckler",
+		"source": {
+			"value": "Rippers Unmasked — The Low Fantasy Atlas (Create Phantasm: Mockery)"
+		},
+		"summary": {
+			"value": "You may spend one action to create a vexing Phantasm that taunts and distracts your foe."
+		},
+		"description": "<p>You may spend one action to create a vexing Phantasm that taunts and distracts your foe. For the next Attack action, if the target rolls an even number for Accuracy Check, the attack misses. On any subsequent turn, you can perform an action and perform another Magic Check to use the Phantasm's ability again, spending only 5 MP.</p>",
+		"mpCost": {
+			"value": "10"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "illusion/the-heckler",
+			"discipline": "illusion",
+			"classKey": "illusionist",
+			"grantingSkillKey": "illusionist_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000031"
+}

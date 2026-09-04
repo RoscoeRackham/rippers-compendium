@@ -1,0 +1,59 @@
+{
+	"name": "The Clout",
+	"type": "spell",
+	"_id": "RCsp000000000032",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "illusion-the-clout",
+		"source": {
+			"value": "Rippers Unmasked — The Low Fantasy Atlas (Create Phantasm: Strike)"
+		},
+		"summary": {
+			"value": "You may spend one action to create a Phantasm and command it to attack a creature."
+		},
+		"description": "<p>You may spend one action to create a Phantasm and command it to attack a creature. The target hit by the Phantasm suffers (HR + 12) damage. This damage increases to 16 if you are level 20 or higher, or to 18 if you are level 40 or higher. The range of the attack is determined by your current weapon. On any subsequent turn, you can perform an action and perform another Magic Check to use the Phantasm's ability again, spending only 5 MP. Damage dealt by this spell ignores Resistances.</p>",
+		"mpCost": {
+			"value": "10"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": true
+				},
+				"type": {
+					"value": ""
+				},
+				"value": 12
+			}
+		},
+		"hasRoll": {
+			"value": true
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "illusion/the-clout",
+			"discipline": "illusion",
+			"classKey": "illusionist",
+			"grantingSkillKey": "illusionist_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000032"
+}

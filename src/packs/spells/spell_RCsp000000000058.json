@@ -1,0 +1,55 @@
+{
+	"name": "The Left",
+	"type": "spell",
+	"_id": "RCsp000000000058",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "sineater-the-left",
+		"source": {
+			"value": "Rippers Unmasked — Jawloween 2025 / Witch (Sinister Strike)"
+		},
+		"summary": {
+			"value": "Channel your negativity into an otherworldly attack."
+		},
+		"description": "<p>Channel your negativity into an otherworldly attack. You may immediately perform a free attack with a melee weapon you have equipped. If you have two weapons equipped, you must use the one equipped in your off-hand slot. This attack may target creatures that you cannot see. If you used a weapon belonging to the arcane, dagger, or flail Category for this attack, it deals extra damage equal to (the total number of Inferiority, Mistrust, and/or Hatred emotions among your Bonds).</p>",
+		"mpCost": {
+			"value": "10 HP"
+		},
+		"target": {
+			"value": "Self"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "sineater/the-left",
+			"discipline": "sineater",
+			"classKey": "sin_eater",
+			"grantingSkillKey": "magic_of_the_craft",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000058"
+}

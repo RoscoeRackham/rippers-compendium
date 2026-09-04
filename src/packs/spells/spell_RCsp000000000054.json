@@ -1,0 +1,55 @@
+{
+	"name": "Chalking",
+	"type": "spell",
+	"_id": "RCsp000000000054",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "sineater-chalking",
+		"source": {
+			"value": "Rippers Unmasked — Jawloween 2025 / Witch (Akashic Exorcism)"
+		},
+		"summary": {
+			"value": "Choose a damage type: air, bolt, earth, fire, or ice."
+		},
+		"description": "<p>Choose a damage type: air, bolt, earth, fire, or ice. While the target is under the effect of this spell, if they suffer damage of the chosen type, they suffer 5 extra damage. Then, if that damage was caused by a creature, that creature recovers an amount of HP equal to half the total HP loss the target suffered. Once that happens, this spell ends.</p>",
+		"mpCost": {
+			"value": "10 HP"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "sineater/chalking",
+			"discipline": "sineater",
+			"classKey": "sin_eater",
+			"grantingSkillKey": "magic_of_the_craft",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000054"
+}

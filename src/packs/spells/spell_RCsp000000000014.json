@@ -1,0 +1,59 @@
+{
+	"name": "Rarefaction",
+	"type": "spell",
+	"_id": "RCsp000000000014",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "elementalism-rarefaction",
+		"source": {
+			"value": "Rippers Unmasked — Core Rulebook v1.1 (Vortex)"
+		},
+		"summary": {
+			"value": "You slash through your foe with high-pressure wind."
+		},
+		"description": "<p>You slash through your foe with high-pressure wind. You deal (HR + 25) air damage to the target; this damage ignores Resistances.</p>",
+		"mpCost": {
+			"value": "20"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": true
+				},
+				"type": {
+					"value": "air"
+				},
+				"value": 25
+			}
+		},
+		"hasRoll": {
+			"value": true
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "elementalism/rarefaction",
+			"discipline": "elementalism",
+			"classKey": "elementalist",
+			"grantingSkillKey": "elemental_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000014"
+}

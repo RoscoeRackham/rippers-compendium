@@ -1,0 +1,55 @@
+{
+	"name": "Ebon Lacquer",
+	"type": "spell",
+	"_id": "RCsp000000000017",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "entropism-ebon-lacquer",
+		"source": {
+			"value": "Rippers Unmasked — Core Rulebook v1.1 (Dark Weapon)"
+		},
+		"summary": {
+			"value": "You imbue a weapon with dark energy."
+		},
+		"description": "<p>You imbue a weapon with dark energy. Until this spell ends, all damage dealt by the weapon becomes dark. If you have that weapon equipped while you cast this spell, you may perform a free attack with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature.</p>",
+		"mpCost": {
+			"value": "5"
+		},
+		"target": {
+			"value": "One equipped weapon"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "entropism/ebon-lacquer",
+			"discipline": "entropism",
+			"classKey": "entropist",
+			"grantingSkillKey": "entropic_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000017"
+}

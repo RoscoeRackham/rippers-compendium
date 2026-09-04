@@ -1,0 +1,55 @@
+{
+	"name": "Resuscitative Office",
+	"type": "spell",
+	"_id": "RCsp000000000080",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "spiritism-resuscitative-office",
+		"source": {
+			"value": "Rippers Unmasked — Core Rulebook v1.1 (Hope, heroic spell p.236)"
+		},
+		"summary": {
+			"value": "You rekindle the flames of courage and hope within a defeated hero."
+		},
+		"description": "<p>You rekindle the flames of courage and hope within a defeated hero. Choose a Player Character who Surrendered but is still narratively present on the scene: that Player Character immediately regains consciousness and recovers an amount of Hit Points equal to their Crisis score. ... A Player Character may only be affected by this spell once per scene. ...</p>",
+		"mpCost": {
+			"value": "40"
+		},
+		"target": {
+			"value": "Special"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "spiritism/resuscitative-office",
+			"discipline": "spiritism",
+			"classKey": "spiritist",
+			"grantingSkillKey": "spiritual_magic",
+			"perTarget": false,
+			"heroic": true
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000080"
+}

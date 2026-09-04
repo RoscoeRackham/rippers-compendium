@@ -1,0 +1,55 @@
+{
+	"name": "The Switch",
+	"type": "spell",
+	"_id": "RCsp000000000055",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "sineater-the-switch",
+		"source": {
+			"value": "Rippers Unmasked — Jawloween 2025 / Witch (Cardinal Rotation)"
+		},
+		"summary": {
+			"value": "Choose a damage type: air, bolt, earth, fire, or ice."
+		},
+		"description": "<p>Choose a damage type: air, bolt, earth, fire, or ice. Until this spell ends, all damage dealt by the creature becomes of the chosen type. Once that happens twice, this spell ends. This spell becomes offensive (◆) if its target is an enemy.</p>",
+		"mpCost": {
+			"value": "10 HP"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "sineater/the-switch",
+			"discipline": "sineater",
+			"classKey": "sin_eater",
+			"grantingSkillKey": "magic_of_the_craft",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000055"
+}

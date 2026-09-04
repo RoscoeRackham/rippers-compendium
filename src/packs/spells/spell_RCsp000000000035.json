@@ -1,0 +1,55 @@
+{
+	"name": "Patching",
+	"type": "spell",
+	"_id": "RCsp000000000035",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "illusion-patching",
+		"source": {
+			"value": "Rippers Unmasked — The Low Fantasy Atlas (Command: Vital Sacrifice)"
+		},
+		"summary": {
+			"value": "You command your Phantasms to heal your allies."
+		},
+		"description": "<p>You command your Phantasms to heal your allies. Each Phantasm runs towards a companion and shatters itself in a cloud of healing energy. Each target recovers 20 HP. A single ally cannot be healed by more than one Phantasm per action.</p>",
+		"mpCost": {
+			"value": "10 × T"
+		},
+		"target": {
+			"value": "Up to three allies"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "illusion/patching",
+			"discipline": "illusion",
+			"classKey": "illusionist",
+			"grantingSkillKey": "illusionist_magic",
+			"perTarget": true,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000035"
+}

@@ -1,0 +1,55 @@
+{
+	"name": "Prognostic Survey",
+	"type": "spell",
+	"_id": "RCsp000000000020",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "entropism-prognostic-survey",
+		"source": {
+			"value": "Rippers Unmasked — Core Rulebook v1.1 (Divination)"
+		},
+		"summary": {
+			"value": "You briefly glimpse into the future."
+		},
+		"description": "<p>You briefly glimpse into the future. Until this spell ends, after a creature you can see rolls dice for a Check, if it is not a fumble or a critical success, you may force them to reroll both dice. Once you have forced two rerolls this way, this spell ends.</p>",
+		"mpCost": {
+			"value": "10"
+		},
+		"target": {
+			"value": "Self"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "entropism/prognostic-survey",
+			"discipline": "entropism",
+			"classKey": "entropist",
+			"grantingSkillKey": "entropic_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000020"
+}

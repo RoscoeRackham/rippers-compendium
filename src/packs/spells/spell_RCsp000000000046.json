@@ -1,0 +1,55 @@
+{
+	"name": "Proscriptive Order",
+	"type": "spell",
+	"_id": "RCsp000000000046",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "malefaction-proscriptive-order",
+		"source": {
+			"value": "Rippers Unmasked — STELLA IMPULSUM (Dither)"
+		},
+		"summary": {
+			"value": "When you cast this spell, you must declare an Action type (besides Attack)."
+		},
+		"description": "<p>When you cast this spell, you must declare an Action type (besides Attack). For the spell's duration, whenever the target takes the declared Action, they lose Hit Points equal to their level. Once this has occurred 3 times, this spell's effects end.</p>",
+		"mpCost": {
+			"value": "20"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "malefaction/proscriptive-order",
+			"discipline": "malefaction",
+			"classKey": "malefactor",
+			"grantingSkillKey": "malefactor_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000046"
+}

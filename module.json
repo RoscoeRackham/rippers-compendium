@@ -1,80 +1,87 @@
 {
-	"id": "rippers-compendium",
-	"title": "Rippers Unmasked — Classes & Skills",
-	"description": "The Rippers Unmasked class corpus as native Foundry Item packs the GM drags onto Project FU sheets: type:class Items for every Rippers class, their class skills as UUID-linked type:skill Items, and heroic skills as type:heroic Items with their requirements listed. Ships a browsable JournalEntry Player Reference pack (all 68 classes + shared-subsystem notes as readable prose). Original campaign content, layered on Project FU. A personal-table module — not for redistribution.",
-	"version": "0.4.2",
-	"url": "https://github.com/RoscoeRackham/rippers-compendium",
-	"manifest": "https://github.com/RoscoeRackham/rippers-compendium/releases/latest/download/module.json",
-	"download": "https://github.com/RoscoeRackham/rippers-compendium/releases/latest/download/rippers-compendium.zip",
-	"compatibility": {
-		"minimum": "13",
-		"verified": "13",
-		"maximum": "13"
-	},
-	"authors": [
-		{
-			"name": "Austin (cubemail.exe)"
-		}
-	],
-	"packs": [
-		{
-			"name": "classes",
-			"label": "Rippers Classes",
-			"path": "packs/classes",
-			"type": "Item",
-			"system": "projectfu"
-		},
-		{
-			"name": "skills",
-			"label": "Rippers Class Skills",
-			"path": "packs/skills",
-			"type": "Item",
-			"system": "projectfu"
-		},
-		{
-			"name": "heroics",
-			"label": "Rippers Heroic Skills",
-			"path": "packs/heroics",
-			"type": "Item",
-			"system": "projectfu"
-		},
-		{
-			"name": "player-reference",
-			"label": "Rippers — Player Reference",
-			"path": "packs/player-reference",
-			"type": "JournalEntry"
-		}
-	],
-	"packFolders": [
-		{
-			"name": "Rippers — Classes & Skills",
-			"sorting": "m",
-			"packs": [
-				"classes",
-				"skills",
-				"heroics"
-			]
-		},
-		{
-			"name": "Rippers — Player Reference",
-			"sorting": "m",
-			"packs": [
-				"player-reference"
-			]
-		}
-	],
-	"relationships": {
-		"systems": [
-			{
-				"id": "projectfu",
-				"type": "system"
-			}
-		]
-	},
-	"flags": {
-		"rippers-compendium": {
-			"contentOnly": true,
-			"note": "v0.4.1: FIX — the v0.4.0 player-reference LevelDB shipped inconsistent (CURRENT/MANIFEST pointed at a stale .ldb lineage from in-place recompiles), so Foundry v13 failed to open it (\"Cannot read properties of undefined (reading packData)\"). tools/pack.mjs now clears each target pack dir before compiling, so every pack ships a clean single-manifest LevelDB. Content unchanged. --- Items validate against Project FU's class/skill/heroic DataModels (packs system:projectfu). The player-reference JournalEntry pack renders the verbatim player binder — 68 classes + shared-subsystem notes — as browsable in-world prose (folders: Innate Only / Guise / Appendix), built from lodge-docs/COMPENDIUM-player-reference.md by tools/build-journals.mjs; formatting-only, no rules edits (editorial ✎/⚠/⛔ glyph marks stripped, all prose incl. house rulings kept). v0.4.0 RECONCILED the appendix to Compendium2.pdf Part V (Austin's authority): 8 reference notes (Heroics · Arcana Registry · Arcanum · Keystones · Torments · Personal Vehicle · NPC Spells [See-You-Later/Unexpected-Ally folded in] · Pressure and Stagger [new, extracted from the PDF p180–183]). The PDF's class bodies + all 271 numbered SL caps verify identical to the .md (the .md is the PDF's own upstream source), so names/bodies/caps are unchanged. No FU content is redistributed; no automation code."
-		}
-	}
+  "id": "rippers-compendium",
+  "title": "Rippers Unmasked — Classes & Skills",
+  "description": "The Rippers Unmasked class corpus as native Foundry Item packs the GM drags onto Project FU sheets: type:class Items for every Rippers class, their class skills as UUID-linked type:skill Items, and heroic skills as type:heroic Items with their requirements listed. Ships a browsable JournalEntry Player Reference pack (all 68 classes + shared-subsystem notes as readable prose). Original campaign content, layered on Project FU. A personal-table module — not for redistribution.",
+  "version": "0.4.3",
+  "url": "https://github.com/RoscoeRackham/rippers-compendium",
+  "manifest": "https://github.com/RoscoeRackham/rippers-compendium/releases/latest/download/module.json",
+  "download": "https://github.com/RoscoeRackham/rippers-compendium/releases/latest/download/rippers-compendium.zip",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Austin (cubemail.exe)"
+    }
+  ],
+  "packs": [
+    {
+      "name": "classes",
+      "label": "Rippers Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "projectfu"
+    },
+    {
+      "name": "skills",
+      "label": "Rippers Class Skills",
+      "path": "packs/skills",
+      "type": "Item",
+      "system": "projectfu"
+    },
+    {
+      "name": "heroics",
+      "label": "Rippers Heroic Skills",
+      "path": "packs/heroics",
+      "type": "Item",
+      "system": "projectfu"
+    },
+    {
+      "name": "spells",
+      "label": "Rippers — Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "projectfu"
+    },
+    {
+      "name": "player-reference",
+      "label": "Rippers — Player Reference",
+      "path": "packs/player-reference",
+      "type": "JournalEntry"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Rippers — Classes & Skills",
+      "sorting": "m",
+      "packs": [
+        "classes",
+        "skills",
+        "heroics"
+      ]
+    },
+    {
+      "name": "Rippers — Player Reference",
+      "sorting": "m",
+      "packs": [
+        "player-reference"
+      ]
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "projectfu",
+        "type": "system"
+      }
+    ]
+  },
+  "flags": {
+    "rippers-compendium": {
+      "contentOnly": true,
+      "note": "v0.4.3 (PACK 4 — SPELLS; unblocks rippers-guise spell auto-materialization): emits 81 type:spell Items from data/spells-source.json (Compiler; 6 class disciplines: elementalism/entropism/illusion + 3 more), on the same snapshot-driven pattern as skills/heroics. Each spell carries flags.rippers-compendium.{spellKey, discipline, classKey, grantingSkillKey, perTarget, heroic} so the guise can build a grantingSkillKey→spells map for its picker and auto-stamp picked spells on bind. FU field paths per spells-source _meta: mpCost.value/target.value (String), duration.value (enum), isOffensive.value (Boolean), rollInfo.damage.hasDamage/type/value (HR added at cast). rollInfo.attributes is NOT written (the dataset carries no per-spell attribute pairings; inventing barred; FU SpellDataModel supplies defaults). 5 spells have an unresolved (choose/multi) damage type — left BLANK + ⚠ flagged, never invented. Read ALONGSIDE db-snapshot, not folded into it (spells are authored source, not DB rows — spells-source _meta sanctions this). NOT auto-stampable and excluded from class_spells (documented in-source): Dancer dances (structural gap — no mpCost/target, duration outside the FU enum; needs a ruling), NPC-design spells (GM toolkit), Vivisectionist (runtime Spell Mimic, no static list). New compendium pack spells declared. --- v0.4.1: FIX — the v0.4.0 player-reference LevelDB shipped inconsistent (CURRENT/MANIFEST pointed at a stale .ldb lineage from in-place recompiles), so Foundry v13 failed to open it (\"Cannot read properties of undefined (reading packData)\"). tools/pack.mjs now clears each target pack dir before compiling, so every pack ships a clean single-manifest LevelDB. Content unchanged. --- Items validate against Project FU's class/skill/heroic DataModels (packs system:projectfu). The player-reference JournalEntry pack renders the verbatim player binder — 68 classes + shared-subsystem notes — as browsable in-world prose (folders: Innate Only / Guise / Appendix), built from lodge-docs/COMPENDIUM-player-reference.md by tools/build-journals.mjs; formatting-only, no rules edits (editorial ✎/⚠/⛔ glyph marks stripped, all prose incl. house rulings kept). v0.4.0 RECONCILED the appendix to Compendium2.pdf Part V (Austin's authority): 8 reference notes (Heroics · Arcana Registry · Arcanum · Keystones · Torments · Personal Vehicle · NPC Spells [See-You-Later/Unexpected-Ally folded in] · Pressure and Stagger [new, extracted from the PDF p180–183]). The PDF's class bodies + all 271 numbered SL caps verify identical to the .md (the .md is the PDF's own upstream source), so names/bodies/caps are unchanged. No FU content is redistributed; no automation code."
+    }
+  }
 }

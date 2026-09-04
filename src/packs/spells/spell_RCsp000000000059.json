@@ -1,0 +1,59 @@
+{
+	"name": "The Pit",
+	"type": "spell",
+	"_id": "RCsp000000000059",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "sineater-the-pit",
+		"source": {
+			"value": "Rippers Unmasked — Jawloween 2025 / Witch (Vertical Blitz ⛔)"
+		},
+		"summary": {
+			"value": "You weave magic from north to south, erupting the earth below."
+		},
+		"description": "<p>You weave magic from north to south, erupting the earth below. The target suffers (HR + 5) earth damage, then suffers (HR + 5) fire damage</p>",
+		"mpCost": {
+			"value": "10 HP"
+		},
+		"target": {
+			"value": "One creature"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": true
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": true
+				},
+				"type": {
+					"value": "earth"
+				},
+				"value": 5
+			}
+		},
+		"hasRoll": {
+			"value": true
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "sineater/the-pit",
+			"discipline": "sineater",
+			"classKey": "sin_eater",
+			"grantingSkillKey": "magic_of_the_craft",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000059"
+}

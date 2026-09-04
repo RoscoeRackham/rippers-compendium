@@ -1,0 +1,55 @@
+{
+	"name": "Gilding",
+	"type": "spell",
+	"_id": "RCsp000000000033",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "illusion-gilding",
+		"source": {
+			"value": "Rippers Unmasked — The Low Fantasy Atlas (Nocebo Weapon)"
+		},
+		"summary": {
+			"value": "You make a weapon appear as if it were imbued with soul energy."
+		},
+		"description": "<p>You make a weapon appear as if it were imbued with soul energy. Choose a damage type: light or dark. Until this spell ends, all damage dealt by the weapon is of this type. If you have that weapon equipped while casting this spell, you may perform a free attack with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature.</p>",
+		"mpCost": {
+			"value": "10"
+		},
+		"target": {
+			"value": "One weapon"
+		},
+		"duration": {
+			"value": "scene"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "illusion/gilding",
+			"discipline": "illusion",
+			"classKey": "illusionist",
+			"grantingSkillKey": "illusionist_magic",
+			"perTarget": false,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000033"
+}

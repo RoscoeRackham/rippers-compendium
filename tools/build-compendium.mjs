@@ -35,6 +35,10 @@ const HERE = dirname(fileURLToPath(import.meta.url));
 const MODULE = dirname(HERE);
 const DOCS = join(MODULE, '..', '..', 'lodge-docs');
 const SNAP = join(MODULE, 'data', 'db-snapshot.json');
+// v0.4.3 — SPELLS source (Compiler, 2026-09-04). Read ALONGSIDE the snapshot, NOT folded into it: the
+// snapshot mirrors the maintained class registry (public.classes/class_skills/heroic_skills — DB rows),
+// and spells are a separate authored source, not DB rows. spells-source.json's own _meta sanctions this.
+const SPELLS_SRC = join(MODULE, 'data', 'spells-source.json');
 const MODULE_ID = 'rippers-compendium';
 
 // ---- guise-eligible set (from CLASSREF-index.md, via build-class-compendium.mjs) -------
@@ -580,13 +584,72 @@ for (const c of snap.classes) {
   writeFileSync(join(MODULE, 'src', 'packs', 'classes', `class_${_id}.json`), JSON.stringify(item, null, '\t'));
 }
 
+// ============================================================================
+// PACK 4 of 4 — SPELLS (type:'spell' Items; snapshot-driven pattern, same as skills/heroics).
+// Source: data/spells-source.json (Compiler; 81 class-discipline spells, 0 invented values).
+// Each spell carries flags.rippers-compendium.{spellKey, discipline, classKey, grantingSkillKey,
+// perTarget, heroic} so rippers-guise can build a grantingSkillKey → spells map for the picker and
+// auto-materialise the picked spells on guise-bind. FU field paths per spells-source _meta:
+// mpCost.value (String), target.value (String), duration.value (enum), isOffensive.value (Boolean),
+// rollInfo.damage.hasDamage.value/.type.value/.value (Number; HR added at cast). rollInfo.attributes
+// is NOT written — the dataset does not carry per-spell attribute pairings, and inventing them is
+// barred; FU's SpellDataModel supplies its own defaults.
+// ============================================================================
+rmSync(join(MODULE, 'src', 'packs', 'spells'), { recursive: true, force: true });
+mkdirSync(join(MODULE, 'src', 'packs', 'spells'), { recursive: true });
+const spellSrc = JSON.parse(readFileSync(SPELLS_SRC, 'utf8'));
+// grantingSkillKey / classKey by discipline, from the class_spells index.
+const disciplineMeta = {};   // discipline -> {classKey, grantingSkillKey}
+for (const cs of Object.values(spellSrc.class_spells ?? {})) {
+  disciplineMeta[cs.discipline] = { classKey: cs.class_key, grantingSkillKey: cs.granting_skill_key };
+}
+let spi = 0;
+for (const sp of Object.values(spellSrc.spells ?? {})) {
+  spi += 1;
+  const _id = id16('RCsp', spi);
+  const spellKey = sp.spell_key;   // the spells table is index-keyed; the real key is the field
+  const meta = disciplineMeta[sp.discipline] ?? {};
+  if (!meta.grantingSkillKey) flag('spell', spellKey, `discipline "${sp.discipline}" not in class_spells index — grantingSkillKey unknown (guise picker cannot map it)`);
+  const dmg = sp.damage ?? { hasDamage: false };
+  const rollInfo = dmg.hasDamage
+    ? { damage: { hasDamage: { value: true }, type: { value: dmg.type ?? '' }, value: Number(dmg.value ?? 0) } }
+    : { damage: { hasDamage: { value: false } } };
+  if (dmg.hasDamage && (dmg.type == null || dmg.type === '')) flag('spell', spellKey, 'damage type unresolved in source (choose/multi) — left blank, ⚠ owed');
+  const item = {
+    name: sp.name,
+    type: 'spell',
+    _id,
+    img: 'icons/svg/daze.svg',
+    system: {
+      fuid: spellKey.replace(/\//g, '-'),
+      source: { value: sp.source ? `Rippers Unmasked — ${sp.source}` : 'Rippers Unmasked — spells-source' },
+      summary: { value: (strip(sp.effect).split(/(?<=[.!?])\s/)[0] || strip(sp.effect)).slice(0, 120) },
+      description: `<p>${esc(strip(sp.effect))}</p>`,
+      mpCost: { value: String(sp.mpCost?.value ?? '') },
+      target: { value: String(sp.target?.value ?? '') },
+      duration: { value: sp.duration?.value ?? 'instantaneous' },
+      isOffensive: { value: !!sp.isOffensive?.value },
+      rollInfo,
+      hasRoll: { value: !!dmg.hasDamage },
+    },
+    effects: [],
+    folder: null,
+    flags: { [MODULE_ID]: { spellKey, discipline: sp.discipline, classKey: meta.classKey ?? null, grantingSkillKey: meta.grantingSkillKey ?? null, perTarget: !!sp.perTarget, heroic: !!sp.heroic } },
+    _stats: { systemId: 'projectfu', coreVersion: '13.0.0' },
+    _key: `!items!${_id}`,
+  };
+  writeFileSync(join(MODULE, 'src', 'packs', 'spells', `spell_${_id}.json`), JSON.stringify(item, null, '\t'));
+}
+
 // ---- report ----------------------------------------------------------------------------
-console.log(`PACK counts: classes ${ci}, skills ${si}, heroics ${hi}`);
+console.log(`PACK counts: classes ${ci}, skills ${si}, heroics ${hi}, spells ${spi}`);
+const spellFlags = flags.filter((f) => f.kind === 'spell');
+if (spellFlags.length) { console.log(`\nSPELL gaps (${spellFlags.length}):`); for (const f of spellFlags) console.log(`  - ${f.key}: ${f.reason}`); }
 const benefitFlags = flags.filter((f) => f.kind === 'class-benefit');
 const choiceFlags = flags.filter((f) => f.kind === 'class-benefit-choice');
 const overrideFlags = flags.filter((f) => f.kind === 'class-benefit-override');
 const reqFlags = flags.filter((f) => f.kind === 'heroic-req');
-const otherFlags = flags.filter((f) => !['class-benefit', 'class-benefit-choice', 'class-benefit-override', 'class-benefit-spec', 'heroic-req'].includes(f.kind));
+const otherFlags = flags.filter((f) => !['class-benefit', 'class-benefit-choice', 'class-benefit-override', 'class-benefit-spec', 'heroic-req', 'spell'].includes(f.kind));
 const specFlags = flags.filter((f) => f.kind === 'class-benefit-spec');
 console.log(`\nCLASS BENEFITS activated from a page-cited printed spec (FDN-2): ${specFlags.length}`);
 for (const f of specFlags) console.log(`  - ${f.key}: ${f.reason}`);

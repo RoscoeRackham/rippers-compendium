@@ -1,0 +1,55 @@
+{
+	"name": "The Bottle",
+	"type": "spell",
+	"_id": "RCsp000000000041",
+	"img": "icons/svg/daze.svg",
+	"system": {
+		"fuid": "illusion-the-bottle",
+		"source": {
+			"value": "Rippers Unmasked — The Low Fantasy Atlas (Placebo Energy)"
+		},
+		"summary": {
+			"value": "You create an illusion that makes your companions feel healthier and refreshed for a while."
+		},
+		"description": "<p>You create an illusion that makes your companions feel healthier and refreshed for a while. For their next 3 turns, they gain 40 additional HP — this increases both their maximum and their current HP by 40. This amount increases to 50 HP if you are level 20 or higher, or to 60 HP if you are level 40 or higher. After 3 turns, they lose this additional HP. If reduced to 0 HP at the end of the spell, the Sacrifice and Surrender rules apply as normal.</p>",
+		"mpCost": {
+			"value": "10 × T"
+		},
+		"target": {
+			"value": "Up to three creatures"
+		},
+		"duration": {
+			"value": "instantaneous"
+		},
+		"isOffensive": {
+			"value": false
+		},
+		"rollInfo": {
+			"damage": {
+				"hasDamage": {
+					"value": false
+				}
+			}
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"spellKey": "illusion/the-bottle",
+			"discipline": "illusion",
+			"classKey": "illusionist",
+			"grantingSkillKey": "illusionist_magic",
+			"perTarget": true,
+			"heroic": false
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsp000000000041"
+}
