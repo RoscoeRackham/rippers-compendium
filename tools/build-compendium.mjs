@@ -611,10 +611,24 @@ for (const sp of Object.values(spellSrc.spells ?? {})) {
   const meta = disciplineMeta[sp.discipline] ?? {};
   if (!meta.grantingSkillKey) flag('spell', spellKey, `discipline "${sp.discipline}" not in class_spells index — grantingSkillKey unknown (guise picker cannot map it)`);
   const dmg = sp.damage ?? { hasDamage: false };
-  const rollInfo = dmg.hasDamage
-    ? { damage: { hasDamage: { value: true }, type: { value: dmg.type ?? '' }, value: Number(dmg.value ?? 0) } }
+  // v0.4.3 FIX (Coroner): NEVER coerce a null damage amount to 0. FU's rollInfo.damage is always
+  // HR + value at cast, so a FIXED-amount spell (value:null + a source _gap: not HR-based, e.g.
+  // Pyroclastic Column 50/30, The Perihelion 60/40, The Four Winds sequential 10s) CANNOT be
+  // represented as (HR+N) — emitting a value fabricates a bogus (HR+0) roll. Representation call
+  // (b): emit hasDamage:false so cast never rolls a null HR+N; the true fixed amount already lives
+  // verbatim in the description prose below (GM applies it). Only a concrete numeric value is
+  // representable damage. This also flips hasRoll off for these (no rollable damage).
+  const valueRepresentable = !!dmg.hasDamage && dmg.value != null && Number.isFinite(Number(dmg.value));
+  const rollInfo = valueRepresentable
+    ? { damage: { hasDamage: { value: true }, type: { value: dmg.type ?? '' }, value: Number(dmg.value) } }
     : { damage: { hasDamage: { value: false } } };
-  if (dmg.hasDamage && (dmg.type == null || dmg.type === '')) flag('spell', spellKey, 'damage type unresolved in source (choose/multi) — left blank, ⚠ owed');
+  // Surface EVERY non-representable / lossy spell in the build report — none ships a silent
+  // misrepresentation (our ironclad ⚠-hole principle). One flag per spell, reason assembled.
+  const gapReasons = [];
+  if (dmg.hasDamage && !valueRepresentable) gapReasons.push('FIXED / non-(HR+N) amount — damage.value not representable in one FU field; emitted hasDamage:false, the amount stays in the description prose (⚠, GM applies)');
+  if (valueRepresentable && (dmg.type == null || dmg.type === '')) gapReasons.push('damage TYPE unresolved in source (choose / multi / weapon-derived) — left blank (⚠ owed)');
+  if (dmg._gap && !gapReasons.length) gapReasons.push(`source _gap (lossy transform — one representable instance emitted): ${dmg._gap}`);
+  if (gapReasons.length) flag('spell', spellKey, gapReasons.join(' | '));
   const item = {
     name: sp.name,
     type: 'spell',
@@ -630,7 +644,7 @@ for (const sp of Object.values(spellSrc.spells ?? {})) {
       duration: { value: sp.duration?.value ?? 'instantaneous' },
       isOffensive: { value: !!sp.isOffensive?.value },
       rollInfo,
-      hasRoll: { value: !!dmg.hasDamage },
+      hasRoll: { value: valueRepresentable },
     },
     effects: [],
     folder: null,

@@ -27,16 +27,12 @@
 		"rollInfo": {
 			"damage": {
 				"hasDamage": {
-					"value": true
-				},
-				"type": {
-					"value": "fire"
-				},
-				"value": 0
+					"value": false
+				}
 			}
 		},
 		"hasRoll": {
-			"value": true
+			"value": false
 		}
 	},
 	"effects": [],
