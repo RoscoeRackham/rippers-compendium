@@ -1,0 +1,41 @@
+# CI (TEST-AUTOMATION-STRATEGY §4 — ported from rippers-guise Phase 1).
+# push/PR: cheap repo sanity. release published: the release-integrity gate against the
+# just-published assets — red here means the SHIPPED artifact is bad (fix or pull the release).
+name: ci
+on:
+  push:
+    branches: [main]
+  pull_request:
+  release:
+    types: [published]
+
+jobs:
+  test:
+    if: github.event_name != 'release'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: sources parse + tools are valid JS
+        run: |
+          node --check tools/verify-release.mjs
+          node -e "JSON.parse(require('fs').readFileSync('module.json','utf8'))"
+          node -e "const g=require('fs');for(const f of g.globSync('src/packs/**/*.json'))JSON.parse(g.readFileSync(f,'utf8'));console.log('src pack JSON ok')"
+
+  verify-release:
+    if: github.event_name == 'release'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tools/verify-release.mjs "${{ github.event.release.tag_name }}"
