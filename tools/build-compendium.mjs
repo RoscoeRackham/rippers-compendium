@@ -611,23 +611,28 @@ for (const sp of Object.values(spellSrc.spells ?? {})) {
   const meta = disciplineMeta[sp.discipline] ?? {};
   if (!meta.grantingSkillKey) flag('spell', spellKey, `discipline "${sp.discipline}" not in class_spells index — grantingSkillKey unknown (guise picker cannot map it)`);
   const dmg = sp.damage ?? { hasDamage: false };
-  // v0.4.3 FIX (Coroner): NEVER coerce a null damage amount to 0. FU's rollInfo.damage is always
-  // HR + value at cast, so a FIXED-amount spell (value:null + a source _gap: not HR-based, e.g.
-  // Pyroclastic Column 50/30, The Perihelion 60/40, The Four Winds sequential 10s) CANNOT be
-  // represented as (HR+N) — emitting a value fabricates a bogus (HR+0) roll. Representation call
-  // (b): emit hasDamage:false so cast never rolls a null HR+N; the true fixed amount already lives
-  // verbatim in the description prose below (GM applies it). Only a concrete numeric value is
-  // representable damage. This also flips hasRoll off for these (no rollable damage).
+  // v0.4.3 damage emission. NEVER coerce a null amount to 0 (the Coroner-caught defect). A concrete
+  // numeric value IS representable; FU supports FLAT damage natively via hrZero (spell rollInfo.useWeapon
+  // .hrZero.value — verified in FoundryVTT-Fabula-Ultima-dev spell-data-model.mjs:94-95 + :232
+  // `.modifyHrZero((hrZero) => hrZero || spell.rollInfo.useWeapon.hrZero.value)`), so a FIXED amount
+  // (source hrZero:true) emits as hasDamage:true + value + useWeapon.hrZero.value:true → FU deals the
+  // flat value with NO High Roll (Pyroclastic Column 50 fire, The Perihelion 60 untyped). Only a spell
+  // with NO representable numeric value at all (The Four Winds — 5 sequential different-type instances,
+  // and FU's spell holds a SINGLE rollInfo.damage block) falls back to hasDamage:false + description.
   const valueRepresentable = !!dmg.hasDamage && dmg.value != null && Number.isFinite(Number(dmg.value));
   const rollInfo = valueRepresentable
-    ? { damage: { hasDamage: { value: true }, type: { value: dmg.type ?? '' }, value: Number(dmg.value) } }
+    ? {
+        damage: { hasDamage: { value: true }, type: { value: dmg.type ?? '' }, value: Number(dmg.value) },
+        // hrZero only when the source marks the amount FLAT — leaves the HR-based spells untouched.
+        ...(dmg.hrZero ? { useWeapon: { hrZero: { value: true } } } : {}),
+      }
     : { damage: { hasDamage: { value: false } } };
   // Surface EVERY non-representable / lossy spell in the build report — none ships a silent
   // misrepresentation (our ironclad ⚠-hole principle). One flag per spell, reason assembled.
   const gapReasons = [];
-  if (dmg.hasDamage && !valueRepresentable) gapReasons.push('FIXED / non-(HR+N) amount — damage.value not representable in one FU field; emitted hasDamage:false, the amount stays in the description prose (⚠, GM applies)');
+  if (dmg.hasDamage && !valueRepresentable) gapReasons.push('non-representable amount (multiple sequential damage instances — FU spell holds ONE damage block); emitted hasDamage:false, full effect in the description (⚠)');
   if (valueRepresentable && (dmg.type == null || dmg.type === '')) gapReasons.push('damage TYPE unresolved in source (choose / multi / weapon-derived) — left blank (⚠ owed)');
-  if (dmg._gap && !gapReasons.length) gapReasons.push(`source _gap (lossy transform — one representable instance emitted): ${dmg._gap}`);
+  if (dmg._gap && !gapReasons.length) gapReasons.push(`source _gap — effects not held by the damage field live in the description: ${dmg._gap}`);
   if (gapReasons.length) flag('spell', spellKey, gapReasons.join(' | '));
   const item = {
     name: sp.name,

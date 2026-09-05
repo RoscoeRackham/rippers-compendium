@@ -27,12 +27,21 @@
 		"rollInfo": {
 			"damage": {
 				"hasDamage": {
-					"value": false
+					"value": true
+				},
+				"type": {
+					"value": "fire"
+				},
+				"value": 50
+			},
+			"useWeapon": {
+				"hrZero": {
+					"value": true
 				}
 			}
 		},
 		"hasRoll": {
-			"value": false
+			"value": true
 		}
 	},
 	"effects": [],
