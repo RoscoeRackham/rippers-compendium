@@ -1,10 +1,10 @@
 {
-	"name": "Ritualist",
+	"name": "Reaper",
 	"_id": "RCje000000000052",
 	"pages": [
 		{
-			"_id": "RCpg000000000057",
-			"name": "Ritualist",
+			"_id": "RCpg000000000061",
+			"name": "Reaper",
 			"type": "text",
 			"title": {
 				"show": true,
@@ -12,7 +12,7 @@
 			},
 			"text": {
 				"format": 1,
-				"content": "<p><em>A support caster focused on performing rituals and strengthening the party's spells.</em></p><p><strong>SKILLS</strong></p><p><strong>SPELLCASTING ASSISTANT</strong> · SL max 3</p><p>Whenever you support an ally's Magic Check through Teamwork, choose (SL) options:</p><ul><li>Grant an additional +1 bonus to their Magic Check.</li><li>If the spell deals damage or restores HP, increase that number by 5.</li><li>Reduce the spell's total MP cost by 5, down to a minimum of 0.</li></ul><p>You can pick the same option multiple times.</p><p><strong>ACCELERATE RITUAL</strong> · SL max 3</p><p>Whenever you mark a segment of a ritual's Clock, you may spend up to (SL × 20) MP: Mark an additional segment for every 20 MP spent this way.</p><p><strong>MAGICAL COUNTERMEASURES</strong> · SL max 3</p><p>When one or more creatures you can see or hear are threatened by a Spell with a total MP cost of (SL × 10) or lower, you may spend up to (SL × 10) MP to remove one creature from its list of targets for every 10 MP spent this way. If you use this Skill during a conflict, you cannot use it again until the start of your next turn.</p><p><strong>RITUALISTIC EFFICIENCY</strong> · SL max 2</p><p>Gain a (+SL) bonus to any Ritual check you perform. Reduce the base cost of Rituals you initiate by (SL × 5) MP (down to a minimum of 1).</p><p>Whenever you make an Open Check related to your knowledge of magic, curses, rituals, spells, or other similar effects, add a bonus equal to (SL) on that Check.</p><p><strong>LOYAL SUPPORTER</strong> · SL max 5</p><p>Whenever you are a supporting character in a Group Check (such as Teamwork), gain a (+SL) bonus to your roll. For every 3 points above the DL, grant the leader an additional +1 bonus.</p>",
+				"content": "<p><em>Reapers harvest spiritual energy moments before death, when it is at its brightest.</em></p><p><strong>SKILLS</strong></p><p><strong>Reaping</strong> · SL max 5</p><p>After a creature you can see loses Hit Points, if that creature is in Crisis and is not undead, you gain 1 Grave Point (you may hold up to (SL + 1) Grave Points at a time). When you are reduced to 0 Hit Points, you lose all your Grave Points; the first time this happens each scene, if you lost at least 1 Grave Point this way, your Hit Points become (SL × the number of Grave Points lost) instead of 0.</p><p><strong>The Grave Speaks</strong></p><p>You can always communicate with undead creatures. Once per scene, you may ask an undead creature one question; it is compelled to answer truthfully.</p><p><strong>Cold Comfort</strong> · SL max 5</p><p>After you cause one or more enemies to lose Hit Points, if at least one of those enemies is shaken and/or weak, you gain 1 Grave Point and recover (SL × 2) Mind Points.</p><p><strong>Toll</strong> · SL max 5</p><p>When your spell deals damage to one or more enemies, you may spend 1 Grave Point and choose one of the following: choose one enemy damaged by the spell — the spell deals extra damage to each damaged enemy equal to (SL + that enemy's current number of status effects); or every enemy damaged by the spell suffers shaken after the spell resolves.</p><p><strong>Corpse-Light</strong></p><p>When you cast an offensive spell with a target of \"One creature\", you may spend 2 Grave Points: that spell instead targets every creature present in the scene — allies included — making one Magic Check compared against each Magic Defense separately. All damage dealt by the spell becomes dark and cannot change type.</p><p><strong>RULES</strong></p><p><strong>Raising</strong> targets beasts, monsters and plants only — never humanoids. <em>(House restriction, Unmasked.)</em></p>",
 				"markdown": ""
 			},
 			"sort": 100000,
@@ -21,7 +21,7 @@
 				"systemId": "projectfu",
 				"coreVersion": "13.0.0"
 			},
-			"_key": "!journal.pages!RCje000000000052.RCpg000000000057"
+			"_key": "!journal.pages!RCje000000000052.RCpg000000000061"
 		}
 	],
 	"folder": "RCfd000000000002",

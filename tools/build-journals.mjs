@@ -173,6 +173,9 @@ export function buildJournals() {
   // personal vehicles, NPC spells, pressure-and-stagger. Two edits vs the .md's appendix:
   //  (1) "See You Later and Unexpected Ally" are two NPC-spell stat-blocks — fold them
   //      into "NPC Spells" (as an H3 sub-section), dropping the standalone entry.
+  //      [2026-09-09] Fold KEPT (god ruling): un-merge instruction withdrawn; the fold matches
+  //      PDF-primacy. Citation UNVERIFIED — Compendium2.pdf is not present in Rippers_Bundle or
+  //      Look Here Claude; ruling stands on the 30 Aug record (build order + the god ruling).
   //  (2) ADD "Pressure and Stagger" — a note the .md never carried; its prose is extracted
   //      verbatim from the PDF (p180–183) into data/pressure-and-stagger.md.
   // Class bodies/names/caps are unchanged: the .md is the PDF's own upstream source text

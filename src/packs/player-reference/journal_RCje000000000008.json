@@ -22,6 +22,27 @@
 				"coreVersion": "13.0.0"
 			},
 			"_key": "!journal.pages!RCje000000000008.RCpg000000000008"
+		},
+		{
+			"_id": "RCpg000000000009",
+			"name": "MOTES",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>Your Mote limit equals half your Willpower die size, to a maximum of 6. You always gain 2 Motes per round on your turn, up to your limit.</p><p>Motes clear at the end of a scene.</p><p><em>Ward</em>'s wording is ambiguous and has not been ruled: it is unclear whether each Mote released reduces damage by (SL × 2), or whether (SL × 2) is a flat reduction however many Motes you spend. The per-Mote MP cost implies per-Mote. Ask your GM before play.</p><p><strong>HEROIC SKILLS</strong></p><p><strong>PERFECT CLARITY</strong> — <em>Requires: Clarity at SL3.</em></p><p>While you have at least 4 active Motes, you gain +1 to Defense, Magic Defense and Accuracy Checks.</p><p><strong>CONSECRATED WEAPON</strong></p><p>With at least 4 Motes, spend 40 MP to imbue one equipped weapon. Until the effect ends, that weapon gains +3 to Accuracy Checks and its damage ignores Resistances. The Motes are destroyed. A melee weapon also becomes ranged.</p><p>If you have the weapon equipped when you cast this, perform a free attack as part of the same action. You generate Motes as normal from your next turn. One weapon at a time.</p>",
+				"markdown": ""
+			},
+			"sort": 200000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000008.RCpg000000000009"
 		}
 	],
 	"folder": "RCfd000000000002",

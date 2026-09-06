@@ -3,7 +3,7 @@
 	"_id": "RCje000000000022",
 	"pages": [
 		{
-			"_id": "RCpg000000000027",
+			"_id": "RCpg000000000028",
 			"name": "Cook",
 			"type": "text",
 			"title": {
@@ -21,7 +21,49 @@
 				"systemId": "projectfu",
 				"coreVersion": "13.0.0"
 			},
-			"_key": "!journal.pages!RCje000000000022.RCpg000000000027"
+			"_key": "!journal.pages!RCje000000000022.RCpg000000000028"
+		},
+		{
+			"_id": "RCpg000000000029",
+			"name": "INGREDIENTS",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>Every ingredient has one of five tastes. When you obtain one, roll d6, then describe it and name it.</p><table><thead><tr><th>d6</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th></tr></thead><tbody><tr><td><strong>Taste</strong></td><td>Bitter</td><td>Salty</td><td>Sour</td><td>Sweet</td><td>Umami</td><td>Your choice</td></tr></tbody></table><p>Bought from stalls, shops or merchants: 10 zenit for a random taste, 20 zenit for a taste of your choice.</p>",
+				"markdown": ""
+			},
+			"sort": 200000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000022.RCpg000000000029"
+		},
+		{
+			"_id": "RCpg000000000030",
+			"name": "THE COOKBOOK",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<ul><li>Every different pair of tastes — including the same taste twice — adds one effect to the delicacy.</li><li>The first time you combine a pair you have never combined before, roll d12 on the table below and make any choices it calls for. Record it. That pair produces that exact effect for the rest of the campaign.</li><li>No two pairs in your cookbook may have identical effects. When determining a new one, make your choices so the result has no precedent — a different damage type, a different status. If you cannot, reroll the d12.</li><li>A completed cookbook holds 15 effects, one for each possible pair of five tastes.</li></ul><p>Ingredient count to effect count: 2 ingredients → 1 effect. 3 ingredients → up to 3 (one per distinct pair). 4 ingredients, via <em>All You Can Eat</em> → up to 6.</p>",
+				"markdown": ""
+			},
+			"sort": 300000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000022.RCpg000000000030"
 		}
 	],
 	"folder": "RCfd000000000002",
