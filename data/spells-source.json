@@ -525,7 +525,7 @@
       "flags": [
         "retype/rename permission NOT inlined: printed rules let the caster rename Volcano and change its damage to air/bolt/earth/ice (SPELLS-master-list §2C, five named register faces). Kept as printed fire/Pyroclastic Column — Austin's call whether the five faces appear."
       ],
-      "effectHtml": "<p><strong>Required Heroic Skill:</strong> @UUID[Compendium.projectfu.heroic-skills.Item.FpTkfuZ5p4zCQKDP]</p><hr /><p>You channel the fury of the planet into a powerful wave of fire and magma. Choose one option:</p><ul><li><p>You deal 50 <strong>fire</strong> damage to one creature you can see.</p></li><li><p>You deal 30 <strong>fire</strong> damage to every enemy you can see.</p></li></ul><p>These amounts increase by 5 if you are <strong>level 20 or higher</strong>, or by 10 if you are <strong>level 40 or higher</strong>.</p><p>Damage dealt by this spell ignores Resistances and Immunities.</p>"
+      "effectHtml": "<p><strong>Required Heroic Skill:</strong> Volcano</p><hr /><p>You channel the fury of the planet into a powerful wave of fire and magma. Choose one option:</p><ul><li><p>You deal 50 <strong>fire</strong> damage to one creature you can see.</p></li><li><p>You deal 30 <strong>fire</strong> damage to every enemy you can see.</p></li></ul><p>These amounts increase by 5 if you are <strong>level 20 or higher</strong>, or by 10 if you are <strong>level 40 or higher</strong>.</p><p>Damage dealt by this spell ignores Resistances and Immunities.</p>"
     },
     {
       "spell_key": "elementalism/effluvia",
