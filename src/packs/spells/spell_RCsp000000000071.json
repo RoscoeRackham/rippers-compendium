@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You cause a creature to lose any semblance of temper and act brazenly."
 		},
-		"description": "<p>You cause a creature to lose any semblance of temper and act brazenly. The target suffers enraged and cannot perform the Guard or Spell actions until the end of their next turn.</p>",
+		"description": "<p>You cause a creature to lose any semblance of temper and act brazenly. The target suffers <strong>enraged</strong> and cannot perform the <strong>Guard</strong> or <strong>Spell</strong> actions until the end of their next turn.</p>",
 		"mpCost": {
 			"value": "10"
 		},

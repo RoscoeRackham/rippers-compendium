@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "A pillar of ice magic envelops your foe, dropping their temperature to critical levels."
 		},
-		"description": "<p>A pillar of ice magic envelops your foe, dropping their temperature to critical levels. You deal (HR + 25) ice damage to the target; this damage ignores Resistances.</p>",
+		"description": "<p>A pillar of ice magic envelops your foe, dropping their temperature to critical levels. You deal <strong>【HR + 25】 ice</strong> damage to the target; this damage ignores Resistances</p>",
 		"mpCost": {
 			"value": "20"
 		},

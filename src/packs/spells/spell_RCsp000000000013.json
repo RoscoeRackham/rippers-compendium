@@ -9,9 +9,9 @@
 			"value": "Rippers Unmasked — Core Rulebook v1.1 (Thunderbolt)"
 		},
 		"summary": {
-			"value": "You send an arrow of overcharged lightning to strike your foe."
+			"value": "You send lightning striking at your foe."
 		},
-		"description": "<p>You send an arrow of overcharged lightning to strike your foe. You deal (HR + 25) bolt damage to the target; this damage ignores Resistances.</p>",
+		"description": "<p>You send lightning striking at your foe. You deal <strong>【HR + 25】 bolt</strong> damage to the target; this damage ignores Resistances.</p>",
 		"mpCost": {
 			"value": "20"
 		},

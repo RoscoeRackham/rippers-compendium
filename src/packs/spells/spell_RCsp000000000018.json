@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You consume a creature's psyche."
 		},
-		"description": "<p>You consume a creature's psyche. The target loses (HR + 20) Mind Points. Then, you recover an amount of Mind Points equal to half the total Mind Points loss they suffered (if the target had no MP left, you recover none).</p>",
+		"description": "<p>You consume a creature's psyche. The target loses <strong>【HR + 20】</strong> Mind Points. Then, you recover an amount of Mind Points equal to half the total Mind Points loss they suffered (if the target had no MP left, you recover none)</p>",
 		"mpCost": {
 			"value": "5"
 		},

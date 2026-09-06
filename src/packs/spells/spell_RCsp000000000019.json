@@ -9,9 +9,9 @@
 			"value": "Rippers Unmasked — Core Rulebook v1.1 (Dispel)"
 		},
 		"summary": {
-			"value": "You cleanse all magic from a creature."
+			"value": "You release a wave of negative energy and cleanse all magic from a creature."
 		},
-		"description": "<p>You cleanse all magic from a creature. The target stops being affected by all spells with a duration of \"Scene\" that are affecting them.</p>",
+		"description": "<p>You release a wave of negative energy and cleanse all magic from a creature. If the target is affected by one or more spells with a <strong>duration</strong> of Scene, they are no longer affected by any of those spells instead.</p>",
 		"mpCost": {
 			"value": "10"
 		},

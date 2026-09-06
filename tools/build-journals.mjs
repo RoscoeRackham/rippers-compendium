@@ -54,7 +54,7 @@ function inline(text) {
 }
 
 const isTableRow = (l) => /^\s*\|/.test(l);
-const isSepRow = (l) => l.split('|').every((c) => c.trim() === '' || /^:?-{2,}:?$/.test(c.trim()));
+const isSepRow = (l) => /-/.test(l) && l.split('|').every((c) => c.trim() === '' || /^:?-+:?$/.test(c.trim()));
 const isBullet = (l) => /^\s*[-*]\s+/.test(l);
 const isNumbered = (l) => /^\s*\d+\.\s+/.test(l);
 

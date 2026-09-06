@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You strengthen the heart of a creature against suffering and despair."
 		},
-		"description": "<p>You strengthen the heart of a creature against suffering and despair. Until this spell ends, if the target is reduced to 0 Hit Points, they are instead left standing with exactly 1 Hit Point. Once that happens, this spell ends.</p>",
+		"description": "<p>You strengthen the heart of a creature against suffering and despair. Until this spell ends, if the target would be reduced to 0 Hit Points, they are instead left standing with exactly 1 Hit Point. Once that happens, this spell ends.</p>",
 		"mpCost": {
 			"value": "20"
 		},

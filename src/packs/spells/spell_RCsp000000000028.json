@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You summon a vortex of chaotic energy."
 		},
-		"description": "<p>You summon a vortex of chaotic energy. Roll your current Willpower die once for every 10 Mind Points spent while casting this spell, then keep the single die you prefer: the number on that die determines the effects of this spell. [1: Lose half current HP and MP] [2-3: Each creature present (including self) suffers poisoned] [4-6: Each creature present (including self) suffers slow] [7-8: Choose up to three creatures you can see — each recovers 50 HP and recovers from all status effects] [9: Choose any number of creatures you can see — deal 30 damage to each] [9+ damage type determined by rolling d6: 1=air, 2=bolt, 3=dark, 4=earth, 5=fire, 6=poison]</p>",
+		"description": "<p>You summon a vortex of chaotic energy. Roll your current <strong>Willpower</strong> die once for every 10 Mind Points spent while casting this spell, then keep the <strong>single</strong> die you prefer: the number on that die determines the effects of this spell.</p><p>@Embed[Compendium.projectfu.rollable-tables.RollTable.ZAY11CArn1cYCyqP inline rollable]</p>",
 		"mpCost": {
 			"value": "up to 20 MP"
 		},

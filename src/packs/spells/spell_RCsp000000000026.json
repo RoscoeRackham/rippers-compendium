@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "At the end of each of their turns, the target may choose one option: perform a free attack with a weapon they have…"
 		},
-		"description": "<p>At the end of each of their turns, the target may choose one option: perform a free attack with a weapon they have equipped; or perform the Spell action for free, casting a spell with a total MP cost equal to or lower than 10 (paying its MP cost). After the same creature benefits from this effect a second time, this spell ends.</p>",
+		"description": "<p>At the end of each of their turns, the target may choose <strong>one</strong> option: perform a <strong>free attack</strong> with a weapon they have equipped; <strong>or</strong> perform the <strong>Spell</strong> action for free, casting a spell with a <strong>total MP cost equal to or lower than 10</strong> (paying its MP cost). After the same creature benefits from this effect a second time, this spell ends.</p>",
 		"mpCost": {
 			"value": "20"
 		},

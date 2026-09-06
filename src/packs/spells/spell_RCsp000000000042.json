@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You can now have up to 4 active Phantasms, but one of them must necessarily be Numen."
 		},
-		"description": "<p>You can now have up to 4 active Phantasms, but one of them must necessarily be Numen. ... When creating a Numen Phantasm, choose one essence, which dictates Numen's Damage Type: Ravana (Physical), Asura (Light), Diablos (Dark). The target hit by Numen suffers (HR + 14) damage. This damage increases to 18 if you are level 20 or higher, or to 20 if you are level 40 or higher. Damage dealt by Numen ignores Resistances and Immunities. The range of the attack is determined by your current weapon.</p>",
+		"description": "<p>You can now have up to 4 active Phantasms, but one of them must necessarily be Numen. Also, you cannot have more than one Numen Phantasm active at a time. This Phantasm cannot be used in any of the Illusionist's Skills or Command spells. Numen is bound by the same set of special rules as any other Phantasm, with the following exceptions: Numen costs 50 MP to cast. It can be targeted by the enemy, and has the same HP as its caster. Once active, Numen has its own turn and a single action. Numen's turn can be taken either before or after the Illusionist's turn. It cannot be targeted by allies. After 3 turns, it shatters. When creating a Numen Phantasm, choose one essence, which dictates Numen's Damage Type: Ravana (Physical), Asura (Light), Diablos (Dark). The target hit by Numen suffers 【HR + 14】 damage. This damage increases to 18 if you are level 20 or higher, or to 20 if you are level 40 or higher. Damage dealt by Numen ignores Resistances and Immunities. The range of the attack is determined by your current weapon.</p>",
 		"mpCost": {
 			"value": "50"
 		},

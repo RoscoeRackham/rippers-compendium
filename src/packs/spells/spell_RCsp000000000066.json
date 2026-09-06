@@ -9,9 +9,9 @@
 			"value": "Rippers Unmasked — Jawloween 2025 / Witch (Cardinal Blitz, heroic)"
 		},
 		"summary": {
-			"value": "You call on magic from deep within the ley lines..."
+			"value": "You call on magic from deep within the ley lines, empowering it with your negative emotions, giving up that which you…"
 		},
-		"description": "<p>You call on magic from deep within the ley lines... Every enemy you can see suffers 10 earth damage, then 10 ice damage, then 10 fire damage, then 10 air damage. Finally, those enemies suffer (10 + the total number of Inferiority, Mistrust, and/or Hatred emotions among your Bonds) damage of the type you chose.</p>",
+		"description": "<p>You call on magic from deep within the ley lines, empowering it with your negative emotions, giving up that which you hold dear on the path to vengeance. Every enemy you can see suffers 10 earth damage, then 10 ice damage, then 10 fire damage, then 10 air damage. Finally, those enemies suffer (10 + the total number of Inferiority, Mistrust, and/or Hatred emotions among your Bonds) damage of the type you chose.</p>",
 		"mpCost": {
 			"value": "50 HP"
 		},

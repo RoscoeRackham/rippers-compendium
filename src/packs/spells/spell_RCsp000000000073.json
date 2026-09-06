@@ -9,9 +9,9 @@
 			"value": "Rippers Unmasked — Core Rulebook v1.1 (Heal)"
 		},
 		"summary": {
-			"value": "You invigorate your companions, soothing their pain and easing their fatigue."
+			"value": "You invigorate your companions, soothing their pain and healing their fatigue."
 		},
-		"description": "<p>You invigorate your companions, soothing their pain and easing their fatigue. Each target recovers 40 Hit Points. This amount increases to 50 Hit Points if you are level 20 or higher, or to 60 Hit Points if you are level 40 or higher.</p>",
+		"description": "<p>You invigorate your companions, soothing their pain and healing their fatigue. Each target recovers 40 Hit Points. This amount increases to 50 Hit Points if you are <strong>level 20 or higher</strong>, or to 60 Hit Points if you are <strong>level 40 or higher</strong>.</p>",
 		"mpCost": {
 			"value": "10 × T"
 		},

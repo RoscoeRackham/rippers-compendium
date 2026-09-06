@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You strengthen and purify the soul energy coursing through your companions."
 		},
-		"description": "<p>You strengthen and purify the soul energy coursing through your companions. Each target recovers from all status effects.</p>",
+		"description": "<p>You strengthen and purify the soul energy coursing through your companions. Each target recovers from <strong>all status effects.</strong></p>",
 		"mpCost": {
 			"value": "5 × T"
 		},

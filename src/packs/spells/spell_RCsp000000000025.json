@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You invoke doom on your foe, turning strength into frailty."
 		},
-		"description": "<p>You invoke doom on your foe, turning strength into frailty. The target loses an amount of Hit Points equal to (20 + half their level).</p>",
+		"description": "<p>You invoke doom on your foe, turning strength into frailty. The target loses an amount of Hit Points equal to <strong>【20 + half the target's level】</strong>.</p><hr /><p><strong>Target Loses:</strong> @LOSS[20+floor(@target.level.value/2) hp]{20 + Half Level HP}</p>",
 		"mpCost": {
 			"value": "15"
 		},

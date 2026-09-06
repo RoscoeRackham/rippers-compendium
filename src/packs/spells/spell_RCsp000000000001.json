@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You weave magical energy and protect the targets from the fury of the elements."
 		},
-		"description": "<p>You weave magical energy and protect the targets from the fury of the elements. Choose a damage type: air, bolt, earth, fire or ice. Until this spell ends, each target gains Resistance to the chosen damage type.</p>",
+		"description": "<p>You weave magical energy and protect the targets from the fury of the elements. Choose a damage type: <strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>. Until this spell ends, each target gains Resistance against the chosen damage type.</p>",
 		"mpCost": {
 			"value": "5 × T"
 		},

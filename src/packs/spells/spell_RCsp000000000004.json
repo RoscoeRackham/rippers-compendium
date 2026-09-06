@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "The wind carries your strikes across the battlefield."
 		},
-		"description": "<p>The wind carries your strikes across the battlefield. You may perform a free attack with a melee weapon you have equipped; this attack may target creatures that cannot normally be targeted by melee attacks. If you used a weapon belonging to the brawling, spear, or sword Category for this attack, it deals 5 extra damage. If you hit a flying target with this attack, you may force them to land immediately.</p>",
+		"description": "<p>The wind carries your strikes across the battlefield. You may immediately perform a <strong>free attack</strong> with a <strong>melee</strong> weapon you have equipped. This attack may target creatures that can only be targeted by <strong>ranged</strong> attacks.</p><p>If you used a weapon belonging to the <strong>brawling</strong>, <strong>spear,</strong> or <strong>sword</strong> Category for this attack, it deals 5 extra damage.</p><p>If you hit a flying target with this attack, you may force them to land immediately.</p>",
 		"mpCost": {
 			"value": "10"
 		},

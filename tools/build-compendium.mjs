@@ -111,6 +111,11 @@ function strip(text) {
 
 // ---- helpers ---------------------------------------------------------------------------
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+// Strip tags + decode the few entities we emit, for deriving a plain-text summary from an
+// effectHtml body (a spell whose description is carried as verbatim source HTML, not plain text).
+const htmlText = (h) => String(h ?? '').replace(/<[^>]+>/g, ' ')
+  .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&nbsp;/g, ' ')
+  .replace(/\s+/g, ' ').trim();
 // Item summaries show in Foundry's compact/list views. Take the first sentence; if it fits in
 // 120 characters, keep it whole; otherwise cut at the last word boundary at or before 120 and
 // mark the elision with an ellipsis — never mid-word, never silently truncated. Copy law only:
@@ -660,8 +665,12 @@ for (const sp of Object.values(spellSrc.spells ?? {})) {
     system: {
       fuid: spellKey.replace(/\//g, '-'),
       source: { value: sp.source ? `Rippers Unmasked — ${sp.source}` : 'Rippers Unmasked — spells-source' },
-      summary: { value: summarize(strip(sp.effect)) },
-      description: `<p>${esc(strip(sp.effect))}</p>`,
+      // effectHtml (when present) is verbatim source-of-record HTML — e.g. an FU-native spell
+      // body copied byte-for-byte from the projectfu system pack (register keeps the name, FU
+      // owns the mechanics; Austin ruling 2026-09-09). It passes through unwrapped; plain-text
+      // `effect` is the fallback and the summary source when there is no effectHtml.
+      summary: { value: summarize(sp.effectHtml ? htmlText(sp.effectHtml) : strip(sp.effect)) },
+      description: sp.effectHtml ? sp.effectHtml : `<p>${esc(strip(sp.effect))}</p>`,
       mpCost: { value: String(sp.mpCost?.value ?? '') },
       target: { value: String(sp.target?.value ?? '') },
       duration: { value: sp.duration?.value ?? 'instantaneous' },

@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You summon a colossal block of stone and send it straight towards your enemy."
 		},
-		"description": "<p>You summon a colossal block of stone and send it straight towards your enemy. You deal (HR + 25) earth damage to the target; this damage ignores Resistances.</p>",
+		"description": "<p>You summon a colossal block of stone and send it straight towards your enemy. You deal <strong>【HR + 25】 earth</strong> damage to the target; this damage ignores Resistances.</p>",
 		"mpCost": {
 			"value": "20"
 		},

@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You protect the targets from attacks that would corrupt their body and spirit."
 		},
-		"description": "<p>You protect the targets from attacks that would corrupt their body and spirit. Choose dazed, enraged, poisoned, shaken, slow, or weak. Until this spell ends, each target is immune to the chosen status effect.</p>",
+		"description": "<p>You protect the targets from attacks that would corrupt their body and spirit. Choose <strong>dazed</strong>, <strong>enraged</strong>, <strong>poisoned</strong>, <strong>shaken</strong>, <strong>slow</strong>, or <strong>weak</strong>. Until this spell ends, each target is immune to the chosen status effect.</p>",
 		"mpCost": {
 			"value": "5 × T"
 		},

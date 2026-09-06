@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You slash through your foe with high-pressure wind."
 		},
-		"description": "<p>You slash through your foe with high-pressure wind. You deal (HR + 25) air damage to the target; this damage ignores Resistances.</p>",
+		"description": "<p>You slash through your foe with high-pressure wind. You deal <strong>【HR + 25】 air</strong> damage to the target; this damage ignores Resistances.</p>",
 		"mpCost": {
 			"value": "20"
 		},

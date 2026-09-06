@@ -9,9 +9,9 @@
 			"value": "Rippers Unmasked — HSC Vol.2 (Song of Spirits)"
 		},
 		"summary": {
-			"value": "You call upon the spirits to join you in song and reinvigorate your allies' spirits."
+			"value": "You call upon the spirits to join you in song and reinvigorate your allies's spirits."
 		},
-		"description": "<p>You call upon the spirits to join you in song and reinvigorate your allies' spirits. Until this spell ends, each target that is about to pay a Mind Point cost may halve that cost. Then, the effects of this spell ends for that target. This spell cannot be cast on a creature benefiting from the Massage Camp Activity (see Natural Fantasy Atlas, page 133), and its benefit cannot be applied to a Ritual's cost in Mind Points. This spell is treated as a verse for the purposes of Chanter Skills...</p>",
+		"description": "<p>You call upon the spirits to join you in song and reinvigorate your allies's spirits. Until this spell ends, each target that is about to pay a Mind Point cost may halve that cost. Then, the effects of this spell ends for that target. This spell cannot be cast on a creature benefiting from the Massage Camp Activity (see Natural Fantasy Atlas, page 133), and its benefit cannot be applied to a Ritual's cost in Mind Points. This spell is treated as a verse for the purposes of Chanter Skills and other effects that require it; it is treated as being low volume if you target only one creature, and medium volume if you target two or more creatures.</p>",
 		"mpCost": {
 			"value": "10 × T"
 		},

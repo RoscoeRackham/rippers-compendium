@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You steal another creature's life force."
 		},
-		"description": "<p>You steal another creature's life force. You deal (HR + 15) dark damage to the target. Then, you recover an amount of Hit Points equal to half the total Hit Points loss they suffered (if the target had no HP left, you recover none).</p>",
+		"description": "<p>You steal another creature's life force. The target suffers <strong>【HR + 15】 dark</strong> damage to the target. Then, you recover an amount of Hit Points equal to half the total Hit Points loss they suffered (if the target had no HP left, you recover none).</p>",
 		"mpCost": {
 			"value": "10"
 		},

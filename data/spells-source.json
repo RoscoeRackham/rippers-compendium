@@ -161,7 +161,8 @@
         "hasDamage": false
       },
       "effect": "You weave magical energy and protect the targets from the fury of the elements. Choose a damage type: air, bolt, earth, fire or ice. Until this spell ends, each target gains Resistance to the chosen damage type.",
-      "source": "Core Rulebook v1.1 (Elemental Shroud)"
+      "source": "Core Rulebook v1.1 (Elemental Shroud)",
+      "effectHtml": "<p>You weave magical energy and protect the targets from the fury of the elements. Choose a damage type: <strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>. Until this spell ends, each target gains Resistance against the chosen damage type.</p>"
     },
     {
       "spell_key": "elementalism/the-tarrant-glide",
@@ -205,7 +206,8 @@
         "hasDamage": false
       },
       "effect": "You imbue a weapon with elemental energy. Choose a damage type: air, bolt, earth, fire, or ice. Until this spell ends, all damage dealt by the weapon becomes of the chosen damage type. If you have that weapon equipped while you cast this spell, you may perform a free attack with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature.",
-      "source": "Core Rulebook v1.1 (Elemental Weapon)"
+      "source": "Core Rulebook v1.1 (Elemental Weapon)",
+      "effectHtml": "<p>You imbue a weapon with elemental energy. Choose a damage type: <strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>. Until this spell ends, all damage dealt by the weapon becomes of the chosen damage type. If you have that weapon equipped while you cast this spell, you may perform a <strong>free attack</strong> with it as part of the same action.</p><p>This spell can only be cast on a weapon equipped by a willing creature.</p><hr /><p><strong>Targets Receive:</strong> @WEAPON[air bolt earth fire ice]{Elemental Weapon}</p>"
     },
     {
       "spell_key": "elementalism/ballistic-extension",
@@ -227,7 +229,8 @@
         "hasDamage": false
       },
       "effect": "The wind carries your strikes across the battlefield. You may perform a free attack with a melee weapon you have equipped; this attack may target creatures that cannot normally be targeted by melee attacks. If you used a weapon belonging to the brawling, spear, or sword Category for this attack, it deals 5 extra damage. If you hit a flying target with this attack, you may force them to land immediately.",
-      "source": "Core Rulebook v1.1 (Soaring Strike)"
+      "source": "Core Rulebook v1.1 (Soaring Strike)",
+      "effectHtml": "<p>The wind carries your strikes across the battlefield. You may immediately perform a <strong>free attack</strong> with a <strong>melee</strong> weapon you have equipped. This attack may target creatures that can only be targeted by <strong>ranged</strong> attacks.</p><p>If you used a weapon belonging to the <strong>brawling</strong>, <strong>spear,</strong> or <strong>sword</strong> Category for this attack, it deals 5 extra damage.</p><p>If you hit a flying target with this attack, you may force them to land immediately.</p>"
     },
     {
       "spell_key": "elementalism/fulgur",
@@ -253,7 +256,8 @@
       },
       "opportunity": "each target hit by this spell suffers dazed",
       "effect": "You weave electricity into a wave of crackling bolts. You deal (HR + 15) bolt damage to each target hit by this spell. Opportunity: each target hit by this spell suffers dazed.",
-      "source": "Core Rulebook v1.1"
+      "source": "Core Rulebook v1.1",
+      "effectHtml": "<p>You weave electricity into a wave of crackling bolts. You deal <strong>【HR + 15】 bolt</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[dazed].</p>"
     },
     {
       "spell_key": "elementalism/glacies",
@@ -279,7 +283,8 @@
       },
       "opportunity": "each target hit by this spell suffers slow",
       "effect": "You coat your foes under a thick layer of frost. You deal (HR + 15) ice damage to each target hit by this spell. Opportunity: each target hit by this spell suffers slow.",
-      "source": "Core Rulebook v1.1"
+      "source": "Core Rulebook v1.1",
+      "effectHtml": "<p>You coat your foes under a thick layer of frost. You deal <strong>【HR + 15】 ice</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[slow].</p>"
     },
     {
       "spell_key": "elementalism/ignis",
@@ -305,7 +310,8 @@
       },
       "opportunity": "each target hit by this spell suffers shaken",
       "effect": "You unleash a searing barrage against your foes, conjuring flames out of thin air. You deal (HR + 15) fire damage to each target hit by this spell. Opportunity: each target hit by this spell suffers shaken.",
-      "source": "Core Rulebook v1.1"
+      "source": "Core Rulebook v1.1",
+      "effectHtml": "<p>You unleash a searing barrage against your foes, conjuring flames out of thin air. You deal <strong>【HR + 15】 fire</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[shaken].</p>"
     },
     {
       "spell_key": "elementalism/terra",
@@ -331,7 +337,8 @@
       },
       "opportunity": "each target hit by this spell performs one fewer action on their next turn (to a minimum of 0 actions)",
       "effect": "Spires of jagged rock erupt from the ground beneath your foes, closing around them. You deal (HR + 15) earth damage to each target hit by this spell. This spell cannot target creatures that are flying, floating, falling, or otherwise in mid-air. Opportunity: each target hit by this spell performs one fewer action on their next turn (to a minimum of 0 actions).",
-      "source": "Core Rulebook v1.1"
+      "source": "Core Rulebook v1.1",
+      "effectHtml": "<p>Spires of jagged rock erupt from the ground beneath your foes, closing around them. You deal <strong>【HR + 15】 earth</strong> damage to each target hit by this spell. This spell cannot target creatures who are flying, floating, falling, or otherwise in mid-air.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell performs one fewer action on their next turn (to a minimum of 0 actions).</p>"
     },
     {
       "spell_key": "elementalism/ventus",
@@ -357,7 +364,8 @@
       },
       "opportunity": "each flying target hit by this spell is forced to land immediately",
       "effect": "You summon the power of winds against your enemy. You deal (HR + 15) air damage to each target hit by this spell. Opportunity: each flying target hit by this spell is forced to land immediately.",
-      "source": "Core Rulebook v1.1"
+      "source": "Core Rulebook v1.1",
+      "effectHtml": "<p>You summon the power of winds against your enemy. You deal <strong>【HR + 15】 air</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each <strong>flying</strong> target hit by this spell is forced to land immediately.</p>"
     },
     {
       "spell_key": "elementalism/concussion",
@@ -382,7 +390,8 @@
         "ignoresResistances": true
       },
       "effect": "You summon a colossal block of stone and send it straight towards your enemy. You deal (HR + 25) earth damage to the target; this damage ignores Resistances.",
-      "source": "Core Rulebook v1.1 (Boulder)"
+      "source": "Core Rulebook v1.1 (Boulder)",
+      "effectHtml": "<p>You summon a colossal block of stone and send it straight towards your enemy. You deal <strong>【HR + 25】 earth</strong> damage to the target; this damage ignores Resistances.</p>"
     },
     {
       "spell_key": "elementalism/incandescence",
@@ -407,7 +416,8 @@
         "ignoresResistances": true
       },
       "effect": "You channel a single ray of fire towards your foe, its temperature so high that it will pierce through most defenses. You deal (HR + 25) fire damage to the target; this damage ignores Resistances.",
-      "source": "Core Rulebook v1.1 (Flare)"
+      "source": "Core Rulebook v1.1 (Flare)",
+      "effectHtml": "<p>You channel a single ray of fire towards your foe, its temperature so high that it will pierce through most defenses. You deal <strong>【HR + 25】 fire</strong> damage to the target; this damage ignores Resistances</p>"
     },
     {
       "spell_key": "elementalism/congelation",
@@ -432,7 +442,8 @@
         "ignoresResistances": true
       },
       "effect": "A pillar of ice magic envelops your foe, dropping their temperature to critical levels. You deal (HR + 25) ice damage to the target; this damage ignores Resistances.",
-      "source": "Core Rulebook v1.1 (Iceberg)"
+      "source": "Core Rulebook v1.1 (Iceberg)",
+      "effectHtml": "<p>A pillar of ice magic envelops your foe, dropping their temperature to critical levels. You deal <strong>【HR + 25】 ice</strong> damage to the target; this damage ignores Resistances</p>"
     },
     {
       "spell_key": "elementalism/leyden-discharge",
@@ -457,7 +468,8 @@
         "ignoresResistances": true
       },
       "effect": "You send an arrow of overcharged lightning to strike your foe. You deal (HR + 25) bolt damage to the target; this damage ignores Resistances.",
-      "source": "Core Rulebook v1.1 (Thunderbolt)"
+      "source": "Core Rulebook v1.1 (Thunderbolt)",
+      "effectHtml": "<p>You send lightning striking at your foe. You deal <strong>【HR + 25】 bolt</strong> damage to the target; this damage ignores Resistances.</p>"
     },
     {
       "spell_key": "elementalism/rarefaction",
@@ -482,7 +494,8 @@
         "ignoresResistances": true
       },
       "effect": "You slash through your foe with high-pressure wind. You deal (HR + 25) air damage to the target; this damage ignores Resistances.",
-      "source": "Core Rulebook v1.1 (Vortex)"
+      "source": "Core Rulebook v1.1 (Vortex)",
+      "effectHtml": "<p>You slash through your foe with high-pressure wind. You deal <strong>【HR + 25】 air</strong> damage to the target; this damage ignores Resistances.</p>"
     },
     {
       "spell_key": "elementalism/pyroclastic-column",
@@ -511,7 +524,8 @@
       "source": "Core Rulebook v1.1 (Volcano, ultimate)",
       "flags": [
         "retype/rename permission NOT inlined: printed rules let the caster rename Volcano and change its damage to air/bolt/earth/ice (SPELLS-master-list §2C, five named register faces). Kept as printed fire/Pyroclastic Column — Austin's call whether the five faces appear."
-      ]
+      ],
+      "effectHtml": "<p><strong>Required Heroic Skill:</strong> @UUID[Compendium.projectfu.heroic-skills.Item.FpTkfuZ5p4zCQKDP]</p><hr /><p>You channel the fury of the planet into a powerful wave of fire and magma. Choose one option:</p><ul><li><p>You deal 50 <strong>fire</strong> damage to one creature you can see.</p></li><li><p>You deal 30 <strong>fire</strong> damage to every enemy you can see.</p></li></ul><p>These amounts increase by 5 if you are <strong>level 20 or higher</strong>, or by 10 if you are <strong>level 40 or higher</strong>.</p><p>Damage dealt by this spell ignores Resistances and Immunities.</p>"
     },
     {
       "spell_key": "elementalism/effluvia",
@@ -562,7 +576,8 @@
         "hasDamage": false
       },
       "effect": "You imbue a weapon with dark energy. Until this spell ends, all damage dealt by the weapon becomes dark. If you have that weapon equipped while you cast this spell, you may perform a free attack with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature.",
-      "source": "Core Rulebook v1.1 (Dark Weapon)"
+      "source": "Core Rulebook v1.1 (Dark Weapon)",
+      "effectHtml": "<p>You imbue a weapon with dark energy. Until this spell ends, all damage dealt by the weapon becomes of the <strong>dark</strong> type. If you have that weapon equipped while you cast this spell, you may perform a <strong>free attack</strong> with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature.</p><hr /><p><strong>Target Receive:</strong> @WEAPON[dark]{Dark Weapon}</p>"
     },
     {
       "spell_key": "entropism/psychical-depletion",
@@ -585,7 +600,8 @@
         "_note": "MP loss, not typed damage: target loses (HR + 20) MP; caster recovers half."
       },
       "effect": "You consume a creature's psyche. The target loses (HR + 20) Mind Points. Then, you recover an amount of Mind Points equal to half the total Mind Points loss they suffered (if the target had no MP left, you recover none).",
-      "source": "Core Rulebook v1.1 (Drain Spirit)"
+      "source": "Core Rulebook v1.1 (Drain Spirit)",
+      "effectHtml": "<p>You consume a creature's psyche. The target loses <strong>【HR + 20】</strong> Mind Points. Then, you recover an amount of Mind Points equal to half the total Mind Points loss they suffered (if the target had no MP left, you recover none)</p>"
     },
     {
       "spell_key": "entropism/dissolution",
@@ -607,7 +623,8 @@
         "hasDamage": false
       },
       "effect": "You cleanse all magic from a creature. The target stops being affected by all spells with a duration of \"Scene\" that are affecting them.",
-      "source": "Core Rulebook v1.1 (Dispel)"
+      "source": "Core Rulebook v1.1 (Dispel)",
+      "effectHtml": "<p>You release a wave of negative energy and cleanse all magic from a creature. If the target is affected by one or more spells with a <strong>duration</strong> of Scene, they are no longer affected by any of those spells instead.</p>"
     },
     {
       "spell_key": "entropism/prognostic-survey",
@@ -629,7 +646,8 @@
         "hasDamage": false
       },
       "effect": "You briefly glimpse into the future. Until this spell ends, after a creature you can see rolls dice for a Check, if it is not a fumble or a critical success, you may force them to reroll both dice. Once you have forced two rerolls this way, this spell ends.",
-      "source": "Core Rulebook v1.1 (Divination)"
+      "source": "Core Rulebook v1.1 (Divination)",
+      "effectHtml": "<p>You glimpse briefly into the future. Until this spell ends, after a creature you can see performs a Check, if it was not a <strong>fumble</strong> nor a <strong>critical success</strong>, you may force that creature to reroll both dice. Once you have forced <strong>two</strong> rerolls this way, this spell ends.</p>"
     },
     {
       "spell_key": "entropism/the-bulstrode-transfer",
@@ -653,7 +671,8 @@
         "value": 15
       },
       "effect": "You steal another creature's life force. You deal (HR + 15) dark damage to the target. Then, you recover an amount of Hit Points equal to half the total Hit Points loss they suffered (if the target had no HP left, you recover none).",
-      "source": "Core Rulebook v1.1 (Drain Vigor)"
+      "source": "Core Rulebook v1.1 (Drain Vigor)",
+      "effectHtml": "<p>You steal another creature's life force. The target suffers <strong>【HR + 15】 dark</strong> damage to the target. Then, you recover an amount of Hit Points equal to half the total Hit Points loss they suffered (if the target had no HP left, you recover none).</p>"
     },
     {
       "spell_key": "entropism/specular-reversion",
@@ -675,7 +694,8 @@
         "hasDamage": false
       },
       "effect": "You twist the laws of magic. Until this spell ends, when the target is targeted by an offensive spell (O), the creature that cast that offensive spell will be targeted in their stead (any other targets of the offensive spell will be targeted as normal). Once that happens, this spell ends.",
-      "source": "Core Rulebook v1.1 (Mirror)"
+      "source": "Core Rulebook v1.1 (Mirror)",
+      "effectHtml": "<p>You twist the laws of magic. Until this spell ends, when the target is targeted by an offensive spell (@ICON[offensive]), the creature that cast that offensive spell will be targeted in their stead (any other targets of the offensive spell will be targeted as normal). Once that happens, this spell ends.</p>"
     },
     {
       "spell_key": "entropism/temporal-arrest",
@@ -697,7 +717,8 @@
         "hasDamage": false
       },
       "effect": "You trap a foe inside a circle of altered time and space. The target will perform one fewer action on their next turn (to a minimum of 0 actions).",
-      "source": "Core Rulebook v1.1 (Stop)"
+      "source": "Core Rulebook v1.1 (Stop)",
+      "effectHtml": "<p>You trap a foe inside a circle of altered time and space. The target will perform one fewer action on their next turn (to a minimum of 0 actions).</p>"
     },
     {
       "spell_key": "entropism/umbral-extraction",
@@ -723,7 +744,8 @@
       },
       "opportunity": "each target hit by this spell suffers weak",
       "effect": "A storm of dark energy turns matter into ash. You deal (HR + 15) dark damage to each target hit by this spell. Opportunity: each target hit by this spell suffers weak.",
-      "source": "Core Rulebook v1.1 (Umbra)"
+      "source": "Core Rulebook v1.1 (Umbra)",
+      "effectHtml": "<p>A storm of dark energy turns matter into ash. You deal <strong>【HR + 15】 dark</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[weak].</p>"
     },
     {
       "spell_key": "entropism/mortal-abatement",
@@ -746,7 +768,8 @@
         "_note": "Untyped HP loss, not damage: target loses (20 + half their level) HP."
       },
       "effect": "You invoke doom on your foe, turning strength into frailty. The target loses an amount of Hit Points equal to (20 + half their level).",
-      "source": "Core Rulebook v1.1 (Omega)"
+      "source": "Core Rulebook v1.1 (Omega)",
+      "effectHtml": "<p>You invoke doom on your foe, turning strength into frailty. The target loses an amount of Hit Points equal to <strong>【20 + half the target's level】</strong>.</p><hr /><p><strong>Target Loses:</strong> @LOSS[20+floor(@target.level.value/2) hp]{20 + Half Level HP}</p>"
     },
     {
       "spell_key": "entropism/kinetic-augmentation",
@@ -768,7 +791,8 @@
         "hasDamage": false
       },
       "effect": "At the end of each of their turns, the target may choose one option: perform a free attack with a weapon they have equipped; or perform the Spell action for free, casting a spell with a total MP cost equal to or lower than 10 (paying its MP cost). After the same creature benefits from this effect a second time, this spell ends.",
-      "source": "Core Rulebook v1.1 (Acceleration)"
+      "source": "Core Rulebook v1.1 (Acceleration)",
+      "effectHtml": "<p>At the end of each of their turns, the target may choose <strong>one</strong> option: perform a <strong>free attack</strong> with a weapon they have equipped; <strong>or</strong> perform the <strong>Spell</strong> action for free, casting a spell with a <strong>total MP cost equal to or lower than 10</strong> (paying its MP cost). After the same creature benefits from this effect a second time, this spell ends.</p>"
     },
     {
       "spell_key": "entropism/aberrant-susceptibility",
@@ -790,7 +814,8 @@
         "hasDamage": false
       },
       "effect": "You alter the very nature of your target. Until this spell ends, if the target would suffer damage of a type they Absorb or are Immune to, they are instead treated as if they were Vulnerable to that damage type. Once that happens, this spell ends.",
-      "source": "Core Rulebook v1.1 (Anomaly)"
+      "source": "Core Rulebook v1.1 (Anomaly)",
+      "effectHtml": "<p>You alter the very nature of your target. Until this spell ends, if the target would suffer damage of a type they Absorb or are Immune to, they are instead treated as if they were Vulnerable to that damage type. Once that happens, this spell ends.</p>"
     },
     {
       "spell_key": "entropism/aleatory-trial",
@@ -816,7 +841,8 @@
         "_gap": "RANDOM outcome + random type: on a 9 result, deal 30 damage to any number of creatures; on 9+, roll d6 for type (1=air,2=bolt,3=dark,4=earth,5=fire,6=poison). Damage type not fixed; whole spell is a Willpower-die outcome table. Needs special handling / macro."
       },
       "effect": "You summon a vortex of chaotic energy. Roll your current Willpower die once for every 10 Mind Points spent while casting this spell, then keep the single die you prefer: the number on that die determines the effects of this spell. [1: Lose half current HP and MP] [2-3: Each creature present (including self) suffers poisoned] [4-6: Each creature present (including self) suffers slow] [7-8: Choose up to three creatures you can see — each recovers 50 HP and recovers from all status effects] [9: Choose any number of creatures you can see — deal 30 damage to each] [9+ damage type determined by rolling d6: 1=air, 2=bolt, 3=dark, 4=earth, 5=fire, 6=poison]",
-      "source": "Core Rulebook v1.1 (Gamble)"
+      "source": "Core Rulebook v1.1 (Gamble)",
+      "effectHtml": "<p>You summon a vortex of chaotic energy. Roll your current <strong>Willpower</strong> die once for every 10 Mind Points spent while casting this spell, then keep the <strong>single</strong> die you prefer: the number on that die determines the effects of this spell.</p><p>@Embed[Compendium.projectfu.rollable-tables.RollTable.ZAY11CArn1cYCyqP inline rollable]</p>"
     },
     {
       "spell_key": "entropism/the-perihelion",
@@ -842,7 +868,8 @@
         "_gap": "Emitted as FLAT (hrZero) 60 UNTYPED (FU native untyped damage type — unaffected by Affinities, matches the printed typeless). Full printed effect (in description): 60 to ONE enemy OR 40 to ALL (+5 L20, +10 L40). Single-vs-all scope + scaling live in the description."
       },
       "effect": "You rip open a large portal to the Cosmos, calling down astral debris from the gaping void. Choose one option: you deal 60 damage to one enemy you can see; or you deal 40 damage to every enemy you can see. These amounts increase by 5 if you are level 20 or higher, or by 10 if you are level 40 or higher. Damage dealt by this spell has no type (thus being unaffected by damage Affinities).",
-      "source": "Core Rulebook v1.1 (Comet)"
+      "source": "Core Rulebook v1.1 (Comet)",
+      "effectHtml": "<p><strong>Required Heroic Skill:</strong> Comet</p><hr /><p>You rip open a large portal to the Cosmos, calling down astral debris from the gaping void. Choose one option:</p><ul><li><p>You deal 60 damage to one creature you can see.</p></li><li><p>You deal 40 damage to every enemy you can see.</p></li></ul><p>These amounts increase by 5 if you are <strong>level 20 or higher</strong>, or by 10 if you are <strong>level 40 or higher</strong>.</p><p>Damage dealt by this spell has no type (thus being unaffected by damage Affinities).</p>"
     },
     {
       "spell_key": "illusion/the-creeps",
@@ -1184,7 +1211,7 @@
         "ignoresImmunities": true,
         "_gap": "Damage TYPE is chosen by Numen essence: Ravana=physical, Asura=light, Diablos=dark. Value 14 (→18 L20, 20 L40). ALSO a Heroic Skill (Create Phantasm: Numen), not a base spell — the draft (F3) flags it may belong in a heroics block, not spells."
       },
-      "effect": "You can now have up to 4 active Phantasms, but one of them must necessarily be Numen. ... When creating a Numen Phantasm, choose one essence, which dictates Numen's Damage Type: Ravana (Physical), Asura (Light), Diablos (Dark). The target hit by Numen suffers (HR + 14) damage. This damage increases to 18 if you are level 20 or higher, or to 20 if you are level 40 or higher. Damage dealt by Numen ignores Resistances and Immunities. The range of the attack is determined by your current weapon.",
+      "effect": "You can now have up to 4 active Phantasms, but one of them must necessarily be Numen. Also, you cannot have more than one Numen Phantasm active at a time. This Phantasm cannot be used in any of the Illusionist's Skills or Command spells. Numen is bound by the same set of special rules as any other Phantasm, with the following exceptions: Numen costs 50 MP to cast. It can be targeted by the enemy, and has the same HP as its caster. Once active, Numen has its own turn and a single action. Numen's turn can be taken either before or after the Illusionist's turn. It cannot be targeted by allies. After 3 turns, it shatters. When creating a Numen Phantasm, choose one essence, which dictates Numen's Damage Type: Ravana (Physical), Asura (Light), Diablos (Dark). The target hit by Numen suffers 【HR + 14】 damage. This damage increases to 18 if you are level 20 or higher, or to 20 if you are level 40 or higher. Damage dealt by Numen ignores Resistances and Immunities. The range of the attack is determined by your current weapon.",
       "source": "The Low Fantasy Atlas (Create Phantasm: Numen — Illusionist Heroic Skill)",
       "flags": [
         "Draft F3: labelled a HEROIC SKILL in source (own turn, HP = caster), structurally not a regular spell. Placement (spells vs heroics) is Compiler/Austin's call — effect text abridged here (full Numen special rules in the draft)."
@@ -1774,7 +1801,7 @@
         "value": null,
         "_gap": "FIXED multi-type: 10 earth, then 10 ice, then 10 fire, then 10 air to every enemy, then (10 + Inferiority/Mistrust/Hatred bond count) of a CHOSEN type. Five sequential fixed instances + a chosen-type instance — not representable in one FU damage field."
       },
-      "effect": "You call on magic from deep within the ley lines... Every enemy you can see suffers 10 earth damage, then 10 ice damage, then 10 fire damage, then 10 air damage. Finally, those enemies suffer (10 + the total number of Inferiority, Mistrust, and/or Hatred emotions among your Bonds) damage of the type you chose.",
+      "effect": "You call on magic from deep within the ley lines, empowering it with your negative emotions, giving up that which you hold dear on the path to vengeance. Every enemy you can see suffers 10 earth damage, then 10 ice damage, then 10 fire damage, then 10 air damage. Finally, those enemies suffer (10 + the total number of Inferiority, Mistrust, and/or Hatred emotions among your Bonds) damage of the type you chose.",
       "source": "Jawloween 2025 / Witch (Cardinal Blitz, heroic)",
       "flags": [
         "source header prints 'MP: 50' but rendered 50 HP (Magic of the Craft costs HP)."
@@ -1801,7 +1828,8 @@
         "hasDamage": false
       },
       "effect": "You project your soul outside your body and direct it to surround the targets, shielding them from dangerous magic. Until this spell ends, each target may treat their Magic Defense score as being equal to 12 (they may still use their normal Magic Defense score if it is higher than 12). This value increases to 13 if you are level 20 or higher, or to 14 if you are level 40 or higher.",
-      "source": "Core Rulebook v1.1 (Aura)"
+      "source": "Core Rulebook v1.1 (Aura)",
+      "effectHtml": "<p>You project your soul outside your body and direct it to surround the targets, shielding them from dangerous magic. Until this spell ends, each target may treat their Magic Defense as being equal to 12 against any effects that target it (they are still free to use their normal Defense score if higher than 12). This value increases to 13 if you are <strong>level 20 or higher</strong>, or to 14 if you are <strong>level 40 or higher</strong>.</p>"
     },
     {
       "spell_key": "spiritism/tonic-excitation",
@@ -1823,7 +1851,8 @@
         "hasDamage": false
       },
       "effect": "You allow a creature to focus their vital energy into accomplishing what they previously could not. Choose one Attribute: Dexterity, Insight, Might, or Willpower. Until this spell ends, the target treats the chosen Attribute as if it were one die size higher (up to a maximum of d12).",
-      "source": "Core Rulebook v1.1 (Awaken)"
+      "source": "Core Rulebook v1.1 (Awaken)",
+      "effectHtml": "<p>You allow a creature to focus their vital energy into accomplishing what they previously could not. Choose one Attribute: <strong>Dexterity</strong>, <strong>Insight</strong>, <strong>Might</strong>, or <strong>Willpower</strong>. Until this spell ends, the target treats the chosen Attribute as if it were one die size higher (up to a maximum of <strong>d12</strong>)</p>"
     },
     {
       "spell_key": "spiritism/refractory-palisade",
@@ -1846,7 +1875,8 @@
         "hasDamage": false
       },
       "effect": "You project your soul outside your body and weave it into a barrier to protect the targets from attacks. Until this spell ends, each target may treat their Defense score as being equal to 12 (they may still use their normal Defense score if it is higher than 12). This value increases to 13 if you are level 20 or higher, or to 14 if you are level 40 or higher.",
-      "source": "Core Rulebook v1.1 (Barrier)"
+      "source": "Core Rulebook v1.1 (Barrier)",
+      "effectHtml": "<p>You project your soul outside your body and weave it into a barrier to protect the targets from attacks. Until this spell ends, each target may treat their Defense as being equal to 12 against any effects that target it (they are still free to use their normal Defense score if higher than 12). This value increases to 13 if you are <strong>level 20 or higher</strong>, or to 14 if you are <strong>level 40 or higher</strong>.</p>"
     },
     {
       "spell_key": "spiritism/depurative-regimen",
@@ -1869,7 +1899,8 @@
         "hasDamage": false
       },
       "effect": "You strengthen and purify the soul energy coursing through your companions. Each target recovers from all status effects.",
-      "source": "Core Rulebook v1.1 (Cleanse)"
+      "source": "Core Rulebook v1.1 (Cleanse)",
+      "effectHtml": "<p>You strengthen and purify the soul energy coursing through your companions. Each target recovers from <strong>all status effects.</strong></p>"
     },
     {
       "spell_key": "spiritism/choleric-provocation",
@@ -1891,7 +1922,8 @@
         "hasDamage": false
       },
       "effect": "You cause a creature to lose any semblance of temper and act brazenly. The target suffers enraged and cannot perform the Guard or Spell actions until the end of their next turn.",
-      "source": "Core Rulebook v1.1 (Enrage)"
+      "source": "Core Rulebook v1.1 (Enrage)",
+      "effectHtml": "<p>You cause a creature to lose any semblance of temper and act brazenly. The target suffers <strong>enraged</strong> and cannot perform the <strong>Guard</strong> or <strong>Spell</strong> actions until the end of their next turn.</p>"
     },
     {
       "spell_key": "spiritism/delusive-impression",
@@ -1914,7 +1946,8 @@
         "hasDamage": false
       },
       "effect": "You alter the senses of your enemies, causing them to experience bizarre or frightening hallucinations. Choose dazed or shaken: each target hit by this spell suffers the chosen status effect.",
-      "source": "Core Rulebook v1.1 (Hallucination)"
+      "source": "Core Rulebook v1.1 (Hallucination)",
+      "effectHtml": "<p>You alter the senses of your enemies, causing them to experience bizarre or frightening hallucinations. Choose <strong>dazed</strong> or <strong>shaken</strong>: you inflict the chosen status effect on each target hit by this spell.</p>"
     },
     {
       "spell_key": "spiritism/general-restoration",
@@ -1937,7 +1970,8 @@
         "hasDamage": false
       },
       "effect": "You invigorate your companions, soothing their pain and easing their fatigue. Each target recovers 40 Hit Points. This amount increases to 50 Hit Points if you are level 20 or higher, or to 60 Hit Points if you are level 40 or higher.",
-      "source": "Core Rulebook v1.1 (Heal)"
+      "source": "Core Rulebook v1.1 (Heal)",
+      "effectHtml": "<p>You invigorate your companions, soothing their pain and healing their fatigue. Each target recovers 40 Hit Points. This amount increases to 50 Hit Points if you are <strong>level 20 or higher</strong>, or to 60 Hit Points if you are <strong>level 40 or higher</strong>.</p>"
     },
     {
       "spell_key": "spiritism/luminous-cautery",
@@ -1963,7 +1997,8 @@
       },
       "opportunity": "each target hit by this spell suffers dazed",
       "effect": "You focus your inner energy into a barrage of blinding soul rays. You deal (HR + 15) light damage to each target hit by this spell. Opportunity: each target hit by this spell suffers dazed.",
-      "source": "Core Rulebook v1.1 (Lux)"
+      "source": "Core Rulebook v1.1 (Lux)",
+      "effectHtml": "<p>You focus your inner energy into a barrage of blinding soul rays. You deal <strong>【HR + 15】</strong> <strong>light</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[dazed].</p>"
     },
     {
       "spell_key": "spiritism/aldworths-compress",
@@ -1985,7 +2020,8 @@
         "hasDamage": false
       },
       "effect": "You strengthen the heart of a creature against suffering and despair. Until this spell ends, if the target is reduced to 0 Hit Points, they are instead left standing with exactly 1 Hit Point. Once that happens, this spell ends.",
-      "source": "Core Rulebook v1.1 (Mercy)"
+      "source": "Core Rulebook v1.1 (Mercy)",
+      "effectHtml": "<p>You strengthen the heart of a creature against suffering and despair. Until this spell ends, if the target would be reduced to 0 Hit Points, they are instead left standing with exactly 1 Hit Point. Once that happens, this spell ends.</p>"
     },
     {
       "spell_key": "spiritism/acquired-tolerance",
@@ -2008,7 +2044,8 @@
         "hasDamage": false
       },
       "effect": "You protect the targets from attacks that would corrupt their body and spirit. Choose dazed, enraged, poisoned, shaken, slow, or weak. Until this spell ends, each target is immune to the chosen status effect.",
-      "source": "Core Rulebook v1.1 (Reinforce)"
+      "source": "Core Rulebook v1.1 (Reinforce)",
+      "effectHtml": "<p>You protect the targets from attacks that would corrupt their body and spirit. Choose <strong>dazed</strong>, <strong>enraged</strong>, <strong>poisoned</strong>, <strong>shaken</strong>, <strong>slow</strong>, or <strong>weak</strong>. Until this spell ends, each target is immune to the chosen status effect.</p>"
     },
     {
       "spell_key": "spiritism/anodyne-mantle",
@@ -2031,7 +2068,8 @@
         "hasDamage": false
       },
       "effect": "You weave energy to safeguard the targets. Choose a damage type: dark, light, or poison. Until this spell ends, each target gains Resistance to the chosen damage type.",
-      "source": "Core Rulebook v1.1 (Soul Shroud)"
+      "source": "Core Rulebook v1.1 (Soul Shroud)",
+      "effectHtml": "<p>You weave energy to safeguard the targets. Choose a damage type: <strong>dark</strong>, <strong>light</strong>, or <strong>poison</strong>. Until this spell ends, each target gains Resistance to the chosen damage type.</p>"
     },
     {
       "spell_key": "spiritism/actinic-plating",
@@ -2053,7 +2091,8 @@
         "hasDamage": false
       },
       "effect": "You imbue a weapon with the cleansing energy of your spirit. Until this spell ends, all damage dealt by the weapon becomes light. If you have that weapon equipped while you cast this spell, you may perform a free attack with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature.",
-      "source": "Core Rulebook v1.1 (Soul Weapon)"
+      "source": "Core Rulebook v1.1 (Soul Weapon)",
+      "effectHtml": "<p>You imbue a weapon with the cleansing energy of your spirit. Until this spell ends, all damage dealt by the weapon becomes of the <strong>light</strong> type. If you have that weapon equipped while you cast this spell, you may perform a <strong>free attack</strong> with it as part of the same action.</p><p>This spell can only be cast on a weapon equipped by a willing creature.</p><hr /><p><strong>Target Receives:</strong> @WEAPON[light]{Soul Weapon}</p>"
     },
     {
       "spell_key": "spiritism/attenuative-draught",
@@ -2076,7 +2115,8 @@
         "hasDamage": false
       },
       "effect": "You smother the soul energy coursing through the bodies of your foes, hindering their movements. Choose slow or weak: each target hit by this spell suffers the chosen status effect.",
-      "source": "Core Rulebook v1.1 (Torpor)"
+      "source": "Core Rulebook v1.1 (Torpor)",
+      "effectHtml": "<p>You smother the soul energy coursing through the bodies of your foes, hindering their movements. Choose <strong>slow</strong> or <strong>weak</strong>: you inflict the chosen status effect on each target hit by this spell.</p>"
     },
     {
       "spell_key": "spiritism/resuscitative-office",
@@ -2102,7 +2142,8 @@
       "source": "Core Rulebook v1.1 (Hope, heroic spell p.236)",
       "flags": [
         "Heroic-skill spell (part of the HOPE heroic), not a Spiritual-Magic learnable spell — placement is Compiler/Austin's call."
-      ]
+      ],
+      "effectHtml": "<p><strong>Required Heroic Skill:</strong> Hope</p><hr /><p>You rekindle the flames of courage and hope within a defeated hero. Choose a Player Character who <strong>surrendered</strong> but is still present on the scene: that Player Character immediately regains consciousness and recovers an amount of Hit Points equal to their <strong>Crisis</strong> score. Note that this spell will not undo the <strong>consequences</strong> of the character's surrender and is of no use if the character left the scene as part of their surrender — such as if they were captured and dragged away, or if they were trapped in a parallel dimension, and so on.</p><p>A Player Character may only be affected by this spell once per scene; if a character is brought back into the conflict by this spell and is subsequently reduced to 0 Hit Points again, they must <strong>sacrifice</strong> themselves or <strong>surrender</strong> as per the normal rules (including a new <strong>consequence</strong> and 2 more Fabula Points if they surrender).</p><hr /><p><strong>Target Recovers:</strong> @GAIN[@target.resources.hp.max/2 hp]{Crisis HP}</p>"
     },
     {
       "spell_key": "spiritism/antiphonal-relief",
@@ -2124,7 +2165,7 @@
       "damage": {
         "hasDamage": false
       },
-      "effect": "You call upon the spirits to join you in song and reinvigorate your allies' spirits. Until this spell ends, each target that is about to pay a Mind Point cost may halve that cost. Then, the effects of this spell ends for that target. This spell cannot be cast on a creature benefiting from the Massage Camp Activity (see Natural Fantasy Atlas, page 133), and its benefit cannot be applied to a Ritual's cost in Mind Points. This spell is treated as a verse for the purposes of Chanter Skills...",
+      "effect": "You call upon the spirits to join you in song and reinvigorate your allies's spirits. Until this spell ends, each target that is about to pay a Mind Point cost may halve that cost. Then, the effects of this spell ends for that target. This spell cannot be cast on a creature benefiting from the Massage Camp Activity (see Natural Fantasy Atlas, page 133), and its benefit cannot be applied to a Ritual's cost in Mind Points. This spell is treated as a verse for the purposes of Chanter Skills and other effects that require it; it is treated as being low volume if you target only one creature, and medium volume if you target two or more creatures.",
       "source": "HSC Vol.2 (Song of Spirits)",
       "flags": [
         "source has a cross-reference to Natural Fantasy Atlas p.133 and a printed typo \"allies's\" — flagged in draft for Austin; typo normalized to allies' here pending ruling."

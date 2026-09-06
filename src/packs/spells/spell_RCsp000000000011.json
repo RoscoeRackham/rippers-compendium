@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You channel a single ray of fire towards your foe, its temperature so high that it will pierce through most defenses."
 		},
-		"description": "<p>You channel a single ray of fire towards your foe, its temperature so high that it will pierce through most defenses. You deal (HR + 25) fire damage to the target; this damage ignores Resistances.</p>",
+		"description": "<p>You channel a single ray of fire towards your foe, its temperature so high that it will pierce through most defenses. You deal <strong>【HR + 25】 fire</strong> damage to the target; this damage ignores Resistances</p>",
 		"mpCost": {
 			"value": "20"
 		},

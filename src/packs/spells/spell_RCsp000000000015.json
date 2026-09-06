@@ -9,9 +9,9 @@
 			"value": "Rippers Unmasked — Core Rulebook v1.1 (Volcano, ultimate)"
 		},
 		"summary": {
-			"value": "You channel the fury of the planet into a powerful wave of fire and magma."
+			"value": "Required Heroic Skill: @UUID[Compendium.projectfu.heroic-skills.Item.FpTkfuZ5p4zCQKDP] You channel the fury of the…"
 		},
-		"description": "<p>You channel the fury of the planet into a powerful wave of fire and magma. Choose one option: you deal 50 fire damage to one enemy you can see; or you deal 30 fire damage to every enemy you can see. These amounts increase by 5 if you are level 20 or higher, or by 10 if you are level 40 or higher. Damage dealt by this spell ignores Resistances and Immunities.</p>",
+		"description": "<p><strong>Required Heroic Skill:</strong> @UUID[Compendium.projectfu.heroic-skills.Item.FpTkfuZ5p4zCQKDP]</p><hr /><p>You channel the fury of the planet into a powerful wave of fire and magma. Choose one option:</p><ul><li><p>You deal 50 <strong>fire</strong> damage to one creature you can see.</p></li><li><p>You deal 30 <strong>fire</strong> damage to every enemy you can see.</p></li></ul><p>These amounts increase by 5 if you are <strong>level 20 or higher</strong>, or by 10 if you are <strong>level 40 or higher</strong>.</p><p>Damage dealt by this spell ignores Resistances and Immunities.</p>",
 		"mpCost": {
 			"value": "40"
 		},

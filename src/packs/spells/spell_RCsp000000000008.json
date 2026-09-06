@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "Spires of jagged rock erupt from the ground beneath your foes, closing around them."
 		},
-		"description": "<p>Spires of jagged rock erupt from the ground beneath your foes, closing around them. You deal (HR + 15) earth damage to each target hit by this spell. This spell cannot target creatures that are flying, floating, falling, or otherwise in mid-air. Opportunity: each target hit by this spell performs one fewer action on their next turn (to a minimum of 0 actions).</p>",
+		"description": "<p>Spires of jagged rock erupt from the ground beneath your foes, closing around them. You deal <strong>【HR + 15】 earth</strong> damage to each target hit by this spell. This spell cannot target creatures who are flying, floating, falling, or otherwise in mid-air.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell performs one fewer action on their next turn (to a minimum of 0 actions).</p>",
 		"mpCost": {
 			"value": "10 × T"
 		},

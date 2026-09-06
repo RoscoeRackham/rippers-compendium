@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You alter the senses of your enemies, causing them to experience bizarre or frightening hallucinations."
 		},
-		"description": "<p>You alter the senses of your enemies, causing them to experience bizarre or frightening hallucinations. Choose dazed or shaken: each target hit by this spell suffers the chosen status effect.</p>",
+		"description": "<p>You alter the senses of your enemies, causing them to experience bizarre or frightening hallucinations. Choose <strong>dazed</strong> or <strong>shaken</strong>: you inflict the chosen status effect on each target hit by this spell.</p>",
 		"mpCost": {
 			"value": "5 × T"
 		},

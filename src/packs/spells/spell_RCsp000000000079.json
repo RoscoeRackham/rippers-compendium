@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You smother the soul energy coursing through the bodies of your foes, hindering their movements."
 		},
-		"description": "<p>You smother the soul energy coursing through the bodies of your foes, hindering their movements. Choose slow or weak: each target hit by this spell suffers the chosen status effect.</p>",
+		"description": "<p>You smother the soul energy coursing through the bodies of your foes, hindering their movements. Choose <strong>slow</strong> or <strong>weak</strong>: you inflict the chosen status effect on each target hit by this spell.</p>",
 		"mpCost": {
 			"value": "5 × T"
 		},

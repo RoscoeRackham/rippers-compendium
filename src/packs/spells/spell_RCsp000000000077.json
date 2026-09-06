@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You weave energy to safeguard the targets."
 		},
-		"description": "<p>You weave energy to safeguard the targets. Choose a damage type: dark, light, or poison. Until this spell ends, each target gains Resistance to the chosen damage type.</p>",
+		"description": "<p>You weave energy to safeguard the targets. Choose a damage type: <strong>dark</strong>, <strong>light</strong>, or <strong>poison</strong>. Until this spell ends, each target gains Resistance to the chosen damage type.</p>",
 		"mpCost": {
 			"value": "5 × T"
 		},
