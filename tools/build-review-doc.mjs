@@ -264,6 +264,141 @@ ${arcanaRendered.map(a => `<section class="arcana" id="${slug('arc-' + a.n)}"><h
 </body></html>`;
 
 fs.writeFileSync(OUT, html);
+
+// ===================================================================================
+// MARKDOWN EMITTER — clean, unstyled, Design-ingestible. h1 part / h2 class / h3 skill.
+// Full descriptions; inert-benefit annotations inline; @UUID links degrade to names;
+// ritual grants surfaced from skill flags; journal tables -> GFM tables.
+// ===================================================================================
+const MDDIR = args['md-dir'];
+let mdReport = null;
+if (MDDIR) {
+  fs.mkdirSync(MDDIR, { recursive: true });
+  const dec = (s) => String(s)
+    .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"').replace(/&#0?39;/g, "'").replace(/&mdash;/g, '—')
+    .replace(/&ndash;/g, '–').replace(/&nbsp;/g, ' ').replace(/&times;/g, '×').replace(/&hellip;/g, '…');
+  const inlineMd = (h) => {
+    let s = String(h ?? '').replace(
+      /@UUID\[[^\]]*\.Item\.([A-Za-z0-9]+)\]\{([^}]*)\}/g,
+      (_m, id, label) => { const g = grantById.get(id); return `**${label}**${g ? ` _(⚜ grants ${g} rituals)_` : ''}`; });
+    s = s.replace(/<\s*br\s*\/?>/gi, '  \n')
+      .replace(/<\/?(strong|b)\b[^>]*>/gi, '**').replace(/<\/?(em|i)\b[^>]*>/gi, '_')
+      .replace(/<[^>]+>/g, '');
+    return dec(s).replace(/[ \t]+/g, ' ').replace(/ *\n */g, '\n').trim();
+  };
+  const skillHeadFromP = (inner) => {
+    const m = inner.match(/@UUID\[[^\]]*\.Item\.([A-Za-z0-9]+)\]\{([^}]*)\}/);
+    const id = m?.[1]; const name = m ? m[2] : inlineMd(inner);
+    const stripped = dec(inner.replace(/@UUID\[[^\]]*\]\{[^}]*\}/g, '').replace(/<[^>]+>/g, ''));
+    const badge = (stripped.match(/【[^】]*】/) || [''])[0];
+    const g = id ? grantById.get(id) : null;
+    return { heading: `### ${name}${badge ? ` ${badge}` : ''}`.trim(), note: g ? `_Grants rituals: ${g}._` : '' };
+  };
+  const tableMd = (t) => {
+    const rows = [];
+    for (const tr of t.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)) {
+      const cells = [...tr[1].matchAll(/<(th|td)[^>]*>([\s\S]*?)<\/\1>/gi)].map(c => inlineMd(c[2]).replace(/\|/g, '\\|').replace(/\n/g, ' '));
+      if (cells.length) rows.push(cells);
+    }
+    if (!rows.length) return '';
+    const w = Math.max(...rows.map(r => r.length));
+    const pad = (r) => { const x = r.slice(); while (x.length < w) x.push(''); return x; };
+    const hasHead = /<th[\s>]/i.test(t);
+    const header = hasHead ? pad(rows[0]) : Array.from({ length: w }, (_, i) => `Col ${i + 1}`);
+    const body = (hasHead ? rows.slice(1) : rows).map(pad);
+    return [`| ${header.join(' | ')} |`, `| ${header.map(() => '---').join(' | ')} |`, ...body.map(r => `| ${r.join(' | ')} |`)].join('\n');
+  };
+  const blocksOf = (html) => {
+    const pre = String(html ?? '').replace(/<hr\s*\/?>/gi, '<p>§HR§</p>');
+    const re = /<(h1|h2|h3|h4|h5|h6|ul|ol|table|p)\b[^>]*>([\s\S]*?)<\/\1>/gi;
+    const out = []; let m;
+    while ((m = re.exec(pre))) out.push({ tag: m[1].toLowerCase(), inner: m[2] });
+    return out;
+  };
+  const listMd = (inner) => [...inner.matchAll(/<li[^>]*>([\s\S]*?)<\/li>/gi)].map(li => `- ${inlineMd(li[1])}`).join('\n');
+  // class body: skills promoted to h3; "CLASSNAME SKILLS" divider dropped
+  const classBodyMd = (html) => {
+    const L = [];
+    for (const b of blocksOf(html)) {
+      if (b.tag === 'h5') L.push(`**${inlineMd(b.inner)}**`, '');
+      else if (b.tag === 'h2') { const t = inlineMd(b.inner); if (/skills$/i.test(t)) continue; L.push(`### ${t}`, ''); }
+      else if (b.tag === 'ul' || b.tag === 'ol') L.push(listMd(b.inner), '');
+      else if (b.tag === 'table') L.push(tableMd(b.inner), '');
+      else if (b.tag === 'p') {
+        if (b.inner === '§HR§') { L.push('---', ''); continue; }
+        if (/@UUID\[[^\]]*\.Item\./.test(b.inner)) { const { heading, note } = skillHeadFromP(b.inner); L.push(heading, ''); if (note) L.push(note, ''); }
+        else L.push(inlineMd(b.inner), '');
+      }
+    }
+    return L.join('\n').replace(/\n{3,}/g, '\n\n').trim();
+  };
+  // prose (journals): headings downshift, no skill promotion, tables kept
+  const proseMd = (html) => {
+    const L = [];
+    for (const b of blocksOf(html)) {
+      if (b.tag === 'h1' || b.tag === 'h2') L.push(`### ${inlineMd(b.inner)}`, '');
+      else if (b.tag === 'h3') L.push(`#### ${inlineMd(b.inner)}`, '');
+      else if (b.tag === 'h4' || b.tag === 'h5' || b.tag === 'h6') L.push(`**${inlineMd(b.inner)}**`, '');
+      else if (b.tag === 'ul' || b.tag === 'ol') L.push(listMd(b.inner), '');
+      else if (b.tag === 'table') L.push(tableMd(b.inner), '');
+      else if (b.tag === 'p') { if (b.inner === '§HR§') L.push('---', ''); else L.push(inlineMd(b.inner), ''); }
+    }
+    return L.join('\n').replace(/\n{3,}/g, '\n\n').trim();
+  };
+
+  const classMd = (c) => {
+    const tag = isInnate(c) ? ' — Innate Only' : '';
+    const aka = c.system?.summary?.value ? `*${inlineMd(c.system.summary.value)}*\n\n` : '';
+    return `## ${c.name}${tag}\n\n${aka}${classBodyMd(c.system?.description)}`;
+  };
+  const heroicMd = (h) => {
+    const req = h.system?.requirement?.value?.trim();
+    const reqLine = req ? `**Requires:** ${inlineMd(req)}\n\n` : '';
+    return `## ${h.name}\n\n${reqLine}${proseMd(h.system?.description)}`;
+  };
+  const spellMd = (s) => {
+    const sy = s.system || {};
+    const bits = [];
+    const mp = sy.mpCost?.value ?? sy.mpCost; if (mp != null && mp !== '') bits.push(`${mp} MP`);
+    const tgt = sy.target?.value ?? sy.target; if (tgt) bits.push(tgt);
+    const dur = sy.duration?.value ?? sy.duration; if (dur) bits.push(dur);
+    if (sy.isOffensive?.value ?? sy.isOffensive) bits.push('offensive');
+    const tag = bits.length ? `*${bits.map(b => inlineMd(String(b))).join(' · ')}*\n\n` : '';
+    return `## ${s.name}\n\n${tag}${proseMd(sy.description)}`;
+  };
+
+  const frontMatter = `# Rippers Unmasked — Compendium Review
+
+**Module:** rippers-compendium · **Version:** ${VERSION}
+**Generated:** ${DATE} from the v${VERSION} tag (git archive, sha 6264915) — render-only from pack sources, zero content edits.
+**Counts:** ${classes.length} classes · ${skills.length} class skills · ${heroics.length} heroic skills · ${spells.length} spells. Ritual grants: ${grantSummary || 'none'}.
+
+> **Personal-table document — not for redistribution.**
+
+*Free benefits are printed for reference and are **inert** under the no-innate-benefits rule; live capability comes from the creation benefit-pick pool and from ritual-granting skills (marked ⚜). Full skill/spell descriptions are used throughout — never the short summary field.*`;
+
+  const partClasses = `# Classes\n\n*Innate-only classes first, then Guise classes, each alphabetical.*\n\n${innateClasses.map(classMd).join('\n\n')}\n\n${guiseClasses.map(classMd).join('\n\n')}`;
+  const partHeroics = `# Heroic Skills\n\n*${heroics.length} heroic skills, alphabetical, each with its requirement.*\n\n${heroicsSorted.map(heroicMd).join('\n\n')}`;
+  const partSpells = `# Spells\n\n*${spells.length} spells, alphabetical.*\n\n${spellsSorted.map(spellMd).join('\n\n')}`;
+  const partSubsys = `# Shared Subsystems\n\n*Player-reference journal prose for the systems classes lean on.*\n\n${subsysRendered.map(s => `## ${s.n}\n\n${proseMd(journalByName.get(s.n).pages.map(p => p.text?.content || '').join('\n'))}`).join('\n\n')}`;
+  const partArcana = `# Appendix — Arcana\n\n*The bound-Arcana registry and their domains (Austin's standing ruling: Arcana live in an appendix).*\n\n${arcanaRendered.map(a => `## ${a.n}\n\n${proseMd(journalByName.get(a.n).pages.map(p => p.text?.content || '').join('\n'))}`).join('\n\n')}`;
+
+  const files = {
+    '00-front-matter.md': frontMatter,
+    '01-classes.md': partClasses,
+    '02-heroics.md': partHeroics,
+    '03-spells.md': partSpells,
+    '04-shared-subsystems.md': partSubsys,
+    '05-arcana-appendix.md': partArcana,
+  };
+  for (const [name, body] of Object.entries(files)) fs.writeFileSync(path.join(MDDIR, name), body.replace(/\n{3,}/g, '\n\n').trimEnd() + '\n');
+  const master = [frontMatter, partClasses, partHeroics, partSpells, partSubsys, partArcana].join('\n\n---\n\n');
+  const masterName = `rippers-compendium-review-v${VERSION}.md`;
+  fs.writeFileSync(path.join(MDDIR, masterName), master.replace(/\n{3,}/g, '\n\n').trimEnd() + '\n');
+  mdReport = { dir: MDDIR, parts: Object.keys(files), master: masterName, masterBytes: Buffer.byteLength(master) };
+}
+
 const report = {
   out: OUT, version: VERSION, date: DATE,
   counts: { classes: classes.length, innate: innateClasses.length, guise: guiseClasses.length,
@@ -272,5 +407,6 @@ const report = {
   subsystemsRendered: subsysRendered.map(s => s.n), subsystemsMissing: subsysMissing,
   arcanaRendered: arcanaRendered.map(a => a.n), arcanaMissing,
   bytes: Buffer.byteLength(html),
+  markdown: mdReport,
 };
 console.log(JSON.stringify(report, null, 2));
