@@ -60,13 +60,27 @@ const byName = (a, b) => a.name.localeCompare(b.name);
 const innateClasses = classes.filter(isInnate).sort(byName);
 const guiseClasses = classes.filter(c => !isInnate(c)).sort(byName);
 
+// The per-class player-reference JOURNAL page(s) are the full player-facing class writeup —
+// skills in binder form AND the subsystems (Physician's catalogue, Bounty's tools, Cook's
+// cookbook, Engineer's INVENTION TYPES, …) that the thin class Item description omits. Render
+// those as the class body, prefixed by the Item's FREE BENEFITS block (the binder drops it).
+function classJournalHtml(c) {
+  const benefits = String(c.system?.description || '').split(/<h2\b/i)[0]; // before "<CLASS> SKILLS"
+  const jr = journalByName.get(c.name);
+  if (!jr || !Array.isArray(jr.pages) || !jr.pages.length) return renderBody(c.system?.description);
+  const pages = jr.pages.map(p => {
+    const head = (p.name && p.name !== c.name) ? `<h2 class="subsys-page">${esc(p.name)}</h2>` : '';
+    return head + String(p.text?.content || '');
+  }).join('\n');
+  return renderBody(benefits) + pages;
+}
 function classSection(c) {
   const sub = c.system?.summary?.value ? `<p class="aka">${esc(c.system.summary.value)}</p>` : '';
   const tag = isInnate(c) ? '<span class="pill innate">INNATE ONLY</span>' : '<span class="pill guise">GUISE</span>';
   return `<section class="class-page" id="${slug('class-' + c.name)}">
   <h2 class="class-name">${esc(c.name)} ${tag}</h2>
   ${sub}
-  <div class="class-body">${renderBody(c.system?.description)}</div>
+  <div class="class-body">${classJournalHtml(c)}</div>
 </section>`;
 }
 
@@ -350,7 +364,20 @@ if (MDDIR) {
   const classMd = (c) => {
     const tag = isInnate(c) ? ' — Innate Only' : '';
     const aka = c.system?.summary?.value ? `*${inlineMd(c.system.summary.value)}*\n\n` : '';
-    return `## ${c.name}${tag}\n\n${aka}${classBodyMd(c.system?.description)}`;
+    // Body = Item FREE BENEFITS block + the full player-reference journal page(s) (subsystems).
+    const jr = journalByName.get(c.name);
+    let body;
+    if (jr && Array.isArray(jr.pages) && jr.pages.length) {
+      const benefits = String(c.system?.description || '').split(/<h2\b/i)[0];
+      const pagesMd = jr.pages.map(p => {
+        const head = (p.name && p.name !== c.name) ? `### ${inlineMd(p.name)}\n\n` : '';
+        return head + proseMd(p.text?.content || '');
+      }).join('\n\n');
+      body = [classBodyMd(benefits), pagesMd].filter(Boolean).join('\n\n');
+    } else {
+      body = classBodyMd(c.system?.description);
+    }
+    return `## ${c.name}${tag}\n\n${aka}${body}`;
   };
   const heroicMd = (h) => {
     const req = h.system?.requirement?.value?.trim();
