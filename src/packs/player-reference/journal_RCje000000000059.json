@@ -1,10 +1,10 @@
 {
-	"name": "Slayer",
+	"name": "Socialite",
 	"_id": "RCje000000000059",
 	"pages": [
 		{
-			"_id": "RCpg000000000068",
-			"name": "Slayer",
+			"_id": "RCpg000000000072",
+			"name": "Socialite",
 			"type": "text",
 			"title": {
 				"show": true,
@@ -12,7 +12,7 @@
 			},
 			"text": {
 				"format": 1,
-				"content": "<p><em>Hunters who deal death to creatures of the night with bane-touched weapons and deep knowledge.</em></p><p><strong>SKILLS</strong></p><p><strong>BANE OILS</strong> · SL max 5</p><p>Each time you take this Skill, choose a creature Species. You may use an action and spend 2 Inventory Points to apply a bane oil for one of your chosen Species to a weapon equipped by you or a willing creature. If you have the weapon equipped, you may perform a free attack with it as part of the same action.</p><p>Until the end of the scene or a different bane oil is applied to the weapon, when a creature of the same Species as the bane oil is hit by the weapon, the attacker picks one of the following: the creature becomes slow; or the creature becomes weak; or the creature loses one of its damage Resistances until the end of the scene; or fill 1 section of a Pressure Clock.</p><p><strong>GIANT KILLER</strong></p><p>When you hit a non-soldier creature with an attack that deals damage, you deal extra damage equal to (2 × the number of soldiers the creature replaces).</p><p><strong>KNOW THY QUARRY</strong> · SL max 5</p><p>When you make an Accuracy Check, Magic Check, or contested Check, you may spend 1 Fabula Point and invoke one of the target's Traits to add (SL) to your result against that target. A Villain may spend an Ultima Point to cancel out this effect. If the Check includes multiple targets, your result against those other targets is unchanged.</p><p><strong>LOCKDOWN</strong> · SL max 4</p><p>When you hit a creature with an attack you may spend 10 Mind Points and choose one of the target's basic attacks or spells. Until the start of your next turn, the target deals (SL × 2) less damage with the chosen action.</p><p><strong>WILDLIFE EXPERT</strong> · SL max 3</p><p>When you rest in the wilderness, you may ask the Game Master up to (SL) questions about creatures in the area; the Game Master will answer truthfully.</p>",
+				"content": "<p><em>One who turns their natural magnetism — the pull of their looks and manner — into a deliberate strength.</em></p><p><strong>SKILLS</strong></p><p><strong>THE EYE OF THE BEHOLDER</strong></p><p>Once per rest interlude you can ask a player (or the GM for a NPC) \"what did your character find attractive, admirable or endearing about me during our interactions?\". You can spend your Fabula points to reroll one or both dice from any roll made to help or harm you by a character who has expressed attraction, admiration or affection toward you.</p><p><strong>FINE PRESENTATION</strong> · SL max 5</p><p>During your rest interludes, pick out what your character goes out of their way to enhance in their appearance or behavior, and write them down. You can have a maximum of (SL) things written on your list at any time. When your character meets or converses with another character, you can spend 2 IP to ask them to choose something you've enhanced and describe how they find it attractive. Gain one Fabula point and remove this element from your list.</p><p><strong>DOUBLE-EDGE PERSONALITY</strong></p><p>When a character who knows you personally makes a roll to attract your attention, help you or cause you harm, they gain a +1 bonus.</p><p><strong>CENTRE OF ATTENTION</strong> · SL max 5</p><p>During a conflict when an enemy attacks or use a spell on your group, before the target are declared, you can pay (35 − 5 × SL) MP to force them to target you or force them to not target you</p><p><strong>WAVERING EMOTIONS</strong> · SL max 3</p><p>Up to (SL) times per scene, you can pay 10 MP to add an emotion of your choice to the bond you have with a character, or to the bond a character has with you until the end of the scene. This can create temporary bonds (even if you already have 6) or momentarily add antagonistic emotions to existing bonds (such as adding loyalty to a bond that already has mistrust).</p>",
 				"markdown": ""
 			},
 			"sort": 100000,
@@ -21,7 +21,7 @@
 				"systemId": "projectfu",
 				"coreVersion": "13.0.0"
 			},
-			"_key": "!journal.pages!RCje000000000059.RCpg000000000068"
+			"_key": "!journal.pages!RCje000000000059.RCpg000000000072"
 		}
 	],
 	"folder": "RCfd000000000002",

@@ -22,6 +22,27 @@
 				"coreVersion": "13.0.0"
 			},
 			"_key": "!journal.pages!RCje000000000003.RCpg000000000003"
+		},
+		{
+			"_id": "RCpg000000000004",
+			"name": "HAUNTING — the clauses",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<p>Each Sanctuary has two halves: a <strong>Haunt</strong> and a <strong>Ritual</strong>. The Haunt carries the site's spirit into a creature (the <em>Hauntee</em>); the Ritual describes what becomes easier when performed there — the GM may grant an MP discount, a stronger effect, or a cushion against failure.</p><table><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><strong>When</strong></td><td>On your turn in a conflict scene</td></tr><tr><td><strong>Cost</strong></td><td>An action, plus 5 MP for the first Haunting, 10 for the second on the same turn, 15 for each after that</td></tr><tr><td><strong>Who you may Haunt</strong></td><td>Any creature in the scene that you have a Bond with. Never yourself</td></tr><tr><td><strong>Distance to the site</strong></td><td>Irrelevant — even when you are far away, the spirits of your Sanctuaries are always close at hand</td></tr><tr><td><strong>Limits</strong></td><td>One creature per Sanctuary at a time, and one Sanctuary per creature at a time</td></tr><tr><td><strong>How many Sanctuaries</strong></td><td>No cap. Your active Hauntings are limited by your Sanctuary count, not the reverse</td></tr><tr><td><strong>Duration</strong></td><td>Until banished, or until the effect's own text ends it. Individual Haunts name their own outs</td></tr><tr><td><strong>Banishing</strong></td><td>Free, any number, on your turn, before or after your action. It strips the benefit or drawback and frees that Sanctuary to Haunt somebody else</td></tr></tbody></table><p><strong>The escalating cost is per turn, not per scene.</strong> It resets each turn, so Hauntings spread over three turns cost 5 each rather than 5 / 10 / 15.</p><p><strong>Bond strength buys nothing directly.</strong> A Bond is a gate, not a scale: you need one to Haunt at all, and after that it is the Bond's emotional composition the Haunts read, not its strength.</p><p><strong>Sanctuaries are not bought and they do not reset.</strong> The GM sets the binding process for each site individually, and understanding the place's story is part of it. Size confers nothing.</p><p>A Soul Treasure is that creature's hoplosphere drop — one body, one clot, not a second reward off the same corpse.</p>",
+				"markdown": ""
+			},
+			"sort": 200000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000003.RCpg000000000004"
 		}
 	],
 	"folder": "RCfd000000000001",

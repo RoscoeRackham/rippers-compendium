@@ -1,10 +1,10 @@
 {
-	"name": "Traveller",
+	"name": "Unchained",
 	"_id": "RCje000000000065",
 	"pages": [
 		{
-			"_id": "RCpg000000000074",
-			"name": "Traveller",
+			"_id": "RCpg000000000078",
+			"name": "Unchained",
 			"type": "text",
 			"title": {
 				"show": true,
@@ -12,7 +12,7 @@
 			},
 			"text": {
 				"format": 1,
-				"content": "<p><em>Those well-versed in long journeys who discover hidden wonders and connect distant places.</em></p><p><strong>SKILLS</strong></p><p><strong>REFRESHING VISTA</strong> · SL max 5</p><p>Once per session when you find a hidden or forgotten location of breathtaking beauty or historical revelation that is at least 5 travel days away from the nearest populated area, choose up to (SL) benefits from among the following options. You may not choose an option more than once per use of this Skill.</p><ul><li>One character in the scene recovers all of their Hit Points.</li><li>One character in the scene recovers all of their Mind Points.</li><li>One character in the scene gains 1 Fabula Point.</li><li>One character in the scene gains (SL × 100) zenit.</li><li>This location is part of a shortcut. From now on, you may skip the first travel roll you would make after passing through this area.</li><li>One character may create a new Bond, or add or change one emotion on an existing Bond.</li></ul><p><strong>RESOURCEFUL</strong> · SL max 4</p><p>You regain (SL) Inventory Points after each travel roll (page 106).</p><p><strong>TAVERN TALK</strong> · SL max 3</p><p>When you rest inside an inn or tavern, you may ask the Game Master up to (SL) questions about your surroundings and the people who live here; the Game Master will answer truthfully and you describe how you gathered the information.</p><p><strong>TREASURE HUNTER</strong> · SL max 2</p><p>When your group journeys on the world map, you will make a discovery on a roll of (SL + 1) or lower on the travel roll (instead of only on a 1).</p><p><strong>WELL-TRAVELED</strong></p><p>You reduce the die rolled for your travel rolls by one size (to a minimum of d6). If multiple characters have this Skill, the effects are not cumulative.</p>",
+				"content": "<p><em>One who takes up every available weapon to rebel against an unjust world and strike back at its tyrants.</em></p><p><strong>SKILLS</strong></p><p><strong>FRIENDSHIPS AND ENMITIES</strong></p><p>The first time you arrive in a community (or some time before) you can confess to your companions that you've been there before, and tell them how you stood up to the local authorities. Describe an NPC who should still be indebted to you for this. The GM then chooses and expresses one additional difficulty that exists because of this: an influential local person has declared that they will take revenge on you, local people don't want to be seen or associated with you, your head is being actively searched for with a bounty at stake, one of your former contacts has been captured and may divulge things about you, and so on.</p><p><strong>SABOTEUR</strong> · SL max 3</p><p>You get a (SL) bonus to your Study or Hinder rolls and to any rolls made to sabotage machines, open locks, arm or disarm traps, or to search for loopholes in any security system.</p><p><strong>GUERILLA</strong> · SL max 5</p><p>After successfully using Study on them, you inflict (SL × 2) additional damage and ignore resistances on enemies you attack if they represent or follow an authority figure.</p><p><strong>OBSERVE</strong> · SL max 3</p><p>As a action, you can analyze an NPC's behavior and spend up to (SL × 10) MP to ask the GM one question for every 10 MP spent, among:</p><ul><li>What are they paying attention to at the moment?</li><li>What is their current state of mind?</li><li>What would it take to attract or divert their attention?</li><li>What is odd about their immediate behavior?</li><li>What would it take to get in this person's good graces in this situation?</li></ul><p><strong>UNDERGROUND NETWORK</strong> · SL max 3</p><p>When you request a place to sleep or transportation from a rebel group, you reduce the price of this service by (SL × 10) zenit per night of rest or day of travel for each person in your group. This can make the service free, but does not reduce the price below 0 zenit. In addition, the first time you ask for help from a rebel group that isn't hostile to you, you can get (SL × 4) IP to divide among the group, or a locally unsellable item worth no more than (SL × 300) zenit from them.</p><p><strong>LOCAL INFAMY</strong> · SL max 4</p><p>Travel rolls made while within 7 travel days of a town with an inn or tavern you have rested within before, or your characters Origin, require an (6 + SL) or higher to encounter a danger.</p><p><strong>MARK YOUR TERRITORY</strong></p><p>When you rest inside or near a settlement, you may spend 2 Inventory Points to tag the region. At the start of the next conflict you enter within that settlement, you may choose any number of soldier-rank humanoids you can see (the Game Master must tell you who is a valid target). They become shaken.</p>",
 				"markdown": ""
 			},
 			"sort": 100000,
@@ -21,7 +21,7 @@
 				"systemId": "projectfu",
 				"coreVersion": "13.0.0"
 			},
-			"_key": "!journal.pages!RCje000000000065.RCpg000000000074"
+			"_key": "!journal.pages!RCje000000000065.RCpg000000000078"
 		}
 	],
 	"folder": "RCfd000000000002",

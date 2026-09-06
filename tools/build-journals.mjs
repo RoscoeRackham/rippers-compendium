@@ -117,7 +117,16 @@ function mdToHtml(lines) {
 }
 
 // ---- parse the source into classes + appendix ------------------------------------------
-function isAllCaps(s) { return /[A-Z]/.test(s) && s === s.toUpperCase(); }
+// Distinguish a class-embedded SUBSYSTEM page heading from a new CLASS heading. Subsystem
+// headings LEAD with an all-caps word (MOTES, THE COOKBOOK, DELICACY EFFECT · d12,
+// HAUNTING — the clauses); class names are Title Case (Cook, Penny Knight). Keying on the
+// leading ≥2-letter word means lowercase technical tokens ("d12", "the clauses") that follow
+// it don't demote the heading back to a class (which spawned phantom classes before).
+function isAllCaps(s) {
+  const words = String(s).split(/[\s·—–\-]+/).filter((w) => /[A-Za-z]/.test(w));
+  const lead = words.find((w) => (w.match(/[A-Za-z]/g) || []).length >= 2);
+  return !!lead && /[A-Z]/.test(lead) && lead === lead.toUpperCase();
+}
 
 function parse(md) {
   const lines = md.split('\n');

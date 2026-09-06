@@ -1,10 +1,10 @@
 {
-	"name": "Unchained",
+	"name": "Unquiet",
 	"_id": "RCje000000000066",
 	"pages": [
 		{
-			"_id": "RCpg000000000075",
-			"name": "Unchained",
+			"_id": "RCpg000000000079",
+			"name": "Unquiet",
 			"type": "text",
 			"title": {
 				"show": true,
@@ -12,7 +12,7 @@
 			},
 			"text": {
 				"format": 1,
-				"content": "<p><em>One who takes up every available weapon to rebel against an unjust world and strike back at its tyrants.</em></p><p><strong>SKILLS</strong></p><p><strong>FRIENDSHIPS AND ENMITIES</strong></p><p>The first time you arrive in a community (or some time before) you can confess to your companions that you've been there before, and tell them how you stood up to the local authorities. Describe an NPC who should still be indebted to you for this. The GM then chooses and expresses one additional difficulty that exists because of this: an influential local person has declared that they will take revenge on you, local people don't want to be seen or associated with you, your head is being actively searched for with a bounty at stake, one of your former contacts has been captured and may divulge things about you, and so on.</p><p><strong>SABOTEUR</strong> · SL max 3</p><p>You get a (SL) bonus to your Study or Hinder rolls and to any rolls made to sabotage machines, open locks, arm or disarm traps, or to search for loopholes in any security system.</p><p><strong>GUERILLA</strong> · SL max 5</p><p>After successfully using Study on them, you inflict (SL × 2) additional damage and ignore resistances on enemies you attack if they represent or follow an authority figure.</p><p><strong>OBSERVE</strong> · SL max 3</p><p>As a action, you can analyze an NPC's behavior and spend up to (SL × 10) MP to ask the GM one question for every 10 MP spent, among:</p><ul><li>What are they paying attention to at the moment?</li><li>What is their current state of mind?</li><li>What would it take to attract or divert their attention?</li><li>What is odd about their immediate behavior?</li><li>What would it take to get in this person's good graces in this situation?</li></ul><p><strong>UNDERGROUND NETWORK</strong> · SL max 3</p><p>When you request a place to sleep or transportation from a rebel group, you reduce the price of this service by (SL × 10) zenit per night of rest or day of travel for each person in your group. This can make the service free, but does not reduce the price below 0 zenit. In addition, the first time you ask for help from a rebel group that isn't hostile to you, you can get (SL × 4) IP to divide among the group, or a locally unsellable item worth no more than (SL × 300) zenit from them.</p><p><strong>LOCAL INFAMY</strong> · SL max 4</p><p>Travel rolls made while within 7 travel days of a town with an inn or tavern you have rested within before, or your characters Origin, require an (6 + SL) or higher to encounter a danger.</p><p><strong>MARK YOUR TERRITORY</strong></p><p>When you rest inside or near a settlement, you may spend 2 Inventory Points to tag the region. At the start of the next conflict you enter within that settlement, you may choose any number of soldier-rank humanoids you can see (the Game Master must tell you who is a valid target). They become shaken.</p>",
+				"content": "<p><em>One who by inheritance holds back a well of dangerous power, and whom even death returns to their duty.</em></p><p><strong>SKILLS</strong></p><p><strong>BLOODSOAKED</strong> · SL max 2</p><p>Whenever an enemy creature is reduced to 0 Hit Points, you gain a stacking (SL) extra damage to your weapon attacks until the end of the scene.</p><p><strong>DEFY FATE</strong> · SL max 2</p><p>Once per scene when your Hit Points drop below half of your Crisis score for the first time, after the damage is resolved but before you would Sacrifice or Surrender, you immediately regain (SL × your level) Hit Points and half as many Mind Points.</p><p><strong>SCREAMING MUSCLE</strong> · SL max 5</p><p>You may use an action to spend 5 Mind Points and make a free attack with a heavy melee weapon you have equipped, which loses multi and cannot gain it. On a hit, deal (SL × 2) physical damage to up to one other enemy within reach of melee attacks (this amount increases by 5 if you are level 20 or higher, or by 10 if you are level 40 or higher). You may spend up to (SL × 2) additional Mind Points as part of activating this skill to inflict dazed on one target of this skill per 5 Mind Points spent.</p><p><strong>INNER FURNACE</strong></p><p>You may suffer the enraged status effect at will as a free action. Whenever you suffer the enraged status effect, you may spend 10 Mind Points. If you do, you may count your Might die as one size higher (to a maximum of d12) until you are no longer enraged.</p><p><strong>TREMENDOUS FORCE</strong> · SL max 5</p><p>Once per round when you miss an enemy with a heavy melee weapon, you may spend 10 Mind Points to make a (Might + Willpower) check with a DL equal to your previous check's result. On a success, you deal (HR + SL) physical damage to the target of the missed attack. You cannot use this skill if you fumble the initial accuracy check. You may spend a Fabula Point to use this skill again during the same round.</p><hr><hr>",
 				"markdown": ""
 			},
 			"sort": 100000,
@@ -21,7 +21,7 @@
 				"systemId": "projectfu",
 				"coreVersion": "13.0.0"
 			},
-			"_key": "!journal.pages!RCje000000000066.RCpg000000000075"
+			"_key": "!journal.pages!RCje000000000066.RCpg000000000079"
 		}
 	],
 	"folder": "RCfd000000000002",

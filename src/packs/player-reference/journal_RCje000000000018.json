@@ -3,7 +3,7 @@
 	"_id": "RCje000000000018",
 	"pages": [
 		{
-			"_id": "RCpg000000000019",
+			"_id": "RCpg000000000020",
 			"name": "Cartomancer",
 			"type": "text",
 			"title": {
@@ -21,10 +21,10 @@
 				"systemId": "projectfu",
 				"coreVersion": "13.0.0"
 			},
-			"_key": "!journal.pages!RCje000000000018.RCpg000000000019"
+			"_key": "!journal.pages!RCje000000000018.RCpg000000000020"
 		},
 		{
-			"_id": "RCpg000000000020",
+			"_id": "RCpg000000000021",
 			"name": "MANAGING THE DECK",
 			"type": "text",
 			"title": {
@@ -42,10 +42,10 @@
 				"systemId": "projectfu",
 				"coreVersion": "13.0.0"
 			},
-			"_key": "!journal.pages!RCje000000000018.RCpg000000000020"
+			"_key": "!journal.pages!RCje000000000018.RCpg000000000021"
 		},
 		{
-			"_id": "RCpg000000000021",
+			"_id": "RCpg000000000022",
 			"name": "RESOLVING A SET",
 			"type": "text",
 			"title": {
@@ -63,10 +63,10 @@
 				"systemId": "projectfu",
 				"coreVersion": "13.0.0"
 			},
-			"_key": "!journal.pages!RCje000000000018.RCpg000000000021"
+			"_key": "!journal.pages!RCje000000000018.RCpg000000000022"
 		},
 		{
-			"_id": "RCpg000000000022",
+			"_id": "RCpg000000000023",
 			"name": "CARD-SET EFFECTS",
 			"type": "text",
 			"title": {
@@ -84,7 +84,7 @@
 				"systemId": "projectfu",
 				"coreVersion": "13.0.0"
 			},
-			"_key": "!journal.pages!RCje000000000018.RCpg000000000022"
+			"_key": "!journal.pages!RCje000000000018.RCpg000000000023"
 		}
 	],
 	"folder": "RCfd000000000002",

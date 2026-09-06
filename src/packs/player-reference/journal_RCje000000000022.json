@@ -3,7 +3,7 @@
 	"_id": "RCje000000000022",
 	"pages": [
 		{
-			"_id": "RCpg000000000028",
+			"_id": "RCpg000000000029",
 			"name": "Cook",
 			"type": "text",
 			"title": {
@@ -21,10 +21,10 @@
 				"systemId": "projectfu",
 				"coreVersion": "13.0.0"
 			},
-			"_key": "!journal.pages!RCje000000000022.RCpg000000000028"
+			"_key": "!journal.pages!RCje000000000022.RCpg000000000029"
 		},
 		{
-			"_id": "RCpg000000000029",
+			"_id": "RCpg000000000030",
 			"name": "INGREDIENTS",
 			"type": "text",
 			"title": {
@@ -42,10 +42,10 @@
 				"systemId": "projectfu",
 				"coreVersion": "13.0.0"
 			},
-			"_key": "!journal.pages!RCje000000000022.RCpg000000000029"
+			"_key": "!journal.pages!RCje000000000022.RCpg000000000030"
 		},
 		{
-			"_id": "RCpg000000000030",
+			"_id": "RCpg000000000031",
 			"name": "THE COOKBOOK",
 			"type": "text",
 			"title": {
@@ -63,7 +63,49 @@
 				"systemId": "projectfu",
 				"coreVersion": "13.0.0"
 			},
-			"_key": "!journal.pages!RCje000000000022.RCpg000000000030"
+			"_key": "!journal.pages!RCje000000000022.RCpg000000000031"
+		},
+		{
+			"_id": "RCpg000000000032",
+			"name": "DELICACY EFFECT · d12",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<table><thead><tr><th>d12</th><th>Effect</th></tr></thead><tbody><tr><td>1</td><td>Each target recovers from one status of your choosing: dazed · enraged · poisoned · shaken · slow · weak</td></tr><tr><td>2</td><td>Each target suffers one of: dazed · shaken · slow · weak</td></tr><tr><td>3</td><td>Each target recovers 40 Hit Points — 50 if you are level 30 or higher</td></tr><tr><td>4</td><td>Each target recovers 40 Mind Points — 50 if you are level 30 or higher</td></tr><tr><td>5</td><td>Deal 20 damage of one chosen type: air · bolt · earth · fire · ice · poison — 30 if you are level 30 or higher</td></tr><tr><td>6</td><td>Until the end of your next turn, every source dealing one chosen type (air · bolt · earth · fire · ice · poison) deals 5 extra damage to each target</td></tr><tr><td>7</td><td>Each target cannot perform the Guard action during their next turn</td></tr><tr><td>8</td><td>Each target cannot perform the Spell action during their next turn</td></tr><tr><td>9</td><td>Each target cannot perform the Skill action during their next turn</td></tr><tr><td>10</td><td>Each target gains Resistance to one chosen type (air · bolt · earth · fire · ice · poison) until the end of your next turn</td></tr><tr><td>11</td><td>Each target treats one chosen Attribute (Dexterity · Insight · Might · Willpower) as one die size higher, to a maximum of d12, until the end of your next turn</td></tr><tr><td>12</td><td>During each target's next turn, all damage they deal becomes one chosen type (air · bolt · earth · fire · ice · poison) and its type cannot change</td></tr></tbody></table>",
+				"markdown": ""
+			},
+			"sort": 400000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000022.RCpg000000000032"
+		},
+		{
+			"_id": "RCpg000000000033",
+			"name": "SPECIAL RULES OF EFFECTS",
+			"type": "text",
+			"title": {
+				"show": true,
+				"level": 1
+			},
+			"text": {
+				"format": 1,
+				"content": "<ul><li>A delicacy has one, two or three effects — four or six with <em>All You Can Eat</em>. You choose the order, and may forgo any number of them; the choice must be identical for every target.</li><li>Effects 5 to 12 can only be applied during conflict scenes. Effects 1 to 4 work anywhere.</li><li>Only one type-5 effect (damage) per delicacy. If two or more come up, choose one and forgo the rest.</li><li>Only one type-12 effect (damage-type change) per delicacy. Same rule.</li><li>Everything else is cumulative and applies in full to each target.</li><li>Delicacies made with Cooking are immediate and then destroyed. To make food that keeps, use Projects.</li><li>You may prepare delicacies outside conflict, spending the ingredients to scout an unknown pair rather than discovering it in the middle of a fight.</li></ul><p><strong>HEROIC SKILLS</strong></p><p><strong>ALL YOU CAN EAT</strong> — <em>Requires: Cook mastery.</em></p><p>Once per scene, when you use Cooking, combine four ingredients into one delicacy, ignoring the normal limit of three. Everything else follows the normal rules.</p>",
+				"markdown": ""
+			},
+			"sort": 500000,
+			"flags": {},
+			"_stats": {
+				"systemId": "projectfu",
+				"coreVersion": "13.0.0"
+			},
+			"_key": "!journal.pages!RCje000000000022.RCpg000000000033"
 		}
 	],
 	"folder": "RCfd000000000002",

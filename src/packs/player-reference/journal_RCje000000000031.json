@@ -1,10 +1,10 @@
 {
-	"name": "Evangelist",
+	"name": "Fencer",
 	"_id": "RCje000000000031",
 	"pages": [
 		{
-			"_id": "RCpg000000000040",
-			"name": "Evangelist",
+			"_id": "RCpg000000000042",
+			"name": "Fencer",
 			"type": "text",
 			"title": {
 				"show": true,
@@ -12,7 +12,7 @@
 			},
 			"text": {
 				"format": 1,
-				"content": "<p><em>Moral crusaders driven by a heightened sense of justice and profound personal integrity.</em></p><p><strong>SKILLS</strong></p><p><strong>MORAL COMPASS</strong></p><p>Each other player can, once per game session, highlight how their character acts, speaks or reacts in a way motivated by a strong negative emotion like cowardice, cruelty, fear, egoism or despair, and gains 1 Fabula point in doing so. The GM then gains 1 Ultima point, which they can add to those possessed by the villain of their choice. You can choose instead to replace loyalty with mistrust, affection with hatred, or to remove an emotion from the bond you have with the character who has activated this power. If so, describe what your character sees as a disturbing change in that other character's behavior.</p><p><strong>ABSOLUTION</strong> · SL max 2</p><p>During a rest interlude, if you've had a conversation with someone towards whom you had an emotion of mistrust or hatred, and that emotion has disappeared or been changed, you gain (SL) Fabula points each.</p><p><strong>COMPASSION</strong> · SL max 3</p><p>When you succeed a test to fill or erase sections of a Clock by trying to appease someone's anger, fear or grief, or to force them to face up to their wrongdoing, you can spend up to (SL × 10) MP. For every 10 MP spent in this way, fill or erase an additional section of the Clock. Also fill in an additional section the first time you successfully identify the reasons behind that character's actions when using this skill.</p><p><strong>RIGHTEOUS FURY</strong> · SL max 5</p><p>When attacking an enemy, you can spend 5 MP to inflict additional light damage equal to (SL × 2) + their number of dark traits.</p><p><strong>RESOLVE</strong> · SL max 5</p><p>When an attack or spell inflicts damage to you, you can reduce it by up to (SL × the number of dark traits) of the attacker by spending the same number of MP.</p>",
+				"content": "<p><em>Fencers achieve their keen prowess through studious dedication to their craft, honing its approaches into distinct stances.</em></p><p><strong>SKILLS</strong></p><p><strong>PARRY STANCE</strong> · SL max 4</p><p>Action + 5 MP to enter. While in it, Defense and Magic Defense both become (9 + SL) — (10 + SL) at level 20+, (11 + SL) at 40+; the flat value replaces the score and nothing may be added to it. On leaving, choose one: a free attack with an equipped weapon, or a single-target spell costing (SL × 5) MP or less — High Roll treated as 0 either way.</p><p><strong>LUNGE STANCE</strong> · SL max 5</p><p>After you take damage, spend 5 MP to enter. While in it you deal (SL) extra damage from all sources — and take (SL) extra damage from all sources.</p><p><strong>VIRTUOSE STANCE</strong> · SL max 3</p><p>Begin each conflict with (SL) Tempo; +1 when an enemy misses you in Parry Stance, +1 when you deal damage in Lunge Stance. Enter at the start of your turn by spending 7 Tempo: Attribute dice one size higher (max d12) and all damage doubled before Affinities, until end of turn.</p><p><strong>EMPTY MIND</strong> · SL max 1</p><p>While in a Stance, you may Guard and spend 10 MP to exit it.</p><p><strong>FLOWING WATER</strong> · SL max 1</p><p>Spend 10 MP at the start of a conflict to enter Parry or Lunge Stance immediately. Exiting one Stance by entering another recovers you from one status effect. Triggers on the Turn when swapping in mid-conflict.</p>",
 				"markdown": ""
 			},
 			"sort": 100000,
@@ -21,7 +21,7 @@
 				"systemId": "projectfu",
 				"coreVersion": "13.0.0"
 			},
-			"_key": "!journal.pages!RCje000000000031.RCpg000000000040"
+			"_key": "!journal.pages!RCje000000000031.RCpg000000000042"
 		}
 	],
 	"folder": "RCfd000000000002",
