@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When a creature makes a Magic Check, spend a Fabula Point and choose a Bonded ally you can see: +(2 + Bond strength) Mag"
+			"value": "When a creature makes a Magic Check, spend a Fabula Point and choose a Bonded ally you can see: +(2 + Bond strength)…"
 		},
 		"description": "<p>When a creature makes a Magic Check, spend a Fabula Point and choose a Bonded ally you can see: +(2 + Bond strength) Magic Defense against it — a hit may become a miss. Once per round.</p>",
 		"class": {

@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you cast an offensive spell targeting only one creature, increase its total MP cost by 5 to calculate the target's "
+			"value": "When you cast an offensive spell targeting only one creature, increase its total MP cost by 5 to calculate the target's…"
 		},
 		"description": "<p>When you cast an offensive spell targeting only one creature, increase its total MP cost by 5 to calculate the target's base Magic Defense from Willpower instead of Insight.</p>",
 		"class": {

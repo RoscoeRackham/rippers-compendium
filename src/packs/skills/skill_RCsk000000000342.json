@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "As part of any Accuracy Check, or when invoked by Perfect Guard, spend 5 MP to swap the ranges of your equipped one-hand"
+			"value": "As part of any Accuracy Check, or when invoked by Perfect Guard, spend 5 MP to swap the ranges of your equipped…"
 		},
 		"description": "<p>As part of any Accuracy Check, or when invoked by Perfect Guard, spend 5 MP to swap the ranges of your equipped one-handed weapons (melee become thrown ranged, ranged become brawling melee); this ends on a weapon after its first use resolves. Once per round after you deal ranged damage, your next melee attack deals +(SL) damage, and vice versa.</p>",
 		"class": {

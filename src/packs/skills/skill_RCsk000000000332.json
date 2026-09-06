@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you hit with an equipped melee weapon or deal damage with an offensive spell, deal bonus damage equal to (SL x the "
+			"value": "When you hit with an equipped melee weapon or deal damage with an offensive spell, deal bonus damage equal to (SL x the…"
 		},
 		"description": "<p>When you hit with an equipped melee weapon or deal damage with an offensive spell, deal bonus damage equal to (SL x the positive emotions of one bond you possess); all the attack's damage becomes light and its type cannot be changed. That bond cannot be used again for this skill this scene, even on a miss.</p>",
 		"class": {

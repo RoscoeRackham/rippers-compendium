@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "Once per round when you miss an enemy with a heavy melee weapon (but not on a fumble), spend 10 MP to make a (Might + Wi"
+			"value": "Once per round when you miss an enemy with a heavy melee weapon (but not on a fumble), spend 10 MP to make a (Might +…"
 		},
 		"description": "<p>Once per round when you miss an enemy with a heavy melee weapon (but not on a fumble), spend 10 MP to make a (Might + Willpower) check at DL equal to your missed check's result; on success deal (HR + SL) physical damage to that target. You may spend a Fabula Point to use it again in the same round.</p>",
 		"class": {

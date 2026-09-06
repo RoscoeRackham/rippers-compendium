@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "As a free action on your turn, lose up to (10 x SL) Hit Points to fill one section of your Favour clock per 10 HP lost, "
+			"value": "As a free action on your turn, lose up to (10 x SL) Hit Points to fill one section of your Favour clock per 10 HP lost…"
 		},
 		"description": "<p>As a free action on your turn, lose up to (10 x SL) Hit Points to fill one section of your Favour clock per 10 HP lost, which may exceed its maximum. Any sections filled above the maximum are erased at end of scene.</p>",
 		"class": {

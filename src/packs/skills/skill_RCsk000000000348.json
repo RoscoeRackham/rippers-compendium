@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "Your hunted-creature list holds (SL) creature types; one slot is fixed to your home region's most common hostile type, a"
+			"value": "Your hunted-creature list holds (SL) creature types; one slot is fixed to your home region's most common hostile type…"
 		},
 		"description": "<p>Your hunted-creature list holds (SL) creature types; one slot is fixed to your home region's most common hostile type, and the rest may be swapped during a rest in a city or settlement. Resources and rewards from hunted creatures have their zenit value increased by (SL x 5) percent.</p>",
 		"class": {

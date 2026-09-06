@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "Damage you take from hunted creatures is reduced by (SL) before Affinities, or by (SL x 2) before Affinities if you are "
+			"value": "Damage you take from hunted creatures is reduced by (SL) before Affinities, or by (SL x 2) before Affinities if you are…"
 		},
 		"description": "<p>Damage you take from hunted creatures is reduced by (SL) before Affinities, or by (SL x 2) before Affinities if you are Resistant to that damage type.</p>",
 		"class": {

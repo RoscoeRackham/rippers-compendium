@@ -111,6 +111,19 @@ function strip(text) {
 
 // ---- helpers ---------------------------------------------------------------------------
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+// Item summaries show in Foundry's compact/list views. Take the first sentence; if it fits in
+// 120 characters, keep it whole; otherwise cut at the last word boundary at or before 120 and
+// mark the elision with an ellipsis — never mid-word, never silently truncated. Copy law only:
+// the full text always survives verbatim in `description`. (Coroner AUDIT-compendium-046: the
+// old `.slice(0,120)` cut 180/360 summaries mid-word.)
+function summarize(text) {
+  const first = String(text ?? '').split(/(?<=[.!?])\s/)[0] || String(text ?? '');
+  if (first.length <= 120) return first;
+  const cut = first.slice(0, 120);
+  const lastSpace = cut.lastIndexOf(' ');
+  const body = (lastSpace > 0 ? cut.slice(0, lastSpace) : cut).replace(/[\s.,;:!?—-]+$/, '');
+  return body + '…';
+}
 function id16(prefix, n) {
   const p = prefix.replace(/[^A-Za-z0-9]/g, '').slice(0, 6);
   return (p + String(n).padStart(16 - p.length, '0')).slice(0, 16);
@@ -400,7 +413,7 @@ for (const r of snap.class_skills) {
       fuid: r.skill_key,
       source: { value: `Rippers Unmasked — class_skills (${r.class_key})` },
       subtype: { value: '' },
-      summary: { value: (clean.split(/(?<=[.!?])\s/)[0] || clean).slice(0, 120) },
+      summary: { value: summarize(clean) },
       description: `<p>${esc(clean)}</p>`,
       class: { value: dispName(r.class_key) },
       level: { value: 0, min: 0, max: maxSl },
@@ -647,7 +660,7 @@ for (const sp of Object.values(spellSrc.spells ?? {})) {
     system: {
       fuid: spellKey.replace(/\//g, '-'),
       source: { value: sp.source ? `Rippers Unmasked — ${sp.source}` : 'Rippers Unmasked — spells-source' },
-      summary: { value: (strip(sp.effect).split(/(?<=[.!?])\s/)[0] || strip(sp.effect)).slice(0, 120) },
+      summary: { value: summarize(strip(sp.effect)) },
       description: `<p>${esc(strip(sp.effect))}</p>`,
       mpCost: { value: String(sp.mpCost?.value ?? '') },
       target: { value: String(sp.target?.value ?? '') },

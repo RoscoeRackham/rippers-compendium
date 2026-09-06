@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When your spell damages one or more enemies, spend 1 Grave Point and choose one: pick a damaged enemy — the spell deals "
+			"value": "When your spell damages one or more enemies, spend 1 Grave Point and choose one: pick a damaged enemy — the spell deals…"
 		},
 		"description": "<p>When your spell damages one or more enemies, spend 1 Grave Point and choose one: pick a damaged enemy — the spell deals extra damage to each damaged enemy equal to (SL + that enemy's status count); or every damaged enemy suffers shaken after the spell resolves.</p>",
 		"class": {

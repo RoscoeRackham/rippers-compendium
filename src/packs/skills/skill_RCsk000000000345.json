@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When targeted by an attack, gain +(1 + half SL) Defense (not stacking with shields or armor) as long as you have an equi"
+			"value": "When targeted by an attack, gain +(1 + half SL) Defense (not stacking with shields or armor) as long as you have an…"
 		},
 		"description": "<p>When targeted by an attack, gain +(1 + half SL) Defense (not stacking with shields or armor) as long as you have an equipped weapon whose range is opposite the attack's; this can be modified via Dual Martialism, treated as a check, by paying its MP.</p>",
 		"class": {

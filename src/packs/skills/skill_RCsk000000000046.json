@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you or an ally spends or loses HP to one of your Skills or spells, reduce the amount by (SL × 2), to a minimum of h"
+			"value": "When you or an ally spends or loses HP to one of your Skills or spells, reduce the amount by (SL × 2), to a minimum of…"
 		},
 		"description": "<p>When you or an ally spends or loses HP to one of your Skills or spells, reduce the amount by (SL × 2), to a minimum of half — then they shake one status effect or end one Scene-duration spell on them. Also +(SL) to butchering, surgery and wound-treatment Checks (never against Defense or Magic Defense).</p>",
 		"class": {

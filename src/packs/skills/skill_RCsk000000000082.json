@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you pick up a package, spend 1 Fabula Point to declare it rare equipment you can equip, chosen by the GM, worth up "
+			"value": "When you pick up a package, spend 1 Fabula Point to declare it rare equipment you can equip, chosen by the GM, worth up…"
 		},
 		"description": "<p>When you pick up a package, spend 1 Fabula Point to declare it rare equipment you can equip, chosen by the GM, worth up to ((level + SL) × 50) zenit. Only you may equip it; one package at a time; the loan ends on delivery. Never a hoplosphere or sphere-bearing gear.</p>",
 		"class": {

@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "While an allied creature shares a status effect with you, it gains a bonus to all Accuracy and Open Checks affected by t"
+			"value": "While an allied creature shares a status effect with you, it gains a bonus to all Accuracy and Open Checks affected by…"
 		},
 		"description": "<p>While an allied creature shares a status effect with you, it gains a bonus to all Accuracy and Open Checks affected by that shared status equal to your bond Strength toward it. Only one ally benefits at a time, chosen at the end of your turn.</p>",
 		"class": {

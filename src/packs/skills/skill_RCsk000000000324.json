@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you attack with a ranged weapon, you may replace up to one die in its Accuracy Check with (MIG); if you do, the att"
+			"value": "When you attack with a ranged weapon, you may replace up to one die in its Accuracy Check with (MIG); if you do, the…"
 		},
 		"description": "<p>When you attack with a ranged weapon, you may replace up to one die in its Accuracy Check with (MIG); if you do, the attack gains (SL) bonus damage but you suffer weak or slow until the end of your next turn, ignoring immunities.</p>",
 		"class": {

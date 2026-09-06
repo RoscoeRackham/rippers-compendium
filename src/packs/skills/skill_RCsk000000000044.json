@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When a permitted-Species creature you can see falls to 0 HP, spend a quarter of your max HP: the GM reveals its abilitie"
+			"value": "When a permitted-Species creature you can see falls to 0 HP, spend a quarter of your max HP: the GM reveals its…"
 		},
 		"description": "<p>When a permitted-Species creature you can see falls to 0 HP, spend a quarter of your max HP: the GM reveals its abilities and you install one as an implant. Up to (SL) implants, at most three internal; your prosthetic implants deal (SL × 2) extra damage, capped at 6.</p>",
 		"class": {

@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "Action: one Afflicted target immediately takes 10 damage per type in its Affliction, or any number of Regenerating creat"
+			"value": "Action: one Afflicted target immediately takes 10 damage per type in its Affliction, or any number of Regenerating…"
 		},
 		"description": "<p>Action: one Afflicted target immediately takes 10 damage per type in its Affliction, or any number of Regenerating creatures immediately recover 10 HP. Neither consumes the condition.</p>",
 		"class": {

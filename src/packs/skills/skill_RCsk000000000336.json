@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you make an Accuracy Check with a melee weapon, replace one die with (WLP); if your WLP roll is higher than the tar"
+			"value": "When you make an Accuracy Check with a melee weapon, replace one die with (WLP); if your WLP roll is higher than the…"
 		},
 		"description": "<p>When you make an Accuracy Check with a melee weapon, replace one die with (WLP); if your WLP roll is higher than the target's, gain +(SL) to the Accuracy Check. Applies to multi-hit and multi-target attacks.</p>",
 		"class": {

@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "Casting an Instantaneous spell with an arcane weapon equipped: raise its cost by up to (SL × 10) MP for +5 damage per ex"
+			"value": "Casting an Instantaneous spell with an arcane weapon equipped: raise its cost by up to (SL × 10) MP for +5 damage per…"
 		},
 		"description": "<p>Casting an Instantaneous spell with an arcane weapon equipped: raise its cost by up to (SL × 10) MP for +5 damage per extra 10 MP.</p>",
 		"class": {

@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "(Requires Letter of the Law) A law-breaker receives a citation once the break resolves: the next damage they take is inc"
+			"value": "(Requires Letter of the Law) A law-breaker receives a citation once the break resolves: the next damage they take is…"
 		},
 		"description": "<p>(Requires Letter of the Law) A law-breaker receives a citation once the break resolves: the next damage they take is increased by (SL × 2) — (SL × 5) if that damage came from breaking another law — then the citation is removed. Cited damage ignores Resistances, as printed. All citations clear at scene's end.</p>",
 		"class": {

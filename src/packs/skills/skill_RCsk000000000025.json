@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "At session start, roll your INS die (SL) times and bank the results; when another creature you can see performs a Check,"
+			"value": "At session start, roll your INS die (SL) times and bank the results; when another creature you can see performs a…"
 		},
 		"description": "<p>At session start, roll your INS die (SL) times and bank the results; when another creature you can see performs a Check, replace one of its dice with an unused banked value. Extra dice cost 500z, or no armour/shields this session, or erasing one emotion from a Bond — each option once.</p>",
 		"class": {

@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you make a melee attack with multi (2) or higher, spend 5 MP to designate up to half those hits (rounded up) to use"
+			"value": "When you make a melee attack with multi (2) or higher, spend 5 MP to designate up to half those hits (rounded up) to…"
 		},
 		"description": "<p>When you make a melee attack with multi (2) or higher, spend 5 MP to designate up to half those hits (rounded up) to use an equipped ranged weapon instead, and vice versa, keeping the original weapon's accuracy formula.</p>",
 		"class": {

@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "Declare an action and a trigger condition; when the trigger occurs, perform it immediately, resolving before the trigger"
+			"value": "Declare an action and a trigger condition; when the trigger occurs, perform it immediately, resolving before the…"
 		},
 		"description": "<p>Declare an action and a trigger condition; when the trigger occurs, perform it immediately, resolving before the triggering action completes. +(SL) to related Checks. The declaration is lost when your next turn starts.</p>",
 		"class": {

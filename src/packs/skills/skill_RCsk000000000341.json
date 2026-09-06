@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you use False Face targeting a non-ally, raise its total MP cost by up to (SL x 10) to spawn one additional illusio"
+			"value": "When you use False Face targeting a non-ally, raise its total MP cost by up to (SL x 10) to spawn one additional…"
 		},
 		"description": "<p>When you use False Face targeting a non-ally, raise its total MP cost by up to (SL x 10) to spawn one additional illusion per 10 MP. An enemy attacking may make a (WLP + INS) Opposed Check against you; on success it picks one identical target at random, otherwise it hits and destroys an illusion for no damage.</p>",
 		"class": {

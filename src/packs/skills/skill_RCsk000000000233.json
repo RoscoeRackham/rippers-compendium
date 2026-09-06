@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you hit a creature, spend 10 MP and choose one of its basic attacks or spells: until the start of your next turn it"
+			"value": "When you hit a creature, spend 10 MP and choose one of its basic attacks or spells: until the start of your next turn…"
 		},
 		"description": "<p>When you hit a creature, spend 10 MP and choose one of its basic attacks or spells: until the start of your next turn it deals (SL × 2) less damage with that action.</p>",
 		"class": {

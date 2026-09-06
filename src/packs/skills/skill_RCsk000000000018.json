@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you summon an Arcanum during your turn, choose up to two options: reduce its MP cost by (SL × 5); and/or after summ"
+			"value": "When you summon an Arcanum during your turn, choose up to two options: reduce its MP cost by (SL × 5); and/or after…"
 		},
 		"description": "<p>When you summon an Arcanum during your turn, choose up to two options: reduce its MP cost by (SL × 5); and/or after summoning, if merged, perform its pulse. If you choose at least one option, you cannot willingly dismiss that Arcanum until the start of your next turn; if you choose both, that Arcanum's dismiss effect is unavailable during this summoning.</p>",
 		"class": {

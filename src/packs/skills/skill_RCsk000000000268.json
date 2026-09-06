@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "Once per scene, when a friendly PC completes a Clock with a successful Check or an elite-or-higher enemy first enters Cr"
+			"value": "Once per scene, when a friendly PC completes a Clock with a successful Check or an elite-or-higher enemy first enters…"
 		},
 		"description": "<p>Once per scene, when a friendly PC completes a Clock with a successful Check or an elite-or-higher enemy first enters Crisis, choose one: every friendly PC recovers (SL × 4) HP or MP, each choosing which (SL × 6 at level 40+); every friendly PC recovers from up to (SL) statuses; or the triggering character gains +(SL) to their next Check.</p>",
 		"class": {

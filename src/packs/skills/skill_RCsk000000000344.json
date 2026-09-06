@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "Once per round when you or an ally is hit by an enemy attack, spend 10 MP to parry with a weapon whose range is opposite"
+			"value": "Once per round when you or an ally is hit by an enemy attack, spend 10 MP to parry with a weapon whose range is…"
 		},
 		"description": "<p>Once per round when you or an ally is hit by an enemy attack, spend 10 MP to parry with a weapon whose range is opposite the attack's; the attack becomes an Opposed Check using the enemy's roll versus your weapon's accuracy formula. On success, choose: the attack deals (SL x 3) less damage before Affinities, or the enemy suffers slow (ignoring immunities). On a critical, choose both.</p>",
 		"class": {

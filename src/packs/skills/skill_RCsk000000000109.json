@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "Destroy an item worth 100z+ that you own (never an IP-crafted one) to regain (value ÷ 100) IP, +1 IP if it cost at most "
+			"value": "Destroy an item worth 100z+ that you own (never an IP-crafted one) to regain (value ÷ 100) IP, +1 IP if it cost at most…"
 		},
 		"description": "<p>Destroy an item worth 100z+ that you own (never an IP-crafted one) to regain (value ÷ 100) IP, +1 IP if it cost at most (SL × 200)z. In conflict this rides an Inventory action.</p>",
 		"class": {

@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you or an ally fails a Ritual of any discipline within your Patron's domains, erase up to (SL x 2) Favour sections "
+			"value": "When you or an ally fails a Ritual of any discipline within your Patron's domains, erase up to (SL x 2) Favour sections…"
 		},
 		"description": "<p>When you or an ally fails a Ritual of any discipline within your Patron's domains, erase up to (SL x 2) Favour sections to add a bonus to that Ritual's Magic Check equal to the number of sections erased, potentially turning the failure into a success.</p>",
 		"class": {

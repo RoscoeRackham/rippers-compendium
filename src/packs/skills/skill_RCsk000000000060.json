@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "With an arcane weapon equipped, when you cast a spell targeting allies, each may also recover up to (SL × your Bonds) MP"
+			"value": "With an arcane weapon equipped, when you cast a spell targeting allies, each may also recover up to (SL × your Bonds)…"
 		},
 		"description": "<p>With an arcane weapon equipped, when you cast a spell targeting allies, each may also recover up to (SL × your Bonds) MP. The Bond multiplier is capped at 3.</p>",
 		"class": {

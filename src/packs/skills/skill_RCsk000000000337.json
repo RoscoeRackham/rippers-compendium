@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "As a free action, spend up to (SL x 10) MP to become a visual duplicate of any creature for (1 + 1 per 10 MP spent) roun"
+			"value": "As a free action, spend up to (SL x 10) MP to become a visual duplicate of any creature for (1 + 1 per 10 MP spent)…"
 		},
 		"description": "<p>As a free action, spend up to (SL x 10) MP to become a visual duplicate of any creature for (1 + 1 per 10 MP spent) rounds. Anyone attacking a creature identical to you must randomly choose among all such identical creatures except itself. You may reveal yourself as a free action to end the effect.</p>",
 		"class": {

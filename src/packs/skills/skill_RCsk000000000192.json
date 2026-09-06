@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "On a damaging melee hit, trade all its damage for one option: dazed on each target; weak on each target; or each target "
+			"value": "On a damaging melee hit, trade all its damage for one option: dazed on each target; weak on each target; or each target…"
 		},
 		"description": "<p>On a damaging melee hit, trade all its damage for one option: dazed on each target; weak on each target; or each target loses (SL × 10) MP.</p>",
 		"class": {

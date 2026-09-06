@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you successfully activate Riposte with a melee weapon, your next ranged weapon attack gains +(SL) Accuracy, and vic"
+			"value": "When you successfully activate Riposte with a melee weapon, your next ranged weapon attack gains +(SL) Accuracy, and…"
 		},
 		"description": "<p>When you successfully activate Riposte with a melee weapon, your next ranged weapon attack gains +(SL) Accuracy, and vice versa when you activate Riposte with a ranged weapon.</p>",
 		"class": {

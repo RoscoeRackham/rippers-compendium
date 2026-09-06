@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "After you hit an enemy with a ranged attack, spend 10 MP to deal no damage and delay it, choosing: the next time you or "
+			"value": "After you hit an enemy with a ranged attack, spend 10 MP to deal no damage and delay it, choosing: the next time you or…"
 		},
 		"description": "<p>After you hit an enemy with a ranged attack, spend 10 MP to deal no damage and delay it, choosing: the next time you or an ally hits that enemy, add (SL + delayed damage) bonus damage; or deal (SL + delayed damage) fire damage to it at the start of a chosen creature's turn; or deal that fire damage to it at the end of the round.</p>",
 		"class": {

@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you make a ranged attack with multi (2) or higher against more than one enemy, spend 5 MP to have each hit target a"
+			"value": "When you make a ranged attack with multi (2) or higher against more than one enemy, spend 5 MP to have each hit target…"
 		},
 		"description": "<p>When you make a ranged attack with multi (2) or higher against more than one enemy, spend 5 MP to have each hit target a random enemy (which may repeat the same enemy), increasing the attack's multi by 1.</p>",
 		"class": {

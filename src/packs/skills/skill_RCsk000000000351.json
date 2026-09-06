@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you reduce a creature to 0 Hit Points or force it to retreat, you always instantly receive a forageable or harvesta"
+			"value": "When you reduce a creature to 0 Hit Points or force it to retreat, you always instantly receive a forageable or…"
 		},
 		"description": "<p>When you reduce a creature to 0 Hit Points or force it to retreat, you always instantly receive a forageable or harvestable material from it worth (SL x enemy level x 2), regardless of how it died or escaped. You may combine two raw materials harvested from hunted creatures into one item of their summed value during a rest or camp.</p>",
 		"class": {

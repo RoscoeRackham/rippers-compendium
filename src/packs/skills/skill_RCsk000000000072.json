@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "Spend 2 IP and choose the target, then roll 1d4: 1 — recover (SL × 10) HP and MP; 2 — recover from all status effects an"
+			"value": "Spend 2 IP and choose the target, then roll 1d4: 1 — recover (SL × 10) HP and MP; 2 — recover from all status effects…"
 		},
 		"description": "<p>Spend 2 IP and choose the target, then roll 1d4: 1 — recover (SL × 10) HP and MP; 2 — recover from all status effects and gain 1 IP; 3 — (SL × 10) poison damage; 4 — inflict poisoned and enraged.</p>",
 		"class": {

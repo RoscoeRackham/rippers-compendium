@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "Single-target offensive spells costing (SL × 20) MP or less may roll the Magic Check on an equipped non-arcane weapon's "
+			"value": "Single-target offensive spells costing (SL × 20) MP or less may roll the Magic Check on an equipped non-arcane weapon's…"
 		},
 		"description": "<p>Single-target offensive spells costing (SL × 20) MP or less may roll the Magic Check on an equipped non-arcane weapon's Accuracy formula, +(SL) if that formula uses Dexterity.</p>",
 		"class": {

@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you damage a creature that actively serves an authority figure (a constable, a Foundry enforcer, a noble's bodyguar"
+			"value": "When you damage a creature that actively serves an authority figure (a constable, a Foundry enforcer, a noble's…"
 		},
 		"description": "<p>When you damage a creature that actively serves an authority figure (a constable, a Foundry enforcer, a noble's bodyguard), deal +(SL × 3) bonus typeless damage and ignore Resistances on that attack.</p>",
 		"class": {

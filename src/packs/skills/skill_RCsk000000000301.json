@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "Reaction: when you or an adjacent ally would take damage from a target with at least one dark-trait marker, spend up to "
+			"value": "Reaction: when you or an adjacent ally would take damage from a target with at least one dark-trait marker, spend up to…"
 		},
 		"description": "<p>Reaction: when you or an adjacent ally would take damage from a target with at least one dark-trait marker, spend up to 10 MP. Reduce the damage by (MP spent × SL ÷ 2, rounded down).</p>",
 		"class": {

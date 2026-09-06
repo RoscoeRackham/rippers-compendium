@@ -12,7 +12,7 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "On a damaging ranged hit, trade all its damage for one option: shaken on each target; slow on each target; or each targe"
+			"value": "On a damaging ranged hit, trade all its damage for one option: shaken on each target; slow on each target; or each…"
 		},
 		"description": "<p>On a damaging ranged hit, trade all its damage for one option: shaken on each target; slow on each target; or each target loses (SL × 10) MP.</p>",
 		"class": {
