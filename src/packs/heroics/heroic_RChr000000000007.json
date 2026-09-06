@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Arcanist or Guardian mastery"
 		},
-		"description": "<p>Once per scene, when you and/or one or more allies you can see are reduced to 0 Hit Points, if you are <strong>merged</strong> with an Arcanum, you may instead be reduced to exactly 1 Hit Point. If you do, you must immediately <strong>dismiss</strong> that Arcanum (without applying any dismiss effect), and cannot summon them again until the end of the scene.</p><hr /><p><strong>You Receive:</strong> @GAIN[1 hp]</p>",
+		"description": "<p>Once per scene, when you and/or one or more allies you can see are reduced to 0 Hit Points, if you are <strong>merged</strong> with an Arcanum, you may instead be reduced to exactly 1 Hit Point. If you do, you must immediately <strong>dismiss</strong> that Arcanum (without applying any dismiss effect), and cannot summon them again until the end of the scene.</p><hr><p><strong>You Receive:</strong> 1 HP</p>",
 		"hasRoll": {
 			"value": false
 		}

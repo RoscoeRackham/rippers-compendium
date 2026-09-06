@@ -207,7 +207,7 @@
       },
       "effect": "You imbue a weapon with elemental energy. Choose a damage type: air, bolt, earth, fire, or ice. Until this spell ends, all damage dealt by the weapon becomes of the chosen damage type. If you have that weapon equipped while you cast this spell, you may perform a free attack with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature.",
       "source": "Core Rulebook v1.1 (Elemental Weapon)",
-      "effectHtml": "<p>You imbue a weapon with elemental energy. Choose a damage type: <strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>. Until this spell ends, all damage dealt by the weapon becomes of the chosen damage type. If you have that weapon equipped while you cast this spell, you may perform a <strong>free attack</strong> with it as part of the same action.</p><p>This spell can only be cast on a weapon equipped by a willing creature.</p><hr /><p><strong>Targets Receive:</strong> @WEAPON[air bolt earth fire ice]{Elemental Weapon}</p>"
+      "effectHtml": "<p>You imbue a weapon with elemental energy. Choose a damage type: <strong>air</strong>, <strong>bolt</strong>, <strong>earth</strong>, <strong>fire</strong>, or <strong>ice</strong>. Until this spell ends, all damage dealt by the weapon becomes of the chosen damage type. If you have that weapon equipped while you cast this spell, you may perform a <strong>free attack</strong> with it as part of the same action.</p><p>This spell can only be cast on a weapon equipped by a willing creature.</p><hr /><p><strong>Targets Receive:</strong> air, bolt, earth, fire, ice{Elemental Weapon}</p>"
     },
     {
       "spell_key": "elementalism/ballistic-extension",
@@ -257,7 +257,7 @@
       "opportunity": "each target hit by this spell suffers dazed",
       "effect": "You weave electricity into a wave of crackling bolts. You deal (HR + 15) bolt damage to each target hit by this spell. Opportunity: each target hit by this spell suffers dazed.",
       "source": "Core Rulebook v1.1",
-      "effectHtml": "<p>You weave electricity into a wave of crackling bolts. You deal <strong>【HR + 15】 bolt</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[dazed].</p>"
+      "effectHtml": "<p>You weave electricity into a wave of crackling bolts. You deal <strong>【HR + 15】 bolt</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers dazed.</p>"
     },
     {
       "spell_key": "elementalism/glacies",
@@ -284,7 +284,7 @@
       "opportunity": "each target hit by this spell suffers slow",
       "effect": "You coat your foes under a thick layer of frost. You deal (HR + 15) ice damage to each target hit by this spell. Opportunity: each target hit by this spell suffers slow.",
       "source": "Core Rulebook v1.1",
-      "effectHtml": "<p>You coat your foes under a thick layer of frost. You deal <strong>【HR + 15】 ice</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[slow].</p>"
+      "effectHtml": "<p>You coat your foes under a thick layer of frost. You deal <strong>【HR + 15】 ice</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers slow.</p>"
     },
     {
       "spell_key": "elementalism/ignis",
@@ -311,7 +311,7 @@
       "opportunity": "each target hit by this spell suffers shaken",
       "effect": "You unleash a searing barrage against your foes, conjuring flames out of thin air. You deal (HR + 15) fire damage to each target hit by this spell. Opportunity: each target hit by this spell suffers shaken.",
       "source": "Core Rulebook v1.1",
-      "effectHtml": "<p>You unleash a searing barrage against your foes, conjuring flames out of thin air. You deal <strong>【HR + 15】 fire</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[shaken].</p>"
+      "effectHtml": "<p>You unleash a searing barrage against your foes, conjuring flames out of thin air. You deal <strong>【HR + 15】 fire</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers shaken.</p>"
     },
     {
       "spell_key": "elementalism/terra",
@@ -577,7 +577,7 @@
       },
       "effect": "You imbue a weapon with dark energy. Until this spell ends, all damage dealt by the weapon becomes dark. If you have that weapon equipped while you cast this spell, you may perform a free attack with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature.",
       "source": "Core Rulebook v1.1 (Dark Weapon)",
-      "effectHtml": "<p>You imbue a weapon with dark energy. Until this spell ends, all damage dealt by the weapon becomes of the <strong>dark</strong> type. If you have that weapon equipped while you cast this spell, you may perform a <strong>free attack</strong> with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature.</p><hr /><p><strong>Target Receive:</strong> @WEAPON[dark]{Dark Weapon}</p>"
+      "effectHtml": "<p>You imbue a weapon with dark energy. Until this spell ends, all damage dealt by the weapon becomes of the <strong>dark</strong> type. If you have that weapon equipped while you cast this spell, you may perform a <strong>free attack</strong> with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature.</p><hr /><p><strong>Target Receive:</strong> dark{Dark Weapon}</p>"
     },
     {
       "spell_key": "entropism/psychical-depletion",
@@ -695,7 +695,7 @@
       },
       "effect": "You twist the laws of magic. Until this spell ends, when the target is targeted by an offensive spell (O), the creature that cast that offensive spell will be targeted in their stead (any other targets of the offensive spell will be targeted as normal). Once that happens, this spell ends.",
       "source": "Core Rulebook v1.1 (Mirror)",
-      "effectHtml": "<p>You twist the laws of magic. Until this spell ends, when the target is targeted by an offensive spell (@ICON[offensive]), the creature that cast that offensive spell will be targeted in their stead (any other targets of the offensive spell will be targeted as normal). Once that happens, this spell ends.</p>"
+      "effectHtml": "<p>You twist the laws of magic. Until this spell ends, when the target is targeted by an offensive spell (), the creature that cast that offensive spell will be targeted in their stead (any other targets of the offensive spell will be targeted as normal). Once that happens, this spell ends.</p>"
     },
     {
       "spell_key": "entropism/temporal-arrest",
@@ -745,7 +745,7 @@
       "opportunity": "each target hit by this spell suffers weak",
       "effect": "A storm of dark energy turns matter into ash. You deal (HR + 15) dark damage to each target hit by this spell. Opportunity: each target hit by this spell suffers weak.",
       "source": "Core Rulebook v1.1 (Umbra)",
-      "effectHtml": "<p>A storm of dark energy turns matter into ash. You deal <strong>【HR + 15】 dark</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[weak].</p>"
+      "effectHtml": "<p>A storm of dark energy turns matter into ash. You deal <strong>【HR + 15】 dark</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers weak.</p>"
     },
     {
       "spell_key": "entropism/mortal-abatement",
@@ -768,8 +768,7 @@
         "_note": "Untyped HP loss, not damage: target loses (20 + half their level) HP."
       },
       "effect": "You invoke doom on your foe, turning strength into frailty. The target loses an amount of Hit Points equal to (20 + half their level).",
-      "source": "Core Rulebook v1.1 (Omega)",
-      "effectHtml": "<p>You invoke doom on your foe, turning strength into frailty. The target loses an amount of Hit Points equal to <strong>【20 + half the target's level】</strong>.</p><hr /><p><strong>Target Loses:</strong> @LOSS[20+floor(@target.level.value/2) hp]{20 + Half Level HP}</p>"
+      "source": "Core Rulebook v1.1 (Omega)"
     },
     {
       "spell_key": "entropism/kinetic-augmentation",
@@ -869,7 +868,7 @@
       },
       "effect": "You rip open a large portal to the Cosmos, calling down astral debris from the gaping void. Choose one option: you deal 60 damage to one enemy you can see; or you deal 40 damage to every enemy you can see. These amounts increase by 5 if you are level 20 or higher, or by 10 if you are level 40 or higher. Damage dealt by this spell has no type (thus being unaffected by damage Affinities).",
       "source": "Core Rulebook v1.1 (Comet)",
-      "effectHtml": "<p><strong>Required Heroic Skill:</strong> Comet</p><hr /><p>You rip open a large portal to the Cosmos, calling down astral debris from the gaping void. Choose one option:</p><ul><li><p>You deal 60 damage to one creature you can see.</p></li><li><p>You deal 40 damage to every enemy you can see.</p></li></ul><p>These amounts increase by 5 if you are <strong>level 20 or higher</strong>, or by 10 if you are <strong>level 40 or higher</strong>.</p><p>Damage dealt by this spell has no type (thus being unaffected by damage Affinities).</p>"
+      "effectHtml": "<p><strong>Requirements:</strong> you must have mastered the <strong>Entropist</strong> Class.</p><hr /><p>You learn the ultimate <strong>Entropist</strong> spell: <strong>Comet</strong>.</p><table style=\"width:93.4884%\" border=\"1\"><tbody><tr><td style=\"text-align:center;width:16%\"><p><strong>Comet</strong></p></td><td style=\"text-align:center;width:18%\"><p><strong>MP:</strong> 50</p></td><td style=\"text-align:center;width:32%\"><p><strong>Target:</strong> Special</p></td><td style=\"text-align:center;width:32%\"><p><strong>Duration:</strong> Instantaneous</p></td></tr></tbody></table><p>You rip open a large portal to the Cosmos, calling down astral debris from the gaping void. Choose one option:</p><ul><li><p>You deal 60 damage to one creature you can see.</p></li><li><p>You deal 40 damage to every enemy you can see.</p></li></ul><p>These amounts increase by 5 if you are <strong>level 20 or higher</strong>, or by 10 if you are <strong>level 40 or higher</strong>.</p><p>Damage dealt by this spell has no type (thus being unaffected by damage Affinities).</p><hr /><p>Add the Comet spell to your character sheet.</p>"
     },
     {
       "spell_key": "illusion/the-creeps",
@@ -1998,7 +1997,7 @@
       "opportunity": "each target hit by this spell suffers dazed",
       "effect": "You focus your inner energy into a barrage of blinding soul rays. You deal (HR + 15) light damage to each target hit by this spell. Opportunity: each target hit by this spell suffers dazed.",
       "source": "Core Rulebook v1.1 (Lux)",
-      "effectHtml": "<p>You focus your inner energy into a barrage of blinding soul rays. You deal <strong>【HR + 15】</strong> <strong>light</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[dazed].</p>"
+      "effectHtml": "<p>You focus your inner energy into a barrage of blinding soul rays. You deal <strong>【HR + 15】</strong> <strong>light</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers dazed.</p>"
     },
     {
       "spell_key": "spiritism/aldworths-compress",
@@ -2092,7 +2091,7 @@
       },
       "effect": "You imbue a weapon with the cleansing energy of your spirit. Until this spell ends, all damage dealt by the weapon becomes light. If you have that weapon equipped while you cast this spell, you may perform a free attack with it as part of the same action. This spell can only be cast on a weapon equipped by a willing creature.",
       "source": "Core Rulebook v1.1 (Soul Weapon)",
-      "effectHtml": "<p>You imbue a weapon with the cleansing energy of your spirit. Until this spell ends, all damage dealt by the weapon becomes of the <strong>light</strong> type. If you have that weapon equipped while you cast this spell, you may perform a <strong>free attack</strong> with it as part of the same action.</p><p>This spell can only be cast on a weapon equipped by a willing creature.</p><hr /><p><strong>Target Receives:</strong> @WEAPON[light]{Soul Weapon}</p>"
+      "effectHtml": "<p>You imbue a weapon with the cleansing energy of your spirit. Until this spell ends, all damage dealt by the weapon becomes of the <strong>light</strong> type. If you have that weapon equipped while you cast this spell, you may perform a <strong>free attack</strong> with it as part of the same action.</p><p>This spell can only be cast on a weapon equipped by a willing creature.</p><hr /><p><strong>Target Receives:</strong> light{Soul Weapon}</p>"
     },
     {
       "spell_key": "spiritism/attenuative-draught",
@@ -2143,7 +2142,7 @@
       "flags": [
         "Heroic-skill spell (part of the HOPE heroic), not a Spiritual-Magic learnable spell — placement is Compiler/Austin's call."
       ],
-      "effectHtml": "<p><strong>Required Heroic Skill:</strong> Hope</p><hr /><p>You rekindle the flames of courage and hope within a defeated hero. Choose a Player Character who <strong>surrendered</strong> but is still present on the scene: that Player Character immediately regains consciousness and recovers an amount of Hit Points equal to their <strong>Crisis</strong> score. Note that this spell will not undo the <strong>consequences</strong> of the character's surrender and is of no use if the character left the scene as part of their surrender — such as if they were captured and dragged away, or if they were trapped in a parallel dimension, and so on.</p><p>A Player Character may only be affected by this spell once per scene; if a character is brought back into the conflict by this spell and is subsequently reduced to 0 Hit Points again, they must <strong>sacrifice</strong> themselves or <strong>surrender</strong> as per the normal rules (including a new <strong>consequence</strong> and 2 more Fabula Points if they surrender).</p><hr /><p><strong>Target Recovers:</strong> @GAIN[@target.resources.hp.max/2 hp]{Crisis HP}</p>"
+      "effectHtml": "<p><strong>Requirements:</strong> you must have mastered the <strong>Spiritist</strong> Class.</p><hr /><p>You learn the ultimate <strong>Spiritist</strong> spell: <strong>Hope</strong>.</p><table style=\"width:93.4884%\" border=\"1\"><tbody><tr><td style=\"text-align:center;width:16%\"><p><strong>Hope</strong></p></td><td style=\"text-align:center;width:18%\"><p><strong>MP:</strong> 40</p></td><td style=\"text-align:center;width:32%\"><p><strong>Target:</strong> Special</p></td><td style=\"text-align:center;width:32%\"><p><strong>Duration:</strong> Instantaneous</p></td></tr></tbody></table><p>You rekindle the flames of courage and hope within a defeated hero. Choose a Player Character who <strong>surrendered</strong> but is still present on the scene: that Player Character immediately regains consciousness and recovers an amount of Hit Points equal to their <strong>Crisis</strong> score. Note that this spell will not undo the <strong>consequences</strong> of the character's surrender and is of no use if the character left the scene as part of their surrender — such as if they were captured and dragged away, or if they were trapped in a parallel dimension, and so on.</p><p>A Player Character may only be affected by this spell once per scene; if a character is brought back into the conflict by this spell and is subsequently reduced to 0 Hit Points again, they must <strong>sacrifice</strong> themselves or <strong>surrender</strong> as per the normal rules (including a new <strong>consequence</strong> and 2 more Fabula Points if they surrender).</p><hr /><p>Add the Hope spell to your character sheet.</p>"
     },
     {
       "spell_key": "spiritism/antiphonal-relief",

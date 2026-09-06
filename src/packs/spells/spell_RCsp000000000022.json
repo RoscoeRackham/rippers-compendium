@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You twist the laws of magic."
 		},
-		"description": "<p>You twist the laws of magic. Until this spell ends, when the target is targeted by an offensive spell (@ICON[offensive]), the creature that cast that offensive spell will be targeted in their stead (any other targets of the offensive spell will be targeted as normal). Once that happens, this spell ends.</p>",
+		"description": "<p>You twist the laws of magic. Until this spell ends, when the target is targeted by an offensive spell (), the creature that cast that offensive spell will be targeted in their stead (any other targets of the offensive spell will be targeted as normal). Once that happens, this spell ends.</p>",
 		"mpCost": {
 			"value": "10"
 		},

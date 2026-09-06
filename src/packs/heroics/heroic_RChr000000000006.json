@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Symbolist, Sharpshooter or Prizefighter (Weaponmaster) mastery"
 		},
-		"description": "<p>When you hit one or more creatures with an attack using a weapon that belongs to the <strong>arcane</strong> Category, the attack deals 5 extra damage and you may choose one of those creatures. If the next offensive spell (@ICON[offensive]) you cast during this scene <strong>only</strong> targets the chosen creature, its Magic Check will trigger a <strong>critical success</strong> if both dice show the same number (and the Check is not a <strong>fumble</strong>).</p>",
+		"description": "<p>When you hit one or more creatures with an attack using a weapon that belongs to the <strong>arcane</strong> Category, the attack deals 5 extra damage and you may choose one of those creatures. If the next offensive spell () you cast during this scene <strong>only</strong> targets the chosen creature, its Magic Check will trigger a <strong>critical success</strong> if both dice show the same number (and the Check is not a <strong>fumble</strong>).</p>",
 		"hasRoll": {
 			"value": false
 		}

@@ -529,7 +529,8 @@
       "display_name": "Bind and Summon",
       "max_sl": 1,
       "summary": "Bind Arcana to your soul as the story grants them. Action + 30 MP summons a bound Arcanum and merges you with it — merge benefits, a pulse, and a dismiss effect. Taken at creation, you begin play with one Arcanum bound.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>For <strong>arcana</strong> breakdown and a list of <strong>Arcanums</strong>, refer to: Arcanist Rules or see <strong>Core Rulebook</strong>, page <strong>178</strong>.</p><p><em>Perform this Skill to automatically <strong>summon</strong> and <strong>dismiss</strong>.</em></p>"
     },
     {
       "class_key": "arcanist",
@@ -561,7 +562,8 @@
       "display_name": "Flash of Insight",
       "max_sl": 3,
       "summary": "On a Result of 13+ on a Check to investigate a creature, item or location (Study included): bank up to (SL) questions about it, asked now or later, answered truthfully by the GM. Once per subject.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>When you roll a <strong>13 or higher</strong> on a Check performed to investigate a creature, item or location — this includes using the <strong>Study</strong> action during a conflict — you may ask the Game Master up to <strong>【SL】</strong> questions concerning the subject of your investigation. You may ask these questions immediately or save them for later; whenever you ask one of these questions, the Game Master will answer truthfully and you will describe your character's deductive process.</p><p>This Skill may only be used once on the same creature, item or location.</p>"
     },
     {
       "class_key": "archivist",
@@ -569,7 +571,8 @@
       "display_name": "Focused",
       "max_sl": 5,
       "summary": "Permanently +(SL × 3) max MP, and +(SL) to Open Checks using (INS + INS).",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>Permanently increase your maximum Mind Points by <strong>【SL × 3】</strong>.</p><p>When you perform an Open Check using <strong>【INS + INS】</strong>, you gain a bonus equal to <strong>【SL】</strong> on that Check (this only applies to Open Checks).</p>"
     },
     {
       "class_key": "archivist",
@@ -577,7 +580,8 @@
       "display_name": "Knowledge Is Power",
       "max_sl": 1,
       "summary": "Accuracy Checks may replace one Attribute die with Insight.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p>When you perform an Accuracy Check, you may replace <strong>one</strong> of the Attribute dice with <strong>Insight</strong> (such as <strong>【INS + INS】</strong> for a pistol or <strong>【INS + MIG】</strong> for a waraxe).</p>"
     },
     {
       "class_key": "archivist",
@@ -585,7 +589,8 @@
       "display_name": "Quick Assessment",
       "max_sl": 6,
       "summary": "Start of conflict: spend up to (SL × 5) MP; every 5 MP reveals one Trait, or one named damage type's Affinity, of a creature you can see. Pressure points count as Traits for this Skill.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>At the start of a conflict, you may spend up to <strong>【SL × 5】</strong> Mind Points. For every 5 Mind Points you spend this way, choose one option:</p><ul><li><p>Choose a creature you can see and the GM reveals one of their <strong>Traits</strong>.</p></li><li><p>Name a damage type and choose a creature you can see, and the GM reveals that creature's <strong>Affinity</strong> towards that damage type.</p></li></ul>"
     },
     {
       "class_key": "archivist",
@@ -593,7 +598,8 @@
       "display_name": "Trained Memory",
       "max_sl": 1,
       "summary": "Perfect recall of any scene visited within the past week — revisit it in your mind and investigate it again, Flash of Insight included.",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p>You may perfectly recall the details of any scene you have visited within the past week. You can \"go back in time\" within your mind in order to examine and investigate such scenes again — your <strong>Flash of Insight</strong> Skill will apply to these memories as well.</p>"
     },
     {
       "class_key": "archivist",
@@ -665,7 +671,8 @@
       "display_name": "Agony",
       "max_sl": 5,
       "summary": "Once per turn (anyone's turn), after you damage one or more enemies you have a Bond towards: recover (SL × 2) HP and (SL × 2) MP.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p><strong>You Recover</strong>: (SL × 2) HP{SL × 2 HP} (SL × 2) MP{SL × 2 MP}</p>"
     },
     {
       "class_key": "blackguard",
@@ -673,7 +680,8 @@
       "display_name": "Dark Blood",
       "max_sl": 1,
       "summary": "While in Crisis, Resistance to dark and poison.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>As long as you are in <strong>Crisis</strong>, you gain Resistance to <strong>dark</strong> damage and <strong>poison</strong> damage.</p>"
     },
     {
       "class_key": "blackguard",
@@ -681,7 +689,8 @@
       "display_name": "Heart of Darkness",
       "max_sl": 1,
       "summary": "Once per scene, when you enter Crisis: create a Bond of hatred towards a creature you can see that you have no Bond towards.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p>Once per scene, when you enter <strong>Crisis</strong>, you may choose a specific creature you can see that you don't have a <strong>Bond</strong> towards. If you do, create a <strong>Bond</strong> of <strong>hatred</strong> towards that creature.</p>"
     },
     {
       "class_key": "blackguard",
@@ -689,7 +698,8 @@
       "display_name": "Painful Lesson",
       "max_sl": 3,
       "summary": "After another creature costs you HP by any means: Study them for free, with +(SL) to the Check.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>After another creature causes you to lose Hit Points (with an attack, a spell or any other method), you may immediately perform the <strong>Study</strong> action on that creature for free. If you do, gain a bonus equal to <strong>【SL】</strong> to your Check. Remember, you can study the same aspect of a creature only once.</p>"
     },
     {
       "class_key": "blackguard",
@@ -697,7 +707,8 @@
       "display_name": "Shadow Strike",
       "max_sl": 5,
       "summary": "Action: roll your Might die and lose that many HP. If you are not at 0, perform a free attack dealing +(SL + the roll) damage — all of it dark, and the type cannot change.",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p>You have learned to channel your vital force into your attacks. You may use an action to perform a <strong>Shadow Strike</strong>: roll your current <strong>Might</strong> die and lose an amount of Hit Points equal to <strong>【the number rolled on your Might die】</strong>. If this didn't reduce your Hit Points to 0, you may perform a <strong>free attack</strong> with a weapon you have equipped: if this attack hits one or more targets, it deals extra damage equal to <strong>【SL + the number rolled on your Might die】</strong>. However, all damage dealt by this attack becomes <strong>dark</strong> and its damage type cannot be changed.</p>"
     },
     {
       "class_key": "blackguard",
@@ -801,7 +812,8 @@
       "display_name": "Queen's Gambit",
       "max_sl": 6,
       "summary": "Action: free attack with an equipped weapon, High Roll 0. After it resolves, choose one: an ally who can hear you recovers (5 + SL × 5) HP, or use Bishop's Edict, Charging Cavalry or King's Castle for free (still paying its MP).",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>During a conflict, you may use an action to perform a <strong>free attack</strong> with a weapon you have equipped, treating your <strong>High Roll (HR)</strong> as 0 when calculating damage. After the attack is resolved, choose one option:</p><ul><li><p>One ally who is able to hear you recovers <strong>【5 + (SL × 5)】</strong> Hit Points.</p></li><li><p>You may immediately use a Skill you acquired among <strong>Bishop's Edict</strong>, <strong>Charging Cavalry</strong> or <strong>King's Castle</strong> for free (spending the appropriate MP).</p></li></ul>"
     },
     {
       "class_key": "captain",
@@ -809,7 +821,8 @@
       "display_name": "Bishop's Edict",
       "max_sl": 5,
       "summary": "Action + 10 MP, until your next turn, choose one: all MP costs are doubled, or all sources of damage deal (SL × 3) extra. \"All\" means everyone on the battlefield — allies, enemies and you.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p><em>Apply chosen effect to all characters.</em></p>"
     },
     {
       "class_key": "captain",
@@ -817,7 +830,8 @@
       "display_name": "Charging Cavalry",
       "max_sl": 5,
       "summary": "Action + 10 MP: one ally who can hear you performs a free attack (a basic attack if an NPC) at +(SL) Accuracy, High Roll 0. Works on allied NPCs.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p>During a conflict, you may use an action and spend 10 Mind Points to choose one ally that can hear you. That ally may immediately perform a <strong>free attack</strong> with a weapon they have equipped (or with a <strong>basic attack</strong> if they are an NPC). They gain a bonus equal to <strong>【SL】</strong> to the Accuracy Check, but treat their <strong>High Roll (HR)</strong> as 0 when calculating damage.</p>"
     },
     {
       "class_key": "captain",
@@ -825,7 +839,8 @@
       "display_name": "King's Castle",
       "max_sl": 4,
       "summary": "Action + 10 MP, until your next turn, choose one: no creature can recover HP or MP, or all MP-restoring effects restore (SL × 5) more. The lockout is total and includes your own side.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p><em>Apply chosen effect to all characters.</em></p>"
     },
     {
       "class_key": "captain",
@@ -833,7 +848,8 @@
       "display_name": "Crushing Chariot",
       "max_sl": 1,
       "summary": "After using Bishop's Edict, Charging Cavalry or King's Castle, choose a Player Character who can hear you and has not yet acted this round: they take their turn immediately after yours. Grants nobody an extra turn — it decides whose comes next.",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p><strong>Trigger:</strong> Bishop's Edict, Charging Cavalry, <strong>or</strong> King's Castle</p>"
     },
     {
       "class_key": "cartomancer",
@@ -841,7 +857,8 @@
       "display_name": "Magic Cards",
       "max_sl": 3,
       "summary": "The deck engine: grants the deck, the hand and the discard pile. In a conflict, action + up to (10 + SL × 5) MP (minimum 10): discard and resolve one card per 5 MP spent, maximum five — the set — then draw that many back.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>For <strong>deck</strong> breakdown and a list of <strong>Set Effects</strong>, refer to: Ace of Cards Rules or see <strong>Bonus Collection</strong>, page <strong>8</strong>.<br /><strong>You Spend for Each Card:</strong> 5 MP</p>"
     },
     {
       "class_key": "cartomancer",
@@ -849,7 +866,8 @@
       "display_name": "Double or Nothing",
       "max_sl": 1,
       "summary": "Declared before a Check: until it ends, dice showing even numbers count doubled and other dice count 1..",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>Before you perform a Check, you may declare <strong>double or nothing</strong>. If you do, until the end of that Check, any dice you roll that show an <strong>even</strong> number are treated as if that number was <strong>doubled</strong>, and other dice you roll are treated as showing a <strong>1</strong>.</p>"
     },
     {
       "class_key": "cartomancer",
@@ -865,7 +883,8 @@
       "display_name": "Mulligan",
       "max_sl": 2,
       "summary": "When you hit one or more enemies with an attack on your turn, discard up to (SL + 1) cards and draw that many.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>When you <strong>hit</strong> one or more enemies with an attack during your turn, you may discard up to <strong>【SL + 1】</strong> cards. If you do, draw that many cards.</p>"
     },
     {
       "class_key": "cartomancer",
@@ -873,7 +892,8 @@
       "display_name": "Trap Card",
       "max_sl": 2,
       "summary": "After an enemy resolves an Attack, Objective, Skill or Spell action, discard up to (SL + 1) cards that are jokers or match the action's suit (Attack ice, Objective fire, Skill earth, Spell air), draw back, then perform the Spell action for free, casting a spell of (SL × 5) MP or less — you still pay the MP. Once per round.",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p>After an enemy you can see resolves an <strong>Attack</strong>, <strong>Objective</strong>, <strong>Skill</strong>, or <strong>Spell</strong> action, you may discard up to <strong>【SL + 1】</strong> cards that are <strong>jokers</strong> or whose <strong>suit</strong> corresponds to a damage type based on the enemy action: <strong>ice (Attack)</strong>, <strong>fire (Objective)</strong>, <strong>earth (Skill)</strong>, or <strong>air (Spell)</strong>. If you do, draw that many cards; then you may perform the <strong>Spell</strong> action for free, casting a spell with a total Mind Point cost equal to or lower than <strong>【SL × 5】</strong> (you must still pay its MP cost) and you cannot use this Skill again until the start of your next turn.</p>"
     },
     {
       "class_key": "celebrity",
@@ -921,7 +941,8 @@
       "display_name": "Magichant",
       "max_sl": 10,
       "summary": "Action, once per turn: spend MP to sing a verse — a volume (low 10 MP: one creature who can hear you; medium 20: every ally who can hear; high 30: every enemy who can hear) combined with a key (eight, each tied to a damage type, status, Attribute and recovery) and a tone (seven general effects). First level learns all three volumes plus one key and one tone; each further level adds a key or a tone.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>For <strong>verse</strong> breakdown and a list of <strong>Keys</strong> and <strong>Tones</strong>, refer to: Chanter Rules or see <strong>High Fantasy Atlas</strong>, page <strong>138</strong>.<br />To <strong>automate</strong>, VTT Instructions can be found here: Verses VTT Instructions</p>"
     },
     {
       "class_key": "chanter",
@@ -929,7 +950,8 @@
       "display_name": "Resonance",
       "max_sl": 3,
       "summary": "After your verse affects one or more enemies, with an arcane weapon equipped, choose one until the start of your next turn: allies deal (SL) extra damage to those enemies; or you recover (SL) MP each time one of them suffers damage (per enemy, when one source hits several).",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p><strong>You Recover:</strong> (SL) MP{SL MP}</p>"
     },
     {
       "class_key": "chanter",
@@ -937,7 +959,8 @@
       "display_name": "Sound Barrier",
       "max_sl": 5,
       "summary": "After you sing a verse at medium or high volume, all physical damage you suffer until the start of your next turn is reduced by (SL), applied before Affinities.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p><strong>You Receive:</strong> Effect: Sound Barrier</p>"
     },
     {
       "class_key": "chanter",
@@ -945,7 +968,8 @@
       "display_name": "Vibrato",
       "max_sl": 1,
       "summary": "After you sing a verse at low or medium volume, perform a free attack with an equipped weapon once the verse resolves, treating your High Roll as 0 for damage.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>After you sing a <strong>verse</strong> with <strong>low</strong> or <strong>medium volume</strong>, you may perform a <strong>free attack</strong> with a weapon you have equipped; treat your <strong>High Roll (HR)</strong> as 0 when calculating damage dealt by this attack.</p>"
     },
     {
       "class_key": "confidence_man",
@@ -993,7 +1017,8 @@
       "display_name": "Cooking",
       "max_sl": 5,
       "summary": "The engine. Gain (SL) ingredients when resting in a settlement; carry up to 10 + (SL × 5), and they never spoil. Action: combine 2–3 ingredients into a delicacy, then apply it to yourself or an ally you can see — or make a damageless free attack that applies it to each enemy hit.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>For <strong>cooking</strong> breakdown and a list of <strong>Ingredients &amp; Delicacies</strong>, refer to: Gourmet Rules or see <strong>Natural Fantasy Atlas</strong>, page <strong>150</strong>.<br />To <strong>automate</strong>, VTT Instructions can be found here: Cookbook VTT Instructions</p>"
     },
     {
       "class_key": "cook",
@@ -1001,7 +1026,8 @@
       "display_name": "Knife and Fork",
       "max_sl": 1,
       "summary": "Cooking's free attack may deal real damage (High Roll treated as 0) if the delicacy used at most 2 ingredients.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>When you perform the <strong>free attack</strong> granted by the <strong>Cooking</strong> Skill, if you combined <strong>no more than 2 ingredients</strong>, you may have the attack deal damage as normal. If you do, you treat your <strong>High Roll (HR)</strong> as 0 when calculating damage dealt by this attack</p>"
     },
     {
       "class_key": "cook",
@@ -1009,7 +1035,8 @@
       "display_name": "Made with Love",
       "max_sl": 3,
       "summary": "When applying a delicacy to yourself or an ally, spend up to (SL × 10) MP: every 10 MP feeds one additional ally you can see.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p>When you use the <strong>Cooking</strong> Skill and choose to apply the effects of the <strong>delicacy</strong> to yourself or an ally you can see, you may spend up to <strong>【SL × 10】</strong> MP. For every 10 MP you spend this way, you also apply the <strong>delicacy</strong>'s effects to another ally you can see.</p>"
     },
     {
       "class_key": "cook",
@@ -1017,7 +1044,8 @@
       "display_name": "Salt and Pepper",
       "max_sl": 1,
       "summary": "When preparing a delicacy, spend 2 IP to change one ingredient's taste to any taste you choose.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>When you prepare a <strong>delicacy</strong>, you may spend 2 Inventory Points: if you do, change the <strong>taste</strong> of one ingredient to a different taste of your choice.</p>"
     },
     {
       "class_key": "cook",
@@ -1025,7 +1053,8 @@
       "display_name": "Traveling Cook",
       "max_sl": 3,
       "summary": "After each travel roll, gain (SL × 2) ingredients (requires Cooking).",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p><strong>Refer to:</strong> Ingredient Taste</p>"
     },
     {
       "class_key": "courier",
@@ -1113,7 +1142,8 @@
       "display_name": "Dance",
       "max_sl": 10,
       "summary": "Each level teaches one dance (of seventeen). On your turn, with no martial armor equipped, spend 10 MP to perform one you know — no action required, once per turn; 5 MP if you performed a different dance on your previous turn this scene.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>For <strong>dance</strong> breakdown and a list of <strong>Dances</strong>, refer to: Dancer Rules or see <strong>High Fantasy</strong>, page <strong>144</strong>.<br /><strong>You Spend (reduced)</strong>: 5 MP</p>"
     },
     {
       "class_key": "dancer",
@@ -1121,7 +1151,8 @@
       "display_name": "Wardancer",
       "max_sl": 5,
       "summary": "After a dance, your attacks with brawling, dagger, flail, sword and thrown weapons deal (SL) extra damage until your next turn; with an arcane weapon equipped, offensive spells too.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p><strong>You Receive:</strong> Effect: Wardancer</p>"
     },
     {
       "class_key": "dancer",
@@ -1129,7 +1160,8 @@
       "display_name": "Frenetic Footwork",
       "max_sl": 2,
       "summary": "After a dance with until-your-next-turn duration, +(SL × 2) to Opposed Checks relying on acrobatics, coordination or speed, until your next turn.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p><strong>You Receive:</strong> Effect: Frenetic Footwork</p>"
     },
     {
       "class_key": "dancer",
@@ -1137,7 +1169,8 @@
       "display_name": "Follow My Lead",
       "max_sl": 1,
       "summary": "When performing a lasting dance, spend 10 MP: one ally you can see toward whom you hold a Bond of affection gains its benefits too, same duration.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>When you perform a <strong>dance</strong> with a <strong>duration</strong> of \"Until the start of your next turn\", you may spend 10 Mind Points. If you do, choose one ally you can see towards whom you have a Bond of <strong>affection</strong>: apply the benefits of the <strong>dance</strong> to that ally as well as yourself (the benefits still last until the start of <strong>your</strong> next turn).</p>"
     },
     {
       "class_key": "dancer",
@@ -1145,7 +1178,8 @@
       "display_name": "Quick-Change",
       "max_sl": 1,
       "summary": "After a dance, perform the Equipment action for free. Swapping Guise this way still triggers the Turn — once per conflict, exactly as ruled.",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p>After you perform a <strong>dance</strong>, you may perform the <strong>Equipment</strong> action for free.</p>"
     },
     {
       "class_key": "dowser",
@@ -1153,7 +1187,8 @@
       "display_name": "Invocation",
       "max_sl": 3,
       "summary": "Action + 5 MP: draw on one of the scene's wellsprings and apply an invocation to a creature you can see. SL1 reaches \"blast\" invocations, SL2 adds \"hex\", SL3 all. Scaling: damage +5/+10 at level 20+/40+; HP recovery and MP loss +10/+20.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>For <strong>invocation</strong> breakdown and a list of <strong>Invocations</strong>, refer to: Invoker Rules or see <strong>Natural Fantasy Atlas</strong>, page <strong>156</strong>.<br />To <strong>automate</strong>, VTT Instructions can be found here: Invoker VTT Instructions</p>"
     },
     {
       "class_key": "dowser",
@@ -1161,7 +1196,8 @@
       "display_name": "Linked Invocation",
       "max_sl": 3,
       "summary": "When you invoke, spend up to (SL × 10) extra MP; every 10 MP adds one more target you can see.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>When you perform an <strong>invocation</strong>, you may spend up to <strong>【SL × 10】</strong> additional Mind Points. For every 10 Mind Points you spend this way, the invocation may target an additional creature you can see.</p>"
     },
     {
       "class_key": "dowser",
@@ -1169,7 +1205,8 @@
       "display_name": "Elemental Harmony",
       "max_sl": 2,
       "summary": "Always communicate with elementals. When your invocation or spell restores HP with an elemental present on the scene, it restores (SL × 5) more.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p><em>Automatically applied to invocations while an elemental is in the encounter.</em></p>"
     },
     {
       "class_key": "dowser",
@@ -1177,7 +1214,8 @@
       "display_name": "Ripples",
       "max_sl": 5,
       "summary": "After an ally's damage — increased by one or more of your \"hex\" invocations — costs an enemy HP: free attack against that enemy only, at +(SL) Accuracy. On a hit its damage becomes the ally's type, and all your hexes on the target end once it resolves. If two or more enemies trigger this Skill at the same time, you may perform a free attack against each of them, in whatever order you prefer.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>After an enemy you can see loses Hit Points due to damage dealt by one of your allies, if that damage was increased by one or more of your <strong>\"hex\" invocations</strong>, you may perform a <strong>free attack</strong> with a weapon you have equipped. This attack may only target that enemy, and receives a bonus equal to <strong>【SL】</strong> to its Accuracy Check; if it is successful, all its damage becomes of the same type dealt by your ally, and <strong>all \"hex\" invocations</strong> present on its target end immediately after the attack has been resolved. If two or more enemies trigger this Skill at the same time, you can perform a <strong>free attack</strong> against <strong>each</strong> of them, in whatever order you prefer.</p>"
     },
     {
       "class_key": "dowser",
@@ -1185,7 +1223,8 @@
       "display_name": "Wellspring Expansion",
       "max_sl": 5,
       "summary": "With an arcane, bow, brawling, flail, sword or thrown weapon equipped: \"blast\" invocations deal (SL) extra damage, and your \"hex\" invocations grant (5 + SL) extra damage instead of 5.",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p><em>Automatically applied to invocations while equipped with a weapon listed.</em></p>"
     },
     {
       "class_key": "elementalist",
@@ -1193,7 +1232,8 @@
       "display_name": "Elemental Magic",
       "max_sl": 10,
       "summary": "Each level learns one Elementalist spell. Offensive spells use (INS + WLP) for the Magic Check.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>For <strong>spell</strong> breakdown and a list of <strong>Elementalist</strong> spells, refer to: Elementalist Rules or see <strong>Core Rulebook,</strong> page <strong>114</strong> and <strong>188</strong>.</p>"
     },
     {
       "class_key": "elementalist",
@@ -1201,7 +1241,8 @@
       "display_name": "Cataclysm",
       "max_sl": 3,
       "summary": "Casting an Instantaneous spell with an arcane weapon equipped: raise its cost by up to (SL × 10) MP for +5 damage per extra 10 MP.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>When you cast a spell with a <strong>duration</strong> of \"Instantaneous\", if you have an <strong>arcane</strong> weapon equipped, you may <strong>increase the spell's total MP cost</strong> by up to <strong>【SL × 10】</strong> Mind Points.</p><p>If you do so, the spell deals 5 extra damage for every 10 Mind Points by which you increased its cost this way.</p>"
     },
     {
       "class_key": "elementalist",
@@ -1217,7 +1258,8 @@
       "display_name": "Spellblade",
       "max_sl": 3,
       "summary": "Single-target offensive spells costing (SL × 20) MP or less may roll the Magic Check on an equipped non-arcane weapon's Accuracy formula, +(SL) if that formula uses Dexterity.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>When you cast an offensive spell () targeting a <strong>single creature</strong>, if the spell has a <strong>total Mind Point cost of 【SL × 20】 or lower</strong>, you may choose one <strong>non-arcane</strong> weapon you have equipped. If you do, your Magic Check for the spell uses the chosen weapon's Accuracy Check formula; if that formula includes <strong>Dexterity</strong>, the Magic Check also gains a bonus equal to <strong>【SL】.</strong></p><p>For instance, casting a spell through a bronze sword when you have Skill Level 2 in <strong>Spellblade</strong> will cause the Magic Check to be <strong>【DEX + MIG】+3</strong> instead of <strong>【INS + WLP】</strong>.</p>"
     },
     {
       "class_key": "elementalist",
@@ -1241,7 +1283,8 @@
       "display_name": "Emergency Item",
       "max_sl": 1,
       "summary": "Once per conflict scene, while in Crisis: perform an additional action on your turn, which must be the Inventory action.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>Once per conflict scene, if you are in <strong>Crisis</strong>, you may perform an additional action on your turn. This action <strong>must</strong> be the <strong>Inventory</strong> action.</p>"
     },
     {
       "class_key": "engineer",
@@ -1249,7 +1292,8 @@
       "display_name": "Gadgets",
       "max_sl": 5,
       "summary": "Choose a gadget type — alchemy, infusions or magitech — and gain its basic benefits. Each further level buys a new type's basics, or upgrades one you have to advanced, then superior.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>For <strong>gadget</strong> breakdown and a list of <strong>Gadgets</strong>, refer to<strong>:</strong> Tinkerer Rules or see <strong>Core Rulebook</strong>, page <strong>212</strong>.<br />To <strong>automate</strong>, VTT Instructions can be found here: Gadget VTT Instructions</p>"
     },
     {
       "class_key": "engineer",
@@ -1257,7 +1301,8 @@
       "display_name": "Potion Rain",
       "max_sl": 2,
       "summary": "Your potions that restore one creature's HP/MP may affect up to (SL) additional creatures, at half effect for everyone.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p><em>The consumable items being used must have the potion and restore traits.</em></p>"
     },
     {
       "class_key": "engineer",
@@ -1265,7 +1310,8 @@
       "display_name": "Secret Formula",
       "max_sl": 5,
       "summary": "Your restorative magispheres and potions restore (SL × 5) more HP/MP; your elemental shards, magispheres and potions deal (SL) extra damage.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>When you create a <strong>potion</strong> or <strong>magisphere</strong> whose effects restore HP and/or MP, each restored amount is increased by <strong>【SL × 5】</strong>.</p><p>When you create an <strong>elemental shard</strong>, <strong>potion</strong>, or <strong>magisphere</strong> that deals damage, that item deals <strong>【SL】</strong> extra damage.</p>"
     },
     {
       "class_key": "engineer",
@@ -1273,7 +1319,8 @@
       "display_name": "Visionary",
       "max_sl": 5,
       "summary": "Projects you work on auto-pay up to (SL × 100) zenit of material costs and gain (SL) extra progress per day. Makes a Project-holder better — never grants Project access.",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p>For <strong>Projects</strong> breakdown, refer to: Project Rules or see <strong>Core Rulebook,</strong> page <strong>134</strong>.</p>"
     },
     {
       "class_key": "engineer",
@@ -1297,7 +1344,8 @@
       "display_name": "Entropic Magic",
       "max_sl": 10,
       "summary": "Each level learns one Entropist spell. Offensive spells use (INS + WLP) for the Magic Check.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>For <strong>spell</strong> breakdown and a list of <strong>Entropist</strong> spells, refer to: Entropist Rules or see <strong>Core Rulebook,</strong> page <strong>114</strong> and <strong>192</strong>.</p>"
     },
     {
       "class_key": "entropist",
@@ -1305,7 +1353,8 @@
       "display_name": "Absorb MP",
       "max_sl": 5,
       "summary": "After you suffer damage, recover (SL × 2) MP.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p><strong>You Recover:</strong> (SL × 2) MP{SL × 2 MP}</p>"
     },
     {
       "class_key": "entropist",
@@ -1313,7 +1362,8 @@
       "display_name": "Lucky Seven",
       "max_sl": 1,
       "summary": "You have a lucky number — 7 at each session's start. Once per scene, after rolling a Check, replace one die's value with it (impossible values allowed); the replaced value becomes your new lucky number.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p>You have a <strong>lucky number</strong>; at the beginning of each session, that number is <strong>7</strong>. Once per scene after you perform a Check, you may replace the value shown on one of the dice you rolled with your lucky number (even if this would give an impossible Result, such as a value of 7 on a d6). If you do, the replaced value becomes your <strong>new</strong> lucky number.</p>"
     },
     {
       "class_key": "entropist",
@@ -1321,7 +1371,8 @@
       "display_name": "Stolen Time",
       "max_sl": 4,
       "summary": "Action + up to (SL × 5) MP; each 5 MP buys one option, once each: inflict slow; cure slow; a slowed enemy loses (10 + SL × 5) HP; a creature takes a free Equipment action; an ally yet to act takes their turn after yours. Variant available: Second Slicer — free attack, +(SL) Accuracy, inflicts slow with riders. Chosen permanently.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>During a conflict, you may use an action to interfere with the flow of time by spending up to <strong>【SL × 5】</strong> Mind Points. For every 5 Mind Points you spend this way, choose one option:</p><ul><li><p>One creature you can see suffers <strong>slow.</strong></p></li><li><p>One creature you can see recovers from <strong>slow.</strong></p></li><li><p>One enemy you can see that is suffering from <strong>slow</strong> loses <strong>【10 + (SL × 5)】</strong> Hit Points.</p></li><li><p>One creature you can see may perform the <strong>Equipment</strong> action for free.</p></li><li><p>Choose one ally you can see that has yet to take a turn during this round: that ally may take their turn immediately after yours during this round.</p></li></ul><p>Each option can only be chosen <strong>once</strong> per use of this Skill.</p>"
     },
     {
       "class_key": "entropist",
@@ -1385,7 +1436,8 @@
       "display_name": "Chloromancy",
       "max_sl": 10,
       "summary": "Each level discovers one magiseed type. In a conflict, if your garden is empty: action + 20 MP plants a magiseed you have discovered.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>For <strong>magiseed</strong> breakdown and a list of <strong>Magiseeds</strong>, refer to: Floralist Rules or see <strong>Natural Fantasy Atlas</strong>, page <strong>139</strong>.<br />To <strong>automate</strong>, VTT Instructions can be found here: Magiseed VTT Instructions</p>"
     },
     {
       "class_key": "floralist",
@@ -1393,7 +1445,8 @@
       "display_name": "Battle Gardening",
       "max_sl": 3,
       "summary": "After planting through Chloromancy (not Graft), choose one: a free attack with an equipped weapon, or the Spell action for free casting a spell of (5 + SL × 5) MP or less (you still pay it). High Roll treated as 0 either way.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>After you <strong>plant a magiseed</strong> through the <strong>Chloromancy</strong> Skill (not when using <strong>Graft</strong>), you may choose one option:</p><ul><li><p>You perform a <strong>free attack</strong> with an equipped weapon.</p></li><li><p>You perform the <strong>Spell</strong> action for free, casting a spell with a <strong>total Mind Point cost equal to or lower than 【5 + (SL × 5)】</strong> (you must still pay its MP cost).</p></li></ul><p>Treat the <strong>High Roll (HR)</strong> of your Accuracy Check or Magic Check as being equal to 0 when determining damage dealt by this attack or spell.</p>"
     },
     {
       "class_key": "floralist",
@@ -1401,7 +1454,8 @@
       "display_name": "Graft",
       "max_sl": 1,
       "summary": "With a magiseed in your garden and 1+ Growth Clock sections filled, action: swap it for a different magiseed you have discovered, keeping the filled sections unchanged.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p>As long as there is a <strong>magiseed</strong> in your <strong>garden</strong> and <strong>1 or more sections</strong> of your <strong>Growth Clock</strong> are <strong>filled</strong>, you may use an action to <strong>remove</strong> that <strong>magiseed</strong> from your <strong>garden</strong>: if you do, you immediately <strong>plant a different magiseed</strong> among those you have discovered (keep the current filled sections of your Growth Clock unchanged).</p>"
     },
     {
       "class_key": "floralist",
@@ -1409,7 +1463,8 @@
       "display_name": "Tree of Life",
       "max_sl": 5,
       "summary": "When a magiseed is removed from your garden, one creature you can see that is in Crisis recovers (5 + SL × 5) HP.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p><strong>Target Recovers:</strong> (5 + (5 × SL)) HP{5 + (SL × 5) HP}</p>"
     },
     {
       "class_key": "floralist",
@@ -1417,7 +1472,8 @@
       "display_name": "Verdant Sway",
       "max_sl": 1,
       "summary": "Grants Rituals of the Ritualism discipline, extended to creating, animating and controlling vegetation, pollen, spores and toxins — never plant-Species NPCs. Runs under the standing rulings that keep it inside the benefit-pool architecture.",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p>For <strong>Rituals</strong> breakdown, refer to: Ritual Rules or see <strong>Core Rulebook,</strong> page <strong>118</strong>.</p>"
     },
     {
       "class_key": "fury",
@@ -1425,7 +1481,8 @@
       "display_name": "Adrenaline",
       "max_sl": 5,
       "summary": "While in Crisis, +(SL × 2) damage — attacks, spells, Arcana, items, anything.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>As long as you are in <strong>Crisis</strong>, you deal <strong>【SL × 2】</strong> extra damage (be it with attacks, spells, Arcana, items or any other method).</p>"
     },
     {
       "class_key": "fury",
@@ -1433,7 +1490,8 @@
       "display_name": "Frenzy",
       "max_sl": 1,
       "summary": "Accuracy Checks with brawling, dagger, flail and thrown weapons crit on doubles (when not a fumble). Two adopted alternates exist — Brave Brawler and Meteor Slam (SL3 caps); take at most one, chosen permanently.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>Your Accuracy Checks with <strong>brawling</strong>, <strong>dagger</strong>, <strong>flail</strong>, and <strong>thrown weapons</strong> trigger a <strong>critical success</strong> if both dice show the same number (and the Check is not a <strong>fumble</strong>).</p>"
     },
     {
       "class_key": "fury",
@@ -1441,7 +1499,8 @@
       "display_name": "Indomitable Spirit",
       "max_sl": 4,
       "summary": "When you spend a Fabula Point to invoke a Bond or Trait: recover (SL × 5) HP, or (SL × 5) MP, or shake one status effect.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p><strong>You Recover:</strong> (5 × SL) HP{SL × 5 HP} or (5 × SL) MP{SL × 5 MP}</p>"
     },
     {
       "class_key": "fury",
@@ -1449,7 +1508,8 @@
       "display_name": "Provoke",
       "max_sl": 5,
       "summary": "Action + 5 MP: Opposed (MIG + WLP) Check (+SL) against an enemy you can see. Success: they are enraged, fixed on you, and must include you in their attacks and offensive spells while it lasts.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>You may use an action and spend 5 Mind Points to perform an Opposed <strong>【MIG + WLP】</strong> Check against an enemy you can see — describe how you taunt them! If you succeed, the target suffers <strong>enraged</strong> and is compelled to focus their attention on you (their attacks and offensive spells must include you among the targets if possible). This compulsion ends if you fall unconscious or leave the scene, if the creature is no longer <strong>enraged</strong>, or if they are successfully <strong>provoked</strong> by someone else.</p><p>You gain a bonus equal to <strong>【SL】</strong> to your <strong>【MIG + WLP】</strong> Checks for this Skill.</p>"
     },
     {
       "class_key": "fury",
@@ -1489,7 +1549,8 @@
       "display_name": "Defensive Mastery",
       "max_sl": 5,
       "summary": "With a shield or martial armour equipped, all damage you suffer is reduced by (SL), before Affinities.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>As long as you have a <strong>shield</strong> or <strong>martial armor</strong> equipped, all damage you suffer is reduced by <strong>【SL】</strong> (applied <strong>before</strong> damage Affinities).</p>"
     },
     {
       "class_key": "guardian",
@@ -1497,7 +1558,8 @@
       "display_name": "Dual Shieldbearer",
       "max_sl": 1,
       "summary": "A shield may fill your main hand. With two shields: both items' benefits, treated together as Twin Shields — (MIG + MIG), (HR + 5) physical, +Defensive Mastery SL damage.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p>To <strong>automate</strong>, add the following Twin Shields to your character sheet. Navigate to the '<strong>Items</strong>\" tab where <strong>Twin Shields</strong> is located and press <strong>Ctrl+Click</strong> the icon in <strong>Equip?</strong> column. The item will be added to the <strong>Phantom Slot</strong>. Make sure this skill is added to your character sheet. Now you can equip shields on both your main and off hand slot.</p>"
     },
     {
       "class_key": "guardian",
@@ -1505,7 +1567,8 @@
       "display_name": "Fortress",
       "max_sl": 5,
       "summary": "Permanently +(SL × 3) max HP.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>Permanently increase your maximum Hit Points by <strong>【SL × 3】</strong>.</p>"
     },
     {
       "class_key": "guardian",
@@ -1513,7 +1576,8 @@
       "display_name": "Protect",
       "max_sl": 1,
       "summary": "Take another creature's place against an attack, spell or danger — declared before or after its Checks. If it already hit you, it hits you twice. In conflict, once until the start of your next turn.",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p><em>You can use this effect to track if you have this Skill available to use during a conflict.<br /></em><strong>You Receive:</strong> Effect: Protect Available</p>"
     },
     {
       "class_key": "guardian",
@@ -1529,7 +1593,8 @@
       "display_name": "Mercy",
       "max_sl": 1,
       "summary": "Once per session, when you risk yourself for a non-PC you hold a Bond of hatred or mistrust toward: gain 1 Fabula Point, then immediately add or change one emotion in that Bond.",
-      "sort": 7
+      "sort": 7,
+      "effect_html": "<p>You strengthen the heart of a creature against suffering and despair. Until this spell ends, if the target would be reduced to 0 Hit Points, they are instead left standing with exactly 1 Hit Point. Once that happens, this spell ends.</p>"
     },
     {
       "class_key": "illusionist",
@@ -1689,7 +1754,8 @@
       "display_name": "Akromorphosis",
       "max_sl": 3,
       "summary": "Unarmed strikes deal +(6 + SL × 2) damage and gain +(SL) Accuracy, but refuse extra damage from Quirks. Start of each conflict turn: declare them a different weapon Category until your next turn — bow, firearm or thrown makes them ranged.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>For <strong>automation</strong>, this Skill adds extra damage and accuracy to DXbkF4xfyC9HNSXH. Also, the Unarmed Strike: Akromorphosis can be added to your character sheet and edited for different weapons types.</p>"
     },
     {
       "class_key": "mutant",
@@ -1697,7 +1763,8 @@
       "display_name": "Biophagy",
       "max_sl": 4,
       "summary": "While in Crisis, when your attack or offensive spell costs one or more enemies HP, recover (SL × 5) HP.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p><strong>You Gain:</strong> (SL × 5) HP{SL × 5 HP}</p>"
     },
     {
       "class_key": "mutant",
@@ -1705,7 +1772,8 @@
       "display_name": "Ecdysis",
       "max_sl": 1,
       "summary": "After losing HP to typed non-physical damage, shed 10 HP to gain Resistance to that type until the next time you use this Skill.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p><strong>You Receive:</strong> Effect: Ecdysis (Air), Effect: Ecdysis (Bolt), Effect: Ecdysis (Dark), Effect: Ecdysis (Earth), Effect: Ecdysis (Fire), Effect: Ecdysis (Ice), Effect: Ecdysis (Light), or Effect: Ecdysis (Poison)</p>"
     },
     {
       "class_key": "mutant",
@@ -1713,7 +1781,8 @@
       "display_name": "Genoclepsis",
       "max_sl": 2,
       "summary": "Damaging NPCs reveals their Species, and the GM names (SL) fitting therioforms. With Theriomorphosis, pay its cost on the spot to wear them — learned or not.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>For <strong>therioform</strong> breakdown and a list of <strong>Therioforms</strong>, refer to: Mutant Rules or see <strong>Techno Fantasy Atlas</strong>, page <strong>156</strong>.</p>"
     },
     {
       "class_key": "mutant",
@@ -1721,7 +1790,8 @@
       "display_name": "Theriomorphosis",
       "max_sl": 6,
       "summary": "Each level teaches one therioform. Action + flat 20 HP: manifest up to two therioforms immediately, then a free attack with High Roll treated as 0. Forms last the scene; they end on death, unconsciousness, Guard, or re-use; 10 MP at scene's end carries them forward.",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p>For <strong>therioform</strong> breakdown and a list of <strong>Therioforms</strong>, refer to: Mutant Rules or see <strong>Techno Fantasy Atlas</strong>, page <strong>156</strong>.</p>"
     },
     {
       "class_key": "naturalist",
@@ -1769,7 +1839,8 @@
       "display_name": "Condemn",
       "max_sl": 6,
       "summary": "Action + 5 MP: Opposed (INS + WLP) Check (+SL) against an enemy that hears and understands you. Success: they lose (SL × 5) MP, suffer dazed or shaken (your choice), and all sources deal +(SL) damage to them until your next turn.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>You may use an action and spend 5 Mind Points to perform an Opposed <strong>【INS + WLP】</strong> Check against an enemy that can hear and understand you. If you succeed, that enemy loses <strong>【SL × 5】</strong> Mind Points, suffers a status effect of your choice between <strong>dazed</strong> and <strong>shaken</strong>, and all sources deal <strong>【SL】</strong> extra damage to them until the start of your next turn.</p><p>You gain a bonus equal to <strong>【SL】</strong> to your <strong>【INS + WLP】</strong> Checks for this Skill.</p>"
     },
     {
       "class_key": "orator",
@@ -1777,7 +1848,8 @@
       "display_name": "Encourage",
       "max_sl": 6,
       "summary": "Action + 5 MP: an ally who hears you recovers (SL × 10) HP and, in conflict, raises a chosen Attribute one die size (max d12) until your next turn.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>You may use an action and spend 5 Mind Points to choose an ally that can hear and understand you. That ally recovers <strong>【SL × 10】</strong> Hit Points and chooses <strong>Dexterity</strong>, <strong>Insight</strong>, <strong>Might</strong>, or <strong>Willpower</strong>; they treat the chosen Attribute as being one die size higher (up to a maximum of <strong>d12</strong>) until the start of your next turn.</p>"
     },
     {
       "class_key": "orator",
@@ -1785,7 +1857,8 @@
       "display_name": "My Trust in You",
       "max_sl": 2,
       "summary": "When another PC who can hear you rolls a Check, spend 1 Fabula Point invoking one of their Traits or Bonds to let them reroll or improve the Result. With a Bond toward them, they also recover (SL × 10) MP.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p>After another Player Character who is able to hear you performs a Check, you may spend 1 Fabula Point and invoke one of their <strong>Traits</strong> or <strong>Bonds</strong> in order to let them reroll dice or improve the Result of the Check (following the normal rules). Then, if you have a <strong>Bond</strong> towards that character, they recover <strong>【SL × 10】</strong> Mind Points.</p>"
     },
     {
       "class_key": "orator",
@@ -1793,7 +1866,8 @@
       "display_name": "Persuasive",
       "max_sl": 2,
       "summary": "On a successful Clock Check that relied on charm, diplomacy, deception or intimidation: spend up to (SL × 20) MP, moving 1 extra section per 20 MP.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>When you successfully perform a Check to fill or erase sections of a Clock, if your approach relied on <strong>charm</strong>, <strong>diplomacy</strong>, <strong>deception</strong>, or <strong>intimidation</strong>, you may spend up to <strong>【SL × 20】</strong> Mind Points. If you do, fill or erase an additional section of that Clock for every 20 Mind Points you spend this way.</p>"
     },
     {
       "class_key": "orator",
@@ -1937,7 +2011,8 @@
       "display_name": "Bladestorm",
       "max_sl": 1,
       "summary": "On a melee attack, spend 10 MP: the attack gains multi (2), or its multi rises by one (max 3).",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>When you perform a <strong>melee</strong> attack, you may spend 10 Mind Points to choose one option: the attack gains <strong>multi (2)</strong>; <strong>or</strong> you increase the attack's <strong>multi</strong> property by one, up to a maximum of <strong>multi (3)</strong>.</p>"
     },
     {
       "class_key": "prizefighter",
@@ -1945,7 +2020,8 @@
       "display_name": "Bone Crusher",
       "max_sl": 4,
       "summary": "On a damaging melee hit, trade all its damage for one option: dazed on each target; weak on each target; or each target loses (SL × 10) MP.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>When you hit one or more targets with a <strong>melee</strong> attack that would deal damage, you may have the attack deal no damage. If you do, choose one option:</p><ul><li><p>Inflict <strong>dazed</strong> on each target hit by the attack.</p></li><li><p>Inflict <strong>weak</strong> on each target hit by the attack.</p></li><li><p>Each target hit by the attack loses <strong>【SL × 10】</strong> Mind Points.</p></li></ul><p>Describe your maneuver!</p>"
     },
     {
       "class_key": "prizefighter",
@@ -1953,7 +2029,8 @@
       "display_name": "Breach",
       "max_sl": 3,
       "summary": "Action + 10 MP: free single-target melee attack. On a hit choose: +(SL × 5) damage ignoring Resistances but also non-physical Vulnerabilities; or no damage, and your allies deal +(SL × 2) to the target until your next turn.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p>You may use an action and spend 5 Mind Points to perform a <strong>free attack</strong> with a <strong>melee</strong> weapon you have equipped. This attack must target <strong>a single creature</strong>. If the attack is successful, it deals no damage and you choose one option:</p><ul><li><p>You destroy one <strong>shield</strong> equipped by the target.</p></li><li><p>You destroy the target's equipped <strong>armor</strong>.</p></li><li><p>All sources deal <strong>【SL × 2】</strong> extra damage to the target until the start of your next turn.</p></li></ul>"
     },
     {
       "class_key": "prizefighter",
@@ -1961,7 +2038,8 @@
       "display_name": "Counterattack",
       "max_sl": 1,
       "summary": "After an enemy's melee attack hits or misses you with an even Accuracy Result: free melee attack back at them alone, High Roll treated as 0.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>After an enemy <strong>hits or misses you with a melee attack</strong>, if the Result of their Accuracy Check was an <strong>even number</strong>, you may perform a <strong>free attack</strong> against that enemy (after their attack has been fully resolved). This attack must be a <strong>melee</strong> attack and must have that enemy as its <strong>only</strong> target; treat your <strong>High Roll</strong> as 0 when calculating damage dealt by this attack.</p>"
     },
     {
       "class_key": "prizefighter",
@@ -1969,7 +2047,8 @@
       "display_name": "Melee Weapon Mastery",
       "max_sl": 4,
       "summary": "+(SL) to all Accuracy Checks with melee weapons.",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p>You gain a bonus equal to <strong>【SL】</strong> to all Accuracy Checks with <strong>melee</strong> weapons.</p>"
     },
     {
       "class_key": "prizefighter",
@@ -2009,7 +2088,8 @@
       "display_name": "Deep Pockets",
       "max_sl": 5,
       "summary": "Once per conflict scene, as part of an action, spend up to (SL × 200) zenit before rolling: +1 per 200 spent, narratively explained. Kept — it makes the price of privilege legible, out loud. Counts toward the two-effect cap.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>You reduce Inventory Point costs by 1 (to a minimum of 1).</p>"
     },
     {
       "class_key": "proprietor",
@@ -2065,7 +2145,8 @@
       "display_name": "Cheap Shot",
       "max_sl": 5,
       "summary": "A single-target hit on a creature suffering statuses may deal +(SL + number of its statuses) damage.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>When you hit a creature with an attack, if the attack <strong>only</strong> targeted that creature and they are suffering from <strong>one or more status effects</strong>, you may have it deal extra damage equal to <strong>【SL + the number of status effects on the creature】</strong>.</p>"
     },
     {
       "class_key": "rogue",
@@ -2073,7 +2154,8 @@
       "display_name": "Dodge",
       "max_sl": 3,
       "summary": "With no shield and no martial armour equipped, +(SL) Defense.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>As long as you have <strong>no</strong> <strong>shields</strong> and <strong>no</strong> <strong>martial armor</strong> equipped, your Defense score is increased by <strong>【SL】</strong>.</p>"
     },
     {
       "class_key": "rogue",
@@ -2081,7 +2163,8 @@
       "display_name": "High Speed",
       "max_sl": 3,
       "summary": "Start of conflict, 10 MP: before round one, a free attack or a free Hinder/Objective action, with +(SL) to its Checks.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p><strong>You Receive:</strong> Effect: High Speed (Check Bonus)</p>"
     },
     {
       "class_key": "rogue",
@@ -2089,7 +2172,8 @@
       "display_name": "Soul Steal",
       "max_sl": 5,
       "summary": "Action: (DEX + WLP) Check (+SL) vs an enemy's Magic Defense. Success: a soldier yields (SL) IP; an elite or champion yields a soul treasure worth up to (level × 30, ×50 for Villains). Once per creature. Takes the hoplosphere drop — one body, one clot.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>During a conflict, you may use an action to perform a <strong>【DEX + WLP】</strong> Check against the Magic Defense of an enemy you can see. If you succeed and the target is a <strong>soldier</strong>, you recover <strong>【SL】</strong> Inventory Points; if they are an <strong>elite</strong> or <strong>champion</strong>, the GM gives you the target's <strong>soul treasure</strong>, an item worth an amount of zenit <strong>equal to or lower than</strong> <strong>【the target's level multiplied by 30, or by 50 if they are a Villain】</strong>. This <strong>soul treasure</strong> will appear inside your <strong>backpack</strong>; a creature can be successfully stolen from with this Skill only once.</p><p>You gain a bonus equal to <strong>【SL】</strong> to your <strong>【DEX + WLP】</strong> Checks for this Skill.</p>"
     },
     {
       "class_key": "rogue",
@@ -2113,7 +2197,8 @@
       "display_name": "Cognitive Focus",
       "max_sl": 5,
       "summary": "Start of your conflict turn: your focus is one ally able to hear you, or one enemy you can see suffering dazed, enraged and/or shaken. Until your next turn, +(SL) to Checks to examine the focus and to Accuracy/Magic Checks for attacks and offensive spells that include it.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>At the start of your turn during a conflict, you may choose one ally who is able to hear you <strong>or</strong> one enemy you can see that is suffering from <strong>dazed</strong>, <strong>enraged</strong>, and/or <strong>shaken</strong>. Until the start of your next turn, the chosen creature becomes your <strong>focus</strong>.</p><p>You gain a bonus equal to <strong>【SL】</strong> to Checks you perform to examine your <strong>focus</strong>, as well as to your Accuracy Checks and Magic Checks for attacks and offensive spells () that include your <strong>focus</strong> among the targets. When you cause your <strong>focus</strong> to recover Hit Points and/or Mind Points, they recover <strong>【SL × 2】</strong> additional HP and/or MP, respectively.</p>"
     },
     {
       "class_key": "sensitive",
@@ -2121,7 +2206,8 @@
       "display_name": "Hypercognition",
       "max_sl": 5,
       "summary": "Spells and verses that include your focus among their targets cost (SL) less MP — (SL × 2) less if the focus is the only target — to a minimum of 0.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>The total MP cost of your <strong>spells</strong> and <strong>verses</strong> that include your <strong>focus</strong> among their targets is reduced by <strong>【SL】</strong>, or by <strong>【SL × 2】</strong> if your <strong>focus</strong> is the <strong>only</strong> target (up to a minimum cost of 0 Mind Points).</p>"
     },
     {
       "class_key": "sensitive",
@@ -2129,7 +2215,8 @@
       "display_name": "Navigator",
       "max_sl": 1,
       "summary": "Telepathy with any conscious ally within the same district; you count as hearing each other for Skills and effects. Ritualism for Aether purposes only — transport, information and tracking within the Aether.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p>For <strong>Rituals</strong> breakdown, refer to: Ritual Rules or see <strong>Core Rulebook,</strong> page <strong>118</strong>.</p>"
     },
     {
       "class_key": "sensitive",
@@ -2137,7 +2224,8 @@
       "display_name": "Psychic Gifts",
       "max_sl": 5,
       "summary": "Each level grants one of the nine gifts: event-triggered reactions with an MP cost, scaling with the Brainwave Clock (4 sections, empty at the start of each scene).",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>For <strong>gift</strong> breakdown and a list of <strong>Psychic Gifts</strong>, refer to: Esper Rules or see <strong>Techno Fantasy Atlas</strong>, page <strong>152</strong>.<br />To <strong>automate</strong>, VTT Instructions can be found here: Psychic Gift VTT Instructions</p>"
     },
     {
       "class_key": "sensitive",
@@ -2145,7 +2233,8 @@
       "display_name": "Psychokinesis",
       "max_sl": 1,
       "summary": "Accuracy Checks may replace one Attribute die with Willpower.",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p>When you perform an Accuracy Check, you may replace <strong>one</strong> of the Attribute dice with <strong>Willpower</strong> (such as <strong>【DEX + WLP】</strong> for a <strong>shortbow</strong>). Additionally, your <strong>melee attacks</strong> with weapons belonging to the <strong>arcane</strong> or <strong>sword</strong> Categories may target <strong>ﬂying</strong> creatures.</p>"
     },
     {
       "class_key": "sharpshooter",
@@ -2153,7 +2242,8 @@
       "display_name": "Barrage",
       "max_sl": 1,
       "summary": "On a ranged attack, spend 10 MP: the attack gains multi (2), or its multi rises by one (max 3).",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>When you perform a <strong>ranged</strong> attack, you may spend 10 Mind Points to choose one option: the attack gains <strong>multi (2)</strong>; <strong>or</strong> you increase the attack's <strong>multi</strong> property by one, up to a maximum of <strong>multi (3)</strong>.</p>"
     },
     {
       "class_key": "sharpshooter",
@@ -2161,7 +2251,8 @@
       "display_name": "Crossfire",
       "max_sl": 1,
       "summary": "After any visible creature's ranged Accuracy Check: spend (5 + the Result) MP to make the attack miss everyone. Needs a ranged weapon equipped; useless against crits.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>After a creature you can see performs a <strong>ranged</strong> attack, you may spend an amount of Mind Points equal to <strong>【5 + the Result of their Accuracy Check】</strong> to have the attack automatically miss all targets. You can only use this Skill if you have a <strong>ranged</strong> weapon equipped, and it has no effect if the Accuracy Check was a <strong>critical success</strong>.</p>"
     },
     {
       "class_key": "sharpshooter",
@@ -2169,7 +2260,8 @@
       "display_name": "Hawkeye",
       "max_sl": 5,
       "summary": "Guarding without covering anyone: bank +(SL × 3) damage on your next ranged attack this scene, or take a free bow/firearm attack with High Roll treated as 0.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p><strong>You Receive:</strong> Effect: Hawkeye</p>"
     },
     {
       "class_key": "sharpshooter",
@@ -2177,7 +2269,8 @@
       "display_name": "Ranged Weapon Mastery",
       "max_sl": 4,
       "summary": "+(SL) to all Accuracy Checks with ranged weapons.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>You gain a bonus equal to <strong>【SL】</strong> to all Accuracy Checks with <strong>ranged</strong> weapons.</p>"
     },
     {
       "class_key": "sharpshooter",
@@ -2185,7 +2278,8 @@
       "display_name": "Warning Shot",
       "max_sl": 4,
       "summary": "On a damaging ranged hit, trade all its damage for one option: shaken on each target; slow on each target; or each target loses (SL × 10) MP.",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p>When you hit one or more targets with a <strong>ranged</strong> attack that would deal damage, you may have the attack deal no damage. If you do, choose one option:</p><ul><li><p>Inflict <strong>shaken</strong> on each target hit by the attack.</p></li><li><p>Inflict <strong>slow</strong> on each target hit by the attack.</p></li><li><p>Each target hit by the attack loses <strong>【SL × 10】</strong> Mind Points.</p></li></ul><p>Describe your maneuver!</p>"
     },
     {
       "class_key": "sharpshooter",
@@ -2289,7 +2383,8 @@
       "display_name": "Spiritual Magic",
       "max_sl": 10,
       "summary": "Each level learns one Spiritist spell. Offensive spells use (INS + WLP) for the Magic Check.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>For <strong>spell</strong> breakdown and a list of <strong>Spiritist</strong> spells, refer to: Spiritist Rules or see <strong>Core Rulebook,</strong> page <strong>114</strong> and <strong>208</strong>.</p>"
     },
     {
       "class_key": "spiritist",
@@ -2297,7 +2392,8 @@
       "display_name": "Healing Power",
       "max_sl": 2,
       "summary": "Spells targeting allies, with an arcane weapon equipped: each of those allies also recovers (3 + SL × your number of Bonds) HP.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>When you cast a spell that targets one or more allies, if you have an <strong>arcane</strong> weapon equipped, you may have each of those allies recover an amount of Hit Points equal to <strong>【3 + (SL, multiplied by the number of Bonds you have)】</strong>.</p><p>This healing is separate from any healing caused by the effects of the spell.</p>"
     },
     {
       "class_key": "spiritist",
@@ -2305,7 +2401,8 @@
       "display_name": "Support Magic",
       "max_sl": 1,
       "summary": "Spells targeting allies, with an arcane weapon equipped: one targeted ally you have a Bond towards gains a bonus on their next Check this scene equal to that Bond's strength.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p>When you cast a spell that targets one or more allies, if you have an <strong>arcane</strong> weapon equipped, you may choose one of those allies you have a <strong>Bond</strong> towards. If you do, that ally gains a bonus to the next Check they perform during the current scene; this bonus is equal to the <strong>strength</strong> of your Bond towards them.</p>"
     },
     {
       "class_key": "spiritist",
@@ -2313,7 +2410,8 @@
       "display_name": "Vismagus",
       "max_sl": 1,
       "summary": "Short on MP, pay (10 + the spell's total MP cost) in HP instead — but the spell then recovers no HP for you.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>When you cast a spell, if you don't have enough Mind Points to pay for its total cost, you may choose to spend an amount of Hit Points equal to <strong>【10 + the spell's total MP cost】</strong> instead. If a spell cast this way would cause you to recover Hit Points, you instead recover no Hit Points (the spell functions normally on any other target).</p>"
     },
     {
       "class_key": "spiritist",
@@ -2377,7 +2475,8 @@
       "display_name": "Symbolism",
       "max_sl": 5,
       "summary": "Each level teaches two symbols; (SL + 1) may be active at once. Inventory action + 2 IP creates one you know, then: apply it to yourself; apply it to an ally you can see; or perform a damageless free attack that copies it onto every enemy hit — each copy counting against the limit.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>For <strong>symbol</strong> breakdown and a list of <strong>Symbols</strong>, refer to: Symbolist Rules or see <strong>High Fantasy Atlas</strong>, page <strong>148</strong>.</p>"
     },
     {
       "class_key": "symbolist",
@@ -2385,7 +2484,8 @@
       "display_name": "Personal Touch",
       "max_sl": 5,
       "summary": "When a creature you can see bearing one of your symbols suffers damage or recovers HP/MP, you may have it suffer (SL) extra damage or recover (SL) more, respectively.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>When a creature you can see that is bearing one of your <strong>symbols</strong> suffers damage or recovers Hit Points and/or Mind Points, you may have that creature suffer <strong>【SL】</strong> extra damage or recover <strong>【SL】</strong> additional Hit Points and/or Mind Points, respectively.</p>"
     },
     {
       "class_key": "symbolist",
@@ -2393,7 +2493,8 @@
       "display_name": "Magic Symbols",
       "max_sl": 3,
       "summary": "An ally bearing your symbol may take the Spell action and destroy that symbol to cast a spell you know of (SL × 10) MP or less — the ally pays the MP. Allowed on the Ritual Scrolls precedent. Requires you to know spells from another class.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p>If an ally bears one of your <strong>symbols</strong>, that ally may perform the <strong>Spell</strong> action and destroy that symbol to cast a single spell among those <strong>you</strong> know, as long as it has a <strong>total Mind Point cost equal to or lower than 【SL × 10】</strong> (that ally must still pay the MP cost).</p>"
     },
     {
       "class_key": "symbolist",
@@ -2401,7 +2502,8 @@
       "display_name": "Symbolic Connection",
       "max_sl": 1,
       "summary": "You always know the exact direction to any creature bearing one of your symbols within 2 travel days. One symbol per creature — a newer mark from any source erases yours.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>You always know the exact direction in which to find any creature bearing one of your <strong>symbols</strong>, as long as that creature is within <strong>2 travel days</strong> of your position.</p>"
     },
     {
       "class_key": "traveller",
@@ -2409,7 +2511,8 @@
       "display_name": "Resourceful",
       "max_sl": 4,
       "summary": "Regain (SL) Inventory Points after each travel roll.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p><strong>You Recover:</strong> (SL) IP{SL IP}</p>"
     },
     {
       "class_key": "traveller",
@@ -2417,7 +2520,8 @@
       "display_name": "Tavern Talk",
       "max_sl": 3,
       "summary": "Resting at an inn or tavern: ask the GM up to (SL) questions about the area and its people, answered truthfully.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p>When you <strong>rest</strong> inside an inn or tavern, you may ask the Game Master up to <strong>【SL】</strong> questions about your surroundings and the people who live here; the Game Master will answer truthfully and you describe how you gathered the information.</p>"
     },
     {
       "class_key": "traveller",
@@ -2425,7 +2529,8 @@
       "display_name": "Treasure Hunter",
       "max_sl": 2,
       "summary": "On the world map, your group makes a discovery on a travel roll of (SL + 1) or lower, instead of only on a 1.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p>When your group journeys on the world map, you will make a <strong>discovery</strong> on a roll of <strong>【SL + 1】</strong> or lower on the <strong>travel roll</strong> (instead of only on a <strong>1</strong>).</p>"
     },
     {
       "class_key": "traveller",
@@ -2433,7 +2538,8 @@
       "display_name": "Well-Traveled",
       "max_sl": 1,
       "summary": "Your travel rolls use a die one size smaller (min d6). Multiple holders don't stack.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>You reduce the die rolled for your <strong>travel rolls</strong> by one size (to a minimum of <strong>d6</strong>).</p><p>If multiple characters have this Skill, the effects are <strong>not</strong> cumulative.</p>"
     },
     {
       "class_key": "traveller",
@@ -2481,7 +2587,8 @@
       "display_name": "Spell Mimic",
       "max_sl": 10,
       "summary": "After a beast, monster or plant you can see resolves a spell, learn it (recording the Species). Hold up to (SL + 2); offensive casts use your chosen (INS + WLP) or (MIG + WLP). Variant available: Spell Buffet — read non-humanoid HP at (15 + half level) or less, execute one to learn all its spells, keeping (SL + 4). Chosen permanently.",
-      "sort": 1
+      "sort": 1,
+      "effect_html": "<p>For <strong>spell</strong> breakdown, refer to: Spell Rules or see <strong>Core Rulebook,</strong> page <strong>114</strong>.</p>"
     },
     {
       "class_key": "vivisectionist",
@@ -2489,7 +2596,8 @@
       "display_name": "Consume",
       "max_sl": 5,
       "summary": "After your spell damages one or more creatures, with an arcane, dagger or flail weapon equipped: recover (SL × 2) MP.",
-      "sort": 2
+      "sort": 2,
+      "effect_html": "<p><strong>You:</strong> (SL × 2) MP{SL × 2 MP}</p>"
     },
     {
       "class_key": "vivisectionist",
@@ -2497,7 +2605,8 @@
       "display_name": "Feral Speech",
       "max_sl": 1,
       "summary": "You can always communicate with beasts, monsters and plants.",
-      "sort": 3
+      "sort": 3,
+      "effect_html": "<p>You can communicate with creatures of the <strong>beast</strong>, <strong>monster</strong>, and <strong>plant</strong> Species.</p>"
     },
     {
       "class_key": "vivisectionist",
@@ -2505,7 +2614,8 @@
       "display_name": "Pathogenesis",
       "max_sl": 1,
       "summary": "Your Chimerist spells poison each damaged creature that shares its Species with the creature you learned the spell from.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>When you deal damage to one or more creatures with one of your <strong>Chimerist</strong> spells, each of those creatures that share their <strong>Species</strong> with the creature you originally learned that spell from suffers <strong>poisoned</strong>.</p>"
     },
     {
       "class_key": "vivisectionist",
@@ -3049,7 +3159,8 @@
       "display_name": "Vanish",
       "max_sl": 4,
       "summary": "During your first turn in a conflict, or when you guard without granting cover, spend 10 MP to become hidden until the end of your next turn. While hidden you cannot be targeted by sight-based ranged attacks or spells (but area effects still hit), and your dagger, spear, or thrown attacks gain +(SL) Accuracy; on a hit such an attack ignores Resistances and you stop being hidden.",
-      "sort": 4
+      "sort": 4,
+      "effect_html": "<p>When you hit one or more creatures with an attack or offensive spell (), you may spend 1 Fabula Point. If you do, each of those creatures becomes unable to see you until the start of your next turn.</p>"
     },
     {
       "class_key": "assassin",
@@ -3273,7 +3384,8 @@
       "display_name": "Ritual Arcanism",
       "max_sl": 1,
       "summary": "Perform Rituals of the Arcanism discipline, as long as their effects fall within the domains of one or more Arcana you have bound. Arcanism Rituals use (WLP + WLP) for the Magic Check.",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p>For <strong>Rituals</strong> breakdown, refer to: Ritual Rules or see <strong>Core Rulebook,</strong> page <strong>118</strong>.</p>"
     },
     {
       "class_key": "chanter",
@@ -3281,7 +3393,8 @@
       "display_name": "Siren's Song",
       "max_sl": 1,
       "summary": "Grants Ritual access to the Ritualism discipline, extended to sound-based illusions — illusions only. A named extension of the universal discipline, not a second contested school. No general sound magic rides in: a voice that isn't there, a hoofbeat on the wrong street, a scream from an empty room; never a real, load-bearing sound effect. (Compensation ruling, Austin, 6 Aug 2026.)",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p>For <strong>Rituals</strong> breakdown, refer to: Ritual Rules or see <strong>Core Rulebook,</strong> page <strong>118</strong>.</p>"
     },
     {
       "class_key": "symbolist",
@@ -3289,7 +3402,8 @@
       "display_name": "Mirage",
       "max_sl": 1,
       "summary": "Ritual access to the Ritualism discipline, plus the ability to use Ritualism to create sight-based illusions.",
-      "sort": 5
+      "sort": 5,
+      "effect_html": "<p>For <strong>Rituals</strong> breakdown, refer to: Ritual Rules or see <strong>Core Rulebook,</strong> page <strong>118</strong>.</p>"
     },
     {
       "class_key": "malefactor",
@@ -3382,7 +3496,7 @@
       "required_skills": [],
       "creation_banned": false,
       "class_gate": "mastery",
-      "effect_html": "<p>When you hit one or more creatures with an attack using a weapon that belongs to the <strong>arcane</strong> Category, the attack deals 5 extra damage and you may choose one of those creatures. If the next offensive spell (@ICON[offensive]) you cast during this scene <strong>only</strong> targets the chosen creature, its Magic Check will trigger a <strong>critical success</strong> if both dice show the same number (and the Check is not a <strong>fumble</strong>).</p>"
+      "effect_html": "<p>When you hit one or more creatures with an attack using a weapon that belongs to the <strong>arcane</strong> Category, the attack deals 5 extra damage and you may choose one of those creatures. If the next offensive spell () you cast during this scene <strong>only</strong> targets the chosen creature, its Magic Check will trigger a <strong>critical success</strong> if both dice show the same number (and the Check is not a <strong>fumble</strong>).</p>"
     },
     {
       "key": "arcane_sacrifice",
@@ -3396,7 +3510,7 @@
       "required_skills": [],
       "creation_banned": false,
       "class_gate": "mastery",
-      "effect_html": "<p>Once per scene, when you and/or one or more allies you can see are reduced to 0 Hit Points, if you are <strong>merged</strong> with an Arcanum, you may instead be reduced to exactly 1 Hit Point. If you do, you must immediately <strong>dismiss</strong> that Arcanum (without applying any dismiss effect), and cannot summon them again until the end of the scene.</p><hr /><p><strong>You Receive:</strong> @GAIN[1 hp]</p>"
+      "effect_html": "<p>Once per scene, when you and/or one or more allies you can see are reduced to 0 Hit Points, if you are <strong>merged</strong> with an Arcanum, you may instead be reduced to exactly 1 Hit Point. If you do, you must immediately <strong>dismiss</strong> that Arcanum (without applying any dismiss effect), and cannot summon them again until the end of the scene.</p><hr><p><strong>You Receive:</strong> 1 HP</p>"
     },
     {
       "key": "arcane_symbolism",
@@ -3454,7 +3568,7 @@
       ],
       "creation_banned": false,
       "class_gate": "mastery",
-      "effect_html": "<p>After an enemy you can see hits or misses you with an offensive spell (@ICON[offensive]), if the Result of their Magic Check was an <strong>even number</strong>, you may immediately use the <strong>Invocation</strong> Skill for free (after the spell has been fully resolved) to perform an <strong>invocation</strong> you have access to against that enemy, without spending Mind Points. This invocation must not be a \"<strong>hex</strong>\", and it may target <strong>only</strong> that enemy (you cannot use the <strong>Linked Invocation</strong> Skill with it).</p>"
+      "effect_html": "<p>After an enemy you can see hits or misses you with an offensive spell (), if the Result of their Magic Check was an <strong>even number</strong>, you may immediately use the <strong>Invocation</strong> Skill for free (after the spell has been fully resolved) to perform an <strong>invocation</strong> you have access to against that enemy, without spending Mind Points. This invocation must not be a \"<strong>hex</strong>\", and it may target <strong>only</strong> that enemy (you cannot use the <strong>Linked Invocation</strong> Skill with it).</p>"
     },
     {
       "key": "black_and_white",
@@ -3525,8 +3639,7 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery",
-      "effect_html": "<p>While your <strong>Brainwave Clock</strong> is <strong>full</strong>, you may use an action to erase all of its sections. If you do, you may choose one option:</p><ul><li><p>You deal 20 <strong>physical</strong> damage to every enemy that is present on the scene.</p></li><li><p>You deal 30 <strong>physical</strong> damage to a single enemy you can see.</p></li></ul><p>This amount increases by 10 if you are <strong>level 20 or higher</strong>, or by 20 if you are <strong>level 40 or higher.</strong></p><hr /><p><strong>Resource:</strong> @CLOCK[brainwave-clock reset]{Reset Brainwave Clock}<br /><strong>Targets Suffer:</strong> @DMG[&amp;step(20,30,40) physical]{20|30|40 Physical (Single)} or @DMG[&amp;step(30,40,50) physical]{30|40|50 Physical (Multi)}</p>"
+      "class_gate": "mastery"
     },
     {
       "key": "brambleheart",
@@ -3561,7 +3674,7 @@
       ],
       "creation_banned": false,
       "class_gate": "mastery",
-      "effect_html": "<p>When you use the Bone Crusher Skill, if your attack targets <strong>only one creature</strong> and you have a <strong>shield</strong> equipped, you may <strong>challenge</strong> that creature until the end of your next turn. The <strong>challenge</strong> also ends if that creature is <strong>challenged</strong> by someone else, or if you <strong>challenge</strong> another creature.</p><p>The creature you are <strong>challenging</strong> must include you among the targets of their attacks and offensive spells (@ICON[offensive]), if able; additionally, once per turn (including other creatures' turns), when you deal damage to the creature you are <strong>challenging</strong> with a <strong>free attack</strong> using a <strong>one-handed melee</strong> weapon or a <strong>custom weapon</strong> belonging to the <strong>dagger</strong> or <strong>sword</strong> Category, you may deal 5 extra damage to that creature.</p>"
+      "effect_html": "<p>When you use the Bone Crusher Skill, if your attack targets <strong>only one creature</strong> and you have a <strong>shield</strong> equipped, you may <strong>challenge</strong> that creature until the end of your next turn. The <strong>challenge</strong> also ends if that creature is <strong>challenged</strong> by someone else, or if you <strong>challenge</strong> another creature.</p><p>The creature you are <strong>challenging</strong> must include you among the targets of their attacks and offensive spells (), if able; additionally, once per turn (including other creatures' turns), when you deal damage to the creature you are <strong>challenging</strong> with a <strong>free attack</strong> using a <strong>one-handed melee</strong> weapon or a <strong>custom weapon</strong> belonging to the <strong>dagger</strong> or <strong>sword</strong> Category, you may deal 5 extra damage to that creature.</p>"
     },
     {
       "key": "broad_strokes",
@@ -3587,7 +3700,7 @@
       "required_skills": [],
       "creation_banned": false,
       "class_gate": "mastery",
-      "effect_html": "<p>After an enemy you can see performs an <strong>Accuracy Check</strong> or a <strong>Magic Check</strong> for an offensive spell (@ICON[offensive]) on their turn during a conflict, you may grant them a +3 bonus to the Result of the Check. If you do, choose one option:</p><ul><li><p>You and every ally who is able to hear you gain Resistance to all damage types until the end of this turn.</p></li><li><p>You and every ally who is able to hear you deal 5 extra damage until the end of this turn.</p></li></ul><p>Once you use this Skill, you cannot use it again until the start of your next turn.</p><hr /><p><strong>You &amp; Allies Receive:</strong> @EFFECT[Compendium.projectfu.heroic-skills.Item.lqgayJpoKwrXlPVl]</p>"
+      "effect_html": "<p>After an enemy you can see performs an <strong>Accuracy Check</strong> or a <strong>Magic Check</strong> for an offensive spell () on their turn during a conflict, you may grant them a +3 bonus to the Result of the Check. If you do, choose one option:</p><ul><li><p>You and every ally who is able to hear you gain Resistance to all damage types until the end of this turn.</p></li><li><p>You and every ally who is able to hear you deal 5 extra damage until the end of this turn.</p></li></ul><p>Once you use this Skill, you cannot use it again until the start of your next turn.</p><hr><p><strong>You &amp; Allies Receive:</strong> Effect: Broken Wing Tactic (Resistance)</p>"
     },
     {
       "key": "calamity",
@@ -3612,7 +3725,7 @@
       "required_skills": [],
       "creation_banned": false,
       "class_gate": "mastery",
-      "effect_html": "<p>When you discard cards due to the <strong>Magic Cards</strong> Skill, you may choose 1 of them and place it face down in front of you as a <strong>vanguard card</strong> instead of putting it into your <strong>discard pile</strong>. You may only do so if you have <strong>two or fewer vanguard cards</strong> in play.</p><p>When a source deals damage to you and/or one or more allies you can see, you may reveal one of your <strong>vanguard cards</strong> in play. If you do and that card is a <strong>joker</strong> or its <strong>suit</strong> matches the damage type dealt by that source, you and every ally you can see gain Resistance to that damage type until the end of the current turn; then, put the revealed <strong>vanguard card</strong> on top of your <strong>discard pile</strong>, and it stops being a <strong>vanguard card</strong>.</p><p>You may look at your <strong>vanguard cards</strong> at any time. At the end of each conflict, if you have one or more <strong>vanguard cards</strong> in play, shuffle them back into your deck.</p><hr /><p><strong>You &amp; Allies Receive:</strong> @EFFECT[Compendium.projectfu.heroic-skills.Item.yiXDxlkj7bhQyRyt], @EFFECT[Compendium.projectfu.heroic-skills.Item.WXh8k8YTJeGtdzLg], @EFFECT[Compendium.projectfu.heroic-skills.Item.rb2CVOWvXQDOvUVw], or @EFFECT[Compendium.projectfu.heroic-skills.Item.CeJ6JpsXwWRUDz1k]</p>"
+      "effect_html": "<p>When you discard cards due to the <strong>Magic Cards</strong> Skill, you may choose 1 of them and place it face down in front of you as a <strong>vanguard card</strong> instead of putting it into your <strong>discard pile</strong>. You may only do so if you have <strong>two or fewer vanguard cards</strong> in play.</p><p>When a source deals damage to you and/or one or more allies you can see, you may reveal one of your <strong>vanguard cards</strong> in play. If you do and that card is a <strong>joker</strong> or its <strong>suit</strong> matches the damage type dealt by that source, you and every ally you can see gain Resistance to that damage type until the end of the current turn; then, put the revealed <strong>vanguard card</strong> on top of your <strong>discard pile</strong>, and it stops being a <strong>vanguard card</strong>.</p><p>You may look at your <strong>vanguard cards</strong> at any time. At the end of each conflict, if you have one or more <strong>vanguard cards</strong> in play, shuffle them back into your deck.</p><hr><p><strong>You &amp; Allies Receive:</strong> Effect: Card Vanguard (Air), Effect: Card Vanguard (Earth), Effect: Card Vanguard (Fire), or Effect: Card Vanguard (Ice)</p>"
     },
     {
       "key": "category_training",
@@ -3648,7 +3761,7 @@
       "required_skills": [],
       "creation_banned": false,
       "class_gate": "mastery",
-      "effect_html": "<p>You may use an action and spend up to 30 Mind Points to choose one creature you can see for every 5 MP spent this way. Each creature chosen this way recovers from all status effects and is no longer affected by any spells with a <strong>duration</strong> of “Scene” that were affecting them.</p><hr /><p><strong>You Spend for Each Creature:</strong> @LOSS[5 mp]</p>"
+      "effect_html": "<p>You may use an action and spend up to 30 Mind Points to choose one creature you can see for every 5 MP spent this way. Each creature chosen this way recovers from all status effects and is no longer affected by any spells with a <strong>duration</strong> of “Scene” that were affecting them.</p><hr><p><strong>You Spend for Each Creature:</strong> 5 MP</p>"
     },
     {
       "key": "consecrated_weapon",
@@ -4059,7 +4172,7 @@
       ],
       "creation_banned": false,
       "class_gate": "mastery",
-      "effect_html": "<p>You gain the following benefits based on the current Category of your <strong>unarmed strikes</strong>.</p><ul><li><p><strong>Arcane, brawling, dagger, thrown</strong>: your attacks with unarmed strikes treat the Defense of each target as being equal to their current Insight die size.</p></li><li><p><strong>Bow, sword</strong>: your attacks with <strong>unarmed strikes</strong> that target <strong>two or more creatures</strong> deal 5 extra damage.</p></li><li><p><strong>Firearm, heavy</strong>: your <strong>unarmed strikes</strong> deal 5 extra damage to <strong>constructs</strong>, and deal 5 extra damage to non-<strong>construct</strong> creatures who have at least one <strong>shield</strong> and/or <strong>martial armor</strong> equipped.</p></li><li><p><strong>Flail, spear</strong>: you gain a +2 bonus to Defense, and your attacks with <strong>unarmed strikes</strong> may target <strong>flying</strong> creatures.</p></li></ul><p>If your <strong>unarmed strikes</strong> are treated as belonging to <strong>more than one Category</strong> (for instance due to the Blade Adept Heroic Skill), you gain all the benefits of the corresponding Categories.</p><hr /><p><strong>You Receive:</strong> @EFFECT[Compendium.projectfu.heroic-skills.Item.uC3DZwPezU8UYOBM] or @EFFECT[Compendium.projectfu.heroic-skills.Item.s7qW1SP4kVyDNt5N]</p>"
+      "effect_html": "<p>You gain the following benefits based on the current Category of your <strong>unarmed strikes</strong>.</p><ul><li><p><strong>Arcane, brawling, dagger, thrown</strong>: your attacks with unarmed strikes treat the Defense of each target as being equal to their current Insight die size.</p></li><li><p><strong>Bow, sword</strong>: your attacks with <strong>unarmed strikes</strong> that target <strong>two or more creatures</strong> deal 5 extra damage.</p></li><li><p><strong>Firearm, heavy</strong>: your <strong>unarmed strikes</strong> deal 5 extra damage to <strong>constructs</strong>, and deal 5 extra damage to non-<strong>construct</strong> creatures who have at least one <strong>shield</strong> and/or <strong>martial armor</strong> equipped.</p></li><li><p><strong>Flail, spear</strong>: you gain a +2 bonus to Defense, and your attacks with <strong>unarmed strikes</strong> may target <strong>flying</strong> creatures.</p></li></ul><p>If your <strong>unarmed strikes</strong> are treated as belonging to <strong>more than one Category</strong> (for instance due to the Blade Adept Heroic Skill), you gain all the benefits of the corresponding Categories.</p><hr><p><strong>You Receive:</strong> Effect: Greater Akromorphosis (Damage) or Effect: Greater Akromorphosis (Defense)</p>"
     },
     {
       "key": "greater_chloromancy",
@@ -4227,7 +4340,7 @@
       "required_skills": [],
       "creation_banned": false,
       "class_gate": "mastery",
-      "effect_html": "<p>When you transform a <strong>transforming custom weapon</strong> on your turn, choose <strong>one</strong> option:</p><ul><li><p>If you have not performed any attacks during this turn, the next attack you perform with this weapon during this turn deals 5 extra damage.</p></li><li><p>If you hit one or more creatures with an attack using this weapon during this turn, you recover 5 Hit Points and 5 Mind Points.</p></li></ul><hr /><p><strong>You Receive:</strong> @EFFECT[Compendium.projectfu.heroic-skills.Item.0jslWSatV2i8SKix] or @EFFECT[Compendium.projectfu.heroic-skills.Item.3PRgAxgGjeOiBjKg]</p>"
+      "effect_html": "<p>When you transform a <strong>transforming custom weapon</strong> on your turn, choose <strong>one</strong> option:</p><ul><li><p>If you have not performed any attacks during this turn, the next attack you perform with this weapon during this turn deals 5 extra damage.</p></li><li><p>If you hit one or more creatures with an attack using this weapon during this turn, you recover 5 Hit Points and 5 Mind Points.</p></li></ul><hr><p><strong>You Receive:</strong> Effect: Hunter's Trick (Damage) or Effect: Hunter's Trick (Recover)</p>"
     },
     {
       "key": "impaler_dragon",
@@ -4285,7 +4398,7 @@
       "required_skills": [],
       "creation_banned": false,
       "class_gate": "mastery",
-      "effect_html": "<p>When you acquire this Heroic Skill and whenever you <strong>rest</strong>, you may choose one <strong>wellspring: air, earth, fire, lightning,</strong> or <strong>water</strong>. If you do, you gain the following benefits until your next <strong>rest</strong>:</p><ul><li><p>You <strong>always</strong> treat the chosen <strong>wellspring</strong> as being available during each scene, in addition to whatever <strong>wellsprings</strong> are already available.</p></li><li><p>You may perform Rituals of the <strong>Elementalism</strong> discipline, but only if those Rituals manipulate the element of the chosen <strong>wellspring</strong>.</p></li><li><p>You gain Resistance to the damage type corresponding to the chosen <strong>wellspring</strong>.</p></li><li><p>When you deal damage, you may change its type to the one corresponding to the chosen <strong>wellspring</strong>. If you do, that damage ignores Resistances.</p></li></ul><hr /><p><strong>You Receive:</strong> @EFFECT[Compendium.projectfu.heroic-skills.Item.GtQpSPtGlSmKHDCJ], @EFFECT[Compendium.projectfu.heroic-skills.Item.6vWRei0y7zSflcAa], @EFFECT[Compendium.projectfu.heroic-skills.Item.6hf553wjua9gGQj8], @EFFECT[Compendium.projectfu.heroic-skills.Item.2sjAa5CndDe7jCn9], or @EFFECT[Compendium.projectfu.heroic-skills.Item.Pzm4DlB840zw612o]</p>"
+      "effect_html": "<p>When you acquire this Heroic Skill and whenever you <strong>rest</strong>, you may choose one <strong>wellspring: air, earth, fire, lightning,</strong> or <strong>water</strong>. If you do, you gain the following benefits until your next <strong>rest</strong>:</p><ul><li><p>You <strong>always</strong> treat the chosen <strong>wellspring</strong> as being available during each scene, in addition to whatever <strong>wellsprings</strong> are already available.</p></li><li><p>You may perform Rituals of the <strong>Elementalism</strong> discipline, but only if those Rituals manipulate the element of the chosen <strong>wellspring</strong>.</p></li><li><p>You gain Resistance to the damage type corresponding to the chosen <strong>wellspring</strong>.</p></li><li><p>When you deal damage, you may change its type to the one corresponding to the chosen <strong>wellspring</strong>. If you do, that damage ignores Resistances.</p></li></ul><hr><p><strong>You Receive:</strong> Effect: Inner Wellspring (Air), Effect: Inner Wellspring (Earth), Effect: Inner Wellspring (Fire), Effect: Inner Wellspring (Lightning), or Effect: Inner Wellspring (Water)</p>"
     },
     {
       "key": "inspiring_presence",
@@ -4534,7 +4647,7 @@
       ],
       "creation_banned": false,
       "class_gate": "mastery",
-      "effect_html": "<p>When you use the Shadow Strike Skill, you may choose <strong>fire</strong> or <strong>ice</strong>. If you do, all damage dealt by this attack becomes of the chosen type instead of <strong>dark</strong> (its damage type cannot change, as usual), and you gain Resistance to the damage type you did not choose until the start of your next turn.</p><p>When you perform a <strong>free attack</strong> with a <strong>melee</strong> weapon as part of the <strong>Shadow Strike</strong> Skill, the attack may target enemies that cannot be targeted by <strong>melee</strong> attacks.</p><hr /><p><strong>You Receive:</strong> @EFFECT[Compendium.projectfu.heroic-skills.Item.gJWZDrbPrRIA0Udi] or @EFFECT[Compendium.projectfu.heroic-skills.Item.YD0Qid4TdxUVksXQ]</p>"
+      "effect_html": "<p>When you use the Shadow Strike Skill, you may choose <strong>fire</strong> or <strong>ice</strong>. If you do, all damage dealt by this attack becomes of the chosen type instead of <strong>dark</strong> (its damage type cannot change, as usual), and you gain Resistance to the damage type you did not choose until the start of your next turn.</p><p>When you perform a <strong>free attack</strong> with a <strong>melee</strong> weapon as part of the <strong>Shadow Strike</strong> Skill, the attack may target enemies that cannot be targeted by <strong>melee</strong> attacks.</p><hr><p><strong>You Receive:</strong> Effect: Nether Slash (Fire Resist) or Effect: Nether Slash (Ice Resist)</p>"
     },
     {
       "key": "network_connection",
@@ -4700,7 +4813,7 @@
       "required_skills": [],
       "creation_banned": false,
       "class_gate": "mastery",
-      "effect_html": "<p>When you cast the Dispel spell, its <strong>MP</strong> cost becomes \"10 × T\" and its <strong>target</strong> becomes \"Up to three creatures\".</p><p>When you cause one or more enemies to stop being affected by one or more spells with a <strong>duration</strong> of \"Scene\", choose <strong>one</strong> option:</p><ul><li><p>You recover 20 Mind Points for each different spell whose effects ended on at least one of those enemies this way.</p></li><li><p>For each different spell whose effects ended on at least one of those enemies this way, apply a copy of that spell on yourself (if a spell allowed for choices upon casting it, you must retain the same choices that were made for this casting of the spell). This copying effect does not require actions, Mind Points, or Checks, and is not treated as \"casting a spell\".</p></li></ul><hr /><p><strong>You Receive:</strong> @GAIN[20 mp]</p>"
+      "effect_html": "<p>When you cast the Dispel spell, its <strong>MP</strong> cost becomes \"10 × T\" and its <strong>target</strong> becomes \"Up to three creatures\".</p><p>When you cause one or more enemies to stop being affected by one or more spells with a <strong>duration</strong> of \"Scene\", choose <strong>one</strong> option:</p><ul><li><p>You recover 20 Mind Points for each different spell whose effects ended on at least one of those enemies this way.</p></li><li><p>For each different spell whose effects ended on at least one of those enemies this way, apply a copy of that spell on yourself (if a spell allowed for choices upon casting it, you must retain the same choices that were made for this casting of the spell). This copying effect does not require actions, Mind Points, or Checks, and is not treated as \"casting a spell\".</p></li></ul><hr><p><strong>You Receive:</strong> 20 MP</p>"
     },
     {
       "key": "pictomancer",
@@ -4989,7 +5102,7 @@
       "required_skills": [],
       "creation_banned": true,
       "class_gate": "mastery",
-      "effect_html": "<p>You make contact with an unknown Arcanum and bind it to your soul. This Arcanum must be something you design together with the rest of the group; as long as you live, no one else in your world will be able to bind that Arcanum.</p><p>Once per scene while you are <strong>merged</strong> with an Arcanum, you may use an action and spend 2 Fabula Points to <strong>trigger</strong> that Arcanum's <strong>dismiss</strong> effect (if any) without dismissing them. Doing so does not trigger the Arcane Circle Skill.</p><hr /><p><strong>You Spend:</strong> @LOSS[2 fp]</p>"
+      "effect_html": "<p>You make contact with an unknown Arcanum and bind it to your soul. This Arcanum must be something you design together with the rest of the group; as long as you live, no one else in your world will be able to bind that Arcanum.</p><p>Once per scene while you are <strong>merged</strong> with an Arcanum, you may use an action and spend 2 Fabula Points to <strong>trigger</strong> that Arcanum's <strong>dismiss</strong> effect (if any) without dismissing them. Doing so does not trigger the Arcane Circle Skill.</p><hr><p><strong>You Spend:</strong> 2 Fabula Points</p>"
     },
     {
       "key": "rippling_invocation",
@@ -5065,7 +5178,7 @@
       "required_skills": [],
       "creation_banned": false,
       "class_gate": "mastery",
-      "effect_html": "<p>At the start of your turn during a conflict, if you have no <strong>martial armor</strong> equipped, you may spend 1 Fabula Point to immediately perform <strong>up to three different dances</strong> among those you know, in the order you prefer and without paying their MP cost. If you do, you <strong>cannot perform dances in any way</strong> until the end of your next turn.</p><hr /><p><strong>You Spend:</strong> @LOSS[1 fp]<br /><strong>You Suffer:</strong> @EFFECT[Compendium.projectfu.heroic-skills.Item.WJD7tqc73P24UFg4]</p>"
+      "effect_html": "<p>At the start of your turn during a conflict, if you have no <strong>martial armor</strong> equipped, you may spend 1 Fabula Point to immediately perform <strong>up to three different dances</strong> among those you know, in the order you prefer and without paying their MP cost. If you do, you <strong>cannot perform dances in any way</strong> until the end of your next turn.</p><hr><p><strong>You Spend:</strong> 1 Fabula Points<br /><strong>You Suffer:</strong> Effect: Showstopper</p>"
     },
     {
       "key": "silent_hunter",
@@ -5137,7 +5250,7 @@
       "required_skills": [],
       "creation_banned": false,
       "class_gate": "mastery",
-      "effect_html": "<p>When you acquire this Heroic Skill, choose <strong>three different tastes</strong> among <strong>bitter, salty, sour, sweet,</strong> and <strong>umami.</strong> Then, choose <strong>three different effects</strong> among the following:</p><ul><li>You deal 20 <strong>(choose one:</strong> @DMG[20 dark], @DMG[20 light]<strong>)</strong> damage to each of this <strong>delicacy's</strong> targets. This amount increases to 30 damage if you are <strong>level 30 or higher</strong>. Choose the type of this effect when you acquire this Heroic Skill.</li><li>During the next turn of each of this <strong>delicacy's</strong> targets, all damage they deal becomes <strong>(choose one:</strong> @TYPE[damage all dark], @TYPE[damage all light]<strong>)</strong> and its type cannot change. Choose the type of this effect when you acquire this Heroic Skill.</li><li>For each of this <strong>delicacy's</strong> targets, if they are affected by one or more spells with a <strong>duration</strong> of \"\"Scene\"\", instead they are no longer affected by any of those spells.</li><li>Choose yourself or an ally you can see. For each of this <strong>delicacy's</strong> targets, the next time that target performs an attack or cast an offensive spell ( @ICON[offensive] ) before the end of this scene, they must include the chosen creature among the targets of that attack or spell (if able).</li><li>Each of this <strong>delicacy</strong>'s targets suffers @EFFECT[enraged].</li><li>Each of this <strong>delicacy</strong>'s targets suffers @EFFECT[poisoned].</li><li>Each of this <strong>delicacy</strong>'s targets recovers @GAIN[30 hp] and @GAIN[30 mp], or @GAIN[40 hp] and @GAIN[40 mp] if you are <strong>level 30 or higher</strong>.</li><li>Each of this <strong>delicacy</strong>'s targets recovers from a single status of their choice.</li><li>Each of this <strong>delicacy</strong>'s targets recovers from <strong>dazed</strong>, <strong>enraged</strong>, and <strong>shaken</strong>.</li><li>Each of this <strong>delicacy</strong>'s targets recovers from <strong>poisoned</strong>, <strong>slow</strong>, and <strong>weak</strong>.</li></ul><p>When you create a <strong>delicacy</strong> using <strong>exactly 3 ingredients</strong> during a conflict, if each ingredient matches one of the <strong>tastes</strong> you chose when you acquired this Heroic Skill, you may ignore <strong>all</strong> of that <strong>delicacy</strong>'s normal effects. If you do, you may instead apply <strong>one</strong>, <strong>two</strong>, or <strong>all</strong> the effects you chose when you acquired this Heroic Skill.</p>"
+      "effect_html": "<p>When you acquire this Heroic Skill, choose <strong>three different tastes</strong> among <strong>bitter, salty, sour, sweet,</strong> and <strong>umami.</strong> Then, choose <strong>three different effects</strong> among the following:</p><ul><li>You deal 20 <strong>(choose one:</strong> 20 dark, 20 light<strong>)</strong> damage to each of this <strong>delicacy's</strong> targets. This amount increases to 30 damage if you are <strong>level 30 or higher</strong>. Choose the type of this effect when you acquire this Heroic Skill.</li><li>During the next turn of each of this <strong>delicacy's</strong> targets, all damage they deal becomes <strong>(choose one:</strong> dark, light<strong>)</strong> and its type cannot change. Choose the type of this effect when you acquire this Heroic Skill.</li><li>For each of this <strong>delicacy's</strong> targets, if they are affected by one or more spells with a <strong>duration</strong> of \"\"Scene\"\", instead they are no longer affected by any of those spells.</li><li>Choose yourself or an ally you can see. For each of this <strong>delicacy's</strong> targets, the next time that target performs an attack or cast an offensive spell () before the end of this scene, they must include the chosen creature among the targets of that attack or spell (if able).</li><li>Each of this <strong>delicacy</strong>'s targets suffers enraged.</li><li>Each of this <strong>delicacy</strong>'s targets suffers poisoned.</li><li>Each of this <strong>delicacy</strong>'s targets recovers 30 HP and 30 MP, or 40 HP and 40 MP if you are <strong>level 30 or higher</strong>.</li><li>Each of this <strong>delicacy</strong>'s targets recovers from a single status of their choice.</li><li>Each of this <strong>delicacy</strong>'s targets recovers from <strong>dazed</strong>, <strong>enraged</strong>, and <strong>shaken</strong>.</li><li>Each of this <strong>delicacy</strong>'s targets recovers from <strong>poisoned</strong>, <strong>slow</strong>, and <strong>weak</strong>.</li></ul><p>When you create a <strong>delicacy</strong> using <strong>exactly 3 ingredients</strong> during a conflict, if each ingredient matches one of the <strong>tastes</strong> you chose when you acquired this Heroic Skill, you may ignore <strong>all</strong> of that <strong>delicacy</strong>'s normal effects. If you do, you may instead apply <strong>one</strong>, <strong>two</strong>, or <strong>all</strong> the effects you chose when you acquired this Heroic Skill.</p>"
     },
     {
       "key": "spirit_of_the_law",
@@ -5218,8 +5331,7 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery",
-      "effect_html": "<p>When you perform a <strong>ranged</strong> attack using a weapon that belongs to the <strong>thrown</strong> Category, <strong>if you have no martial armor and no shields equipped</strong>, you gain <strong>1 Momentum Point</strong>.</p><p>You may never have more than <strong>5 Momentum Points</strong>.</p><p>Your <strong>ranged</strong> attacks using weapons that belong to the <strong>thrown</strong> Category deal extra damage equal to your current <strong>Momentum Points</strong>.</p><p>When a creature hits you with an attack targeting your <strong>Defense</strong>, you <strong>must</strong> spend all your accumulated <strong>Momentum Points</strong> and increase your Defense score by an equal amount against that attack (this may turn the hit into a miss).</p><p>You also lose all <strong>Momentum Points</strong> at the end of each scene, or if you equip a <strong>shield</strong> or <strong>martial armor</strong>.</p><hr /><p><strong>Resource:</strong> @PROGRESS[swirling-swarm update 1]{Advance Momentum Point} or @PROGRESS[swirling-swarm reset]{Reset Momentum Point}</p>"
+      "class_gate": "mastery"
     },
     {
       "key": "tabula_rasa",
@@ -5441,7 +5553,7 @@
       "required_skills": [],
       "creation_banned": false,
       "class_gate": "mastery",
-      "effect_html": "<p>As long as you have a one-handed <strong>melee</strong> weapon that belongs to the <strong>dagger</strong> or <strong>sword</strong> Categories equipped in each of your normal hand slots, you may treat your <strong>armor</strong> slot as if it were a second <strong>off-hand</strong> slot. You may only use this special slot to equip a one-handed <strong>melee</strong> weapon that belongs to the <strong>dagger</strong> or <strong>sword</strong> Categories — note that the <strong>Monkey Grip</strong> Skill does not turn two-handed weapons into one-handed weapons, and thus cannot be used in combination with <strong>Triple Slash</strong>.</p><p>When you perform the <strong>Attack</strong> action while you have three <strong>daggers</strong> and/or <strong>swords</strong> equipped, you may attack once with each weapon. This follows the normal rules for <strong>two-weapon fighting</strong>: each of the three attacks loses the multi property and cannot gain it, and you treat the <strong>High Roll (HR)</strong> of each Accuracy Check as being equal to 0 when determining damage.</p><hr /><p><em>To <strong>automate</strong>, navigate to the '<strong>Items</strong>' tab where the weapon you want to equip is located, and press <strong>Ctrl+Click</strong> on the icon in the '<strong>Equip?</strong>' column. The item will be added to the <strong>Phantom Slot</strong>. Equip weapons in both your main and off-hand slots. <strong>Shift+Click</strong> each weapon to roll as <strong>HR Zero</strong>. Make sure your <strong>Armor Slot</strong> is empty.</em></p>"
+      "effect_html": "<p>As long as you have a one-handed <strong>melee</strong> weapon that belongs to the <strong>dagger</strong> or <strong>sword</strong> Categories equipped in each of your normal hand slots, you may treat your <strong>armor</strong> slot as if it were a second <strong>off-hand</strong> slot. You may only use this special slot to equip a one-handed <strong>melee</strong> weapon that belongs to the <strong>dagger</strong> or <strong>sword</strong> Categories — note that the <strong>Monkey Grip</strong> Skill does not turn two-handed weapons into one-handed weapons, and thus cannot be used in combination with <strong>Triple Slash</strong>.</p><p>When you perform the <strong>Attack</strong> action while you have three <strong>daggers</strong> and/or <strong>swords</strong> equipped, you may attack once with each weapon. This follows the normal rules for <strong>two-weapon fighting</strong>: each of the three attacks loses the multi property and cannot gain it, and you treat the <strong>High Roll (HR)</strong> of each Accuracy Check as being equal to 0 when determining damage.</p><hr><p><em>To <strong>automate</strong>, navigate to the '<strong>Items</strong>' tab where the weapon you want to equip is located, and press <strong>Ctrl+Click</strong> on the icon in the '<strong>Equip?</strong>' column. The item will be added to the <strong>Phantom Slot</strong>. Equip weapons in both your main and off-hand slots. <strong>Shift+Click</strong> each weapon to roll as <strong>HR Zero</strong>. Make sure your <strong>Armor Slot</strong> is empty.</em></p>"
     },
     {
       "key": "twilight_dismissal",
@@ -5618,7 +5730,7 @@
       "required_skills": [],
       "creation_banned": false,
       "class_gate": "mastery",
-      "effect_html": "<p>After you sing a <strong>haunting verse</strong>, or after you succeed on an Opposed Check for your <strong>Condemn</strong> Skill, you may choose one enemy among the targets of that <strong>verse</strong> or Skill.</p><p>If you do, choose one status effect that enemy is currently suffering from: that enemy becomes <strong>bewitched</strong> until the start of your next turn or until they recover from the chosen status effect. Enemies you have <strong>bewitched</strong> must include you among the targets of their attacks and offensive spells (@ICON[offensive]), if able.</p>"
+      "effect_html": "<p>After you sing a <strong>haunting verse</strong>, or after you succeed on an Opposed Check for your <strong>Condemn</strong> Skill, you may choose one enemy among the targets of that <strong>verse</strong> or Skill.</p><p>If you do, choose one status effect that enemy is currently suffering from: that enemy becomes <strong>bewitched</strong> until the start of your next turn or until they recover from the chosen status effect. Enemies you have <strong>bewitched</strong> must include you among the targets of their attacks and offensive spells (), if able.</p>"
     },
     {
       "key": "words_of_light",

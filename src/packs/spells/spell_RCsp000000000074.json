@@ -11,7 +11,7 @@
 		"summary": {
 			"value": "You focus your inner energy into a barrage of blinding soul rays."
 		},
-		"description": "<p>You focus your inner energy into a barrage of blinding soul rays. You deal <strong>【HR + 15】</strong> <strong>light</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers @EFFECT[dazed].</p>",
+		"description": "<p>You focus your inner energy into a barrage of blinding soul rays. You deal <strong>【HR + 15】</strong> <strong>light</strong> damage to each target hit by this spell.</p><hr /><p><strong>Opportunity:</strong> Each target hit by this spell suffers dazed.</p>",
 		"mpCost": {
 			"value": "10 × T"
 		},

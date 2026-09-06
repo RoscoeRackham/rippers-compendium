@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Dancer mastery"
 		},
-		"description": "<p>At the start of your turn during a conflict, if you have no <strong>martial armor</strong> equipped, you may spend 1 Fabula Point to immediately perform <strong>up to three different dances</strong> among those you know, in the order you prefer and without paying their MP cost. If you do, you <strong>cannot perform dances in any way</strong> until the end of your next turn.</p><hr /><p><strong>You Spend:</strong> @LOSS[1 fp]<br /><strong>You Suffer:</strong> @EFFECT[Compendium.projectfu.heroic-skills.Item.WJD7tqc73P24UFg4]</p>",
+		"description": "<p>At the start of your turn during a conflict, if you have no <strong>martial armor</strong> equipped, you may spend 1 Fabula Point to immediately perform <strong>up to three different dances</strong> among those you know, in the order you prefer and without paying their MP cost. If you do, you <strong>cannot perform dances in any way</strong> until the end of your next turn.</p><hr><p><strong>You Spend:</strong> 1 Fabula Points<br /><strong>You Suffer:</strong> Effect: Showstopper</p>",
 		"hasRoll": {
 			"value": false
 		}
