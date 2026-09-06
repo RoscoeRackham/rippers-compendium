@@ -552,7 +552,7 @@
       "skill_key": "quick_summoning",
       "display_name": "Quick Summoning",
       "max_sl": 4,
-      "summary": "When summoning on your turn, choose up to two: reduce the MP cost by (SL × 5); and/or perform the pulse immediately. One option locks the Arcanum in until your next turn; both forfeit its dismiss effect for this summoning.",
+      "summary": "When you summon an Arcanum during your turn, choose up to two options: reduce its MP cost by (SL × 5); and/or after summoning, if merged, perform its pulse. If you choose at least one option, you cannot willingly dismiss that Arcanum until the start of your next turn; if you choose both, that Arcanum's dismiss effect is unavailable during this summoning.",
       "sort": 4
     },
     {
@@ -3281,6 +3281,14 @@
       "display_name": "Siren's Song",
       "max_sl": 1,
       "summary": "Grants Ritual access to the Ritualism discipline, extended to sound-based illusions — illusions only. A named extension of the universal discipline, not a second contested school. No general sound magic rides in: a voice that isn't there, a hoofbeat on the wrong street, a scream from an empty room; never a real, load-bearing sound effect. (Compensation ruling, Austin, 6 Aug 2026.)",
+      "sort": 5
+    },
+    {
+      "class_key": "symbolist",
+      "skill_key": "mirage",
+      "display_name": "Mirage",
+      "max_sl": 1,
+      "summary": "Ritual access to the Ritualism discipline, plus the ability to use Ritualism to create sight-based illusions.",
       "sort": 5
     }
   ],

@@ -1,0 +1,45 @@
+{
+	"name": "Mirage",
+	"type": "skill",
+	"_id": "RCsk000000000360",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "mirage",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (symbolist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Ritual access to the Ritualism discipline, plus the ability to use Ritualism to create sight-based illusions."
+		},
+		"description": "<p>Ritual access to the Ritualism discipline, plus the ability to use Ritualism to create sight-based illusions.</p>",
+		"class": {
+			"value": "Symbolist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "symbolist",
+			"skillKey": "mirage",
+			"maxSl": 1,
+			"grantsRitual": "ritualism"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000360"
+}
