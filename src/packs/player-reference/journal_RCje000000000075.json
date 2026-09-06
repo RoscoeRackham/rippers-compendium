@@ -3,7 +3,7 @@
 	"_id": "RCje000000000075",
 	"pages": [
 		{
-			"_id": "RCpg000000000088",
+			"_id": "RCpg000000000089",
 			"name": "NPC Spells",
 			"type": "text",
 			"title": {
@@ -21,7 +21,7 @@
 				"systemId": "projectfu",
 				"coreVersion": "13.0.0"
 			},
-			"_key": "!journal.pages!RCje000000000075.RCpg000000000088"
+			"_key": "!journal.pages!RCje000000000075.RCpg000000000089"
 		}
 	],
 	"folder": "RCfd000000000003",

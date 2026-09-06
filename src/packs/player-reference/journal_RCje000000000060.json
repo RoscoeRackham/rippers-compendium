@@ -3,7 +3,7 @@
 	"_id": "RCje000000000060",
 	"pages": [
 		{
-			"_id": "RCpg000000000073",
+			"_id": "RCpg000000000074",
 			"name": "Spiritist",
 			"type": "text",
 			"title": {
@@ -21,7 +21,7 @@
 				"systemId": "projectfu",
 				"coreVersion": "13.0.0"
 			},
-			"_key": "!journal.pages!RCje000000000060.RCpg000000000073"
+			"_key": "!journal.pages!RCje000000000060.RCpg000000000074"
 		}
 	],
 	"folder": "RCfd000000000002",
