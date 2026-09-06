@@ -3290,6 +3290,14 @@
       "max_sl": 1,
       "summary": "Ritual access to the Ritualism discipline, plus the ability to use Ritualism to create sight-based illusions.",
       "sort": 5
+    },
+    {
+      "class_key": "malefactor",
+      "skill_key": "ritual_malefaction",
+      "display_name": "Ritual Malefaction",
+      "max_sl": 1,
+      "summary": "You may perform rituals falling within the Malefaction discipline, using (INS + WLP) for the Magic Check.",
+      "sort": 5
     }
   ],
   "heroic_skills": [
