@@ -148,6 +148,7 @@ const RITUAL_GRANT_SKILLS = {
   'floralist/verdant_sway': 'ritualism',  // "Grants Rituals of the Ritualism discipline"
   'sensitive/navigator': 'ritualism',     // "Ritualism for Aether purposes only" — scoped Ritualism
   'ritualist/ritualistic_efficiency': 'ritualism',  // v0.1.5 (Austin, 2026-08-24): Ritualistic Efficiency grants Ritual access — matches League source (Ritualist prints Ritualism). Reverses the earlier no-grant ruling.
+  'arcanist/ritual_arcanism': 'arcanism',  // v0.4.4 (Austin, 2026-09-06): the variant Arcanist's Ritual Arcanism is a bought Skill granting Arcanism rituals (scoped to bound-Arcana domains, WLP+WLP). The CRB free grant does not carry; the grant fires only when the Skill is taken. Source: CLASSREF-arcanist-playtest.md §3, CLASSES-master-list.md.
 };
 // Route-2 PROJECT grants (Case B FINAL contract): skills that confer the ability to initiate Projects.
 // flags.<MODULE_ID>.grantsProject = true; the rippers-guise engine reads it (characterCanInitiateProjects).

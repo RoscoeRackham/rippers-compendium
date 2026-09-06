@@ -3266,6 +3266,14 @@
       "max_sl": 1,
       "summary": "You may perform Rituals whose effects fall within the Illusionism discipline. Illusionism Rituals use (INS + WLP) for the Magic Check.",
       "sort": 6
+    },
+    {
+      "class_key": "arcanist",
+      "skill_key": "ritual_arcanism",
+      "display_name": "Ritual Arcanism",
+      "max_sl": 1,
+      "summary": "Perform Rituals of the Arcanism discipline, as long as their effects fall within the domains of one or more Arcana you have bound. Arcanism Rituals use (WLP + WLP) for the Magic Check.",
+      "sort": 5
     }
   ],
   "heroic_skills": [

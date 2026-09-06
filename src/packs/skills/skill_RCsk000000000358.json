@@ -1,0 +1,45 @@
+{
+	"name": "Ritual Arcanism",
+	"type": "skill",
+	"_id": "RCsk000000000358",
+	"img": "icons/svg/upgrade.svg",
+	"system": {
+		"fuid": "ritual_arcanism",
+		"source": {
+			"value": "Rippers Unmasked — class_skills (arcanist)"
+		},
+		"subtype": {
+			"value": ""
+		},
+		"summary": {
+			"value": "Perform Rituals of the Arcanism discipline, as long as their effects fall within the domains of one or more Arcana you h"
+		},
+		"description": "<p>Perform Rituals of the Arcanism discipline, as long as their effects fall within the domains of one or more Arcana you have bound. Arcanism Rituals use (WLP + WLP) for the Magic Check.</p>",
+		"class": {
+			"value": "Arcanist"
+		},
+		"level": {
+			"value": 0,
+			"min": 0,
+			"max": 1
+		},
+		"hasRoll": {
+			"value": false
+		}
+	},
+	"effects": [],
+	"folder": null,
+	"flags": {
+		"rippers-compendium": {
+			"classKey": "arcanist",
+			"skillKey": "ritual_arcanism",
+			"maxSl": 1,
+			"grantsRitual": "arcanism"
+		}
+	},
+	"_stats": {
+		"systemId": "projectfu",
+		"coreVersion": "13.0.0"
+	},
+	"_key": "!items!RCsk000000000358"
+}
