@@ -63,8 +63,8 @@ function expand(html) {
   // @UUID with label, then without label (resolve id -> name)
   s = s.replace(/@UUID\[[^\]]*\]\{([^}]*)\}/g, (_m, l) => l);
   s = s.replace(/@UUID\[[^\]]*\]/g, (m) => { const i = m.match(/\.([A-Za-z0-9]+)\]$/); return (i && idName.get(i[1])) || (i ? i[1] : m); });
-  // other enrichers
-  s = s.replace(/@([A-Z]+)\[([^\]]*)\]/g, (m, kind, arg) => {
+  // other enrichers — match mixed-case names too (@Embed, etc.), else they leak (Coroner AUDIT-048)
+  s = s.replace(/@([A-Za-z]+)\[([^\]]*)\]/g, (m, kind, arg) => {
     const a = arg.replace(/&amp;/g, '&').trim();
     if (kind === 'ICON') return '';
     if (kind === 'EFFECT') {
@@ -86,10 +86,11 @@ function expand(html) {
     if (kind === 'WEAPON') { return /^[a-z ]+$/i.test(a) ? a.split(/\s+/).join(', ') : m; }
     return m; // PROGRESS/CLOCK/anything else -> residual
   });
-  // clean any doubled spaces left by dropped @ICON
-  return s.replace(/\s{2,}/g, ' ').replace(/\(\s+/g, '(').replace(/\s+\)/g, ')');
+  // dropped @ICON often sat alone inside parentheses -> remove the now-empty "()" (Coroner AUDIT-048);
+  // then clean doubled spaces / inner-paren whitespace.
+  return s.replace(/\s*\(\s*\)/g, '').replace(/\s{2,}/g, ' ').replace(/\(\s+/g, '(').replace(/\s+\)/g, ')').replace(/\s+([.,;:])/g, '$1');
 }
-const hasEnricher = (s) => /@[A-Z]+\[/.test(String(s || ''));
+const hasEnricher = (s) => /@[A-Za-z]+\[/.test(String(s || ''));
 const fuEffect = (html) => { const p = String(html || '').split(/<hr\s*\/?>/i); return p.length > 1 ? p.slice(1).join('<hr>') : String(html || ''); };
 
 // ---- process spells-source (effectHtml) + db-snapshot (effect_html) -----------------------
@@ -107,7 +108,7 @@ function processItem(name, m, setEffect, isSpell) {
   if (!m) return 'homebrew';
   const raw = isSpell ? String(m.system?.description || '') : fuEffect(m.system?.description); // heroics/skills: drop req block; spells: whole
   const clean = expand(raw);
-  if (hasEnricher(clean)) { ledger.crbNeeded.push({ name, type: m.type, residual: (clean.match(/@[A-Z]+\[[^\]]*\]/g) || []) }); return 'crb'; }
+  if (hasEnricher(clean)) { setEffect(null); ledger.crbNeeded.push({ name, type: m.type, residual: (clean.match(/@[A-Za-z]+\[[^\]]*\]/g) || []) }); return 'crb'; } // clear stale effect -> fall back to clean original
   setEffect(clean);
   ledger.converted.push({ name, type: m.type });
   return 'converted';
@@ -117,11 +118,11 @@ const sp = JSON.parse(fs.readFileSync(path.join(MODULE, 'data', 'spells-source.j
 for (const lk of ['class_spells', 'spells']) for (const s of sp[lk] || []) {
   const m = fuForSpell(s);
   if (!m) continue;
-  processItem(s.name, m, (v) => { s.effectHtml = v; }, true);
+  processItem(s.name, m, (v) => { if (v == null) delete s.effectHtml; else s.effectHtml = v; }, true);
 }
 const snap = JSON.parse(fs.readFileSync(path.join(MODULE, 'data', 'db-snapshot.json'), 'utf8'));
-for (const h of snap.heroic_skills) processItem(h.display_name, fu.fuid.get(h.key) || fu.name.get(norm(h.display_name)), (v) => { h.effect_html = v; }, false);
-for (const r of snap.class_skills) processItem(r.display_name, fu.fuid.get(r.skill_key) || fu.name.get(norm(r.display_name)), (v) => { r.effect_html = v; }, false);
+for (const h of snap.heroic_skills) processItem(h.display_name, fu.fuid.get(h.key) || fu.name.get(norm(h.display_name)), (v) => { if (v == null) delete h.effect_html; else h.effect_html = v; }, false);
+for (const r of snap.class_skills) processItem(r.display_name, fu.fuid.get(r.skill_key) || fu.name.get(norm(r.display_name)), (v) => { if (v == null) delete r.effect_html; else r.effect_html = v; }, false);
 
 if (process.argv.includes('--write')) {
   fs.writeFileSync(path.join(MODULE, 'data', 'spells-source.json'), JSON.stringify(sp, null, 2));

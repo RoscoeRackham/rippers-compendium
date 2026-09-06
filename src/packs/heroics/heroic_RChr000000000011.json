@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Dowser (Invoker), Elementalist, Entropist or Symbolist mastery + Invocation"
 		},
-		"description": "<p>After an enemy you can see hits or misses you with an offensive spell (), if the Result of their Magic Check was an <strong>even number</strong>, you may immediately use the <strong>Invocation</strong> Skill for free (after the spell has been fully resolved) to perform an <strong>invocation</strong> you have access to against that enemy, without spending Mind Points. This invocation must not be a \"<strong>hex</strong>\", and it may target <strong>only</strong> that enemy (you cannot use the <strong>Linked Invocation</strong> Skill with it).</p>",
+		"description": "<p>After an enemy you can see hits or misses you with an offensive spell, if the Result of their Magic Check was an <strong>even number</strong>, you may immediately use the <strong>Invocation</strong> Skill for free (after the spell has been fully resolved) to perform an <strong>invocation</strong> you have access to against that enemy, without spending Mind Points. This invocation must not be a \"<strong>hex</strong>\", and it may target <strong>only</strong> that enemy (you cannot use the <strong>Linked Invocation</strong> Skill with it).</p>",
 		"hasRoll": {
 			"value": false
 		}

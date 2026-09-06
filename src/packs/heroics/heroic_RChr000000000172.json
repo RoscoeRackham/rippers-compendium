@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Chanter or Orator mastery"
 		},
-		"description": "<p>After you sing a <strong>haunting verse</strong>, or after you succeed on an Opposed Check for your <strong>Condemn</strong> Skill, you may choose one enemy among the targets of that <strong>verse</strong> or Skill.</p><p>If you do, choose one status effect that enemy is currently suffering from: that enemy becomes <strong>bewitched</strong> until the start of your next turn or until they recover from the chosen status effect. Enemies you have <strong>bewitched</strong> must include you among the targets of their attacks and offensive spells (), if able.</p>",
+		"description": "<p>After you sing a <strong>haunting verse</strong>, or after you succeed on an Opposed Check for your <strong>Condemn</strong> Skill, you may choose one enemy among the targets of that <strong>verse</strong> or Skill.</p><p>If you do, choose one status effect that enemy is currently suffering from: that enemy becomes <strong>bewitched</strong> until the start of your next turn or until they recover from the chosen status effect. Enemies you have <strong>bewitched</strong> must include you among the targets of their attacks and offensive spells, if able.</p>",
 		"hasRoll": {
 			"value": false
 		}

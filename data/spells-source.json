@@ -695,7 +695,7 @@
       },
       "effect": "You twist the laws of magic. Until this spell ends, when the target is targeted by an offensive spell (O), the creature that cast that offensive spell will be targeted in their stead (any other targets of the offensive spell will be targeted as normal). Once that happens, this spell ends.",
       "source": "Core Rulebook v1.1 (Mirror)",
-      "effectHtml": "<p>You twist the laws of magic. Until this spell ends, when the target is targeted by an offensive spell (), the creature that cast that offensive spell will be targeted in their stead (any other targets of the offensive spell will be targeted as normal). Once that happens, this spell ends.</p>"
+      "effectHtml": "<p>You twist the laws of magic. Until this spell ends, when the target is targeted by an offensive spell, the creature that cast that offensive spell will be targeted in their stead (any other targets of the offensive spell will be targeted as normal). Once that happens, this spell ends.</p>"
     },
     {
       "spell_key": "entropism/temporal-arrest",
@@ -840,8 +840,7 @@
         "_gap": "RANDOM outcome + random type: on a 9 result, deal 30 damage to any number of creatures; on 9+, roll d6 for type (1=air,2=bolt,3=dark,4=earth,5=fire,6=poison). Damage type not fixed; whole spell is a Willpower-die outcome table. Needs special handling / macro."
       },
       "effect": "You summon a vortex of chaotic energy. Roll your current Willpower die once for every 10 Mind Points spent while casting this spell, then keep the single die you prefer: the number on that die determines the effects of this spell. [1: Lose half current HP and MP] [2-3: Each creature present (including self) suffers poisoned] [4-6: Each creature present (including self) suffers slow] [7-8: Choose up to three creatures you can see — each recovers 50 HP and recovers from all status effects] [9: Choose any number of creatures you can see — deal 30 damage to each] [9+ damage type determined by rolling d6: 1=air, 2=bolt, 3=dark, 4=earth, 5=fire, 6=poison]",
-      "source": "Core Rulebook v1.1 (Gamble)",
-      "effectHtml": "<p>You summon a vortex of chaotic energy. Roll your current <strong>Willpower</strong> die once for every 10 Mind Points spent while casting this spell, then keep the <strong>single</strong> die you prefer: the number on that die determines the effects of this spell.</p><p>@Embed[Compendium.projectfu.rollable-tables.RollTable.ZAY11CArn1cYCyqP inline rollable]</p>"
+      "source": "Core Rulebook v1.1 (Gamble)"
     },
     {
       "spell_key": "entropism/the-perihelion",
