@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Mutant mastery"
 		},
-		"description": "<p>Ecdysis may also clear all status effects and/or end every Scene-duration spell on you.</p>",
+		"description": "<p>When you use the Ecdysis Skill, you may also choose one or both options:</p><ul><li><p>You recover from all status effects.</p></li><li><p>If you are affected by one or more spells with a <strong>duration</strong> of “Scene”, you are no longer affected by any of those spells.</p></li></ul>",
 		"hasRoll": {
 			"value": false
 		}

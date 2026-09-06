@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Floralist mastery"
 		},
-		"description": "<p>Once per turn, when a magiseed leaves your garden, if it has one or more \"at the end of your turn\" effects, spend 20 MP to reproduce one of them — including an effect that does not match your current filled sections. And with Verdant Sway, your Rituals may influence and control soldier-Rank plant-Species creatures; never create them. Read the first clause against Wrathful Carnation: voluntary removal is a magiseed leaving your garden, and so is Graft. This is how a Floralist fires a tier-3 effect from a clock sitting at 1.</p>",
+		"description": "<p>Once per turn when a <strong>magiseed</strong> leaves your <strong>garden</strong>, if that <strong>magiseed</strong> has one or more \"at the end of your turn\" effects, you may spend 20 Mind Points. If you do, reproduce <strong>one</strong> of those effects (you may also choose an effect that doesn't match the current sections of your <strong>Growth Clock</strong>).</p><p>Additionally, if you have acquired the Verdant Sway Skill, your Rituals can now also influence and control <strong>soldier</strong>-Rank creatures belonging to the <strong>plant</strong> Species (but you are still unable to <strong>create</strong> them).</p>",
 		"hasRoll": {
 			"value": false
 		}

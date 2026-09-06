@@ -3336,7 +3336,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>Once per scene when you use the <strong>Cooking</strong> Skill, you may combine <strong>four ingredients into a delicacy</strong> (thus ignoring the normal limit of three ingredients). Other than that, the delicacy follows the normal rules.</p>"
     },
     {
       "key": "anatomist",
@@ -3353,7 +3354,8 @@
         "knowledge_is_power"
       ],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>Whenever you acquire this Heroic Skill, choose <strong>two</strong> Species among <strong>beast</strong>, <strong>construct</strong>, <strong>demon</strong>, <strong>elemental</strong>, <strong>monster</strong>, <strong>plant</strong>, and <strong>undead</strong>.</p><p>When you deal damage to a creature belonging to the <strong>humanoid</strong> Species or to a Species you have chosen for this Heroic Skill, you may choose one option:</p><ul><li><p>You deal 5 extra damage to that creature.</p></li><li><p>That creature becomes <strong>reeling</strong> until the end of the scene. When a <strong>reeling</strong> creature recovers Hit Points and/or Mind Points, instead that creature recovers <strong>half</strong> the normal amount of HP and/or MP and is no longer <strong>reeling</strong>.</p></li></ul><p>This Heroic Skill can be acquired <strong>up to three times</strong>.</p>"
     },
     {
       "key": "apotheosis",
@@ -3379,7 +3381,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you hit one or more creatures with an attack using a weapon that belongs to the <strong>arcane</strong> Category, the attack deals 5 extra damage and you may choose one of those creatures. If the next offensive spell (@ICON[offensive]) you cast during this scene <strong>only</strong> targets the chosen creature, its Magic Check will trigger a <strong>critical success</strong> if both dice show the same number (and the Check is not a <strong>fumble</strong>).</p>"
     },
     {
       "key": "arcane_sacrifice",
@@ -3392,7 +3395,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>Once per scene, when you and/or one or more allies you can see are reduced to 0 Hit Points, if you are <strong>merged</strong> with an Arcanum, you may instead be reduced to exactly 1 Hit Point. If you do, you must immediately <strong>dismiss</strong> that Arcanum (without applying any dismiss effect), and cannot summon them again until the end of the scene.</p><hr /><p><strong>You Receive:</strong> @GAIN[1 hp]</p>"
     },
     {
       "key": "arcane_symbolism",
@@ -3449,7 +3453,8 @@
         "invocation"
       ],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>After an enemy you can see hits or misses you with an offensive spell (@ICON[offensive]), if the Result of their Magic Check was an <strong>even number</strong>, you may immediately use the <strong>Invocation</strong> Skill for free (after the spell has been fully resolved) to perform an <strong>invocation</strong> you have access to against that enemy, without spending Mind Points. This invocation must not be a \"<strong>hex</strong>\", and it may target <strong>only</strong> that enemy (you cannot use the <strong>Linked Invocation</strong> Skill with it).</p>"
     },
     {
       "key": "black_and_white",
@@ -3464,7 +3469,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you resolve the <strong>Double Trouble</strong> effect, you may have all of its damage become <strong>light</strong> or <strong>dark</strong> (instead of being of a type matching the <strong>suits</strong> of the resolved cards).</p><p>Additionally, as long as there is a <strong>joker</strong> in your <strong>discard pile</strong>, all damage dealt by your <strong>Blinding Flush</strong>, <strong>Double Trouble</strong>, and <strong>Magic Flush</strong> effects ignores Immunities and Resistances.</p>"
     },
     {
       "key": "black_market",
@@ -3490,7 +3496,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>While you have one or more <strong>melee dagger</strong> weapons equipped, you gain a +1 bonus to Defense and Magic Defense, and you treat those weapons as also belonging to the <strong>brawling</strong>, <strong>sword</strong>, and <strong>thrown</strong> Categories for the purpose of Skills and effects.</p><p>Additionally, your attacks with weapons that belong to the <strong>dagger</strong> Category may target creatures that cannot normally be targeted by <strong>melee</strong> attacks.</p>"
     },
     {
       "key": "blood_rituals",
@@ -3518,7 +3525,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>While your <strong>Brainwave Clock</strong> is <strong>full</strong>, you may use an action to erase all of its sections. If you do, you may choose one option:</p><ul><li><p>You deal 20 <strong>physical</strong> damage to every enemy that is present on the scene.</p></li><li><p>You deal 30 <strong>physical</strong> damage to a single enemy you can see.</p></li></ul><p>This amount increases by 10 if you are <strong>level 20 or higher</strong>, or by 20 if you are <strong>level 40 or higher.</strong></p><hr /><p><strong>Resource:</strong> @CLOCK[brainwave-clock reset]{Reset Brainwave Clock}<br /><strong>Targets Suffer:</strong> @DMG[&amp;step(20,30,40) physical]{20|30|40 Physical (Single)} or @DMG[&amp;step(30,40,50) physical]{30|40|50 Physical (Multi)}</p>"
     },
     {
       "key": "brambleheart",
@@ -3533,7 +3541,8 @@
         "chloromancy"
       ],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>You are Resistant to <strong>light</strong> damage and <strong>poison</strong> damage.</p><p>After you lose Hit Points, if you are in <strong>Crisis</strong> and a <strong>magiseed</strong> is present in your <strong>garden</strong>, you may fill <strong>1 section</strong> of your <strong>Growth Clock</strong>.</p><p>Additionally, when you use the Shadow Strike Skill, you may have your attack deal <strong>poison</strong> damage instead of <strong>dark</strong> damage (the damage type still cannot be changed). If you do, your <strong>Shadow Strike</strong> deals extra damage equal to <strong>【twice the number of filled sections in your Growth Clock】</strong>.</p>"
     },
     {
       "key": "brave_bash",
@@ -3551,7 +3560,8 @@
         "bone_crusher"
       ],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you use the Bone Crusher Skill, if your attack targets <strong>only one creature</strong> and you have a <strong>shield</strong> equipped, you may <strong>challenge</strong> that creature until the end of your next turn. The <strong>challenge</strong> also ends if that creature is <strong>challenged</strong> by someone else, or if you <strong>challenge</strong> another creature.</p><p>The creature you are <strong>challenging</strong> must include you among the targets of their attacks and offensive spells (@ICON[offensive]), if able; additionally, once per turn (including other creatures' turns), when you deal damage to the creature you are <strong>challenging</strong> with a <strong>free attack</strong> using a <strong>one-handed melee</strong> weapon or a <strong>custom weapon</strong> belonging to the <strong>dagger</strong> or <strong>sword</strong> Category, you may deal 5 extra damage to that creature.</p>"
     },
     {
       "key": "broad_strokes",
@@ -3576,7 +3586,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>After an enemy you can see performs an <strong>Accuracy Check</strong> or a <strong>Magic Check</strong> for an offensive spell (@ICON[offensive]) on their turn during a conflict, you may grant them a +3 bonus to the Result of the Check. If you do, choose one option:</p><ul><li><p>You and every ally who is able to hear you gain Resistance to all damage types until the end of this turn.</p></li><li><p>You and every ally who is able to hear you deal 5 extra damage until the end of this turn.</p></li></ul><p>Once you use this Skill, you cannot use it again until the start of your next turn.</p><hr /><p><strong>You &amp; Allies Receive:</strong> @EFFECT[Compendium.projectfu.heroic-skills.Item.lqgayJpoKwrXlPVl]</p>"
     },
     {
       "key": "calamity",
@@ -3600,7 +3611,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you discard cards due to the <strong>Magic Cards</strong> Skill, you may choose 1 of them and place it face down in front of you as a <strong>vanguard card</strong> instead of putting it into your <strong>discard pile</strong>. You may only do so if you have <strong>two or fewer vanguard cards</strong> in play.</p><p>When a source deals damage to you and/or one or more allies you can see, you may reveal one of your <strong>vanguard cards</strong> in play. If you do and that card is a <strong>joker</strong> or its <strong>suit</strong> matches the damage type dealt by that source, you and every ally you can see gain Resistance to that damage type until the end of the current turn; then, put the revealed <strong>vanguard card</strong> on top of your <strong>discard pile</strong>, and it stops being a <strong>vanguard card</strong>.</p><p>You may look at your <strong>vanguard cards</strong> at any time. At the end of each conflict, if you have one or more <strong>vanguard cards</strong> in play, shuffle them back into your deck.</p><hr /><p><strong>You &amp; Allies Receive:</strong> @EFFECT[Compendium.projectfu.heroic-skills.Item.yiXDxlkj7bhQyRyt], @EFFECT[Compendium.projectfu.heroic-skills.Item.WXh8k8YTJeGtdzLg], @EFFECT[Compendium.projectfu.heroic-skills.Item.rb2CVOWvXQDOvUVw], or @EFFECT[Compendium.projectfu.heroic-skills.Item.CeJ6JpsXwWRUDz1k]</p>"
     },
     {
       "key": "category_training",
@@ -3622,7 +3634,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>The MP costs for your Bishop's Edict, Charging Cavalry, and King's Castle are halved.</p>"
     },
     {
       "key": "clean_slate",
@@ -3634,7 +3647,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>You may use an action and spend up to 30 Mind Points to choose one creature you can see for every 5 MP spent this way. Each creature chosen this way recovers from all status effects and is no longer affected by any spells with a <strong>duration</strong> of “Scene” that were affecting them.</p><hr /><p><strong>You Spend for Each Creature:</strong> @LOSS[5 mp]</p>"
     },
     {
       "key": "consecrated_weapon",
@@ -3713,7 +3727,8 @@
       ],
       "required_skills": [],
       "creation_banned": true,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>You reduce Inventory Point costs by 1 (to a minimum of 1).</p>"
     },
     {
       "key": "detonation_artist",
@@ -3738,7 +3753,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you perform the <strong>Attack</strong> action with a <strong>ranged</strong> weapon that belongs to the <strong>bow</strong> Category, if you have <strong>no other weapon equipped</strong>, you may perform two separate attacks instead of one (against the same target or against different targets). If you do, both attacks follow the rules for <strong>two-weapon fighting</strong>: each attack loses the <strong>multi</strong> property and cannot gain it, and you treat the High Roll of each Accuracy Check as being equal to 0 when determining damage.</p><p>Note that this Heroic Skill <strong>does not stack</strong> with a custom weapon's <strong>quick</strong> customization (using <strong>Double Arrows</strong> with a <strong>quick</strong> bow doesn't allow more than two attacks, in short).</p>"
     },
     {
       "key": "drunkards_dance",
@@ -3769,7 +3785,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you resolve the <strong>Magic Pair</strong> effect, if you attack with a weapon belonging to the <strong>arcane</strong>, <strong>dagger</strong>, <strong>firearm</strong>, <strong>sword</strong>, or <strong>thrown</strong> Category, you deal extra damage equal to <strong>【the common value of the resolved cards】</strong> and regain an amount of Mind Points equal to <strong>【twice the common value of the resolved cards】</strong>. For instance, resolving a pair of <strong>5s</strong> will allow you to deal 5 extra damage and regain 10 Mind Points.</p>"
     },
     {
       "key": "dungeon_chef",
@@ -3866,7 +3883,8 @@
       "mastery_classes": [],
       "required_skills": [],
       "creation_banned": true,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>Permanently increase your maximum Hit Points by 10.</p><p>The amount of additional HP increases to 20 if you are <strong>level 40 or higher</strong>.</p>"
     },
     {
       "key": "extra_ip",
@@ -3876,7 +3894,8 @@
       "mastery_classes": [],
       "required_skills": [],
       "creation_banned": true,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>Permanently increase your maximum Inventory Points by 4.</p>"
     },
     {
       "key": "extra_mp",
@@ -3886,7 +3905,8 @@
       "mastery_classes": [],
       "required_skills": [],
       "creation_banned": true,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>Permanently increase your maximum Mind Points by 10.</p><p>The amount of additional MP increases to 20 if you are <strong>level 40 or higher</strong>.</p>"
     },
     {
       "key": "extra_tools",
@@ -3969,7 +3989,8 @@
         "magic_cards"
       ],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>After you discard cards due to the <strong>Magic Cards</strong> Skill, if at least one of those cards is a <strong>joker</strong>, you may choose any number of <strong>non-joker</strong> cards in your <strong>discard pile</strong> and shuffle them into your <strong>deck</strong>.</p><p>You also add the following <strong>effect</strong> to your list of <strong>sets</strong>:</p><table style=\"height:34px;width:100%;border-width:1px;margin-left:auto;margin-right:auto\" border=\"1\"><colgroup><col style=\"width:27.9621%\"></col><col style=\"width:72.0379%\"></col></colgroup><tbody><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\"><strong>Effect</strong></td><td style=\"height:17px;border-width:1px\"><strong>Set Requirements</strong></td></tr><tr style=\"height:17px\"><td style=\"height:17px;border-width:1px\"><strong>Forbidden Monarch</strong></td><td style=\"height:17px;border-width:1px\"><p><strong>4 cards</strong> of the <strong>same value</strong>, <strong>none</strong> of which is a <strong>joker</strong> + <strong>1 joker</strong></p></td></tr></tbody></table><p>You deal damage 777 damage to every enemy you can see; the type of this damage is <strong>light</strong> if <strong>【the common value of the 4 cards】</strong> is <strong>even</strong>, or <strong>dark</strong> if that value is <strong>odd</strong>.</p><p>If there is a <strong>joker</strong> in your <strong>discard pile</strong>, the damage dealt by this effect ignores Immunities and Resistances.</p><p></p>"
     },
     {
       "key": "foul_mouthed",
@@ -4022,7 +4043,8 @@
         "gadgets"
       ],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you create a <strong>potion</strong> via <strong>alchemy</strong>, you may treat the die assigned to <strong>\"target\"</strong> as showing a value of <strong>13</strong> or <strong>17</strong> (even if that die shows a different number).</p>"
     },
     {
       "key": "greater_akromorphosis",
@@ -4036,7 +4058,8 @@
         "akromorphosis"
       ],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>You gain the following benefits based on the current Category of your <strong>unarmed strikes</strong>.</p><ul><li><p><strong>Arcane, brawling, dagger, thrown</strong>: your attacks with unarmed strikes treat the Defense of each target as being equal to their current Insight die size.</p></li><li><p><strong>Bow, sword</strong>: your attacks with <strong>unarmed strikes</strong> that target <strong>two or more creatures</strong> deal 5 extra damage.</p></li><li><p><strong>Firearm, heavy</strong>: your <strong>unarmed strikes</strong> deal 5 extra damage to <strong>constructs</strong>, and deal 5 extra damage to non-<strong>construct</strong> creatures who have at least one <strong>shield</strong> and/or <strong>martial armor</strong> equipped.</p></li><li><p><strong>Flail, spear</strong>: you gain a +2 bonus to Defense, and your attacks with <strong>unarmed strikes</strong> may target <strong>flying</strong> creatures.</p></li></ul><p>If your <strong>unarmed strikes</strong> are treated as belonging to <strong>more than one Category</strong> (for instance due to the Blade Adept Heroic Skill), you gain all the benefits of the corresponding Categories.</p><hr /><p><strong>You Receive:</strong> @EFFECT[Compendium.projectfu.heroic-skills.Item.uC3DZwPezU8UYOBM] or @EFFECT[Compendium.projectfu.heroic-skills.Item.s7qW1SP4kVyDNt5N]</p>"
     },
     {
       "key": "greater_chloromancy",
@@ -4048,7 +4071,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>Once per turn when a <strong>magiseed</strong> leaves your <strong>garden</strong>, if that <strong>magiseed</strong> has one or more \"at the end of your turn\" effects, you may spend 20 Mind Points. If you do, reproduce <strong>one</strong> of those effects (you may also choose an effect that doesn't match the current sections of your <strong>Growth Clock</strong>).</p><p>Additionally, if you have acquired the Verdant Sway Skill, your Rituals can now also influence and control <strong>soldier</strong>-Rank creatures belonging to the <strong>plant</strong> Species (but you are still unable to <strong>create</strong> them).</p>"
     },
     {
       "key": "greater_ecdysis",
@@ -4060,7 +4084,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you use the Ecdysis Skill, you may also choose one or both options:</p><ul><li><p>You recover from all status effects.</p></li><li><p>If you are affected by one or more spells with a <strong>duration</strong> of “Scene”, you are no longer affected by any of those spells.</p></li></ul>"
     },
     {
       "key": "greater_theriomorphosis",
@@ -4072,7 +4097,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you use the Theriomorphosis Skill on your turn during a conflict, if this <strong>did not</strong> happen through the <strong>Genoclepsis</strong> Skill, you may manifest the effects of <strong>up to three therioforms</strong> from those you have learned (instead of two); then, you may immediately perform an additional action. This additional action <strong>cannot</strong> be used for the <strong>Theriomorphosis</strong> Skill.</p>"
     },
     {
       "key": "green_thumb",
@@ -4084,7 +4110,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When <strong>you fill 1 or more sections of your Growth Clock</strong>, you may choose one option:</p><ul><li><p>You fill <strong>1 additional section</strong> of your Growth Clock.</p></li><li><p>You fill <strong>1 fewer section</strong> of your Growth Clock (to a minimum of 0 sections filled).</p></li></ul><p>If you do, you cannot use this effect again until after your <strong>Growth Clock</strong> has become completely empty.</p><p>Additionally, damage dealt by your <strong>magiseeds</strong> ignores Resistances.</p>"
     },
     {
       "key": "group_dance",
@@ -4148,7 +4175,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>As long as you have a <strong>weapon</strong> equipped in your <strong>main hand slot</strong> and a <strong>shield</strong> equipped in your <strong>off-hand slot</strong>, your attacks with that weapon deal 5 extra damage and you gain a +1 bonus to Defense.</p><p>This Skill <strong>cannot</strong> be combined with <strong>custom weapons</strong> with the <strong>defense boost</strong> customization, <strong>nor</strong> with the Dual Shieldbearer Skill.</p>"
     },
     {
       "key": "humble_strength",
@@ -4198,7 +4226,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you transform a <strong>transforming custom weapon</strong> on your turn, choose <strong>one</strong> option:</p><ul><li><p>If you have not performed any attacks during this turn, the next attack you perform with this weapon during this turn deals 5 extra damage.</p></li><li><p>If you hit one or more creatures with an attack using this weapon during this turn, you recover 5 Hit Points and 5 Mind Points.</p></li></ul><hr /><p><strong>You Receive:</strong> @EFFECT[Compendium.projectfu.heroic-skills.Item.0jslWSatV2i8SKix] or @EFFECT[Compendium.projectfu.heroic-skills.Item.3PRgAxgGjeOiBjKg]</p>"
     },
     {
       "key": "impaler_dragon",
@@ -4214,7 +4243,8 @@
         "shadow_strike"
       ],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you use the <strong>Shadow Strike</strong> Skill, you may treat your <strong>High Roll</strong> as being equal to 0 when determining damage dealt by this attack. If you do, after the effects granted by <strong>Shadow Strike</strong> are resolved, you may immediately perform the <strong>Charging Cavalry</strong> Skill for free (paying the appropriate MP cost).</p>"
     },
     {
       "key": "implanted_instincts",
@@ -4254,7 +4284,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you acquire this Heroic Skill and whenever you <strong>rest</strong>, you may choose one <strong>wellspring: air, earth, fire, lightning,</strong> or <strong>water</strong>. If you do, you gain the following benefits until your next <strong>rest</strong>:</p><ul><li><p>You <strong>always</strong> treat the chosen <strong>wellspring</strong> as being available during each scene, in addition to whatever <strong>wellsprings</strong> are already available.</p></li><li><p>You may perform Rituals of the <strong>Elementalism</strong> discipline, but only if those Rituals manipulate the element of the chosen <strong>wellspring</strong>.</p></li><li><p>You gain Resistance to the damage type corresponding to the chosen <strong>wellspring</strong>.</p></li><li><p>When you deal damage, you may change its type to the one corresponding to the chosen <strong>wellspring</strong>. If you do, that damage ignores Resistances.</p></li></ul><hr /><p><strong>You Receive:</strong> @EFFECT[Compendium.projectfu.heroic-skills.Item.GtQpSPtGlSmKHDCJ], @EFFECT[Compendium.projectfu.heroic-skills.Item.6vWRei0y7zSflcAa], @EFFECT[Compendium.projectfu.heroic-skills.Item.6hf553wjua9gGQj8], @EFFECT[Compendium.projectfu.heroic-skills.Item.2sjAa5CndDe7jCn9], or @EFFECT[Compendium.projectfu.heroic-skills.Item.Pzm4DlB840zw612o]</p>"
     },
     {
       "key": "inspiring_presence",
@@ -4300,7 +4331,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>After you hit one or more creatures with a <strong>melee</strong> attack using a weapon that belongs to the <strong>spear</strong> Category, if you have <strong>no other weapon equipped</strong>, you may spend 20 Mind Points and choose one of those creatures. If you do so, the attack deals <strong>half</strong> the normal amount of damage to each of its targets, and you choose one type of action among the following: <strong>Attack</strong>, <strong>Guard</strong>, <strong>Objective</strong>, <strong>Skill</strong>, or <strong>Spell</strong>. From now on, the chosen creature must spend 10 Mind points whenever they wish to perform that type of action. If they can't, they must perform a different type of action. This effect lasts until the start of your next turn, or until you use this Skill again.</p>"
     },
     {
       "key": "item_thrower",
@@ -4382,7 +4414,8 @@
         "soul_steal"
       ],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>After you successfully use the <strong>Soul Steal</strong> Skill against one or more enemies, you may choose one of them. If you do, you immediately perform the <strong>Study</strong> action for free against that enemy: treat the Result and High Roll of this Open Check as being equal to the Result and High Roll of the Check you performed for <strong>Soul Steal</strong> (do not roll dice for this Open Check).</p><p>When you deal damage to an <strong>elite</strong> or <strong>champion</strong>-rank enemy, if you stole that enemy's <strong>soul treasure</strong> during this scene, you deal extra damage equal to <strong>【your Skill Level in Soul Steal】</strong> to that enemy.</p>"
     },
     {
       "key": "little_treat",
@@ -4500,7 +4533,8 @@
         "shadow_strike"
       ],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you use the Shadow Strike Skill, you may choose <strong>fire</strong> or <strong>ice</strong>. If you do, all damage dealt by this attack becomes of the chosen type instead of <strong>dark</strong> (its damage type cannot change, as usual), and you gain Resistance to the damage type you did not choose until the start of your next turn.</p><p>When you perform a <strong>free attack</strong> with a <strong>melee</strong> weapon as part of the <strong>Shadow Strike</strong> Skill, the attack may target enemies that cannot be targeted by <strong>melee</strong> attacks.</p><hr /><p><strong>You Receive:</strong> @EFFECT[Compendium.projectfu.heroic-skills.Item.gJWZDrbPrRIA0Udi] or @EFFECT[Compendium.projectfu.heroic-skills.Item.YD0Qid4TdxUVksXQ]</p>"
     },
     {
       "key": "network_connection",
@@ -4597,7 +4631,8 @@
         "follow_my_lead"
       ],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>While you are in <strong>Crisis</strong>, you ignore the MP cost for your Follow My Lead Skill.</p>"
     },
     {
       "key": "peacock_strut",
@@ -4664,7 +4699,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you cast the Dispel spell, its <strong>MP</strong> cost becomes \"10 × T\" and its <strong>target</strong> becomes \"Up to three creatures\".</p><p>When you cause one or more enemies to stop being affected by one or more spells with a <strong>duration</strong> of \"Scene\", choose <strong>one</strong> option:</p><ul><li><p>You recover 20 Mind Points for each different spell whose effects ended on at least one of those enemies this way.</p></li><li><p>For each different spell whose effects ended on at least one of those enemies this way, apply a copy of that spell on yourself (if a spell allowed for choices upon casting it, you must retain the same choices that were made for this casting of the spell). This copying effect does not require actions, Mind Points, or Checks, and is not treated as \"casting a spell\".</p></li></ul><hr /><p><strong>You Receive:</strong> @GAIN[20 mp]</p>"
     },
     {
       "key": "pictomancer",
@@ -4733,7 +4769,8 @@
       ],
       "required_skills": [],
       "creation_banned": true,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you hit one or more creatures with a <strong>ranged</strong> attack, that attack deals 5 extra damage to each creature.</p><p>The amount of extra damage increases to 10 if you are <strong>level 40 or higher</strong>.</p>"
     },
     {
       "key": "powerful_spell",
@@ -4748,7 +4785,8 @@
       ],
       "required_skills": [],
       "creation_banned": true,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you cast a spell that deals damage to one or more creatures, that spell deals 5 extra damage to each creature.</p><p>The amount of extra damage increases to 10 if you are <strong>level 40 or higher</strong>.</p>"
     },
     {
       "key": "powerful_strike",
@@ -4762,7 +4800,8 @@
       ],
       "required_skills": [],
       "creation_banned": true,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you hit one or more creatures with a <strong>melee</strong> attack, that attack deals 5 extra damage to each creature.</p><p>The amount of extra damage increases to 10 if you are <strong>level 40 or higher</strong>.</p>"
     },
     {
       "key": "prophetic_defender",
@@ -4871,7 +4910,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you perform the <strong>Study</strong> action during a conflict, you may examine the <strong>profiles</strong> of <strong>all enemies</strong> you can see. If you do, you perform a single <strong>【INS + INS】</strong> Open Check and apply the Result <strong>separately</strong> to each enemy.</p><p>However, this Check <strong>cannot</strong> trigger your Flash of Insight Skill (if you have it).</p>"
     },
     {
       "key": "raising",
@@ -4948,7 +4988,8 @@
       ],
       "required_skills": [],
       "creation_banned": true,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>You make contact with an unknown Arcanum and bind it to your soul. This Arcanum must be something you design together with the rest of the group; as long as you live, no one else in your world will be able to bind that Arcanum.</p><p>Once per scene while you are <strong>merged</strong> with an Arcanum, you may use an action and spend 2 Fabula Points to <strong>trigger</strong> that Arcanum's <strong>dismiss</strong> effect (if any) without dismissing them. Doing so does not trigger the Arcane Circle Skill.</p><hr /><p><strong>You Spend:</strong> @LOSS[2 fp]</p>"
     },
     {
       "key": "rippling_invocation",
@@ -4974,7 +5015,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you perform a Ritual outside a conflict scene, if that Ritual has a <strong>total cost equal to or lower than 60 Mind Points</strong>, you may stop the process immediately before the Magic Check and store the Ritual's effect inside a <strong>Ritual seal</strong> placed on a surface you can touch. If you do, name a <strong>condition</strong> — this can be anything from “when I enter <strong>Crisis</strong>” to “as soon as I snap my fingers”. When that condition is met, the <strong>seal</strong> vanishes and the Ritual is unleashed at the <strong>seal</strong>'s location: you perform the Magic Check and resolve the effects as normal (even if you are unconscious or not present on the scene).</p><p>You may only have <strong>one Ritual seal</strong> active at the same time — if you die or create a new <strong>Ritual seal</strong>, the one you previously created will vanish.</p>"
     },
     {
       "key": "savage_heart",
@@ -5022,7 +5064,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>At the start of your turn during a conflict, if you have no <strong>martial armor</strong> equipped, you may spend 1 Fabula Point to immediately perform <strong>up to three different dances</strong> among those you know, in the order you prefer and without paying their MP cost. If you do, you <strong>cannot perform dances in any way</strong> until the end of your next turn.</p><hr /><p><strong>You Spend:</strong> @LOSS[1 fp]<br /><strong>You Suffer:</strong> @EFFECT[Compendium.projectfu.heroic-skills.Item.WJD7tqc73P24UFg4]</p>"
     },
     {
       "key": "silent_hunter",
@@ -5039,7 +5082,8 @@
         "high_speed"
       ],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you use the High Speed Skill to perform a <strong>free attack</strong> with a weapon belonging to the <strong>bow</strong>, <strong>spear</strong>, or <strong>thrown</strong> Category, the attack deals extra damage equal to <strong>【your Skill Level in the High Speed Skill, multiplied by 5】</strong>.</p><p>Additionally, when you attack one or more creatures with a weapon that belongs to the <strong>bow</strong>, <strong>spear</strong>, or <strong>thrown</strong> Category, those creatures cannot perform <strong>free attacks</strong> until the end of the current turn.</p>"
     },
     {
       "key": "sinister_runes",
@@ -5069,7 +5113,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>Potions and delicacies you create, as well as <strong>spells</strong> you cast, can now cause creatures to recover Hit Points and Mind Points beyond their <strong>maximum HP and MP</strong> scores, up to 150% of the respective scores. At the end of each scene, if the <strong>current Hit Points and/or Mind Points</strong> of a creature are still above the maximum scores, they become equal to the maximum score.</p>"
     },
     {
       "key": "skyjump",
@@ -5091,7 +5136,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you acquire this Heroic Skill, choose <strong>three different tastes</strong> among <strong>bitter, salty, sour, sweet,</strong> and <strong>umami.</strong> Then, choose <strong>three different effects</strong> among the following:</p><ul><li>You deal 20 <strong>(choose one:</strong> @DMG[20 dark], @DMG[20 light]<strong>)</strong> damage to each of this <strong>delicacy's</strong> targets. This amount increases to 30 damage if you are <strong>level 30 or higher</strong>. Choose the type of this effect when you acquire this Heroic Skill.</li><li>During the next turn of each of this <strong>delicacy's</strong> targets, all damage they deal becomes <strong>(choose one:</strong> @TYPE[damage all dark], @TYPE[damage all light]<strong>)</strong> and its type cannot change. Choose the type of this effect when you acquire this Heroic Skill.</li><li>For each of this <strong>delicacy's</strong> targets, if they are affected by one or more spells with a <strong>duration</strong> of \"\"Scene\"\", instead they are no longer affected by any of those spells.</li><li>Choose yourself or an ally you can see. For each of this <strong>delicacy's</strong> targets, the next time that target performs an attack or cast an offensive spell ( @ICON[offensive] ) before the end of this scene, they must include the chosen creature among the targets of that attack or spell (if able).</li><li>Each of this <strong>delicacy</strong>'s targets suffers @EFFECT[enraged].</li><li>Each of this <strong>delicacy</strong>'s targets suffers @EFFECT[poisoned].</li><li>Each of this <strong>delicacy</strong>'s targets recovers @GAIN[30 hp] and @GAIN[30 mp], or @GAIN[40 hp] and @GAIN[40 mp] if you are <strong>level 30 or higher</strong>.</li><li>Each of this <strong>delicacy</strong>'s targets recovers from a single status of their choice.</li><li>Each of this <strong>delicacy</strong>'s targets recovers from <strong>dazed</strong>, <strong>enraged</strong>, and <strong>shaken</strong>.</li><li>Each of this <strong>delicacy</strong>'s targets recovers from <strong>poisoned</strong>, <strong>slow</strong>, and <strong>weak</strong>.</li></ul><p>When you create a <strong>delicacy</strong> using <strong>exactly 3 ingredients</strong> during a conflict, if each ingredient matches one of the <strong>tastes</strong> you chose when you acquired this Heroic Skill, you may ignore <strong>all</strong> of that <strong>delicacy</strong>'s normal effects. If you do, you may instead apply <strong>one</strong>, <strong>two</strong>, or <strong>all</strong> the effects you chose when you acquired this Heroic Skill.</p>"
     },
     {
       "key": "spirit_of_the_law",
@@ -5129,7 +5175,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>After you perform an <strong>invocation</strong> during a conflict, you <strong>and</strong> up to one ally you can see increase one of your Attributes' die sizes by one (up to a maximum of <strong>d12</strong>). This increase lasts until the end of the scene or until you use this Skill again, and the Attribute is based on the <strong>wellspring</strong> you invoked: <strong>air (Insight)</strong>, <strong>earth (one Attribute of your choice)</strong>, <strong>fire (Dexterity)</strong>, <strong>lightning (Might)</strong>, or <strong>water (Willpower)</strong>.</p>"
     },
     {
       "key": "super_fanclub",
@@ -5171,7 +5218,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>When you perform a <strong>ranged</strong> attack using a weapon that belongs to the <strong>thrown</strong> Category, <strong>if you have no martial armor and no shields equipped</strong>, you gain <strong>1 Momentum Point</strong>.</p><p>You may never have more than <strong>5 Momentum Points</strong>.</p><p>Your <strong>ranged</strong> attacks using weapons that belong to the <strong>thrown</strong> Category deal extra damage equal to your current <strong>Momentum Points</strong>.</p><p>When a creature hits you with an attack targeting your <strong>Defense</strong>, you <strong>must</strong> spend all your accumulated <strong>Momentum Points</strong> and increase your Defense score by an equal amount against that attack (this may turn the hit into a miss).</p><p>You also lose all <strong>Momentum Points</strong> at the end of each scene, or if you equip a <strong>shield</strong> or <strong>martial armor</strong>.</p><hr /><p><strong>Resource:</strong> @PROGRESS[swirling-swarm update 1]{Advance Momentum Point} or @PROGRESS[swirling-swarm reset]{Reset Momentum Point}</p>"
     },
     {
       "key": "tabula_rasa",
@@ -5183,7 +5231,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>After you use Bishop's Edict or King's Castle Skills, if you are in <strong>Crisis</strong>, you may have every enemy creature present on the scene lose 10 Hit Points. This amount increases to 20 Hit Points if you are <strong>level 20 or higher,</strong> or 30 Hit Points if you are <strong>level 40 or higher</strong>.</p>"
     },
     {
       "key": "tactical_launch",
@@ -5391,7 +5440,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>As long as you have a one-handed <strong>melee</strong> weapon that belongs to the <strong>dagger</strong> or <strong>sword</strong> Categories equipped in each of your normal hand slots, you may treat your <strong>armor</strong> slot as if it were a second <strong>off-hand</strong> slot. You may only use this special slot to equip a one-handed <strong>melee</strong> weapon that belongs to the <strong>dagger</strong> or <strong>sword</strong> Categories — note that the <strong>Monkey Grip</strong> Skill does not turn two-handed weapons into one-handed weapons, and thus cannot be used in combination with <strong>Triple Slash</strong>.</p><p>When you perform the <strong>Attack</strong> action while you have three <strong>daggers</strong> and/or <strong>swords</strong> equipped, you may attack once with each weapon. This follows the normal rules for <strong>two-weapon fighting</strong>: each of the three attacks loses the multi property and cannot gain it, and you treat the <strong>High Roll (HR)</strong> of each Accuracy Check as being equal to 0 when determining damage.</p><hr /><p><em>To <strong>automate</strong>, navigate to the '<strong>Items</strong>' tab where the weapon you want to equip is located, and press <strong>Ctrl+Click</strong> on the icon in the '<strong>Equip?</strong>' column. The item will be added to the <strong>Phantom Slot</strong>. Equip weapons in both your main and off-hand slots. <strong>Shift+Click</strong> each weapon to roll as <strong>HR Zero</strong>. Make sure your <strong>Armor Slot</strong> is empty.</em></p>"
     },
     {
       "key": "twilight_dismissal",
@@ -5567,7 +5617,8 @@
       ],
       "required_skills": [],
       "creation_banned": false,
-      "class_gate": "mastery"
+      "class_gate": "mastery",
+      "effect_html": "<p>After you sing a <strong>haunting verse</strong>, or after you succeed on an Opposed Check for your <strong>Condemn</strong> Skill, you may choose one enemy among the targets of that <strong>verse</strong> or Skill.</p><p>If you do, choose one status effect that enemy is currently suffering from: that enemy becomes <strong>bewitched</strong> until the start of your next turn or until they recover from the chosen status effect. Enemies you have <strong>bewitched</strong> must include you among the targets of their attacks and offensive spells (@ICON[offensive]), if able.</p>"
     },
     {
       "key": "words_of_light",

@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Rogue, Sharpshooter, Prizefighter (Weaponmaster) or Bounty Hunter mastery + High Speed"
 		},
-		"description": "<p>A High Speed free attack with a bow, spear or thrown weapon deals extra damage equal to (your Skill Level in High Speed × 5). And when you attack one or more creatures with a bow, spear or thrown weapon, those creatures cannot perform free attacks until the end of the current turn.</p>",
+		"description": "<p>When you use the High Speed Skill to perform a <strong>free attack</strong> with a weapon belonging to the <strong>bow</strong>, <strong>spear</strong>, or <strong>thrown</strong> Category, the attack deals extra damage equal to <strong>【your Skill Level in the High Speed Skill, multiplied by 5】</strong>.</p><p>Additionally, when you attack one or more creatures with a weapon that belongs to the <strong>bow</strong>, <strong>spear</strong>, or <strong>thrown</strong> Category, those creatures cannot perform <strong>free attacks</strong> until the end of the current turn.</p>",
 		"hasRoll": {
 			"value": false
 		}

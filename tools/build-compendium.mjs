@@ -460,7 +460,10 @@ for (const h of snap.heroic_skills) {
   const requirement = reqText || synthRequirement(h);
   if (!reqText) flag('heroic-req', h.key, `requirements text blank — synthesised "${requirement}" from mastery_classes/class_gate/required_skills`);
   const clsLabel = (h.mastery_classes || []).map(dispName).join(' / ') || 'Any';
-  const descBits = [`<p>${esc(strip(h.summary))}</p>`];
+  // effect_html (when present) is the verbatim FU-native effect body copied from the projectfu
+  // heroic-skills pack (Austin's FU-verbatim sweep 2026-09-09; names/requirements stay Rippers,
+  // only the effect body reverts to FU). Falls back to the authored summary otherwise.
+  const descBits = [h.effect_html ? h.effect_html : `<p>${esc(strip(h.summary))}</p>`];
   if (h.creation_banned) descBits.push('<p><em>GM-gated: not available at character creation.</em></p>');
   const item = {
     name: h.display_name,

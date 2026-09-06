@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Captain (Commander), Fury, Guardian, Prizefighter (Weaponmaster) or Bounty Hunter mastery + Bone Crusher (the Pilot route is cut)"
 		},
-		"description": "<p>When Bone Crusher targets only one creature and you have a shield equipped, challenge that creature until the end of your next turn: it must include you among the targets of its attacks and offensive spells, if able. Once per turn — including other creatures' turns — you deal 5 extra damage to it with a free attack using a one-handed melee weapon, or a custom dagger or sword. The challenge ends if someone else challenges it, or if you challenge another.</p>",
+		"description": "<p>When you use the Bone Crusher Skill, if your attack targets <strong>only one creature</strong> and you have a <strong>shield</strong> equipped, you may <strong>challenge</strong> that creature until the end of your next turn. The <strong>challenge</strong> also ends if that creature is <strong>challenged</strong> by someone else, or if you <strong>challenge</strong> another creature.</p><p>The creature you are <strong>challenging</strong> must include you among the targets of their attacks and offensive spells (@ICON[offensive]), if able; additionally, once per turn (including other creatures' turns), when you deal damage to the creature you are <strong>challenging</strong> with a <strong>free attack</strong> using a <strong>one-handed melee</strong> weapon or a <strong>custom weapon</strong> belonging to the <strong>dagger</strong> or <strong>sword</strong> Category, you may deal 5 extra damage to that creature.</p>",
 		"hasRoll": {
 			"value": false
 		}

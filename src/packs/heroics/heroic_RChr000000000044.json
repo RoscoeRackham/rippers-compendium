@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Master any class"
 		},
-		"description": "<p>Permanently increase your maximum Inventory Points by 4. Level-up only: a flat boost that belongs to the person, never the mask.</p><p><em>GM-gated: not available at character creation.</em></p>",
+		"description": "<p>Permanently increase your maximum Inventory Points by 4.</p><p><em>GM-gated: not available at character creation.</em></p>",
 		"hasRoll": {
 			"value": false
 		}

@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Vivisectionist (Chimerist), Elementalist, Entropist or Spiritist mastery"
 		},
-		"description": "<p>Spells you cast deal 5 extra damage — 10 at level 40 or higher. Level-up only.</p><p><em>GM-gated: not available at character creation.</em></p>",
+		"description": "<p>When you cast a spell that deals damage to one or more creatures, that spell deals 5 extra damage to each creature.</p><p>The amount of extra damage increases to 10 if you are <strong>level 40 or higher</strong>.</p><p><em>GM-gated: not available at character creation.</em></p>",
 		"hasRoll": {
 			"value": false
 		}

@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Archivist (Loremaster) or Bounty Hunter mastery"
 		},
-		"description": "<p>When you Study during a conflict, examine the profiles of every enemy you can see: one (INS + INS) Open Check, applied separately to each. If you have Flash of Insight, this Check cannot trigger it.</p>",
+		"description": "<p>When you perform the <strong>Study</strong> action during a conflict, you may examine the <strong>profiles</strong> of <strong>all enemies</strong> you can see. If you do, you perform a single <strong>【INS + INS】</strong> Open Check and apply the Result <strong>separately</strong> to each enemy.</p><p>However, this Check <strong>cannot</strong> trigger your Flash of Insight Skill (if you have it).</p>",
 		"hasRoll": {
 			"value": false
 		}

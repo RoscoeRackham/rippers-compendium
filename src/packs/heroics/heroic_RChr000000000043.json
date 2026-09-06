@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Master any class"
 		},
-		"description": "<p>Permanently increase your maximum Hit Points by 10 — 20 at level 40 or higher. Level-up only: a flat boost that belongs to the person, never the mask.</p><p><em>GM-gated: not available at character creation.</em></p>",
+		"description": "<p>Permanently increase your maximum Hit Points by 10.</p><p>The amount of additional HP increases to 20 if you are <strong>level 40 or higher</strong>.</p><p><em>GM-gated: not available at character creation.</em></p>",
 		"hasRoll": {
 			"value": false
 		}

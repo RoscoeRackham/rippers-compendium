@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Dancer, Fury or Sharpshooter mastery"
 		},
-		"description": "<p>Ranged attacks with thrown weapons, with no martial armor and no shields equipped, earn 1 Momentum Point to a maximum of 5, and your thrown attacks deal extra damage equal to your current Momentum. When a creature hits you with an attack against Defense you must spend all your Momentum and add an equal amount to your Defense against that attack — which can turn the hit into a miss. Momentum is lost at the end of each scene, or the moment you equip a shield or martial armor. A defence you cannot decline.</p>",
+		"description": "<p>When you perform a <strong>ranged</strong> attack using a weapon that belongs to the <strong>thrown</strong> Category, <strong>if you have no martial armor and no shields equipped</strong>, you gain <strong>1 Momentum Point</strong>.</p><p>You may never have more than <strong>5 Momentum Points</strong>.</p><p>Your <strong>ranged</strong> attacks using weapons that belong to the <strong>thrown</strong> Category deal extra damage equal to your current <strong>Momentum Points</strong>.</p><p>When a creature hits you with an attack targeting your <strong>Defense</strong>, you <strong>must</strong> spend all your accumulated <strong>Momentum Points</strong> and increase your Defense score by an equal amount against that attack (this may turn the hit into a miss).</p><p>You also lose all <strong>Momentum Points</strong> at the end of each scene, or if you equip a <strong>shield</strong> or <strong>martial armor</strong>.</p><hr /><p><strong>Resource:</strong> @PROGRESS[swirling-swarm update 1]{Advance Momentum Point} or @PROGRESS[swirling-swarm reset]{Reset Momentum Point}</p>",
 		"hasRoll": {
 			"value": false
 		}

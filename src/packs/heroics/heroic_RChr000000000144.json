@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Captain (Commander) mastery"
 		},
-		"description": "<p>After you use Bishop's Edict or King's Castle, if you are in Crisis, every enemy in the scene loses 10 Hit Points — 20 at level 20+, 30 at level 40+. Note the vector: HP loss, not damage. No Affinities, no Resistances, no Defense. The Crisis gate is the whole cost, and a Captain who is winning never gets to use it.</p>",
+		"description": "<p>After you use Bishop's Edict or King's Castle Skills, if you are in <strong>Crisis</strong>, you may have every enemy creature present on the scene lose 10 Hit Points. This amount increases to 20 Hit Points if you are <strong>level 20 or higher,</strong> or 30 Hit Points if you are <strong>level 40 or higher</strong>.</p>",
 		"hasRoll": {
 			"value": false
 		}

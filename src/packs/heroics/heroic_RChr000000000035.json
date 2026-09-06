@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Cartomancer (Ace of Cards), Fury, Rogue, Sharpshooter or Prizefighter (Weaponmaster) mastery"
 		},
-		"description": "<p>When you resolve Magic Pair, if the free attack uses an arcane, dagger, firearm, sword or thrown weapon, you deal extra damage equal to the pair's common value and recover twice that value in MP. The MP return is the point: Magic Cards costs at least 10 MP a use, so a Duel Master resolving pairs runs close to cost-neutral on the engine. It stacks with Double or Nothing, which touches the attack's High Roll and never the pair's value.</p>",
+		"description": "<p>When you resolve the <strong>Magic Pair</strong> effect, if you attack with a weapon belonging to the <strong>arcane</strong>, <strong>dagger</strong>, <strong>firearm</strong>, <strong>sword</strong>, or <strong>thrown</strong> Category, you deal extra damage equal to <strong>【the common value of the resolved cards】</strong> and regain an amount of Mind Points equal to <strong>【twice the common value of the resolved cards】</strong>. For instance, resolving a pair of <strong>5s</strong> will allow you to deal 5 extra damage and regain 10 Mind Points.</p>",
 		"hasRoll": {
 			"value": false
 		}

@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Symbolist mastery"
 		},
-		"description": "<p>Use an action and spend up to 30 MP, choosing one creature you can see per 5 MP spent, up to six. Each recovers from all status effects and is no longer affected by any spell with a duration of Scene. Six-target full cleanse for 30 MP — and it strips the party's own Scene-duration buffs too. The single best answer on the roster to the Apothecary's multi-type Affliction.</p>",
+		"description": "<p>You may use an action and spend up to 30 Mind Points to choose one creature you can see for every 5 MP spent this way. Each creature chosen this way recovers from all status effects and is no longer affected by any spells with a <strong>duration</strong> of “Scene” that were affecting them.</p><hr /><p><strong>You Spend for Each Creature:</strong> @LOSS[5 mp]</p>",
 		"hasRoll": {
 			"value": false
 		}

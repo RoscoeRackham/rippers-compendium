@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Mutant mastery"
 		},
-		"description": "<p>Rewritten by the adopted variant: three forms, and the free attack keeps its full High Roll. See the class's house changes for the form list and the flight rule.</p>",
+		"description": "<p>When you use the Theriomorphosis Skill on your turn during a conflict, if this <strong>did not</strong> happen through the <strong>Genoclepsis</strong> Skill, you may manifest the effects of <strong>up to three therioforms</strong> from those you have learned (instead of two); then, you may immediately perform an additional action. This additional action <strong>cannot</strong> be used for the <strong>Theriomorphosis</strong> Skill.</p>",
 		"hasRoll": {
 			"value": false
 		}

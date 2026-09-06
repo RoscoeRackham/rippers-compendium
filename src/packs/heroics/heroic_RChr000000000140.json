@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Dowser (Invoker) mastery"
 		},
-		"description": "<p>After you perform an invocation during a conflict, you and up to one ally you can see each increase one Attribute's die size by one, to a maximum of d12, until the end of the scene or until you use this again. The Attribute follows the wellspring: air → Insight, earth → any Attribute of your choice, fire → Dexterity, lightning → Might, water → Willpower. Held by the standing rulings rather than a bespoke one: die raises never stack and d12 is the ceiling everywhere, and Guise bonuses sit outside p.266's two-effect cap — so this is one raise, on a class ability, with the mask's +3 not counted against it. Still the only skill in the class that hands a scene-long raise to somebody else; watch it in play.</p>",
+		"description": "<p>After you perform an <strong>invocation</strong> during a conflict, you <strong>and</strong> up to one ally you can see increase one of your Attributes' die sizes by one (up to a maximum of <strong>d12</strong>). This increase lasts until the end of the scene or until you use this Skill again, and the Attribute is based on the <strong>wellspring</strong> you invoked: <strong>air (Insight)</strong>, <strong>earth (one Attribute of your choice)</strong>, <strong>fire (Dexterity)</strong>, <strong>lightning (Might)</strong>, or <strong>water (Willpower)</strong>.</p>",
 		"hasRoll": {
 			"value": false
 		}

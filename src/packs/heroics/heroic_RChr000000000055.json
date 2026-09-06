@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Engineer mastery + superior alchemy (Gadgets)"
 		},
-		"description": "<p>Treat the alchemy target die as 13 or 17.</p>",
+		"description": "<p>When you create a <strong>potion</strong> via <strong>alchemy</strong>, you may treat the die assigned to <strong>\"target\"</strong> as showing a value of <strong>13</strong> or <strong>17</strong> (even if that die shows a different number).</p>",
 		"hasRoll": {
 			"value": false
 		}

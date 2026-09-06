@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Cartomancer (Ace of Cards), Blackguard (Darkblade), Entropist or Spiritist mastery"
 		},
-		"description": "<p>When you resolve Double Trouble you may make all its damage light or dark instead of matching the resolved suits — the second effect in the class that reaches outside the four elements. And while a joker sits in your discard pile, Blinding Flush, Double Trouble and Magic Flush damage ignores Immunities and Resistances, as printed. Standard treatment, same as Numen, Hunter's Instinct, Fabula Impetum and Revenant.</p>",
+		"description": "<p>When you resolve the <strong>Double Trouble</strong> effect, you may have all of its damage become <strong>light</strong> or <strong>dark</strong> (instead of being of a type matching the <strong>suits</strong> of the resolved cards).</p><p>Additionally, as long as there is a <strong>joker</strong> in your <strong>discard pile</strong>, all damage dealt by your <strong>Blinding Flush</strong>, <strong>Double Trouble</strong>, and <strong>Magic Flush</strong> effects ignores Immunities and Resistances.</p>",
 		"hasRoll": {
 			"value": false
 		}

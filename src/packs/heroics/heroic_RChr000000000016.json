@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Sensitive (Esper) mastery"
 		},
-		"description": "<p>While your Brainwave Clock is full, use an action to erase all of its sections and choose: 20 physical damage to every enemy in the scene, or 30 to a single enemy you can see. Increases by 10 at level 20+, or 20 at level 40+. This is the only way to clear the Clock.</p>",
+		"description": "<p>While your <strong>Brainwave Clock</strong> is <strong>full</strong>, you may use an action to erase all of its sections. If you do, you may choose one option:</p><ul><li><p>You deal 20 <strong>physical</strong> damage to every enemy that is present on the scene.</p></li><li><p>You deal 30 <strong>physical</strong> damage to a single enemy you can see.</p></li></ul><p>This amount increases by 10 if you are <strong>level 20 or higher</strong>, or by 20 if you are <strong>level 40 or higher.</strong></p><hr /><p><strong>Resource:</strong> @CLOCK[brainwave-clock reset]{Reset Brainwave Clock}<br /><strong>Targets Suffer:</strong> @DMG[&amp;step(20,30,40) physical]{20|30|40 Physical (Single)} or @DMG[&amp;step(30,40,50) physical]{30|40|50 Physical (Multi)}</p>",
 		"hasRoll": {
 			"value": false
 		}

@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Cook (Gourmet) mastery"
 		},
-		"description": "<p>Once per scene, Cooking may combine four ingredients into one delicacy, ignoring the normal limit of three; everything else follows the normal rules. Four ingredients means up to six taste-pairs, which is where the six-effect line in the special rules comes from.</p>",
+		"description": "<p>Once per scene when you use the <strong>Cooking</strong> Skill, you may combine <strong>four ingredients into a delicacy</strong> (thus ignoring the normal limit of three ingredients). Other than that, the delicacy follows the normal rules.</p>",
 		"hasRoll": {
 			"value": false
 		}

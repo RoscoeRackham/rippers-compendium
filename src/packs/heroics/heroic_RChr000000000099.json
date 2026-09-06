@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Dancer mastery + Follow My Lead"
 		},
-		"description": "<p>While you are in Crisis, Follow My Lead costs no MP. A one-line heroic that turns the class's most expensive rider free at exactly the moment the party is losing.</p>",
+		"description": "<p>While you are in <strong>Crisis</strong>, you ignore the MP cost for your Follow My Lead Skill.</p>",
 		"hasRoll": {
 			"value": false
 		}

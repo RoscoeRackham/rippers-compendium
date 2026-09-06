@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Dancer mastery"
 		},
-		"description": "<p>At the start of your turn in a conflict, with no martial armor equipped, spend 1 Fabula Point to perform up to three different dances you know, in any order, paying no MP. If you do, you cannot perform dances in any way until the end of your next turn. Three dances for one Fabula Point and a turn and a half of silence afterwards — Banshee into Nightmare into Satyr, in one go.</p>",
+		"description": "<p>At the start of your turn during a conflict, if you have no <strong>martial armor</strong> equipped, you may spend 1 Fabula Point to immediately perform <strong>up to three different dances</strong> among those you know, in the order you prefer and without paying their MP cost. If you do, you <strong>cannot perform dances in any way</strong> until the end of your next turn.</p><hr /><p><strong>You Spend:</strong> @LOSS[1 fp]<br /><strong>You Suffer:</strong> @EFFECT[Compendium.projectfu.heroic-skills.Item.WJD7tqc73P24UFg4]</p>",
 		"hasRoll": {
 			"value": false
 		}

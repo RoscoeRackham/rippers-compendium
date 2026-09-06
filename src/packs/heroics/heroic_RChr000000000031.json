@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Engineer (Tinkerer) or Bounty Hunter mastery"
 		},
-		"description": "<p>You reduce Inventory Point costs by 1, to a minimum of 1. Level-up only. On the standing watch list as a p.266 offender among non-Guise effects.</p><p><em>GM-gated: not available at character creation.</em></p>",
+		"description": "<p>You reduce Inventory Point costs by 1 (to a minimum of 1).</p><p><em>GM-gated: not available at character creation.</em></p>",
 		"hasRoll": {
 			"value": false
 		}

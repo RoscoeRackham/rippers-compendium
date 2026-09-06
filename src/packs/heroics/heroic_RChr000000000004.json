@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Fury, Archivist, Sharpshooter or Prizefighter mastery + Knowledge Is Power"
 		},
-		"description": "<p>Choose two Species; against those or humanoid, either +5 damage or inflict reeling — a bespoke primed condition (the target's first recovery is halved, then it clears), not a seventh status, so no cleanse removes it. Takeable three times. Reeling is private to this heroic: it never shares a trigger or a payout with ruptured or broken.</p>",
+		"description": "<p>Whenever you acquire this Heroic Skill, choose <strong>two</strong> Species among <strong>beast</strong>, <strong>construct</strong>, <strong>demon</strong>, <strong>elemental</strong>, <strong>monster</strong>, <strong>plant</strong>, and <strong>undead</strong>.</p><p>When you deal damage to a creature belonging to the <strong>humanoid</strong> Species or to a Species you have chosen for this Heroic Skill, you may choose one option:</p><ul><li><p>You deal 5 extra damage to that creature.</p></li><li><p>That creature becomes <strong>reeling</strong> until the end of the scene. When a <strong>reeling</strong> creature recovers Hit Points and/or Mind Points, instead that creature recovers <strong>half</strong> the normal amount of HP and/or MP and is no longer <strong>reeling</strong>.</p></li></ul><p>This Heroic Skill can be acquired <strong>up to three times</strong>.</p>",
 		"hasRoll": {
 			"value": false
 		}

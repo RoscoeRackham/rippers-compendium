@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Rogue, Prizefighter (Weaponmaster) or Bounty Hunter mastery"
 		},
-		"description": "<p>With one or more melee dagger weapons equipped: +1 Defense and Magic Defense, and those weapons also count as brawling, sword and thrown for the purpose of Skills and effects. Your dagger-Category attacks may also target creatures melee cannot normally reach.</p>",
+		"description": "<p>While you have one or more <strong>melee dagger</strong> weapons equipped, you gain a +1 bonus to Defense and Magic Defense, and you treat those weapons as also belonging to the <strong>brawling</strong>, <strong>sword</strong>, and <strong>thrown</strong> Categories for the purpose of Skills and effects.</p><p>Additionally, your attacks with weapons that belong to the <strong>dagger</strong> Category may target creatures that cannot normally be targeted by <strong>melee</strong> attacks.</p>",
 		"hasRoll": {
 			"value": false
 		}

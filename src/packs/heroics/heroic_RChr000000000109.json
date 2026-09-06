@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Sharpshooter, Naturalist (Hunter) or Slayer mastery"
 		},
-		"description": "<p>Your ranged attacks deal 5 extra damage — 10 at level 40 or higher. Level-up only.</p><p><em>GM-gated: not available at character creation.</em></p>",
+		"description": "<p>When you hit one or more creatures with a <strong>ranged</strong> attack, that attack deals 5 extra damage to each creature.</p><p>The amount of extra damage increases to 10 if you are <strong>level 40 or higher</strong>.</p><p><em>GM-gated: not available at character creation.</em></p>",
 		"hasRoll": {
 			"value": false
 		}

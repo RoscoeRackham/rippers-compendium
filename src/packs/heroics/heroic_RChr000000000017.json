@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Floralist or Blackguard (Darkblade) mastery + Chloromancy"
 		},
-		"description": "<p>You are Resistant to light and poison damage. After you lose Hit Points, if you are in Crisis and a magiseed is in your garden, you may fill 1 section of your Growth Clock. And Shadow Strike may deal poison instead of dark (the type still cannot be changed), dealing extra damage equal to twice your filled sections. The third clause needs the Blackguard; the first two work on a pure Floralist, and the Crisis clause is one of the two sanctioned ways to fill the clock off-schedule.</p>",
+		"description": "<p>You are Resistant to <strong>light</strong> damage and <strong>poison</strong> damage.</p><p>After you lose Hit Points, if you are in <strong>Crisis</strong> and a <strong>magiseed</strong> is present in your <strong>garden</strong>, you may fill <strong>1 section</strong> of your <strong>Growth Clock</strong>.</p><p>Additionally, when you use the Shadow Strike Skill, you may have your attack deal <strong>poison</strong> damage instead of <strong>dark</strong> damage (the damage type still cannot be changed). If you do, your <strong>Shadow Strike</strong> deals extra damage equal to <strong>【twice the number of filled sections in your Growth Clock】</strong>.</p>",
 		"hasRoll": {
 			"value": false
 		}

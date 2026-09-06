@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Captain (Commander) mastery"
 		},
-		"description": "<p>The MP costs of Bishop's Edict, Charging Cavalry and King's Castle are halved — 10 MP becomes 5. The purest heroic in the class: it does nothing except let you do the thing twice as often.</p>",
+		"description": "<p>The MP costs for your Bishop's Edict, Charging Cavalry, and King's Castle are halved.</p>",
 		"hasRoll": {
 			"value": false
 		}

@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Cook (Gourmet), Archivist (Loremaster) or Engineer (Tinkerer) mastery (the Merchant route is cut)"
 		},
-		"description": "<p>Potions and delicacies you create, and spells you cast, may take a creature's HP and MP above their maximums, to a ceiling of 150% of each score. At the end of each scene anything still above maximum drops back to maximum.</p>",
+		"description": "<p>Potions and delicacies you create, as well as <strong>spells</strong> you cast, can now cause creatures to recover Hit Points and Mind Points beyond their <strong>maximum HP and MP</strong> scores, up to 150% of the respective scores. At the end of each scene, if the <strong>current Hit Points and/or Mind Points</strong> of a creature are still above the maximum scores, they become equal to the maximum score.</p>",
 		"hasRoll": {
 			"value": false
 		}
