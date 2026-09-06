@@ -3274,6 +3274,14 @@
       "max_sl": 1,
       "summary": "Perform Rituals of the Arcanism discipline, as long as their effects fall within the domains of one or more Arcana you have bound. Arcanism Rituals use (WLP + WLP) for the Magic Check.",
       "sort": 5
+    },
+    {
+      "class_key": "chanter",
+      "skill_key": "sirens_song",
+      "display_name": "Siren's Song",
+      "max_sl": 1,
+      "summary": "Grants Ritual access to the Ritualism discipline, extended to sound-based illusions — illusions only. A named extension of the universal discipline, not a second contested school. No general sound magic rides in: a voice that isn't there, a hoofbeat on the wrong street, a scream from an empty room; never a real, load-bearing sound effect. (Compensation ruling, Austin, 6 Aug 2026.)",
+      "sort": 5
     }
   ],
   "heroic_skills": [
