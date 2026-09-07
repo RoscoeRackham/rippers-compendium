@@ -135,7 +135,7 @@ const railClasses = classes.map((c) => `<a href="#c-${slug(c.key)}" data-name="$
 const html = `<title>The Lodge Player Reference</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500;600&family=Pirata+One&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@700;800;900&family=IBM+Plex+Mono:wght@400;500;600&family=Pirata+One&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap">
 <style>
 /* The Slash register. Blood is the only register — no second palette, by ruling.
    Values sourced from SLASH-REGISTER-SPEC.md §2a/§3 and the canon register skill. */
@@ -148,6 +148,10 @@ const html = `<title>The Lodge Player Reference</title>
   --font-display:'Grenze Gotisch',Georgia,serif;
   --font-ui:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;
   --font-chrome:'Pirata One',var(--font-display);
+  /* Reading face. The register's fourth face — rippers-theme/styles/fonts.css ships Spectral
+     400/400i/600 and nothing else, so those are the only weights used here.
+     Owner granted the deviation from mono body for this surface on 2026-09-07. */
+  --font-read:'Spectral',Georgia,'Times New Roman',serif;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bone);color:var(--ink);font-family:var(--font-ui);
@@ -183,7 +187,7 @@ main{margin-left:var(--rail);padding:0 0 120px;min-width:0;overflow-x:clip}
 .intro{background:var(--panel);border-bottom:3px solid var(--ink);padding:56px 48px 44px}
 .intro h1{font-family:var(--font-chrome);font-size:clamp(40px,6vw,72px);line-height:1;margin:0;
   text-wrap:balance}
-.intro p{max-width:66ch;margin:18px 0 0;color:#241a1c}
+.intro p{max-width:56ch;margin:18px 0 0;color:#241a1c}
 .intro .tally{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
 .intro .tally span{background:var(--ink);color:var(--bone);padding:6px 11px;font-size:11px;
   letter-spacing:.12em;text-transform:uppercase;font-variant-numeric:tabular-nums}
@@ -216,20 +220,22 @@ h2.band{font-family:var(--font-chrome);font-size:34px;margin:0;padding:18px 48px
 .entry.hide{display:none}
 .entry-h{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
 .entry-h h4{font-family:var(--font-display);font-weight:700;font-size:23px;line-height:1.3;margin:0}
-.rule{margin:9px 0 0;max-width:70ch}
-.rule.extra{color:#3a2c2c;font-size:14px;margin-top:14px;padding-top:12px;
-  border-top:1px dotted #bfae97}
+.rule,.req-line,.amend p,.intro p{font-family:var(--font-read);font-size:17px;line-height:1.6}
+.rule{margin:10px 0 0;max-width:58ch}
+.rule.extra{color:#3a2c2c;font-family:var(--font-read);font-size:15.5px;line-height:1.58;
+  margin-top:14px;padding-top:12px;border-top:1px dotted #bfae97;max-width:58ch}
+.rule.extra p{font-family:var(--font-read)}
 .extra-tag{display:block;font-size:11px;letter-spacing:.16em;text-transform:uppercase;
   color:var(--cool);margin-bottom:5px}
 .rule.extra p{margin:8px 0 0}
 .entry .marks{margin-top:9px}
 
-.amend{margin:12px 0 0;padding:10px 0 10px 14px;border-left:3px solid var(--blood);max-width:70ch}
+.amend{margin:12px 0 0;padding:10px 0 10px 14px;border-left:3px solid var(--blood);max-width:60ch}
 .amend-tag{display:block;font-size:11px;letter-spacing:.16em;text-transform:uppercase;
   color:var(--blood-dark);font-weight:600;margin-bottom:4px}
-.amend p{margin:0;font-size:14px;color:#3a2c2c}
+.amend p{margin:0;font-size:15.5px;line-height:1.58;color:#3a2c2c}
 .amend p + p{margin-top:7px}
-.req-line{margin:10px 0 0;max-width:70ch;font-size:14px;color:#3a2c2c}
+.req-line{margin:10px 0 0;max-width:58ch;font-size:15.5px;color:#3a2c2c}
 .req-tag{display:inline-block;font-size:11px;letter-spacing:.16em;text-transform:uppercase;
   color:var(--cool);margin-right:9px}
 
@@ -239,6 +245,12 @@ footer{margin-left:var(--rail);padding:32px 48px 60px;border-top:2px solid var(-
   background:var(--bone-2);font-size:12px;color:#3a2c2c}
 footer b{font-family:var(--font-display);font-weight:700;font-size:16px;display:block;margin-bottom:6px}
 
+@media (max-width:700px){
+  .rule,.req-line,.amend p,.intro p{font-size:17.5px;line-height:1.65}
+  .rule.extra,.rule.extra p{font-size:16px;line-height:1.62}
+  .entry{padding:18px 16px}
+  .plate-h{padding:16px 16px}
+}
 @media (max-width:900px){
   :root{--rail:0px}
   .rail{position:static;width:auto;inset:auto}
