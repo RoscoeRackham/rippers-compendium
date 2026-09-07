@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "You gain +(SL) on all ritual checks."
 		},
-		"description": "<p>You gain +(SL) on all ritual checks. The zenit cost of any ritual you participate in is reduced by (SL × 50), minimum 0.</p>",
+		"description": "<p>You gain +(SL) on all ritual checks. The zenit cost of any ritual you participate in is reduced by (SL × 50), minimum 0. Investing a level in this Skill grants you access to the Ritualism discipline — you may perform its Rituals, and no benefit pick is spent.</p>",
 		"class": {
 			"value": "Ritualist"
 		},
