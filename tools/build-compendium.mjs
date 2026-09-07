@@ -174,9 +174,11 @@ const RITUAL_GRANT_SKILLS = {
 };
 // Route-2 PROJECT grants (Case B FINAL contract): skills that confer the ability to initiate Projects.
 // flags.<MODULE_ID>.grantsProject = true; the rippers-guise engine reads it (characterCanInitiateProjects).
-const PROJECT_GRANT_SKILLS = new Set([
-  'archivist/technical_mind',   // B: Archivist is project-themed; Technical Mind's Projects clause reinstated
-]);
+// v0.4.9 (7 Sep 2026): EMPTY, and it stays empty. Austin ruled that NO class skill grants Projects
+// (CLASSES-master-list ~220), and Technical Mind's own shipped text already says so — "The printed
+// 'you may initiate Projects' line is struck — Project access comes only from the benefit-pool pick."
+// The flag contradicted the description it shipped beside. Project access is the benefit pick alone.
+const PROJECT_GRANT_SKILLS = new Set([]);
 function concreteBenefits(key) {
   const f = join(DOCS, `CLASSREF-${cardKey(key)}.md`);
   if (!existsSync(f)) return null;

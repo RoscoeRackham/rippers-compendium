@@ -33,8 +33,7 @@
 		"rippers-compendium": {
 			"classKey": "archivist",
 			"skillKey": "technical_mind",
-			"maxSl": 5,
-			"grantsProject": true
+			"maxSl": 5
 		}
 	},
 	"_stats": {
