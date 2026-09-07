@@ -19,10 +19,14 @@ const MODULE = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const PACKS = path.join(MODULE, 'src', 'packs');
 const ENRICHER = /@[A-Za-z]+\[[^\]]*\]/g;
 const ALLOW = /^@UUID\[Compendium\.rippers-compendium\./; // internal skill/spell links — legit
-// Editorial apparatus that must not reach a player page: a surviving GM-NOTE marker or ✎ glyph
-// (the strip failed), OR an unwrapped dev-note tell (a note Scribe's sweep missed) — pure
-// build/dev vocabulary that never belongs in player rules text.
-const GM_MARKER = /<!--\s*\/?\s*GM-NOTE\s*-->|GM-NOTE|[✎⛔]|foundryvtt-cli|extractPack|LevelDB|~\/Library|Application Support\/FoundryVTT|\bprojectfu v\d|\.mjs\b|Do not ["“]upgrade/;
+// Editorial apparatus that must not reach a player page: a surviving GM-NOTE marker (the strip
+// failed), OR an unwrapped dev-note tell (a note the binder sweep missed) — pure build/dev
+// vocabulary that never belongs in player rules text.
+// NB: this deliberately does NOT key on the ✎/⛔ glyphs (god ruling 2026-09-09, superseding the
+// 18:01 "0 ✎ in journals" spec): ✎ is OVERLOADED in the binder — 7 Cabinet enchantment table
+// rows use it as a house-rename marker ("Briar ✎ (Cursed Armor)"), so a glyph assertion would
+// flag legitimate content forever. Explicit GM-NOTE markers + dev-tells only.
+const GM_MARKER = /<!--\s*\/?\s*GM-NOTE\s*-->|GM-NOTE|foundryvtt-cli|extractPack|LevelDB|~\/Library|Application Support\/FoundryVTT|\bprojectfu v\d|\.mjs\b|Do not ["“]upgrade/;
 
 const hits = { enricher: [], editorial: [] };
 function scanText(where, text) {
