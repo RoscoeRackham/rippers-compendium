@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Blackguard mastery"
 		},
-		"description": "<p>While your current HP are below maximum: action + 20 MP deals dark damage equal to (10 + half the gap between maximum and current HP) to one enemy — the type cannot change, and it bypasses nothing: not Absorption, not Immunity, not Resistance. A nearly-dead Blackguard still deals enormous damage.</p>",
+		"description": "<p>While your current HP are below maximum: action + 20 MP deals dark damage equal to (10 + half the gap between maximum and current HP) to one enemy — the type cannot change, and it bypasses nothing: not Absorption, not Immunity, not Resistance.</p>",
 		"hasRoll": {
 			"value": false
 		}

@@ -82,6 +82,28 @@ npm run unpack                     # reverse
 To refresh the source data, re-snapshot the three registry tables into
 `data/db-snapshot.json` and re-run the generator.
 
+### The snapshot contract: ids are keyed, order is irrelevant
+
+**A key owns its id forever.** Every document id in every pack comes from
+`data/id-registry.json`, which maps `classKey` / `classKey/skillKey` / `heroicKey` /
+`spellKey` to the id that key has always had. Re-snapshot in any order you like — alphabetical,
+insertion, random — and the packs come out byte-identical. A genuinely new key takes the next
+free number and is written back to the registry; a registered key **missing** from the snapshot
+**fails the build**, because a class disappearing is a decision somebody made and must never
+look like a rebuild.
+
+This is not decoration. Before 0.4.11 ids were assigned by **row position**, which made snapshot
+order an undocumented, load-bearing invariant of the whole catalogue. Regenerating the snapshot
+from the public views (ordered alphabetically, where the old file was in insertion order) moved
+`arbalist` from position 62 to position 4 and reassigned **64 of 68 class ids and 343 of 361
+skill ids** — `RCcl000000000004` came back naming Arbalist where 0.4.10 had shipped Arcanist.
+Nothing errored. Every `@UUID` link, every `_stats.compendiumSource` on an imported item and
+every Guise binding in an installed world would have quietly resolved to a different class.
+`test/id-registry.test.mjs` shuffles the snapshot and asserts the ids do not move.
+
+If you ever need to remove a key, delete its registry entry in the **same commit** that removes
+it from the snapshot, and say so in the release notes. Never renumber a shipped id.
+
 ## Install (personal table)
 
 Install/update on ForgeVTT (or copy into `Data/modules/`) via the manifest URL:

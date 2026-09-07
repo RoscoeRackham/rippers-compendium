@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "Spend 2 IP on food that draws nearby animals to perform a simple task, comparable to a Minor Ritual."
 		},
-		"description": "<p>Spend 2 IP on food that draws nearby animals to perform a simple task, comparable to a Minor Ritual.</p>",
+		"description": "<p>Spend 2 IP on food that draws nearby animals to perform a simple task, comparable to a Minor Ritual. The +(SL) maximum IP is Guise-bound: it rises only while that Guise is worn.</p>",
 		"class": {
 			"value": "Vivisectionist"
 		},

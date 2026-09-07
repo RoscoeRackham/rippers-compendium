@@ -15,9 +15,9 @@
 			"value": "Entropist / Guardian"
 		},
 		"requirement": {
-			"value": "Entropist or Guardian mastery — and only in a level 40 or 50 slot"
+			"value": "Entropist or Guardian mastery; a level 40 or 50 slot only"
 		},
-		"description": "<p>Take the place of all allies threatened by one danger, resolving it separately for each; and a permanent maximum-HP increase equal to your base Insight die. Held to the endgame slots rather than amended, so the printed effect survives intact.</p><p><em>GM-gated: not available at character creation.</em></p>",
+		"description": "<p>Take the place of all allies threatened by one danger, resolving it separately for each; and a permanent maximum-HP increase equal to your base Insight die. This heroic may be taken only in a level 40 or 50 slot.</p><p><em>GM-gated: not available at character creation.</em></p>",
 		"hasRoll": {
 			"value": false
 		}

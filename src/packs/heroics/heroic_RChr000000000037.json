@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Antiquarian (Dungeoneer) mastery"
 		},
-		"description": "<p>Once per staged adventure, when you complete a stage, ask the GM a question or name something you wish to know; they must give a complete answer, or hand you 1 Fabula Point if it cannot be known or deduced.</p>",
+		"description": "<p>Once per staged adventure, when you complete a stage, ask the GM a question or name something you wish to know; they must give a complete answer, or hand you 1 Fabula Point if it cannot be known or deduced. The Five Stage Dungeon is answered by declaration: Entrance is getting into the house, Puzzle the cipher or the séance, Setback the thing going wrong, Conflict the confrontation, Reward the aftermath. Your GM names the qualifying adventures, and that list is visible to you before you buy this.</p>",
 		"hasRoll": {
 			"value": false
 		}

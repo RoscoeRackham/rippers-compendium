@@ -15,9 +15,9 @@
 			"value": "Confidence Man"
 		},
 		"requirement": {
-			"value": "Confidence Man mastery + Trick or Treat — \"You must have mastered this class and know Trick or Treat Skill\" (AzureProject Trickster doc p.3, verified 10 Aug 2026)"
+			"value": "Confidence Man mastery + Trick or Treat"
 		},
-		"description": "<p>In Unmasked you roll twice and choose which result to apply. The printed version turns the skill into 2 IP for a guaranteed 40 damage, no roll, no defence, at will — it deletes the only thing that made the class distinct. Rolling twice keeps the promise (the trick usually lands the way you wanted) and keeps the gamble (it can still come up two bad results).</p>",
+		"description": "<p>Roll Trick or Treat twice and choose which result to apply.</p>",
 		"hasRoll": {
 			"value": false
 		}

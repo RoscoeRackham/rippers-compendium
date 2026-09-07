@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Physician mastery"
 		},
-		"description": "<p>When a creature first enters Crisis in a scene you are in, immediately perform the Inventory action to create and use a consumable on them. Ruled once per scene.</p>",
+		"description": "<p>When a creature first enters Crisis in a scene you are in, immediately perform the Inventory action to create and use a consumable on them. Once per scene.</p>",
 		"hasRoll": {
 			"value": false
 		}

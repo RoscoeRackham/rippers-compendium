@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "Whenever you deal damage, deal extra damage equal to the number of Ultima Points spent this session."
 		},
-		"description": "<p>Whenever you deal damage, deal extra damage equal to the number of Ultima Points spent this session. The Miasma clause is struck (13 Aug 2026): a Villain spending an Ultima Point does not tick the Miasma Clock unless a specific boss skill says so.</p>",
+		"description": "<p>Whenever you deal damage, deal extra damage equal to the number of Ultima Points spent this session. A Villain spending an Ultima Point does not tick the Miasma Clock unless a specific boss skill says so.</p>",
 		"class": {
 			"value": "Sin-Eater"
 		},

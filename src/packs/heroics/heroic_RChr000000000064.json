@@ -15,7 +15,7 @@
 			"value": "Rogue"
 		},
 		"requirement": {
-			"value": "Rogue mastery (the Pilot route is cut) + Cheap Shot or the Personal Vehicle pool pick"
+			"value": "Rogue mastery + Cheap Shot or the Personal Vehicle pool pick"
 		},
 		"description": "<p>Choose a status at acquisition (dazed/shaken/slow/weak). After an ally's damage costs enemies HP and at least one was Vulnerable to it, one of them loses (half your level + twice your best of Cheap Shot / Personal Vehicle) HP and suffers the status. Once per round, party-wide.</p>",
 		"hasRoll": {

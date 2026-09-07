@@ -15,9 +15,9 @@
 			"value": "Adept"
 		},
 		"requirement": {
-			"value": "No Requirements line printed (Low Fantasy Atlas p.107, The Prestige precedent) — Adept mastery inferred, in line with every other class heroic; the working prerequisite is in the text: at least 4 active Motes"
+			"value": "Adept mastery; at least 4 active Motes"
 		},
-		"description": "<p>At any moment, with at least 4 active Motes, spend 40 MP to imbue one equipped weapon with them: until the effect ends the weapon gains +3 to Accuracy Checks, and its damage ignores Resistances. The Motes used are destroyed. A melee weapon also becomes ranged, launchable from afar. If you had the weapon equipped while casting, perform a free attack with it as part of the same action. You generate Motes as normal from the next turn onwards. Only one weapon at a time. (Low Fantasy Atlas p.107, verified 10 Aug 2026.)</p>",
+		"description": "<p>At any moment, with at least 4 active Motes, spend 40 MP to imbue one equipped weapon with them: until the effect ends the weapon gains +3 to Accuracy Checks, and its damage ignores Resistances. The Motes used are destroyed. A melee weapon also becomes ranged, launchable from afar. If you had the weapon equipped while casting, perform a free attack with it as part of the same action. You generate Motes as normal from the next turn onwards. Only one weapon at a time.</p>",
 		"hasRoll": {
 			"value": false
 		}

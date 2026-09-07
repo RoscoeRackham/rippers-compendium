@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "After a dance, perform the Equipment action for free."
 		},
-		"description": "<p>After a dance, perform the Equipment action for free. Swapping Guise this way still triggers the Turn — once per conflict, exactly as ruled.</p>",
+		"description": "<p>After a dance, perform the Equipment action for free. Swapping Guise this way still triggers the Turn — once per conflict.</p>",
 		"class": {
 			"value": "Dancer"
 		},

@@ -31,6 +31,7 @@ import { loadEffectsOverlay, effectsFor, validateOverlay } from './effects-overl
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildJournals } from './build-journals.mjs';
+import { loadRegistry, makeIdAllocator } from './id-registry.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const MODULE = dirname(HERE);
@@ -134,6 +135,12 @@ function id16(prefix, n) {
   const p = prefix.replace(/[^A-Za-z0-9]/g, '').slice(0, 6);
   return (p + String(n).padStart(16 - p.length, '0')).slice(0, 16);
 }
+
+// IDS ARE KEYED, NOT POSITIONAL. See tools/id-registry.mjs for why this exists and what it
+// cost to learn. Snapshot row order is irrelevant to the output: shuffle data/db-snapshot.json
+// and every pack file comes out byte-identical.
+const ID_REGISTRY = loadRegistry(MODULE);
+const IDS = makeIdAllocator(ID_REGISTRY);
 const titleCase = (s) => String(s || '').replace(/-/g, ' ').replace(/\b([a-z])/g, (m) => m.toUpperCase());
 
 // DB keys use underscores (bounty_hunter); the CLASSREF files use hyphens.
@@ -421,7 +428,7 @@ const skillIdByClass = {};   // class_key -> [{name, id, max_sl, summary}]
 let si = 0;
 for (const r of snap.class_skills) {
   si += 1;
-  const _id = id16('RCsk', si);
+  const _id = IDS.idFor('skills', `${r.class_key}/${r.skill_key}`);
   const clean = strip(r.summary);
   if (!clean) flag('skill', `${r.class_key}/${r.skill_key}`, 'summary empty after strip — clause may have lived only in commentary; check the row');
   const maxSl = r.max_sl && r.max_sl > 0 ? r.max_sl : 1;
@@ -471,7 +478,7 @@ function synthRequirement(h) {
 let hi = 0;
 for (const h of snap.heroic_skills) {
   hi += 1;
-  const _id = id16('RChr', hi);
+  const _id = IDS.idFor('heroics', h.key);
   const reqText = strip(h.requirements);
   const requirement = reqText || synthRequirement(h);
   if (!reqText) flag('heroic-req', h.key, `requirements text blank — synthesised "${requirement}" from mastery_classes/class_gate/required_skills`);
@@ -515,7 +522,7 @@ const HOUSE = '<em>(House note: FU auto-applies this class benefit — the mecha
 let ci = 0;
 for (const c of snap.classes) {
   ci += 1;
-  const _id = id16('RCcl', ci);
+  const _id = IDS.idFor('classes', c.key);
   const skills = skillIdByClass[c.key] || [];
   if (!skills.length) flag('class', c.key, 'no class_skills rows — class Item ships with an empty Skills section');
 
@@ -648,7 +655,7 @@ for (const cs of Object.values(spellSrc.class_spells ?? {})) {
 let spi = 0;
 for (const sp of Object.values(spellSrc.spells ?? {})) {
   spi += 1;
-  const _id = id16('RCsp', spi);
+  const _id = IDS.idFor('spells', sp.spell_key);
   const spellKey = sp.spell_key;   // the spells table is index-keyed; the real key is the field
   const meta = disciplineMeta[sp.discipline] ?? {};
   if (!meta.grantingSkillKey) flag('spell', spellKey, `discipline "${sp.discipline}" not in class_spells index — grantingSkillKey unknown (guise picker cannot map it)`);
@@ -732,6 +739,28 @@ if (otherFlags.length) {
   for (const f of otherFlags) console.log(`  - [${f.kind}] ${f.key}: ${f.reason}`);
 } else {
   console.log('\nNo skill/class content gaps.');
+}
+
+// ---- ID REGISTRY: report and enforce -----------------------------------------------------
+// A registered key absent from the snapshot is NOT a build event. Somebody deleted a class,
+// or a key was renamed, or the snapshot is truncated -- all decisions, none of which may be
+// allowed to look like a quiet rebuild. Fail, and name what went missing.
+const missingKeys = IDS.missing();
+if (missingKeys.length) {
+  console.error(`\nID REGISTRY: ${missingKeys.length} registered key(s) are NOT in this snapshot.`);
+  for (const m of missingKeys) console.error(`  - ${m.kind}: ${m.key} (${m.id})`);
+  console.error('\nIds are law: a key that vanishes is a decision, not a build. If the removal is');
+  console.error('intended, delete those entries from data/id-registry.json in the same commit that');
+  console.error('removes them from the snapshot, and say so in the changelog. Refusing to build.');
+  process.exit(1);
+}
+if (IDS.minted.length) {
+  console.log(`\nID REGISTRY: ${IDS.minted.length} NEW key(s) took a fresh id (no existing id moved):`);
+  for (const m of IDS.minted) console.log(`  + ${m.kind}: ${m.key} -> ${m.id}`);
+  IDS.save();
+  console.log('data/id-registry.json updated — commit it with the packs.');
+} else {
+  console.log('\nID REGISTRY: every id came from the registry; none minted, none moved.');
 }
 
 // ---- JournalEntry Player Reference pack (v0.3.0) ---------------------------------------

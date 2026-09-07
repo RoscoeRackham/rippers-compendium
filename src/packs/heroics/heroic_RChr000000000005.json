@@ -17,7 +17,7 @@
 		"requirement": {
 			"value": "Penny Knight mastery"
 		},
-		"description": "<p>Entering the Panoply, spend 1 Fabula Point to invoke your Theme: +5 entry damage, and until the form ends — Immunity to your element; your element's damage-bypass clause works as printed; and once per Check, 10 MP to reroll either or both dice, non-fumble. Once per rest. The Immunity stands, ruled as the campaign's one sanctioned transcendent state: unlike Pulse of the Maggots it is once per rest, Theme-invoked, Fabula-priced and form-scoped — a climax, not a statblock.</p>",
+		"description": "<p>Entering the Panoply, spend 1 Fabula Point to invoke your Theme: +5 entry damage, and until the form ends — Immunity to your element; your element's damage-bypass clause works as printed; and once per Check, 10 MP to reroll either or both dice, non-fumble. Once per rest. The Immunity stands.</p>",
 		"hasRoll": {
 			"value": false
 		}

@@ -15,7 +15,7 @@
 			"value": "Fury / Prizefighter"
 		},
 		"requirement": {
-			"value": "Fury or Prizefighter mastery (the Pilot route is cut)"
+			"value": "Fury or Prizefighter mastery"
 		},
 		"description": "<p>Swords join Frenzy's crit list. With a two-handed sword equipped: spend an Opportunity for a free attack, +5 damage, generating no Opportunities (once per round). And when your two-handed sword costs creatures HP: spend 1 Fabula Point to reduce one non-Villain among them, whose HP are at or under your Crisis score, to 0.</p>",
 		"hasRoll": {

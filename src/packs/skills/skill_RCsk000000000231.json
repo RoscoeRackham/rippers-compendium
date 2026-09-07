@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "On an Accuracy, Magic or contested Check, spend 1 Fabula Point and invoke one of the target's Traits: +(SL) to your…"
 		},
-		"description": "<p>On an Accuracy, Magic or contested Check, spend 1 Fabula Point and invoke one of the target's Traits: +(SL) to your Result against that target. A Villain may spend an Ultima Point to cancel. The Miasma clause is struck (13 Aug 2026): that spend no longer ticks the Miasma Clock.</p>",
+		"description": "<p>On an Accuracy, Magic or contested Check, spend 1 Fabula Point and invoke one of the target's Traits: +(SL) to your Result against that target. A Villain may spend an Ultima Point to cancel. That spend does not tick the Miasma Clock.</p>",
 		"class": {
 			"value": "Slayer"
 		},

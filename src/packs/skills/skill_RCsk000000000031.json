@@ -14,7 +14,7 @@
 		"summary": {
 			"value": "A successful Support Check grants the leader +(SL) instead of the normal +1."
 		},
-		"description": "<p>A successful Support Check grants the leader +(SL) instead of the normal +1.</p>",
+		"description": "<p>A successful Support Check grants the leader +(SL) instead of the normal +1. You gain no Resistance of your own from it.</p>",
 		"class": {
 			"value": "Batman"
 		},
