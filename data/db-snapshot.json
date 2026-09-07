@@ -2643,7 +2643,7 @@
       "skill_key": "ritualistic_efficiency",
       "display_name": "Ritualistic Efficiency",
       "max_sl": 2,
-      "summary": "You gain +(SL) on all ritual checks. The zenit cost of any ritual you participate in is reduced by (SL × 50), minimum 0.",
+      "summary": "You gain +(SL) on all ritual checks. The zenit cost of any ritual you participate in is reduced by (SL × 50), minimum 0. Investing a level in this Skill grants you access to the Ritualism discipline — you may perform its Rituals, and no benefit pick is spent.",
       "sort": 4
     },
     {
