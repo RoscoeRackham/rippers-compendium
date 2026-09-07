@@ -874,7 +874,7 @@
       "skill_key": "high_or_low",
       "display_name": "High or Low",
       "max_sl": 5,
-      "summary": "When you resolve a set: with a joker and/or 7, +(SL) damage until your next turn; with a joker and/or 1, damage you suffer is reduced by (SL) before Affinities; with none of those, recover (SL × 2) HP immediately. A joker satisfying two rows is the player's choice.",
+      "summary": "When you resolve a set: with a joker and/or 7, +(SL) damage until the start of your next turn; with a joker and/or 1, damage you suffer is reduced by (SL) before Affinities; with none of those, recover (SL × 2) HP immediately. A joker satisfying two rows is the player's choice.",
       "sort": 3
     },
     {
@@ -1516,7 +1516,7 @@
       "skill_key": "withstand",
       "display_name": "Withstand",
       "max_sl": 5,
-      "summary": "Guarding without covering anyone: recover (5 + SL × your highest Bond strength) HP, and raise Might or Willpower one die size (max d12) until your next turn.",
+      "summary": "Guarding without covering anyone: recover (5 + SL × your highest Bond strength) HP, and raise Might or Willpower one die size (max d12) until the end of your next turn.",
       "sort": 5
     },
     {
