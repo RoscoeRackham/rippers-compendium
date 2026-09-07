@@ -9,7 +9,9 @@
 //  B. EDITORIAL-REGISTER apparatus in built JOURNAL pages — the GM-note markers the binder wraps
 //     around ✎/⚠ provenance/dev notes so build-journals strips them. Opener/closer:
 //        <!--GM-NOTE-->  …  <!--/GM-NOTE-->     (stripped by build-journals.mjs; 0 must survive)
-//     Also flags any stray literal ✎ / GM-NOTE marker that survived into a page.
+//     Flags a surviving GM-NOTE marker (strip failed) or a dev-note tell; deliberately does
+//     NOT key on the ✎ glyph — it is overloaded in the binder (house-rename table markers), see
+//     the GM_MARKER note below.
 // Exit 0 = clean, 1 = leaks found. Run: node tools/enricher-gate.mjs
 import fs from 'node:fs';
 import path from 'node:path';

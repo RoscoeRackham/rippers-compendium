@@ -12,9 +12,9 @@
 			"value": ""
 		},
 		"summary": {
-			"value": "When you Guard and cover an ally, they gain Resistance to all damage types until your next turn."
+			"value": "When you Guard and cover an ally, they gain Resistance to all damage types until the start of your next turn."
 		},
-		"description": "<p>When you Guard and cover an ally, they gain Resistance to all damage types until your next turn. Alternate: Agile Defender — armourless, shieldless; Protect refreshes on a miss and +(SL + 1) to both Defenses while protecting. Chosen permanently.</p>",
+		"description": "<p>When you Guard and cover an ally, they gain Resistance to all damage types until the start of your next turn. Alternate: Agile Defender — armourless, shieldless; Protect refreshes on a miss and +(SL + 1) to both Defenses while protecting. Chosen permanently.</p>",
 		"class": {
 			"value": "Guardian"
 		},

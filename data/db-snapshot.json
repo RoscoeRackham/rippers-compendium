@@ -1540,7 +1540,7 @@
       "skill_key": "bodyguard",
       "display_name": "Bodyguard",
       "max_sl": 1,
-      "summary": "When you Guard and cover an ally, they gain Resistance to all damage types until your next turn. Alternate: Agile Defender — armourless, shieldless; Protect refreshes on a miss and +(SL + 1) to both Defenses while protecting. Chosen permanently.",
+      "summary": "When you Guard and cover an ally, they gain Resistance to all damage types until the start of your next turn. Alternate: Agile Defender — armourless, shieldless; Protect refreshes on a miss and +(SL + 1) to both Defenses while protecting. Chosen permanently.",
       "sort": 1
     },
     {
