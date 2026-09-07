@@ -17,12 +17,24 @@
 // Output shape matches the existing data/db-snapshot.json exactly:
 //   { generated_from, classes, class_skills, heroic_skills }
 // with the same per-row column order the file already uses. classes_public /
-// class_skills_public / heroic_skills_public never carry gm_note, provenance or
-// effect_html — those columns are excluded from the public views by design (the
-// first two per STYLE-skill-copy.md §1; effect_html was not part of 0182's column
-// list at all). A snapshot produced by this script therefore CANNOT round-trip
-// effect_html — see the tool's own run notes / the dispatch receipt for what that
-// means for any row that carries it in the current file.
+// class_skills_public / heroic_skills_public never carry gm_note or provenance
+// (excluded by design, per STYLE-skill-copy.md §1) and never carry effect_html
+// EITHER — but for a different reason: effect_html is NOT a database column at
+// all (confirmed against prod's information_schema, 2026-09-07). It is a
+// compendium-layer overlay written directly into data/db-snapshot.json by the
+// compendium's own FU-native-enricher commits (0.4.8-candidate: f9b8ddd,
+// 70e27c0, 486277e, …) — the DB holds the rule text, the compendium file
+// additionally carries a hand/tool-authored Foundry-native HTML rendering of
+// it for build-compendium.mjs:482. This file is DB rows + a compendium
+// overlay, not a pure DB dump.
+//
+// OVERLAY RULE: this script fetches the view columns from the DB, then MERGES
+// each row's existing effect_html (keyed on class_key+skill_key for
+// class_skills, on key for heroic_skills) from the file it is about to
+// overwrite, appended last exactly where it already sits on those rows. It is
+// never fetched from the DB and never dropped by this script. A row with no
+// effect_html in the current file gets none after the merge either — this
+// script cannot invent one.
 
 import { writeFile, readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
@@ -51,7 +63,8 @@ async function selectPublic(view, columns, order) {
   return res.json();
 }
 
-// Column order matches the existing db-snapshot.json rows exactly.
+// Column order matches the existing db-snapshot.json rows exactly (effect_html,
+// when present, is merged in afterward and always sits last — see reorder()).
 const CLASS_COLUMNS = ['key', 'display_name', 'printed_name', 'is_innate_only'];
 const CLASS_SKILL_COLUMNS = ['class_key', 'skill_key', 'display_name', 'max_sl', 'summary', 'sort'];
 const HEROIC_COLUMNS = ['key', 'display_name', 'summary', 'requirements', 'mastery_classes', 'required_skills', 'creation_banned', 'class_gate'];
@@ -59,8 +72,19 @@ const HEROIC_COLUMNS = ['key', 'display_name', 'summary', 'requirements', 'maste
 function reorder(row, columns) {
   const out = {};
   for (const c of columns) out[c] = row[c];
+  if ('effect_html' in row) out.effect_html = row.effect_html;
   return out;
 }
+
+function indexBy(rows, keyfn) {
+  const map = new Map();
+  for (const r of rows) map.set(keyfn(r), r);
+  return map;
+}
+
+const current = JSON.parse(await readFile(OUT_PATH, 'utf8'));
+const currentClassSkillsByKey = indexBy(current.class_skills, (r) => `${r.class_key} ${r.skill_key}`);
+const currentHeroicsByKey = indexBy(current.heroic_skills, (r) => r.key);
 
 const [classes, classSkills, heroics] = await Promise.all([
   selectPublic('classes_public', CLASS_COLUMNS, 'key.asc'),
@@ -68,15 +92,25 @@ const [classes, classSkills, heroics] = await Promise.all([
   selectPublic('heroic_skills_public', HEROIC_COLUMNS, 'key.asc'),
 ]);
 
+// Merge the compendium-layer effect_html overlay from the current file onto
+// the fresh DB rows before reordering — see the OVERLAY RULE header comment.
+for (const r of classSkills) {
+  const prior = currentClassSkillsByKey.get(`${r.class_key} ${r.skill_key}`);
+  if (prior && 'effect_html' in prior) r.effect_html = prior.effect_html;
+}
+for (const r of heroics) {
+  const prior = currentHeroicsByKey.get(r.key);
+  if (prior && 'effect_html' in prior) r.effect_html = prior.effect_html;
+}
+
 const snapshot = {
-  generated_from: 'Supabase ptvwqdcybmjhchrfrocd public schema',
+  generated_from: 'Supabase ptvwqdcybmjhchrfrocd public views + compendium overlay (effect_html)',
   classes: classes.map((r) => reorder(r, CLASS_COLUMNS)),
   class_skills: classSkills.map((r) => reorder(r, CLASS_SKILL_COLUMNS)),
   heroic_skills: heroics.map((r) => reorder(r, HEROIC_COLUMNS)),
 };
 
 // Sanity check against the file this is about to overwrite, before writing anything.
-const current = JSON.parse(await readFile(OUT_PATH, 'utf8'));
 const firstRowKeysMatch = (a, b, columns) => columns.every((c) => c in a) && columns.every((c) => c in b);
 for (const [label, columns, currentArr, nextArr] of [
   ['classes', CLASS_COLUMNS, current.classes, snapshot.classes],
