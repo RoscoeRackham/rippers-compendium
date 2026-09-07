@@ -27,7 +27,35 @@
 			"value": false
 		}
 	},
-	"effects": [],
+	"effects": [
+		{
+			"name": "Dark Blood",
+			"img": "systems/projectfu/styles/static/compendium/classes/darkblade/darkblade_dark_blood.png",
+			"transfer": true,
+			"disabled": false,
+			"changes": [
+				{
+					"key": "system.affinities.dark",
+					"mode": 0,
+					"value": "upgrade",
+					"priority": null
+				},
+				{
+					"key": "system.affinities.poison",
+					"mode": 0,
+					"value": "upgrade",
+					"priority": null
+				}
+			],
+			"system": {
+				"predicate": {
+					"crisisInteraction": "active"
+				}
+			},
+			"_id": "RCfxgnpuqmhnn05y",
+			"_key": "!items.effects!RCsk000000000033.RCfxgnpuqmhnn05y"
+		}
+	],
 	"folder": null,
 	"flags": {
 		"rippers-compendium": {

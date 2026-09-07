@@ -27,7 +27,29 @@
 			"value": false
 		}
 	},
-	"effects": [],
+	"effects": [
+		{
+			"name": "Adrenaline",
+			"img": "systems/projectfu/styles/static/compendium/classes/fury/fury_adrenaline.png",
+			"transfer": true,
+			"disabled": false,
+			"changes": [
+				{
+					"key": "system.bonuses.damage.all",
+					"mode": 2,
+					"value": "2*@system.level.value",
+					"priority": null
+				}
+			],
+			"system": {
+				"predicate": {
+					"crisisInteraction": "active"
+				}
+			},
+			"_id": "RCfxik0tiqq2nriz",
+			"_key": "!items.effects!RCsk000000000127.RCfxik0tiqq2nriz"
+		}
+	],
 	"folder": null,
 	"flags": {
 		"rippers-compendium": {

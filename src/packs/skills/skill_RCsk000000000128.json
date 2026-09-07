@@ -27,7 +27,42 @@
 			"value": false
 		}
 	},
-	"effects": [],
+	"effects": [
+		{
+			"name": "Frenzy",
+			"img": "systems/projectfu/styles/static/compendium/classes/fury/fury_frenzy.png",
+			"transfer": true,
+			"disabled": false,
+			"changes": [
+				{
+					"key": "flags.projectfu.critThreshold.accuracyCheck.brawling",
+					"mode": 5,
+					"value": "2",
+					"priority": null
+				},
+				{
+					"key": "flags.projectfu.critThreshold.accuracyCheck.dagger",
+					"mode": 5,
+					"value": "2",
+					"priority": null
+				},
+				{
+					"key": "flags.projectfu.critThreshold.accuracyCheck.flail",
+					"mode": 5,
+					"value": "2",
+					"priority": null
+				},
+				{
+					"key": "flags.projectfu.critThreshold.accuracyCheck.thrown",
+					"mode": 5,
+					"value": "2",
+					"priority": null
+				}
+			],
+			"_id": "RCfx1f6pd371w8gm",
+			"_key": "!items.effects!RCsk000000000128.RCfx1f6pd371w8gm"
+		}
+	],
 	"folder": null,
 	"flags": {
 		"rippers-compendium": {

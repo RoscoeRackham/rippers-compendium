@@ -7,7 +7,8 @@
 	"scripts": {
 		"build": "node ./tools/build-compendium.mjs",
 		"pack": "node ./tools/pack.mjs",
-		"unpack": "node ./tools/unpack.mjs"
+		"unpack": "node ./tools/unpack.mjs",
+		"test": "node --test test/*.test.mjs"
 	},
 	"devDependencies": {
 		"@foundryvtt/foundryvtt-cli": "3.0.0"

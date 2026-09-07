@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Focused",
+		"img": "systems/projectfu/styles/static/compendium/classes/loremaster/loremaster_focused.png",
+		"transfer": true,
+		"disabled": false,
+		"changes": [
+			{
+				"key": "system.resources.mp.bonus",
+				"mode": 2,
+				"value": "3*$sl",
+				"priority": null
+			}
+		],
+		"_provenance": {
+			"fu": "projectfu 4.16.2 · skill \"Focused\" (fuid focused)",
+			"copiedVerbatim": true,
+			"note": "PARTIAL: FU automates only the +(SL x 3) max MP half. The \"+(SL) to Open Checks using (INS + INS)\" clause has no Active Effect key in projectfu 4.16.2 and is NOT automated here."
+		}
+	}
+]

@@ -27,7 +27,24 @@
 			"value": false
 		}
 	},
-	"effects": [],
+	"effects": [
+		{
+			"name": "Ranged Weapon Mastery",
+			"img": "systems/projectfu/styles/static/compendium/classes/sharpshooter/sharpshooter_ranged_weapon_mastery.png",
+			"transfer": true,
+			"disabled": false,
+			"changes": [
+				{
+					"key": "system.bonuses.accuracy.accuracyRanged",
+					"mode": 2,
+					"value": "@system.level.value",
+					"priority": null
+				}
+			],
+			"_id": "RCfx1kw6c7f19au3",
+			"_key": "!items.effects!RCsk000000000221.RCfx1kw6c7f19au3"
+		}
+	],
 	"folder": null,
 	"flags": {
 		"rippers-compendium": {

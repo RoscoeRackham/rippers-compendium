@@ -27,7 +27,24 @@
 			"value": false
 		}
 	},
-	"effects": [],
+	"effects": [
+		{
+			"name": "Melee Weapon Mastery",
+			"img": "systems/projectfu/styles/static/compendium/classes/weaponmaster/weaponmaster_melee_weapon_mastery.png",
+			"transfer": true,
+			"disabled": false,
+			"changes": [
+				{
+					"key": "system.bonuses.accuracy.accuracyMelee",
+					"mode": 2,
+					"value": "@system.level.value",
+					"priority": null
+				}
+			],
+			"_id": "RCfx1tk507dazw8u",
+			"_key": "!items.effects!RCsk000000000195.RCfx1tk507dazw8u"
+		}
+	],
 	"folder": null,
 	"flags": {
 		"rippers-compendium": {

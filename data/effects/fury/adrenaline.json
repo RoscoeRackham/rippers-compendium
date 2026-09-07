@@ -1,0 +1,26 @@
+[
+	{
+		"name": "Adrenaline",
+		"img": "systems/projectfu/styles/static/compendium/classes/fury/fury_adrenaline.png",
+		"transfer": true,
+		"disabled": false,
+		"changes": [
+			{
+				"key": "system.bonuses.damage.all",
+				"mode": 2,
+				"value": "2*@system.level.value",
+				"priority": null
+			}
+		],
+		"system": {
+			"predicate": {
+				"crisisInteraction": "active"
+			}
+		},
+		"_provenance": {
+			"fu": "projectfu 4.16.2 · skill \"Adrenaline\" (fuid adrenaline)",
+			"copiedVerbatim": true,
+			"note": "system.predicate.crisisInteraction \"active\" = suppressed unless the actor is in Crisis (module/documents/effects/active-effect-behaviour-mixin.mjs isSuppressed), which is our \"While in Crisis\" exactly."
+		}
+	}
+]

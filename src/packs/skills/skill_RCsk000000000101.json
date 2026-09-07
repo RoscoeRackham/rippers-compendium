@@ -27,7 +27,24 @@
 			"value": false
 		}
 	},
-	"effects": [],
+	"effects": [
+		{
+			"name": "Spellblade",
+			"img": "systems/projectfu/styles/static/compendium/classes/elementalist/elementalist_spellblade.png",
+			"transfer": true,
+			"disabled": false,
+			"changes": [
+				{
+					"key": "flags.projectfu.weaponMagicCheck",
+					"mode": 5,
+					"value": "true",
+					"priority": null
+				}
+			],
+			"_id": "RCfxn7345k11z4s0",
+			"_key": "!items.effects!RCsk000000000101.RCfxn7345k11z4s0"
+		}
+	],
 	"folder": null,
 	"flags": {
 		"rippers-compendium": {

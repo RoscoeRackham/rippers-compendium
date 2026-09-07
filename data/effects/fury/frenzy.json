@@ -1,0 +1,39 @@
+[
+	{
+		"name": "Frenzy",
+		"img": "systems/projectfu/styles/static/compendium/classes/fury/fury_frenzy.png",
+		"transfer": true,
+		"disabled": false,
+		"changes": [
+			{
+				"key": "flags.projectfu.critThreshold.accuracyCheck.brawling",
+				"mode": 5,
+				"value": "2",
+				"priority": null
+			},
+			{
+				"key": "flags.projectfu.critThreshold.accuracyCheck.dagger",
+				"mode": 5,
+				"value": "2",
+				"priority": null
+			},
+			{
+				"key": "flags.projectfu.critThreshold.accuracyCheck.flail",
+				"mode": 5,
+				"value": "2",
+				"priority": null
+			},
+			{
+				"key": "flags.projectfu.critThreshold.accuracyCheck.thrown",
+				"mode": 5,
+				"value": "2",
+				"priority": null
+			}
+		],
+		"_provenance": {
+			"fu": "projectfu 4.16.2 · skill \"Frenzy\" (fuid frenzy)",
+			"copiedVerbatim": true,
+			"note": "projectfu's default critical threshold is 6 (module/checks/checks.mjs CRITICAL_THRESHOLD) and the flag is applied with Math.min, so 2 = any doubles above a fumble — our \"crit on doubles (when not a fumble)\"."
+		}
+	}
+]

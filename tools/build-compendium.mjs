@@ -27,6 +27,7 @@
 //
 // Run:  node tools/build-compendium.mjs   (from the module dir)
 import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync, readdirSync } from 'node:fs';
+import { loadEffectsOverlay, effectsFor, validateOverlay } from './effects-overlay.mjs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildJournals } from './build-journals.mjs';
@@ -179,6 +180,19 @@ const RITUAL_GRANT_SKILLS = {
 // 'you may initiate Projects' line is struck — Project access comes only from the benefit-pool pick."
 // The flag contradicted the description it shipped beside. Project access is the benefit pick alone.
 const PROJECT_GRANT_SKILLS = new Set([]);
+
+// v0.4.9 wave 1: the skill Active Effect overlay (data/effects/<class>/<skill>.json). See
+// tools/effects-overlay.mjs for the provenance rule — every effect is copied from projectfu's own
+// same-named skill and kept only where our printed description states the same mechanical value.
+// A skill with no overlay file keeps effects: [] exactly as before.
+const EFFECTS_OVERLAY = loadEffectsOverlay(join(MODULE, 'data', 'effects'));
+{
+  const problems = validateOverlay(EFFECTS_OVERLAY);
+  if (problems.length) { console.error('EFFECTS OVERLAY PROBLEMS:\n' + problems.join('\n')); process.exit(1); }
+  const n = Object.keys(EFFECTS_OVERLAY).length;
+  const changes = Object.values(EFFECTS_OVERLAY).flat().reduce((a, e) => a + e.changes.length, 0);
+  console.log(`Effects overlay: ${n} skill(s), ${changes} change(s)`);
+}
 function concreteBenefits(key) {
   const f = join(DOCS, `CLASSREF-${cardKey(key)}.md`);
   if (!existsSync(f)) return null;
@@ -426,7 +440,7 @@ for (const r of snap.class_skills) {
       level: { value: 0, min: 0, max: maxSl },
       hasRoll: { value: false },
     },
-    effects: [],
+    effects: effectsFor(r.class_key, r.skill_key, EFFECTS_OVERLAY, _id),
     folder: null,
     flags: { [MODULE_ID]: { classKey: r.class_key, skillKey: r.skill_key, maxSl, ...(RITUAL_GRANT_SKILLS[`${r.class_key}/${r.skill_key}`] ? { grantsRitual: RITUAL_GRANT_SKILLS[`${r.class_key}/${r.skill_key}`] } : {}), ...(PROJECT_GRANT_SKILLS.has(`${r.class_key}/${r.skill_key}`) ? { grantsProject: true } : {}) } },
     _stats: { systemId: 'projectfu', coreVersion: '13.0.0' },

@@ -27,7 +27,24 @@
 			"value": false
 		}
 	},
-	"effects": [],
+	"effects": [
+		{
+			"name": "Fortress",
+			"img": "systems/projectfu/styles/static/compendium/classes/guardian/guardian_fortress.png",
+			"transfer": true,
+			"disabled": false,
+			"changes": [
+				{
+					"key": "system.resources.hp.bonus",
+					"mode": 2,
+					"value": "3*$sl",
+					"priority": null
+				}
+			],
+			"_id": "RCfx1bpkfveqh7bq",
+			"_key": "!items.effects!RCsk000000000137.RCfx1bpkfveqh7bq"
+		}
+	],
 	"folder": null,
 	"flags": {
 		"rippers-compendium": {

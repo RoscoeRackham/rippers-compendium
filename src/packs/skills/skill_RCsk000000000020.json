@@ -27,7 +27,24 @@
 			"value": false
 		}
 	},
-	"effects": [],
+	"effects": [
+		{
+			"name": "Focused",
+			"img": "systems/projectfu/styles/static/compendium/classes/loremaster/loremaster_focused.png",
+			"transfer": true,
+			"disabled": false,
+			"changes": [
+				{
+					"key": "system.resources.mp.bonus",
+					"mode": 2,
+					"value": "3*$sl",
+					"priority": null
+				}
+			],
+			"_id": "RCfx17yzw5rzrf19",
+			"_key": "!items.effects!RCsk000000000020.RCfx17yzw5rzrf19"
+		}
+	],
 	"folder": null,
 	"flags": {
 		"rippers-compendium": {

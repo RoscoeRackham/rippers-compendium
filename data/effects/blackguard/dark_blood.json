@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Dark Blood",
+		"img": "systems/projectfu/styles/static/compendium/classes/darkblade/darkblade_dark_blood.png",
+		"transfer": true,
+		"disabled": false,
+		"changes": [
+			{
+				"key": "system.affinities.dark",
+				"mode": 0,
+				"value": "upgrade",
+				"priority": null
+			},
+			{
+				"key": "system.affinities.poison",
+				"mode": 0,
+				"value": "upgrade",
+				"priority": null
+			}
+		],
+		"system": {
+			"predicate": {
+				"crisisInteraction": "active"
+			}
+		},
+		"_provenance": {
+			"fu": "projectfu 4.16.2 · skill \"Dark Blood\" (fuid dark-blood)",
+			"copiedVerbatim": true,
+			"note": "Same crisisInteraction predicate as Adrenaline. mode 0 (CUSTOM) with value \"upgrade\" is projectfu's own affinity-upgrade handling."
+		}
+	}
+]

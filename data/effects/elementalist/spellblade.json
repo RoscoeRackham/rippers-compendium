@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Spellblade",
+		"img": "systems/projectfu/styles/static/compendium/classes/elementalist/elementalist_spellblade.png",
+		"transfer": true,
+		"disabled": false,
+		"changes": [
+			{
+				"key": "flags.projectfu.weaponMagicCheck",
+				"mode": 5,
+				"value": "true",
+				"priority": null
+			}
+		],
+		"_provenance": {
+			"fu": "projectfu 4.16.2 · skill \"Spellblade\" (fuid spellblade)",
+			"copiedVerbatim": true,
+			"note": "The flag enables the weapon-formula Magic Check. projectfu does not enforce the (SL x 20) MP cap or apply the +(SL) Dexterity rider automatically — it does not for its own Spellblade either."
+		}
+	}
+]
