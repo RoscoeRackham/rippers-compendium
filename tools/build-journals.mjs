@@ -174,7 +174,12 @@ function parse(md) {
 
 // ---- emit -------------------------------------------------------------------------------
 export function buildJournals() {
-  const md = readFileSync(SRC, 'utf8');
+  let md = readFileSync(SRC, 'utf8');
+  // GM-NOTE convention (god ruling 2026-09-09, Coroner AUDIT-048 F2, class-wide): editorial /
+  // provenance apparatus in the binder is wrapped in <!--GM-NOTE--> … <!--/GM-NOTE--> and is
+  // STRIPPED here so it never compiles into a player-facing journal. The note stays in the
+  // binder (source of record); only the player render drops it. Multiline, non-greedy.
+  md = md.replace(/<!--\s*GM-NOTE\s*-->[\s\S]*?<!--\s*\/GM-NOTE\s*-->\s*/g, '');
   const { classes, appendix } = parse(md);
 
   // v0.4.0 — RECONCILE the appendix to Compendium2.pdf Part V (god ruling, 2026-08-30).
