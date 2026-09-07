@@ -26,6 +26,7 @@
 import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { loadRegistry, makeIdAllocator } from './id-registry.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const MODULE = dirname(HERE);
@@ -34,7 +35,14 @@ const SRC = join(DOCS, 'COMPENDIUM-player-reference.md');
 const OUT = join(MODULE, 'src', 'packs', 'player-reference');
 const MODULE_ID = 'rippers-compendium';
 
-// ---- id helpers (deterministic 16-char alnum, mirrors build-compendium.mjs) -------------
+// ---- ids ---------------------------------------------------------------------------------
+// JOURNAL AND PAGE IDS ARE KEYED, NOT POSITIONAL — the same law the item packs got in 0.4.11,
+// applied here in 0.4.12 after the positional version renumbered five shipped journals when a
+// single page was inserted ahead of them. See tools/id-registry.mjs for the whole story.
+//
+// A journal is keyed by its heading, a page by `<journal>/<page>`. Folder ids stay the fixed
+// constants below: there are exactly three, they are declared here rather than allocated, and
+// putting them in the registry would imply they can move.
 function id16(prefix, n) {
   const p = prefix.replace(/[^A-Za-z0-9]/g, '').slice(0, 6);
   return (p + String(n).padStart(16 - p.length, '0')).slice(0, 16);
@@ -224,9 +232,14 @@ export function buildJournals() {
     });
   }
 
-  let jn = 0, pn = 0, pageCount = 0;
-  const mkPage = (jid, title, lines, sortIdx) => {
-    const pid = id16('RCpg', ++pn);
+  // The item build saves the registry BEFORE it calls this function, so loading here always
+  // reads a current file and the two builds cannot clobber each other's mints.
+  const registry = loadRegistry(MODULE);
+  const IDS = makeIdAllocator(registry);
+
+  let pageCount = 0;
+  const mkPage = (jid, journalName, title, lines, sortIdx) => {
+    const pid = IDS.idFor('pages', `${journalName}/${title}`);
     pageCount++;
     return {
       _id: pid, name: title, type: 'text',
@@ -237,9 +250,13 @@ export function buildJournals() {
     };
   };
 
+  const seenHeadings = new Set();
   const emitEntry = (name, folderId, sort, pageSpecs) => {
-    const jid = id16('RCje', ++jn);
-    const pages = pageSpecs.map((ps, idx) => mkPage(jid, ps.title, ps.lines, idx));
+    // Two sections sharing a heading would share an id and one would overwrite the other.
+    if (seenHeadings.has(name)) throw new Error(`duplicate journal heading "${name}" — headings are ids here, so they must be unique`);
+    seenHeadings.add(name);
+    const jid = IDS.idFor('journals', name);
+    const pages = pageSpecs.map((ps, idx) => mkPage(jid, name, ps.title, ps.lines, idx));
     docs.push({
       name, _id: jid, pages, folder: folderId, sort,
       flags: { [MODULE_ID]: { contentOnly: true } }, _stats: STATS, _key: `!journal!${jid}`,
@@ -273,10 +290,34 @@ export function buildJournals() {
   console.log(`Classes: ${classes.length}  (innate ${innate.length}, guise ${guise.length})`);
   console.log(`Class-embedded subsystem pages: ${embedded.map((c) => `${c.name} +${c.pages.length - 1}`).join(', ') || 'none'}`);
   console.log(`Appendix entries (${recAppendix.length}): ${recAppendix.map((a) => a.name).join(', ')}`);
-  console.log(`JournalEntries: ${jn}  (classes ${classes.length} + appendix ${recAppendix.length})`);
+  const journalCount = seenHeadings.size;
+  console.log(`JournalEntries: ${journalCount}  (classes ${classes.length} + appendix ${recAppendix.length})`);
   console.log(`Pages total: ${pageCount}   Folders: 3   Docs written: ${docs.length}`);
   if (classes.length !== 68) console.log(`⚠ EXPECTED 68 classes, got ${classes.length}`);
-  return { classes: classes.length, journals: jn, pages: pageCount };
+
+  // ---- ID REGISTRY: report and enforce, same law as the item build ------------------------
+  // A heading the registry knows but this build never emitted means a section was renamed or
+  // deleted. Either is a decision somebody made, and it must not be able to look like a quiet
+  // rebuild — because the id it owned is what every existing link points at.
+  const missingKeys = IDS.missing(['journals', 'pages']);
+  if (missingKeys.length) {
+    console.error(`\nID REGISTRY: ${missingKeys.length} registered heading(s) are NOT in this build.`);
+    for (const m of missingKeys) console.error(`  - ${m.kind}: ${m.key} (${m.id})`);
+    console.error('\nA heading is an id here. If the rename or removal is intended, delete those');
+    console.error('entries from data/id-registry.json in the same commit, and say so in the');
+    console.error('changelog — every link that pointed at them will break. Refusing to build.');
+    process.exit(1);
+  }
+  if (IDS.minted.length) {
+    console.log(`\nID REGISTRY: ${IDS.minted.length} NEW heading(s) took a fresh id (no existing id moved):`);
+    for (const m of IDS.minted) console.log(`  + ${m.kind}: ${m.key} -> ${m.id}`);
+    IDS.save();
+    console.log('data/id-registry.json updated — commit it with the packs.');
+  } else {
+    console.log('\nID REGISTRY: every journal and page id came from the registry; none minted, none moved.');
+  }
+
+  return { classes: classes.length, journals: journalCount, pages: pageCount };
 }
 
 // run standalone (space-safe: compare resolved paths, not raw file:// strings)

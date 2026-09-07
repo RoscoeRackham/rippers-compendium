@@ -745,7 +745,9 @@ if (otherFlags.length) {
 // A registered key absent from the snapshot is NOT a build event. Somebody deleted a class,
 // or a key was renamed, or the snapshot is truncated -- all decisions, none of which may be
 // allowed to look like a quiet rebuild. Fail, and name what went missing.
-const missingKeys = IDS.missing();
+// Only the kinds THIS build allocates. The journal build shares the registry and owns
+// 'journals'/'pages'; without this filter every journal would read as missing here.
+const missingKeys = IDS.missing(['classes', 'skills', 'heroics', 'spells']);
 if (missingKeys.length) {
   console.error(`\nID REGISTRY: ${missingKeys.length} registered key(s) are NOT in this snapshot.`);
   for (const m of missingKeys) console.error(`  - ${m.kind}: ${m.key} (${m.id})`);

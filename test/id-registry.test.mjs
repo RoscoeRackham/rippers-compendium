@@ -122,8 +122,98 @@ test('id16 pads to 16 characters and keeps the prefix', () => {
 });
 
 test('readdirSync sanity: the pack dirs the registry claims actually exist', () => {
-  for (const kind of Object.keys(PREFIX)) {
+  // Item kinds are one file per document. Journals are not: the player-reference pack is a
+  // single directory of journals (plus three folders), and pages live INSIDE their journal.
+  for (const kind of ['classes', 'skills', 'heroics', 'spells']) {
     const n = readdirSync(join(ROOT, 'src', 'packs', kind)).filter((f) => f.endsWith('.json')).length;
     assert.equal(n, Object.keys(registry[kind]).length, `${kind}: ${n} pack files vs ${Object.keys(registry[kind]).length} registry keys`);
   }
+  const journalFiles = readdirSync(join(ROOT, 'src', 'packs', 'player-reference')).filter((f) => f.startsWith('journal_'));
+  assert.equal(journalFiles.length, Object.keys(registry.journals).length,
+    `journals: ${journalFiles.length} pack files vs ${Object.keys(registry.journals).length} registry keys`);
+});
+
+// ---------------------------------------------------------------------------------------
+// FIX-journal-id-registry (0.4.12). The journal pack had the SAME positional bug the item
+// packs were cured of in 0.4.11, and it bit the same way: 0.4.12 inserted ONE appendix page
+// and five ALREADY-SHIPPED journals changed identity underneath every link pointing at them.
+// These are the ids 0.4.11 actually shipped, read out of that release. They are law.
+// ---------------------------------------------------------------------------------------
+const SHIPPED_0_4_11 = {
+  // the five that moved, and the three before them — the whole appendix tail
+  Heroics: 'RCje000000000069',
+  'Arcana Registry': 'RCje000000000070',
+  Arcanum: 'RCje000000000071',
+  Keystones: 'RCje000000000072',
+  Torments: 'RCje000000000073',
+  'Personal Vehicle': 'RCje000000000074',
+  'NPC Spells': 'RCje000000000075',
+  'Pressure and Stagger': 'RCje000000000076',
+};
+
+test('0.4.11 journal ids are law: every shipped heading still owns the id it shipped with', () => {
+  for (const [heading, id] of Object.entries(SHIPPED_0_4_11)) {
+    assert.equal(registry.journals[heading], id,
+      `"${heading}" moved from ${id} to ${registry.journals[heading]} — a shipped id may never change`);
+  }
+});
+
+test('the shipped ids are what the PACK carries, not merely what the registry claims', () => {
+  // The registry and the pack can only disagree if one was edited alone; assert against the
+  // built artifact so this test cannot pass on a stale or hand-edited registry.
+  const dir = join(ROOT, 'src', 'packs', 'player-reference');
+  const byId = {};
+  for (const f of readdirSync(dir).filter((x) => x.startsWith('journal_'))) {
+    const d = JSON.parse(readFileSync(join(dir, f), 'utf8'));
+    byId[d._id] = d.name;
+  }
+  for (const [heading, id] of Object.entries(SHIPPED_0_4_11)) {
+    assert.equal(byId[id], heading, `pack: ${id} names "${byId[id]}", but 0.4.11 shipped it as "${heading}"`);
+  }
+});
+
+test('Character Creation — new in 0.4.12 — minted a FRESH id and displaced nobody', () => {
+  const id = registry.journals['Character Creation'];
+  assert.ok(id, 'Character Creation is not in the registry');
+  assert.ok(!Object.values(SHIPPED_0_4_11).includes(id), `Character Creation took ${id}, a 0.4.11 id`);
+  assert.equal(id, 'RCje000000000077', 'the next free journal id after 0.4.11 is 077');
+});
+
+test('a NEW heading takes a new id and moves no journal or page', () => {
+  const alloc = makeIdAllocator({ path: null, data: structuredClone(registry) });
+  const minted = alloc.idFor('journals', 'A Heading That Has Never Existed');
+  assert.ok(!Object.values(registry.journals).includes(minted), 'a new heading reused a shipped id');
+  for (const [k, v] of Object.entries(registry.journals)) assert.equal(alloc.idFor('journals', k), v, `journal "${k}" moved`);
+  for (const [k, v] of Object.entries(registry.pages)) assert.equal(alloc.idFor('pages', k), v, `page "${k}" moved`);
+});
+
+test('page ids are keyed too — the half a deep @UUID link resolves through', () => {
+  // @UUID[...JournalEntry.<jid>.JournalEntryPage.<pid>] needs BOTH halves to hold still, so
+  // fixing journals alone would have left every deep link broken in exactly the same way.
+  for (const [heading, jid] of Object.entries(SHIPPED_0_4_11)) {
+    const pid = registry.pages[`${heading}/${heading}`];
+    assert.ok(pid, `no page id registered for "${heading}"`);
+    assert.match(pid, /^RCpg\d+$/);
+    assert.ok(jid);
+  }
+  assert.equal(registry.pages['Keystones/Keystones'], 'RCpg000000000086', 'the Keystones page moved');
+  assert.equal(registry.pages['Pressure and Stagger/Pressure and Stagger'], 'RCpg000000000090');
+});
+
+test('a renamed heading is reported as missing rather than quietly re-minted', () => {
+  const alloc = makeIdAllocator({ path: null, data: structuredClone(registry) });
+  for (const k of Object.keys(registry.journals)) if (k !== 'Torments') alloc.idFor('journals', k);
+  for (const k of Object.keys(registry.pages)) alloc.idFor('pages', k);
+  const missing = alloc.missing(['journals']).filter((m) => m.kind === 'journals');
+  assert.equal(missing.length, 1);
+  assert.equal(missing[0].key, 'Torments');
+  assert.equal(missing[0].id, 'RCje000000000073');
+});
+
+test('missing() is scoped per kind, so the item build never polices journals', () => {
+  const alloc = makeIdAllocator({ path: null, data: structuredClone(registry) });
+  for (const k of Object.keys(registry.classes)) alloc.idFor('classes', k);
+  // The item build asks about its four kinds only; journals must not surface here.
+  assert.deepEqual(alloc.missing(['classes']), []);
+  assert.ok(alloc.missing(['journals']).length > 0, 'journals should be unseen by an item-only build');
 });
