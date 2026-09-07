@@ -22,7 +22,30 @@
 			"value": false
 		}
 	},
-	"effects": [],
+	"effects": [
+		{
+			"name": "Brambleheart",
+			"img": "icons/magic/nature/root-vine-thorned-fire-purple.webp",
+			"transfer": true,
+			"disabled": false,
+			"changes": [
+				{
+					"key": "system.affinities.light",
+					"mode": 0,
+					"value": "upgrade",
+					"priority": null
+				},
+				{
+					"key": "system.affinities.poison",
+					"mode": 0,
+					"value": "upgrade",
+					"priority": null
+				}
+			],
+			"_id": "RCfx1jl3i8hcnvct",
+			"_key": "!items.effects!RChr000000000017.RCfx1jl3i8hcnvct"
+		}
+	],
 	"folder": null,
 	"flags": {
 		"rippers-compendium": {

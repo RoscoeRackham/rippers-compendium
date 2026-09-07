@@ -22,7 +22,24 @@
 			"value": false
 		}
 	},
-	"effects": [],
+	"effects": [
+		{
+			"name": "Extra IP",
+			"img": "icons/commodities/currency/coins-plain-pouch-gold.webp",
+			"transfer": true,
+			"disabled": false,
+			"changes": [
+				{
+					"key": "system.resources.ip.bonus",
+					"mode": 2,
+					"value": "4",
+					"priority": null
+				}
+			],
+			"_id": "RCfx1q4uqwi1x5ql",
+			"_key": "!items.effects!RChr000000000044.RCfx1q4uqwi1x5ql"
+		}
+	],
 	"folder": null,
 	"flags": {
 		"rippers-compendium": {

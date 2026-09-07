@@ -22,7 +22,24 @@
 			"value": false
 		}
 	},
-	"effects": [],
+	"effects": [
+		{
+			"name": "Extra MP",
+			"img": "icons/magic/symbols/chevron-elipse-circle-blue.webp",
+			"transfer": true,
+			"disabled": false,
+			"changes": [
+				{
+					"key": "system.resources.mp.bonus",
+					"mode": 2,
+					"value": "&step(10,10,20)",
+					"priority": null
+				}
+			],
+			"_id": "RCfx6f6jhyx1rc5u",
+			"_key": "!items.effects!RChr000000000045.RCfx6f6jhyx1rc5u"
+		}
+	],
 	"folder": null,
 	"flags": {
 		"rippers-compendium": {

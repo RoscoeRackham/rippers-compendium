@@ -1,0 +1,27 @@
+[
+	{
+		"name": "Brambleheart",
+		"img": "icons/magic/nature/root-vine-thorned-fire-purple.webp",
+		"transfer": true,
+		"disabled": false,
+		"changes": [
+			{
+				"key": "system.affinities.light",
+				"mode": 0,
+				"value": "upgrade",
+				"priority": null
+			},
+			{
+				"key": "system.affinities.poison",
+				"mode": 0,
+				"value": "upgrade",
+				"priority": null
+			}
+		],
+		"_provenance": {
+			"fu": "projectfu 4.16.2 · heroic \"Brambleheart\" (fuid brambleheart)",
+			"copiedVerbatim": true,
+			"note": "PARTIAL: only the always-on half is automated — \"You are Resistant to light and poison damage.\" The second clause (after losing HP, in Crisis, with a magiseed in your garden, fill 1 section of the Growth Clock) is a triggered clock fill, not an Active Effect shape, and is NOT automated."
+		}
+	}
+]

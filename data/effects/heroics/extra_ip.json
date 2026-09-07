@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Extra IP",
+		"img": "icons/commodities/currency/coins-plain-pouch-gold.webp",
+		"transfer": true,
+		"disabled": false,
+		"changes": [
+			{
+				"key": "system.resources.ip.bonus",
+				"mode": 2,
+				"value": "4",
+				"priority": null
+			}
+		],
+		"_provenance": {
+			"fu": "projectfu 4.16.2 · heroic \"Extra IP\" (fuid extra-ip)",
+			"copiedVerbatim": true,
+			"note": "Flat +4, no level step — our text and FU's agree."
+		}
+	}
+]

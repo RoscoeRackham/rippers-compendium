@@ -495,7 +495,7 @@ for (const h of snap.heroic_skills) {
       description: descBits.join(''),
       hasRoll: { value: false },
     },
-    effects: [],
+    effects: effectsFor('heroics', h.key, EFFECTS_OVERLAY, _id),
     folder: null,
     flags: { [MODULE_ID]: { heroicKey: h.key, masteryClasses: h.mastery_classes || [], classGate: h.class_gate, creationBanned: !!h.creation_banned, requiredSkills: h.required_skills || [] } },
     _stats: { systemId: 'projectfu', coreVersion: '13.0.0' },

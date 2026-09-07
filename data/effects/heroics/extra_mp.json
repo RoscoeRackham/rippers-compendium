@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Extra MP",
+		"img": "icons/magic/symbols/chevron-elipse-circle-blue.webp",
+		"transfer": true,
+		"disabled": false,
+		"changes": [
+			{
+				"key": "system.resources.mp.bonus",
+				"mode": 2,
+				"value": "&step(10,10,20)",
+				"priority": null
+			}
+		],
+		"_provenance": {
+			"fu": "projectfu 4.16.2 · heroic \"Extra MP\" (fuid extra-mp)",
+			"copiedVerbatim": true,
+			"note": "As Extra HP: &step(10,10,20) is 10 below level 40 and 20 at 40+."
+		}
+	}
+]

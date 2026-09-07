@@ -22,7 +22,24 @@
 			"value": false
 		}
 	},
-	"effects": [],
+	"effects": [
+		{
+			"name": "Extra HP",
+			"img": "icons/magic/life/heart-glowing-red.webp",
+			"transfer": true,
+			"disabled": false,
+			"changes": [
+				{
+					"key": "system.resources.hp.bonus",
+					"mode": 2,
+					"value": "&step(10,10,20)",
+					"priority": null
+				}
+			],
+			"_id": "RCfx1f84z4j1ofge",
+			"_key": "!items.effects!RChr000000000043.RCfx1f84z4j1ofge"
+		}
+	],
 	"folder": null,
 	"flags": {
 		"rippers-compendium": {

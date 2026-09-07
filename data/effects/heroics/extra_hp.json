@@ -1,0 +1,21 @@
+[
+	{
+		"name": "Extra HP",
+		"img": "icons/magic/life/heart-glowing-red.webp",
+		"transfer": true,
+		"disabled": false,
+		"changes": [
+			{
+				"key": "system.resources.hp.bonus",
+				"mode": 2,
+				"value": "&step(10,10,20)",
+				"priority": null
+			}
+		],
+		"_provenance": {
+			"fu": "projectfu 4.16.2 · heroic \"Extra HP\" (fuid extra-hp)",
+			"copiedVerbatim": true,
+			"note": "FU's own Extra HP. &step(a,b,c) returns by character tier (expressions.mjs stepByLevel / ImprovisedEffect.getCharacterTier): tier 0 = levels 5-19, tier 1 = 20-39, tier 2 = 40+. So &step(10,10,20) is 10 below level 40 and 20 at 40+ — our \"+10, 20 at level 40 or higher\", exactly."
+		}
+	}
+]

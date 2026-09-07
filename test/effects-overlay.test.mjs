@@ -49,39 +49,52 @@ test('overlay: the SHIPPED overlay validates and every effect is provenance-stam
 	assert.deepEqual(validateOverlay(overlay), [], 'the shipped overlay must have no problems');
 	assert.ok(Object.keys(overlay).length > 0, 'wave 1 ships at least one overlay');
 	for (const [key, rows] of Object.entries(overlay)) {
-		for (const e of rows) assert.match(e._provenance.fu, /^projectfu 4\.16\.2 · skill /, `${key} must cite its FU source`);
+		for (const e of rows) assert.match(e._provenance.fu, /^projectfu 4\.16\.2 · (skill|heroic) /, `${key} must cite its FU source`);
 	}
 });
 
-test('overlay: every overlay file matches a real class_key/skill_key in the built packs', () => {
-	const overlay = loadEffectsOverlay(OVERLAY_DIR);
-	const dir = join(ROOT, 'src', 'packs', 'skills');
-	if (!existsSync(dir)) return;                       // packs not built in this checkout
-	const built = new Set();
-	for (const f of readdirSync(dir).filter((f) => f.endsWith('.json'))) {
-		const d = JSON.parse(readFileSync(join(dir, f), 'utf8'));
-		const fl = d.flags['rippers-compendium'];
-		built.add(`${fl.classKey}/${fl.skillKey}`);
+/** Every built row that an overlay can target: skills as class/skill, heroics as heroics/<key>. */
+function builtRows() {
+	const rows = new Map();
+	for (const [pack, keyOf] of [['skills', (fl) => `${fl.classKey}/${fl.skillKey}`], ['heroics', (fl) => `heroics/${fl.heroicKey}`]]) {
+		const dir = join(ROOT, 'src', 'packs', pack);
+		if (!existsSync(dir)) continue;
+		for (const f of readdirSync(dir).filter((f) => f.endsWith('.json'))) {
+			const d = JSON.parse(readFileSync(join(dir, f), 'utf8'));
+			rows.set(keyOf(d.flags['rippers-compendium']), d);
+		}
 	}
-	for (const key of Object.keys(overlay)) assert.ok(built.has(key), `overlay ${key} does not match any built skill`);
+	return rows;
+}
+
+test('overlay: every overlay file matches a real built skill or heroic', () => {
+	const overlay = loadEffectsOverlay(OVERLAY_DIR);
+	const built = builtRows();
+	if (built.size === 0) return;                       // packs not built in this checkout
+	for (const key of Object.keys(overlay)) assert.ok(built.has(key), `overlay ${key} does not match any built row`);
 });
 
-test('overlay: the shipped effects landed on exactly those skills in the built packs', () => {
+test('overlay: the effects landed on exactly the listed rows, and nowhere else', () => {
 	const overlay = loadEffectsOverlay(OVERLAY_DIR);
-	const dir = join(ROOT, 'src', 'packs', 'skills');
-	if (!existsSync(dir)) return;
+	const built = builtRows();
+	if (built.size === 0) return;
 	let withEffects = 0;
-	for (const f of readdirSync(dir).filter((f) => f.endsWith('.json'))) {
-		const d = JSON.parse(readFileSync(join(dir, f), 'utf8'));
-		const fl = d.flags['rippers-compendium'];
-		const key = `${fl.classKey}/${fl.skillKey}`;
+	for (const [key, d] of built) {
 		if (overlay[key]) {
 			withEffects++;
 			assert.equal(d.effects.length, overlay[key].length, `${key} effect count`);
 			assert.equal(d.effects[0]._provenance, undefined, `${key} must not ship _provenance`);
+			assert.match(d.effects[0]._id, /^[A-Za-z0-9]{16}$/, `${key} effect needs a document id`);
+			assert.equal(d.effects[0]._key, `!items.effects!${d._id}.${d.effects[0]._id}`, `${key} effect needs its LevelDB key`);
 		} else {
 			assert.deepEqual(d.effects, [], `${key} must still ship effects: []`);
 		}
 	}
-	assert.equal(withEffects, Object.keys(overlay).length);
+	assert.equal(withEffects, Object.keys(overlay).length, 'every overlay row landed');
+});
+
+test('overlay: heroics are reachable too — wave 2 added them', () => {
+	const built = builtRows();
+	if (built.size === 0) return;
+	assert.ok([...built.keys()].some((k) => k.startsWith('heroics/')), 'heroics must be addressable by the overlay');
 });
