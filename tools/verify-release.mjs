@@ -52,6 +52,16 @@ try {
 		check(listing.includes(f), `declared file shipped: ${f}`);
 	}
 
+	// NO HIDDEN FILES. A release must be built from committed bytes plus deliberately generated
+	// ones — never from "whatever is sitting in the folder". This check exists because a stray
+	// `styles/.claude/.cc-writes/` harness directory reached the rippers-theme 0.3.0 zip and was
+	// caught by eye rather than by a gate. Anything a dot-path could carry (editor state, agent
+	// scratch, local credentials) has no business inside a distributed module.
+	const dotPaths = listing.split('\n')
+		.map((l) => l.trim().split(/\s+/).slice(3).join(' '))
+		.filter((n) => n && /(^|\/)\.[^/]/.test(n));
+	check(dotPaths.length === 0, `zip carries no dot-path entries${dotPaths.length ? ` (saw: ${dotPaths.join(', ')})` : ''}`);
+
 	const diagnostic = /\bDIAGNOSTIC\b|instrumentation-only/i.test(`${view.name}\n${view.body}`);
 	check(!diagnostic || view.isPrerelease, 'diagnostic/instrumentation build is marked prerelease');
 } finally {
